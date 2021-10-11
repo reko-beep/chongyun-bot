@@ -8,5 +8,6 @@
     "mod_role": "role id here without string quotes",
     "token":"token here in quotes",
     "verify_channel":"channel id here without string quotes",
-    "lobbycreatevc": "channel id here without string quotes"
+    "lobbycreatevc": "channel id here without string quotes",
+    "prefix":"!"
 }

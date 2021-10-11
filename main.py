@@ -11,14 +11,17 @@ from nextcord.flags import Intents
 from base.uids_util import find_uids,load_settings
 from base.guides import GenshinGuides
 from asyncio import TimeoutError,sleep
-
+import json
 from base.scraper import search_page,unpack_anime
 import os 
 
-intents = Intents.all()
-client = commands.Bot(command_prefix='!',intents=intents,help_command=None)
-data = {}
+
 settings_data = load_settings()
+intents = Intents.all()
+prefix = settings_data['prefix']
+client = commands.Bot(command_prefix=prefix,intents=intents,help_command=None)
+data = {}
+
 guides_ = GenshinGuides()
 soundboard = GenshinSoundBoard(client)
 db = GenshinDB()
@@ -270,16 +273,17 @@ async def events(ctx,arg:str):
 
 @tasks.loop(hours=6)
 async def events():
-    channel_ev = client.get_channel(eventchannel)
-    events_ = events_handler.fetch('upcoming')
-    if len(events_) > 2:
-        print(f'New Events found {events_}')
-        for i in events_:
-            embed,file = events_handler.create_embed(events_[i])
-            await channel_ev.send(embed=embed,file=file)
-            await sleep(5)
-    else:
-        print('No New events found!')
+    if eventchannel != 0:
+        channel_ev = client.get_channel(eventchannel)
+        events_ = events_handler.fetch('upcoming')
+        if len(events_) > 2:
+            print(f'New Events found {events_}')
+            for i in events_:
+                embed,file = events_handler.create_embed(events_[i])
+                await channel_ev.send(embed=embed,file=file)
+                await sleep(5)
+        else:
+            print('No New events found!')
 
 
 
@@ -464,10 +468,11 @@ async def anime(ctx, *,arg:str):
 async def on_voice_state_update(member,before,after):
     vc = member.voice
     if vc:
-        if vc.channel.id == lobbycreatevc:    
-            check,vc_ = await voice_handler.create_vc(member)
-            if check != None:
-                await member.move_to(vc_)
+        if lobbycreatevc != 0:
+            if vc.channel.id == lobbycreatevc:    
+                check,vc_ = await voice_handler.create_vc(member)
+                if check != None:
+                    await member.move_to(vc_)
     channel = before.channel   
     await voice_handler.voice_remove(channel)
     
@@ -552,17 +557,18 @@ async def on_message(message):
     if message.channel.id == dropuidchannel:
         author_ = str(message.author.id)
         db.serveruid(author_,message.content)
-    if message.channel.id == bumpchannel:
-        if len(message.embeds) != 0 and message.author.id == 302050872383242240:
-            embed = message.embeds[0]
-            print(embed.description)
-            mention_ = embed.description[:embed.description.find('>')+1]
-            print(mention_)
-            if 'Bump done!' in embed.description:
-                embed = discord.Embed(title='Paimon thanks!',description=f'{mention_} thank you for bumping this server!',color=0xf5e0d0)
-                file = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')
-                embed.set_thumbnail(url=f'attachment://happy.png')
-                await message.channel.send(embed=embed,file=file)
+    if bumpchannel != 0:
+        if message.channel.id == bumpchannel:
+            if len(message.embeds) != 0 and message.author.id == 302050872383242240:
+                embed = message.embeds[0]
+                print(embed.description)
+                mention_ = embed.description[:embed.description.find('>')+1]
+                print(mention_)
+                if 'Bump done!' in embed.description:
+                    embed = discord.Embed(title='Paimon thanks!',description=f'{mention_} thank you for bumping this server!',color=0xf5e0d0)
+                    file = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')
+                    embed.set_thumbnail(url=f'attachment://happy.png')
+                    await message.channel.send(embed=embed,file=file)
                 
     await client.process_commands(message)
 
@@ -688,15 +694,13 @@ async def on_ready():
     embed.set_thumbnail(url=f'attachment://happy.png')
     await channel.send(embed=embed,file=file)
     """
-    
-    embed = discord.Embed(title='Paimon has announcement for you!',description=f'Quests are added!\n**!quest** to show list of available quests, or write name of quest to get its details\n**!chapter** to get all chapters and its acts or write chapter name to get its acts and rewards\n**!acts** to get list of quests in a act and acts rewards!',color=0xf5e0d0)
-    file = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')
-    embed.set_thumbnail(url=f'attachment://happy.png')
-    embed.set_footer(text='if you dont find any guide, please contact archons! or you can provide them to archon to add it!')
-    await channel.send(embed=embed,file=file)
-   
-    
-    
+    announce_data = {}
+    if os.path.exists('announcement.json'):
+        with open('announcement.json','r') as f:
+            announce_data = json.load(f)
+    if announce_data['announce'] == 'true':
+        embed = discord.Embed.from_dict(announce_data['embed'])   
+        await channel.send(embed=embed)   
     
     
 

@@ -1,0 +1,22 @@
+{   
+    "embed":{     
+    "color": 16747116,
+    "author": {
+        "name": "Paimon",
+        "icon_url": "https://i.imgur.com/jORxz83.png"
+        },
+    "footer": {
+        "text": "Prefix !"
+        },
+    "title": "Mihoyo Linking commands!",
+    "description": "Main linking channel set is <#889200292418187316>!\nType like this to link your account ```eu: 6457129818\nasia: 6457129818\nna: 6457129818``` ",
+    "fields": [
+    {
+        "name": "Sample announcement",
+        "value": "something here!"
+        }        
+    ]
+}
+,
+"announce": "false"
+}
