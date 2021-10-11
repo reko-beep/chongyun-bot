@@ -73,5 +73,8 @@ setting **announce** to **true** will post the announcement if bot is restarted,
 
  
  
+**Guides found on Net**
+[GDrive](https://drive.google.com/drive/folders/1482z0uMPGM__NXoThBYboShYEodiXOwT?usp=sharing)
 
+**NOTE**: These were made by world.of.teyvat on instagram, be sure to follow him. No copyrights reserved.
  
