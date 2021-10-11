@@ -39,7 +39,7 @@ setting **announce** to **true** will post the announcement if bot is restarted,
 
  **NOTE**: if you want to disable it just change it to 0.
 
- **events_channel** is the one where bot will post upcoming channels!
+ **events_channel** is the one where bot will post upcoming genshin impact events!
 
  **NOTE**: if you want to disable it just change it to 0.
 
