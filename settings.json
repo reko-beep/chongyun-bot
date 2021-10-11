@@ -1,0 +1,12 @@
+{
+    "announce_channel": "channel id here without string quotes",
+    "bump_channel":"channel id here without string quotes",
+    "dropuid_channel":"channel id here without string quotes",
+    "events_channel":"channel id here without string quotes",
+    "approve_role":"role id here without string quotes",
+    "scrutiny_role": "role id here without string quotes",
+    "mod_role": "role id here without string quotes",
+    "token":"token here in quotes",
+    "verify_channel":"channel id here without string quotes",
+    "lobbycreatevc": "channel id here without string quotes"
+}
