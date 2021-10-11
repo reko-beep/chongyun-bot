@@ -37,11 +37,11 @@ setting **announce** to **true** will post the announcement if bot is restarted,
 
  **bump_channel** is the one where disboard bump commands will be, so bot can respond to the successful bump!
 
-    **NOTE**: if you want to disable it just change it to 0.
+    NOTE: if you want to disable it just change it to 0.
 
  **events_channel** is the one where bot will post upcoming genshin impact events!
 
-    **NOTE**: if you want to disable it just change it to 0.
+    NOTE: if you want to disable it just change it to 0.
 
  **approve_role** is the role given, when user has verified!
 
@@ -50,13 +50,13 @@ setting **announce** to **true** will post the announcement if bot is restarted,
  **verify_channel** is the channel where paimon will post a sample of question which you want to ask!
 
 
-    **NOTE**: change it in on_member_join function!
+    NOTE: change it in on_member_join function!
 
  **mod_role** is the role for mod commands! like scrutiny.
 
  **lobbycreatevc** is the voice channel which will create custom lobbies when a user joins it.
 
-    **NOTE**: if you want to disable it just change it to 0.
+    NOTE: if you want to disable it just change it to 0.
 
 # Guides setup
 
