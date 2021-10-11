@@ -1,7 +1,7 @@
 # paimon-bot
  
 
-![Logo](https://ithub.com/reko-beep/paimon-botblob/main/logo.gif?raw=true)
+![Logo](https://github.com/reko-beep/paimon-bot/blob/main/logo.gif?raw=true)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
@@ -11,7 +11,7 @@ Paimon bot created for discord community of Pakistan Genshin Impact server, you 
 it contains
 
     🔸 Paimon soundboard! (sounds provided)
-    🔸 Support for build and ascension commands (you need to add yours own in the rescpective folder)
+    🔸 Support for build and ascension commands (you need to add yours own in the respective folder)
     🔸 Paimon quotes (taken from paimonquotes twitter handle!)
     🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)
     🔸 An anime command, cuz felt the need for server.
@@ -70,7 +70,7 @@ setting **announce** to **true** will post the announcement if bot is restarted,
             healer.jpg etc, its title would translate to Healer in discord embeds.
 
     ascension files can be named as you want as their titles are not translated in discord embeds.
-    
+
  
  
 
