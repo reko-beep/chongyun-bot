@@ -12,8 +12,8 @@ class GenshinDB(dict):
         self.file = 'genshin.json'
         self.data = {}
         self.allowed = ['eu','na','asia']
-        self.ltoken = 'tJLdlousrYagG8jky6vKNJpKWnqS8joxuby1D3mS'
-        self.ltuid = 6457775
+        self.ltoken = 'your ltoken here in quotes'
+        self.ltuid = 'ltuid here without quotes'
         self.__load()
         print(self.data)
 
