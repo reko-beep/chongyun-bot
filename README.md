@@ -50,9 +50,10 @@ setting **announce** to **true** will post the announcement if bot is restarted,
  **NOTE**: change it in on_member_join function!
 
  **mod_role** is the role for mod commands! like scrutiny.
- 
+
  **lobbycreatevc** is the voice channel which will create custom lobbies when a user joins it.
- **NOTE**: if you want to disable it just change it to 0.
+
+  **NOTE**: if you want to disable it just change it to 0.
 
 # Guides setup
 
