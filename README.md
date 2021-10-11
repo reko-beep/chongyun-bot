@@ -23,6 +23,7 @@ it contains
 
  **announce_channel** is where paimon bot will make announcements!
 
+
 **announcement.json** is file containing a sample announcement, it will post that announcement in announcement channel, when the bot starts!
 setting **announce** to **true** will post the announcement if bot is restarted, and **false** will not.
 
@@ -34,6 +35,10 @@ setting **announce** to **true** will post the announcement if bot is restarted,
  asia: uid
  na: uid
  ```
+**For Stats to work you need to provide ltoken and ltuid cookies in base/database.py**
+   
+  
+
 
  **bump_channel** is the one where disboard bump commands will be, so bot can respond to the successful bump!
 
@@ -57,6 +62,19 @@ setting **announce** to **true** will post the announcement if bot is restarted,
  **lobbycreatevc** is the voice channel which will create custom lobbies when a user joins it.
 
     NOTE: if you want to disable it just change it to 0.
+
+
+# How can I get my cookies?
+**Taken from thesadru/genshinstats github**
+1. go to [hoyolab.com](https://www.hoyolab.com/genshin/)
+2. login to your account
+3. press `F12` to open inspect mode (aka Developer Tools)
+4. go to `Application`, `Cookies`, `https://www.hoyolab.com`.
+5. copy `ltuid` and `ltoken`
+6. use `set_cookie(ltuid=..., ltoken=...)` in your code
+> It is possible that ltuid or ltoken are for some reason not avalible in your cookies (blame it on mihoyo).
+> In this case there are probably the old `account_id` and `cookie_token` cookies, so use those with `set_cookie(account_id=..., cookie_token=...)`.
+
 
 # Guides setup
 
