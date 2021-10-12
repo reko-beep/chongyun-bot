@@ -9,5 +9,7 @@
     "token":"token here in quotes",
     "verify_channel":"channel id here without string quotes",
     "lobbycreatevc": "channel id here without string quotes",
+    "ltoken": "ltoken here with quotes",
+    "ltuid": "ltuid without quotes",
     "prefix":"!"
 }
