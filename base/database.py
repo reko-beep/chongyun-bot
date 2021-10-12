@@ -6,14 +6,16 @@ from os import listdir
 from os.path import isfile, join
 import json
 import genshinstats as gs
-class GenshinDB(dict):
+from base.uids_util import load_settings
+class GenshinDB():
     def __init__(self):
         self.path = os.getcwd()
         self.file = 'genshin.json'
         self.data = {}
         self.allowed = ['eu','na','asia']
-        self.ltoken = 'your ltoken here in quotes'
-        self.ltuid = 'ltuid here without quotes'
+        temp = load_settings()
+        self.ltoken = temp['ltoken']
+        self.ltuid = temp['ltuid']
         self.__load()
         print(self.data)
 
@@ -134,7 +136,7 @@ class GenshinDB(dict):
             return data
         except gs.errors.DataNotPublic:
                 return None
-
+        
     
     def get_gstats(self,data):        
         if len(data) > 1:

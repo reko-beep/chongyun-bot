@@ -33,11 +33,12 @@ setting **announce** to **true** will post the announcement if bot is restarted,
  ```
  eu: uid
  asia: uid
- na: uid
+ na: uid 
  ```
-**For Stats to work you need to provide ltoken and ltuid cookies in base/database.py**
+****
    
-  
+  **ltoken** required for genshin stats.
+  **ltuid** required for genshin stats.
 
 
  **bump_channel** is the one where disboard bump commands will be, so bot can respond to the successful bump!
@@ -77,6 +78,8 @@ setting **announce** to **true** will post the announcement if bot is restarted,
 
 
 # Guides setup
+
+**Delete** delete_this_file.txt in builds and ascension_talents folder.
 
 **Adding new characters**
 
