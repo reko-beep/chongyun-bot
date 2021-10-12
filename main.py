@@ -1,3 +1,21 @@
+from core.paimon import Paimon
+
+print("\n\n\n")
+
+pmon = Paimon()
+pmon.load_config("./config/bot-config.yml")
+pmon.configure()
+
+# client is already initialiezed here no need to initialise again.
+client = pmon.get_client()
+
+settings_data = pmon.get_config()
+
+
+
+# all old main.py contents can go here...
+
+
 from base.help import GenshinHelp
 from base.lobby import Lobby
 from base.events import GenshinEvents
@@ -16,10 +34,7 @@ from base.scraper import search_page,unpack_anime
 import os 
 
 
-settings_data = load_settings()
 intents = Intents.all()
-prefix = settings_data['prefix']
-client = commands.Bot(command_prefix=prefix,intents=intents,help_command=None)
 data = {}
 
 guides_ = GenshinGuides()
@@ -707,5 +722,5 @@ async def on_ready():
 
     
 
-
-client.run(settings_data['token'])
+# logins client and starts the bot.
+pmon.start()
