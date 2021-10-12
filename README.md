@@ -79,6 +79,8 @@ setting **announce** to **true** will post the announcement if bot is restarted,
 
 # Guides setup
 
+**Delete** delete_this_file.txt in builds and ascension_talents folder.
+
 **Adding new characters**
 
     Adding folders name for additional characters in characters.json, will add them to bot!
