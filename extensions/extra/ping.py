@@ -3,8 +3,8 @@ from nextcord.ext import commands
 from util.logging import logc
 
 class Ping(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
+    def __init__(self, client):
+        self.client = client
 
     
     @commands.command()
@@ -13,9 +13,9 @@ class Ping(commands.Cog):
 
 
 
-def setup(bot):
-    bot.add_cog(Ping(bot))
+def setup(client):
+    client.add_cog(Ping(client))
 
 
-def teardown(bot):
-    bot.remove_cog(Ping(bot))
+def teardown(client):
+    client.remove_cog(Ping(client))

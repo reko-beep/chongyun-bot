@@ -36,6 +36,7 @@ class Paimon:
     def load_core_extensions(self):
         """load core extension: these extensions cannot be dynamically managed"""
         for ext in self.core_extensions:
+            logc("loading core extension:", ext)
             self.client.load_extension(ext)
 
 
@@ -63,7 +64,7 @@ class Paimon:
         async def on_ready():
             """runs when bot is logged in and ready"""
 
-            logc("Authentical Successful, loading core extensions...")
+            logc("Authentication Successful...")
             self.load_core_extensions()
 
         logc('Starting Bot Client...')
