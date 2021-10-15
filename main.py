@@ -1,19 +1,10 @@
-from core.paimon import Paimon
+import json
+import os 
 
-print("\n\n\n")
+from asyncio import TimeoutError, sleep
 
-pmon = Paimon()
-pmon.load_config("./config/bot-config.yml")
-pmon.configure()
-
-# client is already initialiezed here no need to initialise again.
-client = pmon.get_client()
-
-settings_data = pmon.get_config()
-
-
-
-# all old main.py contents can go here...
+import nextcord as discord
+from nextcord.ext import commands, tasks
 
 
 from base.help import GenshinHelp
@@ -23,18 +14,24 @@ from base.quests import GenshinQuests
 from base.quotes import GenshinQuotes
 from base.database import GenshinDB
 from base.soundboard import GenshinSoundBoard
-import nextcord as discord
-from nextcord.ext import commands,tasks
-from nextcord.flags import Intents
-from base.uids_util import find_uids,load_settings
 from base.guides import GenshinGuides
-from asyncio import TimeoutError,sleep
-import json
 from base.scraper import search_page,unpack_anime
-import os 
+
+from core.paimon import Paimon
+
+pmon = Paimon()
+pmon.configure("settings.json")
+pmon.start()
 
 
-intents = Intents.all()
+
+client = pmon.get_client()
+settings_data = pmon.get_config()
+
+
+
+
+
 data = {}
 
 guides_ = GenshinGuides()
@@ -721,6 +718,3 @@ async def on_ready():
 
 
     
-
-# logins client and starts the bot.
-pmon.start()

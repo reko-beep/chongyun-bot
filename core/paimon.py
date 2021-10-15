@@ -1,47 +1,50 @@
-import os
 import json
 
-import yaml
 
-
-
-from nextcord.ext import commands,tasks
+from nextcord.ext import commands
 from nextcord.flags import Intents
 
-from util.logging import log
 
-from core.module_manager import ModuleManager
+from util.logging import logc
+
 
 class Paimon:
     def __init__(self):
+       
         self.bot_config = {}
         self.client = None
-        self.modules = []
-        self.module_manager = ModuleManager(self)
-    
-
-    # def load_config(self, config_file: str):
-    #     """load bot from a yaml file"""
-    #     with open(config_file) as f:
-    #         try:
-    #             self.bot_config = yaml.safe_load(f)
-    #         except yaml.YAMLError as e:
-    #             raise IOError("can't load base config file") from e
+        self.core_extensions = [
+            "extensions.core.extman"
+        ]
 
 
-    def load_config(self, config_file: str):
-        if os.path.exists('settings.json'):
-            with open('settings.json','r') as f:
+    def __load_config(self, config_file: str):
+        """loads config file from disk"""
+
+        # todo: add yaml support.
+        try:
+            with open(config_file, 'r') as f:
                 self.bot_config = json.load(f)
+        except FileNotFoundError:
+            logc("Config file cannot be located...")
+            raise
+        except Exception:
+            logc('Config file structure is invalid...')
+            raise
 
-    def configure(self):
+
+    def load_core_extensions(self):
+        """load core extension: these extensions cannot be dynamically managed"""
+        for ext in self.core_extensions:
+            self.client.load_extension(ext)
+
+
+    def configure(self, config_file: str):
         """configure bot and initialize discord client"""
 
-        if self.bot_config is None:
-            raise Exception("bot_config is not populated, load a config first.")
-
-        self.log("using following config:")
-        self.log(self.bot_config)
+        self.__load_config(config_file)
+        logc("using following config:")
+        logc(self.bot_config)
 
         # initialize discord client.
         self.client = commands.Bot(
@@ -50,7 +53,8 @@ class Paimon:
             help_command=None
         )
 
-
+        return self
+        
 
     def start(self):
         """start the bot and discord client"""   
@@ -59,22 +63,20 @@ class Paimon:
         async def on_ready():
             """runs when bot is logged in and ready"""
 
-            self.log("Authentical Successful, Bot is now up...")
-            self.module_manager.start()
+            logc("Authentical Successful, loading core extensions...")
+            self.load_core_extensions()
 
-        self.log('Starting Client...')
+        logc('Starting Bot Client...')
         self.client.run(self.bot_config['token'])
           
-
 
     def get_client(self):
         if self.client != None:
             return self.client
 
+
     def get_config(self):
         if self.bot_config != None:
             return self.bot_config
 
-        
-    def log(self, *msg):
-        log(f'[-------]', *msg)
+    
