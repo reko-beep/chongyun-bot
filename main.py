@@ -17,12 +17,17 @@ from base.soundboard import GenshinSoundBoard
 from base.guides import GenshinGuides
 from base.scraper import search_page,unpack_anime
 
-from core.paimon import Paimon
-
-
 
 
 from core.paimon import Paimon
+
+
+# client: Bot and paimon: Paimon (subclass of Bot) are same
+pmon = Paimon(config_file="settings.json")
+client = pmon
+
+
+settings_data = pmon.get_config()
 
 
 # client: Bot and paimon: Paimon (subclass of Bot) are same
@@ -343,24 +348,7 @@ async def paimonquotes(ctx,arg:str="",quotes:str=""):
             await ctx.send(embed=embed,file=file_paimon)
 
 
-@client.command(aliases=['gserv'])
-async def gservers(ctx):
-    id_ = str(ctx.author.id)
-    servers  = db.get_servers(id_)
-    if servers != None:
-        serv_ = ''
-        for i in servers:
-            serv_ += f'**{i.upper()}**\nUID: {servers[i]}\n\n'
-        embed = discord.Embed(title=f'{ctx.author.display_name} Genshin Impact Servers', description=f'\n{serv_}',color=0xf5e0d0)    
-        embed.set_author(name=f'{ctx.author.display_name}',icon_url=f'{ctx.author.avatar.url}')
-        file_paimon = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')
-        embed.set_thumbnail(url=f'attachment://happy.png')            
-        await ctx.send(embed=embed,file=file_paimon)
-    else:        
-        embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~\n please link the id!',color=0xf5e0d0)
-        file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-        embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed,file=file)
+
 
 @client.command(aliases=['gl'])
 async def glink(ctx,server:str,uid:str):
@@ -563,12 +551,13 @@ async def lobbycreate(ctx):
         await ctx.send(f'{channel_.name} created!')
     else:
         await ctx.send(f'You are already owner of an channel!')
-    
-@client.event
+
+
+# client.listen('on_message') replaces client.event
+# because former can be used any number of times, without overriding.
+# this is preferred way when using Cogs.    
+@client.listen('on_message')
 async def on_message(message):
-    if message.channel.id == dropuidchannel:
-        author_ = str(message.author.id)
-        db.serveruid(author_,message.content)
     if bumpchannel != 0:
         if message.channel.id == bumpchannel:
             if len(message.embeds) != 0 and message.author.id == 302050872383242240:
@@ -582,7 +571,6 @@ async def on_message(message):
                     embed.set_thumbnail(url=f'attachment://happy.png')
                     await message.channel.send(embed=embed,file=file)
                 
-    await client.process_commands(message)
 
 @client.command()
 async def quest(ctx,*,arg:str=''):
@@ -691,5 +679,5 @@ async def on_ready():
     
 
 
-    
+# start paimon bot.  
 pmon.p_start()
