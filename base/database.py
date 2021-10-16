@@ -87,7 +87,30 @@ class GenshinDB():
         print(self.data)
         if id_ in self.data:
             return self.data[id_]
-                    
+
+
+
+    # note: new method. because you don't need to type
+    # server name. it can be figured out.
+    def save_uid(self, discord_id, uid):
+
+        server = str(uid)[0]
+
+        # asia server
+        if str(uid)[0] == '6':
+            server = 'na'
+        elif server == '7':
+            server = 'eu'
+        elif server == '8':
+            server = 'asia'
+        elif server == '9':
+            server = 'tw'
+        else:
+            server = None
+
+        self.save_server(discord_id, server, uid)
+
+        self.__save()
 
     def serveruid(self, id_,string_passed): #to save uids
         temp_ = ''
