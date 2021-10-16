@@ -1,83 +1,85 @@
 import json
 
+from nextcord.ext.commands import Bot
+
 
 from nextcord.ext import commands
 from nextcord.flags import Intents
 
 
 from util.logging import logc
+from util import DummyObject
 
 
-class Paimon:
-    def __init__(self):
-       
-        self.bot_config = {}
-        self.client = None
-        self.core_extensions = [
+class Paimon(Bot):
+
+    # use p_ prefix for attributes specific to paimon
+    # to prevent collision form  Bot's attributes.
+    # have any better idea?
+
+    def __init__(self, config_file: str =None):
+        """configures paimon (client) and initialize."""
+        
+        self.p_bot_config = {}
+        self.p_core_extensions = [
             "extensions.core.extman"
         ]
 
+        self.p_load_config(config_file)
+        logc("using following config:", self.p_bot_config)
 
-    def __load_config(self, config_file: str):
+        # configure discord client.
+        super().__init__(
+            command_prefix=self.p_bot_config['prefix'],
+            intents=Intents.all(),
+            help_command=None,
+        )
+
+
+    def p_load_config(self, config_file: str):
         """loads config file from disk"""
-
         # todo: add yaml support.
         try:
             with open(config_file, 'r') as f:
-                self.bot_config = json.load(f)
-        except FileNotFoundError:
-            logc("Config file cannot be located...")
+                self.p_bot_config = json.load(f)
+        except (FileNotFoundError, TypeError):
+            logc("Error: Config file cannot be located...")
             raise
         except Exception:
-            logc('Config file structure is invalid...')
+            logc('Error: Config file structure is invalid...')
             raise
 
 
-    def load_core_extensions(self):
+    def p_load_core_extensions(self):
         """load core extension: these extensions cannot be dynamically managed"""
-        for ext in self.core_extensions:
+        for ext in self.p_core_extensions:
             logc("loading core extension:", ext)
-            self.client.load_extension(ext)
+            self.load_extension(ext)
 
 
-    def configure(self, config_file: str):
-        """configure bot and initialize discord client"""
-
-        self.__load_config(config_file)
-        logc("using following config:")
-        logc(self.bot_config)
-
-        # initialize discord client.
-        self.client = commands.Bot(
-            command_prefix=self.bot_config['prefix'],
-            intents=Intents.all(),
-            help_command=None
-        )
-
-        return self
         
 
-    def start(self):
+    def p_start(self):
         """start the bot and discord client"""   
 
-        @self.client.event
+        @self.event
         async def on_ready():
             """runs when bot is logged in and ready"""
 
             logc("Authentication Successful...")
-            self.load_core_extensions()
+            self.p_load_core_extensions()
+
+        @self.listen('on_message')
+        async def on_message(message):
+            """unimplemented"""
+            pass
 
         logc('Starting Bot Client...')
-        self.client.run(self.bot_config['token'])
+        self.run(self.p_bot_config['token'])
           
 
-    def get_client(self):
-        if self.client != None:
-            return self.client
 
 
     def get_config(self):
-        if self.bot_config != None:
-            return self.bot_config
-
-    
+        if self.p_bot_config != None:
+            return self.p_bot_config

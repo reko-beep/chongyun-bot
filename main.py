@@ -19,16 +19,16 @@ from base.scraper import search_page,unpack_anime
 
 from core.paimon import Paimon
 
-pmon = Paimon()
-pmon.configure("settings.json")
-pmon.start()
 
 
 
-client = pmon.get_client()
+from core.paimon import Paimon
+
+
+# client: Bot and paimon: Paimon (subclass of Bot) are same
+pmon = Paimon(config_file="settings.json")
+client = pmon
 settings_data = pmon.get_config()
-
-
 
 
 
@@ -692,3 +692,4 @@ async def on_ready():
 
 
     
+pmon.p_start()
