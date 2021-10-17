@@ -112,7 +112,7 @@ class GenshinDB():
 
         self.__save()
 
-    def serveruid(self, id_,string_passed): #to save uids
+    def serveruid(self, id_,string_passed): #to save uids        
         temp_ = ''
         strings_ = []
         saved = False

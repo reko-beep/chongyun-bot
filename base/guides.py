@@ -38,6 +38,15 @@ class GenshinGuides:
         return None
 
     def get_build_type(self,filename: str):
+        """
+
+        Prettifying build_files name!
+        
+        _ -> spaces
+        dps -> DPS
+
+        """
+
         text = ''
         if "_" in filename:
             for i in filename.split('.')[0].split("_"):
@@ -57,19 +66,25 @@ class GenshinGuides:
 
 
 
-    def get_files(self,name,guide: str):
-        name_ = self._search(name)
-        print(f'Character Name {name_}')
-        if os.path.exists(f'{self.path}/{name_}/'):
-            print(f"Path Exists:  {self.path}/{name_}/")
+    def get_files(self,character_name :str,guide: str):
+        """
+        Searches files in guides/name -> character
+        """
+        search_results = self._search(character_name)
+
+        #searches the provided name in characters database
+
+        print(f'Character Name {search_results}')
+        if os.path.exists(f'{self.path}/{search_results}/'):
+            print(f"Path Exists:  {self.path}/{search_results}/")
             option_ = self.get_supported_option(guide)
             print(f'Option selected: {option_}')
             if option_ != None:
-                if os.path.exists(f'{self.path}/{name_}/{option_}'):
-                    print(f"Path Exists:  {self.path}/{name_}/{option_}")
-                    files = [f for f in listdir(f'{self.path}/{name_}/{option_}') if isfile(join(f'{self.path}/{name_}/{option_}', f))]
+                if os.path.exists(f'{self.path}/{search_results}/{option_}'):
+                    print(f"Path Exists:  {self.path}/{search_results}/{option_}")
+                    files = [f for f in listdir(f'{self.path}/{search_results}/{option_}') if isfile(join(f'{self.path}/{search_results}/{option_}', f))]
                     print(files)
-                    return files,f'{self.path}/{name_}/{option_}'
+                    return files,f'{self.path}/{search_results}/{option_}'
             else:
                 return None,None
         else:
