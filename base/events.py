@@ -1,76 +1,87 @@
-import os
-import nextcord as discord
-from nextcord.ext import commands,tasks
-import json
 import requests
-from bs4 import BeautifulSoup
-import pprint
+import time
 
 class GenshinEvents:
-    def __init__(self,bot):
-        self.last = ''
-        self.current = ''
-        self.url = 'https://genshin-impact.fandom.com/wiki/Events#Current'
-        self.events = {}
-        self.bot = bot
-        self._load()
-
-    def _load(self):
-        if os.path.exists('events.json'):
-            with open('events.json','r') as f:
-                self.last = json.load(f)['last_id']
+    def __init__(self):
+        pass
 
 
-    def fetch(self,str_:str):
-        r = requests.get(self.url).content
-        bs = BeautifulSoup(r,'lxml')
-        heading = bs.find_all('h2')
-        table = 0
-        for i in heading:
-            if i.text.lower() == str_:
-                table = i.findNextSibling()        
-        if table != 0:    
-            events = table.find_all('tr')                      
-            elements = ['name','duration','type']
-            for ev in events[1:]:
-                temp_ = {'name':'','image':'','link':'','duration':'','duration':''}                
-                data = ev.find_all('td')   
-                print()
-                if events[len(events)-1] != None:
-                    if events[len(events)-1].find_all('td')[0] != None:
-                        check = events[len(events)-1].find_all('td')[0].find('a').attrs['title'].replace(' ','_',99).replace('-','',99).replace("'","",99).lower()
-                print(check,self.last)    
-                if check != self.last:    
-                    for i in range(0,len(data),1):                    
-                        if data[i].find('a') != None:
-                            self.current = data[i].find('a').attrs['title'].replace(' ','_',99).replace('-','',99).replace("'","",99).lower()
-                            temp_['link'] = f"https://genshin-impact.fandom.com/{data[i].find('a').attrs['href'] }"
-                            temp_['name'] = data[i].find('a').attrs['title']    
-                            if data[i].find('img') != None:
-                                if 'data-src' in data[i].find('img').attrs:
-                                    temp_['image'] = data[i].find('img').attrs['data-src'][:data[i].find('img').attrs['data-src'].find('/revision')]  
-                        else:                    
-                            temp_[elements[i]] = data[i].text                
-                    if self.current != self.last:
-                        if self.current not in self.events:
-                            self.events[self.current] = temp_
-                            self.last = self.current
-                    else:
-                        break
-            self.events['last_id'] = self.last            
-            with open('events.json','w') as f:
-                json.dump({'last_id': self.last},f)
-            return self.events
+    def get_active_events(self):
+        """get only active events."""
+        total_active_events = []
+        offset = 0
+        while True:
+            events, next_offset = self.get_events(offset)
+            active_events = list(filter(lambda event: event['status'] != "Already Ended.", events))
+          
+            if len(active_events) == 0: return total_active_events
 
-    def create_embed(self,data):
-        embed = discord.Embed(title=f"{data['name']}",description=f"[Link]({data['link']})\n\n**Duration:**\n {data['duration']}\n\n**Type:**\n{data['type']}",color=0xf5e0d0)
-        file = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')        
-        embed.set_author(name='Paimon brings you event',icon_url=self.bot.user.avatar.url)
-        if 'image' in data:
-            if data['image'].startswith('http'):
-                embed.set_image(url=f"{data['image']}")   
-        embed.set_thumbnail(url=f'attachment://happy.png')
-        return embed,file
-           
-        
+            total_active_events.extend(active_events)
+            offset = next_offset
 
+
+    def get_events(self, offset=0):
+        """
+        get an arbitrary number of events from Hoyolab.
+        offset represents the offset from which events should be retrieved.
+        -> also returns  "next_offset" to continue retieiving subsequent events.
+
+        available fields: id, name, start, end, banner_url, desc, web_path, status
+        """
+
+        res = requests.get(
+            f"https://api-os-takumi.mihoyo.com/community/community_contribution/wapi/event/list?gids=2&offset={offset}"
+        )
+
+        if res.status_code != 200: raise LookupError("failed to fetch events.")
+        res_data = res.json()['data']
+
+        events_list = res_data['list']
+        next_offset = int(res_data['next_offset'])
+
+
+        for event in events_list:
+            
+            # determine event status.
+            event_triplet = (event['status'], event['status_ing'], event['status_int'])
+            event_status = "Unknown"
+            if event_triplet == (3,0,3):
+                event_status = "In Progress"
+            elif event_triplet == (3,1,3):
+                event_status = "Call for Work in Progress"
+            elif event_triplet == (3,5,3):
+                event_status = "Judging in Progress"
+            elif event_triplet == (3,3,3):
+                event_status = "Voting in Progress"
+            # elif event_triplet == (x,x,x):
+            #     event_status = "???"
+            else:
+                event_status = "Already Ended."
+
+
+            # determine event type. (can be improved ?)
+            type = "??"
+            if event['type'] == 1:
+                type = "Contest"
+            elif event['type'] == 2:
+                type = "In Game/Web"
+
+            
+            # determine local time from epoch for start and end period
+            start = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(event['start'])))
+            end = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(event['end'])))
+
+            del event['status']
+            del event['status_ing']
+            del event['status_int']
+            del event['game_id']
+            del event['app_path']
+
+            
+            event['status'] = event_status
+            event['web_path'] = "https://hoyolab.com" + event["web_path"]
+            event['type'] = type
+            event['start'] = start
+            event['end'] = end
+            
+        return events_list, next_offset
