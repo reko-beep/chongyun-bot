@@ -76,6 +76,8 @@ class GenshinEventsList(commands.Cog):
          
             await embed_msg.edit(embed=embed)
 
+            del active_event_msgs[event_id]
+
         # create new embeds for undisplayed events.
         undisplayed_events = new_active_event_IDs - displayed_event_IDs
         for event_id in undisplayed_events:
