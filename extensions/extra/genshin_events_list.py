@@ -64,7 +64,15 @@ class GenshinEventsList(commands.Cog):
 
         # currently replacing entire embed, since i don't know how
         # to partially edit an embed.
-        
+
+
+        # possible solution: @bobyclaws
+        # embed_msg = await event_channel.fetch_message(msg_id)
+        # embed = embed_msg.embeds[0]
+        # status_index = i for i in range(0,len(embed.fields),1) if embed.fields[i]['name'] == 'Status'
+        # embed.set_field_at(status_index, name='Status', value ='Event has ended',inline=True)
+        # await embed_msg.edit(embed=embed)
+
         for event_id in (displayed_event_IDs - new_active_event_IDs):
             msg_id = active_event_msgs[event_id]
             embed_msg = await event_channel.fetch_message(msg_id)
