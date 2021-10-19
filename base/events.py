@@ -43,20 +43,25 @@ class GenshinEvents:
         for event in events_list:
             
             # determine event status.
-            event_triplet = (event['status'], event['status_ing'], event['status_int'])
-            event_status = "Unknown"
-            if event_triplet == (3,0,3):
-                event_status = "In Progress"
-            elif event_triplet == (3,1,3):
-                event_status = "Call for Work in Progress"
-            elif event_triplet == (3,5,3):
-                event_status = "Judging in Progress"
-            elif event_triplet == (3,3,3):
-                event_status = "Voting in Progress"
-            # elif event_triplet == (x,x,x):
-            #     event_status = "???"
-            else:
+            status_int, status_ing = event['status_int'], event['status_ing']
+            event_status = None
+            if(status_int == 2):
+                event_status = "Not Yet Started."
+            elif(status_int == 4):
                 event_status = "Already Ended."
+            elif(status_int == 3):
+                if (status_ing | 1) == status_ing:
+                    event_status = "Call for Works In Progress"
+                elif (status_ing | 2) == status_ing:
+                    event_status  = "Voting in Progress"
+                elif (status_ing | 4) == status_ing:
+                    event_status = "Judging in Progress"
+                elif (status_ing | 8) == status_ing:
+                    event_status = "Publishing in Progress"
+                else:
+                    event_status = "In Progress"
+            else:
+                event_status = "Uknown"
 
 
             # determine event type. (can be improved ?)
@@ -68,8 +73,8 @@ class GenshinEvents:
 
             
             # determine local time from epoch for start and end period
-            start = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(event['start'])))
-            end = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(event['end'])))
+            start = time.strftime('%d/%m/%Y', time.localtime(int(event['start'])))
+            end = time.strftime('%d/%m/%Y', time.localtime(int(event['end'])))
 
             del event['status']
             del event['status_ing']

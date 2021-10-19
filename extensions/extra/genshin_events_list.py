@@ -4,6 +4,7 @@ from base.events import GenshinEvents
 import json
 from nextcord.ext import commands, tasks
 from core.paimon import Paimon
+from util.logging import logc
 
 
 gevents = GenshinEvents()
@@ -37,6 +38,8 @@ class GenshinEventsList(commands.Cog):
         new_active_event_IDs = set(map(lambda event: event['id'],  new_active_events))
         displayed_event_IDs = set(active_event_msgs.keys())
 
+        logc("found", len(new_active_event_IDs), " active events.")
+
         # the events' embed messages to update.
         for event_id in (new_active_event_IDs & displayed_event_IDs):
 
@@ -55,36 +58,25 @@ class GenshinEventsList(commands.Cog):
             embed.add_field(name="Status", value=event['status'], inline=True)
             embed.add_field(name="Start", value=event['start'], inline=True)
             embed.add_field(name="End", value=event['end'], inline=True)
-
             await embed_msg.edit(embed=embed)
-
+            logc("updated event msg:", msg_id)
 
         # the events' embed messages' status to mark as "Already Ended."
         # basically same as above, but you only update the event "status" 
-
-        # currently replacing entire embed, since i don't know how
-        # to partially edit an embed.
-
-
-        # possible solution: @bobyclaws
-        # embed_msg = await event_channel.fetch_message(msg_id)
-        # embed = embed_msg.embeds[0]
-        # status_index = i for i in range(0,len(embed.fields),1) if embed.fields[i]['name'] == 'Status'
-        # embed.set_field_at(status_index, name='Status', value ='Event has ended',inline=True)
-        # await embed_msg.edit(embed=embed)
-
         for event_id in (displayed_event_IDs - new_active_event_IDs):
             msg_id = active_event_msgs[event_id]
             embed_msg = await event_channel.fetch_message(msg_id)
-            embed = discord.Embed(
-                title= "Event Expired.",
-                colour=0xb8b6af,
-                description="the event has ended")
+            embed = embed_msg.embeds[0]
+            for i in range(len(embed.fields)):
+                if embed.fields[i].name == 'Status':
+                    embed.set_field_at(i,
+                        name='Status',
+                        value='Already Ended.',
+                        inline=True)
 
-         
             await embed_msg.edit(embed=embed)
-
             del active_event_msgs[event_id]
+            logc("event message marked as no longer active:", msg_id)
 
         # create new embeds for undisplayed events.
         undisplayed_events = new_active_event_IDs - displayed_event_IDs
@@ -106,6 +98,7 @@ class GenshinEventsList(commands.Cog):
 
             msg = await event_channel.send(embed=embed)
             active_event_msgs[event_id] = msg.id
+            logc("added new event msg:", msg.id)
 
         with open("genshin_event_msgs.json", 'w') as f:
             json.dump(active_event_msgs,f)
