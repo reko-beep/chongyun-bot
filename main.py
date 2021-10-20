@@ -9,7 +9,6 @@ from nextcord.ext import commands, tasks
 
 
 from base.lobby import Lobby
-from base.events import GenshinEvents
 from base.quests import GenshinQuests
 from base.quotes import GenshinQuotes
 from base.database import GenshinDB
@@ -43,7 +42,6 @@ guides_ = GenshinGuides()
 soundboard = GenshinSoundBoard(client)
 db = GenshinDB()
 quotes_ = GenshinQuotes()
-events_handler = GenshinEvents(client)
 voice_handler = Lobby(client)
 quests_handler = GenshinQuests()
 
@@ -266,41 +264,7 @@ async def gcharacters(ctx,arg:str):
         await ctx.send(embed=embed,file=file)
 
 
-@client.command(aliases=['ev'])
-async def events(ctx,arg:str):
-    if arg != '':
-        events_ = events_handler.fetch(arg)
-        if 'last_id' in events_:
-            events_.pop('last_id')
-        if len(events_) > 1:
-            for i in events_:
-                embed,file = events_handler.create_embed(events_[i])
-                await ctx.send(embed=embed,file=file)
-                await sleep(5)
-        else:
-            embed = discord.Embed(title='Paimon is angry!',description=f'What do you wa- want, huh~\n {arg.capitalize()} events are already posted!\n\n',color=0xf5e0d0)
-            file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-            embed.set_thumbnail(url=f'attachment://angry.png')
-            await ctx.send(embed=embed,file=file)
-    else:
-        embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~\n I will eat you!',color=0xf5e0d0)
-        file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-        embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed,file=file)
 
-@tasks.loop(hours=6)
-async def events():
-    if eventchannel != 0:
-        channel_ev = client.get_channel(eventchannel)
-        events_ = events_handler.fetch('upcoming')
-        if len(events_) > 2:
-            print(f'New Events found {events_}')
-            for i in events_:
-                embed,file = events_handler.create_embed(events_[i])
-                await channel_ev.send(embed=embed,file=file)
-                await sleep(5)
-        else:
-            print('No New events found!')
 
 
 
