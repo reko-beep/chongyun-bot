@@ -12,7 +12,7 @@ from base.lobby import Lobby
 from base.quests import GenshinQuests
 from base.quotes import GenshinQuotes
 from base.database import GenshinDB
-from base.soundboard import GenshinSoundBoard
+
 from base.guides import GenshinGuides
 from base.scraper import search_page,unpack_anime
 
@@ -39,7 +39,7 @@ settings_data = pmon.get_config()
 data = {}
 
 guides_ = GenshinGuides()
-soundboard = GenshinSoundBoard(client)
+
 db = GenshinDB()
 quotes_ = GenshinQuotes()
 voice_handler = Lobby(client)
@@ -268,31 +268,7 @@ async def gcharacters(ctx,arg:str):
 
 
 
-@client.command(aliases=['psb','psoundboard'])
-async def paimonsoundboard(ctx):
-    embed,file,emojis = soundboard.create_embed()
-    msg = await ctx.send(embed=embed,file=file)
-    for i in emojis:
-        await msg.add_reaction(i)
-    try:
-        def check(reaction,user):        
-            return reaction.message.id == msg.id and user.id == ctx.author.id
-        reaction,user = await client.wait_for('reaction_add',check=check,timeout=60)    
-    except TimeoutError:
-        await msg.clear_reactions()
-        embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~',color=0xf5e0d0)
-        file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-        embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed,file=file)
-    else:
-        if reaction.emoji in emojis:
-            print(reaction.emoji)
-            title = soundboard.get_title(reaction.emoji)
-            print(title)
-            embed.set_footer(text=f'Paimon playing {title} now!')
-            await msg.edit(embed=embed)
-            await soundboard.play_file(ctx,reaction.emoji)
-            await msg.clear_reactions()
+
 
 @client.command(aliases=['pq'])
 async def paimonquotes(ctx,arg:str="",quotes:str=""):
@@ -623,7 +599,6 @@ async def act(ctx,*,arg:str=''):
 @client.event
 async def on_ready():
     channel = client.get_channel(announce_channel)
-    events.start()
     voice_handler.set_guild(client.guilds[0])
     """
     

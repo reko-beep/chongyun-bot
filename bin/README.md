@@ -1,0 +1,1 @@
+* drop binaries used by application here (ex: ffmpeg)

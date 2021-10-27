@@ -8,7 +8,6 @@ from nextcord.flags import Intents
 
 
 from util.logging import logc
-from util import DummyObject
 
 
 class Paimon(Bot):
@@ -38,7 +37,7 @@ class Paimon(Bot):
 
     def p_load_config(self, config_file: str):
         """loads config file from disk"""
-        # todo: add yaml support.
+        # TODO: add yaml support.
         try:
             with open(config_file, 'r') as f:
                 self.p_bot_config = json.load(f)
@@ -81,7 +80,6 @@ class Paimon(Bot):
 
 
     def get_config(self):
-        if self.p_bot_config != None:
+        if self.p_bot_config is not None:
             return self.p_bot_config
-
     
