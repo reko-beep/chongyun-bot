@@ -45,4 +45,4 @@ def setup(bot):
 
 
 def teardown(bot):
-    bot.remove_cog(GHelp(bot))
+    bot.remove_cog("GHelp")

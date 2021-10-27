@@ -115,5 +115,5 @@ def setup(client: Paimon):
 
 
 def teardown(client):
-    client.remove_cog(GenshinEventsList(client))
+    client.remove_cog("GenshinEventsList")
 

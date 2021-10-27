@@ -83,7 +83,7 @@ def setup(client):
 
 
 def teardown(client):
-    client.remove_cog(UIDManager(client))
+    client.remove_cog("UIDManager")
 
 
 

@@ -18,4 +18,4 @@ def setup(client):
 
 
 def teardown(client):
-    client.remove_cog(Ping(client))
+    client.remove_cog("Ping")
