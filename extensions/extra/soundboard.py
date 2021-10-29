@@ -1,7 +1,8 @@
 import os
+import random
+import json
 
-import nextcord
-from nextcord import Embed
+from nextcord import Embed, FFmpegPCMAudio
 from nextcord.ext import commands
 from nextcord.ext.commands.context import Context
 from nextcord.message import Message
@@ -22,20 +23,57 @@ async def get_angry(ctx, title, desc):
 class SoundBoard(commands.Cog):
     def __init__(self, pmon):
         self.pmon = pmon
-        self.sounds = os.listdir('assets/SoundBoard')
+    
+        with open('assets/SoundBoard/honeyimpact_voicelines_data.json') as f:
+            self.sounds = json.load(f)
+        
+        self.other_sounds = os.listdir('assets/SoundBoard')
+
+       
+        
 
      
     @commands.command(aliases=['sb'])
-    async def soundboard(self, ctx):
-        msg = await self.display_menu(ctx)
- 
+    async def soundboard(self, ctx, sound_type=None, given_chara=None):
 
-    async def display_menu(self, ctx):                
+        # play voicelines.
+        if sound_type in self.sounds["types"].keys():
+            matched_chara = None
+            for chara in self.sounds["valid_charas"]:
+                if given_chara.lower() in chara.lower():
+                    matched_chara = chara
+                    break
+            if matched_chara is None:
+                await ctx.send("wrong character name")
+                return
+            
+            # note: the cdn for honey hunter is highly unstable most of the time
+            # audio might be choppy or not playable at all.
+            # maybe cache the audio files locally on first outbound request.
+            url = f"https://genshin.honeyhunterworld.com/audio/quotes/{matched_chara}/{random.choice(self.sounds['types'][sound_type])}_jp.ogg"
+            logc("evaluated sound url", url)
+            # TODO: voice is chopped when playing small files.
+            # issue most likely with nextcord
+            await self.play_audio(ctx, url)
+
+        elif sound_type is not None:
+            await ctx.send("wrong sound type")
+            return
+        
+        # play other sounds.
+        else:
+            msg = await self.handle_other_sounds(ctx) 
+
+
+    async def handle_other_sounds(self, ctx):
+        """display embed menu for other sounds and handle playback"""
+
+        sounds =  self.other_sounds         
         desc = ''
         choices = [] 
-        for i, sound in enumerate(self.sounds):
+        for i, sound in enumerate(sounds):
             name = sound[:-4]
-            desc += f':{i}: : **{name}**\n'
+            desc += f'**{i} : {name}**\n'
             choices.append(Numoji.get_emoji(i))
 
         embed = Embed(
@@ -69,17 +107,15 @@ class SoundBoard(commands.Cog):
                 logc("got reaction", reaction.emoji)
 
                 choice = Numoji.get_int(reaction.emoji)
-                await self.play_file(ctx,self.sounds[choice])
+                await self.play_audio(ctx, f'assets/SoundBoard/{sounds[choice]}')
                 
         return msg
 
 
     
-    async def play_file(self, ctx: Context, sound):
+    async def play_audio(self, ctx: Context, sound):
   
-        src = nextcord.FFmpegPCMAudio(
-            f'assets/SoundBoard/{sound}',
-            executable='bin/ffmpeg')
+        src = FFmpegPCMAudio(sound, executable='bin/ffmpeg')
 
         if not ctx.author.voice: # author not in vc
             await get_angry(ctx,
