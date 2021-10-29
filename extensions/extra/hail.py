@@ -31,7 +31,7 @@ class Hail(commands.Cog):
                     shell=True)
             elif platform.system() == "Linux":
                 subprocess.call(
-                    "xvfbrun ./hailgen",
+                    "export LD_LIBRARY_PATH=./lib && xvfb-run ./hailgen",
                     cwd="bin/hailgen/",
                     shell=True)
 
