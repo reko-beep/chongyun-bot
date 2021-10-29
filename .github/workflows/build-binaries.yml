@@ -1,0 +1,30 @@
+name: Build Binaries.
+on: [push]
+
+jobs:
+  build-hailgen:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: main
+    
+    - name: Update
+      run: sudo apt-get update
+    
+    - name: Install Dependencies
+      run: sudo apt-get install --assume-yes build-essential
+
+    - name: Build
+      run: |
+        cd main/bin/hailgen
+      
+    - name: Upload Artifacts.
+      uses: actions/upload-artifact@v2
+      with:
+        name: hailgen
+        path: |
+          main/bin/hailgen/hailgen
+          main/bin/hailgen/assets
+          main/bin/hailgen/lib
+          
