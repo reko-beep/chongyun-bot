@@ -1,0 +1,806 @@
+{
+ "Albedo": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/VO_ZH_Albedo_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/VO_ZH_Albedo_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/VO_ZH_Albedo_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/VO_JA_Albedo_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_JA_Albedo_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/VO_JA_Albedo_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/VO_KO_Albedo_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/VO_KO_Albedo_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/VO_KO_Albedo_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Aloy": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Aloy_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/VO_ZH_Aloy_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/VO_ZH_Aloy_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/VO_JA_Aloy_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/VO_JA_Aloy_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_JA_Aloy_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/VO_KO_Aloy_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/VO_KO_Aloy_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/VO_KO_Aloy_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Amber": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/VO_ZH_Amber_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_ZH_Amber_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_ZH_Amber_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/VO_ZH_Amber_Elemental_Skill_2_01.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/VO_JA_Amber_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_JA_Amber_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/VO_JA_Amber_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_JA_Amber_Elemental_Skill_2_01.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/VO_KO_Amber_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/VO_KO_Amber_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/VO_KO_Amber_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/VO_KO_Amber_Elemental_Skill_2_01.ogg"
+  }
+ },
+ "Barbara": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/VO_ZH_Barbara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Barbara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_ZH_Barbara_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_JA_Barbara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_JA_Barbara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/VO_JA_Barbara_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_KO_Barbara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/VO_KO_Barbara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/VO_KO_Barbara_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Beidou": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Beidou_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/VO_ZH_Beidou_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/VO_ZH_Beidou_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/VO_ZH_Beidou_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/VO_ZH_Beidou_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Beidou_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/VO_JA_Beidou_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_JA_Beidou_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/VO_JA_Beidou_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_JA_Beidou_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_JA_Beidou_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_JA_Beidou_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_KO_Beidou_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/VO_KO_Beidou_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_KO_Beidou_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/VO_KO_Beidou_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/VO_KO_Beidou_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/VO_KO_Beidou_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Bennett": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/VO_ZH_Bennett_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/VO_ZH_Bennett_Elemental_Skill_1_Step_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/VO_ZH_Bennett_Elemental_Skill_1_Step_2_01.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Bennett_Elemental_Skill_1_Step_2_02.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/VO_ZH_Bennett_Elemental_Skill_1_Step_3_01.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Bennett_Elemental_Skill_1_Step_3_02.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/VO_ZH_Bennett_Elemental_Skill_1_02.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/VO_JA_Bennett_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_JA_Bennett_Elemental_Skill_1_Step_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_JA_Bennett_Elemental_Skill_1_Step_2_01.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/VO_JA_Bennett_Elemental_Skill_1_Step_2_02.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/VO_JA_Bennett_Elemental_Skill_1_Step_3_01.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/VO_JA_Bennett_Elemental_Skill_1_Step_3_02.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/VO_JA_Bennett_Elemental_Skill_1_02.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_KO_Bennett_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_KO_Bennett_Elemental_Skill_1_Step_2_01.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_KO_Bennett_Elemental_Skill_1_Step_2_02.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_KO_Bennett_Elemental_Skill_1_Step_3_01.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/VO_KO_Bennett_Elemental_Skill_1_Step_3_02.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/VO_KO_Bennett_Elemental_Skill_1_02.ogg"
+  }
+ },
+ "Chongyun": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/VO_ZH_Chongyun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/VO_ZH_Chongyun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_ZH_Chongyun_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/VO_ZH_Chongyun_Elemental_Skill_1_04.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_JA_Chongyun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_JA_Chongyun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_JA_Chongyun_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/VO_JA_Chongyun_Elemental_Skill_1_04.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/VO_KO_Chongyun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_KO_Chongyun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/VO_KO_Chongyun_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/VO_KO_Chongyun_Elemental_Skill_1_04.ogg"
+  }
+ },
+ "Diluc": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Diluc_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/VO_ZH_Diluc_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_ZH_Diluc_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_JA_Diluc_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/VO_JA_Diluc_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_JA_Diluc_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_KO_Diluc_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/VO_KO_Diluc_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_KO_Diluc_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Diona": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/VO_ZH_Diona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/VO_ZH_Diona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_ZH_Diona_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/VO_ZH_Diona_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_ZH_Diona_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Diona_Elemental_Skill_1_06.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/VO_Diona_Elemental_Skill_2_01.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/VO_JA_Diona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/VO_JA_Diona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_JA_Diona_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/VO_JA_Diona_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/VO_JA_Diona_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/VO_JA_Diona_Elemental_Skill_1_06.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/VO_Diona_Elemental_Skill_2_01.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/VO_KO_Diona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_KO_Diona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/VO_KO_Diona_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/VO_KO_Diona_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_KO_Diona_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/VO_KO_Diona_Elemental_Skill_1_06.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/VO_Diona_Elemental_Skill_2_01.ogg"
+  }
+ },
+ "Eula": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/VO_ZH_Eula_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/VO_ZH_Eula_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/VO_ZH_Eula_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Eula_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/VO_ZH_Eula_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/VO_ZH_Eula_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/VO_JA_Eula_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_JA_Eula_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/VO_JA_Eula_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/VO_JA_Eula_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_JA_Eula_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/VO_JA_Eula_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/VO_KO_Eula_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/VO_KO_Eula_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/VO_KO_Eula_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_KO_Eula_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_KO_Eula_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_KO_Eula_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Fischl": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_ZH_Fischl_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/VO_ZH_Fischl_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_ZH_Fischl_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/VO_ZH_Fischl_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/VO_ZH_Fischl_Elemental_Skill_2_01.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_JA_Fischl_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_JA_Fischl_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_JA_Fischl_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/VO_JA_Fischl_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_JA_Fischl_Elemental_Skill_2_01.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_KO_Fischl_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/VO_KO_Fischl_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_KO_Fischl_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/VO_KO_Fischl_Elemental_Skill_1_04.ogg"
+  }
+ },
+ "Ganyu": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/VO_ZH_Ganyu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/VO_ZH_Ganyu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_ZH_Ganyu_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/VO_JA_Ganyu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/VO_JA_Ganyu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/VO_JA_Ganyu_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/VO_KO_Ganyu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/VO_KO_Ganyu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_KO_Ganyu_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Hu Tao": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/VO_ZH_Hu_Tao_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/VO_ZH_Hu_Tao_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_ZH_Hu_Tao_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/VO_JA_Hu_Tao_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_JA_Hu_Tao_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/VO_JA_Hu_Tao_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_KO_Hu_Tao_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/VO_KO_Hu_Tao_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/VO_KO_Hu_Tao_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Jean": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/VO_ZH_Jean_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Jean_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Jean_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_JA_Jean_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/VO_JA_Jean_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/VO_JA_Jean_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/VO_KO_Jean_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_KO_Jean_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_KO_Jean_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Kaedehara Kazuha": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/VO_ZH_Kaedehara_Kazuha_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_JA_Kaedehara_Kazuha_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/VO_KO_Kaedehara_Kazuha_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Kaeya": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/VO_ZH_Kaeya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/VO_ZH_Kaeya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/VO_ZH_Kaeya_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/VO_JA_Kaeya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/VO_JA_Kaeya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/VO_JA_Kaeya_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/VO_KO_Kaeya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/VO_KO_Kaeya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/VO_KO_Kaeya_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Kamisato Ayaka": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_ZH_Kamisato_Ayaka_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/VO_ZH_Kamisato_Ayaka_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_ZH_Kamisato_Ayaka_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_JA_Kamisato_Ayaka_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_JA_Kamisato_Ayaka_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_JA_Kamisato_Ayaka_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/VO_KO_Kamisato_Ayaka_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_KO_Kamisato_Ayaka_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/VO_KO_Kamisato_Ayaka_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Keqing": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Keqing_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/VO_ZH_Keqing_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_ZH_Keqing_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/VO_ZH_Keqing_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_ZH_Keqing_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/VO_ZH_Keqing_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_JA_Keqing_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_JA_Keqing_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/VO_JA_Keqing_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/VO_JA_Keqing_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/VO_JA_Keqing_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/VO_JA_Keqing_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_KO_Keqing_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_KO_Keqing_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/VO_KO_Keqing_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_KO_Keqing_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/VO_KO_Keqing_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/VO_KO_Keqing_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Klee": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Klee_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/VO_ZH_Klee_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/VO_ZH_Klee_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_JA_Klee_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_JA_Klee_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/VO_JA_Klee_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/VO_KO_Klee_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_KO_Klee_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_KO_Klee_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Kujou_Sara": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/VO_ZH_Kujou_Sara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_ZH_Kujou_Sara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Kujou_Sara_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_JA_Kujou_Sara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/VO_JA_Kujou_Sara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/VO_JA_Kujou_Sara_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/VO_KO_Kujou_Sara_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/VO_KO_Kujou_Sara_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/VO_KO_Kujou_Sara_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Lisa": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_ZH_Lisa_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Lisa_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/VO_ZH_Lisa_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/VO_ZH_Lisa_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/VO_ZH_Lisa_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/VO_JA_Lisa_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/VO_JA_Lisa_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/VO_JA_Lisa_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/VO_JA_Lisa_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/VO_JA_Lisa_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/VO_JA_Lisa_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_KO_Lisa_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/VO_KO_Lisa_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_KO_Lisa_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/VO_KO_Lisa_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_KO_Lisa_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/VO_KO_Lisa_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Mona": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/VO_ZH_Mona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/VO_ZH_Mona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/VO_ZH_Mona_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/VO_JA_Mona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_JA_Mona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/VO_JA_Mona_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/VO_KO_Mona_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/VO_KO_Mona_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/VO_KO_Mona_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Ningguang": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Ningguang_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/VO_ZH_Ningguang_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/VO_ZH_Ningguang_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/VO_JA_Ningguang_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/VO_JA_Ningguang_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_JA_Ningguang_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/VO_KO_Ningguang_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/VO_KO_Ningguang_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_KO_Ningguang_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Noelle": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_ZH_Noelle_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/VO_ZH_Noelle_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/VO_ZH_Noelle_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/VO_JA_Noelle_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/VO_JA_Noelle_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_JA_Noelle_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/VO_KO_Noelle_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/VO_KO_Noelle_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/VO_KO_Noelle_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Qiqi": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Qiqi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/VO_ZH_Qiqi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/VO_ZH_Qiqi_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/VO_ZH_Qiqi_Elemental_Skill_1_04.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/VO_JA_Qiqi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/VO_JA_Qiqi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/VO_JA_Qiqi_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/VO_JA_Qiqi_Elemental_Skill_1_04.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_KO_Qiqi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/VO_KO_Qiqi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_KO_Qiqi_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_KO_Qiqi_Elemental_Skill_1_04.ogg"
+  }
+ },
+ "Raiden Shogun": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/VO_ZH_Raiden_Shogun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/VO_ZH_Raiden_Shogun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/VO_ZH_Raiden_Shogun_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/VO_JA_Raiden_Shogun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/VO_JA_Raiden_Shogun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_JA_Raiden_Shogun_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_KO_Raiden_Shogun_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/VO_KO_Raiden_Shogun_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/VO_KO_Raiden_Shogun_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Razor": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/VO_ZH_Razor_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/VO_ZH_Razor_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_ZH_Razor_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/VO_ZH_Razor_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/VO_JA_Razor_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_JA_Razor_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/VO_JA_Razor_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/VO_JA_Razor_Elemental_Skill_1_06.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/VO_JA_Razor_Elemental_Skill_1_05.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/VO_KO_Razor_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_KO_Razor_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/VO_KO_Razor_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_KO_Razor_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Rosaria": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/VO_ZH_Rosaria_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Rosaria_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Rosaria_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/VO_JA_Rosaria_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/VO_JA_Rosaria_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/VO_JA_Rosaria_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_KO_Rosaria_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/VO_KO_Rosaria_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/VO_KO_Rosaria_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Sangonomiya_Kokomi": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/VO_ZH_Sangonomiya_Kokomi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/VO_ZH_Sangonomiya_Kokomi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Sangonomiya_Kokomi_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/VO_JA_Sangonomiya_Kokomi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/VO_JA_Sangonomiya_Kokomi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/VO_JA_Sangonomiya_Kokomi_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/VO_KO_Sangonomiya_Kokomi_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/VO_KO_Sangonomiya_Kokomi_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/VO_KO_Sangonomiya_Kokomi_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Sayu": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/VO_ZH_Sayu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/VO_ZH_Sayu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_ZH_Sayu_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/VO_ZH_Sayu_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/VO_ZH_Sayu_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/VO_ZH_Sayu_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_JA_Sayu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_JA_Sayu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_JA_Sayu_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/VO_JA_Sayu_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/VO_JA_Sayu_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/VO_JA_Sayu_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Sucrose": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/VO_ZH_Sucrose_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/VO_ZH_Sucrose_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/VO_ZH_Sucrose_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/VO_JA_Sucrose_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/VO_JA_Sucrose_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/VO_JA_Sucrose_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/VO_KO_Sucrose_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/VO_KO_Sucrose_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/VO_KO_Sucrose_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Tartaglia": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_ZH_Tartaglia_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_ZH_Tartaglia_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/VO_ZH_Tartaglia_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/VO_ZH_Tartaglia_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/VO_ZH_Tartaglia_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_ZH_Tartaglia_Elemental_Skill_1_06.ogg",
+   "100007": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/VO_ZH_Tartaglia_Elemental_Skill_2_01.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_JA_Tartaglia_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/VO_JA_Tartaglia_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/VO_JA_Tartaglia_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_JA_Tartaglia_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_JA_Tartaglia_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/VO_JA_Tartaglia_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/VO_KO_Tartaglia_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/VO_KO_Tartaglia_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/VO_KO_Tartaglia_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/VO_KO_Tartaglia_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/VO_KO_Tartaglia_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_KO_Tartaglia_Elemental_Skill_1_06.ogg"
+  }
+ },
+ "Traveler": {
+  "Chinese": {
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Aether_Elemental_Skill_1_Anemo_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/VO_ZH_Aether_Elemental_Skill_1_Anemo_03.ogg"
+  },
+  "Japanese": {
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/VO_JA_Aether_Elemental_Skill_1_Anemo_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/VO_JA_Aether_Elemental_Skill_1_Anemo_03.ogg"
+  },
+  "Korean": {
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/VO_KO_Aether_Elemental_Skill_1_Anemo_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/VO_KO_Aether_Elemental_Skill_1_Anemo_03.ogg"
+  }
+ },
+ "Venti": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/VO_ZH_Venti_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Venti_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_ZH_Venti_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/VO_ZH_Venti_Elemental_Skill_1_04.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/VO_JA_Venti_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/VO_JA_Venti_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/VO_JA_Venti_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_JA_Venti_Elemental_Skill_1_04.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/VO_KO_Venti_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_KO_Venti_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_KO_Venti_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/VO_KO_Venti_Elemental_Skill_1_04.ogg"
+  }
+ },
+ "Xiangling": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_ZH_Xiangling_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Xiangling_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/VO_ZH_Xiangling_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/VO_JA_Xiangling_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/VO_JA_Xiangling_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/VO_JA_Xiangling_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/VO_KO_Xiangling_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/VO_KO_Xiangling_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/VO_KO_Xiangling_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Xiao": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/VO_ZH_Xiao_Elemental_Skill_1_03.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/VO_ZH_Xiao_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Xiao_Elemental_Skill_1_01.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/VO_JA_Xiao_Elemental_Skill_1_02.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_JA_Xiao_Elemental_Skill_1_03.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/VO_JA_Xiao_Elemental_Skill_1_01.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/VO_KO_Xiao_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/VO_KO_Xiao_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/VO_KO_Xiao_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_KO_Xiao_Elemental_Skill_1_04.ogg"
+  }
+ },
+ "Xingqiu": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Xingqiu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_ZH_Xingqiu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/VO_ZH_Xingqiu_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/VO_JA_Xingqiu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/VO_JA_Xingqiu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/VO_JA_Xingqiu_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/VO_KO_Xingqiu_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/VO_KO_Xingqiu_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_KO_Xingqiu_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Xinyan": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/VO_ZH_Xinyan_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/VO_ZH_Xinyan_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/VO_ZH_Xinyan_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/VO_JA_Xinyan_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_JA_Xinyan_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/VO_JA_Xinyan_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_KO_Xinyan_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_KO_Xinyan_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/VO_KO_Xinyan_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Yanfei": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_ZH_Yanfei_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/VO_ZH_Yanfei_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/VO_ZH_Yanfei_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_JA_Yanfei_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/VO_JA_Yanfei_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/VO_JA_Yanfei_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/VO_KO_Yanfei_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/VO_KO_Yanfei_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/VO_KO_Yanfei_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Yoimiya": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/VO_ZH_Yoimiya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/VO_ZH_Yoimiya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/VO_ZH_Yoimiya_Elemental_Skill_1_03.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/VO_JA_Yoimiya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/VO_JA_Yoimiya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_JA_Yoimiya_Elemental_Skill_1_03.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/VO_KO_Yoimiya_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/VO_KO_Yoimiya_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_KO_Yoimiya_Elemental_Skill_1_03.ogg"
+  }
+ },
+ "Zhongli": {
+  "Chinese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_ZH_Zhongli_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/VO_ZH_Zhongli_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Zhongli_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/VO_ZH_Zhongli_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/VO_ZH_Zhongli_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_ZH_Zhongli_Elemental_Skill_1_06.ogg"
+  },
+  "Japanese": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/VO_JA_Zhongli_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/VO_JA_Zhongli_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_JA_Zhongli_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_JA_Zhongli_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/VO_JA_Zhongli_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/VO_JA_Zhongli_Elemental_Skill_1_06.ogg"
+  },
+  "Korean": {
+   "100001": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_KO_Zhongli_Elemental_Skill_1_01.ogg",
+   "100002": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_KO_Zhongli_Elemental_Skill_1_02.ogg",
+   "100003": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/VO_KO_Zhongli_Elemental_Skill_1_03.ogg",
+   "100004": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/VO_KO_Zhongli_Elemental_Skill_1_04.ogg",
+   "100005": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_KO_Zhongli_Elemental_Skill_1_05.ogg",
+   "100006": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/VO_KO_Zhongli_Elemental_Skill_1_06.ogg"
+  }
+ }
+}

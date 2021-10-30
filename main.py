@@ -132,7 +132,7 @@ async def ascension(ctx, character_name: str):
         embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~')
         file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
         embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed,file=file)
+        await ctx.send(embed=embed, file=file)
 
 @client.command()
 @commands.has_any_role(mod_role)
