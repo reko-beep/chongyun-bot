@@ -311,7 +311,7 @@ class GenshinDB():
                 embed: Embed
             '''
 
-            stats,icon = self.get_gstats(uid_data)
+            stats,icon = self.get_genshinstats(uid_data)
 
             embed = Embed(title=f'Genshin Impact Profile stats',description="",color=0xf5e0d0)
             for i in stats:
@@ -333,7 +333,7 @@ class GenshinDB():
 
         if len(uid_data) > 1:
 
-            characters_,weapons = self.get_characters(uid_data)
+            characters_,weapons = self.get_genshincharacters(uid_data)
            
             for no in range(0,len(characters_),1):
 
