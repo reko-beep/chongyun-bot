@@ -8,12 +8,14 @@ import nextcord as discord
 from util.logging import logc
 
 
-db = GenshinDB()
+
 
 class UIDManager(commands.Cog):
+    
     def __init__(self, pmon: Paimon):
         # pmon: Paimon = client: Bot.
         self.pmon = pmon
+        self.db = GenshinDB(pmon)
 
     
     @commands.command()
@@ -22,7 +24,7 @@ class UIDManager(commands.Cog):
 
         # show present uids
         if uid == None:
-            servers = db.get_servers(author_id)
+            servers = self.db.get_servers(author_id)
 
             if servers != None: # UIDs found.
                 description = ''
@@ -57,7 +59,7 @@ class UIDManager(commands.Cog):
         else:
 
             # todo: verify uid.
-            db.save_uid(author_id, int(uid))
+            self.db.save_uid(author_id, int(uid))
             await ctx.message.add_reaction('✅')
     
 
@@ -69,7 +71,7 @@ class UIDManager(commands.Cog):
             author_id = str(message.author.id)
             uid = int(message.content)
             # todo: verify uid.
-            db.save_uid(author_id, uid)
+            self.db.save_uid(author_id, uid)
             await message.add_reaction('✅')
     
 
