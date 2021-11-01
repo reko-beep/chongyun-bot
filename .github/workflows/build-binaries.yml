@@ -18,6 +18,7 @@ jobs:
     - name: Build
       run: |
         cd main/bin/hailgen
+        make
       
     - name: Upload Artifacts.
       uses: actions/upload-artifact@v2
