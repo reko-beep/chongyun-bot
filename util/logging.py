@@ -4,7 +4,7 @@ import inspect
 
 
 def log(*msg):
-    current_time = datetime.now().strftime("%H:%M:%S")
+    current_time = datetime.now().strftime("%m %b %H:%M:%S")
     print(f'[{current_time}]', *msg)
 
 
