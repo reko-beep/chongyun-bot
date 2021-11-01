@@ -23,46 +23,53 @@ async def get_angry(ctx, title, desc):
 class SoundBoard(commands.Cog):
     def __init__(self, pmon):
         self.pmon = pmon
-    
-        with open('assets/SoundBoard/honeyimpact_voicelines_data.json') as f:
-            self.sounds = json.load(f)
-        
-        self.other_sounds = os.listdir('assets/SoundBoard')
+
+        with open('assets/SoundBoard/genshinimpactfandom_voicelines_data.json', encoding="utf-8") as f:
+            self.voicelines = json.load(f)
+        self.other_sounds = os.listdir('assets/SoundBoard/sounds')
 
        
         
 
      
     @commands.command(aliases=['sb'])
-    async def soundboard(self, ctx, sound_type=None, given_chara=None):
+    async def soundboard(self, ctx, given_chara=None, given_voice_type=None, given_lang='Japanese'):
 
-        # play voicelines.
-        if sound_type in self.sounds["types"].keys():
-            matched_chara = None
-            for chara in self.sounds["valid_charas"]:
-                if given_chara.lower() in chara.lower():
-                    matched_chara = chara
-                    break
-            if matched_chara is None:
-                await ctx.send("wrong character name")
-                return
-            
-            # note: the cdn for honey hunter is highly unstable most of the time
-            # audio might be choppy or not playable at all.
-            # maybe cache the audio files locally on first outbound request.
-            url = f"https://genshin.honeyhunterworld.com/audio/quotes/{matched_chara}/{random.choice(self.sounds['types'][sound_type])}_jp.ogg"
-            logc("evaluated sound url", url)
-            # TODO: voice is chopped when playing small files.
-            # issue most likely with nextcord
-            await self.play_audio(ctx, url)
+        # TODO: handle characters/voices with spaces correctly.
+        #       maybe make (,) an optional delimiter when spaces are present
 
-        elif sound_type is not None:
-            await ctx.send("wrong sound type")
+        # invoked without arguments, display availabe sounds.
+        if (given_chara and given_chara) is None:
+            msg = await self.handle_other_sounds(ctx)
             return
-        
-        # play other sounds.
-        else:
-            msg = await self.handle_other_sounds(ctx) 
+
+        # get language dictkey
+        for lang in self.voicelines.keys():
+            if given_lang.lower() in lang.lower():
+                break
+
+        # get character name dictkey
+        for chara in self.voicelines[lang].keys():
+            if given_chara.lower() in chara.lower():
+                break
+        if chara is None:
+            await ctx.send("that character does not exist.")
+            return
+
+        # get voice_type dictkey
+        for voice_type in self.voicelines[lang][chara].keys():
+            if given_voice_type.lower() in voice_type.lower():
+                break
+        if voice_type is None:
+            await ctx.send("that voice type does not exist.")
+            return
+
+        url = list(random.choice(self.voicelines[lang][chara][voice_type]).values())[0]
+        logc("evaluated url", url)
+        await self.play_audio(ctx, url)  
+
+    
+            
 
 
     async def handle_other_sounds(self, ctx):
@@ -107,7 +114,7 @@ class SoundBoard(commands.Cog):
                 logc("got reaction", reaction.emoji)
 
                 choice = Numoji.get_int(reaction.emoji)
-                await self.play_audio(ctx, f'assets/SoundBoard/{sounds[choice]}')
+                await self.play_audio(ctx, f'assets/SoundBoard/sounds/{sounds[choice]}')
                 
         return msg
 
