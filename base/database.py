@@ -16,7 +16,7 @@ class GenshinDB():
         self.data = {}
         self.allowed = ['eu','na','asia']        
         self.ltoken = pmon.p_bot_config['ltoken']
-        self.ltuid = pmon.p_bot_config['luid']
+        self.ltuid = pmon.p_bot_config['ltuid']
         self.__load()
 
     def __load(self):
