@@ -40,7 +40,7 @@ data = {}
 
 guides_ = GenshinGuides()
 
-db = GenshinDB()
+db = GenshinDB(pmon)
 quotes_ = GenshinQuotes()
 voice_handler = Lobby(client)
 quests_handler = GenshinQuests()
