@@ -13,6 +13,9 @@ from asyncio import sleep
 
 class Bump:
     def __init__(self, pmon: Paimon):
+        '''
+        Initialization
+        '''
         self.pmon : Paimon = pmon
         self.file = 'bump.json'
 
@@ -28,6 +31,11 @@ class Bump:
         self.disboard_bot_id = 302050872383242240
 
     async def parse_message_for_bump(self, message: Message):
+        '''
+
+        This looks for bump message by disboard, and adds a role to user who bumped it if the role is set!
+        also adds a reminder for set time to notify users to bump
+        '''
 
         embed_present = (len(message.embeds) != 0)
 
@@ -40,7 +48,14 @@ class Bump:
                 await self.send_bump_success_message(message,user_id)
                 await self.send_bump_schedule_message(message)
 
+                if self.bump_role:
+                    user = get(self.pmon.guilds[0].members,id=int(user_id))
+                    await user.add_roles(self.bump_role)
+
     def save_bump(self, user_id : str):
+        '''
+        save bump counts to file
+        '''
 
         if user_id in self.bump_data:
             self.bump_data[user_id] += 1
@@ -53,12 +68,17 @@ class Bump:
             dump(self.bump_data,f)
 
     def load_bumps(self):
-        if exists(self.file):
-            remove(self.file)        
+        '''
+        loads bump counts from file
+        '''    
         with open(self.file,'w') as f:
             self.bump_data = dump(f)
 
     def get_bump_counter(self, user_id:str):
+        '''
+        returns a user bump count if exists
+        else none
+        '''
 
         return self.bump_data.get(user_id)
 
@@ -66,6 +86,9 @@ class Bump:
 
 
     async def send_bump_success_message(self, message: Message, user_id: str):
+        '''
+        sends thank you bump message
+        '''
 
         message_channel = message.channel
 
@@ -75,10 +98,17 @@ class Bump:
         await message_channel.send(embed=embed,file=file)
 
     def parse_user_id(self, message_str: str):
+        '''
+        gets user id from disboard bump message
+
+        '''
         if '<' in message_str:
             return message_str[message_str.find('<')+1:message_str.find('>')]
 
-    async def send_bump_schedule_message(self, message: Message):
+    async def send_bump_schedule_message(self):
+        '''
+        sends a bump reminder
+        '''
         await sleep(self.timer) 
 
         text = 'Is someone available to bump the server? '
