@@ -1,0 +1,764 @@
+{
+ "data": [
+  {
+   "id": "primordial_jade_winged_spear",
+   "name": "Primordial Jade Winged-Spear",
+   "rarity": "5",
+   "atk": 48,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "skyward_spine",
+   "name": "Skyward Spine",
+   "rarity": "5",
+   "atk": 48,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "aquila_favonia",
+   "name": "Aquila Favonia",
+   "rarity": "5",
+   "atk": 48,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "amos_bow",
+   "name": "Amos Bow",
+   "rarity": "5",
+   "atk": 46,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "wolfs_gravestone",
+   "name": "Wolfs Gravestone",
+   "rarity": "5",
+   "atk": 46,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "kunwus_iris_rift",
+   "name": "Kunwus Iris Rift",
+   "rarity": "5",
+   "atk": 46,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "skyward_harp",
+   "name": "Skyward Harp",
+   "rarity": "5",
+   "atk": 45,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "skyward_atlas",
+   "name": "Skyward Atlas",
+   "rarity": "5",
+   "atk": 45,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "skyward_pride",
+   "name": "Skyward Pride",
+   "rarity": "5",
+   "atk": 45,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "blackcliff_warbow",
+   "name": "Blackcliff Warbow",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "starglitter exchange",
+   "type": "bow"
+  },
+  {
+   "id": "lost_prayer_to_the_sacred_winds",
+   "name": "Lost Prayer to the Sacred Winds",
+   "rarity": "5",
+   "atk": 44,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "mappa_mare",
+   "name": "Mappa Mare",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "crafting",
+   "type": "catalyst"
+  },
+  {
+   "id": "royal_grimoire",
+   "name": "Royal Grimoire",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "starglitter exchange",
+   "type": "catalyst"
+  },
+  {
+   "id": "prototype_aminus",
+   "name": "Prototype Aminus",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "crafting",
+   "type": "claymore"
+  },
+  {
+   "id": "sacrificial_greatsword",
+   "name": "Sacrificial Greatsword",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "crescent_pike",
+   "name": "Crescent Pike",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "crafting",
+   "type": "polearm"
+  },
+  {
+   "id": "favonius_lance",
+   "name": "Favonius Lance",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "blackcliff_longsword",
+   "name": "Blackcliff Longsword",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "starglitter exchange",
+   "type": "sword"
+  },
+  {
+   "id": "prototype_rancour",
+   "name": "Prototype Rancour",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "crafting",
+   "type": "sword"
+  },
+  {
+   "id": "skyward_blade",
+   "name": "Skyward Blade",
+   "rarity": "5",
+   "atk": 44,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "the_alley_flash",
+   "name": "The Alley Flash",
+   "rarity": "4",
+   "atk": 44,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "sacrificial_bow",
+   "name": "Sacrificial Bow",
+   "rarity": "4",
+   "atk": 43,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "royal_greatsword",
+   "name": "Royal Greatsword",
+   "rarity": "4",
+   "atk": 43,
+   "obtain": "starglitter exchange",
+   "type": "claymore"
+  },
+  {
+   "id": "prototype_crescent",
+   "name": "Prototype Crescent",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "crafting",
+   "type": "bow"
+  },
+  {
+   "id": "royal_bow",
+   "name": "Royal Bow",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "starglitter exchange",
+   "type": "bow"
+  },
+  {
+   "id": "rust",
+   "name": "Rust",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "the_stringless",
+   "name": "The Stringless",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "the_viridescent_hunt",
+   "name": "The Viridescent Hunt",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "bp bounty",
+   "type": "bow"
+  },
+  {
+   "id": "blackcliff_amulet",
+   "name": "Blackcliff Amulet",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "starglitter exchange",
+   "type": "catalyst"
+  },
+  {
+   "id": "favonius_codex",
+   "name": "Favonius Codex",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "prototype_malice",
+   "name": "Prototype Malice",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "crafting",
+   "type": "catalyst"
+  },
+  {
+   "id": "solar_pearl",
+   "name": "Solar Pearl",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "bp bounty",
+   "type": "catalyst"
+  },
+  {
+   "id": "the_widsith",
+   "name": "The Widsith",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "wine_and_song",
+   "name": "Wine and Song",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "blackcliff_slasher",
+   "name": "Blackcliff Slasher",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "starglitter exchange",
+   "type": "claymore"
+  },
+  {
+   "id": "rainslasher",
+   "name": "Rainslasher",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "serpent_spine",
+   "name": "Serpent Spine",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "bp bounty",
+   "type": "claymore"
+  },
+  {
+   "id": "the_bell",
+   "name": "The Bell",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "whiteblind",
+   "name": "Whiteblind",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "crafting",
+   "type": "claymore"
+  },
+  {
+   "id": "blackcliff_pole",
+   "name": "Blackcliff Pole",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "starglitter exchange",
+   "type": "polearm"
+  },
+  {
+   "id": "lithic_spear",
+   "name": "Lithic Spear",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "prototype_grudge",
+   "name": "Prototype Grudge",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "crafting",
+   "type": "polearm"
+  },
+  {
+   "id": "iron_sting",
+   "name": "Iron Sting",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "crafting",
+   "type": "sword"
+  },
+  {
+   "id": "lions_roar",
+   "name": "Lions Roar",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "royal_longsword",
+   "name": "Royal Longsword",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "starglitter exchange",
+   "type": "sword"
+  },
+  {
+   "id": "the_black_sword",
+   "name": "The Black Sword",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "bp bounty",
+   "type": "sword"
+  },
+  {
+   "id": "the_flute",
+   "name": "The Flute",
+   "rarity": "4",
+   "atk": 42,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "alley_hunter",
+   "name": "Alley Hunter",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "compound_bow",
+   "name": "Compound Bow",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "crafting",
+   "type": "bow"
+  },
+  {
+   "id": "favonius_warbow",
+   "name": "Favonius Warbow",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "eye_of_perception",
+   "name": "Eye of Perception",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "sacrificial_fragments",
+   "name": "Sacrificial Fragments",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "favonius_greatsword",
+   "name": "Favonius Greatsword",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "lithic_blade",
+   "name": "Lithic Blade",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "deathmatch",
+   "name": "Deathmatch",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "bp bounty",
+   "type": "polearm"
+  },
+  {
+   "id": "dragons_bane",
+   "name": "Dragons Bane",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "favonius_sword",
+   "name": "Favonius Sword",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "sacrificial_sword",
+   "name": "Sacrificial Sword",
+   "rarity": "4",
+   "atk": 41,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "ebony_bow",
+   "name": "Ebony Bow",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "messenger",
+   "name": "Messenger",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "chest",
+   "type": "bow"
+  },
+  {
+   "id": "raven_bow",
+   "name": "Raven Bow",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "amber_catalyst",
+   "name": "Amber Catalyst",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "emerald_orb",
+   "name": "Emerald Orb",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "twin_nephrite",
+   "name": "Twin Nephrite",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "quartz",
+   "name": "Quartz",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "halberd",
+   "name": "Halberd",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "dark_iron_sword",
+   "name": "Dark Iron Sword",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "travelers_handy_sword",
+   "name": "Travelers Handy Sword",
+   "rarity": "3",
+   "atk": 40,
+   "obtain": "chest",
+   "type": "sword"
+  },
+  {
+   "id": "sharpshooters_oath",
+   "name": "Sharpshooters Oath",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "otherworldly_story",
+   "name": "Otherworldly Story",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "thrilling_tales_of_dragon_slayers",
+   "name": "Thrilling Tales of Dragon Slayers",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "debate_club",
+   "name": "Debate Club",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "ferrous_shadow",
+   "name": "Ferrous Shadow",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "skyrider_greatsword",
+   "name": "Skyrider Greatsword",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "white_iron_greatsword",
+   "name": "White Iron Greatsword",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "white_tassel",
+   "name": "White Tassel",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "chest",
+   "type": "polearm"
+  },
+  {
+   "id": "cool_steel",
+   "name": "Cool Steel",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "fillet_blade",
+   "name": "Fillet Blade",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "harbinger_of_dawn",
+   "name": "Harbinger of Dawn",
+   "rarity": "3",
+   "atk": 39,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "recurve_bow",
+   "name": "Recurve Bow",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "chest",
+   "type": "bow"
+  },
+  {
+   "id": "slingshot",
+   "name": "Slingshot",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "gacha",
+   "type": "bow"
+  },
+  {
+   "id": "magic_guide",
+   "name": "Magic Guide",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "gacha",
+   "type": "catalyst"
+  },
+  {
+   "id": "bloodtainted_greatsword",
+   "name": "Bloodtainted Greatsword",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "gacha",
+   "type": "claymore"
+  },
+  {
+   "id": "black_tassel",
+   "name": "Black Tassel",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "gacha",
+   "type": "polearm"
+  },
+  {
+   "id": "skyrider_sword",
+   "name": "Skyrider Sword",
+   "rarity": "3",
+   "atk": 38,
+   "obtain": "gacha",
+   "type": "sword"
+  },
+  {
+   "id": "seasoned_hunters_bow",
+   "name": "Seasoned Hunters Bow",
+   "rarity": "2",
+   "atk": 33,
+   "obtain": "chest",
+   "type": "bow"
+  },
+  {
+   "id": "pocket_grimoire",
+   "name": "Pocket Grimoire",
+   "rarity": "2",
+   "atk": 33,
+   "obtain": "chest",
+   "type": "catalyst"
+  },
+  {
+   "id": "old_mercs_pal",
+   "name": "Old Mercs Pal",
+   "rarity": "2",
+   "atk": 33,
+   "obtain": "chest",
+   "type": "claymore"
+  },
+  {
+   "id": "iron_point",
+   "name": "Iron Point",
+   "rarity": "2",
+   "atk": 33,
+   "obtain": "chest",
+   "type": "polearm"
+  },
+  {
+   "id": "silver_sword",
+   "name": "Silver Sword",
+   "rarity": "2",
+   "atk": 33,
+   "obtain": "chest",
+   "type": "sword"
+  },
+  {
+   "id": "hunters_bow",
+   "name": "Hunters Bow",
+   "rarity": "1",
+   "atk": 23,
+   "obtain": "chest",
+   "type": "bow"
+  },
+  {
+   "id": "apprentices_notes",
+   "name": "Apprentices Notes",
+   "rarity": "1",
+   "atk": 23,
+   "obtain": "chest",
+   "type": "catalyst"
+  },
+  {
+   "id": "waster_greatsword",
+   "name": "Waster Greatsword",
+   "rarity": "1",
+   "atk": 23,
+   "obtain": "chest",
+   "type": "claymore"
+  },
+  {
+   "id": "beginners_protector",
+   "name": "Beginners Protector",
+   "rarity": "1",
+   "atk": 23,
+   "obtain": "chest",
+   "type": "polearm"
+  },
+  {
+   "id": "dull_blade",
+   "name": "Dull Blade",
+   "rarity": "1",
+   "atk": 23,
+   "obtain": "chest",
+   "type": "sword"
+  }
+ ]
+}
