@@ -169,6 +169,9 @@ class GenshinGacha:
         '''
         fetches all banner wish histories from api
         and stores it in wishhistory.json
+
+        returns:
+         uid
         '''
         banner_code = [301,302,100,200]
         if authkey.startswith('https://'):
@@ -235,7 +238,7 @@ class GenshinGacha:
             data = save_data
         with open(f'{self.path}/uids/{uid}/wishhistory-{uid}.json','w') as f:
                 json.dump(data,f,indent=1)
-        return save_data
+        return uid
 
 
 
@@ -631,3 +634,13 @@ class GenshinGacha:
                     canvas.add_field('At 50/50 Pull','No')
             canvas.add_field('50/50s won',len(stat['5050items']))         
             canvas.save_pic(uid,banner)
+
+'''
+example 
+
+Gacha = GenshinGacha()
+authkey = Gacha.extract_authkey('feedback_url')
+uid = Gacha.fetch_wishhistory(authkey, *optional uid*)
+Gacha.process_wishes(uid)
+Gacha.create_canvas_image(uid)
+'''
