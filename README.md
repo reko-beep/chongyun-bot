@@ -7,7 +7,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 
 
-Paimon bot created for discord community of Pakistan Genshin Impact server, you are free to use it, if you want!
+Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting noe, you are free to use it, if you want!
 it contains
 
     🔸 Paimon soundboard! (sounds provided)
@@ -16,7 +16,13 @@ it contains
     🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)
     🔸 An anime command, cuz felt the need for server.
     🔸 Shows genshin stats from hoyolab (api wrapper by thesadru on github)
-
+ 
+ TOBEADDED | FUTURE IDEAS:
+     Wish History
+     Users custom builds creator.
+     Build Notes.
+     
+     
 # Setting up the bot
  
  Change the **settings.json** file according to your needs!
