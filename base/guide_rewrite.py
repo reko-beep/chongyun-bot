@@ -1,11 +1,13 @@
 from nextcord import Embed, File
 from nextcord.ext import commands,tasks
 
+from core.paimon import Paimon
+
 from os import getcwd, listdir,remove
 from os.path import isfile, join,exists
 from json import load,dump
 
-#from util.logging import log
+from util.logging import log
 
 '''
 
