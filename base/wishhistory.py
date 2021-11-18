@@ -1,6 +1,6 @@
 import requests
 import json
-import time
+from asyncio import sleep
 
 
 import os
@@ -208,9 +208,10 @@ class GenshinGacha:
                                     page += 1
                                 else:
                                     fetch = False
+                                sleep(2)
                             else:
                                 fetch = False
-                            time.sleep(5)
+                                
 
                             
                         else:
