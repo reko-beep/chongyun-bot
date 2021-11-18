@@ -210,16 +210,9 @@ class GenshinGacha:
                                     page += 1
                                 else:
                                     fetch = False
-                                sleep(2)
+                                await sleep(2)
                             else:
-                                fetch = False
-<<<<<<< HEAD
-                            await sleep(5)
-=======
-                                
->>>>>>> 490b8d0e86c353501f046e8cc4e1f58f353daba2
-
-                            
+                                fetch = False              
                         else:
                             fetch = False
                 else:
