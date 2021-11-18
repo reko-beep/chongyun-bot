@@ -1,6 +1,6 @@
 import requests
 import json
-import time
+from asyncio import sleep
 
 
 import os
@@ -165,14 +165,16 @@ class GenshinGacha:
             return unquote(match.group(1))
         return None
 
-    def fetch_wishhistory(self,authkey : str,uid:int=-1):
+    async def fetch_wishhistory(self,authkey : str,uid:int=-1):
         '''
         fetches all banner wish histories from api
         and stores it in wishhistory.json
 
         returns:
          uid
+         and dict showing which banner had new items pulled
         '''
+        new_items_banner = {}
         banner_code = [301,302,100,200]
         if authkey.startswith('https://'):
             authkey_ = self.extract_authkey(authkey)
@@ -210,7 +212,7 @@ class GenshinGacha:
                                     fetch = False
                             else:
                                 fetch = False
-                            time.sleep(5)
+                            await sleep(5)
 
                             
                         else:
@@ -231,6 +233,7 @@ class GenshinGacha:
                 previous_array = temp_data[banner]['list']
                 new_array = save_data[banner]['list']
                 new_items = self.array_diff(previous_array,new_array)
+                new_items_banner[banner_code] = (len(new_items) !=0)
                 with open(f'{self.path}/uids/{uid}/newitems_{banner}.json','w') as f:
                     json.dump(new_items,f)
                 data[banner] = {'total': len(previous_array)+ len(new_items), 'list': previous_array + new_items}
@@ -238,7 +241,7 @@ class GenshinGacha:
             data = save_data
         with open(f'{self.path}/uids/{uid}/wishhistory-{uid}.json','w') as f:
                 json.dump(data,f,indent=1)
-        return uid
+        return uid,new_items_banner
 
 
 
@@ -434,7 +437,7 @@ class GenshinGacha:
         return fivestarpity,fourstarpity 
                        
 
-    def process_wishes(self,uid: int):
+    def process_wishes(self,uid: int, banner_code: str):
         '''
 
         process wishes from wish history file
@@ -446,117 +449,116 @@ class GenshinGacha:
         self.create_folder(uid)
         with open(f'{self.path}/uids/{uid}/wishhistory-{uid}.json','r') as f:
             data = json.load(f)
-        wishes = []
-        for banner_code in data:            
-            fourstarpity = 0
-            fivestarpity = 0
-            fourstarstage = ''
-            fivestarstage = ''
-            totalpulls = 0
-            if 'list' in data[banner_code]:
-                list_pulls = data[banner_code]['list']               
-                print(f'banner code {banner_code}')          
-                for index in range(len(list_pulls)-1,-1,-1):            
-                    pull = list_pulls[index]                             
-                    foundBanners = self.get_banners(banners,pull['time'],banner_code)   
+        wishes = []           
+        fourstarpity = 0
+        fivestarpity = 0
+        fourstarstage = ''
+        fivestarstage = ''
+        totalpulls = 0
+        if 'list' in data[banner_code]:
+            list_pulls = data[banner_code]['list']               
+            print(f'banner code {banner_code}')          
+            for index in range(len(list_pulls)-1,-1,-1):            
+                pull = list_pulls[index]                             
+                foundBanners = self.get_banners(banners,pull['time'],banner_code)   
+                '''
+                if banner_code in ['301','302']:                 
+                names = [(i['start'],pull['time'],i['end'], (len(foundBanners) == 1)) for i in foundBanners]     
+                print(names)
+                '''
+                one_banner = (len(foundBanners) == 1)
+                #print(f'found one banner {one_banner}')
+                if one_banner:       #checks if only one banner is found
+                    index_in_wishes = self.banner_in_wishes(wishes,self.generate_key(foundBanners[0]['name']),foundBanners[0]['start'],foundBanners[0]['end'])
+                    #print(f'index in wishes list {index_in_wishes}')
                     '''
-                    if banner_code in ['301','302']:                 
-                    names = [(i['start'],pull['time'],i['end'], (len(foundBanners) == 1)) for i in foundBanners]     
-                    print(names)
+                    check if a banner object already exists in wishes[list] and
+                    if present
+                        returns its index.
+                    else
+                        creates a banner object
+                    '''                
+                    if index_in_wishes == None:  
+                        if len(wishes) > 1:                    
+                            lastbanner = wishes[len(wishes)-1]
+                            fivestarpity = self.correct_pity(banner_object,lastbanner,fivestarpity)                        
+                        #print(f'new banner')
+                        featuredItems = self.get_banner_featured(foundBanners[0])
+                        weaponItems = self.get_banner_weapons(foundBanners[0])
+                        characterItems = self.get_banner_characters(foundBanners[0])
+                        '''
+                        Pity calculation only if banner is character_event -> 301                
+                        '''                   
+                        banner_object = {
+                            'id': self.generate_key(foundBanners[0]['name']),
+                            'name': foundBanners[0]['name'],
+                            'start': foundBanners[0]['start'],
+                            'end': foundBanners[0]['end'],
+                            'banner_code': banner_code,
+                            'featured5star': featuredItems['fivestar'],
+                            'featured4star': featuredItems['fourstar'],
+                            'featured3star': featuredItems['threestar'],
+                            'weapons': weaponItems,
+                            'characters': characterItems,
+                            'pulls' : [],
+                            'totalpulls': 0,
+                            '5starpity': fivestarpity,
+                            '4starpity': fourstarpity,
+                            '5starstage': '', 
+                            '4starstage': '',
+                            '4starchance': '',
+                            '5starpities': [], #at which pities 5 star was pulled
+                            '4starpities': [], #at which pities 4 star was pulled
+                            '5staritems': [],
+                            '4staritems': [],
+                            '5050items': [],
+                            'rateup': self.rateup_previous(wishes)                   #true if 50/50, false if 100              
+                            }  
+                        #print(f'banner {banner_object}')
+                        wishes.append(banner_object)   
+                    else:
+                        print(f'same banner')
+                    if index_in_wishes == None:
+                        index_in_wishes = self.banner_in_wishes(wishes,self.generate_key(foundBanners[0]['name']),foundBanners[0]['start'],foundBanners[0]['end'])   
+                    else:
+                        banner_object = wishes[index_in_wishes]             
                     '''
-                    one_banner = (len(foundBanners) == 1)
-                    #print(f'found one banner {one_banner}')
-                    if one_banner:       #checks if only one banner is found
-                        index_in_wishes = self.banner_in_wishes(wishes,self.generate_key(foundBanners[0]['name']),foundBanners[0]['start'],foundBanners[0]['end'])
-                        #print(f'index in wishes list {index_in_wishes}')
-                        '''
-                        check if a banner object already exists in wishes[list] and
-                        if present
-                            returns its index.
-                        else
-                            creates a banner object
-                        '''                
-                        if index_in_wishes == None:  
-                            if len(wishes) > 1:                    
-                                lastbanner = wishes[len(wishes)-1]
-                                fivestarpity = self.correct_pity(banner_object,lastbanner,fivestarpity)                        
-                            #print(f'new banner')
-                            featuredItems = self.get_banner_featured(foundBanners[0])
-                            weaponItems = self.get_banner_weapons(foundBanners[0])
-                            characterItems = self.get_banner_characters(foundBanners[0])
-                            '''
-                            Pity calculation only if banner is character_event -> 301                
-                            '''                   
-                            banner_object = {
-                                'id': self.generate_key(foundBanners[0]['name']),
-                                'name': foundBanners[0]['name'],
-                                'start': foundBanners[0]['start'],
-                                'end': foundBanners[0]['end'],
-                                'banner_code': banner_code,
-                                'featured5star': featuredItems['fivestar'],
-                                'featured4star': featuredItems['fourstar'],
-                                'featured3star': featuredItems['threestar'],
-                                'weapons': weaponItems,
-                                'characters': characterItems,
-                                'pulls' : [],
-                                'totalpulls': 0,
-                                '5starpity': fivestarpity,
-                                '4starpity': fourstarpity,
-                                '5starstage': '', 
-                                '4starstage': '',
-                                '4starchance': '',
-                                '5starpities': [], #at which pities 5 star was pulled
-                                '4starpities': [], #at which pities 4 star was pulled
-                                '5staritems': [],
-                                '4staritems': [],
-                                '5050items': [],
-                                'rateup': self.rateup_previous(wishes)                   #true if 50/50, false if 100              
-                                }  
-                            #print(f'banner {banner_object}')
-                            wishes.append(banner_object)   
-                        else:
-                            print(f'same banner')
-                        if index_in_wishes == None:
-                            index_in_wishes = self.banner_in_wishes(wishes,self.generate_key(foundBanners[0]['name']),foundBanners[0]['start'],foundBanners[0]['end'])   
-                        else:
-                            banner_object = wishes[index_in_wishes]             
-                        '''
-                        Pity calculation for events            
-                        '''                        
-                    #print(f'pities [5star {fivestarpity} | 4star {fourstarpity}]')                    
-                        chanceforfivestar = self.chance_for_fivestar(banner_object,fivestarpity)
-                        fivestarpity, fourstarpity = self.calculate_pity(banner_object,pull,fivestarpity,fourstarpity)
-                        banner_object['5starpity'] = fivestarpity
-                        banner_object['4starpity'] = fourstarpity
-                        '''
+                    Pity calculation for events            
+                    '''                        
+                #print(f'pities [5star {fivestarpity} | 4star {fourstarpity}]')                    
+                    chanceforfivestar = self.chance_for_fivestar(banner_object,fivestarpity)
+                    fivestarpity, fourstarpity = self.calculate_pity(banner_object,pull,fivestarpity,fourstarpity)
+                    banner_object['5starpity'] = fivestarpity
+                    banner_object['4starpity'] = fourstarpity
+                    '''
 
-                        todo: pull and pity stuff here
+                    todo: pull and pity stuff here
 
+                    '''
+                    if banner_object:
                         '''
-                        if banner_object:
-                            '''
-                            pity stuff here
-                            '''
-                            pity_ = self.rank_pity_dict(fivestarpity,fourstarpity)
-                            chance_ = {}
-                            if pull['rank_type'] == '5':
-                                chance_ = self.chance_result_dict(pull['rank_type'],'won',chanceforfivestar)
-                            #print(pity_) 
-                            pull_object = dict({
-                                'id': self.generate_key(pull['name']),
-                                'type': pull['item_type'],
-                                'time': pull['time'],
-                                'rank': pull['rank_type']                                           
-                                },**pity_,** chance_)    
-                                              
-                            banner_object['chancefor5star'] = chanceforfivestar               
-                            banner_object['pulls'].append(pull_object)
-                            banner_object['totalpulls'] += 1
-                            #print(stage_for_5star(fivestarpity, banner_object['rateup']))
-                            banner_object['5starstage'] = self.stage_for_5star(fivestarpity, banner_object['rateup'])
-                            #print(stage_for_4star(fourstarpity))
-                            banner_object['4starstage'] = self.stage_for_4star(fourstarpity)
-                            banner_object['primogems'] = self.calculate_primogems(banner_object['totalpulls'])
+                        pity stuff here
+                        '''
+                        pity_ = self.rank_pity_dict(fivestarpity,fourstarpity)
+                        chance_ = {}
+                        if pull['rank_type'] == '5':
+                            chance_ = self.chance_result_dict(pull['rank_type'],'won',chanceforfivestar)
+                        #print(pity_) 
+                        pull_object = dict({
+                            'id': self.generate_key(pull['name']),
+                            'type': pull['item_type'],
+                            'time': pull['time'],
+                            'rank': pull['rank_type']                                           
+                            },**pity_,** chance_)    
+                                            
+                        banner_object['chancefor5star'] = chanceforfivestar               
+                        banner_object['pulls'].append(pull_object)
+                        banner_object['totalpulls'] += 1
+                        #print(stage_for_5star(fivestarpity, banner_object['rateup']))
+                        banner_object['5starstage'] = self.stage_for_5star(fivestarpity, banner_object['rateup'])
+                        #print(stage_for_4star(fourstarpity))
+                        banner_object['4starstage'] = self.stage_for_4star(fourstarpity)
+                        banner_object['primogems'] = self.calculate_primogems(banner_object['totalpulls'])
 
         #return wishes        
 
@@ -640,7 +642,10 @@ example
 
 Gacha = GenshinGacha()
 authkey = Gacha.extract_authkey('feedback_url')
-uid = Gacha.fetch_wishhistory(authkey, *optional uid*)
-Gacha.process_wishes(uid)
-Gacha.create_canvas_image(uid)
+uid,banner_new = await Gacha.fetch_wishhistory(authkey, *optional uid*)
+if len(banner_new) !=0:
+    for banner in banner_new:
+        if banner_new[banner] = True: # if new items found
+            Gacha.process_wishes(uid)
+            Gacha.create_canvas_image(uid)
 '''
