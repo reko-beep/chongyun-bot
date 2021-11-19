@@ -1,134 +1,227 @@
-import os
-import nextcord as discord
+from nextcord import Embed, File
 from nextcord.ext import commands,tasks
-from os import listdir
-from os.path import isfile, join
-import json
+
+from os import getcwd, listdir,remove
+from os.path import isfile, join,exists
+from json import load,dump
+
+from util.logging import log
+
+'''
+
+ |- Guides
+    |
+    |
+    --- Character Name
+        |
+        |
+        ----- builds
+        |           sub_dps.jpg
+        |           main_dps.jpg
+        |
+        |
+        ------ ascension_talents
+
+'''
 
 class GenshinGuides:
-    def __init__(self):
-        self.path = f'{os.getcwd()}/guides/'
+    def __init__(self, pmon: Paimon):
+        '''
+        initializes genshin guide module
+        '''
+
+        self.path = f'{getcwd()}/guides/'
         self.characters = []
-        self.case = self._caseinsensitive()
-        self._load_characters()
+        self.pmon = pmon
+
+        self.images_path = '{base_path}/{character_name}/{type}/'
+        self.options = {'as':
+                            {
+                                'folder': 'ascension_talents',
+                                'title': 'Ascension and Talent Mats'
+                            },
+                        'b':
+                            {
+                            'folder': 'builds',
+                            'title': 'Builds'
+                            }
+                        }
+
+        self.thumbnails = {}
+
+        self.load_thumbnails()
+        self.load_characters()
+    
+    def load_characters(self):
+        '''
+        ---
+        returns
+        ---
+        loads character from bot config file
+        '''
         
-    def _load_characters(self):
-        if os.path.exists('characters.json'):
-            with open('characters.json','r') as f:
-                self.characters = json.load(f)['characters']
+        if 'characters' in self.pmon.p_bot_config:
+            self.characters = self.pmon.p_bot_config['characters']
+            log('loaded characters from bot config file!')
 
-    def _caseinsensitive(self):
-        temp_ = {}
-        for i in self.characters:
-            temp_[i.lower()] = i
-        return temp_
+    def load_thumbnails(self):
+        with open(f'{self.path}/thumbnails.json','r') as f:
+            self.thumbnails = load(f)
 
-    def _search(self,name):
+    def get_thumbnail(self, character_name: str):
+        '''
+        gets thumbnail link for character
+        ---
+        args
+        ---
+        character_name
 
-        for i in self.case:
-            if name.lower() == i:
-                return self.case[i]
+        ---
+        returns
+        ---
+            link
+            
+        '''
 
-    def get_supported_option(self,option):
-        options_ = ['ast:ascension_talents','bd:builds']
-        for i in options_:
-            check_ = i.split(":")
-            if option in check_:
-                return check_[1]
+    def search_character(self, character_name: str):
+        '''
+        searches provided character in allowed list of characters
+        ---
+        args
+        ---
+        character_name
+
+        ---
+        returns
+        ---
+            character name 
+            
+        '''
+        if character_name != '':
+            for character in self.characters:
+                if character_name.lower() in character.lower():
+                    return character
         return None
+    
+    def get_option(self, option_name: str):
+        '''
+        directory name for option_name provided
 
-    def get_build_type(self,filename: str):
-        """
+        ---
+        args
+        ---
+        option_name : as for ascension, b for builds
 
-        Prettifying build_files name!
+        ---
+        returns:
+        ---
+            directory name
+            
+        '''
+        if option_name.lower() in self.options:
+            return self.options[option_name.lower()]['folder']
+        return None
+    
+    def get_files(self, character_name: str, option_name: str):
+        '''
+        returns all files in a directory
+
+        ---
+        args
+        ---
+            character_name 
+            option_name: as for ascension, b for builds
+
+        ---
+        returns
+        ---
+            list: [files path]
+        '''
         
-        _ -> spaces
-        dps -> DPS
+        character = self.search_character(character_name)        
+        option = self.get_option(option_name)
+        
+        if character and option:
 
-        """
+            images_path = self.images_path.format(base_path=self.path,character_name=character,type=option)
+            print(images_path)
+            if exists(images_path):
+                log(f'found files for {character}')
+                files = [join(images_path,f) for f in listdir(images_path) if isfile(join(images_path,f))]
+                return files
 
-        text = ''
-        if "_" in filename:
-            for i in filename.split('.')[0].split("_"):
-                if text == '':
-                    text += f'{i.capitalize()} '
-                else:
-                    if 'dps' in i:
-                        text += 'DPS'
-                    else:
-                        text += f'{i.capitalize()}'
-        else:
-            text = filename.split('.')[0].capitalize()
-        return text
+        return None
+    
+    def prettify_file_name(self,option_name: str, file_path :str):
+        '''
+        prettifies the file name for displaying
+
+        ---
+        args
+        ---
+            option_name: as for ascension | b for builds
+            file_path
+
+        ---
+        returns
+        ---
+            main_heading_text -> generated from option
+            title_text -> generated from filename
+        '''
+
+        file_path_list = file_path.split('/')
+        file_name = file_path_list[-1][:file_path_list[-1].find('.')]
+
+        character_name = file_path.split('/')[-3]
+
+        if option_name in self.options:
+            if option_name == 'b':
+                main_heading_text = f"{character_name} {self.options[option_name]['title']}"
+                title_text = ' '.join([name.title() for name in file_name[:file_name.find('dps')].split('_')])
+                if file_name.find('dps'):
+                    title_text += ' DPS'
+            if option_name == 'as':
+                main_heading_text = f"{character_name} {self.options[option_name]['title']}"
+                title_text = ''
+
+        return main_heading_text,title_text
+
+                
+    def create_embeds(self,option_name: str, character_name:str):
+        '''
+        creates embeds and files to send for discord bot
+
+        ---
+        args
+        ---
+
+            option_name: as for ascension | b for builds
+            character_name
+
+        ---
+        returns
+        ---
+
+            tuple: (embeds_list,files_list) or (None,None)
+        '''
+
+        files = self.get_files(character_name,option_name)
+        if files:
+            embeds = []
+            embed_files = []
+            for file in files:
+
+                main_title,sub_title = self.prettify_file_name(option_name,file)
+                file_name = file.split('/')[-1]
+
+                embed = Embed(title=main_title,description=sub_title,color=0xf5e0d0)
+                embed_files.append(File(file,filename=file_name))
+                embed.set_thumbnail(url=self.get_thumbnail(character_name))
+                embed.set_image(url=f'attachement://{file_name}')
+                embeds.append(embed)
+
+            return embeds,embed_files
+        
+        return None,None
 
         
-
-
-
-
-    def get_files(self,character_name :str,guide: str):
-        """
-        Searches files in guides/name -> character
-        """
-        search_results = self._search(character_name)
-
-        #searches the provided name in characters database
-
-        print(f'Character Name {search_results}')
-        if os.path.exists(f'{self.path}/{search_results}/'):
-            print(f"Path Exists:  {self.path}/{search_results}/")
-            option_ = self.get_supported_option(guide)
-            print(f'Option selected: {option_}')
-            if option_ != None:
-                if os.path.exists(f'{self.path}/{search_results}/{option_}'):
-                    print(f"Path Exists:  {self.path}/{search_results}/{option_}")
-                    files = [f for f in listdir(f'{self.path}/{search_results}/{option_}') if isfile(join(f'{self.path}/{search_results}/{option_}', f))]
-                    print(files)
-                    return files,f'{self.path}/{search_results}/{option_}'
-            else:
-                return None,None
-        else:
-            return None,None
-
-    def create_embeds(self,name,option_):
-        files,path = self.get_files(name,option_)
-        character = self._search(name)
-        option = self.get_supported_option(option_)
-        if option != None:
-            option_text = ''
-            if '_' in option:                
-                option = option.split('_')
-                for i in option:
-                    if option_text == '':
-                        option_text += f'{i.capitalize()} and '
-                    else:
-                        option_text += f'{i.capitalize()} Mats'
-            else:
-                option_text = option
-        print(len(files) == 0)
-        check = (files == path == None) and (len(files) == 0)
-        print(check)
-        if check != True:   
-            if (len(files) != 0):         
-                files_list = []
-                embeds = []
-                for i in files:
-                    type_ = self.get_build_type(i)
-                    files_list.append(discord.File(f'{path}/{i}',filename=i))                
-                    embed = discord.Embed(title=f'{character} {option_text}',description=f'**{type_}**',color=0xf5e0d0)
-                    embed.set_image(url=f'attachment://{i}')                               
-                    print(i)
-                    embeds.append(embed)
-                return embeds,files_list
-            else:
-                embed =  discord.Embed(title=f'{character} {option_text}',description=f'Sorry p-p-paimon could not find anything!\ncontact archons!',color=0xf5e0d0)
-                embed.set_thumbnail(url=f'attachment://sorry.png')
-                files_list = [discord.File(f'{self.path}/paimon/sorry.png',filename='sorry.png')]                
-                return [embed],files_list
-        else:
-            embed =  discord.Embed(title=f'{character} {option_text}',description=f'Sorry p-p-paimon could not find anything!\ncontact archons!',color=0xf5e0d0)
-            embed.set_thumbnail(url=f'attachment://sorry.png')
-            files_list = [discord.File(f'{self.path}/paimon/sorry.png',filename='sorry.png')]
-            return [embed],files_list
-
-
