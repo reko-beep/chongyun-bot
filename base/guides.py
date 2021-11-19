@@ -82,6 +82,8 @@ class GenshinGuides:
             link
             
         '''
+        if character_name in self.thumbnails:
+            return self.thumbnails[character_name]
 
     def search_character(self, character_name: str):
         '''
@@ -216,8 +218,9 @@ class GenshinGuides:
 
                 embed = Embed(title=main_title,description=sub_title,color=0xf5e0d0)
                 embed_files.append(File(file,filename=file_name))
-                embed.set_thumbnail(url=self.get_thumbnail(character_name))
-                embed.set_image(url=f'attachement://{file_name}')
+                if self.get_thumbnail(character_name):
+                    embed.set_thumbnail(url=self.get_thumbnail(character_name))
+                embed.set_image(url=f'attachment://{file_name}')
                 embeds.append(embed)
 
             return embeds,embed_files
