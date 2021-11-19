@@ -1,6 +1,7 @@
 {
     "announce_channel": "channel id here without string quotes",
     "bump_channel":"channel id here without string quotes",
+    "bump_role": "bumper role id here without strings",
     "dropuid_channel":"channel id here without string quotes",
     "events_channel":"channel id here without string quotes",
     "approve_role":"role id here without string quotes",
