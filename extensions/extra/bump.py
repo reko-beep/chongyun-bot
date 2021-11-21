@@ -6,7 +6,7 @@ from nextcord.utils import get
 from base.bump import Bump
 
 from core.paimon import Paimon
-
+from util.logging import logc
 
 class Bumper(commands.Cog):
     def __init__(self, pmon : Paimon):
@@ -54,13 +54,15 @@ class Bumper(commands.Cog):
 
         top_bumper = self.bump_handler.get_topbumper()
         bumps = self.bump_handler.get_bump_counter(str(top_bumper))
+        logc(f'Top Bumper userid: {top_bumper}', f'Count {bumps}')
 
         user = get(ctx.guild.members,id=int(top_bumper))
+        logc(f'Use fetched: {user}')
 
-        if top_bumper == None:
-            if user == None:
+        if top_bumper != None:
+            if user != None:
                 embed = Embed(title='Top Bumper',
-                        description=f'have bumped this server most time\n around {bumps} times!',
+                        description=f'**{user}** have bumped this server most time\n around {bumps} times!',
                         color=0xf5e0d0) 
                 embed.set_author(name=user.display_name,
                                 icon_url=user.avatar.url)

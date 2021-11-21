@@ -9,7 +9,7 @@ from nextcord.utils import get
 from core.paimon import Paimon
 
 from asyncio import sleep
-
+from util.logging import logc
 
 class Bump:
     def __init__(self, pmon: Paimon):
@@ -42,7 +42,7 @@ class Bump:
         if embed_present:
             
             embed_description = message.embeds[0].description
-            bumped = ('Bump Done' in embed_description) and (message.author.id == self.disboard_bot_id)
+            bumped = ('bump done' in embed_description.lower()) and (message.author.id == self.disboard_bot_id)
             if bumped:
                 user_id = self.parse_user_id(embed_description)
                 await self.send_bump_success_message(message,user_id)
