@@ -5,6 +5,7 @@ from os import getcwd, listdir,remove
 from os.path import isfile, join,exists
 from json import load,dump
 
+from core.paimon import Paimon
 from util.logging import log
 
 '''
@@ -67,6 +68,7 @@ class GenshinGuides:
     def load_thumbnails(self):
         with open(f'{self.path}/thumbnails.json','r') as f:
             self.thumbnails = load(f)
+            log('loaded character thumnails.')
 
     def get_thumbnail(self, character_name: str):
         '''
@@ -82,8 +84,10 @@ class GenshinGuides:
             link
             
         '''
-        if character_name in self.thumbnails:
-            return self.thumbnails[character_name]
+        character = self.search_character(character_name)
+        if character:
+            if character in self.thumbnails:
+                return self.thumbnails[character]
 
     def search_character(self, character_name: str):
         '''
@@ -146,9 +150,8 @@ class GenshinGuides:
         if character and option:
 
             images_path = self.images_path.format(base_path=self.path,character_name=character,type=option)
-            print(images_path)
             if exists(images_path):
-                log(f'found files for {character}')
+                log(f'found files for {character} | Path {images_path}')
                 files = [join(images_path,f) for f in listdir(images_path) if isfile(join(images_path,f))]
                 return files
 
@@ -178,12 +181,12 @@ class GenshinGuides:
 
         if option_name in self.options:
             if option_name == 'b':
-                main_heading_text = f"{character_name} {self.options[option_name]['title']}"
+                main_heading_text = f"{self.options[option_name]['title']}"
                 title_text = ' '.join([name.title() for name in file_name[:file_name.find('dps')].split('_')])
                 if file_name.find('dps'):
                     title_text += ' DPS'
             if option_name == 'as':
-                main_heading_text = f"{character_name} {self.options[option_name]['title']}"
+                main_heading_text = f"{self.options[option_name]['title']}"
                 title_text = ''
 
         return main_heading_text,title_text
@@ -208,6 +211,7 @@ class GenshinGuides:
         '''
 
         files = self.get_files(character_name,option_name)
+        character = self.search_character(character_name)
         if files:
             embeds = []
             embed_files = []
@@ -217,9 +221,10 @@ class GenshinGuides:
                 file_name = file.split('/')[-1]
 
                 embed = Embed(title=main_title,description=sub_title,color=0xf5e0d0)
-                embed_files.append(File(file,filename=file_name))
-                if self.get_thumbnail(character_name):
-                    embed.set_thumbnail(url=self.get_thumbnail(character_name))
+                embed_files.append(File(file,filename=file_name))                
+                if self.get_thumbnail(character_name) and character:
+                    log(f'thumbnail fetched {self.get_thumbnail(character_name)} ')
+                    embed.set_author(name=character,icon_url=self.get_thumbnail(character_name),url=self.get_thumbnail(character_name))
                 embed.set_image(url=f'attachment://{file_name}')
                 embeds.append(embed)
 
