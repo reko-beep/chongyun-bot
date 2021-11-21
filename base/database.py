@@ -167,26 +167,35 @@ class GenshinDB():
 
         self.__save()
 
-    def prettify_linked_message(self, server_region: str, uid: int):
+    def get_server_region(self, uid:int):
+        server = str(uid)[0]
+
+        # asia server
+        if str(uid)[0] == '6':
+            server = 'na'
+        elif server == '7':
+            server = 'eu'
+        elif server == '8':
+            server = 'asia'
+        elif server == '9':
+            server = 'tw'
+        else:
+            server = None
+        return server
+
+    def prettify_linked_message(self, username: str , uid: int):
         '''
 
         Generates a prettified linked message!
 
         '''
 
-        # Allowed servers format
-        
-        allowed_format = "asia:eu:europe:na:northamerica".split(':')
-        server_index = -1
-        try:
-            server_index = allowed_format.index(server_region)
-        except:
-            return None
-        else:
-            if server_index > 0 and server_index % 2 == 0:
-                server_index -= 1
+        server = self.get_server_region(uid)
 
-            return f'Region {allowed_format[server_index]} | UID {uid} linked!'
+        if server:        
+            return f'{username} : Region **{server.capitalize()}** | UID {uid} linked!'
+        else:
+            return f'{username} : Region **Not Found** | UID {uid} linked!'
             
 
     def parse_discord_message(self,discord_id: str, discord_message: str, seperator: str=':', first_part_region: bool = True):    
@@ -374,6 +383,3 @@ class GenshinDB():
 
 
 
-
-
-        

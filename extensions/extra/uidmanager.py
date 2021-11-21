@@ -1,10 +1,12 @@
 from nextcord.ext import commands
 from nextcord.ext.commands.bot import Bot
+from nextcord.member import Member
 from nextcord.message import Message
 from base.database import GenshinDB
 from core.paimon import Paimon
 import nextcord as discord
 
+from asyncio import sleep
 from util.logging import logc
 
 
@@ -67,13 +69,56 @@ class UIDManager(commands.Cog):
     @commands.Cog.listener('on_message')
     async def on_message(self, message: Message):
 
-        if message.channel.id == self.pmon.p_bot_config['dropuid_channel']:
+        if message.channel.id == self.pmon.p_bot_config['dropuid_channel']:            
             author_id = str(message.author.id)
-            uid = int(message.content)
-            # todo: verify uid.
-            self.db.save_uid(author_id, uid)
-            await message.add_reaction('✅')
+            if message.content.isdigit():
+
+                uid = int(message.content)
+                # todo: verify uid.
+                self.db.save_uid(author_id, uid)
+                linked_message = self.db.prettify_linked_message(message.author.display_name, uid)
+                await message.add_reaction('✅')
+                await message.channel.send(linked_message)
+
+                await sleep(2)
+                await message.delete()
+            else:
+                if message.author.id != self.pmon.user.id:
+                    await message.delete()
     
+    @commands.command(aliases=['gserv','gservers'])
+    async def gserver(self,ctx, user: Member = None):
+
+        if not user:
+            user = ctx.author
+        
+        id = str(user.id)
+        servers = self.db.get_servers(id)
+
+        if servers:
+            embed = discord.Embed(
+                        title=f'Genshin Impact servers!'
+                        ,color=0xf5e0d0)    
+
+            embed.set_author(name=f'{user.display_name}',icon_url=user.avatar.url)
+
+            for server in servers:
+                embed.add_field(name=server.upper(),value=f'UID: {servers[server]}')
+
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/889177911020626000/898899943807414283/happy.png')
+
+            await ctx.send(embed=embed)
+        else:
+            embed = discord.Embed(
+                    title='Paimon is angry!',
+                    description='What do you wa- want, huh~\n please link the id!',
+                    color=0xf5e0d0)
+                
+            embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/889177911020626000/897757609887670283/angry.png')
+            await ctx.send(embed=embed)
+
+
+        
 
 
 
