@@ -21,7 +21,6 @@ class Bumper(commands.Cog):
         '''
         look for bump message if successful sets a reminder to set message
         '''
-
         await self.bump_handler.parse_message_for_bump(message)
     
     @commands.command()
@@ -29,7 +28,7 @@ class Bumper(commands.Cog):
         if user == None:
             user = ctx.author
 
-        bumps = self.bump_handler.get_bump_counter(str(ctx.author.id))
+        bumps = self.bump_handler.get_bump_counter(str(user.id))
 
         if bumps:
             embed = Embed(title='Bumps', 
@@ -49,7 +48,7 @@ class Bumper(commands.Cog):
 
             await ctx.send(embed=embed)
 
-    @commands.command(aliases=['bumpt','bt'])
+    @commands.command(aliases=['btop','bt'])
     async def bumptop(self,ctx):
 
         top_bumper = self.bump_handler.get_topbumper()

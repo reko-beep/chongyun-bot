@@ -36,22 +36,26 @@ class Bump:
         This looks for bump message by disboard, and adds a role to user who bumped it if the role is set!
         also adds a reminder for set time to notify users to bump
         '''
+        
+        channel_set = (self.bump_channel != 0)
 
-        embed_present = (len(message.embeds) != 0)
+        if channel_set:
+            if message.channel.id == self.bump_channel:
+                embed_present = (len(message.embeds) != 0)
 
-        if embed_present:
-            
-            embed_description = message.embeds[0].description
-            bumped = ('bump done' in embed_description.lower()) and (message.author.id == self.disboard_bot_id)
-            if bumped:
-                user_id = self.parse_user_id(embed_description)
-                await self.send_bump_success_message(message,user_id)
-                await self.send_bump_schedule_message(message)
-                self.save_bump(user_id)
+                if embed_present and (message.author.id == self.disboard_bot_id):
+                    
+                    embed_description = str(message.embeds[0].description)
+                    bumped = ('bump done' in embed_description.lower()) 
+                    if bumped:
+                        user_id = self.parse_user_id(embed_description)
+                        await self.send_bump_success_message(message,user_id)
+                        await self.send_bump_schedule_message(message)
+                        self.save_bump(user_id)
 
-                if self.bump_role:
-                    user = get(self.pmon.guilds[0].members,id=int(user_id))
-                    await user.add_roles(self.bump_role)
+                        if self.bump_role:
+                            user = get(self.pmon.guilds[0].members,id=int(user_id))
+                            await user.add_roles(self.bump_role)
 
     def get_topbumper(self):
         if len(self.bump_data) != 0:
