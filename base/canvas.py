@@ -1,4 +1,4 @@
-from os import getcwd
+from os import getcwd,mkdir
 from os.path import exists
 from bs4 import BeautifulSoup
 from html2image import Html2Image
@@ -14,7 +14,11 @@ class BannerCanvas:
         self.file = f'{self.path}/assests/template.html'
         self.light_font = f'{self.path}/assests/inter.ttf'        
         self.src = ''
-        self.renderer = Html2Image(custom_flags=['--virtual-time-budget=50000', '--hide-scrollbars'],output_path=f'{self.path}/uids/{uid}/')
+
+        if not exists(f'{self.path}/uids/{uid}/images/'):
+            mkdir(f'{self.path}/uids/{uid}/images/')
+
+        self.renderer = Html2Image(custom_flags=['--virtual-time-budget=50000', '--hide-scrollbars'],output_path=f'{self.path}/uids/{uid}/images/')
         self.width = 450
         self.height = 80 #pity + heading height
         self.width_iter = 0
