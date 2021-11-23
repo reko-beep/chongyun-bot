@@ -20,15 +20,17 @@ it contains
 
 # Being worked on
 
-    Wish History ![Done](https://cliply.co/wp-content/uploads/2021/03/372103860_CHECK_MARK_400px.gif?raw=true)
-    Users custom builds creator. ![In Progress](https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif?raw=true)
-    Build Notes. ![In Progress](https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif?raw=true)
-    Quests Code rewriting. ![In Progress](https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif?raw=true)
+[Logo](https://flevix.com/wp-content/uploads/2019/12/Barline-Loading-Images-1.gif?raw=true)
+
+Wish History (Almost done!)
+Users custom builds creator. 
+Build Notes. 
+Quests Code rewriting. 
      
      
 # Setting up the bot
  
-  Will be updated soons ![In Progress](https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif?raw=true)
+  Will be updated soon ![In Progress](https://flevix.com/wp-content/uploads/2019/12/Barline-Loading-Images-1.gif?raw=true))
 # How can I get my cookies?
 **Taken from thesadru/genshinstats github**
 1. go to [hoyolab.com](https://www.hoyolab.com/genshin/)
