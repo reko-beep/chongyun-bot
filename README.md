@@ -20,17 +20,17 @@ it contains
 
 # Being worked on
 
-[Logo](https://flevix.com/wp-content/uploads/2019/12/Barline-Loading-Images-1.gif?raw=true)
+[Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
-Wish History (Almost done!)
-Users custom builds creator. 
-Build Notes. 
-Quests Code rewriting. 
+    🔸Wish History (Almost done!)
+    🔸Users custom builds creator. 
+    🔸Build Notes. 
+    🔸Quests Code rewriting. 
      
      
 # Setting up the bot
  
-  Will be updated soon ![In Progress](https://flevix.com/wp-content/uploads/2019/12/Barline-Loading-Images-1.gif?raw=true))
+  Will be updated soon ![In Progress](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 # How can I get my cookies?
 **Taken from thesadru/genshinstats github**
 1. go to [hoyolab.com](https://www.hoyolab.com/genshin/)
