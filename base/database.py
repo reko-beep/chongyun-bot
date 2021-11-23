@@ -1,6 +1,8 @@
 
 from nextcord.ext import commands,tasks
 from nextcord import Embed
+from nextcord.utils import get
+
 from core.paimon import Paimon
 
 from os import listdir,getcwd,remove
@@ -69,6 +71,22 @@ class GenshinDB():
             return None
         return None
 
+    def get_discord_user_from_uid(self, uid :str ):
+        '''
+        Gets discord user from uid
+
+        '''
+        members = self.pmon.guilds[0].members
+
+        for discord_id in self.data:
+            uid_data = self.data[discord_id]
+            uids = list(uid_data.values())
+            if int(uid) in uids:
+                server = list(uid_data.keys())[list(uid_data.values()).index(int(uid))]
+                user = get(members,id=int(discord_id))
+                return user, server
+        return None,None
+            
 
 
     def get_uid(self,discord_id: str,server_region: str):
@@ -349,7 +367,7 @@ class GenshinDB():
                 characters_[no].pop('name')
                 weapons[no].pop('name')
                           
-                embed_char = Embed(title=f"{characters_[no]['name']}",color=0xf5e0d0)
+                embed_char = Embed(title=f"Character stats",color=0xf5e0d0)
                 for i in characters_[no]:
 
                     # omits image,icon
@@ -360,14 +378,14 @@ class GenshinDB():
                     if i != 'icon'and i != 'artifacts' and i != 'image' and i != 'constellations' and i != 'outfits':
                         print(f'{i} added')
                         embed_char.add_field(name=f"{i.replace('_',' ',99).title()}",value=characters_[no][i],inline=True)
-                embed_char.set_thumbnail(url=f"{characters_[no]['icon']}")
+                embed_char.set_author(name=f"{characters_[no]['name']}",icon_url=f"{characters_[no]['icon']}")
                 embed_char.set_image(url=f"{characters_[no]['image']}")
 
-                embed_weapon = Embed(title=f"{characters_[no]['name']} {weapons[no]['name']}",color=0xf5e0d0)            
+                embed_weapon = Embed(title=f"Weapon stats",color=0xf5e0d0)            
                 for i in weapons[no]:
                     if i != 'icon':
-                        embed_weapon.add_field(name=f"{i.replace('_',' ',99).title()}",value=weapons[no][i],inline=True)               
-                embed_weapon.set_thumbnail(url=f"{weapons[no]['icon']}")
+                        embed_weapon.add_field(name=f"{i.replace('_',' ',99).title()}",value=weapons[no][i],inline=True)  
+                embed_char.set_author(name=f"{characters_[no]['name']} {weapons[no]['name']}",icon_url=f"{weapons[no]['icon']}")    
 
                 embeds[str(no)] = {'character': embed_char,'weapon': embed_weapon}
 
