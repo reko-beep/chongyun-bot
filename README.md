@@ -17,20 +17,23 @@ it contains
     🔸 Shows genshin stats and characters from hoyolab (api wrapper by thesadru on github)
  
 
+![In Progress](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
 # Being worked on
 
-![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
+    
 
     🔸Wish History (Almost done!)
     🔸Users custom builds creator. 
     🔸Build Notes. 
     🔸Quests Code rewriting. 
      
-     
+
+![In Progress](https://64.media.tumblr.com/a3fb5c2c2680bb969a50fb5447427e40/9e53aa2b8d88992a-b0/s400x600/f56a7e820a00952b6d8c5545ddc891e47a6ffa9e.gif?raw=true) 
 # Setting up the bot
+
  
-  Will be updated soon ![In Progress](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
+  Will be updated soon 
 # How can I get my cookies?
 **Taken from thesadru/genshinstats github**
 1. go to [hoyolab.com](https://www.hoyolab.com/genshin/)
