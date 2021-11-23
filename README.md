@@ -20,7 +20,7 @@ it contains
 
 # Being worked on
 
-[Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
+![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
     🔸Wish History (Almost done!)
     🔸Users custom builds creator. 
