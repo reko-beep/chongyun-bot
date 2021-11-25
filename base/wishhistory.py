@@ -23,7 +23,7 @@ sample_input_url = 'https://webstatic-sea.mihoyo.com/ys/event/im-service/index.h
 class GenshinGacha:
     def __init__(self):
         self.url = ''
-        self.USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+        self.USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; Unity 3D; ZFBrowser 2.1.0; Genshin Impact 2.3.0_4786731_4861639) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
         self.url = 'https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog'  
         self.path = getcwd()+f'/assets/wishes/'
         pass
@@ -51,39 +51,59 @@ class GenshinGacha:
         if uid_[:1] in regions:
             return regions[uid_[:1]]   
 
-
-    def get_history(self, authkey: str,bannercode : str,page: str,size: str,end: str, uid: str):
-        '''
+    #
+    # depreciated stopped working as of 23 december, 2021
+    #
+    '''
+    def get_history(self, authkey: str,bannercode : str,page: str,size: str,end: str):
+        
         get wish history
         authkey - > str
         bannercode -> 301, 302, 200, 100
         page - > 1 for first
         size -> 6 or 20
         end -> 0 for first or id of last wish in previous page
-        '''        
+               
         params = {
             'authkey_ver': '1',
-            'lang': 'en-us',
-            'authkey': str(authkey),
+            'sign_type': '2',            
+            'auth_appid': 'webview_gacha',
+            'lang': 'en',                 
+            'region': 'os_asia',      
+            'init_type': '100',
+            'authkey': str(authkey),            
+            'game_biz': 'hk4e_global',
             'gacha_type' : str(bannercode),        
-            'page': str(page),
-            'end_id': str(end),
+            'page': str(page),            
             'size': str(size),
-            'region': self.get_region(uid)
+            'end_id': str(end),
+
         }
-        headers = {
-            'user-agent': self.USER_AGENT,
-            'Content-Type': 'application/json',
-            'cookie': 'ltuid=6457775;ltoken=tJLdlousrYagG8jky6vKNJpKWnqS8joxuby1D3mS;'        
-        } 
+        
         session = requests.get(self.url,params=params,headers=headers)
+        print(session.headers)
         if session.status_code != 404:
             data = session.json()
+            print(data)
             if data['retcode'] == 0:
                 if data['message'] == 'OK':
                     return data
         return None
-
+    '''
+    def get_history(self, link, gacha_type: str,page : str, size: str, end : str):
+        headers = {
+            'user-agent': self.USER_AGENT,
+            'Content-Type': 'application/json',    
+        } 
+        session = requests.get(link.format(gachatype=gacha_type,page=page,size=size,end=end),headers=headers)
+        print(session.headers)
+        if session.status_code != 404:
+            data = session.json()
+            print(data)
+            if data['retcode'] == 0:
+                if data['message'] == 'OK':
+                    return data
+        return None
 
     def load_banners(self):
         '''
@@ -161,7 +181,55 @@ class GenshinGacha:
             return unquote(match.group(1))
         return None
 
-    def fetch_wishhistory(self,authkey : str,uid:int=-1):
+    def create_link_from_outputfile(self,output_file_link: str):
+        '''
+        creates link from uploaded output file link
+        '''
+        data = requests.get(output_file_link).content.decode('utf-8')
+        lines = data.splitlines()
+        urls = []
+        for line in lines:
+            if line.startswith('OnGetWebViewPageFinish:'):
+                urls.append(line[line.find('OnGetWebViewPageFinish:')+len('OnGetWebViewPageFinish:'):])
+        if urls[-1].startswith('https://webstatic-sea.mihoyo.com'):
+            params = urls[-1][urls[-1].find('index.html')+len('index.html'):].replace('#/log','',1)
+            link = 'https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog{params}&gacha_type={gachatype}&page={page}&size={size}&end_id={end}'
+            return link.replace('{params}',params,1)
+        return ''
+
+    def create_link_from_link(self,output_link: str):
+        '''
+        creates api link from a wish history link
+        '''
+        output_link = output_link[output_link.find('https://webstatic-sea.mihoyo.com'):]
+        params = output_link[output_link.find('index.html')+len('index.html'):output_link.find('#/log')]
+        link = 'https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog{params}&gacha_type={gachatype}&page={page}&size={size}&end_id={end}'
+        return link.replace('{params}',params,1)
+        
+
+    def get_uid_from_history(self, link:str):
+        '''
+
+        gets uid from wish history
+
+        '''
+        banners = [301,302,200,100]
+        for banner in banners:
+            r = requests.get(link.format(gachatype=banner,page=1,size=6,end=0)).json()
+            if r['message'] == 'OK':
+                if 'list' in r['data']:
+                    if bool(r['data']['list']):
+                        uid = r['data']['list'][0]['uid']
+                        return uid
+
+    def check_output_file(self, output_file_link: str):
+        checker = ('output_file' in output_file_link.split('/')[-1])
+        return checker
+
+
+
+
+    def fetch_wishhistory(self, output_file_link: str, uid: int=-1):
         '''
         fetches all banner wish histories from api
         and stores it in wishhistory.json
@@ -172,15 +240,33 @@ class GenshinGacha:
         '''
         new_items_banner = {}
         banner_code = [301,302,100,200]
+        '''
         if authkey.startswith('https://'):
             authkey_ = self.extract_authkey(authkey)
         else:
             authkey_ = authkey
-        print(f'found authkey - {authkey_}')
-        save_data = {}
+        print(f'found authkey - {authkey_}')        
+        
         if uid == -1:
             uid = get_uid_from_authkey(authkey_)
-        self.create_folder(uid)
+        '''
+        print(self.check_output_file(output_file_link))
+        if self.check_output_file(output_file_link):
+            link = self.create_link_from_outputfile(output_file_link)
+            print(link)
+        else:
+            link = self.create_link_from_link(output_file_link)
+            print(link)   
+            if '{params}' in link:
+                link = ''         
+        if link == '':
+            return None
+        uid = self.get_uid_from_history(link)
+        if uid is not None:            
+            self.create_folder(uid)
+        else:
+            return None
+        save_data = {}
         for i in banner_code:
             banner = str(i)
             page = 1
@@ -188,7 +274,7 @@ class GenshinGacha:
             save_ = {} 
             fetch = True        
             while fetch == True:                  
-                full_data = self.get_history(authkey_,banner,page,20,end,str(uid))            
+                full_data = self.get_history(link,str(i),str(page),'20',end)       
                 #print(full_data)
                 if full_data is not None:
                     if full_data['message'] == 'OK':
@@ -340,7 +426,7 @@ class GenshinGacha:
         '''
         checks if previous one was same banner and returns the corrected pity
         '''
-        if last_banner_dict['banner_code'] == banner_dict['banner_code'] == '301' or last_banner_dict['banner_code'] == banner_dict['banner_code'] == '302':        
+        if last_banner_dict['banner_code'] == banner_dict['banner_code'] == '301' or last_banner_dict['banner_code'] == banner_dict['banner_code'] == '302' or last_banner_dict['banner_code'] == banner_dict['banner_code'] == '400':        
             return last_banner_dict['5starpity']
         else:
             return 0
@@ -688,3 +774,4 @@ class GenshinGacha:
                     banner_code = wish.split('/')[-1].split('-')[-1].split('.')[0]
                     self.create_canvas_image(uid,banner_code)
                     
+
