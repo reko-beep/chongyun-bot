@@ -1,595 +1,620 @@
-import os
-from pprint import pprint
-import nextcord as discord
-from nextcord.ext import commands,tasks
-from os import listdir
-from os.path import isfile, join
-import json
+from os.path import exists
+from os import remove,getcwd
+from json import dump, load
+
+from nextcord import Embed,Member
+
+
 
 
 class GenshinQuests:
     def __init__(self):
         self.quests = {}
-        self.keys = {}
-        self._load()
-        self.prettify_keys()        
-        pass
+        self.path = f'{getcwd()}/assets/quests/'
+        self.load_quests()
 
-    def _load(self):
-        if os.path.exists('all_quests.json'):
-            with open('all_quests.json','r') as f:
-                self.quests = json.load(f)
+    def load_quests(self):
+        if exists(f'{self.path}/quests.json'):
+            with open(f'{self.path}/quests.json','r') as f:
+                self.quests = load(f)
     
-    def prettify(self,str_):
-        if '_s_' in str_:
-            str_ = str_.replace('_s_','_',1)
-        str_ = str_.replace('_',' ',99)
-        return str_.title()
+    def save_quests(self):
+        if exists(f'{self.path}/quests.json'):            
+            remove(f'{self.path}/quests.json')
+            with open(f'{self.path}/quests.json','w') as f:
+                dump(self.quests,f)
     
-    def prettify_keys(self):
-        for i in self.quests:
-            pr = ''
-            if '_s_' in i:
-                pr = i.replace('_s_','_',1)
-            if pr != '':
-                pr = pr.replace('_',' ',99)
-            else:
-                pr = i.replace('_',' ',99)
-            self.keys[pr.title()] = i
 
-    def remove_seperators(self,str_):
-        keys = [';',':',"'",'-','\\','.',',','/','!']
-        for i in keys:
-            str_ = str_.replace(i,'',99)
-        return str_
+    def quest_filter(self, search_string: str, type_: str):
+        '''
 
-    def get_prettified_from_keys(self,key):        
-        for x in self.keys:            
-            if self.keys[x] == key:
-                return {x:self.keys[x]}
-       
+        filter quests based on search string provided and type
+        ---
+        args
+        ---
+        search_string : act or chapter name
+        type: act, chapter
+
+        ---
+        returns
+        ---
+        
+        search_list [quests]
 
 
-    def chapter_keys(self,chapter_name):
-        splited = chapter_name.lower().split(' ')              
-        search_dict = {}
-        chapter = ''
-        for i in self.quests:            
-            if 'chapter' in self.quests[i]:
-                add = False
-                key = ''
-                if type(self.quests[i]['chapter']) == dict:     
-                    if len(self.quests[i]['chapter'].keys()) >= 1:              
-                        key = self.remove_seperators(list(self.quests[i]['chapter'].keys())[0].lower())                   
-                else:
-                    key = self.remove_seperators(self.quests[i]['chapter'])
-                if key != '':
-                    key_split = key.split(' ')
-                    if len(key_split) > len(splited):
-                        for check in range(0,len(splited),1):
-                            if splited[check] == key_split[check]:
-                                add = True   
-                                chapter = key
-                            else:
-                                add = False
-                                break                     
-                    else:
-                        for check in range(0,len(key_split),1):
-                            if splited[check] == key_split[check]:
-                                add = True
-                                chapter = key  
-                            else:
-                                add = False
-                                break
-                    if add == True:
-                        if chapter in search_dict:
-                            #print(f'To find key {i}')
-                            dict_ = self.get_prettified_from_keys(i)
-                            #print(dict_)
-                            search_dict[chapter].append(dict_)
-                        else:
-                            search_dict[chapter] = [self.get_prettified_from_keys(i)]
-        if chapter_name == '':
-            for i in self.quests:            
-                if 'chapter' in self.quests[i]:
-                        chapter = ''
-                        if type(self.quests[i]['chapter']) == dict:     
-                            if len(self.quests[i]['chapter'].keys()) >= 1:              
-                                chapter = self.remove_seperators(list(self.quests[i]['chapter'].keys())[0].lower())                   
-                        else:
-                            chapter = self.remove_seperators(self.quests[i]['chapter'])
-                        if chapter in search_dict:
-                            #print(f'To find key {i}')
-                            dict_ = self.get_prettified_from_keys(i)
-                            #print(dict_)
-                            search_dict[chapter].append(dict_)
-                        else:
-                            search_dict[chapter] = [self.get_prettified_from_keys(i)]
+
+        '''
+        search_list = []
+        for quest_key in self.quests:
+            if 'chapter' in self.quests[quest_key]:
+                if type(self.quests[quest_key]['chapter']) == dict:
+                    if bool(self.quests[quest_key]['chapter']):
+                        chapter_name =  list(self.quests[quest_key]['chapter'].keys())[0]
+                        act = self.quests[quest_key]['chapter'][chapter_name]  
+                        
+                        if type_ == 'act':
+                            if search_string.lower() in act.lower():
+                                search_list.append(quest_key)
+                        if type_ == 'chapter':
+                            if search_string.lower() in chapter_name.lower():                        
+                                search_list.append(quest_key)
                     
+                else:        
+                    chapter_name =  self.quests[quest_key]['chapter']       
+                    if type_ == 'chapter':
+                        if search_string.lower() in chapter_name.lower():                        
+                            search_list.append(quest_key)
+        return search_list
 
-        return search_dict
-                
-    def quests_keys(self,quest_name):
-        splited = quest_name.lower().split(' ')    
-        print(splited)
-        search_dict = {}
-        if quest_name != '':
-            for i in self.keys:
-                add = False
-                title = i
-                splitted_title = title.lower().split(' ')
-                if len(splitted_title) > len(splited):
-                    for check in range(0,len(splited),1):
-                        print(splited[check],splitted_title[check])
-                        if splited[check] == splitted_title[check]:
-                            add = True
-                            print('Found', splited[check], splitted_title[check])
-                            break
-                        else:
-                            add = False
-                            break
-                else:
-                    for check in range(0,len(splitted_title),1):
-                        if splited[check] == splitted_title[check]:
-                            add = True
-                            print('Found', splited[check], splitted_title[check])                        
-                        else:
-                            add = False
-                            break    
-                if add == True:
-                    search_dict[i] = self.keys[i]
-            return search_dict
-        else:
-            for i in self.keys:
-                search_dict[i] = self.keys
-            return search_dict
+    def get_type(self, search_string: str):
+        '''
 
+        get type based on string
 
-                
+        ---
+        args
+        ---
+        search_string : any string
+
+        ---
+        returns
+        ---
+        
+        chapter or act or quest
 
 
 
-
-    def acts_keys(self,chapter_name):
-        splited = chapter_name.lower().split(' ')              
-        search_dict = {}
-        chapter = ''
-        for i in self.quests:            
-            if 'chapter' in self.quests[i]:
-                add = False
-                key = ''
-                if type(self.quests[i]['chapter']) == dict:                  
-                    if len(self.quests[i]['chapter'].keys()) >= 1:                              
-                        key_ = list(self.quests[i]['chapter'].keys())[0]   
-                        key = self.remove_seperators(self.quests[i]['chapter'][key_].lower())                
-                if key != '':
-                    key_split = key.split(' ')
-                    if len(key_split) > len(splited):
-                        #print('provided len smaller than original')
-                        for check in range(0,len(splited),1):                            
-                            if splited[check] == key_split[check]:
-                                add = True   
-                                chapter = key  
-                                print(splited[check],key_split[check],add)    
-                            else:
-                                add = False 
-                                break                           
-                                          
-                    else:
-                        #print('provided len greater than original')
-                        for check in range(0,len(key_split),1):                            
-                            if splited[check] == key_split[check]:
-                                add = True
-                                chapter = key  
-                                #print(splited[check],key_split[check],add)   
-                            else:
-                                add = False
-                                break                         
-                #print(f'End results to add {add}')
-                if add == True:
-                    if chapter in search_dict:                        
-                        dict_ = self.get_prettified_from_keys(i)
-                        #print(dict_)
-                        search_dict[chapter].append(dict_)
-                    else:
-                        search_dict[chapter] = [self.get_prettified_from_keys(i)]
-        if chapter_name == '':
-            for i in self.quests:            
-                if 'chapter' in self.quests[i]:
-                        chapter = ''
-                        if type(self.quests[i]['chapter']) == dict:     
-                            if len(self.quests[i]['chapter'].keys()) >= 1:              
-                                key_ = list(self.quests[i]['chapter'].keys())[0]   
-                                chapter = self.remove_seperators(self.quests[i]['chapter'][key_].lower())                        
-                        if chapter in search_dict and chapter != '':
-                            #print(f'To find key {i}')
-                            dict_ = self.get_prettified_from_keys(i)
-                            #print(dict_)
-                            search_dict[chapter].append(dict_)
-                        else:
-                            search_dict[chapter] = [self.get_prettified_from_keys(i)]
+        '''
+        for quest_key in self.quests:
+            if 'chapter' in self.quests[quest_key]:
+                if type(self.quests[quest_key]['chapter']) == dict:
+                    if bool(self.quests[quest_key]['chapter']):
+                        chapter_name =  list(self.quests[quest_key]['chapter'].keys())[0]
+                        act = self.quests[quest_key]['chapter'][chapter_name]                          
+                        if search_string.lower() in act.lower():
+                            return 'act'
+                        if search_string.lower() in chapter_name.lower():                        
+                            return 'chapter'
                     
-
-        return search_dict
-
-    def get_quest_content(self,quest_dict:dict):
-        if type(quest_dict) == dict:
-            name = list(quest_dict.keys())[0]
-            key = ''
-            if name in self.keys:
-                key = self.keys[name]
-            if key != '':
-                if key in self.quests:                    
-                    dict_ = self.quests[key]
-                    dict_['name'] = name
-                    return dict_
-            
+                else:        
+                    chapter_name =  self.quests[quest_key]['chapter']                   
+                    if search_string.lower() in chapter_name.lower():                        
+                        return 'chapter'
+        return 'quest'
 
 
-    def type_keys(self,type_):
-        allowed = ['story','world','archon']
-        search_dict = {}
-        if type_ != '':
-            if type_ in allowed:
-                for i in self.quests:                    
-                    if 'type' in self.quests[i]:
-                        print(type_,self.quests[i]['type'])
-                        if type_ in self.quests[i]['type'].lower():
-                            dict_ = self.get_prettified_from_keys(i)
-                            if type_ in search_dict:
-                                search_dict[type_].append(dict_)
-                            else:
-                                search_dict[type_] = [self.get_prettified_from_keys(i)]
-        else:
-            for c in allowed:
-                for i in self.quests:                
-                    if 'type' in self.quests[i]:
-                        print(type_,self.quests[i]['type'])
-                        if c in self.quests[i]['type'].lower():
-                            dict_ = self.get_prettified_from_keys(i)
-                            if c in search_dict:
-                                search_dict[c].append(dict_)
-                            else:
-                                search_dict[c] = [self.get_prettified_from_keys(i)]
-        return search_dict
-    
+    def get_original_name(self, string: str,type_: str):
+        '''
 
-    def get_rewards(self,quest_name):
-        if quest_name in self.quests:
-            if 'rewards' in self.quests[quest_name]:
-                return self.quests[quest_name]['rewards']
+        returns chapter name from a quest_key [returned from (search_quests func)]
 
-    def chapter_rewards(self,chapter_name):
-        chapters = self.chapter_keys(chapter_name)
-        print(chapters)
-        chapter_rewards = {}        
-        for chapter in chapters:
-            temp = {}
-            for quests in chapters[chapter]:
-                dict_ = quests
-                key = dict_[list(dict_.keys())[0]]
-                rewards = self.get_rewards(key)
-                if rewards != None:
-                    for reward in rewards:                        
-                        correct = rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99)
-                        if correct.isdigit():
-                            #print(reward,'exists in temp',reward in temp)
-                            if reward in temp:
-                                print(reward,temp[reward],rewards[reward])
-                                temp[reward] += int(rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99))
-                            else:
-                                temp[reward] = int(rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99))                           
-                        else:
-                            temp[reward] = rewards[reward]
-            chapter_rewards[chapter] = temp                                   
-        return chapter_rewards
+        ---
+        args
+        ---
+        quest_key
+        type_ : act, chapter
 
-    def acts_rewards(self,chapter_name):
-        chapters = self.acts_keys(chapter_name)   
-        print(chapters)    
-        chapter_rewards = {}        
-        for chapter in chapters:
-            temp = {}
-            for quests in chapters[chapter]:
-                dict_ = quests
-                key = dict_[list(dict_.keys())[0]]
-                rewards = self.get_rewards(key)
-                print(rewards)
-                if rewards != None:
-                    for reward in rewards:                        
-                        correct = rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99)
-                        if correct.isdigit():
-                            #print(reward,'exists in temp',reward in temp)
-                            if reward in temp:
-                                #print(reward,temp[reward],rewards[reward])
-                                temp[reward] += int(rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99))
-                            else:
-                                temp[reward] = int(rewards[reward].replace(' ','',99).replace(',','',99).replace('×','',99))                           
-                        else:
-                            temp[reward] = rewards[reward]
-            chapter_rewards[chapter] = temp                                   
-        return chapter_rewards
+        ---
+        returns
+        ---
+        
+        chapter name or act name
+        '''
+        for quest_key in self.quests:
+            if 'chapter' in self.quests[quest_key]:
+                if type(self.quests[quest_key]['chapter']) == dict:
+                    if bool(self.quests[quest_key]['chapter']):
+                        chapter_name =  list(self.quests[quest_key]['chapter'].keys())[0]
+                        act = self.quests[quest_key]['chapter'][chapter_name]                          
+                        if type_ == 'act': 
+                            if string.lower() in act.lower():
 
-    def chapter_acts(self,chapter_name):
-        splited = chapter_name.lower().split(' ')              
-        search_dict = {}
-        chapter = ''
-        for i in self.quests:            
-            if 'chapter' in self.quests[i]:
-                add = False
-                key = ''
-                print(type(self.quests[i]['chapter']),self.quests[i]['chapter'])
-                if type(self.quests[i]['chapter']) == dict:     
-                    if len(self.quests[i]['chapter'].keys()) >= 1:              
-                        key = self.remove_seperators(list(self.quests[i]['chapter'].keys())[0].lower())                   
-                else:
-                    key = self.remove_seperators(self.quests[i]['chapter'])
-                if key != '':
-                    key_split = key.split(' ')
-                    if len(key_split) > len(splited):
-                        for check in range(0,len(splited),1):
-                            if splited[check] == key_split[check]:
-                                add = True   
-                                chapter = key
-                            else:
-                                add = False
-                                break                     
-                    else:
-                        for check in range(0,len(key_split),1):
-                            if splited[check] == key_split[check]:
-                                add = True
-                                chapter = key  
-                            else:
-                                add = False
-                                break
-                    if add == True:
-                        added_ = ''
-                        if chapter in search_dict:   
-                            if type(self.quests[i]['chapter'])  == dict:
-                                if len(self.quests[i]['chapter'].keys()) >= 1:                                           
-                                    added_ = self.remove_seperators(self.quests[i]['chapter'][list(self.quests[i]['chapter'].keys())[0]])
-                                    print(chapter,added_)                                
-                                    if added_ in search_dict[chapter]:
-                                        pass
-                                    else:
-                                        search_dict[chapter].append(added_)
-                            else:
-                                search_dict[chapter] = []
-                        else:  
-                            if type(self.quests[i]['chapter'])  == dict:                          
-                                if len(self.quests[i]['chapter'].keys()) >= 1:                                                                  
-                                    added_ = self.remove_seperators(self.quests[i]['chapter'][list(self.quests[i]['chapter'].keys())[0]])  
-                                    print(chapter,added_)                               
-                                    search_dict[chapter]= [added_]
-                            else:
-                                search_dict[chapter] = []
-        if chapter_name == '':
-            for i in self.quests:            
-                if 'chapter' in self.quests[i]:
-                        chapter = ''
-                        if type(self.quests[i]['chapter']) == dict:     
-                            if len(self.quests[i]['chapter'].keys()) >= 1:                                           
-                                chapter = self.remove_seperators(list(self.quests[i]['chapter'].keys())[0])                   
-                        else:
-                            chapter = self.remove_seperators(self.quests[i]['chapter'])
-                        if chapter in search_dict:   
-                            if type(self.quests[i]['chapter'])  == dict:
-                                if len(self.quests[i]['chapter'].keys()) >= 1:                                                  
-                                    added_ = self.remove_seperators(self.quests[i]['chapter'][list(self.quests[i]['chapter'].keys())[0]]) 
-                                    print(chapter,added_)                                
-                                    if added_ in search_dict[chapter]:
-                                        pass
-                                    else:
-                                        search_dict[chapter].append(added_)
-                            else:
-                                search_dict[chapter] = []
-                        else:  
-                            if type(self.quests[i]['chapter'])  == dict:                          
-                                if len(self.quests[i]['chapter'].keys()) >= 1:                                                                       
-                                    added_ = self.remove_seperators(self.quests[i]['chapter'][list(self.quests[i]['chapter'].keys())[0]])  
-                                    print(chapter,added_)                               
-                                    search_dict[chapter]= [added_]
-                            else:
-                                search_dict[chapter] = []
+                                return act
+                        if type_ == 'chapter': 
+                            if string.lower() in chapter_name.lower():                                           
+                                return chapter_name
                     
+                else:        
+                    chapter_name =  self.quests[quest_key]['chapter']       
+                    if type_ == 'chapter':  
+                        if string.lower() in chapter_name.lower():                                       
+                            return self.quests[quest_key]['chapter']
+        return ''
 
-        return search_dict
+    def search_quests(self, quest_name:str= ''):
+        '''
+
+        searches quest name in data
+
+        ---
+        args
+        ---
+        quest_name: any quest name
+
+        ---
+        returns
+        ---
+        
+        search_resuts: list [quest_keys]
+        
+        for displaying use prettify_quests func.
 
 
 
-    def search(self,type_='',chapters_='',acts_='',quests_=''):       
-        search = ''
-        if len(self.quests) !=0:
-            if type_ != '':
-                search = self.type_keys(type_)
-            else:
-                if chapters_ != '' :
-                    search = self.chapter_keys(chapters_) 
-                else:
-                    if acts_!='':
-                        search = self.acts_keys(acts_)
-
-
-        return search
-
-    def create_chapter_embeds(self,chapter_name):
-        chapter_keys_ = self.chapter_acts(chapter_name)
-        print(chapter_keys_)
-        emojis = []
-        if len(chapter_keys_) > 1:
-            emojis = ['⬅️','➡️']
-        else:
-            emojis = []
-        if chapter_keys_ != None:
-            embeds = []        
-            for i in chapter_keys_:
-                name_chapter = i.replace('_',' ',99).title()
-                acts_text = ''
-                rewards = self.chapter_rewards(i)
-                print(rewards)
-                c = 0
-                rewards_text = ''
-                for quests in chapter_keys_[i]:
-                    c+= 1
-                    name = quests
-                    acts_text += f'{c}. {name}\n'
-                i = i.lower()
-                if i in rewards:
-                    for reward in rewards[i]:                    
-                        if str(rewards[i][reward]).isdigit():
-                            rewards_text += f'🔸 {reward} : {rewards[i][reward]} '
-                        else:                                             
-                            if str(reward) == str(rewards[i][reward]):
-                                rewards_text += f'🔸 Character: {reward} '
-                            else:
-                                rewards_text += f'🔸 {reward} {rewards[i][reward]} '
-                print(acts_text)                 
-                print(rewards_text)
-                embed = discord.Embed(title=f'{name_chapter}',description=f'**Acts:**\n\n{acts_text}\n**Rewards:**\n{rewards_text}',color=0xf5e0d0)
-                embed.set_image(url='https://i.pinimg.com/originals/73/f6/ef/73f6ef60b8aca0bc7840ca3f4271802b.jpg')
-                embeds.append(embed)                
-            return embeds,emojis
-    
-    def create_acts_embeds(self,chapter_name):
-        chapter_keys_ = self.acts_keys(chapter_name)
-        print(chapter_keys_)
-        emojis = []
-        if len(chapter_keys_) > 1:
-            emojis = ['⬅️','➡️']
-        else:
-            emojis = []
-        if chapter_keys_ != None:
-            embeds = []        
-            for i in chapter_keys_:
-                name_chapter = i.replace('_',' ',99).title()
-                acts_text = ''
-                rewards = self.acts_rewards(i)
-                print(rewards)
-                c = 0
-                rewards_text = ''
-                for quests in chapter_keys_[i]:
-                    c+= 1
-                    name = list(quests.keys())[0]
-                    acts_text += f'{c}. {name}\n'
-                print(rewards)
-                for reward in rewards[i]:                    
-                    if str(rewards[i][reward]).isdigit():
-                        rewards_text += f'🔸 {reward} : {rewards[i][reward]}  '
-                    else:                                             
-                        if str(reward) == str(rewards[i][reward]):
-                            rewards_text += f'🔸 Character: {reward}  '
-                        else:
-                            rewards_text += f'🔸 {reward} {rewards[i][reward]}  '
-                print(acts_text)                 
-                print(rewards_text)
-                embed = discord.Embed(title=f'{name_chapter}',description=f'**Quests:**\n\n{acts_text}\n**Rewards:**\n{rewards_text}',color=0xf5e0d0)
-                embed.set_image(url='https://i.pinimg.com/originals/73/f6/ef/73f6ef60b8aca0bc7840ca3f4271802b.jpg')
-                embeds.append(embed)                
-            return embeds,emojis
-
-    def create_quest_embed(self,quest_name):
-        quest_keys_ = self.quests_keys(quest_name)
-        keys_ = list(quest_keys_.keys())
-        embeds = []
-        emojis = ['⬅️','➡️']
+        '''
+        search_results = []
         if quest_name == '':
-            count_ = divmod(len(quest_keys_),10)
-            count = int(count_[0])
-            if count_[1] == 0:
-                pass
-            else:
-                count += 1
-            limit = 10
-            for i in range(1,count,1):
-                text_ = ''                
-                for c in range(0,len(quest_keys_),1):
-                    if (i*limit-limit) < c < i*limit:
-                        text_ += f'**{c}**. {keys_[c]}\n'
-                embed = discord.Embed(title=f'Quests ({i}\{count})',description=text_,color=0xf5e0d0)
-                embed.set_image(url='https://i.pinimg.com/originals/73/f6/ef/73f6ef60b8aca0bc7840ca3f4271802b.jpg')
-                embeds.append(embed)
-            return embeds,emojis
-        if len(quest_keys_) > 1 and quest_name != '':
-            desp_ = ''
-            for i in quest_keys_:
-                desp_ += f'{i}\n'
-            embed = discord.Embed(title=f'{quest_name.title()} Quest suggestions',description=f'{desp_}',color=0xf5e0d0)
-            embeds.append(embed)
+            for quest in self.quests:                
+                search_results.append(quest)
         else:
-            name = list(quest_keys_.keys())[0]
-            desp_ = ''
-            content = self.get_quest_content(quest_keys_)
-            for i in content:                    	    
-                if i != 'image' and i != 'steps' and i !='imgs':                    
-                    if type(content[i]) == list:                        
-                        desp_ += f"**{i.title()}:**\n{','.join(content[i])}\n"
-                    else:
-                        if type(content[i]) == dict:                            
-                            if len(content[i]) >= 1:      
-                                if i == 'rewards':
-                                    rewards_text = ''
-                                    for c in content['rewards']:
-                                        if str(content['rewards'][c]).isdigit():
-                                            rewards_text += f"🔸 {c} : {content['rewards'][c]}  "
-                                        else:                                             
-                                            if str(c) == str(content['rewards'][c]):
-                                                rewards_text += f'🔸 Character: {c}  '
-                                            else:
-                                                rewards_text += f"🔸 {c} {content['rewards'][c]}  "                                    
-                                    desp_ += f'**{i.title()}**\n{rewards_text}\n'    
-                                else:
+            to_search = quest_name.lower()
+            
+            for quest in self.quests:
+                if to_search in quest.replace('_',' ',99).lower():
+                    print(f'found {quest}')
+                    search_results.append(quest)
+        return search_results,'quests'
 
-                                    desp_ += f'**{i.title()}**\n{list(content[i].keys())[0]}\n**Act:**\n{content[i][list(content[i].keys())[0]]}\n'
-                        else:                           
-                            desp_ += f'**{i.title()}**\n{content[i]}\n'
-            embed_main = discord.Embed(title=f'{name} details!',description=desp_,color=0xf5e0d0)
-            if 'image' in content:
-                embed_main.set_thumbnail(url=f"{content['image']}")          
-            steps_text = ''
-            if 'steps' in content:
-                embed_main.set_footer(text=f'react ➡️ to see walkthrough!')
-                for i in content['steps']:
-                    further_steps = ''
-                    step_ = ''
-                    if type(content['steps'][i]) == dict:
-                        temp_ = content['steps'][i][list(content['steps'][i].keys())[0]]
-                        for fur in temp_:                            
-                            further_steps += f"   🔸. __{temp_[fur]}__\n"
-                        step_ = list(content['steps'][i].keys())[0]
+    def search_acts(self, act_name: str):
+        '''
+
+        searches quest name in data
+
+        ---
+        args
+        ---
+        act_name: any quest name
+
+        ---
+        returns
+        ---
+        
+        tuple :(search_results, type) 
+            possible returns: ([acts name], acts) or ([quest_keys], quests)
+        
+        for displaying quest_keys use prettify_quests func.
+
+
+
+        '''
+        search_results = []
+        type_ = ''
+        if act_name == '':
+            for quest in self.quests:  
+                check = ('chapter' in self.quests[quest])
+
+                if check:   
+                    if type(self.quests[quest]['chapter']) == dict:
+                        if bool(self.quests[quest]['chapter']):
+                            chapter_name =  list(self.quests[quest]['chapter'].keys())[0]
+                            act = self.quests[quest]['chapter'][chapter_name]                    
+                            if act not in search_results:             
+                                search_results.append(act)      
+                            type_ = 'acts'       
+        else:
+            for quest in self.quests:     
+                check = ('chapter' in self.quests[quest])
+
+                if check:  
+                    if type(self.quests[quest]['chapter']) == dict:
+                        if bool(self.quests[quest]['chapter']):
+                            chapter_name =  list(self.quests[quest]['chapter'].keys())[0]
+                            act = self.quests[quest]['chapter'][chapter_name]
+                            if act_name.lower() in act.lower():                                
+                                search_results.append(quest)
+                                type_ = 'quests'
+        return search_results,type_
+
+    def search_chapters(self, chapter_name: str):
+        '''
+
+        searches chapter name in data
+
+        ---
+        args
+        ---
+        chapter_name: any quest name
+
+        ---
+        returns
+        ---
+        
+        tuple :(search_results, type) 
+            possible returns: ([chapters name], chapters) or ([acts names], acts)
+        
+        for displaying quest_keys use prettify_quests func.
+
+
+
+        '''
+        search_results = []
+        type_ = ''
+        if chapter_name == '':
+            for quest in self.quests:     
+                check = ('chapter' in self.quests[quest])
+                if check: 
+                    if type(self.quests[quest]['chapter']) == dict:
+                        if bool(self.quests[quest]['chapter']):
+                            chapter =  list(self.quests[quest]['chapter'].keys())[0]
+                            if chapter_name.lower() in chapter.lower():
+                                if chapter not in search_results:
+                                    search_results.append(chapter)
+                                type_ = 'chapters'   
                     else:
-                        step_ = content['steps'][i]
-                    if further_steps == '':
-                        steps_text += f'**{i}**. {step_}\n'
-                    else:
-                        steps_text += f'**{i}**. {step_}\n{further_steps}\n'
+                        chapter =  self.quests[quest]['chapter']
+                        if chapter_name.lower() in chapter.lower():
+                            if chapter not in search_results:
+                                search_results.append(chapter)
+                            type_ = 'chapters'    
+        else:
+            for quest in self.quests:     
+                check = ('chapter' in self.quests[quest])
+
+                if check: 
+                    if type(self.quests[quest]['chapter']) == dict:
+                        if bool(self.quests[quest]['chapter']):
+                            chapter =  list(self.quests[quest]['chapter'].keys())[0]
+                            act = self.quests[quest]['chapter'][chapter] 
+                            if chapter_name.lower() in chapter.lower():
+                                if act not in search_results:
+                                    search_results.append(act)
+                                type_ = 'acts'
+                   
+
+        return search_results,type_
+
+    def prettify_quest(self, quest_key: str):
+        '''
+        Prettifies quest_key for name
+        '''
+
+        return quest_key.replace('_', ' ', 99).title()
+
+    def simplify_step_dict(self, quest_key: str):
+
+        '''
+        simplifies steps dict
+
+        ---
+        args
+        ---
+
+        quest_key
+
+        ---
+        returns 
+        ---
+
+        step_dict : dictionary
+        '''
+
+        step_dict = {}
+        check_steps = ('steps' in self.quests[quest_key])
+        
+        if check_steps:
+
+            steps = self.quests[quest_key]['steps']
+            for step in steps:
+                if type(steps[step]) != dict:
+                    step_dict[step] = steps[step]
+                else:
+
+                    sub_key = list(steps[step].keys())[0]
+                    string_text = sub_key.replace('\n','',99)
+                    sub_steps_text = f"{string_text}\n"
+                    for sub_steps in steps[step][sub_key]:
+                        sub_steps_text += f' ◽ {sub_steps}. {steps[step][sub_key][sub_steps]}\n'
                     
-                pprint(steps_text)  
-            embed_step = discord.Embed(title=f'{name} Walkthrough',description=steps_text,color=0xf5e0d0)
-            if 'image' in content:
-                embed_step.set_thumbnail(url=f"{content['image']}")  
-            embeds = [embed_main,embed_step]
-            if len(content['imgs']) > 1:
-                embed_step.set_footer(text=f'react ➡️ to see locations images!')
-                for i in content['imgs']:
-                    if 'img' in i:
-                        if 'title' in i:
-                            embed = discord.Embed(title=f'{name}',description=f"**{i['title']}**",color=0xf5e0d0)
-                            if i['img'].startswith('http'):
-                                embed.set_image(url=f"{i['img'][:i['img'].find('/revision')]}")
-                            if 'image' in content:
-                                embed.set_thumbnail(url=f"{content['image']}")  
-                            embeds.append(embed)
-                        else:
-                            embed = discord.Embed(title=f'{name}')
-                            if i['img'].startswith('http'):
-                                embed.set_image(url=f"{i['img'][:i['img'].find('/revision')]}")
-                            if 'image' in content:
-                                embed.set_thumbnail(url=f"{content['image']}")  
-                            embeds.append(embed)  
-                              
-        if len(embeds) >= 1:
-            return embeds,emojis
+                    step_dict[step] = sub_steps_text
+        
+        return step_dict
+
+    def simplify_rewards(self, quest_key: str):
+        '''
+        simplifies img key
+
+        ---
+        args
+        ---
+
+        quest_key
+
+        ---
+        returns 
+        ---
+
+        rewards_text  : str
+        '''
+
+
+        quest_exists = (quest_key in self.quests)
+        rewards_text = ''
+        if quest_exists:
+            if 'rewards' in self.quests[quest_key]:
+                for reward in self.quests[quest_key]['rewards']:
+
+                    rewards_text += f" 🔸 . {reward} **{self.quests[quest_key]['rewards'][reward]}**\n"
+                return rewards_text
+
+    
+    def simplify_chapter(self, quest_key: str):
+        '''
+        simplifies img key
+
+        ---
+        args
+        ---
+
+        quest_key
+
+        ---
+        returns 
+        ---
+
+        imgs  : list [{'title': '', 'url': ''}]
+        '''
+
+        quest_exists = (quest_key in self.quests)
+
+        if quest_exists:
+
+            if 'chapter' in self.quests[quest_key]:
+                if type(self.quests[quest_key]['chapter']) == dict:
+                    if bool(self.quests[quest_key]['chapter']):
+                        chapter = list(self.quests[quest_key]['chapter'].keys())[0]
+                        act = self.quests[quest_key]['chapter'][chapter]
+                        return {'chapter': chapter, 'act': act}
+                else:
+                    return {'chapter' : self.quests[quest_key]['chapter']}
+        
+
+    def simplify_imgs(self, quest_key: str):
+        '''
+        simplifies img key
+
+        ---
+        args
+        ---
+
+        quest_key
+
+        ---
+        returns 
+        ---
+
+        imgs  : list [{'title': '', 'url': ''}]
+        '''
+
+        quest_exists = (quest_key in self.quests)
+        imgs = []
+        if quest_exists:
+
+            # if quest exists
+            # find if img exists in data and the img list is not empty
+
+            if ('imgs' in self.quests[quest_key]) and (len(self.quests[quest_key]['imgs']) != 0):
+
+                for img in self.quests[quest_key]['imgs']:
+
+                    #   loops through img dicts
+                    #   removes useless dicts not containing both title and img keys
+                    
+                    keys_exists = ('title' in img and 'img' in img)
+                    if keys_exists:
+
+                        img_dict = {'title' : img['title'], 'url': img['img'][:img['img'].find('/revision')]}
+                        imgs.append(img_dict)
+
+                return imgs
+
+    def search(self, search_str: str='', type_: str='', type_specific: bool = False):
+
+        '''
+        ---
+        args
+        ---
+        search_list
+        type: quests, acts, chapters
+        type_specific: False or True
+
+        ---
+        returns
+        ---
+
+        search_list
+        type
+        '''
+        
+        #   keys are the types returned by functions
+        #   first func in list returns a search_results of below type if search is provided
+        #   second func returns list of same type if no search_str is proved
+
+        type_funcs = {
+            'search_quests': ['quests','quests'],
+            'search_acts': ['quests', 'acts'],
+            'search_chapters' : ['acts','chapters']       
+            
+        }
+
+
+        if type_specific:
+            strict_check = (search_str != '' and type_ !='')
+            low_check = (type_ !='')
+            if strict_check:
+                type_provided = self.get_type(search_str)
+                for func in type_funcs:                   
+                    
+                    if type_provided in func:
+                        if type_ == type_funcs[func][0]:
+                            search_result,type = eval(f"self.{func}('{search_str}')")                            
+                            return search_result,type
+                        if type_ == 'quests':
+                            return self.quest_filter(search_str,type_provided),'quests'
+
+               
+            else:
+                if low_check:
+                    for func in type_funcs:
+                       if len(type_funcs[func]) == 2:
+                           if type_ == type_funcs[func][1]:
+                                return eval(f"self.{func}('{search_str}')")
         else:
-            return None,None
+            type_keys = list(type_funcs.keys())
+            for func in type_keys:
+                search_result,type = eval(f"self.{func}('{search_str}')")
+                if len(search_result) != 0:
+                    return search_result,type
+                else:
+                    pass
+        return [],''
 
 
+    def create_embed_search_pages(self, search_list : list,heading: str, type_: str, author: Member, limit: int):
+        '''
+        ---
+        args
+        ---
+        search_list
+        heading: str
+        author: discord Member
+        limit: no of items to show on pages
+
+        ---
+        returns
+        ---
+        embeds list
+        '''
+
+        count = divmod(len(search_list),limit)
+        page_count = count[0]
+        if count[1] != 0:
+            page_count += 1
+        quest_keys = False
+        if '_' in search_list[0]:
+            quest_keys = True
+
+        main_heading = f'{heading}'
+
+        embeds = []
+
+        for page_index in range(1,page_count+1,1):
+            
+            start_index = (limit*(page_index-1))
+            last_index = (page_index*limit)
+
+            page_description = ''
+            
+            for item_index in range(len(search_list)):
+                if start_index < item_index< last_index:
+                    if quest_keys:
+                        item_string = self.prettify_quest(search_list[item_index])
+                    else:
+                        item_string = search_list[item_index]
+                    page_description += f'{item_string}\n'
+
+            page = Embed(title=f'{main_heading } ',
+                            description=f'**Search results page:** **({page_index}/{page_count})**\n\n{page_description}'
+                            ,color=0xf5e0d0)
+            page.set_author(name=author.display_name,icon_url=author.avatar.url)
+            page.set_footer(text=f'showing {type_}')
+            embeds.append(page)
+            pass
+
+
+        return embeds
+
+    def create_quest_embeds(self, author: Member, quest_key: str):
+        '''
+        ---
+        args
+        ---
+        author: discord Member
+        quest_key
+
+        ---
+        returns
+        ---
+        embeds dict
+        '''
+
+        check = (quest_key in self.quests)
+
+        if check:
+            title = self.prettify_quest(quest_key)
+            steps_dict = self.simplify_step_dict(quest_key)
+
+            steps_description = ''
+            for step in steps_dict:
+                steps_description += f'{step}. {steps_dict[step]}\n'
+            
+            imgs_list = self.simplify_imgs(quest_key)
+
+            rewards_text = self.simplify_rewards(quest_key)
+
+            omit = ['image','steps','imgs','rewards']
+
+            main_embed = Embed(title=f'{title}'
+                                ,color=0xf5e0d0)
+            
+            for key in self.quests[quest_key]:
+                if key not in omit:
+
+                    if key != 'chapter':
+
+                        if type(self.quests[quest_key][key]) == list:
+                            value = '**, **'.join(self.quests[quest_key][key])
+                        else:
+                            value = self.quests[quest_key][key]
+
+                        main_embed.add_field(name=key.capitalize(), value= value)
+                    else:
+
+                        chapter = self.simplify_chapter(quest_key)
+                        for c_key in chapter:
+                            main_embed.add_field(name=c_key.capitalize(), value= chapter[c_key])
+            
+            if ('image' in self.quests[quest_key]):
+                main_embed.set_thumbnail(url=self.quests[quest_key]['image'][:self.quests[quest_key]['image'].find('/revision')])
+
+            main_embed.add_field(name='Rewards', value=rewards_text)
+            main_embed.set_author(name=author.display_name,
+                                    icon_url=author.avatar.url)
+
+            step_embed = Embed(title=f'{title} Walkthrough',
+                                description=steps_description
+                                ,color=0xf5e0d0)
+            step_embed.set_author(name=author.display_name,
+                                    icon_url=author.avatar.url)
+
+            embeds_dict = {'Main Information': main_embed,'Walkthrough': step_embed}
+            if imgs_list:
+                for img in imgs_list:
+
+                    img_embed = Embed(title=img['title'],
+                                    color=0xf5e0d0)
+                    img_embed.set_image(url=img['url'])
+                    img_embed.set_author(name=author.display_name,
+                                        icon_url=author.avatar.url)
+                    embeds_dict[f"{img['title']} Image"] = img_embed
+            
+            return embeds_dict               

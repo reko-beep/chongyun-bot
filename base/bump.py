@@ -50,7 +50,7 @@ class Bump:
                     if bumped:
                         user_id = self.parse_user_id(embed_description)
                         await self.send_bump_success_message(message,user_id)
-                        await self.send_bump_schedule_message(message)
+                        await self.send_bump_schedule_message()
                         self.save_bump(user_id)
 
                         if self.bump_role:
