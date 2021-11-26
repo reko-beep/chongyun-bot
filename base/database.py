@@ -286,21 +286,31 @@ class GenshinDB():
                 return None
         
     
-    def get_genshinstats(self,data):  
+    def get_genshinstats(self,uid ):  
         '''
             Gets only stats portion of data fetched from get_uiddata
             returns:
                 stats dict, icon url
         '''      
-        if len(data) > 1:
-            stats_temp = data['stats']
-            stats = {}
-            for i in stats:
-                if i != 'icon':
-                    stats[i.replace('_'," ",99).title()] = stats_temp[i]
-            return stats,data['characters'][0]['icon']
+        try:
+            gs.set_cookie(ltuid=self.ltuid,ltoken=self.ltoken)
+            data = {}
+            if isinstance(uid,int):
+                data = gs.get_user_stats(uid)
+            else:
+                data = gs.get_user_stats(uid)
+        except gs.errors.DataNotPublic:
+                return None
+        else:
+            if len(data) > 1:
+                stats_temp = data
+                stats = {}
+                for i in stats:
+                    if i != 'icon':
+                        stats[i.replace('_'," ",99).title()] = stats_temp[i]
+                return stats,data['characters'][0]['icon']
     
-    def get_genshincharacters(self, data):
+    def get_genshincharacters(self, uid):
         '''
             Gets only stats portion of data fetched from get_uiddata
             Returns:
@@ -310,10 +320,18 @@ class GenshinDB():
         '''        
         characters_ = []
         weapons_ = []
-       
-        if len(data) > 1:
-            if 'characters' in data:
-                for item in data['characters']:
+        try:
+            gs.set_cookie(ltuid=self.ltuid,ltoken=self.ltoken)
+            data = {}
+            if isinstance(uid,int):
+                data = gs.get_user_stats(uid)
+            else:
+                data = gs.get_user_stats(uid)
+        except gs.errors.DataNotPublic:
+                return None
+        else:
+            if len(data) > 1:                
+                for item in data:
                     characters_dict = {}
                     for item_key in item:  
                         if item_key == 'id':
@@ -325,7 +343,7 @@ class GenshinDB():
                                 characters_dict[item_key] = item[item_key]           
                     
                     characters_.append(characters_dict) 
-                
+                    
                 return characters_,weapons_
                 
 

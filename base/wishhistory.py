@@ -96,10 +96,8 @@ class GenshinGacha:
             'Content-Type': 'application/json',    
         } 
         session = requests.get(link.format(gachatype=gacha_type,page=page,size=size,end=end),headers=headers)
-        print(session.headers)
         if session.status_code != 404:
             data = session.json()
-            print(data)
             if data['retcode'] == 0:
                 if data['message'] == 'OK':
                     return data
@@ -150,7 +148,7 @@ class GenshinGacha:
             if banner_code == '100':
                 found_banners.append(all_banners[banner_code][0])
             else:
-                banner_codes_allowed = ['301','302']
+                banner_codes_allowed = ['301','302','400']
                 if banner_code in all_banners:
                     if banner_code in banner_codes_allowed:
                         for i in all_banners[banner_code]:
@@ -159,6 +157,32 @@ class GenshinGacha:
                             if start_time < pull_datetime < end_time:
                                 found_banners.append(i)
         return found_banners
+
+    def filter_second_character_banner_wishes(self, data: dict):
+        changed_data = data
+        check = ('301' in data)
+        banner_400 = []
+        if check:
+            for pull in data['301']['list']:
+                if pull['gacha_type'] == '400':
+                    banner_400.append(pull)
+            pulls_301 = data['301']['list']
+            changed_301 = []
+            for pull in pulls_301:
+                if pull not in banner_400:
+                    changed_301.append(pull)
+            changed_data['100'] = data['100']
+            changed_data['200'] = data['200']
+            changed_data['302'] = data['302']
+            changed_data['301'] = {'total' : len(changed_301), 'list': changed_301}
+            previous = []
+            if '400' in changed_data:
+                previous = changed_data['400']['list']
+            changed_data['400'] = {'total' : len(banner_400) + len(previous), 'list' : banner_400 + previous}
+            return changed_data
+
+
+
 
     def array_diff(self,array1:list ,array2: list):
         '''
@@ -223,7 +247,8 @@ class GenshinGacha:
                         return uid
 
     def check_output_file(self, output_file_link: str):
-        checker = ('output_file' in output_file_link.split('/')[-1])
+        print(output_file_link.split('/')[-1])
+        checker = ('output_log' in output_file_link.split('/')[-1])
         return checker
 
 
@@ -239,7 +264,7 @@ class GenshinGacha:
          and dict showing which banner had new items pulled
         '''
         new_items_banner = {}
-        banner_code = [301,302,100,200]
+        banner_code = [301,302,100,200,400]
         '''
         if authkey.startswith('https://'):
             authkey_ = self.extract_authkey(authkey)
@@ -276,6 +301,7 @@ class GenshinGacha:
             while fetch == True:                  
                 full_data = self.get_history(link,str(i),str(page),'20',end)       
                 #print(full_data)
+                print(i)
                 if full_data is not None:
                     if full_data['message'] == 'OK':
                         if 'data' in full_data:
@@ -309,15 +335,20 @@ class GenshinGacha:
         new_items_banner = {}
         if len(temp_data) != 0:
             for i in banner_code:
-                check = False
                 banner = str(i)
-                previous_array = temp_data[banner]['list']
-                new_array = save_data[banner]['list']
-                new_items = self.array_diff(previous_array,new_array) 
-                new_items_banner[i] = (len(new_items) !=0)
-                with open(f'{self.path}/uids/{uid}/newitems_{banner}.json','w') as f:
-                    json.dump(new_items,f)
-                data[banner] = {'total': len(previous_array)+ len(new_items), 'list': previous_array + new_items}
+                if banner in temp_data:
+                    previous_array = temp_data[banner]['list']
+                    new_array = save_data[banner]['list']
+                    new_items = self.array_diff(previous_array,new_array) 
+                    new_items_banner[banner] = (len(new_items) !=0)
+                    with open(f'{self.path}/uids/{uid}/newitems_{banner}.json','w') as f:
+                        json.dump(new_items,f)
+                    data[banner] = {'total': len(previous_array)+ len(new_items), 'list': previous_array + new_items}
+                else:
+                    if banner in save_data:
+                        new_items = save_data[banner]['list']
+                        data[banner] = {'total': len(new_items), 'list': new_items}
+                        new_items_banner[banner] = (len(new_items) !=0)
         else:
             data = save_data
             for i in banner_code:
@@ -422,14 +453,18 @@ class GenshinGacha:
         return {'5starpity': five_starpity,'4starpity': four_starpity}
 
 
-    def correct_pity(self,banner_dict: dict, last_banner_dict: dict, pity: int):
+    def correct_pity(self,banner_dict: dict, last_banner_dict: dict):
         '''
         checks if previous one was same banner and returns the corrected pity
         '''
-        if last_banner_dict['banner_code'] == banner_dict['banner_code'] == '301' or last_banner_dict['banner_code'] == banner_dict['banner_code'] == '302' or last_banner_dict['banner_code'] == banner_dict['banner_code'] == '400':        
+        if last_banner_dict['banner_code'] in ['301','400']:
+            if banner_dict['banner_code'] in ['301','400']:
+                return last_banner_dict['5starpity']          
+        
+        if last_banner_dict['banner_code'] == banner_dict['banner_code'] == '302':        
             return last_banner_dict['5starpity']
-        else:
-            return 0
+        
+        return 0
     
     def chance_result_dict(self,rank: str,result: str, chance: str):
         '''
@@ -492,7 +527,7 @@ class GenshinGacha:
         '''
         
 
-        pities = {'302': {'5star' : 90, '4star': 80},'301': {'5star': 90, '4star': 10}, '200': {'5star': 90, '4star': 10}, '100': {'5star': 90, '4star': 10} }
+        pities = {'302': {'5star' : 90, '4star': 8},'400': {'5star': 90, '4star': 10},'301': {'5star': 90, '4star': 10}, '200': {'5star': 90, '4star': 10}, '100': {'5star': 90, '4star': 10} }
         result = 'lost'        
         if pull['rank_type'] == '5':                        
             result = 'won' 
@@ -543,8 +578,14 @@ class GenshinGacha:
                 list_pulls = data[banner_code]['list']               
                 print(f'banner code {banner_code}')          
                 for index in range(len(list_pulls)-1,-1,-1):            
-                    pull = list_pulls[index]                             
-                    foundBanners = self.get_banners(banners,pull['time'],banner_code)   
+                    pull = list_pulls[index]    
+                    if banner_code != '301':                         
+                        foundBanners = self.get_banners(banners,pull['time'],banner_code)   
+                    else:
+                        banner_code = pull['gacha_type']                        
+                        foundBanners = self.get_banners(banners,pull['time'],banner_code)
+                        if pull['gacha_type'] == '400':
+                            print(foundBanners, pull['gacha_type'])  
                     '''
                     if banner_code in ['301','302']:                 
                     names = [(i['start'],pull['time'],i['end'], (len(foundBanners) == 1)) for i in foundBanners]     
@@ -565,7 +606,7 @@ class GenshinGacha:
                         if index_in_wishes == None:  
                             if len(wishes) > 1:                    
                                 lastbanner = wishes[len(wishes)-1]
-                                fivestarpity = self.correct_pity(banner_object,lastbanner,fivestarpity)                        
+                                fivestarpity = self.correct_pity(banner_object,lastbanner)                        
                             #print(f'new banner')
                             featuredItems = self.get_banner_featured(foundBanners[0])
                             weaponItems = self.get_banner_weapons(foundBanners[0])
@@ -598,6 +639,8 @@ class GenshinGacha:
                                 '5050items': [],
                                 'rateup': self.rateup_previous(wishes)                   #true if 50/50, false if 100              
                                 }  
+                            if pull['gacha_type'] == '400':
+                                print(banner_object)
                             #print(f'banner {banner_object}')
                             wishes.append(banner_object)   
                         else:
@@ -650,11 +693,14 @@ class GenshinGacha:
             for checking just if its working as intended
             '''
             self.create_folder(uid)
+            if banner_code == '400':
+                banner_code = '301'
             with open(f'{self.path}/uids/{uid}/wishes-{uid}-{banner_code}.json','w') as f:
                 json.dump({'data':wishes},f,indent=1)
                 return True
         return None
 
+    
     def fetch_statistics(self,uid: int,banner_code : str):
         '''
         call this after processing wishes
@@ -662,6 +708,13 @@ class GenshinGacha:
         generates stats for each type of banner
 
         '''
+        search_banner = ''
+        if banner_code == '400':
+            search_banner = '400'
+            banner_code ='301'
+        else:
+            search_banner = banner_code
+
         data = {}
         if exists(f'{self.path}/uids/{uid}/wishes-{uid}-{banner_code}.json'):
             with open(f'{self.path}/uids/{uid}/wishes-{uid}-{banner_code}.json','r') as f:
@@ -669,7 +722,7 @@ class GenshinGacha:
             wishes = data['data']
             stats = {'5starpity':0,'4starpity':0,'5staritems':[],'4staritems':[],'5050items':[],'5050pulls': [],'5starpities':[],'4starpities': [],'chancefor5star':'','totalpulls': 0,'primogems':0,'pulls': {}}
             for i in wishes:
-                if banner_code == i['banner_code']:
+                if search_banner == i['banner_code']:
                     dict_ = i  
                     pulls_ = stats['pulls']             
                     dict_['pulls'] = dict_['pulls']
@@ -730,12 +783,12 @@ class GenshinGacha:
         embed.add_field(name='Status', value=status)
         return embed
 
-    async def process_authkey(self, authkey: str, author: Member,message: Message, change_status: bool = False):
+    async def process_authkey(self, wishhistory_link: str, author: Member,message: Message, change_status: bool = False):
         '''
         single function to do all things
         '''
         
-        uid,banner_new = self.fetch_wishhistory(authkey)
+        uid,banner_new = self.fetch_wishhistory(wishhistory_link)
         if change_status:
             embed = self.embed_status(author,uid,'Fetching wish history')
             await message.edit(embed=embed)
@@ -774,4 +827,6 @@ class GenshinGacha:
                     banner_code = wish.split('/')[-1].split('-')[-1].split('.')[0]
                     self.create_canvas_image(uid,banner_code)
                     
-
+test = GenshinGacha()
+processed = test.fetch_statistics(808897607,'400')
+print(processed)

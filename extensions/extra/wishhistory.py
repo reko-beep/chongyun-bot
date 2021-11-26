@@ -26,7 +26,7 @@ class WishHistory(commands.Cog):
                 await message.edit('Huff all done!\n Give me dumplings now! :PaimonExcited: ')
 
         else:
-            description = 'Please give a valid feedback url!'
+            description = 'Please give a valid wish history url or link to output file!'
 
             embed = Embed(title=f'Error',
                             description=description,

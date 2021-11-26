@@ -41,7 +41,7 @@ class BannerCanvas:
         Sets banner heading
         '''
 
-        headings = {'100': 'Standard Banner','200': 'Permanent Banner','301': 'Character Banner','302': 'Weapon Banner'}
+        headings = {'100': 'Standard Banner','200': 'Permanent Banner','301': 'Character Banner','302': 'Weapon Banner', '400': 'Character Event Wish-2'}
 
         
         main_banner = self.src.find('div',{'class':'banner'})
