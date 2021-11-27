@@ -1,17 +1,17 @@
 import os
 
 from nextcord.ext import commands
-from nextcord.ext.commands.bot import Bot
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from core.paimon import Paimon
 
 from util.logging import logc
 
 
 class ExtensionManager(commands.Cog):
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, pmon):
+        self.pmon = pmon
         self.ext_path = "extensions.extra."
 
         self.loadext_all()
@@ -22,18 +22,18 @@ class ExtensionManager(commands.Cog):
         # todo: check if that file exists 
         # todo: add error handling.
         logc("loading extension", arg)
-        self.bot.load_extension(self.ext_path + arg)
+        self.pmon.load_extension(self.ext_path + arg)
 
 
     @commands.command()
     async def uloadext(self, ctx, arg):
         logc("unloading extension", arg)
-        self.bot.unload_extension(self.ext_path + arg)
+        self.pmon.unload_extension(self.ext_path + arg)
 
-
+    @commands.command(aliases=['rr'])
     async def rloadext(self, ctx, arg):
         logc("reloading extension", arg)
-        self.bot.reload_extension(self.ext_path + arg)
+        self.pmon.reload_extension(self.ext_path + arg)
 
 
     def loadext_all(self):
@@ -61,13 +61,13 @@ class ExtensionManager(commands.Cog):
 
         for ext in extensions:
             print(ext)
-            self.client.load_extension(ext)
+            self.pmon.load_extension(ext)
             logc('loaded extension:',  ext)
 
 
 
-def setup(bot: Bot):
-    bot.add_cog(ExtensionManager(bot))
+def setup(pmon: Paimon):
+    pmon.add_cog(ExtensionManager(pmon))
 
 
     # extension file watcher: reloads when extra extension modules are modified
@@ -78,7 +78,7 @@ def setup(bot: Bot):
                 _, filename = os.path.split(event.src_path)
                 module_name = filename[:-3]
                 logc("reloading ", module_name)
-                bot.reload_extension('extensions.extra.' + module_name)
+                pmon.reload_extension('extensions.extra.' + module_name)
 
     event_handler = ExtensionFileChangeHandler()
     observer = Observer()
@@ -89,5 +89,5 @@ def setup(bot: Bot):
 
 
 
-def teardown(bot: Bot):
-    bot.remove_cog("ExtensionManager")
+def teardown(pmon: Paimon):
+    pmon.remove_cog("ExtensionManager")
