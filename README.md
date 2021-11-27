@@ -7,70 +7,30 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 
 
-Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting noe, you are free to use it, if you want!
+Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting now, you are free to use it, if you want!
 it contains
 
-    🔸 Paimon soundboard! (sounds provided)
+    🔸 Paimon soundboard! (sounds provided | genshin fandom voiceovers)
     🔸 Support for build and ascension commands (you need to add yours own in the respective folder)
     🔸 Paimon quotes (taken from paimonquotes twitter handle!)
-    🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)
-    🔸 An anime command, cuz felt the need for server.
-    🔸 Shows genshin stats from hoyolab (api wrapper by thesadru on github)
+    🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)    
+    🔸 Shows genshin stats and characters from hoyolab (api wrapper by thesadru on github)
  
- TOBEADDED | FUTURE IDEAS:
-     Wish History
-     Users custom builds creator.
-     Build Notes.
+
+
+# Being worked on
+
+![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
+
+    🔸Wish History (Almost done!)
+    🔸Users custom builds creator. 
+    🔸Build Notes. 
+    🔸Quests Code rewriting. (Almost Done!)
      
      
 # Setting up the bot
  
- Change the **settings.json** file according to your needs!
-
- **announce_channel** is where paimon bot will make announcements!
-
-
-**announcement.json** is file containing a sample announcement, it will post that announcement in announcement channel, when the bot starts!
-setting **announce** to **true** will post the announcement if bot is restarted, and **false** will not.
-
- **dropuid_channel** is the one where users will post their uids along with region, so bot will automatically link it.
-
- Linking Format:
- ```
- eu: uid
- asia: uid
- na: uid 
- ```
-****
-   
-  **ltoken** required for genshin stats.
-  **ltuid** required for genshin stats.
-
-
- **bump_channel** is the one where disboard bump commands will be, so bot can respond to the successful bump!
-
-    NOTE: if you want to disable it just change it to 0.
-
- **events_channel** is the one where bot will post upcoming genshin impact events!
-
-    NOTE: if you want to disable it just change it to 0.
-
- **approve_role** is the role given, when user has verified!
-
- **scrutiny_role** is the role which would be given to a new user, if scrutiny is turned on.
-
- **verify_channel** is the channel where paimon will post a sample of question which you want to ask!
-
-
-    NOTE: change it in on_member_join function!
-
- **mod_role** is the role for mod commands! like scrutiny.
-
- **lobbycreatevc** is the voice channel which will create custom lobbies when a user joins it.
-
-    NOTE: if you want to disable it just change it to 0.
-
-
+  Will be updated soon ![In Progress](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 # How can I get my cookies?
 **Taken from thesadru/genshinstats github**
 1. go to [hoyolab.com](https://www.hoyolab.com/genshin/)

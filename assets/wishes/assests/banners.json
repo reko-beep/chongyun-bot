@@ -1,10 +1,36 @@
 {
- "100": [
+ "301": [
   {
-   "name": "Beginners%27 Wish",
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Wish_Beginners%27_Wish.jpg/revision/latest/scale-to-width-down/500?cb=20200929013921",
-   "start": "indefinite",
-   "end": "indefinite",
+   "name": "Ballad In Goblets",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest/scale-to-width-down/500?cb=20201006234432",
+   "start": "2020-09-28 10:00:00",
+   "end": "2020-10-18 17:59:59",
+   "featured": [
+    {
+     "id": "venti",
+     "name": "Venti",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
    "characters": [
     {
      "id": "jean",
@@ -45,12 +71,6 @@
     {
      "id": "chongyun",
      "name": "Chongyun",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "fischl",
-     "name": "Fischl",
      "rank": "4",
      "type": "characters"
     },
@@ -69,200 +89,6 @@
     {
      "id": "ningguang",
      "name": "Ningguang",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "xingqiu",
-     "name": "Xingqiu",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "barbara",
-     "name": "Barbara",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "bennett",
-     "name": "Bennett",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "xiangling",
-     "name": "Xiangling",
-     "rank": "4",
-     "type": "characters"
-    }
-   ],
-   "weapons": [
-    {
-     "id": "slingshot",
-     "name": "Slingshot",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "sharpshooters_oath",
-     "name": "Sharpshooter's Oath",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "raven_bow",
-     "name": "Raven Bow",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "emerald_orb",
-     "name": "Emerald Orb",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "thrilling_tales_of_dragon_slayers",
-     "name": "Thrilling Tales of Dragon Slayers",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "magic_guide",
-     "name": "Magic Guide",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "debate_club",
-     "name": "Debate Club",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "bloodtainted_greatsword",
-     "name": "Bloodtainted Greatsword",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "ferrous_shadow",
-     "name": "Ferrous Shadow",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "black_tassel",
-     "name": "Black Tassel",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "skyrider_sword",
-     "name": "Skyrider Sword",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "harbinger_of_dawn",
-     "name": "Harbinger of Dawn",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
-     "id": "cool_steel",
-     "name": "Cool Steel",
-     "rank": "3",
-     "type": "weapons"
-    }
-   ]
-  }
- ],
- "301": [
-  {
-   "name": "Ballad In Goblets",
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest/scale-to-width-down/500?cb=20201006234432",
-   "start": "2020-09-28 00:00:00",
-   "end": "2020-10-18 00:00:00",
-   "featured": [
-    {
-     "id": "venti",
-     "name": "Venti",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "fischl",
-     "name": "Fischl",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "xiangling",
-     "name": "Xiangling",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "barbara",
-     "name": "Barbara",
-     "rank": "4",
-     "type": "characters"
-    }
-   ],
-   "characters": [
-    {
-     "id": "jean",
-     "name": "Jean",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "qiqi",
-     "name": "Qiqi",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "keqing",
-     "name": "Keqing",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "mona",
-     "name": "Mona",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "diluc",
-     "name": "Diluc",
-     "rank": "5",
-     "type": "characters"
-    },
-    {
-     "id": "sucrose",
-     "name": "Sucrose",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "chongyun",
-     "name": "Chongyun",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "beidou",
-     "name": "Beidou",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "razor",
-     "name": "Razor",
      "rank": "4",
      "type": "characters"
     },
@@ -273,12 +99,6 @@
      "type": "characters"
     },
     {
-     "id": "ningguang",
-     "name": "Ningguang",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
      "id": "xingqiu",
      "name": "Xingqiu",
      "rank": "4",
@@ -292,6 +112,12 @@
     }
    ],
    "weapons": [
+    {
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
     {
      "id": "rust",
      "name": "Rust",
@@ -311,14 +137,14 @@
      "type": "weapons"
     },
     {
-     "id": "favonius_warbow",
-     "name": "Favonius Warbow",
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
      "rank": "4",
      "type": "weapons"
     },
     {
-     "id": "eye_of_perception",
-     "name": "Eye of Perception",
+     "id": "favonius_codex",
+     "name": "Favonius Codex",
      "rank": "4",
      "type": "weapons"
     },
@@ -335,8 +161,8 @@
      "type": "weapons"
     },
     {
-     "id": "favonius_codex",
-     "name": "Favonius Codex",
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
      "rank": "4",
      "type": "weapons"
     },
@@ -359,8 +185,8 @@
      "type": "weapons"
     },
     {
-     "id": "favonius_greatsword",
-     "name": "Favonius Greatsword",
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
      "rank": "4",
      "type": "weapons"
     },
@@ -371,8 +197,8 @@
      "type": "weapons"
     },
     {
-     "id": "dragons_bane",
-     "name": "Dragon's Bane",
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
      "rank": "4",
      "type": "weapons"
     },
@@ -395,14 +221,8 @@
      "type": "weapons"
     },
     {
-     "id": "favonius_sword",
-     "name": "Favonius Sword",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "slingshot",
-     "name": "Slingshot",
+     "id": "raven_bow",
+     "name": "Raven Bow",
      "rank": "3",
      "type": "weapons"
     },
@@ -413,8 +233,8 @@
      "type": "weapons"
     },
     {
-     "id": "raven_bow",
-     "name": "Raven Bow",
+     "id": "slingshot",
+     "name": "Slingshot",
      "rank": "3",
      "type": "weapons"
     },
@@ -425,26 +245,26 @@
      "type": "weapons"
     },
     {
-     "id": "thrilling_tales_of_dragon_slayers",
-     "name": "Thrilling Tales of Dragon Slayers",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
      "id": "magic_guide",
      "name": "Magic Guide",
      "rank": "3",
      "type": "weapons"
     },
     {
-     "id": "debate_club",
-     "name": "Debate Club",
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
      "rank": "3",
      "type": "weapons"
     },
     {
      "id": "bloodtainted_greatsword",
      "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
      "rank": "3",
      "type": "weapons"
     },
@@ -461,8 +281,8 @@
      "type": "weapons"
     },
     {
-     "id": "skyrider_sword",
-     "name": "Skyrider Sword",
+     "id": "cool_steel",
+     "name": "Cool Steel",
      "rank": "3",
      "type": "weapons"
     },
@@ -473,8 +293,8 @@
      "type": "weapons"
     },
     {
-     "id": "cool_steel",
-     "name": "Cool Steel",
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
      "rank": "3",
      "type": "weapons"
     }
@@ -3319,6 +3139,348 @@
    ]
   },
   {
+   "name": "Secretum Secretorum",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Wish_Secretum_Secretorum_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040308",
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "featured": [
+    {
+     "id": "albedo",
+     "name": "Albedo",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "bennett",
+     "name": "Bennett",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "noelle",
+     "name": "Noelle",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "rosaria",
+     "name": "Rosaria",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "name": "Jean",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "qiqi",
+     "name": "Qiqi",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "keqing",
+     "name": "Keqing",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "mona",
+     "name": "Mona",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "diluc",
+     "name": "Diluc",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "sayu",
+     "name": "Sayu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "name": "Sucrose",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "name": "Chongyun",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "diona",
+     "name": "Diona",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "name": "Beidou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "kujou_sara",
+     "name": "Kujou Sara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "razor",
+     "name": "Razor",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "ningguang",
+     "name": "Ningguang",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "thoma",
+     "name": "Thoma",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xinyan",
+     "name": "Xinyan",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "name": "Yanfei",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rust",
+     "name": "Rust",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_bow",
+     "name": "Sacrificial Bow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_stringless",
+     "name": "The Stringless",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_codex",
+     "name": "Favonius Codex",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "name": "Sacrificial Fragments",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_widsith",
+     "name": "The Widsith",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rainslasher",
+     "name": "Rainslasher",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "name": "Sacrificial Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_bell",
+     "name": "The Bell",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_lance",
+     "name": "Favonius Lance",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "lions_roar",
+     "name": "Lion's Roar",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_sword",
+     "name": "Sacrificial Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_flute",
+     "name": "The Flute",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "name": "Sharpshooter's Oath",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "slingshot",
+     "name": "Slingshot",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "emerald_orb",
+     "name": "Emerald Orb",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "magic_guide",
+     "name": "Magic Guide",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "ferrous_shadow",
+     "name": "Ferrous Shadow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "black_tassel",
+     "name": "Black Tassel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "cool_steel",
+     "name": "Cool Steel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "name": "Harbinger of Dawn",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
+     "rank": "3",
+     "type": "weapons"
+    }
+   ]
+  },
+  {
    "name": "Adrift In The Harbor",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Wish_Adrift_in_the_Harbor_2021-01-12.jpg/revision/latest/scale-to-width-down/500?cb=20210110041039",
    "start": "2021-01-12 18:00:00",
@@ -4562,6 +4724,7 @@
   },
   {
    "name": "Moment Of Bloom",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Wish_Moment_of_Bloom_2021-11-02.png/revision/latest/scale-to-width-down/500?cb=20211031041911",
    "start": "2021-11-02 18:00:00",
    "end": "2021-11-23 14:59:59",
    "featured": [
@@ -4578,15 +4741,15 @@
      "type": "characters"
     },
     {
-     "id": "unknown_character",
-     "name": "Unknown Character",
-     "rank": "1",
+     "id": "sayu",
+     "name": "Sayu",
+     "rank": "4",
      "type": "characters"
     },
     {
-     "id": "unknown_character",
-     "name": "Unknown Character",
-     "rank": "1",
+     "id": "diona",
+     "name": "Diona",
+     "rank": "4",
      "type": "characters"
     }
    ],
@@ -4622,12 +4785,6 @@
      "type": "characters"
     },
     {
-     "id": "sayu",
-     "name": "Sayu",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
      "id": "sucrose",
      "name": "Sucrose",
      "rank": "4",
@@ -4636,12 +4793,6 @@
     {
      "id": "chongyun",
      "name": "Chongyun",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "diona",
-     "name": "Diona",
      "rank": "4",
      "type": "characters"
     },
@@ -6874,6 +7025,545 @@
      "type": "weapons"
     }
    ]
+  },
+  {
+   "name": "Oni%27S Royale",
+   "start": "2021-12-14 18:00:00",
+   "end": "2022-01-05 14:59:59",
+   "featured": [
+    {
+     "id": "arataki_itto",
+     "name": "Arataki Itto",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "gorou",
+     "name": "Gorou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "unknown_character",
+     "name": "Unknown Character",
+     "rank": "1",
+     "type": "characters"
+    },
+    {
+     "id": "unknown_character",
+     "name": "Unknown Character",
+     "rank": "1",
+     "type": "characters"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "name": "Jean",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "qiqi",
+     "name": "Qiqi",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "keqing",
+     "name": "Keqing",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "mona",
+     "name": "Mona",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "diluc",
+     "name": "Diluc",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "sayu",
+     "name": "Sayu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "name": "Sucrose",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "name": "Chongyun",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "diona",
+     "name": "Diona",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "rosaria",
+     "name": "Rosaria",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "name": "Beidou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "kujou_sara",
+     "name": "Kujou Sara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "razor",
+     "name": "Razor",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "ningguang",
+     "name": "Ningguang",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "noelle",
+     "name": "Noelle",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "bennett",
+     "name": "Bennett",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "thoma",
+     "name": "Thoma",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xinyan",
+     "name": "Xinyan",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "name": "Yanfei",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rust",
+     "name": "Rust",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_bow",
+     "name": "Sacrificial Bow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_stringless",
+     "name": "The Stringless",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_codex",
+     "name": "Favonius Codex",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "name": "Sacrificial Fragments",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_widsith",
+     "name": "The Widsith",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rainslasher",
+     "name": "Rainslasher",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "name": "Sacrificial Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_bell",
+     "name": "The Bell",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_lance",
+     "name": "Favonius Lance",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "lions_roar",
+     "name": "Lion's Roar",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_sword",
+     "name": "Sacrificial Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_flute",
+     "name": "The Flute",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "name": "Sharpshooter's Oath",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "slingshot",
+     "name": "Slingshot",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "emerald_orb",
+     "name": "Emerald Orb",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "magic_guide",
+     "name": "Magic Guide",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "ferrous_shadow",
+     "name": "Ferrous Shadow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "black_tassel",
+     "name": "Black Tassel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "cool_steel",
+     "name": "Cool Steel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "name": "Harbinger of Dawn",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
+     "rank": "3",
+     "type": "weapons"
+    }
+   ]
+  }
+ ],
+ "100": [
+  {
+   "name": "Beginners%27 Wish",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Wish_Beginners%27_Wish.jpg/revision/latest/scale-to-width-down/500?cb=20200929013921",
+   "start": "indefinite",
+   "end": "indefinite",
+   "characters": [
+    {
+     "id": "jean",
+     "name": "Jean",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "qiqi",
+     "name": "Qiqi",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "keqing",
+     "name": "Keqing",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "mona",
+     "name": "Mona",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "diluc",
+     "name": "Diluc",
+     "rank": "5",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "name": "Sucrose",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "name": "Chongyun",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "name": "Beidou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "razor",
+     "name": "Razor",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "ningguang",
+     "name": "Ningguang",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "bennett",
+     "name": "Bennett",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "weapons": [
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "name": "Sharpshooter's Oath",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "slingshot",
+     "name": "Slingshot",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "emerald_orb",
+     "name": "Emerald Orb",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "magic_guide",
+     "name": "Magic Guide",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "ferrous_shadow",
+     "name": "Ferrous Shadow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "black_tassel",
+     "name": "Black Tassel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "cool_steel",
+     "name": "Cool Steel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "name": "Harbinger of Dawn",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
+     "rank": "3",
+     "type": "weapons"
+    }
+   ]
   }
  ],
  "200": [
@@ -6926,8 +7616,8 @@
      "type": "characters"
     },
     {
-     "id": "rosaria",
-     "name": "Rosaria",
+     "id": "chongyun",
+     "name": "Chongyun",
      "rank": "4",
      "type": "characters"
     },
@@ -6938,26 +7628,14 @@
      "type": "characters"
     },
     {
-     "id": "chongyun",
-     "name": "Chongyun",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
      "id": "kaeya",
      "name": "Kaeya",
      "rank": "4",
      "type": "characters"
     },
     {
-     "id": "kujou_sara",
-     "name": "Kujou Sara",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
-     "id": "fischl",
-     "name": "Fischl",
+     "id": "rosaria",
+     "name": "Rosaria",
      "rank": "4",
      "type": "characters"
     },
@@ -6968,8 +7646,14 @@
      "type": "characters"
     },
     {
-     "id": "razor",
-     "name": "Razor",
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "kujou_sara",
+     "name": "Kujou Sara",
      "rank": "4",
      "type": "characters"
     },
@@ -6980,8 +7664,8 @@
      "type": "characters"
     },
     {
-     "id": "noelle",
-     "name": "Noelle",
+     "id": "razor",
+     "name": "Razor",
      "rank": "4",
      "type": "characters"
     },
@@ -6992,8 +7676,8 @@
      "type": "characters"
     },
     {
-     "id": "xingqiu",
-     "name": "Xingqiu",
+     "id": "noelle",
+     "name": "Noelle",
      "rank": "4",
      "type": "characters"
     },
@@ -7004,14 +7688,14 @@
      "type": "characters"
     },
     {
-     "id": "yanfei",
-     "name": "Yanfei",
+     "id": "xingqiu",
+     "name": "Xingqiu",
      "rank": "4",
      "type": "characters"
     },
     {
-     "id": "xinyan",
-     "name": "Xinyan",
+     "id": "amber",
+     "name": "Amber",
      "rank": "4",
      "type": "characters"
     },
@@ -7022,25 +7706,31 @@
      "type": "characters"
     },
     {
+     "id": "thoma",
+     "name": "Thoma",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
      "id": "xiangling",
      "name": "Xiangling",
      "rank": "4",
      "type": "characters"
     },
     {
-     "id": "amber",
-     "name": "Amber",
+     "id": "xinyan",
+     "name": "Xinyan",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "name": "Yanfei",
      "rank": "4",
      "type": "characters"
     }
    ],
    "weapons": [
-    {
-     "id": "skyward_harp",
-     "name": "Skyward Harp",
-     "rank": "5",
-     "type": "weapons"
-    },
     {
      "id": "amos__bow",
      "name": "Amos' Bow",
@@ -7048,14 +7738,20 @@
      "type": "weapons"
     },
     {
-     "id": "skyward_atlas",
-     "name": "Skyward Atlas",
+     "id": "skyward_harp",
+     "name": "Skyward Harp",
      "rank": "5",
      "type": "weapons"
     },
     {
      "id": "lost_prayer_to_the_sacred_winds",
      "name": "Lost Prayer to the Sacred Winds",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_atlas",
+     "name": "Skyward Atlas",
      "rank": "5",
      "type": "weapons"
     },
@@ -7072,20 +7768,14 @@
      "type": "weapons"
     },
     {
-     "id": "skyward_spine",
-     "name": "Skyward Spine",
-     "rank": "5",
-     "type": "weapons"
-    },
-    {
      "id": "primordial_jade_winged_spear",
      "name": "Primordial Jade Winged-Spear",
      "rank": "5",
      "type": "weapons"
     },
     {
-     "id": "skyward_blade",
-     "name": "Skyward Blade",
+     "id": "skyward_spine",
+     "name": "Skyward Spine",
      "rank": "5",
      "type": "weapons"
     },
@@ -7096,8 +7786,20 @@
      "type": "weapons"
     },
     {
+     "id": "skyward_blade",
+     "name": "Skyward Blade",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
      "id": "favonius_warbow",
      "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rust",
+     "name": "Rust",
      "rank": "4",
      "type": "weapons"
     },
@@ -7114,8 +7816,8 @@
      "type": "weapons"
     },
     {
-     "id": "rust",
-     "name": "Rust",
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
      "rank": "4",
      "type": "weapons"
     },
@@ -7138,14 +7840,14 @@
      "type": "weapons"
     },
     {
-     "id": "eye_of_perception",
-     "name": "Eye of Perception",
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
      "rank": "4",
      "type": "weapons"
     },
     {
-     "id": "favonius_greatsword",
-     "name": "Favonius Greatsword",
+     "id": "rainslasher",
+     "name": "Rainslasher",
      "rank": "4",
      "type": "weapons"
     },
@@ -7162,8 +7864,8 @@
      "type": "weapons"
     },
     {
-     "id": "rainslasher",
-     "name": "Rainslasher",
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
      "rank": "4",
      "type": "weapons"
     },
@@ -7174,14 +7876,14 @@
      "type": "weapons"
     },
     {
-     "id": "dragons_bane",
-     "name": "Dragon's Bane",
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
      "rank": "4",
      "type": "weapons"
     },
     {
-     "id": "favonius_sword",
-     "name": "Favonius Sword",
+     "id": "lions_roar",
+     "name": "Lion's Roar",
      "rank": "4",
      "type": "weapons"
     },
@@ -7198,14 +7900,8 @@
      "type": "weapons"
     },
     {
-     "id": "lions_roar",
-     "name": "Lion's Roar",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "slingshot",
-     "name": "Slingshot",
+     "id": "raven_bow",
+     "name": "Raven Bow",
      "rank": "3",
      "type": "weapons"
     },
@@ -7216,8 +7912,8 @@
      "type": "weapons"
     },
     {
-     "id": "raven_bow",
-     "name": "Raven Bow",
+     "id": "slingshot",
+     "name": "Slingshot",
      "rank": "3",
      "type": "weapons"
     },
@@ -7228,26 +7924,26 @@
      "type": "weapons"
     },
     {
-     "id": "thrilling_tales_of_dragon_slayers",
-     "name": "Thrilling Tales of Dragon Slayers",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
      "id": "magic_guide",
      "name": "Magic Guide",
      "rank": "3",
      "type": "weapons"
     },
     {
-     "id": "debate_club",
-     "name": "Debate Club",
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
      "rank": "3",
      "type": "weapons"
     },
     {
      "id": "bloodtainted_greatsword",
      "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
      "rank": "3",
      "type": "weapons"
     },
@@ -7264,8 +7960,8 @@
      "type": "weapons"
     },
     {
-     "id": "skyrider_sword",
-     "name": "Skyrider Sword",
+     "id": "cool_steel",
+     "name": "Cool Steel",
      "rank": "3",
      "type": "weapons"
     },
@@ -7276,8 +7972,8 @@
      "type": "weapons"
     },
     {
-     "id": "cool_steel",
-     "name": "Cool Steel",
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
      "rank": "3",
      "type": "weapons"
     }
@@ -7288,15 +7984,9 @@
   {
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Wish_Epitome_Invocation_2020-09-28.jpg/revision/latest/scale-to-width-down/500?cb=20200929014948",
-   "start": "2020-09-28 00:00:00",
-   "end": "2020-10-18 00:00:00",
+   "start": "2020-09-28 10:00:00",
+   "end": "2020-10-18 17:59:59",
    "featured": [
-    {
-     "id": "amos__bow",
-     "name": "Amos' Bow",
-     "rank": "5",
-     "type": "weapons"
-    },
     {
      "id": "aquila_favonia",
      "name": "Aquila Favonia",
@@ -7304,20 +7994,14 @@
      "type": "weapons"
     },
     {
-     "id": "the_stringless",
-     "name": "The Stringless",
-     "rank": "4",
+     "id": "amos__bow",
+     "name": "Amos' Bow",
+     "rank": "5",
      "type": "weapons"
     },
     {
-     "id": "the_widsith",
-     "name": "The Widsith",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "favonius_lance",
-     "name": "Favonius Lance",
+     "id": "the_flute",
+     "name": "The Flute",
      "rank": "4",
      "type": "weapons"
     },
@@ -7328,8 +8012,20 @@
      "type": "weapons"
     },
     {
-     "id": "the_flute",
-     "name": "The Flute",
+     "id": "the_widsith",
+     "name": "The Widsith",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_stringless",
+     "name": "The Stringless",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_lance",
+     "name": "Favonius Lance",
      "rank": "4",
      "type": "weapons"
     }
@@ -7348,14 +8044,14 @@
      "type": "characters"
     },
     {
-     "id": "fischl",
-     "name": "Fischl",
+     "id": "beidou",
+     "name": "Beidou",
      "rank": "4",
      "type": "characters"
     },
     {
-     "id": "beidou",
-     "name": "Beidou",
+     "id": "fischl",
+     "name": "Fischl",
      "rank": "4",
      "type": "characters"
     },
@@ -7366,26 +8062,26 @@
      "type": "characters"
     },
     {
-     "id": "noelle",
-     "name": "Noelle",
-     "rank": "4",
-     "type": "characters"
-    },
-    {
      "id": "ningguang",
      "name": "Ningguang",
      "rank": "4",
      "type": "characters"
     },
     {
-     "id": "xingqiu",
-     "name": "Xingqiu",
+     "id": "noelle",
+     "name": "Noelle",
      "rank": "4",
      "type": "characters"
     },
     {
      "id": "barbara",
      "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
      "rank": "4",
      "type": "characters"
     },
@@ -7422,14 +8118,14 @@
      "type": "weapons"
     },
     {
-     "id": "wolfs_gravestone",
-     "name": "Wolf's Gravestone",
+     "id": "skyward_pride",
+     "name": "Skyward Pride",
      "rank": "5",
      "type": "weapons"
     },
     {
-     "id": "skyward_pride",
-     "name": "Skyward Pride",
+     "id": "wolfs_gravestone",
+     "name": "Wolf's Gravestone",
      "rank": "5",
      "type": "weapons"
     },
@@ -7452,8 +8148,8 @@
      "type": "weapons"
     },
     {
-     "id": "sacrificial_bow",
-     "name": "Sacrificial Bow",
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
      "rank": "4",
      "type": "weapons"
     },
@@ -7464,14 +8160,8 @@
      "type": "weapons"
     },
     {
-     "id": "favonius_warbow",
-     "name": "Favonius Warbow",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "sacrificial_fragments",
-     "name": "Sacrificial Fragments",
+     "id": "sacrificial_bow",
+     "name": "Sacrificial Bow",
      "rank": "4",
      "type": "weapons"
     },
@@ -7488,14 +8178,8 @@
      "type": "weapons"
     },
     {
-     "id": "sacrificial_greatsword",
-     "name": "Sacrificial Greatsword",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "rainslasher",
-     "name": "Rainslasher",
+     "id": "sacrificial_fragments",
+     "name": "Sacrificial Fragments",
      "rank": "4",
      "type": "weapons"
     },
@@ -7506,20 +8190,20 @@
      "type": "weapons"
     },
     {
+     "id": "rainslasher",
+     "name": "Rainslasher",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "name": "Sacrificial Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
      "id": "dragons_bane",
      "name": "Dragon's Bane",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "sacrificial_sword",
-     "name": "Sacrificial Sword",
-     "rank": "4",
-     "type": "weapons"
-    },
-    {
-     "id": "lions_roar",
-     "name": "Lion's Roar",
      "rank": "4",
      "type": "weapons"
     },
@@ -7530,8 +8214,20 @@
      "type": "weapons"
     },
     {
-     "id": "slingshot",
-     "name": "Slingshot",
+     "id": "lions_roar",
+     "name": "Lion's Roar",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_sword",
+     "name": "Sacrificial Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
      "rank": "3",
      "type": "weapons"
     },
@@ -7542,8 +8238,8 @@
      "type": "weapons"
     },
     {
-     "id": "raven_bow",
-     "name": "Raven Bow",
+     "id": "slingshot",
+     "name": "Slingshot",
      "rank": "3",
      "type": "weapons"
     },
@@ -7554,26 +8250,26 @@
      "type": "weapons"
     },
     {
-     "id": "thrilling_tales_of_dragon_slayers",
-     "name": "Thrilling Tales of Dragon Slayers",
-     "rank": "3",
-     "type": "weapons"
-    },
-    {
      "id": "magic_guide",
      "name": "Magic Guide",
      "rank": "3",
      "type": "weapons"
     },
     {
-     "id": "debate_club",
-     "name": "Debate Club",
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
      "rank": "3",
      "type": "weapons"
     },
     {
      "id": "bloodtainted_greatsword",
      "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
      "rank": "3",
      "type": "weapons"
     },
@@ -7590,8 +8286,8 @@
      "type": "weapons"
     },
     {
-     "id": "skyrider_sword",
-     "name": "Skyrider Sword",
+     "id": "cool_steel",
+     "name": "Cool Steel",
      "rank": "3",
      "type": "weapons"
     },
@@ -7602,8 +8298,8 @@
      "type": "weapons"
     },
     {
-     "id": "cool_steel",
-     "name": "Cool Steel",
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
      "rank": "3",
      "type": "weapons"
     }
@@ -13926,6 +14622,1142 @@
      "type": "weapons"
     }
    ]
+  },
+  {
+   "name": "Epitome Invocation",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Wish_Epitome_Invocation_2021-11-02.png/revision/latest/scale-to-width-down/500?cb=20211031042249",
+   "start": "2021-11-02 18:00:00",
+   "end": "2021-11-23 14:59:59",
+   "featured": [
+    {
+     "id": "staff_of_homa",
+     "name": "Staff of Homa",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "elegy_for_the_end",
+     "name": "Elegy for the End",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "wavebreakers_fin",
+     "name": "Wavebreaker's Fin",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "mouuns_moon",
+     "name": "Mouun's Moon",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_sword",
+     "name": "Sacrificial Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rainslasher",
+     "name": "Rainslasher",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_widsith",
+     "name": "The Widsith",
+     "rank": "4",
+     "type": "weapons"
+    }
+   ],
+   "characters": [
+    {
+     "id": "sayu",
+     "name": "Sayu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "name": "Sucrose",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "name": "Chongyun",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "diona",
+     "name": "Diona",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "rosaria",
+     "name": "Rosaria",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "name": "Beidou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "kujou_sara",
+     "name": "Kujou Sara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "razor",
+     "name": "Razor",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "ningguang",
+     "name": "Ningguang",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "noelle",
+     "name": "Noelle",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "bennett",
+     "name": "Bennett",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xinyan",
+     "name": "Xinyan",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "name": "Yanfei",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "weapons": [
+    {
+     "id": "amos__bow",
+     "name": "Amos' Bow",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_harp",
+     "name": "Skyward Harp",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "lost_prayer_to_the_sacred_winds",
+     "name": "Lost Prayer to the Sacred Winds",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_atlas",
+     "name": "Skyward Atlas",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_pride",
+     "name": "Skyward Pride",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "wolfs_gravestone",
+     "name": "Wolf's Gravestone",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "primordial_jade_winged_spear",
+     "name": "Primordial Jade Winged-Spear",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_spine",
+     "name": "Skyward Spine",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "aquila_favonia",
+     "name": "Aquila Favonia",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_blade",
+     "name": "Skyward Blade",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "rust",
+     "name": "Rust",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_bow",
+     "name": "Sacrificial Bow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_stringless",
+     "name": "The Stringless",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_codex",
+     "name": "Favonius Codex",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "name": "Sacrificial Fragments",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "name": "Sacrificial Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_bell",
+     "name": "The Bell",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_lance",
+     "name": "Favonius Lance",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "lions_roar",
+     "name": "Lion's Roar",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_flute",
+     "name": "The Flute",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "name": "Sharpshooter's Oath",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "slingshot",
+     "name": "Slingshot",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "emerald_orb",
+     "name": "Emerald Orb",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "magic_guide",
+     "name": "Magic Guide",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "ferrous_shadow",
+     "name": "Ferrous Shadow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "black_tassel",
+     "name": "Black Tassel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "cool_steel",
+     "name": "Cool Steel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "name": "Harbinger of Dawn",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
+     "rank": "3",
+     "type": "weapons"
+    }
+   ]
+  },
+  {
+   "name": "Epitome Invocation",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Wish_Epitome_Invocation_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040310",
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "featured": [
+    {
+     "id": "freedom_sworn",
+     "name": "Freedom-Sworn",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "song_of_broken_pines",
+     "name": "Song of Broken Pines",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "wine_and_song",
+     "name": "Wine and Song",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "alley_hunter",
+     "name": "Alley Hunter",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "lions_roar",
+     "name": "Lion's Roar",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "name": "Sacrificial Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "dragons_bane",
+     "name": "Dragon's Bane",
+     "rank": "4",
+     "type": "weapons"
+    }
+   ],
+   "characters": [
+    {
+     "id": "sayu",
+     "name": "Sayu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "name": "Sucrose",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "name": "Chongyun",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "diona",
+     "name": "Diona",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "rosaria",
+     "name": "Rosaria",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "name": "Beidou",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "fischl",
+     "name": "Fischl",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "kujou_sara",
+     "name": "Kujou Sara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "razor",
+     "name": "Razor",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "ningguang",
+     "name": "Ningguang",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "noelle",
+     "name": "Noelle",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "barbara",
+     "name": "Barbara",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "name": "Xingqiu",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "bennett",
+     "name": "Bennett",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "thoma",
+     "name": "Thoma",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "name": "Xiangling",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "xinyan",
+     "name": "Xinyan",
+     "rank": "4",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "name": "Yanfei",
+     "rank": "4",
+     "type": "characters"
+    }
+   ],
+   "weapons": [
+    {
+     "id": "amos__bow",
+     "name": "Amos' Bow",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_harp",
+     "name": "Skyward Harp",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "lost_prayer_to_the_sacred_winds",
+     "name": "Lost Prayer to the Sacred Winds",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_atlas",
+     "name": "Skyward Atlas",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_pride",
+     "name": "Skyward Pride",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "wolfs_gravestone",
+     "name": "Wolf's Gravestone",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "primordial_jade_winged_spear",
+     "name": "Primordial Jade Winged-Spear",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_spine",
+     "name": "Skyward Spine",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "aquila_favonia",
+     "name": "Aquila Favonia",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "skyward_blade",
+     "name": "Skyward Blade",
+     "rank": "5",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_warbow",
+     "name": "Favonius Warbow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rust",
+     "name": "Rust",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_bow",
+     "name": "Sacrificial Bow",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_stringless",
+     "name": "The Stringless",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "eye_of_perception",
+     "name": "Eye of Perception",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_codex",
+     "name": "Favonius Codex",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "name": "Sacrificial Fragments",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_widsith",
+     "name": "The Widsith",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_greatsword",
+     "name": "Favonius Greatsword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "rainslasher",
+     "name": "Rainslasher",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_bell",
+     "name": "The Bell",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_lance",
+     "name": "Favonius Lance",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "favonius_sword",
+     "name": "Favonius Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "sacrificial_sword",
+     "name": "Sacrificial Sword",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "the_flute",
+     "name": "The Flute",
+     "rank": "4",
+     "type": "weapons"
+    },
+    {
+     "id": "raven_bow",
+     "name": "Raven Bow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "name": "Sharpshooter's Oath",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "slingshot",
+     "name": "Slingshot",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "emerald_orb",
+     "name": "Emerald Orb",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "magic_guide",
+     "name": "Magic Guide",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "name": "Bloodtainted Greatsword",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "debate_club",
+     "name": "Debate Club",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "ferrous_shadow",
+     "name": "Ferrous Shadow",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "black_tassel",
+     "name": "Black Tassel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "cool_steel",
+     "name": "Cool Steel",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "name": "Harbinger of Dawn",
+     "rank": "3",
+     "type": "weapons"
+    },
+    {
+     "id": "skyrider_sword",
+     "name": "Skyrider Sword",
+     "rank": "3",
+     "type": "weapons"
+    }
+   ]
   }
+ ],
+ "400": [    
+    {
+     "name": "Born Of Ocean Swell",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Born_of_Ocean_Swell_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040306",
+     "start": "2021-11-24 11:00:00",
+     "end": "2021-12-14 17:59:59",
+     "featured": [
+      {
+       "id": "eula",
+       "name": "Eula",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "bennett",
+       "name": "Bennett",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "noelle",
+       "name": "Noelle",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "rosaria",
+       "name": "Rosaria",
+       "rank": "4",
+       "type": "characters"
+      }
+     ],
+     "characters": [
+      {
+       "id": "jean",
+       "name": "Jean",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "qiqi",
+       "name": "Qiqi",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "keqing",
+       "name": "Keqing",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "mona",
+       "name": "Mona",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "diluc",
+       "name": "Diluc",
+       "rank": "5",
+       "type": "characters"
+      },
+      {
+       "id": "sayu",
+       "name": "Sayu",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "sucrose",
+       "name": "Sucrose",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "chongyun",
+       "name": "Chongyun",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "diona",
+       "name": "Diona",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "rosaria",
+       "name": "Rosaria",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "beidou",
+       "name": "Beidou",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "fischl",
+       "name": "Fischl",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "kujou_sara",
+       "name": "Kujou Sara",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "razor",
+       "name": "Razor",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "ningguang",
+       "name": "Ningguang",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "noelle",
+       "name": "Noelle",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "barbara",
+       "name": "Barbara",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "xingqiu",
+       "name": "Xingqiu",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "bennett",
+       "name": "Bennett",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "thoma",
+       "name": "Thoma",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "xiangling",
+       "name": "Xiangling",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "xinyan",
+       "name": "Xinyan",
+       "rank": "4",
+       "type": "characters"
+      },
+      {
+       "id": "yanfei",
+       "name": "Yanfei",
+       "rank": "4",
+       "type": "characters"
+      }
+     ],
+     "weapons": [
+      {
+       "id": "favonius_warbow",
+       "name": "Favonius Warbow",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "rust",
+       "name": "Rust",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "sacrificial_bow",
+       "name": "Sacrificial Bow",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "the_stringless",
+       "name": "The Stringless",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "eye_of_perception",
+       "name": "Eye of Perception",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "favonius_codex",
+       "name": "Favonius Codex",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "sacrificial_fragments",
+       "name": "Sacrificial Fragments",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "the_widsith",
+       "name": "The Widsith",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "favonius_greatsword",
+       "name": "Favonius Greatsword",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "rainslasher",
+       "name": "Rainslasher",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "sacrificial_greatsword",
+       "name": "Sacrificial Greatsword",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "the_bell",
+       "name": "The Bell",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "dragons_bane",
+       "name": "Dragon's Bane",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "favonius_lance",
+       "name": "Favonius Lance",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "favonius_sword",
+       "name": "Favonius Sword",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "lions_roar",
+       "name": "Lion's Roar",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "sacrificial_sword",
+       "name": "Sacrificial Sword",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "the_flute",
+       "name": "The Flute",
+       "rank": "4",
+       "type": "weapons"
+      },
+      {
+       "id": "raven_bow",
+       "name": "Raven Bow",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "sharpshooters_oath",
+       "name": "Sharpshooter's Oath",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "slingshot",
+       "name": "Slingshot",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "emerald_orb",
+       "name": "Emerald Orb",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "magic_guide",
+       "name": "Magic Guide",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "thrilling_tales_of_dragon_slayers",
+       "name": "Thrilling Tales of Dragon Slayers",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "bloodtainted_greatsword",
+       "name": "Bloodtainted Greatsword",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "debate_club",
+       "name": "Debate Club",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "ferrous_shadow",
+       "name": "Ferrous Shadow",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "black_tassel",
+       "name": "Black Tassel",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "cool_steel",
+       "name": "Cool Steel",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "harbinger_of_dawn",
+       "name": "Harbinger of Dawn",
+       "rank": "3",
+       "type": "weapons"
+      },
+      {
+       "id": "skyrider_sword",
+       "name": "Skyrider Sword",
+       "rank": "3",
+       "type": "weapons"
+      }
+     ]
+    }
  ]
 }

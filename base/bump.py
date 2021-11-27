@@ -9,7 +9,7 @@ from nextcord.utils import get
 from core.paimon import Paimon
 
 from asyncio import sleep
-
+from util.logging import logc
 
 class Bump:
     def __init__(self, pmon: Paimon):
@@ -26,7 +26,7 @@ class Bump:
         self.timer = pmon.p_bot_config['bump_timer']
 
         self.bump_data = {}
-        self.load_bemps()
+        self.load_bumps()
 
         self.disboard_bot_id = 302050872383242240
 
@@ -36,21 +36,30 @@ class Bump:
         This looks for bump message by disboard, and adds a role to user who bumped it if the role is set!
         also adds a reminder for set time to notify users to bump
         '''
+        
+        channel_set = (self.bump_channel != 0)
 
-        embed_present = (len(message.embeds) != 0)
+        if channel_set:
+            if message.channel.id == self.bump_channel:
+                embed_present = (len(message.embeds) != 0)
 
-        if embed_present:
-            
-            embed_description = message.embeds[0].description
-            bumped = ('Bump Done' in embed_description) and (message.author.id == self.disboard_bot_id)
-            if bumped:
-                user_id = self.parse_user_id(embed_description)
-                await self.send_bump_success_message(message,user_id)
-                await self.send_bump_schedule_message(message)
+                if embed_present and (message.author.id == self.disboard_bot_id):
+                    
+                    embed_description = str(message.embeds[0].description)
+                    bumped = ('bump done' in embed_description.lower()) 
+                    if bumped:
+                        user_id = self.parse_user_id(embed_description)
+                        await self.send_bump_success_message(message,user_id)
+                        await self.send_bump_schedule_message()
+                        self.save_bump(user_id)
 
-                if self.bump_role:
-                    user = get(self.pmon.guilds[0].members,id=int(user_id))
-                    await user.add_roles(self.bump_role)
+                        if self.bump_role:
+                            user = get(self.pmon.guilds[0].members,id=int(user_id))
+                            await user.add_roles(self.bump_role)
+
+    def get_topbumper(self):
+        if len(self.bump_data) != 0:
+            return max(self.bump_data, key=self.bump_data.get)
 
     def save_bump(self, user_id : str):
         '''
@@ -71,8 +80,9 @@ class Bump:
         '''
         loads bump counts from file
         '''    
-        with open(self.file,'w') as f:
-            self.bump_data = dump(f)
+        if exists(self.file):
+            with open(self.file,'r') as f:
+                self.bump_data = load(f)
 
     def get_bump_counter(self, user_id:str):
         '''
@@ -103,7 +113,7 @@ class Bump:
 
         '''
         if '<' in message_str:
-            return message_str[message_str.find('<')+1:message_str.find('>')]
+            return message_str[message_str.find('<')+1:message_str.find('>')].replace('@','',1).replace('!','',1)
 
     async def send_bump_schedule_message(self):
         '''

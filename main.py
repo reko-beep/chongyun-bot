@@ -21,12 +21,14 @@ from base.scraper import search_page,unpack_anime
 from core.paimon import Paimon
 
 
+#   DUPLICATE MAYBE
+#
 # client: Bot and paimon: Paimon (subclass of Bot) are same
-pmon = Paimon(config_file="settings.json")
-client = pmon
+#pmon = Paimon(config_file="settings.json")
+#client = pmon
 
 
-settings_data = pmon.get_config()
+#settings_data = pmon.get_config()
 
 
 # client: Bot and paimon: Paimon (subclass of Bot) are same
@@ -38,7 +40,6 @@ settings_data = pmon.get_config()
 
 data = {}
 
-guides_ = GenshinGuides()
 
 db = GenshinDB(pmon)
 quotes_ = GenshinQuotes()
@@ -57,33 +58,8 @@ eventchannel = settings_data['events_channel']
 assignrole = AssignRole()
 approverole = settings_data['approve_role']
 scrutinyrole = settings_data['scrutiny_role']
-bumpchannel = settings_data['bump_channel']
 lobbycreatevc = settings_data['lobbycreatevc']
-@client.command(aliases=['b'])
-async def builds(ctx, character_name: str):
-    option = 'bd'
-    if character_name != "":
-        if option != "":            
-            stop = False
-            ps = 0
-            embeds,files = guides_.create_embeds(character_name,option)
-            if len(embeds) > 1:
-                for embed in range(0,len(embeds),1):            
-                    embeds[embed].set_author(name=f'{ctx.author.display_name}',url=f'{ctx.author.avatar.url}')
-                    await ctx.send(embed=embeds[embed],file=files[embed])
-            else:
-                embeds[0].set_author(name=f'{ctx.author.display_name}',url=f'{ctx.author.avatar.url}')
-                await ctx.send(embed=embeds[0],file=files[0])                         
-        else:
-            embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~')
-            file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-            embed.set_thumbnail(url=f'attachment://angry.png')
-            await ctx.send(embed=embed,file=file)
-    else:
-        embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~')
-        file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-        embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed,file=file)
+
 
 @client.command()
 @commands.has_any_role(mod_role)
@@ -105,34 +81,6 @@ async def map_(ctx):
     await ctx.send(embed=embed,files=[file_map,file_paimon])
    
 
-
-@client.command(aliases=['as'])
-async def ascension(ctx, character_name: str):
-    option = 'ast'
-    if character_name != "":
-        if option != "":
-            stop = False            
-            ps = 0
-            embeds,files = guides_.create_embeds(character_name,option)
-            print(embeds,files)            
-            if len(embeds) > 1:                
-                for embed in range(0,len(embeds),1):            
-                    embeds[embed].set_author(name=f'{ctx.author.display_name}',url=f'{ctx.author.avatar.url}')
-                    await ctx.send(embed=embeds[embed],file=files[embed])
-            else:
-                embeds[0].set_author(name=f'{ctx.author.display_name}',url=f'{ctx.author.avatar.url}')
-                await ctx.send(embed=embeds[0],file=files[0])             
-                         
-        else:
-            embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~')
-            file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-            embed.set_thumbnail(url=f'attachment://angry.png')
-            await ctx.send(embed=embed,file=file)
-    else:
-        embed = discord.Embed(title='Paimon is angry!',description='What do you wa- want, huh~')
-        file = discord.File(f'{os.getcwd()}/guides/paimon/angry.png',filename='angry.png')
-        embed.set_thumbnail(url=f'attachment://angry.png')
-        await ctx.send(embed=embed, file=file)
 
 @client.command()
 @commands.has_any_role(mod_role)
@@ -498,18 +446,12 @@ async def lobbycreate(ctx):
 # this is preferred way when using Cogs.    
 @client.listen('on_message')
 async def on_message(message):
-    if bumpchannel != 0:
-        if message.channel.id == bumpchannel:
-            if len(message.embeds) != 0 and message.author.id == 302050872383242240:
-                embed = message.embeds[0]
-                print(embed.description)
-                mention_ = embed.description[:embed.description.find('>')+1]
-                print(mention_)
-                if 'Bump done!' in embed.description:
-                    embed = discord.Embed(title='Paimon thanks!',description=f'{mention_} thank you for bumping this server!',color=0xf5e0d0)
-                    file = discord.File(f'{os.getcwd()}/guides/paimon/happy.png',filename='happy.png')
-                    embed.set_thumbnail(url=f'attachment://happy.png')
-                    await message.channel.send(embed=embed,file=file)
+
+    # 
+    # bump implemented in cog now
+    #
+
+    pass
                 
 
 @client.command()

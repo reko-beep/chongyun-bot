@@ -1,6 +1,8 @@
 
 from nextcord.ext import commands,tasks
 from nextcord import Embed
+from nextcord.utils import get
+
 from core.paimon import Paimon
 
 from os import listdir,getcwd,remove
@@ -69,6 +71,22 @@ class GenshinDB():
             return None
         return None
 
+    def get_discord_user_from_uid(self, uid :str ):
+        '''
+        Gets discord user from uid
+
+        '''
+        members = self.pmon.guilds[0].members
+
+        for discord_id in self.data:
+            uid_data = self.data[discord_id]
+            uids = list(uid_data.values())
+            if int(uid) in uids:
+                server = list(uid_data.keys())[list(uid_data.values()).index(int(uid))]
+                user = get(members,id=int(discord_id))
+                return user, server
+        return None,None
+            
 
 
     def get_uid(self,discord_id: str,server_region: str):
@@ -167,26 +185,35 @@ class GenshinDB():
 
         self.__save()
 
-    def prettify_linked_message(self, server_region: str, uid: int):
+    def get_server_region(self, uid:int):
+        server = str(uid)[0]
+
+        # asia server
+        if str(uid)[0] == '6':
+            server = 'na'
+        elif server == '7':
+            server = 'eu'
+        elif server == '8':
+            server = 'asia'
+        elif server == '9':
+            server = 'tw'
+        else:
+            server = None
+        return server
+
+    def prettify_linked_message(self, username: str , uid: int):
         '''
 
         Generates a prettified linked message!
 
         '''
 
-        # Allowed servers format
-        
-        allowed_format = "asia:eu:europe:na:northamerica".split(':')
-        server_index = -1
-        try:
-            server_index = allowed_format.index(server_region)
-        except:
-            return None
-        else:
-            if server_index > 0 and server_index % 2 == 0:
-                server_index -= 1
+        server = self.get_server_region(uid)
 
-            return f'Region {allowed_format[server_index]} | UID {uid} linked!'
+        if server:        
+            return f'{username} : Region **{server.capitalize()}** | UID {uid} linked!'
+        else:
+            return f'{username} : Region **Not Found** | UID {uid} linked!'
             
 
     def parse_discord_message(self,discord_id: str, discord_message: str, seperator: str=':', first_part_region: bool = True):    
@@ -259,21 +286,31 @@ class GenshinDB():
                 return None
         
     
-    def get_genshinstats(self,data):  
+    def get_genshinstats(self,uid ):  
         '''
             Gets only stats portion of data fetched from get_uiddata
             returns:
                 stats dict, icon url
         '''      
-        if len(data) > 1:
-            stats_temp = data['stats']
-            stats = {}
-            for i in stats:
-                if i != 'icon':
-                    stats[i.replace('_'," ",99).title()] = stats_temp[i]
-            return stats,data['characters'][0]['icon']
+        try:
+            gs.set_cookie(ltuid=self.ltuid,ltoken=self.ltoken)
+            data = {}
+            if isinstance(uid,int):
+                data = gs.get_user_stats(uid)
+            else:
+                data = gs.get_user_stats(uid)
+        except gs.errors.DataNotPublic:
+                return None
+        else:
+            if len(data) > 1:
+                stats_temp = data
+                stats = {}
+                for i in stats:
+                    if i != 'icon':
+                        stats[i.replace('_'," ",99).title()] = stats_temp[i]
+                return stats,data['characters'][0]['icon']
     
-    def get_genshincharacters(self, data):
+    def get_genshincharacters(self, uid):
         '''
             Gets only stats portion of data fetched from get_uiddata
             Returns:
@@ -283,10 +320,18 @@ class GenshinDB():
         '''        
         characters_ = []
         weapons_ = []
-       
-        if len(data) > 1:
-            if 'characters' in data:
-                for item in data['characters']:
+        try:
+            gs.set_cookie(ltuid=self.ltuid,ltoken=self.ltoken)
+            data = {}
+            if isinstance(uid,int):
+                data = gs.get_user_stats(uid)
+            else:
+                data = gs.get_user_stats(uid)
+        except gs.errors.DataNotPublic:
+                return None
+        else:
+            if len(data) > 1:                
+                for item in data:
                     characters_dict = {}
                     for item_key in item:  
                         if item_key == 'id':
@@ -298,7 +343,7 @@ class GenshinDB():
                                 characters_dict[item_key] = item[item_key]           
                     
                     characters_.append(characters_dict) 
-                
+                    
                 return characters_,weapons_
                 
 
@@ -340,7 +385,7 @@ class GenshinDB():
                 characters_[no].pop('name')
                 weapons[no].pop('name')
                           
-                embed_char = Embed(title=f"{characters_[no]['name']}",color=0xf5e0d0)
+                embed_char = Embed(title=f"Character stats",color=0xf5e0d0)
                 for i in characters_[no]:
 
                     # omits image,icon
@@ -351,14 +396,14 @@ class GenshinDB():
                     if i != 'icon'and i != 'artifacts' and i != 'image' and i != 'constellations' and i != 'outfits':
                         print(f'{i} added')
                         embed_char.add_field(name=f"{i.replace('_',' ',99).title()}",value=characters_[no][i],inline=True)
-                embed_char.set_thumbnail(url=f"{characters_[no]['icon']}")
+                embed_char.set_author(name=f"{characters_[no]['name']}",icon_url=f"{characters_[no]['icon']}")
                 embed_char.set_image(url=f"{characters_[no]['image']}")
 
-                embed_weapon = Embed(title=f"{characters_[no]['name']} {weapons[no]['name']}",color=0xf5e0d0)            
+                embed_weapon = Embed(title=f"Weapon stats",color=0xf5e0d0)            
                 for i in weapons[no]:
                     if i != 'icon':
-                        embed_weapon.add_field(name=f"{i.replace('_',' ',99).title()}",value=weapons[no][i],inline=True)               
-                embed_weapon.set_thumbnail(url=f"{weapons[no]['icon']}")
+                        embed_weapon.add_field(name=f"{i.replace('_',' ',99).title()}",value=weapons[no][i],inline=True)  
+                embed_char.set_author(name=f"{characters_[no]['name']} {weapons[no]['name']}",icon_url=f"{weapons[no]['icon']}")    
 
                 embeds[str(no)] = {'character': embed_char,'weapon': embed_weapon}
 
@@ -374,6 +419,3 @@ class GenshinDB():
 
 
 
-
-
-        
