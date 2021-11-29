@@ -5,8 +5,10 @@ from os import getcwd, listdir,remove
 from os.path import isfile, join,exists
 from json import load,dump
 
+from nextcord.ext.commands.cooldowns import C
+
 from core.paimon import Paimon
-from util.logging import log
+from util.logging import logc
 
 '''
 
@@ -32,7 +34,7 @@ class GenshinGuides:
         '''
 
         self.path = f'{getcwd()}/guides/'
-        
+        self.assets = f'{getcwd()}/assets/'
         self.characters = []
         self.pmon = pmon
 
@@ -51,7 +53,7 @@ class GenshinGuides:
 
         self.thumbnails = {}
 
-        self.load_thumbnails()
+        self.load_info()
         self.load_characters()
     
     def load_characters(self):
@@ -64,31 +66,26 @@ class GenshinGuides:
         
         if 'characters' in self.pmon.p_bot_config:
             self.characters = self.pmon.p_bot_config['characters']
-            log('loaded characters from bot config file!')
+            logc('loaded characters from bot config file!')
 
     def load_info(self):
-        with open(f'{self.path}/thumbnails.json','r') as f:
-            self.thumbnails = load(f)
-            log('loaded character thumnails.')
+        with open(f'{self.assets}/characters.json','r') as f:
+            self.info = load(f)['data']
+            logc('loaded character information.')
 
-    def get_thumbnail(self, character_name: str):
-        '''
-        gets thumbnail link for character
-        ---
-        args
-        ---
-        character_name
+    def get_info(self, character_name: str):
 
-        ---
-        returns
-        ---
-            link
-            
-        '''
-        character = self.search_character(character_name)
-        if character:
-            if character in self.thumbnails:
-                return self.thumbnails[character]
+        search = character_name.lower()
+        for character_data in self.info:
+
+            if search in character_data['name'].lower():
+                return {                    
+                    'element' : character_data['element']['name'],
+                    'weapon' : character_data['weapon']['name'],
+                    'nation' : character_data['nation'],
+                    'stars': '⭐' * int(character_data['stars'])
+                },character_data['img']
+
 
     def search_character(self, character_name: str):
         '''
@@ -152,7 +149,7 @@ class GenshinGuides:
 
             images_path = self.images_path.format(base_path=self.path,character_name=character,type=option)
             if exists(images_path):
-                log(f'found files for {character} | Path {images_path}')
+                logc(f'found files for {character} | Path {images_path}')
                 files = [join(images_path,f) for f in listdir(images_path) if isfile(join(images_path,f))]
                 return files
 
@@ -220,12 +217,15 @@ class GenshinGuides:
 
                 main_title,sub_title = self.prettify_file_name(option_name,file)
                 file_name = file.split('/')[-1]
+                information,thumbnail = self.get_info(character)
 
                 embed = Embed(title=main_title,description=sub_title,color=0xf5e0d0)
                 embed_files.append(File(file,filename=file_name))                
-                if self.get_thumbnail(character_name) and character:
-                    log(f'thumbnail fetched {self.get_thumbnail(character_name)} ')
-                    embed.set_author(name=character,icon_url=self.get_thumbnail(character_name),url=self.get_thumbnail(character_name))
+                if (information and thumbnail) and character:
+                    for inf in information:
+                        embed.add_field(name=inf.title(),value=information[inf])
+                    logc(f'Information fetched for {character_name} ')
+                    embed.set_author(name=character,icon_url=thumbnail)
                 embed.set_image(url=f'attachment://{file_name}')
                 embeds.append(embed)
 
