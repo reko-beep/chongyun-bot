@@ -25,7 +25,7 @@ it contains
     🔸Wish History (Almost done!)
     🔸Users custom builds creator. 
     🔸Build Notes. 
-    🔸Quests Code rewriting. 
+    🔸Quests Code rewriting. (Almost Done!)
      
      
 # Setting up the bot

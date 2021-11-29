@@ -826,7 +826,4 @@ class GenshinGacha:
                 for wish in wishes_files:
                     banner_code = wish.split('/')[-1].split('-')[-1].split('.')[0]
                     self.create_canvas_image(uid,banner_code)
-                    
-test = GenshinGacha()
-processed = test.fetch_statistics(808897607,'400')
-print(processed)
+      
