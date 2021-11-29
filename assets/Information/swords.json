@@ -1,0 +1,3828 @@
+{
+ "Amenoma Kageuchi": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Weapon_Amenoma_Kageuchi.png/revision/latest/scale-to-width-down/256?cb=20210723074436",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Weapon_Amenoma_Kageuchi_2nd.png/revision/latest/scale-to-width-down/256?cb=20210723074457"
+  ],
+  "type": "Sword",
+  "obtain": "Forging",
+  "rarity": 4,
+  "series": "Amethyst Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "41 - 454",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "12% - 55.1%"
+  },
+  "refinement": {
+   "text": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates -value0- Energy for each seed consumed.",
+   "1": {
+    "-value0-": "6"
+   },
+   "2": {
+    "-value0-": "7.5"
+   },
+   "3": {
+    "-value0-": "9"
+   },
+   "4": {
+    "-value0-": "10.5"
+   },
+   "5": {
+    "-value0-": "12"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Coral Branch of a Distant Sea",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Gear",
+     "amount": "3"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Jeweled Branch of a Distant Sea",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Gear",
+     "amount": "12"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Jeweled Branch of a Distant Sea",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Axis",
+     "amount": "6"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Jade Branch of a Distant Sea",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Axis",
+     "amount": "12"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Jade Branch of a Distant Sea",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Oculus",
+     "amount": "9"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Golden Branch of a Distant Sea",
+     "amount": "4"
+    },
+    {
+     "name": "Chaos Oculus",
+     "amount": "18"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Aquila Favonia": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png/revision/latest/scale-to-width-down/256?cb=20201120002750",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Aquila_Favonia_2nd.png/revision/latest/scale-to-width-down/256?cb=20201120002803"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 5,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "48 - 674",
+   "2nd StatType": "Physical DMG Bonus",
+   "2nd Stat(Lv. 1 - 90)": "9% - 41.3%"
+  },
+  "refinement": {
+   "text": "ATK is increased by -value0-%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to -value1-% of ATK and dealing -value2-% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+   "1": {
+    "-value0-": "20",
+    "-value1-": "100",
+    "-value2-": "200"
+   },
+   "2": {
+    "-value0-": "25",
+    "-value1-": "115",
+    "-value2-": "230"
+   },
+   "3": {
+    "-value0-": "30",
+    "-value1-": "130",
+    "-value2-": "260"
+   },
+   "4": {
+    "-value0-": "35",
+    "-value1-": "145",
+    "-value2-": "290"
+   },
+   "5": {
+    "-value0-": "40",
+    "-value1-": "160",
+    "-value2-": "320"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "5"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "5"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "5"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "9"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "9"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "5"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "9"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "14"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "6"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "27"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Blackcliff Longsword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png/revision/latest/scale-to-width-down/256?cb=20201116033216",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/15/Weapon_Blackcliff_Longsword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116032652"
+  ],
+  "type": "Sword",
+  "obtain": "Paimon's Bargains",
+  "rarity": 4,
+  "series": "Blackcliff Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "44 - 565",
+   "2nd StatType": "CRIT DMG",
+   "2nd Stat(Lv. 1 - 90)": "8% - 36.8%"
+  },
+  "refinement": {
+   "text": "After defeating an opponent, ATK is increased by -value0-% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+   "1": {
+    "-value0-": "12"
+   },
+   "2": {
+    "-value0-": "15"
+   },
+   "3": {
+    "-value0-": "18"
+   },
+   "4": {
+    "-value0-": "21"
+   },
+   "5": {
+    "-value0-": "24"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Luminous Sands from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "3"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "12"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "6"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "6"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "12"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "6"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "9"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Divine Body from Guyun",
+     "amount": "4"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "18"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Cinnabar Spindle": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Weapon_Cinnabar_Spindle.png/revision/latest/scale-to-width-down/256?cb=20211125225624",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Weapon_Cinnabar_Spindle_2nd.png/revision/latest/scale-to-width-down/256?cb=20211125225658"
+  ],
+  "type": "Sword",
+  "obtain": "Shadows Amidst Snowstorms Event",
+  "rarity": 4,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "41 - 454",
+   "2nd StatType": "DEF",
+   "2nd Stat(Lv. 1 - 90)": "15% - 69.0%"
+  },
+  "refinement": {
+   "text": "Elemental Skill DMG is increased by -value0-% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
+   "1": {
+    "-value0-": "40"
+   },
+   "2": {
+    "-value0-": "50"
+   },
+   "3": {
+    "-value0-": "60"
+   },
+   "4": {
+    "-value0-": "70"
+   },
+   "5": {
+    "-value0-": "80"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "3"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "12"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "6"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "12"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "9"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "4"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "18"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Cool Steel": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest/scale-to-width-down/256?cb=20201119233444",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Weapon_Cool_Steel_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116033531"
+  ],
+  "type": "Sword",
+  "obtain": "WishesChestsTalk to Harry",
+  "rarity": 3,
+  "series": "3-Star Bane Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "39 - 401",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "7.7% - 35.2%"
+  },
+  "refinement": {
+   "text": "Increases DMG against opponents affected by Hydro or Cryo by -value0-%.",
+   "1": {
+    "-value0-": "12"
+   },
+   "2": {
+    "-value0-": "15"
+   },
+   "3": {
+    "-value0-": "18"
+   },
+   "4": {
+    "-value0-": "21"
+   },
+   "5": {
+    "-value0-": "24"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "2"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "2"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "2"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "8"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "4"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "4"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "2"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "8"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "4"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "6"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "3"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "8"
+    }
+   ]
+  }
+ },
+ "Dark Iron Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Dark_Iron_Sword.png/revision/latest/scale-to-width-down/256?cb=20201119235556",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Weapon_Dark_Iron_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119235513"
+  ],
+  "type": "Sword",
+  "obtain": "Talk to Chen the Sharp",
+  "rarity": 3,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "39 - 401",
+   "2nd StatType": "Elemental Mastery",
+   "2nd Stat(Lv. 1 - 90)": "31 - 141"
+  },
+  "refinement": {
+   "text": "Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by -value0-% for 12s.",
+   "1": {
+    "-value0-": "20"
+   },
+   "2": {
+    "-value0-": "25"
+   },
+   "3": {
+    "-value0-": "?"
+   },
+   "4": {
+    "-value0-": "?"
+   },
+   "5": {
+    "-value0-": "?"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Luminous Sands from Guyun",
+     "amount": "2"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "2"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "2"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "8"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "4"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "4"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "2"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "8"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "4"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "6"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Divine Body from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "12"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "8"
+    }
+   ]
+  }
+ },
+ "Dull Blade": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/256?cb=20201119235841",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Weapon_Dull_Blade_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116032657"
+  ],
+  "type": "Sword",
+  "obtain": "ChestsInvestigationSold by Schulz",
+  "rarity": 1,
+  "series": "1-Star Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 70)": "23 - 185",
+   "2nd StatType": "None"
+  },
+  "ascension": {}
+ },
+ "Favonius Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Weapon_Favonius_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116033811",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Favonius_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116033819"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 4,
+  "series": "Favonius Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "41 - 454",
+   "2nd StatType": "Energy Recharge",
+   "2nd Stat(Lv. 1 - 90)": "13.3% - 61.3%"
+  },
+  "refinement": {
+   "text": "CRIT hits have a -value0-% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every -value1-s.",
+   "1": {
+    "-value0-": "60",
+    "-value1-": "12"
+   },
+   "2": {
+    "-value0-": "70",
+    "-value1-": "10.5"
+   },
+   "3": {
+    "-value0-": "80",
+    "-value1-": "9"
+   },
+   "4": {
+    "-value0-": "90",
+    "-value1-": "7.5"
+   },
+   "5": {
+    "-value0-": "100",
+    "-value1-": "6"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "3"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "6"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "6"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "3"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "6"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "9"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "4"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Festering Desire": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Weapon_Festering_Desire.png/revision/latest/scale-to-width-down/256?cb=20201223042935",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Weapon_Festering_Desire_2nd.png/revision/latest/scale-to-width-down/256?cb=20201225232318"
+  ],
+  "type": "Sword",
+  "obtain": "The Chalk Prince and the Dragon Event",
+  "rarity": 4,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "Energy Recharge",
+   "2nd Stat(Lv. 1 - 90)": "10.0% - 45.9%"
+  },
+  "refinement": {
+   "text": "Increases Elemental Skill DMG by -value0-% and Elemental Skill CRIT Rate by -value1-%.",
+   "1": {
+    "-value0-": "16",
+    "-value1-": "6"
+   },
+   "2": {
+    "-value0-": "20",
+    "-value1-": "7.5"
+   },
+   "3": {
+    "-value0-": "24",
+    "-value1-": "9"
+   },
+   "4": {
+    "-value0-": "28",
+    "-value1-": "10.5"
+   },
+   "5": {
+    "-value0-": "32",
+    "-value1-": "12"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Fetters of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "3"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "6"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "6"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "6"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "9"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Dream of the Dandelion Gladiator",
+     "amount": "4"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Fillet Blade": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_Fillet_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116033941",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Weapon_Fillet_Blade_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116033948"
+  ],
+  "type": "Sword",
+  "obtain": "ChestsTalk to Amenoma Tougo",
+  "rarity": 3,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "39 - 401",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "7.7% - 35.2%"
+  },
+  "refinement": {
+   "text": "On hit, has 50% chance to deal -value0-% ATK DMG to a single enemy. Can only occur once every -value1-s.",
+   "1": {
+    "-value0-": "240",
+    "-value1-": "15"
+   },
+   "2": {
+    "-value0-": "280",
+    "-value1-": "14"
+   },
+   "3": {
+    "-value0-": "320",
+    "-value1-": "13"
+   },
+   "4": {
+    "-value0-": "360",
+    "-value1-": "12"
+   },
+   "5": {
+    "-value0-": "400",
+    "-value1-": "11"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Mist Veiled Lead Elixir",
+     "amount": "2"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "2"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "2"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "8"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "4"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "4"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "2"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "8"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "4"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "6"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Mist Veiled Primo Elixir",
+     "amount": "3"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "12"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "8"
+    }
+   ]
+  }
+ },
+ "Freedom-Sworn": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/256?cb=20210629202549",
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Weapon_Freedom-Sworn_2nd.png/revision/latest/scale-to-width-down/256?cb=20210629202615"
+  ],
+  "type": "Sword",
+  "obtain": "Weapon Event Wishes",
+  "rarity": 5,
+  "series": "Millennial Movement Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "46 - 608",
+   "2nd StatType": "Elemental Mastery",
+   "2nd Stat(Lv. 1 - 90)": "43 - 198"
+  },
+  "refinement": {
+   "text": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by -value0-%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged, and Plunging Attack DMG by -value1-% and increases ATK by -value2-%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s.Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+   "1": {
+    "-value0-": "10",
+    "-value1-": "16",
+    "-value2-": "20"
+   },
+   "2": {
+    "-value0-": "12.5",
+    "-value1-": "20",
+    "-value2-": "25"
+   },
+   "3": {
+    "-value0-": "15",
+    "-value1-": "24",
+    "-value2-": "30"
+   },
+   "4": {
+    "-value0-": "17.5",
+    "-value1-": "28",
+    "-value2-": "35"
+   },
+   "5": {
+    "-value0-": "20",
+    "-value1-": "32",
+    "-value2-": "40"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Fetters of the Dandelion Gladiator",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "5"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "18"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "9"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "9"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "18"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "9"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "14"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Dream of the Dandelion Gladiator",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "27"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Harbinger Of Dawn": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Weapon_Harbinger_of_Dawn.png/revision/latest/scale-to-width-down/256?cb=20201119233056",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Harbinger_of_Dawn_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116034013"
+  ],
+  "type": "Sword",
+  "obtain": "WishesKaeya's Gain QuestTalk to Nanako",
+  "rarity": 3,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "39 - 401",
+   "2nd StatType": "CRIT DMG",
+   "2nd Stat(Lv. 1 - 90)": "10.2% - 46.9%"
+  },
+  "refinement": {
+   "text": "When HP is above 90%, increases CRIT Rate by -value0-%.",
+   "1": {
+    "-value0-": "14"
+   },
+   "2": {
+    "-value0-": "17.5"
+   },
+   "3": {
+    "-value0-": "21"
+   },
+   "4": {
+    "-value0-": "24.5"
+   },
+   "5": {
+    "-value0-": "28"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Boreal Wolf's Milk Tooth",
+     "amount": "2"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "2"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "2"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "8"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "4"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "4"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "2"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "8"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "4"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "6"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Boreal Wolf's Nostalgia",
+     "amount": "3"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "12"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "8"
+    }
+   ]
+  }
+ },
+ "Iron Sting": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest/scale-to-width-down/256?cb=20201116034058",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Weapon_Iron_Sting_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116034105"
+  ],
+  "type": "Sword",
+  "obtain": "Forging",
+  "rarity": 4,
+  "series": "Infusion Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "Elemental Mastery",
+   "2nd Stat(Lv. 1 - 90)": "36 - 165"
+  },
+  "refinement": {
+   "text": "Dealing Elemental DMG increases all DMG by -value0-% for 6s. Max 2 stacks. Can only occur once every 1s.",
+   "1": {
+    "-value0-": "6"
+   },
+   "2": {
+    "-value0-": "7.5"
+   },
+   "3": {
+    "-value0-": "9"
+   },
+   "4": {
+    "-value0-": "10.5"
+   },
+   "5": {
+    "-value0-": "12"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Grain of Aerosiderite",
+     "amount": "3"
+    },
+    {
+     "name": "Fragile Bone Shard",
+     "amount": "3"
+    },
+    {
+     "name": "Whopperflower Nectar",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Piece of Aerosiderite",
+     "amount": "3"
+    },
+    {
+     "name": "Fragile Bone Shard",
+     "amount": "12"
+    },
+    {
+     "name": "Whopperflower Nectar",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Piece of Aerosiderite",
+     "amount": "6"
+    },
+    {
+     "name": "Sturdy Bone Shard",
+     "amount": "6"
+    },
+    {
+     "name": "Shimmering Nectar",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Bit of Aerosiderite",
+     "amount": "3"
+    },
+    {
+     "name": "Sturdy Bone Shard",
+     "amount": "12"
+    },
+    {
+     "name": "Shimmering Nectar",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Bit of Aerosiderite",
+     "amount": "6"
+    },
+    {
+     "name": "Fossilized Bone Shard",
+     "amount": "9"
+    },
+    {
+     "name": "Energy Nectar",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Chunk of Aerosiderite",
+     "amount": "4"
+    },
+    {
+     "name": "Fossilized Bone Shard",
+     "amount": "18"
+    },
+    {
+     "name": "Energy Nectar",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Lions Roar": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png/revision/latest/scale-to-width-down/256?cb=20201119232745",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Lion%27s_Roar_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119232858"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 4,
+  "series": "Kunwu Series4-Star Bane Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "9% - 41.3%"
+  },
+  "refinement": {
+   "text": "Increases DMG against enemies affected by Pyro or Electro by -value0-%.",
+   "1": {
+    "-value0-": "20"
+   },
+   "2": {
+    "-value0-": "24"
+   },
+   "3": {
+    "-value0-": "28"
+   },
+   "4": {
+    "-value0-": "32"
+   },
+   "5": {
+    "-value0-": "36"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Luminous Sands from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "3"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "12"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "6"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "6"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "3"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "12"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "6"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "9"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Divine Body from Guyun",
+     "amount": "4"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "18"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Mistsplitter Reforged": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Mistsplitter_Reforged.png/revision/latest/scale-to-width-down/350?cb=20210721035408",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Weapon_Mistsplitter_Reforged_2nd.png/revision/latest/scale-to-width-down/350?cb=20210721035422"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 5,
+  "series": "Inazuma Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "48 - 674",
+   "2nd StatType": "CRIT DMG",
+   "2nd Stat(Lv. 1 - 90)": "9.6% - 44.1%"
+  },
+  "refinement": {
+   "text": "Gain a -value0-% Elemental DMG Bonus for every element and receive the might of Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a -value1-% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+   "1": {
+    "-value0-": "12",
+    "-value1-": "8/16/28"
+   },
+   "2": {
+    "-value0-": "15",
+    "-value1-": "10/20/35"
+   },
+   "3": {
+    "-value0-": "18",
+    "-value1-": "12/24/42"
+   },
+   "4": {
+    "-value0-": "21",
+    "-value1-": "14/28/49"
+   },
+   "5": {
+    "-value0-": "24",
+    "-value1-": "16/32/56"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Coral Branch of a Distant Sea",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Gear",
+     "amount": "5"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Jeweled Branch of a Distant Sea",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Gear",
+     "amount": "18"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Jeweled Branch of a Distant Sea",
+     "amount": "9"
+    },
+    {
+     "name": "Chaos Axis",
+     "amount": "9"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Jade Branch of a Distant Sea",
+     "amount": "5"
+    },
+    {
+     "name": "Chaos Axis",
+     "amount": "18"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Jade Branch of a Distant Sea",
+     "amount": "9"
+    },
+    {
+     "name": "Chaos Oculus",
+     "amount": "14"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Golden Branch of a Distant Sea",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Oculus",
+     "amount": "27"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Primordial Jade Cutter": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Weapon_Primordial_Jade_Cutter_2nd.png/revision/latest/scale-to-width-down/256?cb=20210319202254"
+  ],
+  "type": "Sword",
+  "obtain": "Weapon Event Wishes",
+  "rarity": 5,
+  "series": "Primordial Jade Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "44 - 542",
+   "2nd StatType": "CRIT Rate",
+   "2nd Stat(Lv. 1 - 90)": "9.6% - 44.1%"
+  },
+  "refinement": {
+   "text": "HP increased by -value0-%. Additionally, provides an ATK Bonus based on -value1-% of the wielder's Max HP.",
+   "1": {
+    "-value0-": "20",
+    "-value1-": "1.2"
+   },
+   "2": {
+    "-value0-": "25",
+    "-value1-": "1.5"
+   },
+   "3": {
+    "-value0-": "30",
+    "-value1-": "1.8"
+   },
+   "4": {
+    "-value0-": "35",
+    "-value1-": "2.1"
+   },
+   "5": {
+    "-value0-": "40",
+    "-value1-": "2.4"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Mist Veiled Lead Elixir",
+     "amount": "5"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "5"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "5"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "18"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "9"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "9"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "5"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "18"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "9"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "14"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Mist Veiled Primo Elixir",
+     "amount": "6"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "27"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Prototype Rancour": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png/revision/latest/scale-to-width-down/256?cb=20201116034823",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Weapon_Prototype_Rancour_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119235212"
+  ],
+  "type": "Sword",
+  "obtain": "ForgingAdventure Rank 10 Reward",
+  "rarity": 4,
+  "series": "Prototype Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "44 - 565",
+   "2nd StatType": "Physical DMG Bonus",
+   "2nd Stat(Lv. 1 - 90)": "7.5% - 34.5%"
+  },
+  "refinement": {
+   "text": "On hit, Normal or Charged Attacks increase ATK and DEF by -value0-% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+   "1": {
+    "-value0-": "4"
+   },
+   "2": {
+    "-value0-": "5"
+   },
+   "3": {
+    "-value0-": "6"
+   },
+   "4": {
+    "-value0-": "7"
+   },
+   "5": {
+    "-value0-": "8"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Mist Veiled Lead Elixir",
+     "amount": "3"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "3"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "3"
+    },
+    {
+     "name": "Mist Grass Pollen",
+     "amount": "12"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Mist Veiled Mercury Elixir",
+     "amount": "6"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "6"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "3"
+    },
+    {
+     "name": "Mist Grass",
+     "amount": "12"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Mist Veiled Gold Elixir",
+     "amount": "6"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "9"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Mist Veiled Primo Elixir",
+     "amount": "4"
+    },
+    {
+     "name": "Mist Grass Wick",
+     "amount": "18"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Royal Longsword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png/revision/latest/scale-to-width-down/256?cb=20201116034952",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Weapon_Royal_Longsword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201120002243"
+  ],
+  "type": "Sword",
+  "obtain": "Paimon's Bargains",
+  "rarity": 4,
+  "series": "Royal Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "9% - 41.3%"
+  },
+  "refinement": {
+   "text": "Upon dealing damage to an opponent, increases CRIT Rate by -value0-%. Max 5 stacks. A CRIT hit removes all existing stacks.",
+   "1": {
+    "-value0-": "8"
+   },
+   "2": {
+    "-value0-": "10"
+   },
+   "3": {
+    "-value0-": "12"
+   },
+   "4": {
+    "-value0-": "14"
+   },
+   "5": {
+    "-value0-": "16"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "3"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Firm Arrowhead",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "6"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "6"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "3"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Sharp Arrowhead",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "6"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "9"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "4"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Weathered Arrowhead",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Sacrificial Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Weapon_Sacrificial_Sword.png/revision/latest/scale-to-width-down/256?cb=20201120010840",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Weapon_Sacrificial_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201120010852"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 4,
+  "series": "Sacrificial Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "41 - 454",
+   "2nd StatType": "Energy Recharge",
+   "2nd Stat(Lv. 1 - 90)": "13.3% - 61.3%"
+  },
+  "refinement": {
+   "text": "After dealing damage to an opponent with an Elemental Skill, the skill has a -value0-% chance to end its own CD. Can only occur once every -value1-s.",
+   "1": {
+    "-value0-": "40",
+    "-value1-": "30"
+   },
+   "2": {
+    "-value0-": "50",
+    "-value1-": "26"
+   },
+   "3": {
+    "-value0-": "60",
+    "-value1-": "22"
+   },
+   "4": {
+    "-value0-": "70",
+    "-value1-": "19"
+   },
+   "5": {
+    "-value0-": "80",
+    "-value1-": "16"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Fetters of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "3"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "12"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "6"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "12"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "6"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "9"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Dream of the Dandelion Gladiator",
+     "amount": "4"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "18"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Silver Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035150",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Weapon_Silver_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119203947"
+  ],
+  "type": "Sword",
+  "obtain": "ChestsInvestigationSold by Hajime, Master Zhang, and  WagnerTalk to Schulz or Gaiman",
+  "rarity": 2,
+  "series": "2-Star Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 70)": "33 - 243",
+   "2nd StatType": "None"
+  },
+  "ascension": {}
+ },
+ "Skyrider Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Weapon_Skyrider_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035206",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Skyrider_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119202751"
+  ],
+  "type": "Sword",
+  "obtain": "WishesTalk to Pan Guan'er",
+  "rarity": 3,
+  "series": "Skyrider Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "38 - 354",
+   "2nd StatType": "Energy Recharge",
+   "2nd Stat(Lv. 1 - 90)": "11.3% - 51.7%"
+  },
+  "refinement": {
+   "text": "Using an Elemental Burst grants a -value0-% increase in ATK and Movement SPD for 15s.",
+   "1": {
+    "-value0-": "12"
+   },
+   "2": {
+    "-value0-": "15"
+   },
+   "3": {
+    "-value0-": "18"
+   },
+   "4": {
+    "-value0-": "21"
+   },
+   "5": {
+    "-value0-": "24"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Grain of Aerosiderite",
+     "amount": "2"
+    },
+    {
+     "name": "Fragile Bone Shard",
+     "amount": "2"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Piece of Aerosiderite",
+     "amount": "2"
+    },
+    {
+     "name": "Fragile Bone Shard",
+     "amount": "8"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Piece of Aerosiderite",
+     "amount": "4"
+    },
+    {
+     "name": "Sturdy Bone Shard",
+     "amount": "4"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Bit of Aerosiderite",
+     "amount": "2"
+    },
+    {
+     "name": "Sturdy Bone Shard",
+     "amount": "8"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Bit of Aerosiderite",
+     "amount": "4"
+    },
+    {
+     "name": "Fossilized Bone Shard",
+     "amount": "6"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Chunk of Aerosiderite",
+     "amount": "3"
+    },
+    {
+     "name": "Fossilized Bone Shard",
+     "amount": "12"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "8"
+    }
+   ]
+  }
+ },
+ "Skyward Blade": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116035239",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Weapon_Skyward_Blade_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116032714"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 5,
+  "series": "Mondstadt Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "46 - 608",
+   "2nd StatType": "Energy Recharge",
+   "2nd Stat(Lv. 1 - 90)": "12% - 55.1%"
+  },
+  "refinement": {
+   "text": "Crit Rate increased by -value0-%. Gains Skypiercing Might upon using Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to -value1-% of ATK. Skypiercing Might lasts for 12s.",
+   "1": {
+    "-value0-": "4",
+    "-value1-": "20"
+   },
+   "2": {
+    "-value0-": "5",
+    "-value1-": "25"
+   },
+   "3": {
+    "-value0-": "6",
+    "-value1-": "30"
+   },
+   "4": {
+    "-value0-": "7",
+    "-value1-": "35"
+   },
+   "5": {
+    "-value0-": "8",
+    "-value1-": "40"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Boreal Wolf's Milk Tooth",
+     "amount": "5"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "5"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "5"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "18"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "9"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "9"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "5"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "18"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "9"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "14"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Boreal Wolf's Nostalgia",
+     "amount": "6"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "27"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Summit Shaper": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Summit_Shaper.png/revision/latest/scale-to-width-down/256?cb=20201223042936",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Weapon_Summit_Shaper_2nd.png/revision/latest/scale-to-width-down/256?cb=20201225233303"
+  ],
+  "type": "Sword",
+  "obtain": "Weapon Event Wishes",
+  "rarity": 5,
+  "series": "Liyue Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "46 - 608",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "10.8% - 49.6%"
+  },
+  "refinement": {
+   "text": "Increases Shield Strength by -value0-%. Scoring hits on opponents increases ATK by -value1-% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+   "1": {
+    "-value0-": "20",
+    "-value1-": "4"
+   },
+   "2": {
+    "-value0-": "25",
+    "-value1-": "5"
+   },
+   "3": {
+    "-value0-": "30",
+    "-value1-": "6"
+   },
+   "4": {
+    "-value0-": "35",
+    "-value1-": "7"
+   },
+   "5": {
+    "-value0-": "40",
+    "-value1-": "8"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Luminous Sands from Guyun",
+     "amount": "5"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "5"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "5"
+    },
+    {
+     "name": "Hunter's Sacrificial Knife",
+     "amount": "18"
+    },
+    {
+     "name": "Damaged Mask",
+     "amount": "12"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Lustrous Stone from Guyun",
+     "amount": "9"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "9"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "9"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "5"
+    },
+    {
+     "name": "Agent's Sacrificial Knife",
+     "amount": "18"
+    },
+    {
+     "name": "Stained Mask",
+     "amount": "14"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "55,000"
+    },
+    {
+     "name": "Relic from Guyun",
+     "amount": "9"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "14"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "9"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "65,000"
+    },
+    {
+     "name": "Divine Body from Guyun",
+     "amount": "6"
+    },
+    {
+     "name": "Inspector's Sacrificial Knife",
+     "amount": "27"
+    },
+    {
+     "name": "Ominous Mask",
+     "amount": "18"
+    }
+   ]
+  }
+ },
+ "Sword Of Descension": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sword_of_Descension.png/revision/latest/scale-to-width-down/256?cb=20201116035338",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Weapon_Sword_of_Descension_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119203738"
+  ],
+  "type": "Sword",
+  "obtain": "Given via the Mail on PS4/PS5, obtainable on PC/Mobile via cross save",
+  "rarity": 4,
+  "series": "Outlander Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "39 - 440",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "7.7% - 35.2%"
+  },
+  "refinement": {
+   "text": "-value0--value1-Hitting enemies with Normal or Charged Attacks grants a -value2- chance to deal -value3- ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by -value4-.",
+   "1": {
+    "-value0-": "Effective only on the following platform:",
+    "-value1-": "\"PlayStation Network\"",
+    "-value2-": "50%",
+    "-value3-": "200%",
+    "-value4-": "66"
+   },
+   "2": {
+    "-value0-": "Effective only on the following platform:",
+    "-value1-": "\"PlayStation Network\"",
+    "-value2-": "50%",
+    "-value3-": "200%",
+    "-value4-": "66"
+   },
+   "3": {
+    "-value0-": "Effective only on the following platform:",
+    "-value1-": "\"PlayStation Network\"",
+    "-value2-": "50%",
+    "-value3-": "200%",
+    "-value4-": "66"
+   },
+   "4": {
+    "-value0-": "Effective only on the following platform:",
+    "-value1-": "\"PlayStation Network\"",
+    "-value2-": "50%",
+    "-value3-": "200%",
+    "-value4-": "66"
+   },
+   "5": {
+    "-value0-": "Effective only on the following platform:",
+    "-value1-": "\"PlayStation Network\"",
+    "-value2-": "50%",
+    "-value3-": "200%",
+    "-value4-": "66"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Boreal Wolf's Milk Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "3"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "12"
+    },
+    {
+     "name": "Treasure Hoarder Insignia",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "6"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "6"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "12"
+    },
+    {
+     "name": "Silver Raven Insignia",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "6"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "9"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Boreal Wolf's Nostalgia",
+     "amount": "4"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "18"
+    },
+    {
+     "name": "Golden Raven Insignia",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "The Alley Flash": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/256?cb=20210317151138",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Weapon_The_Alley_Flash_2nd.png/revision/latest/scale-to-width-down/256?cb=20210317075442"
+  ],
+  "type": "Sword",
+  "obtain": "Weapon Event Wishes",
+  "rarity": 4,
+  "series": "Alley Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "45 - 620",
+   "2nd StatType": "Elemental Mastery",
+   "2nd Stat(Lv. 1 - 90)": "12 - 55"
+  },
+  "refinement": {
+   "text": "Increases DMG dealt by the character equipping this weapon by -value0-%. Taking DMG disables this effect for 5s.",
+   "1": {
+    "-value0-": "12"
+   },
+   "2": {
+    "-value0-": "15"
+   },
+   "3": {
+    "-value0-": "18"
+   },
+   "4": {
+    "-value0-": "21"
+   },
+   "5": {
+    "-value0-": "24"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Tile of Decarabian's Tower",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "3"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "3"
+    },
+    {
+     "name": "Heavy Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Debris of Decarabian's City",
+     "amount": "6"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "6"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "3"
+    },
+    {
+     "name": "Black Bronze Horn",
+     "amount": "12"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Fragment of Decarabian's Epic",
+     "amount": "6"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "9"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Scattered Piece of Decarabian's Dream",
+     "amount": "4"
+    },
+    {
+     "name": "Black Crystal Horn",
+     "amount": "18"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "The Black Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_The_Black_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035352",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Weapon_The_Black_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119203615"
+  ],
+  "type": "Sword",
+  "obtain": "Battle Pass (Gnostic Hymn)",
+  "rarity": 4,
+  "series": "Gnostic Hymn Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "CRIT Rate",
+   "2nd Stat(Lv. 1 - 90)": "6% - 27.6%"
+  },
+  "refinement": {
+   "text": "Increases DMG dealt by Normal and Charged Attacks by -value0-%.Additionally, regenerates -value1-% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+   "1": {
+    "-value0-": "20",
+    "-value1-": "60"
+   },
+   "2": {
+    "-value0-": "25",
+    "-value1-": "70"
+   },
+   "3": {
+    "-value0-": "30",
+    "-value1-": "80"
+   },
+   "4": {
+    "-value0-": "35",
+    "-value1-": "90"
+   },
+   "5": {
+    "-value0-": "40",
+    "-value1-": "100"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Boreal Wolf's Milk Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "3"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "12"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "6"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "6"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "12"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "6"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "9"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Boreal Wolf's Nostalgia",
+     "amount": "4"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "18"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "The Flute": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png/revision/latest/scale-to-width-down/256?cb=20201119203316",
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Weapon_The_Flute_2nd.png/revision/latest/scale-to-width-down/256?cb=20201119203413"
+  ],
+  "type": "Sword",
+  "obtain": "Wishes",
+  "rarity": 4,
+  "series": "Wanderer's Troupe Series",
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "42 - 510",
+   "2nd StatType": "ATK",
+   "2nd Stat(Lv. 1 - 90)": "9% - 41.3%"
+  },
+  "refinement": {
+   "text": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals -value0-% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+   "1": {
+    "-value0-": "100"
+   },
+   "2": {
+    "-value0-": "125"
+   },
+   "3": {
+    "-value0-": "150"
+   },
+   "4": {
+    "-value0-": "175"
+   },
+   "5": {
+    "-value0-": "200"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Boreal Wolf's Milk Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "3"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "2"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Branch",
+     "amount": "12"
+    },
+    {
+     "name": "Slime Condensate",
+     "amount": "8"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Boreal Wolf's Cracked Tooth",
+     "amount": "6"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "6"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "6"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "3"
+    },
+    {
+     "name": "Dead Ley Line Leaves",
+     "amount": "12"
+    },
+    {
+     "name": "Slime Secretions",
+     "amount": "9"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "35,000"
+    },
+    {
+     "name": "Boreal Wolf's Broken Fang",
+     "amount": "6"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "9"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "6"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "45,000"
+    },
+    {
+     "name": "Boreal Wolf's Nostalgia",
+     "amount": "4"
+    },
+    {
+     "name": "Ley Line Sprout",
+     "amount": "18"
+    },
+    {
+     "name": "Slime Concentrate",
+     "amount": "12"
+    }
+   ]
+  }
+ },
+ "Travelers Handy Sword": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Weapon_Traveler%27s_Handy_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035456",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Weapon_Traveler%27s_Handy_Sword_2nd.png/revision/latest/scale-to-width-down/256?cb=20201116035502"
+  ],
+  "type": "Sword",
+  "obtain": "ChestsCrash Course Quest",
+  "rarity": 3,
+  "stats": {
+   "Base ATK(Lv. 1 - 90)": "40 - 448",
+   "2nd StatType": "DEF",
+   "2nd Stat(Lv. 1 - 90)": "6.4% - 27.5%"
+  },
+  "refinement": {
+   "text": "Each Elemental Orb or Particle collected restores -value0-% HP.",
+   "1": {
+    "-value0-": "1"
+   },
+   "2": {
+    "-value0-": "1.25"
+   },
+   "3": {
+    "-value0-": "1.5"
+   },
+   "4": {
+    "-value0-": "1.75"
+   },
+   "5": {
+    "-value0-": "2"
+   }
+  },
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "5,000"
+    },
+    {
+     "name": "Fetters of the Dandelion Gladiator",
+     "amount": "2"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "2"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "1"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "10,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "2"
+    },
+    {
+     "name": "Chaos Device",
+     "amount": "8"
+    },
+    {
+     "name": "Divining Scroll",
+     "amount": "5"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "15,000"
+    },
+    {
+     "name": "Chains of the Dandelion Gladiator",
+     "amount": "4"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "4"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "2"
+    },
+    {
+     "name": "Chaos Circuit",
+     "amount": "8"
+    },
+    {
+     "name": "Sealed Scroll",
+     "amount": "6"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "25,000"
+    },
+    {
+     "name": "Shackles of the Dandelion Gladiator",
+     "amount": "4"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "6"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "4"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "30,000"
+    },
+    {
+     "name": "Dream of the Dandelion Gladiator",
+     "amount": "3"
+    },
+    {
+     "name": "Chaos Core",
+     "amount": "12"
+    },
+    {
+     "name": "Forbidden Curse Scroll",
+     "amount": "8"
+    }
+   ]
+  }
+ }
+}

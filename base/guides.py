@@ -32,6 +32,7 @@ class GenshinGuides:
         '''
 
         self.path = f'{getcwd()}/guides/'
+        
         self.characters = []
         self.pmon = pmon
 
@@ -65,7 +66,7 @@ class GenshinGuides:
             self.characters = self.pmon.p_bot_config['characters']
             log('loaded characters from bot config file!')
 
-    def load_thumbnails(self):
+    def load_info(self):
         with open(f'{self.path}/thumbnails.json','r') as f:
             self.thumbnails = load(f)
             log('loaded character thumnails.')
