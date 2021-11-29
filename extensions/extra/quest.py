@@ -10,7 +10,7 @@ from asyncio import sleep
 from util.logging import logc
 
 from os import getcwd
-from base.quests import GenshinQuests
+from base.quest_rewrite import GenshinQuests
 
 quest_handler = GenshinQuests()
 
@@ -34,10 +34,19 @@ class QuestsWalkthrough(commands.Cog):
             await ctx.send(f'You searched for {quest_.title()}',embed=embeds[0],view=view)
         
         else:
-            
-            embeds = quest_handler.create_quest_embeds(ctx.author,result[0])
-            view = QuestView(ctx,embeds)
-            await ctx.send(f'You searched for {quest_.title()}',embed=embeds[list(embeds.keys())[0]],view=view)
+            if len(result) != 0:
+                embeds = quest_handler.create_quest_embeds(ctx.author,result[0])
+                view = QuestView(ctx,embeds)
+                await ctx.send(f'You searched for {quest_.title()}',embed=embeds[list(embeds.keys())[0]],view=view)
+            else:
+                embed = Embed(title='Error',
+                            description='Could not find anything!'
+                            ,color=0xf5e0d0)
+                embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+
+                await ctx.send(f'You searched for {quest_.title()}',embed=embed)
+
 
     @commands.command(aliases=['act'])
     async def acts(self, ctx, *,act_name: str=''):
