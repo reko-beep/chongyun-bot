@@ -25,11 +25,12 @@ it contains
 
 ![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
-    🔸Domain Schedule with next commit hopefully.
+    🔸Domain Schedule (with next commit hopefully.)
     🔸Users custom builds Creator.
-    🔸Resin Notifier.
+    🔸Resin Notifier. (with next commit hopefully)
     🔸Mora and Primogem history (to be done)
-    🔸 Abyss Info to be done
+    🔸Abyss Info (to be done)
+    🔸Basic Administration module (with next commit hopefully)
 
      
      
