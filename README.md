@@ -15,17 +15,22 @@ it contains
     🔸 Paimon quotes (taken from paimonquotes twitter handle!)
     🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)    
     🔸 Shows genshin stats and characters from hoyolab (api wrapper by thesadru on github)
- 
+    🔸 Wish History
+    🔸 User Build Notes
+  
+
 
 
 # Being worked on
 
 ![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
-    🔸Wish History (Almost done!)
-    🔸Users custom builds creator. 
-    🔸Build Notes. 
-    🔸Quests Code rewriting. (Almost Done!)
+    🔸Domain Schedule with next commit hopefully.
+    🔸Users custom builds Creator.
+    🔸Resin Notifier.
+    🔸Mora and Primogem history (to be done)
+    🔸 Abyss Info to be done
+
      
      
 # Setting up the bot
