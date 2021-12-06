@@ -171,7 +171,6 @@ class GenshinQuests:
             
             for quest in self.quests:
                 if to_search in quest.replace('_',' ',99).lower():
-                    print(f'found {quest}')
                     search_results.append(quest)
         return search_results,'quests'
 

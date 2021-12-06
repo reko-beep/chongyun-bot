@@ -10,9 +10,11 @@ from util.logging import logc
 class Hail(commands.Cog):
     def __init__(self, pmon):
         self.pmon = pmon
+        self.name = 'Fun'
+        self.description = 'Fun commands!'
 
     
-    @commands.command()
+    @commands.command(description='hail (usermention)\nShows a gif hailing the mentioned user!')
     async def hail(self, ctx):
         user = ctx.message.mentions[0]
         if user:

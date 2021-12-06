@@ -14,21 +14,27 @@ from os import getcwd
 
 class Lobbies(commands.Cog):
     def __init__(self, pmon: Paimon) -> None:
-        self.pmon = Paimon
+        self.pmon = pmon
         
         self.voice_handler = Lobby(self.pmon)
+        self.name = 'Lobby'
+        self.description = 'Commands to control and create custom lobbies\n ``!lb`` to check the lobby status!'
 
     
     @commands.Cog.listener()
     async def on_voice_state_update(self,member,before,after):
-        await self.voice_handler.auto_delete_event(member)
+        await self.voice_handler.auto_delete_event(member,before,after)
     
     @commands.Cog.listener()
-    async def on_ready(self):
-        self.voice_handler.set_settings()
+    async def on_message(self, message):
+        # roundabout way to solve on_ready not working
+        if message.guild is not None:   
+            guild = message.guild
+            self.voice_handler.set_settings(guild)
+        
 
 
-    @commands.command(aliases=['la','lallow'])
+    @commands.command(aliases=['la','lallow'],description='la (usermention)\nAllows the mentioned user to join your lobby!')
     async def lobbyallow(self,ctx, member:discord.Member=None):
         if member != None:
             success = await self.voice_handler.allow_member(ctx.author,member)
@@ -56,7 +62,7 @@ class Lobbies(commands.Cog):
                                         icon_url=ctx.author.avatar.url)
                         await ctx.send(embed=embed)
 
-    @commands.command(aliases=['lk','lkick'])
+    @commands.command(aliases=['lk','lkick'],description='lk (usermention)\nKicks the mentioned member from your lobby!')
     async def lobbykick(self,ctx, member:discord.Member=None):   
         success = await self.voice_handler.kick_member(ctx.author,member)
         if success == None:
@@ -83,7 +89,7 @@ class Lobbies(commands.Cog):
                                     icon_url=ctx.author.avatar.url)
                     await ctx.send(embed=embed)
 
-    @commands.command(aliases=['lua','lunallow'])
+    @commands.command(aliases=['lua','lunallow'],description='lua (usermention)\nPrevents a member from joining your lobby!')
     async def lobbyunallow(self,ctx, member:discord.Member=None):   
         success = await self.voice_handler.unallow_member(ctx.author,member)
         if success == None:
@@ -111,7 +117,7 @@ class Lobbies(commands.Cog):
                                     icon_url=ctx.author.avatar.url)
                     await ctx.send(embed=embed)
 
-    @commands.command(aliases=['ll','llimit'])
+    @commands.command(aliases=['ll','llimit'],description='ll (number or 0)\nLimits the lobby to said number of members! or If given 0, set to 99!')
     async def lobbylimit(self,ctx, limit : int):
         success,channel_ = await self.voice_handler.limit_vc(ctx.author,limit)   
         if success == True:
@@ -137,7 +143,7 @@ class Lobbies(commands.Cog):
                                 icon_url=ctx.author.avatar.url)
             await ctx.send(embed=embed)
 
-    @commands.command(aliases=['llock'])
+    @commands.command(aliases=['llock'],description='llock\nLocks the lobby and make it private!')
     async def lobbylock(self,ctx):
         success,channel_ = await self.voice_handler.lock_vc(ctx.author)   
         if success == True:        
@@ -155,7 +161,7 @@ class Lobbies(commands.Cog):
                                 icon_url=ctx.author.avatar.url)
             await ctx.send(embed=embed)
 
-    @commands.command(aliases=['lul','lunlock','lobbyun'])
+    @commands.command(aliases=['lul','lunlock','lobbyun'],description='lul\nUnlocks the lobby and makes it public!')
     async def lobbyunlock(self,ctx):
         success,channel_ = await self.voice_handler.unlock_vc(ctx.author)   
         if success == True:        
@@ -174,7 +180,7 @@ class Lobbies(commands.Cog):
             await ctx.send(embed=embed)
 
 
-    @commands.command(aliases=['lobbyc','lcreate','lc'])
+    @commands.command(aliases=['lobbyc','lcreate','lc'],description='lc\nCreates the lobby!')
     async def lobbycreate(self,ctx):    
         success,channel_ =  await self.voice_handler.create_vc(ctx.author)
         if success != None and channel_ != None:

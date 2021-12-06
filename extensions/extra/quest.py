@@ -10,15 +10,17 @@ from asyncio import sleep
 from util.logging import logc
 
 from os import getcwd
-from base.quest_rewrite import GenshinQuests
+from base.quests import GenshinQuests
 
 quest_handler = GenshinQuests()
 
 class QuestsWalkthrough(commands.Cog):
     def __init__(self, pmon: Paimon):
         self.pmon = pmon
+        self.name = 'Quests'
+        self.description = 'Commands to get details of acts, quests and chapters'
 
-    @commands.command(aliases=['q','quest'])
+    @commands.command(aliases=['q','quest'],description='quest (chapter | act | quest name)\nShows the quests in a chapter | act\n If a quest is mentioned, shows quest details\nif none mentioned shows all the quests!')
     async def quests(self, ctx, *,quest_name: str=''):
         #testing
         quest_ = ''.join(quest_name)
@@ -48,7 +50,7 @@ class QuestsWalkthrough(commands.Cog):
                 await ctx.send(f'You searched for {quest_.title()}',embed=embed)
 
 
-    @commands.command(aliases=['act'])
+    @commands.command(aliases=['act'],description='act (act name)\nShows the quests in a act or if none mentioned shows all the acts!')
     async def acts(self, ctx, *,act_name: str=''):
         #testing
         act_ = ''.join(act_name)
@@ -84,7 +86,7 @@ class QuestsWalkthrough(commands.Cog):
             await ctx.send(embed=embed)
         
 
-    @commands.command(aliases=['chapter','chap'])
+    @commands.command(aliases=['chapter','chap'],description='chapter (chapter name)\nShows the acts in a chapter or if none mentioned shows all the chapters!')
     async def chapters(self, ctx, *,chapter_name: str=''):
         #testing
         chapter_ = ''.join(chapter_name)

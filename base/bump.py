@@ -128,9 +128,9 @@ class Bump:
 
         if self.bump_role:
             await channel.send(f'{self.bump_role.mention}',embed=embed)
-            print('bump message sent')
+            
         else:
             await channel.send(embed=embed)
-            print('bump message sent')
+            
 
 

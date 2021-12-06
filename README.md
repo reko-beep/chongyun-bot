@@ -10,11 +10,22 @@
 Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting now, you are free to use it, if you want!
 it contains
 
-    🔸 Paimon soundboard! (sounds provided | genshin fandom voiceovers)
+    🔸 All characters soundboard! (sounds provided | genshin fandom voiceovers)
     🔸 Support for build and ascension commands (you need to add yours own in the respective folder)
     🔸 Paimon quotes (taken from paimonquotes twitter handle!)
     🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)    
-    🔸 Shows genshin stats and characters from hoyolab (api wrapper by thesadru on github)
+    🔸 Shows genshin stats, **abyss** and characters from hoyolab (api wrapper by thesadru on github)
+    🔸 Wish History fetch from output_file and android wish history link!   
+    🔸 User writted Build Notes. 
+    🔸 Transaction logs (primogems, crystals, artifacts)
+    🔸 Basic Information of genshin impact in-game items [Weapons , Characters, Artifacts] + weapon refinement and ascension materials 
+    🔸 Resin Reminder.
+    🔸 Domain Schedule.
+    🔸 Custom VC lobbies
+    🔸 small administration module for raid protection (scrutiny)
+    🔸 Disboard bump notifier + small leaderboard
+    🔸 and some fun commands, fortune stick simulation...
+    
  
 
 
@@ -22,10 +33,7 @@ it contains
 
 ![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
-    🔸Wish History (Almost done!)
-    🔸Users custom builds creator. 
-    🔸Build Notes. 
-    🔸Quests Code rewriting. (Almost Done!)
+    
      
      
 # Setting up the bot

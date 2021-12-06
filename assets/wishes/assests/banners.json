@@ -1,6 +1,7 @@
 {
  "301": [
   {
+   "timezonedependent": true,
    "name": "Ballad In Goblets",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg/revision/latest/scale-to-width-down/500?cb=20201006234432",
    "start": "2020-09-28 10:00:00",
@@ -301,6 +302,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Ballad In Goblets",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Wish_Ballad_in_Goblets_2021-03-17.jpg/revision/latest/scale-to-width-down/500?cb=20210315040203",
    "start": "2021-03-17 11:00:00",
@@ -910,9 +912,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Sparkling Steps",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Wish_Sparkling_Steps_2021-06-09.png/revision/latest/scale-to-width-down/500?cb=20210607040442",
    "start": "2021-06-09 11:00:00",
@@ -1237,6 +1241,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Farewell Of Snezhnaya",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Wish_Farewell_of_Snezhnaya_2020-11-11.jpg/revision/latest/scale-to-width-down/500?cb=20201113064401",
    "start": "2020-11-11 10:00:00",
@@ -1858,9 +1863,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Farewell Of Snezhnaya",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Wish_Farewell_of_Snezhnaya_2021-10-13.png/revision/latest/scale-to-width-down/500?cb=20211011040321",
    "start": "2021-10-13 11:00:00",
@@ -2500,9 +2507,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Gentry Of Hermitage",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Wish_Gentry_of_Hermitage_2021-04-28.png/revision/latest/scale-to-width-down/500?cb=20210426040412",
    "start": "2021-04-28 11:00:00",
@@ -2827,6 +2836,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Secretum Secretorum",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Wish_Secretum_Secretorum_2020-12-23.jpg/revision/latest/scale-to-width-down/500?cb=20201221041709",
    "start": "2020-12-23 10:00:00",
@@ -3139,6 +3149,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Secretum Secretorum",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Wish_Secretum_Secretorum_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040308",
    "start": "2021-11-24 11:00:00",
@@ -3793,6 +3804,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Invitation To Mundane Life",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg/revision/latest/scale-to-width-down/500?cb=20210201040314",
    "start": "2021-02-03 09:49:00",
@@ -4720,7 +4732,8 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
    "name": "Moment Of Bloom",
@@ -5062,7 +5075,8 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
    "name": "Born Of Ocean Swell",
@@ -5380,7 +5394,8 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
    "name": "Leaves In The Wind",
@@ -5707,6 +5722,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "The Heron%27S Court",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Wish_The_Heron%27s_Court_2021-07-21.png/revision/latest/scale-to-width-down/500?cb=20210719040348",
    "start": "2021-07-21 11:00:00",
@@ -6361,6 +6377,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Reign Of Serenity",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Wish_Reign_of_Serenity_2021-09-01.png/revision/latest/scale-to-width-down/500?cb=20210830040252",
    "start": "2021-09-01 11:00:00",
@@ -7029,7 +7046,7 @@
   {
    "name": "Oni%27S Royale",
    "start": "2021-12-14 18:00:00",
-   "end": "2022-01-05 14:59:59",
+   "end": "2022-01-04 14:59:59",
    "featured": [
     {
      "id": "arataki_itto",
@@ -7982,6 +7999,7 @@
  ],
  "302": [
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Wish_Epitome_Invocation_2020-09-28.jpg/revision/latest/scale-to-width-down/500?cb=20200929014948",
    "start": "2020-09-28 10:00:00",
@@ -8627,9 +8645,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Wish_Epitome_Invocation_2020-11-11.jpg/revision/latest/scale-to-width-down/500?cb=20201109052258",
    "start": "2020-11-11 10:00:00",
@@ -9293,9 +9313,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Wish_Epitome_Invocation_2020-12-23.jpg/revision/latest/scale-to-width-down/500?cb=20201221041708",
    "start": "2020-12-23 10:00:00",
@@ -9971,9 +9993,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Wish_Epitome_Invocation_2021-02-03.jpg/revision/latest/scale-to-width-down/500?cb=20210201040313",
    "start": "2021-02-03 11:00:00",
@@ -10667,9 +10691,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Wish_Epitome_Invocation_2021-03-17.jpg/revision/latest/scale-to-width-down/500?cb=20210315040244",
    "start": "2021-03-17 11:00:00",
@@ -11363,9 +11389,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Wish_Epitome_Invocation_2021-04-28.png/revision/latest/scale-to-width-down/500?cb=20210426040413",
    "start": "2021-04-28 11:00:00",
@@ -12077,9 +12105,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Wish_Epitome_Invocation_2021-06-09.png/revision/latest/scale-to-width-down/500?cb=20210607040444",
    "start": "2021-06-09 11:00:00",
@@ -12803,9 +12833,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Wish_Epitome_Invocation_2021-07-21.png/revision/latest/scale-to-width-down/500?cb=20210719040347",
    "start": "2021-07-21 11:00:00",
@@ -13511,9 +13543,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Wish_Epitome_Invocation_2021-09-01.png/revision/latest/scale-to-width-down/500?cb=20210830040250",
    "start": "2021-09-01 11:00:00",
@@ -13880,6 +13914,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Wish_Epitome_Invocation_2021-09-21.png/revision/latest/scale-to-width-down/500?cb=20210919040222",
    "start": "2021-09-21 18:00:00",
@@ -14246,6 +14281,7 @@
    ]
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Wish_Epitome_Invocation_2021-10-13.png/revision/latest/scale-to-width-down/500?cb=20211011040323",
    "start": "2021-10-13 11:00:00",
@@ -15005,9 +15041,11 @@
      "rank": "3",
      "type": "weapons"
     }
-   ]
+   ],
+   "timezonedependent": true
   },
   {
+   "timezonedependent": true,
    "name": "Epitome Invocation",
    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Wish_Epitome_Invocation_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040310",
    "start": "2021-11-24 11:00:00",
@@ -15398,11 +15436,12 @@
    ]
   }
  ],
- "400": [    
+ "400": [
     {
+     "timezonedependent": true,
      "name": "Born Of Ocean Swell",
      "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Born_of_Ocean_Swell_2021-11-24.png/revision/latest/scale-to-width-down/500?cb=20211122040306",
-     "start": "2021-11-24 11:00:00",
+     "start": "2021-11-24 10:00:00",
      "end": "2021-12-14 17:59:59",
      "featured": [
       {

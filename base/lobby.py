@@ -1,26 +1,38 @@
 import os
 from pprint import pprint
 import nextcord as discord
-from nextcord import channel
 from nextcord.ext import commands,tasks
 from os import listdir
 from os.path import isfile, join
 import json
 
+from nextcord.member import Member
+
+from core.paimon import Paimon
+
 class Lobby:
-    def __init__(self,bot):
+    def __init__(self,bot: Paimon):
         self.vcs = {}
         self.bot = bot
-        print(self.bot.guilds)
-        self.guild = 0        
+        self.guild = 0    
+
+        self.lobby_category = None
+        self.lobbycreatevc = None
+        self.paimon = None
+
+    
         
         self._load()
 
-    def set_guild(self,guild):
+    def set_settings(self,guild):
         self.guild = guild
-        self.lobby_category = self.guild.get_channel(894678256870096947)
-        self.paimon = self.guild.get_role(889257921345626153)
-        print(self.guild,self.lobby_category)
+        if self.lobby_category is None:
+            self.lobby_category = self.guild.get_channel(self.bot.p_bot_config['lobby_category'])
+        if self.lobbycreatevc is None:
+            self.lobbycreatevc = self.guild.get_channel(self.bot.p_bot_config['lobby_createvc'])
+        if self.paimon is None:
+            self.paimon = self.bot.get_user(self.bot.user.id)
+       
 
     def _load(self):
         if os.path.exists('vc.json'):
@@ -37,7 +49,7 @@ class Lobby:
             json.dump(self.vcs,f)
 
     async def create_vc(self,owner):
-        if self.guild != 0:
+        if self.guild is not None:
             id_ = str(owner.id)
             if id_ in self.vcs:
                 return None,None
@@ -71,12 +83,12 @@ class Lobby:
             else:
                 return None    
     
-    async def lock_vc(self, owner):
+    async def lock_vc(self, owner): 
         if self.guild != 0:
             id_ = str(owner.id)
             if id_ in self.vcs:
                 vc = self.bot.get_channel(self.vcs[id_]['vc'])
-                await vc.set_permissions(self.bot.default_role, read_messages=False, connect=False, speak=False,
+                await vc.set_permissions(self.guild.default_role, read_messages=False, connect=False, speak=False,
                                      use_voice_activation=True)
                 return True,vc
             else:
@@ -87,7 +99,7 @@ class Lobby:
             id_ = str(owner.id)
             if id_ in self.vcs:
                 vc = self.bot.get_channel(self.vcs[id_]['vc'])
-                await vc.set_permissions(self.bot.default_role, read_messages=True, connect=True, speak=True,
+                await vc.set_permissions(self.guild.default_role, read_messages=True, connect=True, speak=True,
                                      use_voice_activation=True)
                 return True,vc
             else:
@@ -149,19 +161,30 @@ class Lobby:
     def if_vc_exists(self,channel):
         id_ = channel.id
         for i in self.vcs:
-            print(i)
-            print(self.vcs[i]['vc'],id_)
             if self.vcs[i]['vc'] == id_:
                 return True          
 
     async def voice_remove(self,channel):       
         if channel != None:
             members_list = channel.members           
-            # print(f"Voice Channel {c.name}, ID {c.id} , {m} : {after.channel}\n Mmebers: {len(m)}")
             if self.if_vc_exists(channel) and channel != None:
                 if len(members_list) == 0:
-                    # print(f"Owner {self.get_vcuser(c.id)} deleting...")
                     self.vcs.pop(str(self.get_owner_from_vc(channel)))
                     await channel.delete()   
                     self._update()                 
-                    # print(f"Updated {self.voice}")
+    
+    async def auto_delete_event(self,member: Member,before,after):
+        vc = member.voice
+        if before.channel is None: 
+            if self.lobbycreatevc is not None:
+                if after.channel.id == self.lobbycreatevc.id:
+                    check,vc_ = await self.create_vc(member)
+                    if check != None:
+                        await member.move_to(vc_)
+        else:
+            if after.channel is None:
+                del_channel = before.channel
+                await self.voice_remove(del_channel)
+
+        
+        

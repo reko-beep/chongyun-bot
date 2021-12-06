@@ -1,0 +1,574 @@
+{
+ "Administration": {
+  "name": "Administration",
+  "description": "Mod only commands! Nothing to see here!",
+  "commands": [
+   {
+    "name": "addquestions",
+    "description": "aq (question)\nadds a question to list, which are to be asked when scrutiny is turned one ",
+    "aliases": [
+     "aq",
+     "addq"
+    ]
+   },
+   {
+    "name": "clearquestions",
+    "description": "Clears all question from list",
+    "aliases": [
+     "cq",
+     "clearq"
+    ]
+   },
+   {
+    "name": "testquestions",
+    "description": "Sends a test question list to check!",
+    "aliases": [
+     "tq",
+     "testq"
+    ]
+   },
+   {
+    "name": "scrutiny",
+    "description": "Toggles scrutiny status!",
+    "aliases": [
+     "scr"
+    ]
+   },
+   {
+    "name": "scrutinychannel",
+    "description": "scrc \nsets channel where questions are to be asked",
+    "aliases": [
+     "scrc"
+    ]
+   },
+   {
+    "name": "eventchannel",
+    "description": "evc \nsets channel where events will posted",
+    "aliases": [
+     "eventc",
+     "evc"
+    ]
+   },
+   {
+    "name": "eventchannelconfig",
+    "description": "evc \nShows the channel where events will posted",
+    "aliases": [
+     "eventconfig",
+     "evcc"
+    ]
+   },
+   {
+    "name": "scrutinystatus",
+    "description": "Shows scrutiny status!",
+    "aliases": [
+     "scrs"
+    ]
+   },
+   {
+    "name": "filtermemberrole",
+    "description": "scrr (role)\nSets the scrutiny role",
+    "aliases": [
+     "fmr",
+     "filterrole",
+     "scrr"
+    ]
+   },
+   {
+    "name": "moderator",
+    "description": "Shows the list of mod roles, which are allowed to use these commands!",
+    "aliases": [
+     "mods"
+    ]
+   },
+   {
+    "name": "addmoderator",
+    "description": "addmods (role)\nAdds the specified role to mod list!",
+    "aliases": [
+     "addmods"
+    ]
+   },
+   {
+    "name": "removemoderator",
+    "description": "rmods (role)\nRemoves the role from mod list!",
+    "aliases": [
+     "rmods"
+    ]
+   },
+   {
+    "name": "lobbychannel",
+    "description": "lbc (voice channel id or mention)\nSets the vc to create custom lobbies when joined!",
+    "aliases": [
+     "lbc"
+    ]
+   },
+   {
+    "name": "lobbystatus",
+    "description": "Shows custom lobbies status!",
+    "aliases": [
+     "lb"
+    ]
+   }
+  ]
+ },
+ "Bumper": {
+  "name": "Bump",
+  "description": "A type of bump leaderboard I guess!",
+  "commands": [
+   {
+    "name": "bumps",
+    "description": "bumps (usermention)\nShows the bump of the user or the user itself who invoked the command!",
+    "aliases": []
+   },
+   {
+    "name": "bumptop",
+    "description": "Shows the user who has bumped the server most times!",
+    "aliases": [
+     "btop",
+     "bt"
+    ]
+   }
+  ]
+ },
+ "Genshin Domains": {
+  "name": "Genshin Domains",
+  "description": "Provides schedule for domains!",
+  "commands": [
+   {
+    "name": "setdomainchannel",
+    "description": "Sets domain channel for domain schedule messages!",
+    "aliases": [
+     "dsc",
+     "domainchannel"
+    ]
+   },
+   {
+    "name": "domainstatus",
+    "description": "Shows the domain channel set!",
+    "aliases": [
+     "ds"
+    ]
+   },
+   {
+    "name": "domainlist",
+    "description": "dlist (day)\nShows the domains rotation for a specific day!",
+    "aliases": [
+     "dlist"
+    ]
+   },
+   {
+    "name": "domainupdate",
+    "description": "du (day)\nUpdates domain rotation according to day!",
+    "aliases": [
+     "du"
+    ]
+   }
+  ]
+ },
+ "Fortune": {
+  "name": "Fortune",
+  "description": "Genshin Impact like fortune sticks implemented in discord!",
+  "commands": [
+   {
+    "name": "drawfortune",
+    "description": "Draws a fortune stick!",
+    "aliases": [
+     "df"
+    ]
+   },
+   {
+    "name": "openfortune",
+    "description": "Opens a fortune stick",
+    "aliases": [
+     "of"
+    ]
+   }
+  ]
+ },
+ "GenshinHelp": {
+  "name": "Help commands",
+  "description": "Help module",
+  "commands": [
+   {
+    "name": "ghelp",
+    "description": "",
+    "aliases": [
+     "help",
+     "h"
+    ]
+   }
+  ]
+ },
+ "Guides": {
+  "name": "Genshin Guides",
+  "description": "Shows ascension or build guides of characters!",
+  "commands": [
+   {
+    "name": "build",
+    "description": "b\nOpens an interaction to choose character and see their builds",
+    "aliases": [
+     "builds",
+     "b"
+    ]
+   },
+   {
+    "name": "ascension",
+    "description": "as\nOpens an interaction to choose character and see their Ascension",
+    "aliases": [
+     "ascensions",
+     "as"
+    ]
+   },
+   {
+    "name": "addguide",
+    "description": "addg (b or as)\nOpens an interaction to add ascension or build guide!",
+    "aliases": [
+     "addg"
+    ]
+   },
+   {
+    "name": "addcharacter",
+    "description": "addc (character name)\nAdds a character!",
+    "aliases": [
+     "addc"
+    ]
+   }
+  ]
+ },
+ "Hail": {
+  "name": "Fun",
+  "description": "Fun commands!",
+  "commands": [
+   {
+    "name": "hail",
+    "description": "hail (usermention)\nShows a gif hailing the mentioned user!",
+    "aliases": []
+   }
+  ]
+ },
+ "Information": {
+  "name": "Information",
+  "description": "Provides general information and ascension materials required for basic genshin weapons and artifacts and characters!",
+  "commands": [
+   {
+    "name": "information",
+    "description": "Opens a interaction to get information about Genshin Impact weapons, and artifacts and characters",
+    "aliases": [
+     "inf"
+    ]
+   }
+  ]
+ },
+ "Lobbies": {
+  "name": "Lobby",
+  "description": "Commands to control and create custom lobbies\n ``!lb`` to check the lobby status!",
+  "commands": [
+   {
+    "name": "lobbyallow",
+    "description": "la (usermention)\nAllows the mentioned user to join your lobby!",
+    "aliases": [
+     "la",
+     "lallow"
+    ]
+   },
+   {
+    "name": "lobbykick",
+    "description": "lk (usermention)\nKicks the mentioned member from your lobby!",
+    "aliases": [
+     "lk",
+     "lkick"
+    ]
+   },
+   {
+    "name": "lobbyunallow",
+    "description": "lua (usermention)\nPrevents a member from joining your lobby!",
+    "aliases": [
+     "lua",
+     "lunallow"
+    ]
+   },
+   {
+    "name": "lobbylimit",
+    "description": "ll (number or 0)\nLimits the lobby to said number of members! or If given 0, set to 99!",
+    "aliases": [
+     "ll",
+     "llimit"
+    ]
+   },
+   {
+    "name": "lobbylock",
+    "description": "llock\nLocks the lobby and make it private!",
+    "aliases": [
+     "llock"
+    ]
+   },
+   {
+    "name": "lobbyunlock",
+    "description": "lul\nUnlocks the lobby and makes it public!",
+    "aliases": [
+     "lul",
+     "lunlock",
+     "lobbyun"
+    ]
+   },
+   {
+    "name": "lobbycreate",
+    "description": "lc\nCreates the lobby!",
+    "aliases": [
+     "lobbyc",
+     "lcreate",
+     "lc"
+    ]
+   }
+  ]
+ },
+ "GenshinLogs": {
+  "name": "Genshin Logs",
+  "description": "Fetches and shows the transaction logs of you Genshin Impact Account!",
+  "commands": [
+   {
+    "name": "genshinlogs",
+    "description": "glogs (feedback link)\nFetches all logs of your account from feedback link!",
+    "aliases": [
+     "glogs"
+    ]
+   },
+   {
+    "name": "genshinprimogems",
+    "description": "gprimogems (uid)\nShows primogems transactions of your genshin account!",
+    "aliases": [
+     "gprimogems"
+    ]
+   },
+   {
+    "name": "genshinartifacts",
+    "description": "gartifacts (uid)\nShows artifacts transactions of your genshin account!",
+    "aliases": [
+     "gartifacts"
+    ]
+   },
+   {
+    "name": "genshincrystals",
+    "description": "gcrystals (uid)\nShows crystals transactions of your genshin account!",
+    "aliases": [
+     "gcrystals"
+    ]
+   },
+   {
+    "name": "genshinresins",
+    "description": "gresins (uid)\nShows resings transactions of your genshin account!",
+    "aliases": [
+     "gresins"
+    ]
+   }
+  ]
+ },
+ "Notes": {
+  "name": "Guides Notes",
+  "description": "Allows member to add notes, so they can add their suggestions to added builds!",
+  "commands": [
+   {
+    "name": "notes",
+    "description": "Opens an interaction to see the added notes!\nOnly the original creator can delete the note!",
+    "aliases": [
+     "note"
+    ]
+   },
+   {
+    "name": "addnotes",
+    "description": "Opens an interaction to add a note!",
+    "aliases": [
+     "addn"
+    ]
+   }
+  ]
+ },
+ "Ping": {
+  "name": " Ping",
+  "description": "Ping me,......",
+  "commands": [
+   {
+    "name": "ping",
+    "description": "Shows the your and bot delay",
+    "aliases": []
+   }
+  ]
+ },
+ "QuestsWalkthrough": {
+  "name": "Quests",
+  "description": "Commands to get details of acts, quests and chapters",
+  "commands": [
+   {
+    "name": "quests",
+    "description": "quest (chapter | act | quest name)\nShows the quests in a chapter | act\n If a quest is mentioned, shows quest details\nif none mentioned shows all the quests!",
+    "aliases": [
+     "q",
+     "quest"
+    ]
+   },
+   {
+    "name": "acts",
+    "description": "act (act name)\nShows the quests in a act or if none mentioned shows all the acts!",
+    "aliases": [
+     "act"
+    ]
+   },
+   {
+    "name": "chapters",
+    "description": "chapter (chapter name)\nShows the acts in a chapter or if none mentioned shows all the chapters!",
+    "aliases": [
+     "chapter",
+     "chap"
+    ]
+   }
+  ]
+ },
+ "SoundBoard": {
+  "name": "Soundboard",
+  "description": "Commands to play sounds of different characters",
+  "commands": [
+   {
+    "name": "soundboardcharacters",
+    "description": "sbc\nOpens an interaction to play a sound for user",
+    "aliases": [
+     "sbc"
+    ]
+   },
+   {
+    "name": "soundboardpaimon",
+    "description": "sbp\nPlays the available paimon sounds in vc!",
+    "aliases": [
+     "sbp"
+    ]
+   }
+  ]
+ },
+ "UIDManager": {
+  "name": "UID Manager",
+  "description": "Commands for Genshin Impact Profiles\n <#889200292418187316> is channel where user can drop their uids and get them linked!",
+  "commands": [
+   {
+    "name": "genshinlink",
+    "description": "glink (uid)\nLinks the UID and Region with the user!",
+    "aliases": [
+     "glink"
+    ]
+   },
+   {
+    "name": "gserver",
+    "description": "gserv (user `optional`)\nShows the linked uids of a user or either the user who has invoked the command ",
+    "aliases": [
+     "gserv",
+     "gservers"
+    ]
+   },
+   {
+    "name": "genshinuid",
+    "description": "guid (uid)\nshows the discord user which has linked the uid!",
+    "aliases": [
+     "guid"
+    ]
+   },
+   {
+    "name": "genshincharacters",
+    "description": "gchar (region) (member `optional`)\nShows the most used characters of a user from genshin api!",
+    "aliases": [
+     "gc",
+     "genshinchar",
+     "gchar",
+     "gchars"
+    ]
+   },
+   {
+    "name": "genshinstats",
+    "description": "gstat (region)\nShows the stat of a user genshin impact account!",
+    "aliases": [
+     "gstat",
+     "gstats"
+    ]
+   },
+   {
+    "name": "genshinabyss",
+    "description": "gabyss (region)\nShows the abyss stats of a user genshin impact account!",
+    "aliases": [
+     "gaby",
+     "gabyss"
+    ]
+   },
+   {
+    "name": "resinstatus",
+    "description": "rs (region)\nShows your resin status!",
+    "aliases": [
+     "rs"
+    ]
+   },
+   {
+    "name": "resintime",
+    "description": "rt (region)\nShows your remaining time for resin to fill up!",
+    "aliases": [
+     "rt"
+    ]
+   },
+   {
+    "name": "resinreminder",
+    "description": "rr (region) (resin)\nShows your resin status!",
+    "aliases": [
+     "rr"
+    ]
+   }
+  ]
+ },
+ "WishHistory": {
+  "name": "Genshin Wish history",
+  "description": "Fetches your wish history from Mihoyo grasp, calculate pity for you!",
+  "commands": [
+   {
+    "name": "wishhistory",
+    "description": "wh (wishhistory url)\nFetches wish history for user\nProvide the link to outputlog.txt file or the wish history link from game!",
+    "aliases": [
+     "wh"
+    ]
+   },
+   {
+    "name": "wishshow",
+    "description": "ws (uid) (bannercode)\nShows wish history for provided arguments\n if no banner code is provided, prints all the available banner codes!",
+    "aliases": [
+     "ws"
+    ]
+   },
+   {
+    "name": "wishimagesave",
+    "description": "Mod only command\nresaves all images according to template!",
+    "aliases": [
+     "wishirs"
+    ]
+   }
+  ]
+ },
+ "ExtensionManager": {
+  "name": "Extension Manager",
+  "description": "Handles all Extensions",
+  "commands": [
+   {
+    "name": "loadext",
+    "description": "lext( extension name)\nLoads extension",
+    "aliases": [
+     "lext"
+    ]
+   },
+   {
+    "name": "uloadext",
+    "description": "unlext( extension name)\nUnloads extension",
+    "aliases": [
+     "unlext"
+    ]
+   },
+   {
+    "name": "rloadext",
+    "description": "lext( extension name)\nReloads extension",
+    "aliases": [
+     "rlext"
+    ]
+   }
+  ]
+ }
+}

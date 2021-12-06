@@ -90,7 +90,7 @@ class AllList(Select):
                     if self.values[0] in self.allowed_options:                    
                         view = NavigatableView(self.user)
                         view.add_item(AllList(self.pmon,self.values[0],self.user))   
-                        await interaction.message.edit(f'Please select a {self.values[0]} from below?',view=view)  
+                        await interaction.message.edit(content=f'Please select a {self.values[0]} from below?',view=view)  
                     else:
                         view = NavigatableView(self.user)
                         if self.option_type in ['Bows','Claymores','Catalysts','Swords','Polearms']:

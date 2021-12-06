@@ -47,7 +47,19 @@ class Paimon(Bot):
         except Exception:
             logc('Error: Config file structure is invalid...')
             raise
-
+    
+    def p_save_config(self, config_file: str):
+        """loads config file from disk"""
+        # TODO: add yaml support.
+        try:
+            with open(config_file, 'w') as f:
+                json.dump(self.p_bot_config,f,indent=1)
+        except (FileNotFoundError, TypeError):
+            logc("Error: Config file cannot be located...")
+            raise
+        except Exception:
+            logc('Error: Config file structure is invalid...')
+            raise
 
     def p_load_core_extensions(self):
         """load core extension: these extensions cannot be dynamically managed"""
@@ -64,7 +76,7 @@ class Paimon(Bot):
         @self.event
         async def on_ready():
             """runs when bot is logged in and ready"""
-
+           
             logc("Authentication Successful...")
             self.p_load_core_extensions()
 

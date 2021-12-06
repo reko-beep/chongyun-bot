@@ -1,7 +1,11 @@
+from genericpath import exists
 from bs4 import builder
 
-from nextcord import Member, Embed
+from nextcord import Member, Embed, Guild
 from nextcord.ext.commands.context import Context 
+from nextcord.utils import get
+
+from core.paimon import Paimon
 
 from json import dump, load
 
@@ -9,60 +13,14 @@ from os.path import exists
 from os import remove, getcwd
 
 class GuidesNotes:
-    def __init__(self):
+    def __init__(self, pmon: Paimon):
         self.notes = {}        
         self.file = 'notes.json'
-
-        self.characters = [
-                "Albedo",
-                "Aloy",
-                "Amber",
-                "Barbara",
-                "Beidou",
-                "Bennett",
-                "Chongyun",
-                "Diluc",
-                "Diona",
-                "Eula",
-                "Fischl",
-                "Ganyu",
-                "HuTao",
-                "Itto",
-                "Jean",
-                "Kazuha",
-                "Kaeya",
-                "Ayaka",
-                "Keqing",
-                "Klee",
-                "Sara",
-                "Lisa",
-                "Mona",
-                "Ningguang",
-                "Noelle",
-                "Qiqi",
-                "Raiden",
-                "Razor",
-                "Rosaria",
-                "Sayu",
-                "Sucrose",
-                "Childe",
-                "Traveler",
-                "Venti",
-                "Xiangling",
-                "Xiao",
-                "Xingqiu",
-                "Xinyan",
-                "Yanfei",
-                "Yoimiya",
-                "Zhongli",
-                "Dainsleif",
-                "Gorou",
-                "Kokomi",
-                "Thoma",
-                "Yae",
-                "Gorou"
-                ]
+        self.pmon = pmon
         self.load()
+        
+
+       
 
    
     def get_character(self, name: str):
@@ -71,8 +29,9 @@ class GuidesNotes:
         Gets characters from case insensitive name
         
         '''
-        if name.title() in self.characters:
-            return self.characters[self.characters.index(name.title())]
+        for char in self.pmon.p_bot_config['characters']:
+            if char.lower() in name.lower():
+                return char
     
     def load(self):
         '''
@@ -94,194 +53,113 @@ class GuidesNotes:
             remove(self.file)
 
         with open(self.file, 'w') as f:
-            dump(self.notes,f)
+            dump(self.notes,f,indent=1)
 
-
-    def add_note(self, user: Member, character_name:str, note: str):
+    def get_available_characternotes(self):
         '''
-
-        Saves note for character
-        
+        gets all available characters   for whom the notes are written
         '''
-        user_id = str(user.id)
+        return list(self.notes.keys())
+    
+    def get_available_usernotes(self, character_name: str):
+        '''
+        gets all available user who has written note for character_name  
+        '''
         character = self.get_character(character_name)
-        if character != None:
+        if character is not None:
+            users = list(self.notes[character].keys())
+            return users
+        return []
 
-            # If character is found from characters list
-            
+    def get_available_notes(self, character_name: str, user_id: str):
+        '''
+        gets all available note for character_name written by user with user_id 
+        '''
+        character = self.get_character(character_name)
+        if character is not None:
+            if user_id in self.notes[character]:
+                return self.notes[character][user_id]
+        return []
+    
+    def remove_note(self, character_name: str, user_id: str, note_index: int):
+        '''
+        removes note for character_name written by user with user_id and at note_index
+        '''
 
+        character = self.get_character(character_name)
+        if character is not None:
+            if user_id in self.notes[character]:
+                if note_index < len(self.notes[character][user_id]):
+                    self.notes[character][user_id].pop(note_index)
+                    self.save()
+                    return True
+
+    def add_note(self, character_name: str, user_id: str, note: str):
+        '''
+        add note note for character_name written by user with user_id
+        '''
+        character = self.get_character(character_name)
+        if character is not None:
             if character in self.notes:
-                if user_id in self.notes[character]:
-
-                    # add note in existing  character database
-
+                if user_id in self.notes[character]:                
                     self.notes[character][user_id].append(note)
+                    self.save()
+                    return True
                 else:
-
-                    # creates a new character key in database
-
-                    self.notes[character] = {user_id : [note]}     
+                    self.notes[character][user_id] = [note]
+                    self.save()
             else:
-                 self.notes[character] = {user_id : [note]}   
-            self.save()      
-        return None
-    
-    def remove_note(self,user: Member,character_name: str, note:str):
-        '''
-        Removes note of a user User: discord.User, for character name and note provided
+                self.notes[character] = {user_id: [note]}
+                self.save()
 
-        returns:
-            true if note removed else false
+    
+    def get_note_index(self, character_name: str, user_id: str, note: str):
         '''
-        user_id = str(user.id)
+        gets note_index for note of character_name written by user with user_id 
+        '''
+
         character = self.get_character(character_name)
-        if character != None:
+        try:
+            if character is not None:
+                if user_id in self.notes[character]:             
+                    return self.notes[character][user_id].index(note)
+        except ValueError:
+            return None
 
-             if character in self.notes:
-                if user_id in self.notes[character]:
-                    if note in self.notes[character][user_id]:
-
-                        print(note in self.notes[character][user_id])
-                        print(self.notes[character][user_id].index(note))
-                        self.notes[character][user_id].pop(self.notes[character][user_id].index(note))  
-                        self.save()
-                        return True              
-        return False
-    
-    def get_notes(self,user: Member, character_name:str):
+    def get_note(self, character_name: str, user_id: str, note_index: int):
         '''
-        Dynamic fetch
-
-            1. returns notes if user and character name both exists in database
-            2. returns users who have added notes if only character name is provided
-            3. returns characters for whom user have written notes if only character name is provided
-            3. returns characters for whom notes are written if nothing is provided
-
-        returns:
-            text_list: for use in embed
-            type: users, characters, notes
+        gets note for character_name written by user with user_id and at note_index
         '''
+        character = self.get_character(character_name)
+        if character is not None:
+            if user_id in self.notes[character]:   
+                if note_index < len(self.notes[character][user_id]):
+                    return self.notes[character][user_id][note_index]
 
-        if user != None:
-            user_id = str(user.id)
-        else:
-            user_id = ''
-
-        if character_name != '':
-            character = self.get_character(character_name)
-            if character != None:
-
-                # If character is found from characters list
-
-                if character in self.notes:
-
-                    data = self.notes[character]
-                    if data != None:
-                        if user_id != '':  
-                            if user_id in data:                    
-                                text_list = [f'**{c}**. {note}' for c,note in enumerate(data[user_id])]
-                                return text_list,'notes'
-                        else:
-                            text_list = [f'**{c}**. <@!{user}>' for c,user in enumerate(data)]
-                            return text_list, 'users'                        
-        else:
-            if user_id != '':
-                text_list = []
-                c = 0
-                for character in self.notes:
-                    if user_id in self.notes[character]:
-                        text_list.append(f'**{c}**. {character}')
-                        c += 1
-                return text_list,'characters'
-            else:
-                text_list = []
-                text_list = [f'**{c}**. {character}' for c,character in enumerate(self.notes)]
-                return text_list, 'characters'
-        return None,None
-
-    def get_selected_note(self, notes: list, selected_number: int):
+    def create_note_embed(self, character_name: str, user: str, note_index: int):
         '''
-        Gets note string from notes list at number selected_number
+        creates an embed for note
 
-        returns:
-            note: string
-            None if not found!
         '''
-        if len(notes) >= selected_number:
-            return notes[selected_number][notes[selected_number].find('**.')+len('**.'):].strip()            
-        return None
+        note = self.get_note(character_name,user,note_index)
+        if note is not None:
+            user = get(self.pmon.guilds[0].members,id=int(user))
+            embed = Embed(title=f'{user.display_name} written note for {character_name}',description=note,color=0xf5e0d0)  
+            embed.set_author(name=user.display_name,
+                            icon_url=user.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/NnFetya.gif')
+            return embed
 
-    def create_embed_pages(self,notes:list, limit: int,member_name:str,character:str, type_:str):
+    def delete_note_embed(self, character_name: str, user: str, note_index: int):
         '''
+        creates an embed for note
 
-        creates embeds pages from notes list
-
-        limit: each page contains how much items
-        member_name: user who invoked the command
-        character: character name if provided
-        type: if provided [users, characters,notes]
-
-        returns: 
-            embeds: list[Embed,Embed]
-            emojis: list[str,str]
         '''
-
-        pages_count = 0
-        pages = divmod(len(notes),limit)
-        pages_count = pages[0]
-        embeds = []
-        emojis = ['⬅️','➡️'] 
-
-        if pages[1] == 0:            
-            pass
-        else:
-            pages_count += 1
-
-        for page in range(1,pages_count+1,1):
-            if type_ == 'notes' and character != "":
-                if member_name != '':
-                    description_ = f'**{member_name}** written notes for {character} to complement the added builds to bot!\n\n'
-                else:
-                    description_ = f'User written notes for {character} to complement the added builds to bot!\n\n'
-            else:
-                description_ = f'User written notes for {character} to complement the added builds to bot!\n\n'    
-            print(len(notes))        
-            for note in range(0,len(notes)+1,1):
-                if page*limit-limit-1 < note < page*limit+1:
-                    print(note)
-                    if len(notes)-1 >= note:
-                        print(note)
-                        print(notes[note])
-                        description_ += f'{notes[note]}\n'
-
-            embed = Embed(title=f'Notes ({page}/{pages_count})'
-                , description=description_
-                , color=0xf5e0d0)
-
-            embeds.append(embed)
-
-        return embeds,emojis
-
-    def create_status(self,ctx: Context,member: Member, type_: str):
-        '''
-        Provides a statement based on what is being shown in embed
-
-        returns:
-            statement: string
-        '''
-        if member == ctx.author:
-            if type_ == 'notes':
-                return 'You can remove only your notes by using !rn (charactername) (number from here)'
-            if type_ == 'characters':
-                return 'You only have notes added for these characters!'
-            if type_ == 'users':
-                return 'You only have notes added for these characters!'
-        else:
-            if member != None:
-                if type_ == 'notes':
-                    return f' Notes added by {member.display_name}'
-                if type_ == 'characters':
-                    return 'Only these characters have notes added!'
-                if type_ == 'users':
-                    return 'These users have added quote for this character!!'
-            
+        note = self.get_note(character_name,user,note_index)
+        if note is not None:
+            user = get(self.pmon.guilds[0].members,id=int(user))
+            embed = Embed(title=f'{user.display_name} written note for {character_name} is deleted!',description=note,color=0xf5e0d0)  
+            embed.set_author(name=user.display_name,
+                            icon_url=user.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/JvBHvXD.gif')
+            return embed

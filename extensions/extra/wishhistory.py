@@ -1,5 +1,6 @@
 from nextcord.ext import commands
 from nextcord import Embed, File,Member
+from nextcord.gateway import DiscordWebSocket
 from nextcord.ui import View
 from nextcord.utils import get
 
@@ -15,18 +16,22 @@ gacha_client = GenshinGacha()
 class WishHistory(commands.Cog):
     def __init__(self, pmon: Paimon):
         self.pmon = pmon
+        self.name = 'Genshin Wish history'
+        self.description = 'Fetches your wish history from Mihoyo grasp, calculate pity for you!'
         pass
     
-    @commands.command(aliases=['wh'])
+    @commands.command(aliases=['wh'],description='wh (wishhistory url)\nFetches wish history for user\nProvide the link to output_log.txt file or the wish history link from game!')
     async def wishhistory(self,ctx, authkey_url : str):
         if authkey_url != '':
             message = await ctx.send('Huff.. Huff.. I am working!')
             check = await gacha_client.process_authkey(authkey_url,ctx.author,message,True)
-            if check:
+            if check is not None:
                 await message.edit('Huff all done!\n Give me dumplings now! :PaimonExcited: ')
+            else:
+                await message.edit('Sorry no wish history link found! ')
 
         else:
-            description = 'Please give a valid wish history url or link to output file!'
+            description = 'Please give a valid feedback url!'
 
             embed = Embed(title=f'Error',
                             description=description,
@@ -39,9 +44,9 @@ class WishHistory(commands.Cog):
             await ctx.send(embed=embed)
 
 
-    @commands.command(aliases=['ws'])
+    @commands.command(aliases=['ws'],description='ws (uid) (banner_code)\nShows wish history for provided arguments\n if no banner code is provided, prints all the available banner codes!')
     async def wishshow(self, ctx, uid: str='', banner_code : str=''):
-        banners = {'301': 'Character Banner', '302': 'Weapon Banner', '200': 'Permanent Banner', '100': 'Beginner Banner'}
+        banners = {'301': 'Character Banner', '302': 'Weapon Banner', '200': 'Permanent Banner', '100': 'Beginner Banner','400': 'Character Event Wish 2'}
         if uid != '':
             if banner_code in banners:
                 file, name = await gacha_client.fetch_image(uid,banner_code)
@@ -98,7 +103,7 @@ class WishHistory(commands.Cog):
             embed.set_thumbnail(url=self.pmon.user.avatar.url)
             await ctx.send(embed=embed)
 
-    @commands.command(aliases=['wishirs'])
+    @commands.command(aliases=['wishirs'],description='Mod only command\n resaves all images according to template!')
     async def wishimagesave(self,ctx):
         roles = [r.id for r in ctx.author.roles]
         check_role = (len(set([self.pmon.p_bot_config['mod_role']]).intersection(roles)) != 0)

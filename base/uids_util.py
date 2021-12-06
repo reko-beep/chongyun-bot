@@ -14,8 +14,7 @@ def find_uids(message,data):
         print(f'Author {author_}\n Line {i}')
         if ':' in i:
             users = i.split(":")
-            print(f' Found --> (:)  list {users}')                
-            print(users[0],users[1])
+            print(f' Found --> (:)  list {users}')            
             for serv_ in servers_:
                 check_list = serv_.split(':')
                 if users[0].lower() in check_list:

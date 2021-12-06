@@ -132,11 +132,9 @@ class BannerCanvas:
         else:
             main_container = self.src.new_tag('div',attrs={'class':'item-container'})       
             main_container.append(main_tag)
-        print(self.width_iter,self.width)
         if self.width_iter > 380: #item containers width
             self.height += 35 #an items row height
             self.width_iter = 0
-            print('height added')
         else:
             self.width_iter += self.get_pil_text_size(item_name,15)[0]
         self.height += 10 # 4 items add 41 to height

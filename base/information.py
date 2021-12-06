@@ -9,10 +9,17 @@ class GenshinInformation:
         self.path = f'{getcwd()}/assets/Information/'
     
     def get_options(self):
+        '''
+        options
+        files in self.path
+        '''
         options = [f.split('.')[0].title() for f in listdir(self.path) if isfile(join(self.path,f))]
         return options
     
     def get_names_list(self, option: str):
+        '''
+        gets items names from option -> option.json
+        '''
 
         option = option.lower()
         if exists(self.path + "/" + option+ ".json"):
@@ -22,6 +29,9 @@ class GenshinInformation:
         return []
     
     def get_data(self, option: str, name: str):
+        '''
+        gets data of an item
+        '''
 
         if exists(self.path + "/" + option+ ".json"):
             with open(self.path + "/" + option+ ".json",'r') as f:
@@ -30,6 +40,9 @@ class GenshinInformation:
             return data[name]
 
     def create_artifact_embeds(self, option: str,name: str):
+        '''
+        create artifacts embed
+        '''
         
         data = self.get_data(option,name)
         embeds = {}
@@ -49,10 +62,18 @@ class GenshinInformation:
                 main_embed.add_field(name=f'Rarity:',value=text)
             else:
                 main_embed.add_field(name=f'Rarity:',value=':(')
+            if 'bonus' in data and bool(data['bonus']):
+                bonuses = ['2','4']
+                for bonus in bonuses:
+                    if bonus in data['bonus']:
+                        main_embed.add_field(name=f'{bonus} pc Bonus',value=data['bonus'][bonus])
             if bool(data['pieces']):
                 for piece in data['pieces']:
-                    piece_embed = Embed(title=f"{name} {piece['type']}",description=f"{piece['name']}",color=0xf5e0d0)       
-                    piece_embed.set_image(url=piece['img'])
+                    piece_embed = Embed(title=f"{name} {piece['type']}",color=0xf5e0d0)    
+                    piece_embed.add_field(name='Name',value=piece['name'])
+                    if 'description' in piece:
+                        piece_embed.add_field(name='Lore',value=piece['description'])   
+                    piece_embed.set_thumbnail(url=piece['img'])
                     embeds[piece['type']] = piece_embed
             else:
                 main_embed.add_field(name='Pieces',value='None found!')
@@ -60,6 +81,10 @@ class GenshinInformation:
         return embeds
         
     def create_weapon_embeds(self, option: str,name: str):
+
+        '''
+        create weapon embeds
+        '''
         def minimum_information(data, embed):
             information = ['type','obtain','rarity','series']
             for inf in information:
@@ -82,6 +107,7 @@ class GenshinInformation:
                 stats = data['stats']
                 for stat in stats:
                     main_embed.add_field(name=stat,value=stats[stat])
+            
             if 'image' in data:
                 main_embed.set_image(url=data['image'][0])
             embeds['Main Information'] = main_embed
@@ -122,6 +148,9 @@ class GenshinInformation:
             return embeds
 
     def create_character_embeds(self,  option: str,name: str):
+        '''
+        create character embeds
+        '''
         def minimum_information(data, embed):
             information = ['element','sex','rarity','weapon']
             for inf in information:

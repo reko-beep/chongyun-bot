@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;display=swap" rel="stylesheet"/>
+  <title>
+   Banner
+  </title>
+  <style>
+   html, body {
+                width: auto;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(47,49,54)
+            }    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+    .banner {
+        background-color: rgb(17, 40, 104);
+        width: 450px;
+        height: auto;
+        padding: 0px 0px 60px 0px;
+        border-radius: 5px;
+    }
+    .heading {
+        font-family: 'Inter';
+        font-weight: 800;
+        font-size: 35px;
+        position: relative;
+        color: aliceblue;
+        left: 7%;
+        top:5%;
+    }
+    .container {
+        position: relative;
+        top: 5%;
+        left: 0%;
+    }
+    .field {
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 20px 0px;
+        position: relative;
+        left:5%;
+        width:380px;
+        height:80px;
+        background-color: rgb(6, 29, 95);
+        border-radius: 10px;
+    }
+    .field-heading {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 20px;
+        color: aliceblue;
+        position: relative;
+        top:2%;
+        left:5%;
+    }
+    .value-field {
+        width:300px;
+        height:40px;
+        background-color: rgb(26, 32, 116);
+        position: relative;
+        left: 8%;
+        top: 15%;
+        border-radius: 5px;
+        opacity: 0.75;
+    }
+    .value {
+        position: relative;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 15px;
+        color: aliceblue;
+        transform: translateX(-60%);
+        left: 40%;
+        transform: translateY(-60%);
+        top: 40%;
+    }
+    .pity-container {
+        position: relative;
+        display: block;        
+        margin: 15px 0px 0px 0px;
+    }
+    .item-container {
+        position: relative;
+        display: block;
+        width:380px;
+        height: auto;
+        left: 8%;
+        margin: 15px 0px 0px 0px;
+    }
+    .item-field {
+        display: inline-block;
+        width: fit-content;
+        height: 35px;
+        border-radius: 5px;
+        padding: 0px 25px 1px 0px;
+        margin: 3px 3px 0px 0px;
+    }
+    .item-circle {
+        display: inline-block;
+        position: relative;
+        left:5%;
+        top: 3%;
+        margin: 3px 0px 0px 0px;
+        width: 25px;
+        height: 25px;
+        border-radius:105px;
+        text-align: center;
+        align-content: center;
+        
+    }
+    .item-circle > span {
+        position: relative;
+        font-size: 15px;
+        font-family: 'Inter';
+        font-weight: 500;
+        color: aliceblue;
+        top:2%;
+    }
+    .item-value {
+        position: relative;
+        display: inline-block;        
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 15px;
+        color: aliceblue;
+        left: 5%;
+        top: 8%;
+    }
+    .five-star {
+        background-color:rgb(169, 114, 58) ;
+    }
+    .four-star {
+        background-color:rgb(112, 94, 160) ;
+    }
+    .five-border {        
+        border: 1px solid rgb(169, 114, 58);
+    }
+    .four-border {        
+        border: 1px solid rgb(112, 94, 160);
+    }
+  </style>
+ </head>
+ <body>
+  <div class="banner">
+   <div class="heading">
+    Character Event Wish-2
+   </div>
+   <div class="pity-counter">
+    <div class="item-circle five-star">
+     <span class="item-value">
+      71
+     </span>
+    </div>
+    <div class="item-circle four-star">
+     <span class="item-value">
+      9
+     </span>
+    </div>
+   </div>
+   <div class="container">
+    <div class="field">
+     <div class="field-heading">
+      Total Pulls
+     </div>
+     <div class="value-field">
+      <span class="value">
+       12
+      </span>
+     </div>
+    </div>
+    <div class="field">
+     <div class="field-heading">
+      Primogems
+     </div>
+     <div class="value-field">
+      <span class="value">
+       1920
+      </span>
+     </div>
+    </div>
+    <div class="field">
+     <div class="field-heading">
+      50/50s won
+     </div>
+     <div class="value-field">
+      <span class="value">
+       0
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="item-container">
+    <div class="item-field four-border">
+     <div class="item-circle four-star">
+      <span>
+       4
+      </span>
+     </div>
+     <span class="item-value">
+      Favonius Warbow
+     </span>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

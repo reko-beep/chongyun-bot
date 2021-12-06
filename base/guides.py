@@ -1,11 +1,12 @@
-from nextcord import Embed, File
+from nextcord import Embed, File, Message
 from nextcord.ext import commands,tasks
 
-from os import getcwd, listdir,remove
+from os import getcwd, listdir,remove, mkdir
 from os.path import isfile, join,exists
 from json import load,dump
 
-from nextcord.ext.commands.cooldowns import C
+
+import requests
 
 from core.paimon import Paimon
 from util.logging import logc
@@ -67,6 +68,68 @@ class GenshinGuides:
         if 'characters' in self.pmon.p_bot_config:
             self.characters = self.pmon.p_bot_config['characters']
             logc('loaded characters from bot config file!')
+
+
+    def add_character(self, character_name: str):
+        '''
+        ---
+        returns
+        ---
+        loads character from bot config file
+        '''
+        
+        if 'characters' in self.pmon.p_bot_config:
+            if character_name.lower() not in [char.lower() for char in self.characters]:
+                self.pmon.p_bot_config['characters'].append(character_name.title())
+                self.characters.append(character_name.title())
+                for option in self.options:
+                    if not exists(self.images_path.format(base_path=self.path,character_name=character_name,type='')):
+                        mkdir(self.images_path.format(base_path=self.path,character_name=character_name,type=''))
+                    if not exists(self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[option]['folder'])):
+                        mkdir(self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[option]['folder']))
+                self.pmon.p_save_config('settings.json')
+                return True
+            logc(f'added character {character_name} to bot config file!')
+
+    async def add_build(self, character_name: str, type: str, url: str, build_type: str, message: Message):
+        '''
+        ---
+        returns
+        ---
+        loads character from bot config file
+        '''
+        option_text = {'as': 'Ascension', 'b': 'Build'}
+        extensions_allowed = ['png','jpg']
+        if 'characters' in self.pmon.p_bot_config:
+            if character_name in self.characters:
+                if not exists(self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[type]['folder'])):
+                    mkdir(self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[type]['folder']))
+                if url.startswith('http'):
+                    ext = url[-3:]
+                    if ext in extensions_allowed:
+                        session = requests.get(url)
+                        path = self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[type]['folder'])
+                        name = build_type.replace(' ','_',99).lower()
+                        embed = Embed(title=f'Downloadin {option_text[type]} ..',color=0xf5e0d0) 
+                        embed.set_image(url=url)
+                        await message.edit(embed=embed)
+                        if name[0] == '_':
+                            name = name[1:]
+                        with open(f'{path}/{name}.{ext}', "wb") as f:
+                            f.write(session.content)
+                        embed = Embed(title=f'Added {option_text[type]} ..',color=0xf5e0d0) 
+                        embed.set_image(url=url)
+                        await message.edit(embed=embed)
+                        return True
+                    else:
+                        embed = Embed(title='Error ..',description='Extension not supported or link provided does not have image!',color=0xf5e0d0) 
+                        embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+                        await message.edit(embed=embed)
+                else:
+                    embed = Embed(title='Error ..',description='You didnot provide the link!',color=0xf5e0d0) 
+                    embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+                    await message.edit(embed=embed)     
+            logc(f'added character {character_name} build to database!')
 
     def load_info(self):
         with open(f'{self.assets}/characters.json','r') as f:

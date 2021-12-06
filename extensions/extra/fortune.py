@@ -14,9 +14,12 @@ class Fortune(commands.Cog):
         
         with open('assets/Fortune/fortune_data.json') as f:
             self.fortune_data = json.load(f)
+        
+        self.name = 'Fortune'
+        self.description = 'Genshin Impact like fortune sticks implemented in discord!'
 
     
-    @commands.command(aliases=['df'])
+    @commands.command(aliases=['df'],description='Draws a fortune stick!')
     async def drawfortune(self, ctx):
         userid = ctx.author.id
         if self.sticks_held.get(userid):
@@ -29,7 +32,7 @@ class Fortune(commands.Cog):
         await ctx.send("obtained Fortune Stick x1")
         self.sticks_held[userid] = 1
 
-    @commands.command(aliases=['of'])
+    @commands.command(aliases=['of'], description='Opens a fortune stick')
     async def openfortune(self, ctx: Context, *args):
 
         if not args:

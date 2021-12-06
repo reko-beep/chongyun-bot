@@ -5,6 +5,8 @@ from util.logging import logc
 class Ping(commands.Cog):
     def __init__(self, client):
         self.client = client
+        self.name =' Ping'
+        self.description = 'Ping me,......'
 
     
     @commands.command()

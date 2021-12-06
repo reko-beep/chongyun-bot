@@ -15,6 +15,8 @@ class Bumper(commands.Cog):
         '''
         self.pmon = pmon
         self.bump_handler = Bump(pmon)
+        self.name = 'Bump'
+        self.description = 'A type of bump leaderboard I guess!'
 
     @commands.Cog.listener()
     async def on_message(self,message):
@@ -23,7 +25,7 @@ class Bumper(commands.Cog):
         '''
         await self.bump_handler.parse_message_for_bump(message)
     
-    @commands.command()
+    @commands.command(description='bumps (usermention)\nShows the bump of the user or the user itself who invoked the command!')
     async def bumps(self, ctx, user: Member = None):
         if user == None:
             user = ctx.author
@@ -48,7 +50,7 @@ class Bumper(commands.Cog):
 
             await ctx.send(embed=embed)
 
-    @commands.command(aliases=['btop','bt'])
+    @commands.command(aliases=['btop','bt'],description='Shows the user who has bumped the server most times!')
     async def bumptop(self,ctx):
 
         top_bumper = self.bump_handler.get_topbumper()

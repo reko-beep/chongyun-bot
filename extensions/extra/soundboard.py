@@ -6,6 +6,8 @@ from nextcord import Embed, FFmpegPCMAudio
 from nextcord.ext import commands
 from nextcord.ext.commands.context import Context
 from nextcord.message import Message
+from extensions.views.information import NavigatableView
+from extensions.views.soundboard import VoiceOverList
 
 from util.logging import logc
 from util import Numoji
@@ -24,22 +26,36 @@ class SoundBoard(commands.Cog):
     def __init__(self, pmon):
         self.pmon = pmon
 
-        with open('assets/SoundBoard/genshinimpactfandom_voicelines_data.json', encoding="utf-8") as f:
+        with open('assets/SoundBoard/voiceovers.json', encoding="utf-8") as f:
             self.voicelines = json.load(f)
         self.other_sounds = os.listdir('assets/SoundBoard/sounds')
+
+        self.name = 'Soundboard'
+        self.description = 'Commands to play sounds of different characters'
+
+
+    @commands.command(aliases=['sbc'],description='sbc\nOpens an interaction to play a sound for user')
+    async def soundboardcharacters(self, ctx):
+        view = NavigatableView(ctx.author)
+        view.add_item(VoiceOverList(self.pmon, 'languages','','', ctx))
+        await ctx.send('Please select a character from below', view=view)
+
+
+
+
 
        
         
 
      
-    @commands.command(aliases=['sb'])
-    async def soundboard(self, ctx, given_chara=None, given_voice_type=None, given_lang='Japanese'):
+    @commands.command(aliases=['sbp'],description='sbp\n Plays the available paimon sounds in vc!')
+    async def soundboardpaimon(self, ctx, given_chara=None, given_voice_type=None, given_lang='Japanese'):
 
         # TODO: handle characters/voices with spaces correctly.
         #       maybe make (,) an optional delimiter when spaces are present
 
         # invoked without arguments, display availabe sounds.
-        if (given_chara and given_chara) is None:
+        if (given_chara and given_voice_type) is None:
             msg = await self.handle_other_sounds(ctx)
             return
 
@@ -64,8 +80,15 @@ class SoundBoard(commands.Cog):
             await ctx.send("that voice type does not exist.")
             return
 
-        url = list(random.choice(self.voicelines[lang][chara][voice_type]).values())[0]
+        url = random.choice(self.voicelines[lang][chara][voice_type])
         logc("evaluated url", url)
+
+        embed = Embed(title='Hurray!',description=f'Playing {voice_type} of {chara} now!',color=0xf5e0d0) 
+        embed.set_author(name=ctx.author.display_name,
+                            icon_url=ctx.author.avatar.url)
+        embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+        await ctx.send(embed=embed)
+
         await self.play_audio(ctx, url)  
 
     
@@ -120,23 +143,7 @@ class SoundBoard(commands.Cog):
 
 
     
-    async def play_audio(self, ctx: Context, sound):
-  
-        src = FFmpegPCMAudio(sound, executable='bin/ffmpeg')
-
-        if not ctx.author.voice: # author not in vc
-            await get_angry(ctx,
-                'Hufff!',
-                "I can't sound dumb now, can I!\n You are not in a vc!")    
-            return 
-        else:
-            if not ctx.voice_client: # paimon not in vc
-                await ctx.author.voice.channel.connect()
-            logc('playing', sound)
-            ctx.voice_client.play(src, after=None)
-
-
-
+    
 
 def setup(pmon):
     pmon.add_cog(SoundBoard(pmon))

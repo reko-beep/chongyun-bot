@@ -1,0 +1,510 @@
+{
+ "weapon_mats": [
+  {
+   "name": "Cecilia Garden",
+   "area": "Mondstadt",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "City of Reflections",
+     "items": [
+      {
+       "name": "Tile of Decarabian's Tower",
+       "rarity": 2
+      },
+      {
+       "name": "Debris of Decarabian's City",
+       "rarity": 3
+      },
+      {
+       "name": "Fragment of Decarabian's Epic",
+       "rarity": 4
+      },
+      {
+       "name": "Scattered Piece of Decarabian's Dream",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Submerged Valley",
+     "items": [
+      {
+       "name": "Boreal Wolf's Milk Tooth",
+       "rarity": 2
+      },
+      {
+       "name": "Boreal Wolf's Cracked Tooth",
+       "rarity": 3
+      },
+      {
+       "name": "Boreal Wolf's Broken Fang",
+       "rarity": 4
+      },
+      {
+       "name": "Boreal Wolf's Nostalgia",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Ruins of Thirsting Capital",
+     "items": [
+      {
+       "name": "Fetters of the Dandelion Gladiator",
+       "rarity": 2
+      },
+      {
+       "name": "Chains of the Dandelion Gladiator",
+       "rarity": 3
+      },
+      {
+       "name": "Shackles of the Dandelion Gladiator",
+       "rarity": 4
+      },
+      {
+       "name": "Dream of the Dandelion Gladiator",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "City of Reflections, Submerged Valley, and Ruins of Thirsting Capital are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png",
+   "id": "Cecilia_Garden"
+  },
+  {
+   "name": "Hidden Palace of Lianshan Formula",
+   "area": "Liyue",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "Thundercloud",
+     "items": [
+      {
+       "name": "Luminous Sands from Guyun",
+       "rarity": 2
+      },
+      {
+       "name": "Lustrous Stone from Guyun",
+       "rarity": 3
+      },
+      {
+       "name": "Relic from Guyun",
+       "rarity": 4
+      },
+      {
+       "name": "Divine Body from Guyun",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Thundering Ruins",
+     "items": [
+      {
+       "name": "Mist Veiled Lead Elixir",
+       "rarity": 2
+      },
+      {
+       "name": "Mist Veiled Mercury Elixir",
+       "rarity": 3
+      },
+      {
+       "name": "Mist Veiled Gold Elixir",
+       "rarity": 4
+      },
+      {
+       "name": "Mist Veiled Primo Elixir",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Trial Grounds of Thunder",
+     "items": [
+      {
+       "name": "Grain of Aerosiderite",
+       "rarity": 2
+      },
+      {
+       "name": "Piece of Aerosiderite",
+       "rarity": 3
+      },
+      {
+       "name": "Bit of Aerosiderite",
+       "rarity": 4
+      },
+      {
+       "name": "Chunk of Aerosiderite",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "Thundercloud, Thundering Ruins, and Trial Grounds of Thunder are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Domain_Hidden_Palace_of_Lianshan_Formula.png",
+   "id": "Hidden_Palace_of_Lianshan_Formula"
+  },
+  {
+   "name": "Court of Flowing Sand",
+   "area": "Inazuma",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "Sunken Sands",
+     "items": [
+      {
+       "name": "Coral Branch of a Distant Sea",
+       "rarity": 2
+      },
+      {
+       "name": "Jeweled Branch of a Distant Sea",
+       "rarity": 3
+      },
+      {
+       "name": "Jade Branch of a Distant Sea",
+       "rarity": 4
+      },
+      {
+       "name": "Golden Branch of a Distant Sea",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Altar of Sands",
+     "items": [
+      {
+       "name": "Narukami's Wisdom",
+       "rarity": 2
+      },
+      {
+       "name": "Narukami's Joy",
+       "rarity": 3
+      },
+      {
+       "name": "Narukami's Affection",
+       "rarity": 4
+      },
+      {
+       "name": "Narukami's Valor",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Sand Burial",
+     "items": [
+      {
+       "name": "Mask of the Wicked Lieutenant",
+       "rarity": 2
+      },
+      {
+       "name": "Mask of the Tiger's Bite",
+       "rarity": 3
+      },
+      {
+       "name": "Mask of the One-Horned",
+       "rarity": 4
+      },
+      {
+       "name": "Mask of the Kijin",
+       "rarity": 5
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "Sunken Sands, Altar of Sands, and Sand Burial are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Domain_Court_of_Flowing_Sand.png",
+   "id": "Court_of_Flowing_Sand"
+  }
+ ],
+ "talent_mats": [
+  {
+   "name": "Taishan Mansion",
+   "area": "Liyue",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "Altar of Flames",
+     "items": [
+      {
+       "name": "Teachings of Prosperity",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Prosperity",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Prosperity",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Heart of the Flames",
+     "items": [
+      {
+       "name": "Teachings of Diligence",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Diligence",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Diligence",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Circle of Embers",
+     "items": [
+      {
+       "name": "Teachings of Gold",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Gold",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Gold",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "Altar of Flames, Heart of the Flames, and Circle of Embers are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Domain_Taishan_Mansion.png",
+   "id": "Taishan_Mansion"
+  },
+  {
+   "name": "Forsaken Rift",
+   "area": "Mondstadt",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "Frosted Altar",
+     "items": [
+      {
+       "name": "Teachings of Freedom",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Freedom",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Freedom",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Frozen Abyss",
+     "items": [
+      {
+       "name": "Teachings of Resistance",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Resistance",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Resistance",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Realm of Slumber",
+     "items": [
+      {
+       "name": "Teachings of Ballad",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Ballad",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Ballad",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "Frosted Altar, Frozen Abyss, and Realm of Slumber are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Domain_Forsaken_Rift.png",
+   "id": "Forsaken_Rift"
+  },
+  {
+   "name": "Violet Court",
+   "area": "Inazuma",
+   "rewards": [
+    {
+     "days": [
+      "Monday",
+      "Thursday"
+     ],
+     "name": "Reign of Violet",
+     "items": [
+      {
+       "name": "Teachings of Transience",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Transience",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Transience",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Tuesday",
+      "Friday"
+     ],
+     "name": "Thundering Valley",
+     "items": [
+      {
+       "name": "Teachings of Elegance",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Elegance",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Elegance",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Wednesday",
+      "Saturday"
+     ],
+     "name": "Vine-Infested Ruins",
+     "items": [
+      {
+       "name": "Teachings of Light",
+       "rarity": 2
+      },
+      {
+       "name": "Guide to Light",
+       "rarity": 3
+      },
+      {
+       "name": "Philosophies of Light",
+       "rarity": 4
+      }
+     ]
+    },
+    {
+     "days": [
+      "Sunday"
+     ],
+     "name": "Reign of Violet, Thundering Valley, and Vine-Infested Ruins are simultaneously available.\n",
+     "items": []
+    }
+   ],
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Domain_Violet_Court.png",
+   "id": "Violet_Court"
+  }
+ ]
+}
