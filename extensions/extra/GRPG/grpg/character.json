@@ -1,0 +1,206 @@
+{
+    "name": "Kamisato Ayaka",
+    "rarity": 5,
+    "element": "Cryo",
+    "level": 90,
+    "friendship": 10,
+    "constellation": 0,
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Ayaka@2x.png",
+    "id": 10000002,
+    "collab": false,
+    "weapon": {
+        "name": "Amenoma Kageuchi",
+        "rarity": 4,
+        "type": "Sword",
+        "level": 90,
+        "ascension": 6,
+        "refinement": 2,
+        "description": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+        "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bakufu.png",
+        "id": 11414
+    },
+    "artifacts": [
+        {
+            "name": "Gladiator's Nostalgia",
+            "pos_name": "flower",
+            "full_pos_name": "Flower of Life",
+            "pos": 1,
+            "rarity": 5,
+            "level": 20,
+            "set": {
+                "name": "Gladiator's Finale",
+                "effect_type": "classic",
+                "effects": [
+                    {
+                        "pieces": 2,
+                        "effect": "ATK +18%."
+                    },
+                    {
+                        "pieces": 4,
+                        "effect": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+                    }
+                ],
+                "set_id": 15001,
+                "id": 2150011
+            },
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_4.png",
+            "id": 75543
+        },
+        {
+            "name": "Icebreaker's Resolve",
+            "pos_name": "feather",
+            "full_pos_name": "Plume of Death",
+            "pos": 2,
+            "rarity": 5,
+            "level": 20,
+            "set": {
+                "name": "Blizzard Strayer",
+                "effect_type": "classic",
+                "effects": [
+                    {
+                        "pieces": 2,
+                        "effect": "Cryo DMG Bonus +15%"
+                    },
+                    {
+                        "pieces": 4,
+                        "effect": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+                    }
+                ],
+                "set_id": 14001,
+                "id": 2140011
+            },
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_2.png",
+            "id": 71523
+        },
+        {
+            "name": "Gladiator's Longing",
+            "pos_name": "hourglass",
+            "full_pos_name": "Sands of Eon",
+            "pos": 3,
+            "rarity": 5,
+            "level": 20,
+            "set": {
+                "name": "Gladiator's Finale",
+                "effect_type": "classic",
+                "effects": [
+                    {
+                        "pieces": 2,
+                        "effect": "ATK +18%."
+                    },
+                    {
+                        "pieces": 4,
+                        "effect": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+                    }
+                ],
+                "set_id": 15001,
+                "id": 2150011
+            },
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_5.png",
+            "id": 75553
+        },
+        {
+            "name": "Gladiator's Intoxication",
+            "pos_name": "goblet",
+            "full_pos_name": "Goblet of Eonothem",
+            "pos": 4,
+            "rarity": 5,
+            "level": 20,
+            "set": {
+                "name": "Gladiator's Finale",
+                "effect_type": "classic",
+                "effects": [
+                    {
+                        "pieces": 2,
+                        "effect": "ATK +18%."
+                    },
+                    {
+                        "pieces": 4,
+                        "effect": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+                    }
+                ],
+                "set_id": 15001,
+                "id": 2150011
+            },
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15001_1.png",
+            "id": 75514
+        },
+        {
+            "name": "Broken Rime's Echo",
+            "pos_name": "crown",
+            "full_pos_name": "Circlet of Logos",
+            "pos": 5,
+            "rarity": 5,
+            "level": 20,
+            "set": {
+                "name": "Blizzard Strayer",
+                "effect_type": "classic",
+                "effects": [
+                    {
+                        "pieces": 2,
+                        "effect": "Cryo DMG Bonus +15%"
+                    },
+                    {
+                        "pieces": 4,
+                        "effect": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+                    }
+                ],
+                "set_id": 14001,
+                "id": 2140011
+            },
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_14001_3.png",
+            "id": 71533
+        }
+    ],
+    "constellations": [
+        {
+            "name": "Snowswept Sakura",
+            "effect": "When Kamisato Ayaka's Normal or Charged Attacks deal <color=#99FFFFFF>Cryo DMG</color> to opponents, it has a 50% chance of decreasing the CD of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 0.3s. This effect can occur once every 0.1s.",
+            "is_activated": false,
+            "index": 1,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_01.png",
+            "id": 21
+        },
+        {
+            "name": "Blizzard Blade Seki no To",
+            "effect": "When casting <color=#FFD780FF>Kamisato Art: Soumetsu</color>, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+            "is_activated": false,
+            "index": 2,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_02.png",
+            "id": 22
+        },
+        {
+            "name": "Frostbloom Kamifubuki",
+            "effect": "Increases the Level of <color=#FFD780FF>Kamisato Art: Soumetsu</color> by 3.\\nMaximum upgrade level is 15.",
+            "is_activated": false,
+            "index": 3,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_02.png",
+            "id": 23
+        },
+        {
+            "name": "Ebb and Flow",
+            "effect": "Opponents damaged by <color=#FFD780FF>Kamisato Art: Soumetsu</color>'s Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+            "is_activated": false,
+            "index": 4,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_03.png",
+            "id": 24
+        },
+        {
+            "name": "Blossom Cloud Irutsuki",
+            "effect": "Increases the Level of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 3.\\nMaximum upgrade level is 15.",
+            "is_activated": false,
+            "index": 5,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_01.png",
+            "id": 25
+        },
+        {
+            "name": "Dance of Suigetsu",
+            "effect": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
+            "is_activated": false,
+            "index": 6,
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_04.png",
+            "id": 26
+        }
+    ],
+    "outfits": []
+}
