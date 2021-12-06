@@ -34,7 +34,8 @@ it contains
 ![Logo](https://upload-os-bbs.hoyolab.com/upload/2020/09/23/6511331/89fb23928ba8c367e965bc10c5fb1898_5011260784443855780.gif?raw=true)
 
     
-     
+Nothing right now!
+Maybe a single setup command for easy setup.     
      
 # Setting up the bot
  
