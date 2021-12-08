@@ -1,6 +1,9 @@
 import logging
+import random
 
-from .compute import V, v
+from .talent_impl import auto
+
+from .compute import E
 from .event import Event
 
 from .util import get_opponent
@@ -10,7 +13,8 @@ class Kaeya(GrpgCharacter):
     
     def __init__(self, level=1):
         
-        # inherent parameters, not tweakable.   
+        self.name = "Kaeya"
+        # inherent parameters, not tweakable. 
         inherent = {
             'Level': level,
             'Element': 'cryo',
@@ -40,7 +44,7 @@ class Kaeya(GrpgCharacter):
                     'Level': 1
                 },
                 'charge': {
-                    'DMG': {1: 0.5375, 2: 5813, 3: 0.625, 4: 0.6875, 5: 0.7313, 6: 0.7813, 7: 0.85, 8: 0.9188, 9: 0.9875, 10: 5.0625},
+                    'DMG': {1: 0.5375, 2: 5813, 3: 0.625, 4: 0.6875, 5: 0.7313, 6: 0.7813, 7: 0.85, 8: 0.9188, 9: 0.9875, 10: 0.99},
                     'Stamina Cost': {1: 20, 2: 20, 3: 20, 4: 20, 5: 20, 6: 20, 7: 20, 8: 20, 9: 20, 10: 20},
                     'Level': 10
 
@@ -67,87 +71,4 @@ class Kaeya(GrpgCharacter):
         super().__init__(inherent)
 
 
-
-
-    def invoke_auto(self):
-
-        #SECTION: auto attack configs
-        AOE = False
-
-        #END
-
-        talent = self.get_talent('auto')
-
-        # record auto attack streak (decides the damage multiplier to use)
-        # TODO: getting interrupted or using other talents should reset the streak.
-        if self.auto.get('streak') is None:
-            self.auto['streak'] = 0
-        else:
-            self.auto['streak'] += 1
-        
-        # pick the damange multiplier based on streak.
-        #  (1-hit dmg, 2-hit dmg, etc.,)
-        mulitplier_list = talent['DMG']
-        i = self.auto['streak'] % len(mulitplier_list) 
-        xer = mulitplier_list[i]
-        logging.info(f"{self}: invoking auto {i} with dmg scale: {xer}")
-
-
-
-        # TODO: apply remove/buffs debuffs on self and/or enemies, if any
-        
-        # calculate output dmg
-        auto_dmg_out = self.stats.stats['ATK'] * xer
-
-
-        # hit the opponent(s)
-        opponent_name = get_opponent(self.player_name)
-        opponent = self.domain.players[opponent_name]
-        chara = opponent['party'][opponent['on_chara']]
-        bonk = {'element': 'physical', 'dmg': auto_dmg_out}
-        chara.get_hit(bonk)
-
-
-        
-    #TODO: decorators to get common values would be good.
-    def invoke_charge(self):
-        #SECTION: auto attack configs
-        AOE = True
-
-        #END
-
-        
-        talent = self.get_talent('charge')
-
-        if self.current_stamina < talent['Stamina Cost']:
-            # not enough stamina
-            return
-
-        self.current_stamina -= talent['Stamina Cost']
-
-        logging.info(f"{self}: invoking charge attack with xer: {talent['DMG']}")
-
-
-
-
-        # TODO: apply remove/buffs debuffs on self and/or enemies
-        
-        # calculate output dmg
-        auto_dmg_out = self.stats.stats['ATK'] * talent['DMG']
-
-        # hit the opponent(s)
-        opponent_name = get_opponent(self.player_name)
-        opponent = self.domain.players[opponent_name]
-        for chara in opponent['party']:
-            bonk = {'element': 'physical', 'dmg': auto_dmg_out}
-            chara.get_hit(bonk)
-            if not AOE: break
-
-
-    def invoke_skill(self):
-        pass
-
-    def invoke_burst(self):
-        pass
-
-  
+    

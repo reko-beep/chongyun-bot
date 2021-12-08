@@ -6,7 +6,10 @@ from asyncio import TimeoutError, sleep
 import nextcord as discord
 from nextcord.ext import commands, tasks
 
+import logging
 
+logger = logging.getLogger('nextcord')
+logger.setLevel(logging.ERROR)
 
 from base.lobby import Lobby
 from base.quests import GenshinQuests
@@ -366,79 +369,79 @@ async def on_voice_state_update(member,before,after):
     
     
 
-@client.command(aliases=['la','lallow'])
-async def lobbyallow(ctx, member:discord.Member=None):
-    if member != None:
-        success = await voice_handler.allow_member(ctx.author,member)
-        if success == None:
-            await ctx.send(f'You dont own a lobby!')
-        else:
-            if success == False:
-                await ctx.send(f"You don't own a lobby!")
-            else:
-                if success:
-                    await ctx.send(f"{member.name} can now join <#{success.id}>")
+# @client.command(aliases=['la','lallow'])
+# async def lobbyallow(ctx, member:discord.Member=None):
+#     if member != None:
+#         success = await voice_handler.allow_member(ctx.author,member)
+#         if success == None:
+#             await ctx.send(f'You dont own a lobby!')
+#         else:
+#             if success == False:
+#                 await ctx.send(f"You don't own a lobby!")
+#             else:
+#                 if success:
+#                     await ctx.send(f"{member.name} can now join <#{success.id}>")
 
-@client.command(aliases=['lk','lkick'])
-async def lobbykick(ctx, member:discord.Member=None):   
-    success = await voice_handler.kick_member(ctx.author,member)
-    if success == None:
-        await ctx.send(f'You dont own a lobby!')
-    else:
-        if success == False:
-            await ctx.send(f"Either the user is not in vc or Please mention a member!")
-        else:
-            if success:
-                await ctx.send(f"{member.name} can now join <#{success.id}>")
+# @client.command(aliases=['lk','lkick'])
+# async def lobbykick(ctx, member:discord.Member=None):   
+#     success = await voice_handler.kick_member(ctx.author,member)
+#     if success == None:
+#         await ctx.send(f'You dont own a lobby!')
+#     else:
+#         if success == False:
+#             await ctx.send(f"Either the user is not in vc or Please mention a member!")
+#         else:
+#             if success:
+#                 await ctx.send(f"{member.name} can now join <#{success.id}>")
 
-@client.command(aliases=['lua','lunallow'])
-async def lobbyunallow(ctx, member:discord.Member=None):   
-    success = await voice_handler.unallow_member(ctx.author,member)
-    if success == None:
-        await ctx.send(f'You dont own a lobby!')
-    else:
-        if success == False:
-            await ctx.send(f"Either the user is not in vc or Please mention a member!")
-        else:
-            if success:
-                await ctx.send(f"{member.name} can now join <#{success.id}>")
+# @client.command(aliases=['lua','lunallow'])
+# async def lobbyunallow(ctx, member:discord.Member=None):   
+#     success = await voice_handler.unallow_member(ctx.author,member)
+#     if success == None:
+#         await ctx.send(f'You dont own a lobby!')
+#     else:
+#         if success == False:
+#             await ctx.send(f"Either the user is not in vc or Please mention a member!")
+#         else:
+#             if success:
+#                 await ctx.send(f"{member.name} can now join <#{success.id}>")
 
-@client.command(aliases=['ll','llimit'])
-async def lobbylimit(ctx, limit : int):
-    success,channel_ = await voice_handler.limit_vc(ctx.author,limit)   
-    print(channel_)
-    if success == True:
-        if limit == 0:
-            await ctx.send(f'<#{channel_.id}> limit removed')
-        else:
-            await ctx.send(f'<#{channel_.id}> limited to {limit} members!')
-    else:
-        await ctx.send(f'You dont own a lobby!')
+# @client.command(aliases=['ll','llimit'])
+# async def lobbylimit(ctx, limit : int):
+#     success,channel_ = await voice_handler.limit_vc(ctx.author,limit)   
+#     print(channel_)
+#     if success == True:
+#         if limit == 0:
+#             await ctx.send(f'<#{channel_.id}> limit removed')
+#         else:
+#             await ctx.send(f'<#{channel_.id}> limited to {limit} members!')
+#     else:
+#         await ctx.send(f'You dont own a lobby!')
 
-@client.command(aliases=['llock'])
-async def lobbylock(ctx):
-    success,channel = await voice_handler.lock_vc(ctx.author)   
-    if success == True:        
-        await ctx.send(f'<#{channel.id} now locked!')
-    else:
-        await ctx.send(f'You dont own a lobby!')
+# @client.command(aliases=['llock'])
+# async def lobbylock(ctx):
+#     success,channel = await voice_handler.lock_vc(ctx.author)   
+#     if success == True:        
+#         await ctx.send(f'<#{channel.id} now locked!')
+#     else:
+#         await ctx.send(f'You dont own a lobby!')
 
-@client.command(aliases=['lul','lunlock'])
-async def lobbyunlock(ctx):
-    success,channel_ = await voice_handler.unlock_vc(ctx.author)   
-    if success == True:        
-        await ctx.send(f'<#{channel_.id} now public!')
-    else:
-        await ctx.send(f'You dont own a lobby!')
+# @client.command(aliases=['lul','lunlock'])
+# async def lobbyunlock(ctx):
+#     success,channel_ = await voice_handler.unlock_vc(ctx.author)   
+#     if success == True:        
+#         await ctx.send(f'<#{channel_.id} now public!')
+#     else:
+#         await ctx.send(f'You dont own a lobby!')
 
 
-@client.command(aliases=['lc','lcreate'])
-async def lobbycreate(ctx):    
-    success,channel_ =  await voice_handler.create_vc(ctx.author)
-    if success != None and channel_ != None:
-        await ctx.send(f'{channel_.name} created!')
-    else:
-        await ctx.send(f'You are already owner of an channel!')
+# @client.command(aliases=['lc','lcreate'])
+# async def lobbycreate(ctx):    
+#     success,channel_ =  await voice_handler.create_vc(ctx.author)
+#     if success != None and channel_ != None:
+#         await ctx.send(f'{channel_.name} created!')
+#     else:
+#         await ctx.send(f'You are already owner of an channel!')
 
 
 # client.listen('on_message') replaces client.event

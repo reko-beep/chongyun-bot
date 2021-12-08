@@ -1,9 +1,15 @@
 import logging
+
+from .reactions import Reactor
+
+from .compute import E
+
+from .weapon import Weapon
 from .stats import StatsManager
-from .compute import v
 from .event import Event
 
 from .GrpgCharacterBase import GrpgCharacterBase
+from .talent_impl import auto, charge, skill, burst, plunge
 
 
 class GrpgCharacter(GrpgCharacterBase):
@@ -12,21 +18,26 @@ class GrpgCharacter(GrpgCharacterBase):
         super().__init__()
         
         # character's state in the game.
-        self.weapon = None
+        self.weapon: Weapon = None
         self.domain = None
         self.player_name = None
         self.current_hp = None
         self.current_stamina = 225
         self.alive = True
+        self.name = self.name or "??"
 
         self.stats = StatsManager(self, inherent)
+        self.reactor = Reactor(self)
 
         
         # player talents' action data.
-        self.auto = {}
-        self.charge = {}
-        self.skill = {}
-        self.burst = {}
+        self.talent_data = {
+            'auto': {},
+            'charge': {},
+            'skill': {},
+            'burst': {},
+            'plunge': {}
+        }
 
 
 
@@ -44,7 +55,7 @@ class GrpgCharacter(GrpgCharacterBase):
 
     def __str__(self):
         """provides a meaningful name for logging."""
-        return f'({self.party_pos}{self.player_name})' 
+        return f'({self.party_pos}{self.player_name} {self.name})' 
 
 
 
@@ -61,7 +72,7 @@ class GrpgCharacter(GrpgCharacterBase):
     def reset_hp(self):
         """restore character's full hp"""
         logging.info(f"{self}: resetting hp to {self.stats.stats['Max HP']}")
-        self.current_hp = v(self.stats.stats['Max HP'])
+        self.current_hp = self.stats.stats['Max HP'].val
 
 
  
@@ -91,23 +102,49 @@ class GrpgCharacter(GrpgCharacterBase):
 
 
     def get_hp(self):
+        """
+        get's the current hp
+        NOTE: why's this even a function
+        """
         return self.current_hp
 
 
 
 
-    def get_hit(self, bonk):
+    def take_hit(self, bonk):
         """get hit by a bonk """
-        elem = bonk['element']
-        #TODO: do elemental reaction stuff and get dmg. tuple
 
-        logging.info(f"{self} got hit with {bonk['dmg']}")
+        logging.info(f"{self} got {'a crit hit' if bonk['crit'] else ''} hit with {bonk['dmg'].val}, exp: {bonk['dmg'].eq()}")
+
+
+        elem = bonk['element']
+        em = bonk['em'].val
+        self.dmg_in = bonk['dmg']
+
+
+
+        # post RES dmg
+        RES = self.stats.get_RES(elem)
+        if RES.val < 0:
+            self.post_res_dmg = self.dmg_in * (-(RES/2) + 1)
+        elif 0 <= RES.val < 0.75:
+            self.post_res_dmg = self.dmg_in * (E.sub(0, RES) + 1)
+        elif RES.val >= 0.75:
+            self.post_res_dmg = self.dmg_in * (E.div(1/((RES * 4)+1)))
 
         
-        dmg_taken = bonk['dmg'].get()
+
+        #TODO: do elemental reaction stuff and get dmg. tuple
+        self.reactor.react(elem, em)
+
+
+
+
+
+        self.final_dmg = self.post_res_dmg * self.amplification
 
         # damage taken is above hp, so character dies. also emit event.
-        if dmg_taken >= self.current_hp:
+        if self.final_dmg.val >= self.current_hp:
             self.alive = False
             self.domain.game.events.append(Event(Event.CHARA_FALL, self.party_pos))
             self.current_hp = 0
@@ -122,10 +159,18 @@ class GrpgCharacter(GrpgCharacterBase):
                 self.domain.game.events.append(Event(Event.GAME_OVER, self.player_name))
         
         else:
-            self.current_hp = self.current_hp -  v(bonk['dmg'])
-            logging.info(f"dmg taken: {bonk['dmg']}, hp: {self.current_hp}/{self.stats.stats['Max HP']}")
+            # reduce hp with final dmg
+            self.current_hp = self.current_hp -  self.final_dmg.val
+            logging.info(f"dmg taken: {self.final_dmg.val}, hp: {self.current_hp}/{self.stats.stats['Max HP']} eq: {self.final_dmg.eq()}")
 
 
+
+    def equip_weapon(self, name, level):
+        """equips a weapon of given name and level"""
+        self.weapon = Weapon(name, level)
+
+        # inherit its buffs
+        self.stats.apply_pbuffs(self.weapon.pbuffs)
 
 
     def is_onfield(self):
@@ -164,3 +209,27 @@ class GrpgCharacter(GrpgCharacterBase):
                 data[k] = v
 
         return data
+        
+    
+    #SECTION: ABILITIES
+
+    @auto
+    def invoke_auto(self):
+        pass
+        
+    @charge
+    def invoke_charge(self):
+      pass
+
+    @skill
+    def invoke_skill(self):
+        pass
+
+    @burst
+    def invoke_burst(self):
+        pass
+    
+    @plunge
+    def invoke_plunge(self):
+        pass
+  

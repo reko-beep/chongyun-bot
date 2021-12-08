@@ -11,6 +11,8 @@ class Domain:
     def __init__(self, game):
 
         self.game = game
+        self.fbuffs = self.fbuffs or None
+        self.pbuffs = self.pbuffs or None
         
         # stores party charas and party meta data.
         # this should have been self.parties instead and only store the party info
@@ -46,8 +48,12 @@ class Domain:
             chara = Kaeya(level=90)
             chara.set_domain(self)
             chara.set_player(player_name)
-            chara.set_weapon({'Base ATK': 200})
+            chara.equip_weapon('aquila', 90)
             chara.prepare()
+
+            # apply domain buffs. (maybe do it somewhere else)
+            chara.stats.apply_fbuffs(self.fbuffs)
+            chara.stats.apply_pbuffs(self.pbuffs)
 
             self.players[player_name]['party'].append(chara)
     

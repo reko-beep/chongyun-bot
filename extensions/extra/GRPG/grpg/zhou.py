@@ -9,9 +9,9 @@ class Zhou(Domain):
     def __init__(self, game):
 
        
-        self.fullname = "Hidden Palace of Zhou Formula",
-        self.description = "favourite but also cursed domain.",
-        self.fbuffs = {}
+        self.fullname = "Hidden Palace of Zhou Formula"
+        self.description = "favourite but also cursed domain."
+        self.fbuffs = {'ATK': 3000}
         self.pbuffs = {}
 
         super().__init__(game)
