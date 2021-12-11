@@ -3,7 +3,8 @@
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Albedo_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Albedo_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png"
   ],
   "element": "Geo",
   "weapon": "Sword",
@@ -209,13 +210,15 @@
     }
    ]
   },
-  "description": "Albedo \u2014 an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire \u2014 acquiring the limitless, obscure knowledge left behind by previous generations of scholars.Description from the Official Website[1]"
+  "description": "Albedo \u2014 an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire \u2014 acquiring the limitless, obscure knowledge left behind by previous generations of scholars.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Aloy": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Character_Aloy_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Aloy_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Aloy_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Aloy_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Character_Aloy_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Bow",
@@ -414,13 +417,15 @@
     }
    ]
   },
-  "description": "An outcast since birth, Aloy grew up in a harsh mountain wilderness near the tribe that shunned her. Fostered by an expert hunter, she trained to hunt with cat-like grace and deadly accuracy \u2013 but the things she most wanted to learn, he could not teach her. Most of all, she burned to know the circumstances of her birth \u2013 who her parents were, and why she was shunned by the tribe.Her quest for answers swept her into a wider and more dangerous world than she ever could have imagined. She encountered strange and powerful new tribes, ancient ruins rife with mysteries, and dangerous enemies, both human and machine.Eventually she learned that her origins and destiny were deeply tied to the fate of the world itself, and fought an epic battle to save it against the evil forces of an artificial intelligence from the ancient past.She thought that this would be the end of her journey. But there is always more to an adventurer's tale. She has now come to Teyvat in search of a new challenges.In this brave new world, Aloy is ready for the hunt!Description from Official Announcement[1]"
+  "description": "An outcast since birth, Aloy grew up in a harsh mountain wilderness near the tribe that shunned her. Fostered by an expert hunter, she trained to hunt with cat-like grace and deadly accuracy \u2013 but the things she most wanted to learn, he could not teach her. Most of all, she burned to know the circumstances of her birth \u2013 who her parents were, and why she was shunned by the tribe.Her quest for answers swept her into a wider and more dangerous world than she ever could have imagined. She encountered strange and powerful new tribes, ancient ruins rife with mysteries, and dangerous enemies, both human and machine.Eventually she learned that her origins and destiny were deeply tied to the fate of the world itself, and fought an epic battle to save it against the evil forces of an artificial intelligence from the ancient past.She thought that this would be the end of her journey. But there is always more to an adventurer's tale. She has now come to Teyvat in search of a new challenges.In this brave new world, Aloy is ready for the hunt!Description from Official Announcement[1]",
+  "nation": "None"
  },
  "Amber": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Character_Amber_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Character_Amber_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Bow",
@@ -625,7 +630,8 @@
     }
    ]
   },
-  "description": "A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius. Her amazing mastery of the glider has made her a three-time winner of the Gliding Championship in Mondstadt. As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks.Description from the Official Website[1]"
+  "description": "A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius. Her amazing mastery of the glider has made her a three-time winner of the Gliding Championship in Mondstadt. As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Arataki Itto": {
   "element": "Geo",
@@ -663,7 +669,8 @@
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Barbara_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Barbara_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png"
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
@@ -875,13 +882,15 @@
     }
    ]
   },
-  "description": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless. \"I owe everything to the city's spirit of freedom\" \u2014 Barbara, regarding her popularity.Description from the Official Website[1]"
+  "description": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless. \"I owe everything to the city's spirit of freedom\" \u2014 Barbara, regarding her popularity.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Beidou": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Beidou_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Beidou_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Claymore",
@@ -1085,13 +1094,15 @@
     }
    ]
   },
-  "description": "Captain of the Crux, with quite the reputation in Liyue.There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her.For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say\u2014\"No matter what sea beasts there may be, Beidou will be sure to split them all in two.\"Description from the Official Website[1]"
+  "description": "Captain of the Crux, with quite the reputation in Liyue.There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her.For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say\u2014\"No matter what sea beasts there may be, Beidou will be sure to split them all in two.\"Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Bennett": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Bennett_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Bennett_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Sword",
@@ -1294,13 +1305,15 @@
     }
    ]
   },
-  "description": "One of the few young adventurers of the Mondstadt Adventurers' Guild, he is always plagued with inexplicable bad luck.He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved.Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team.Description from the Official Website[1]"
+  "description": "One of the few young adventurers of the Mondstadt Adventurers' Guild, he is always plagued with inexplicable bad luck.He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved.Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Chongyun": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Character_Chongyun_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Character_Chongyun_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Claymore",
@@ -1502,13 +1515,15 @@
     }
    ]
   },
-  "description": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait \u2014 a pure yang spirit.Description from the Official Website[1]"
+  "description": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait \u2014 a pure yang spirit.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Dainsleif": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Dainsleif_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Character_Dainsleif_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Dainsleif_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Dainsleif_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Character_Dainsleif_Thumb.png"
   ],
   "sex": "Male",
   "constellation": [
@@ -1517,13 +1532,15 @@
   "description": "",
   "region": "Khaenri'ah",
   "constellations": {},
-  "talents": []
+  "talents": [],
+  "nation": "Khaenri'ah"
  },
  "Diluc": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Claymore",
@@ -1734,13 +1751,15 @@
     }
    ]
   },
-  "description": "As the wealthiest gentleman in Mondstadt, the ever-dapper Diluc always presents himself as the epitome of perfection. But behind the courteous visage burns a zealous soul that has sworn to protect Mondstadt at all costs, allowing him to mercilessly vanquish all who threaten his city.Description from the Official Website[1]"
+  "description": "As the wealthiest gentleman in Mondstadt, the ever-dapper Diluc always presents himself as the epitome of perfection. But behind the courteous visage burns a zealous soul that has sworn to protect Mondstadt at all costs, allowing him to mercilessly vanquish all who threaten his city.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Diona": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Diona_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Diona_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Bow",
@@ -1949,13 +1968,15 @@
     }
    ]
   },
-  "description": "The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?Description from the Official Website[1]"
+  "description": "The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Eula": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Eula_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Eula_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Eula_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Character_Eula_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Claymore",
@@ -2162,13 +2183,15 @@
     }
    ]
   },
-  "description": "A rebellious descendant of the old aristocracy who is always out on the battlefield.As one born into the old aristocracy, carrying the bloodline of sinners, Eula has needed a unique approach to the world to navigate the towering walls of prejudice peacefully. Of course, this did not prevent her from severing ties with her clan. As the outstanding Spindrift Knight, she hunts down Mondstadt's enemies in the wild to exact her unique \"vengeance.\"Description from the Official Website[1]"
+  "description": "A rebellious descendant of the old aristocracy who is always out on the battlefield.As one born into the old aristocracy, carrying the bloodline of sinners, Eula has needed a unique approach to the world to navigate the towering walls of prejudice peacefully. Of course, this did not prevent her from severing ties with her clan. As the outstanding Spindrift Knight, she hunts down Mondstadt's enemies in the wild to exact her unique \"vengeance.\"Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Fischl": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Fischl_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Fischl_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Bow",
@@ -2371,13 +2394,15 @@
     }
    ]
   },
-  "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild.Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.Description from the Official Website[1]"
+  "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild.Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Ganyu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Character_Ganyu_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Character_Ganyu_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Bow",
@@ -2582,12 +2607,14 @@
     }
    ]
   },
-  "description": "The secretary to the Liyue Qixing. The blood of both human and illuminated beast flows within her veins.\nGraceful and quiet by nature, yet the gentle disposition of qilin sees not even the slightest conflict with even the most arduous of workloads.After all, Ganyu firmly believes that all the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within Liyue.Description from the Official Website[1]"
+  "description": "The secretary to the Liyue Qixing. The blood of both human and illuminated beast flows within her veins.\nGraceful and quiet by nature, yet the gentle disposition of qilin sees not even the slightest conflict with even the most arduous of workloads.After all, Ganyu firmly believes that all the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within Liyue.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Gorou": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Character_Gorou_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Gorou_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Gorou_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Character_Gorou_Thumb.png"
   ],
   "element": "Geo",
   "weapon": "Bow",
@@ -2658,13 +2685,15 @@
     "type": "Utility Passive"
    }
   ],
-  "description": "Kindness and loyalty are the representation of virtue. Without a doubt, my friend Gorou is a virtuous general.Kaedehara Kazuha"
+  "description": "Kindness and loyalty are the representation of virtue. Without a doubt, my friend Gorou is a virtuous general.Kaedehara Kazuha",
+  "nation": "Inazuma"
  },
  "Hu Tao": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Hu_Tao_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Hu_Tao_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Hu_Tao_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Polearm",
@@ -2871,13 +2900,15 @@
     }
    ]
   },
-  "description": "Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary affairs.She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.Aside from this, she is also a talented poet whose many \"masterpieces\" have passed around Liyue's populace by word of mouth.Description from the Official Website[1]"
+  "description": "Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary affairs.She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.Aside from this, she is also a talented poet whose many \"masterpieces\" have passed around Liyue's populace by word of mouth.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Jean": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Jean_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Jean_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Sword",
@@ -3090,13 +3121,15 @@
     }
    ]
   },
-  "description": "As the Acting Grand Master of the Knights, Jean has always been devoted to her duties and maintaining peace in Mondstadt.She had taken precautions long before the onset of Stormterror's assault, and she will guard Mondstadt with her life as always.Description from the Official Website[1]"
+  "description": "As the Acting Grand Master of the Knights, Jean has always been devoted to her duties and maintaining peace in Mondstadt.She had taken precautions long before the onset of Stormterror's assault, and she will guard Mondstadt with her life as always.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Kaedehara Kazuha": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Character_Kaedehara_Kazuha_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Kaedehara_Kazuha_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Kaedehara_Kazuha_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Sword",
@@ -3302,13 +3335,15 @@
     }
    ]
   },
-  "description": "A wandering samurai from Inazuma with a modest and gentle personality.\nBeneath a youthful and carefree demeanor lies a heart that hides a great many burdens from the past. Seemingly easygoing, Kazuha has his own code of conduct.Description from the Official Website[1]"
+  "description": "A wandering samurai from Inazuma with a modest and gentle personality.\nBeneath a youthful and carefree demeanor lies a heart that hides a great many burdens from the past. Seemingly easygoing, Kazuha has his own code of conduct.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Kaeya": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Character_Kaeya_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Character_Kaeya_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Kaeya_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Sword",
@@ -3519,13 +3554,15 @@
     }
    ]
   },
-  "description": "In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems. Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has...Description from the Official Website[1]"
+  "description": "In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems. Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has...Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Kamisato Ayaka": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Kamisato_Ayaka_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Kamisato_Ayaka_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kamisato_Ayaka_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kamisato_Ayaka_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Sword",
@@ -3740,13 +3777,15 @@
     }
    ]
   },
-  "description": "Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.Description from the Official Website[1]"
+  "description": "Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Keqing": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Keqing_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Keqing_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Sword",
@@ -3948,13 +3987,15 @@
     }
    ]
   },
-  "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2060\u2014 but in truth, gods admire skeptics such as her quite a lot.She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.Description from the Official Website"
+  "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2060\u2014 but in truth, gods admire skeptics such as her quite a lot.She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.Description from the Official Website",
+  "nation": "Liyue"
  },
  "Klee": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Character_Klee_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Character_Klee_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Catalyst",
@@ -4160,13 +4201,15 @@
     }
    ]
   },
-  "description": "Knights of Favonius Spark Knight! Forever with a bang and a flash!\u2014And then disappearing from the stern gaze of Acting Grand Master Jean.Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place.Description from the Official Website[1]"
+  "description": "Knights of Favonius Spark Knight! Forever with a bang and a flash!\u2014And then disappearing from the stern gaze of Acting Grand Master Jean.Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Kujou Sara": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Character_Kujou_Sara_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Kujou_Sara_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Kujou_Sara_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Kujou_Sara_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kujou_Sara_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Bow",
@@ -4376,13 +4419,15 @@
     }
    ]
   },
-  "description": "Leader of the Tenryou Commission's forces. A charismatic woman who acts as swiftly as a storm wind and always honors her word.She bears the title of \"Devotee of the Divine\" and has sworn her allegiance to the Raiden Shogun.The eternity that the Shogun pursues is the cause that she is willing to fight for.Description from the Official Website[1]"
+  "description": "Leader of the Tenryou Commission's forces. A charismatic woman who acts as swiftly as a storm wind and always honors her word.She bears the title of \"Devotee of the Divine\" and has sworn her allegiance to the Raiden Shogun.The eternity that the Shogun pursues is the cause that she is willing to fight for.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Lisa": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Lisa_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Lisa_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Catalyst",
@@ -4588,13 +4633,15 @@
     }
    ]
   },
-  "description": "She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her.As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner.Description from the Official Website[1]"
+  "description": "She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her.As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Mona": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Mona_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Mona_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png"
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
@@ -4802,13 +4849,15 @@
     }
    ]
   },
-  "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.Though she is often strapped for cash and lives a life of thrift, she is resolved to never use astrology for profit... It is this very resolution that has caused her to constantly fret about money.Description from the Official Website[1]"
+  "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.Though she is often strapped for cash and lives a life of thrift, she is resolved to never use astrology for profit... It is this very resolution that has caused her to constantly fret about money.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Ningguang": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Ningguang_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Ningguang_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png"
   ],
   "element": "Geo",
   "weapon": "Catalyst",
@@ -5011,13 +5060,15 @@
     }
    ]
   },
-  "description": "Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile.As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.Description from the Official Website[1]"
+  "description": "Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile.As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Noelle": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Noelle_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Noelle_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png"
   ],
   "element": "Geo",
   "weapon": "Claymore",
@@ -5220,13 +5271,15 @@
     }
    ]
   },
-  "description": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.She holds firm to her belief that one day she will join their ranks \u2014 she just needs to keep trying her hardest at everything she does.Description from the Official Website[1]"
+  "description": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.She holds firm to her belief that one day she will join their ranks \u2014 she just needs to keep trying her hardest at everything she does.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Qiqi": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Qiqi_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Qiqi_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Sword",
@@ -5429,13 +5482,15 @@
     }
    ]
   },
-  "description": "An apprentice and herb gatherer at Bubu Pharmacy. \"Blessed\" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it.Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook in which she writes anything important that she is sure to forget later.But on her worst days, she even forgets to look at her notebook...Description from the Official Website[1]"
+  "description": "An apprentice and herb gatherer at Bubu Pharmacy. \"Blessed\" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it.Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook in which she writes anything important that she is sure to forget later.But on her worst days, she even forgets to look at her notebook...Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Raiden Shogun": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Raiden_Shogun_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Character_Raiden_Shogun_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Character_Raiden_Shogun_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Character_Raiden_Shogun_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Polearm",
@@ -5640,13 +5695,15 @@
     }
    ]
   },
-  "description": "The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.\nWith the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.Description from the Official Website[1]"
+  "description": "The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.\nWith the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Razor": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Character_Razor_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Character_Razor_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png"
   ],
   "element": "Electro",
   "weapon": "Claymore",
@@ -5851,13 +5908,15 @@
     }
    ]
   },
-  "description": "Some say he is an orphan raised by wolves. Others say he is a wolf spirit in human form.He is most at home in the wild, fighting with claw and thunder.To this day the wolf boy can be found prowling the forest, where he and his wolf pack hunt to survive using nothing more than their animal instincts.Description from the Official Website[1]"
+  "description": "Some say he is an orphan raised by wolves. Others say he is a wolf spirit in human form.He is most at home in the wild, fighting with claw and thunder.To this day the wolf boy can be found prowling the forest, where he and his wolf pack hunt to survive using nothing more than their animal instincts.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Rosaria": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Rosaria_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Rosaria_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Rosaria_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Rosaria_Thumb.png"
   ],
   "element": "Cryo",
   "weapon": "Polearm",
@@ -6059,13 +6118,15 @@
     }
    ]
   },
-  "description": "Rosaria, a sister in Mondstadt's Church of Favonius.A sister of the church, though you wouldn't know it if it weren't for her attire. An unusual woman with sharp, piercing words and a cold manner.Her movements are unpredictable. She often leaves without notifying anyone. She acts with some kind of purpose, but others don't seem to know exactly what she stands for...Description from the Official Website[1]"
+  "description": "Rosaria, a sister in Mondstadt's Church of Favonius.A sister of the church, though you wouldn't know it if it weren't for her attire. An unusual woman with sharp, piercing words and a cold manner.Her movements are unpredictable. She often leaves without notifying anyone. She acts with some kind of purpose, but others don't seem to know exactly what she stands for...Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Sangonomiya Kokomi": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Character_Sangonomiya_Kokomi_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Character_Sangonomiya_Kokomi_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Character_Sangonomiya_Kokomi_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Character_Sangonomiya_Kokomi_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png"
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
@@ -6277,13 +6338,15 @@
     }
    ]
   },
-  "description": "Kokomi is the Divine Priestess of Watatsumi Island, and also serves as its supreme leader.She is well-versed in the art of war, is good at strategizing, and has keen insights into military affairs. She is also adept at handling domestic affairs, diplomacy, and other matters.\nStill, this unfathomable leader has a mysterious side to her...Description from the Official Website[1]"
+  "description": "Kokomi is the Divine Priestess of Watatsumi Island, and also serves as its supreme leader.She is well-versed in the art of war, is good at strategizing, and has keen insights into military affairs. She is also adept at handling domestic affairs, diplomacy, and other matters.\nStill, this unfathomable leader has a mysterious side to her...Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Sayu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Character_Sayu_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Character_Sayu_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Sayu_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Sayu_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Character_Sayu_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Claymore",
@@ -6485,7 +6548,8 @@
     }
    ]
   },
-  "description": "Sayu, Shuumatsuban's resident ninja, is obsessed with sleeping and growing taller.She has mastered all kinds of ninjutsu to run away and hide in pursuit of opportunities to laze around and sleep.Such an extraordinary skillset may have very unexpected uses.Description from the Official Website[1]"
+  "description": "Sayu, Shuumatsuban's resident ninja, is obsessed with sleeping and growing taller.She has mastered all kinds of ninjutsu to run away and hide in pursuit of opportunities to laze around and sleep.Such an extraordinary skillset may have very unexpected uses.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Shenhe": {
   "sex": "Female",
@@ -6502,7 +6566,8 @@
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Sucrose_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Sucrose_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Catalyst",
@@ -6704,13 +6769,15 @@
     }
    ]
   },
-  "description": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful \u2014 but on the whole, she has made monumental contributions to the field of bio-alchemy.Description from the Official Website[1]"
+  "description": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful \u2014 but on the whole, she has made monumental contributions to the field of bio-alchemy.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Tartaglia": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Character_Tartaglia_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Character_Tartaglia_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png"
   ],
   "element": "Hydro",
   "weapon": "Bow",
@@ -6915,13 +6982,15 @@
     }
    ]
   },
-  "description": "Meet Tartaglia \u2014 the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.\nDon't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.Description from the Official Website[1]"
+  "description": "Meet Tartaglia \u2014 the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.\nDon't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.Description from the Official Website[1]",
+  "nation": "Snezhnaya"
  },
  "Thoma": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Character_Thoma_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Character_Thoma_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Thoma_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Thoma_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Thoma_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Polearm",
@@ -7124,7 +7193,8 @@
     }
    ]
   },
-  "description": "The housekeeper of the Yashiro Commission's Kamisato Clan, and a well-known \"fixer\" in Inazuma.Friendly and approachable, Thoma fits in with the crowd easily wherever he is.At first glance, he seems to be a very easygoing person, but he is in fact very responsible. He has an extraordinarily serious side, be it in his work or his interpersonal communications.Description from the Official Website[1]"
+  "description": "The housekeeper of the Yashiro Commission's Kamisato Clan, and a well-known \"fixer\" in Inazuma.Friendly and approachable, Thoma fits in with the crowd easily wherever he is.At first glance, he seems to be a very easygoing person, but he is in fact very responsible. He has an extraordinarily serious side, be it in his work or his interpersonal communications.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Traveler": {
   "image": [
@@ -7133,7 +7203,8 @@
    "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Character_Traveler_%28Male%29_Portrait.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Traveler_%28Female%29_Portrait.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Character_Traveler_Male_Game.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Traveler_Female_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Traveler_Female_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png"
   ],
   "element": "Adaptive",
   "weapon": "Sword",
@@ -7349,13 +7420,15 @@
     }
    ]
   },
-  "description": "The keeper is fading away; the creator has not yet come.\nBut the world shall burn no more, for you shall ascend.In-game character profile text[Note 1]"
+  "description": "The keeper is fading away; the creator has not yet come.\nBut the world shall burn no more, for you shall ascend.In-game character profile text[Note 1]",
+  "nation": "None"
  },
  "Venti": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Character_Venti_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Character_Venti_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Bow",
@@ -7559,13 +7632,15 @@
     }
    ]
   },
-  "description": "A bard that seems to have arrived on some unknown wind \u2014 sometimes sings songs as old as the hills, and other times sings poems fresh and new.Likes apples and lively places but is not a fan of cheese or anything sticky.When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.Description from the Official Website[1]"
+  "description": "A bard that seems to have arrived on some unknown wind \u2014 sometimes sings songs as old as the hills, and other times sings poems fresh and new.Likes apples and lively places but is not a fan of cheese or anything sticky.When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.Description from the Official Website[1]",
+  "nation": "Mondstadt"
  },
  "Xiangling": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Xiangling_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Xiangling_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Polearm",
@@ -7774,13 +7849,15 @@
     }
    ]
   },
-  "description": "The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes.Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock.There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.Description from the Official Website[1]"
+  "description": "The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes.Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock.There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Xiao": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiao_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiao_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png"
   ],
   "element": "Anemo",
   "weapon": "Polearm",
@@ -7984,13 +8061,15 @@
     }
    ]
   },
-  "description": "One of the mighty and illuminated adepti guarding Liyue, also heralded as the \"Vigilant Yaksha.\"Despite his youthful appearance, tales of his exploits have been documented for millennia.He is especially fond of Wangshu Inn's Almond Tofu.This is because it tastes just like the sweet dreams he used to devour.Description from the Official Website[1]"
+  "description": "One of the mighty and illuminated adepti guarding Liyue, also heralded as the \"Vigilant Yaksha.\"Despite his youthful appearance, tales of his exploits have been documented for millennia.He is especially fond of Wangshu Inn's Almond Tofu.This is because it tastes just like the sweet dreams he used to devour.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Xingqiu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Xingqiu_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Xingqiu_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png"
   ],
   "element": "Hydro",
   "weapon": "Sword",
@@ -8195,13 +8274,15 @@
     }
    ]
   },
-  "description": "The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child.But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...Description from the Official Website[1]"
+  "description": "The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child.But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Xinyan": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Xinyan_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Xinyan_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Claymore",
@@ -8403,7 +8484,8 @@
     }
    ]
   },
-  "description": "Rock 'n' roll is an avant-garde art in Liyue Harbor and Xinyan is the pioneer in this field.She rebels against ossified prejudices, using her music and passionate singing to awaken dazed souls fatigued by worldly matters.If you get the chance, do not miss out on her next performance!Description from the Official Website[1]"
+  "description": "Rock 'n' roll is an avant-garde art in Liyue Harbor and Xinyan is the pioneer in this field.She rebels against ossified prejudices, using her music and passionate singing to awaken dazed souls fatigued by worldly matters.If you get the chance, do not miss out on her next performance!Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Yae Miko": {
   "sex": "Female",
@@ -8416,13 +8498,15 @@
    "Hakushin Clan"
   ],
   "constellations": {},
-  "talents": []
+  "talents": [],
+  "description": ""
  },
  "Yanfei": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Character_Yanfei_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Yanfei_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Yanfei_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yanfei_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Catalyst",
@@ -8625,13 +8709,15 @@
     }
    ]
   },
-  "description": "A half-illuminated beast and highly-skilled legal adviser.She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work. She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.Description from the Official Website[1]"
+  "description": "A half-illuminated beast and highly-skilled legal adviser.She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work. She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.Description from the Official Website[1]",
+  "nation": "Liyue"
  },
  "Yoimiya": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Character_Yoimiya_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Yoimiya_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Character_Yoimiya_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Character_Yoimiya_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Character_Yoimiya_Thumb.png"
   ],
   "element": "Pyro",
   "weapon": "Bow",
@@ -8840,7 +8926,8 @@
     }
    ]
   },
-  "description": "A talented pyrotechnician. The current owner of Naganohara Fireworks known as the \"Queen of the Summer Festival.\"\nA girl filled with fiery passion. The uncompromising childish innocence and the obsession with craftsmanship intertwine in her to create a spectacular blaze.Description from the Official Website[1]"
+  "description": "A talented pyrotechnician. The current owner of Naganohara Fireworks known as the \"Queen of the Summer Festival.\"\nA girl filled with fiery passion. The uncompromising childish innocence and the obsession with craftsmanship intertwine in her to create a spectacular blaze.Description from the Official Website[1]",
+  "nation": "Inazuma"
  },
  "Yun Jin": {
   "sex": "Female",
@@ -8860,7 +8947,8 @@
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Character_Zhongli_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Zhongli_Game.png"
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Zhongli_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png"
   ],
   "element": "Geo",
   "weapon": "Polearm",
@@ -9066,6 +9154,7 @@
     }
    ]
   },
-  "description": "Wangsheng Funeral Parlor's mysterious consultant. Handsome, elegant, and surpassingly learned.\nThough no one knows where Zhongli is from, he is a master of courtesy and rules. From his seat at Wangsheng Funeral Parlor, he performs all manner of rituals.Description from the Official Website[1]"
+  "description": "Wangsheng Funeral Parlor's mysterious consultant. Handsome, elegant, and surpassingly learned.\nThough no one knows where Zhongli is from, he is a master of courtesy and rules. From his seat at Wangsheng Funeral Parlor, he performs all manner of rituals.Description from the Official Website[1]",
+  "nation": "Liyue"
  }
 }

@@ -132,22 +132,43 @@ class GenshinGuides:
             logc(f'added character {character_name} build to database!')
 
     def load_info(self):
-        with open(f'{self.assets}/characters.json','r') as f:
-            self.info = load(f)['data']
+        with open(f'{self.assets}/Information/characters.json','r') as f:
+            self.info = load(f)
             logc('loaded character information.')
+
+
+    def correct_fields(self, var: str):
+        if var == '':
+            return 'Could not find anything'
+        else:
+            return var
 
     def get_info(self, character_name: str):
 
         search = character_name.lower()
         for character_data in self.info:
 
-            if search in character_data['name'].lower():
+            if search in character_data.lower():
+                element = self.info[character_data].get('element','Could not find anything!')
+                nation = self.info[character_data].get('nation','Could not find anything!')                
+                weapon = self.info[character_data].get('weapon','Could not find anything!')
+                stars = f"{('⭐') * self.info[character_data].get('rarity',0)}"
+                
+                element = self.correct_fields(element)
+                nation = self.correct_fields(element)
+                weapon = self.correct_fields(element)
+                stars = self.correct_fields(element)
+                images_list = self.info[character_data].get('image',[])
+                if bool(images_list):
+                    image = images_list[-1]
+                else:
+                    image = 'https://www.seekpng.com/png/full/825-8254341_404-error-not-found.png'
                 return {                    
-                    'element' : character_data['element']['name'],
-                    'weapon' : character_data['weapon']['name'],
-                    'nation' : character_data['nation'],
-                    'stars': '⭐' * int(character_data['stars'])
-                },character_data['img']
+                    'element' : element,
+                    'weapon' : weapon,
+                    'nation' : nation,
+                    'stars': stars
+                },image
 
 
     def search_character(self, character_name: str):
@@ -281,11 +302,11 @@ class GenshinGuides:
                 main_title,sub_title = self.prettify_file_name(option_name,file)
                 file_name = file.split('/')[-1]
                 information,thumbnail = self.get_info(character)
-
                 embed = Embed(title=main_title,description=sub_title,color=0xf5e0d0)
                 embed_files.append(File(file,filename=file_name))                
                 if (information and thumbnail) and character:
                     for inf in information:
+                        print(inf, information[inf])
                         embed.add_field(name=inf.title(),value=information[inf])
                     logc(f'Information fetched for {character_name} ')
                     embed.set_author(name=character,icon_url=thumbnail)

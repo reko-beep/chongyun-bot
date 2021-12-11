@@ -32,7 +32,7 @@ class GenshinInformation:
         '''
         gets data of an item
         '''
-
+        data = {}
         if exists(self.path + "/" + option+ ".json"):
             with open(self.path + "/" + option+ ".json",'r') as f:
                 data = load(f)
@@ -85,6 +85,11 @@ class GenshinInformation:
         '''
         create weapon embeds
         '''
+        
+                
+
+        data = self.get_data(option,name)
+        embeds = {}
         def minimum_information(data, embed):
             information = ['type','obtain','rarity','series']
             for inf in information:
@@ -95,11 +100,6 @@ class GenshinInformation:
                         embed.add_field(name=inf.title(),value=data[inf])
                 else:
                     embed.add_field(name=inf.title(),value='nothing found anything in database')
-                
-
-        data = self.get_data(option,name)
-        embeds = {}
-
         if data is not None:
             main_embed = Embed(title=f'{name}',color=0xf5e0d0)       
             minimum_information(data,main_embed)
@@ -166,7 +166,11 @@ class GenshinInformation:
         data = self.get_data(option,name)
         embeds = {}
         if data is not None:
-            main_embed = Embed(title=f'{name}',description=data['description'],color=0xf5e0d0)       
+            if 'description' in data:
+                description = data['description']
+            else:
+                description = ''
+            main_embed = Embed(title=f'{name}',description=description,color=0xf5e0d0)       
             minimum_information(data,main_embed)
             others = ['constellation','birthday','region','affiliation','dish','parents','obtain','releaseDate','siblings']
             for other in others:

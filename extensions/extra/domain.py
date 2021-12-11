@@ -2,7 +2,8 @@ from nextcord.embeds import Embed
 from nextcord.ext import commands,tasks
 from core.paimon import Paimon
 from base.domains import Domains
-from extensions.views.information import InformationDropDown, NavigatableView
+from extensions.views.domain import DomainView, NavigatableView
+from util.logging import logc
 
 class GenshinDomains(commands.Cog):
     def __init__(self, pmon: Paimon):
@@ -17,11 +18,13 @@ class GenshinDomains(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self,message):
         if message.guild is not None:   
-            self.domains_handler.load_domain_channel()
+            if self.domains_handler.domain_channel is None:
+                await self.domains_handler.load_domain_channel(message.guild)
 
     @tasks.loop(hours=24)
     async def domain_update(self):
-        await self.domains_handler.update_event()
+        check = await self.domains_handler.update_event()
+        logc('Domains Updated:',check)
 
     @commands.command(aliases=['dsc','domainchannel'],description='Sets domain channel for domain schedule messages!')
     async def setdomainchannel(self, ctx):
@@ -50,18 +53,11 @@ class GenshinDomains(commands.Cog):
             await ctx.send(embed=embed)
     
     @commands.command(aliases=['dlist'],description='dlist (day)\nShows the domains rotation for a specific day!')
-    async def domainlist(self, ctx, day: str = ''):
-        check = await self.domains_handler.embeds_list(day)
-
-        if bool(check):
-            view = NavigatableView(ctx.author)
-            view.add_item(InformationDropDown(check, ctx.author))
-            await ctx.send('Domains schedule',view=view)
-        else:
-            embed = Embed(title='Sowwyy!', description=f"Sorry could not find enything!",color=0xf5e0d0)
-            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
-            await ctx.send(embed=embed)
-
+    async def domainlist(self, ctx, day: str = ''):       
+        view = NavigatableView(ctx.author)
+        view.add_item(DomainView(self.pmon, self.domains_handler, ctx.author, day))
+        await ctx.send('Domains schedule',view=view)
+       
 
     @commands.command(aliases=['du'],description='du (day)\nUpdates domain rotation according to day!')
     async def domainupdate(self, ctx, day: str):

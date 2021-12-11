@@ -94,17 +94,17 @@ class AllList(Select):
                     else:
                         view = NavigatableView(self.user)
                         if self.option_type in ['Bows','Claymores','Catalysts','Swords','Polearms']:
-                            embeds = information_handler.create_weapon_embeds(self.option_type,self.values[0])
+                            embeds = information_handler.create_weapon_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a a option for {self.values[0]} from below?',view=view)
                             
                         if self.option_type == 'Artifacts':
-                            embeds = information_handler.create_artifact_embeds(self.option_type,self.values[0])
+                            embeds = information_handler.create_artifact_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a option for {self.values[0]} from below?',view=view)
                             
                         if self.option_type == 'Characters':
-                            embeds = information_handler.create_character_embeds(self.option_type,self.values[0])
+                            embeds = information_handler.create_character_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a option for {self.values[0]} from below?',view=view)
                             

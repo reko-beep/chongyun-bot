@@ -1,510 +1,454 @@
 {
- "weapon_mats": [
+ "weapon_ascension_materials": [
   {
-   "name": "Cecilia Garden",
-   "area": "Mondstadt",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "City of Reflections",
-     "items": [
-      {
-       "name": "Tile of Decarabian's Tower",
-       "rarity": 2
-      },
-      {
-       "name": "Debris of Decarabian's City",
-       "rarity": 3
-      },
-      {
-       "name": "Fragment of Decarabian's Epic",
-       "rarity": 4
-      },
-      {
-       "name": "Scattered Piece of Decarabian's Dream",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Submerged Valley",
-     "items": [
-      {
-       "name": "Boreal Wolf's Milk Tooth",
-       "rarity": 2
-      },
-      {
-       "name": "Boreal Wolf's Cracked Tooth",
-       "rarity": 3
-      },
-      {
-       "name": "Boreal Wolf's Broken Fang",
-       "rarity": 4
-      },
-      {
-       "name": "Boreal Wolf's Nostalgia",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Ruins of Thirsting Capital",
-     "items": [
-      {
-       "name": "Fetters of the Dandelion Gladiator",
-       "rarity": 2
-      },
-      {
-       "name": "Chains of the Dandelion Gladiator",
-       "rarity": 3
-      },
-      {
-       "name": "Shackles of the Dandelion Gladiator",
-       "rarity": 4
-      },
-      {
-       "name": "Dream of the Dandelion Gladiator",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "City of Reflections, Submerged Valley, and Ruins of Thirsting Capital are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Cecilia Garden",
+   "days": [
+    "Monday",
+    "Thursday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png",
-   "id": "Cecilia_Garden"
+   "books": "Tile of Decarabian's Tower",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Tile_of_Decarabian%27s_Tower.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Item_Debris_of_Decarabian%27s_City.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Fragment_of_Decarabian%27s_Epic.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Scattered_Piece_of_Decarabian%27s_Dream.png"
+   ],
+   "characters": [
+    "Aquila Favonia",
+    "Cinnabar Spindle",
+    "Favonius Codex",
+    "Favonius Sword",
+    "Mitternachts Waltz",
+    "Royal Grimoire",
+    "Royal Longsword",
+    "Snow-Tombed Starsilver",
+    "Song of Broken Pines",
+    "The Alley Flash",
+    "The Bell",
+    "The Stringless",
+    "The Viridescent Hunt"
+   ],
+   "type": "weapon_ascension_materials"
   },
   {
-   "name": "Hidden Palace of Lianshan Formula",
-   "area": "Liyue",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "Thundercloud",
-     "items": [
-      {
-       "name": "Luminous Sands from Guyun",
-       "rarity": 2
-      },
-      {
-       "name": "Lustrous Stone from Guyun",
-       "rarity": 3
-      },
-      {
-       "name": "Relic from Guyun",
-       "rarity": 4
-      },
-      {
-       "name": "Divine Body from Guyun",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Thundering Ruins",
-     "items": [
-      {
-       "name": "Mist Veiled Lead Elixir",
-       "rarity": 2
-      },
-      {
-       "name": "Mist Veiled Mercury Elixir",
-       "rarity": 3
-      },
-      {
-       "name": "Mist Veiled Gold Elixir",
-       "rarity": 4
-      },
-      {
-       "name": "Mist Veiled Primo Elixir",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Trial Grounds of Thunder",
-     "items": [
-      {
-       "name": "Grain of Aerosiderite",
-       "rarity": 2
-      },
-      {
-       "name": "Piece of Aerosiderite",
-       "rarity": 3
-      },
-      {
-       "name": "Bit of Aerosiderite",
-       "rarity": 4
-      },
-      {
-       "name": "Chunk of Aerosiderite",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "Thundercloud, Thundering Ruins, and Trial Grounds of Thunder are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Cecilia Garden",
+   "days": [
+    "Tuesday",
+    "Friday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Domain_Hidden_Palace_of_Lianshan_Formula.png",
-   "id": "Hidden_Palace_of_Lianshan_Formula"
+   "books": "Boreal Wolf's Milk Tooth",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Boreal_Wolf%27s_Milk_Tooth.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Boreal_Wolf%27s_Cracked_Tooth.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Boreal_Wolf%27s_Broken_Fang.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Boreal_Wolf%27s_Nostalgia.png"
+   ],
+   "characters": [
+    "Deathmatch",
+    "Dodoco Tales",
+    "Dragonspine Spear",
+    "Elegy for the End",
+    "Sacrificial Bow",
+    "Sacrificial Greatsword",
+    "Skyward Atlas",
+    "Skyward Blade",
+    "Skyward Harp",
+    "Skyward Pride",
+    "Sword of Descension",
+    "The Black Sword",
+    "The Flute",
+    "The Widsith",
+    "Wine and Song"
+   ],
+   "type": "weapon_ascension_materials"
   },
   {
-   "name": "Court of Flowing Sand",
-   "area": "Inazuma",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "Sunken Sands",
-     "items": [
-      {
-       "name": "Coral Branch of a Distant Sea",
-       "rarity": 2
-      },
-      {
-       "name": "Jeweled Branch of a Distant Sea",
-       "rarity": 3
-      },
-      {
-       "name": "Jade Branch of a Distant Sea",
-       "rarity": 4
-      },
-      {
-       "name": "Golden Branch of a Distant Sea",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Altar of Sands",
-     "items": [
-      {
-       "name": "Narukami's Wisdom",
-       "rarity": 2
-      },
-      {
-       "name": "Narukami's Joy",
-       "rarity": 3
-      },
-      {
-       "name": "Narukami's Affection",
-       "rarity": 4
-      },
-      {
-       "name": "Narukami's Valor",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Sand Burial",
-     "items": [
-      {
-       "name": "Mask of the Wicked Lieutenant",
-       "rarity": 2
-      },
-      {
-       "name": "Mask of the Tiger's Bite",
-       "rarity": 3
-      },
-      {
-       "name": "Mask of the One-Horned",
-       "rarity": 4
-      },
-      {
-       "name": "Mask of the Kijin",
-       "rarity": 5
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "Sunken Sands, Altar of Sands, and Sand Burial are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Cecilia Garden",
+   "days": [
+    "Wednesday",
+    "Saturday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Domain_Court_of_Flowing_Sand.png",
-   "id": "Court_of_Flowing_Sand"
+   "books": "Fetters of the Dandelion Gladiator",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Item_Fetters_of_the_Dandelion_Gladiator.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Chains_of_the_Dandelion_Gladiator.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Shackles_of_the_Dandelion_Gladiator.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Dream_of_the_Dandelion_Gladiator.png"
+   ],
+   "characters": [
+    "Alley Hunter",
+    "Amos' Bow",
+    "Favonius Greatsword",
+    "Favonius Lance",
+    "Favonius Warbow",
+    "Festering Desire",
+    "Freedom-Sworn",
+    "Frostbearer",
+    "Lost Prayer to the Sacred Winds",
+    "Royal Bow",
+    "Royal Greatsword",
+    "Sacrificial Fragments",
+    "Sacrificial Sword",
+    "Skyward Spine",
+    "Windblume Ode",
+    "Wolf's Gravestone"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Hidden Palace of Lianshan Formula",
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "books": "Luminous Sands from Guyun",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Luminous_Sands_from_Guyun.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Lustrous_Stone_from_Guyun.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Relic_from_Guyun.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Divine_Body_from_Guyun.png"
+   ],
+   "characters": [
+    "Blackcliff Agate",
+    "Blackcliff Longsword",
+    "Blackcliff Warbow",
+    "Crescent Pike",
+    "Lion's Roar",
+    "Lithic Blade",
+    "Primordial Jade Winged-Spear",
+    "Rust",
+    "Solar Pearl",
+    "Summit Shaper",
+    "Whiteblind"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Hidden Palace of Lianshan Formula",
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "books": "Mist Veiled Lead Elixir",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Mist_Veiled_Lead_Elixir.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Mist_Veiled_Mercury_Elixir.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Mist_Veiled_Gold_Elixir.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Mist_Veiled_Primo_Elixir.png"
+   ],
+   "characters": [
+    "Blackcliff Pole",
+    "Blackcliff Slasher",
+    "Dragon's Bane",
+    "Eye of Perception",
+    "Primordial Jade Cutter",
+    "Prototype Amber",
+    "Prototype Crescent",
+    "Prototype Rancour",
+    "Rainslasher",
+    "Royal Spear",
+    "The Unforged"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Hidden Palace of Lianshan Formula",
+   "days": [
+    "Wednesday",
+    "Saturday"
+   ],
+   "books": "Grain of Aerosiderite",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Item_Grain_of_Aerosiderite.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Piece_of_Aerosiderite.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Bit_of_Aerosiderite.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Chunk_of_Aerosiderite.png"
+   ],
+   "characters": [
+    "Compound Bow",
+    "Iron Sting",
+    "Lithic Spear",
+    "Luxurious Sea-Lord",
+    "Mappa Mare",
+    "Memory of Dust",
+    "Prototype Archaic",
+    "Prototype Starglitter",
+    "Serpent Spine",
+    "Staff of Homa",
+    "Vortex Vanquisher"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Court of Flowing Sand",
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "books": "Coral Branch of a Distant Sea",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Coral_Branch_of_a_Distant_Sea.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Item_Jeweled_Branch_of_a_Distant_Sea.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Jade_Branch_of_a_Distant_Sea.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Golden_Branch_of_a_Distant_Sea.png"
+   ],
+   "characters": [
+    "Akuoumaru",
+    "Amenoma Kageuchi",
+    "Everlasting Moonglow",
+    "Hakushin Ring",
+    "Mistsplitter Reforged"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Court of Flowing Sand",
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "books": "Narukami's Wisdom",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Narukami%27s_Wisdom.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Narukami%27s_Joy.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Item_Narukami%27s_Affection.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Narukami%27s_Valor.png"
+   ],
+   "characters": [
+    "Hamayumi",
+    "Katsuragikiri Nagamasa",
+    "Mouun's Moon",
+    "Predator",
+    "Thundering Pulse"
+   ],
+   "type": "weapon_ascension_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Court of Flowing Sand",
+   "days": [
+    "Wednesday",
+    "Saturday"
+   ],
+   "books": "Mask of the Wicked Lieutenant",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Mask_of_the_Wicked_Lieutenant.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Mask_of_the_Tiger%27s_Bite.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Item_Mask_of_the_One-Horned.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Item_Mask_of_the_Kijin.png"
+   ],
+   "characters": [
+    "\"The Catch\"",
+    "Engulfing Lightning",
+    "Kitain Cross Spear",
+    "Polar Star",
+    "Wavebreaker's Fin"
+   ],
+   "type": "weapon_ascension_materials"
   }
  ],
- "talent_mats": [
+ "talent_levelup_materials": [
   {
-   "name": "Taishan Mansion",
-   "area": "Liyue",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "Altar of Flames",
-     "items": [
-      {
-       "name": "Teachings of Prosperity",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Prosperity",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Prosperity",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Heart of the Flames",
-     "items": [
-      {
-       "name": "Teachings of Diligence",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Diligence",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Diligence",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Circle of Embers",
-     "items": [
-      {
-       "name": "Teachings of Gold",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Gold",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Gold",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "Altar of Flames, Heart of the Flames, and Circle of Embers are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Forsaken Rift",
+   "days": [
+    "Monday",
+    "Thursday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Domain_Taishan_Mansion.png",
-   "id": "Taishan_Mansion"
+   "books": "Freedom Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png"
+   ],
+   "characters": [
+    "Aloy",
+    "Klee",
+    "Tartaglia",
+    "Amber",
+    "Barbara",
+    "Diona",
+    "Sucrose"
+   ],
+   "type": "talent_levelup_materials"
   },
   {
-   "name": "Forsaken Rift",
-   "area": "Mondstadt",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "Frosted Altar",
-     "items": [
-      {
-       "name": "Teachings of Freedom",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Freedom",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Freedom",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Frozen Abyss",
-     "items": [
-      {
-       "name": "Teachings of Resistance",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Resistance",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Resistance",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Realm of Slumber",
-     "items": [
-      {
-       "name": "Teachings of Ballad",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Ballad",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Ballad",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "Frosted Altar, Frozen Abyss, and Realm of Slumber are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Forsaken Rift",
+   "days": [
+    "Tuesday",
+    "Friday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Domain_Forsaken_Rift.png",
-   "id": "Forsaken_Rift"
+   "books": "Resistance Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png"
+   ],
+   "characters": [
+    "Diluc",
+    "Eula",
+    "Jean",
+    "Mona",
+    "Bennett",
+    "Noelle",
+    "Razor"
+   ],
+   "type": "talent_levelup_materials"
   },
   {
-   "name": "Violet Court",
-   "area": "Inazuma",
-   "rewards": [
-    {
-     "days": [
-      "Monday",
-      "Thursday"
-     ],
-     "name": "Reign of Violet",
-     "items": [
-      {
-       "name": "Teachings of Transience",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Transience",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Transience",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Tuesday",
-      "Friday"
-     ],
-     "name": "Thundering Valley",
-     "items": [
-      {
-       "name": "Teachings of Elegance",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Elegance",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Elegance",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Wednesday",
-      "Saturday"
-     ],
-     "name": "Vine-Infested Ruins",
-     "items": [
-      {
-       "name": "Teachings of Light",
-       "rarity": 2
-      },
-      {
-       "name": "Guide to Light",
-       "rarity": 3
-      },
-      {
-       "name": "Philosophies of Light",
-       "rarity": 4
-      }
-     ]
-    },
-    {
-     "days": [
-      "Sunday"
-     ],
-     "name": "Reign of Violet, Thundering Valley, and Vine-Infested Ruins are simultaneously available.\n",
-     "items": []
-    }
+   "nation": "Mondstadt",
+   "area": "Forsaken Rift",
+   "days": [
+    "Wednesday",
+    "Saturday"
    ],
-   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Domain_Violet_Court.png",
-   "id": "Violet_Court"
+   "books": "Ballad Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png"
+   ],
+   "characters": [
+    "Albedo",
+    "Venti",
+    "Fischl",
+    "Kaeya",
+    "Lisa",
+    "Rosaria"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Taishan Mansion",
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "books": "Prosperity Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png"
+   ],
+   "characters": [
+    "Keqing",
+    "Qiqi",
+    "Xiao",
+    "Ningguang"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Taishan Mansion",
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "books": "Diligence Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png"
+   ],
+   "characters": [
+    "Ganyu",
+    "Hu Tao",
+    "Kazuha",
+    "Chongyun",
+    "Xiangling"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Liyue",
+   "area": "Taishan Mansion",
+   "days": [
+    "Wednesday",
+    "Saturday"
+   ],
+   "books": "Gold Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png"
+   ],
+   "characters": [
+    "Zhongli",
+    "Beidou",
+    "Xingqiu",
+    "Xinyan",
+    "Yanfei"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Violet Court",
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "books": "Transience Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png"
+   ],
+   "characters": [
+    "Sangonomiya Kokomi",
+    "Yoimiya",
+    "Thoma"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Violet Court",
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "books": "Elegance Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png"
+   ],
+   "characters": [
+    "Ayaka",
+    "Kujou Sara"
+   ],
+   "type": "talent_levelup_materials"
+  },
+  {
+   "nation": "Inazuma",
+   "area": "Violet Court",
+   "days": [
+    "Wednesday",
+    "Saturday"
+   ],
+   "books": "Light Books",
+   "images": [
+    "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Teachings_of_Light.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+    "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png"
+   ],
+   "characters": [
+    "Raiden Shogun",
+    "Sayu"
+   ],
+   "type": "talent_levelup_materials"
   }
  ]
 }
