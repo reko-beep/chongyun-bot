@@ -7,20 +7,25 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 
 
-Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting noe, you are free to use it, if you want!
+Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting no2, you are free to use it, if you want!
 it contains
 
-    🔸 Paimon soundboard! (sounds provided)
+    🔸 Paimon soundboard! and all characters voiceovers. (sounds provided)
     🔸 Support for build and ascension commands (you need to add yours own in the respective folder)
     🔸 Paimon quotes (taken from paimonquotes twitter handle!)
     🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)
-    🔸 An anime command, cuz felt the need for server.
-    🔸 Shows genshin stats from hoyolab (api wrapper by thesadru on github)
+    🔸 Shows genshin stats, abyss from hoyolab (api wrapper by thesadru on github)
+    🔸 Wish history and pity calculator.
+    🔸 Resin reminder.
+    🔸 Ability to add user notes for builds.
+    🔸 Small administration module with anti raid command.
+    🔸 Daily comms reset time.
+    🔸 Fetch and save transaction logs from mihoyo api.
+    🔸 Domain schedule, daily updated!
+    🔸 Shows basic information, ascension of weapons, basic information of genshin characters and artifacts.
+    🔸 Some fun commands!
  
- TOBEADDED | FUTURE IDEAS:
-     Wish History
-     Users custom builds creator.
-     Build Notes.
+
      
      
 # Setting up the bot
