@@ -1,4 +1,3 @@
-from typing_extensions import Required
 import requests
 from os import getcwd,mkdir, listdir
 from os.path import exists, isfile, join
