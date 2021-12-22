@@ -58,7 +58,16 @@ class AdministrationBase:
     def get_lobby_channel(self):        
         if self.pmon.p_bot_config['lobby_createvc'] != 0:            
             return self.pmon.guilds[0].get_channel(self.pmon.p_bot_config['lobby_createvc'])
-            
+
+    def get_helper_channel(self):        
+        if self.pmon.p_bot_config['coop_channel'] != 0:            
+            return self.pmon.guilds[0].get_channel(self.pmon.p_bot_config['coop_channel'])  
+
+    def set_helper_channel(self, ctx : Context,channel: TextChannel):
+        if self.role_check(self.pmon.p_bot_config['mod_role'],[r.id for r in ctx.author.roles]):
+            self.pmon.p_bot_config['coop_channel'] = channel.id
+            self.pmon.p_save_config('settings.json')
+            return True  
 
     def get_lobby_category(self):        
         if self.pmon.p_bot_config['lobby_category'] != 0:            
@@ -94,6 +103,20 @@ class AdministrationBase:
             self.pmon.p_save_config('settings.json')
             return True
     
+    def add_carry_role(self, ctx : Context,role: Role):
+        if self.role_check(self.pmon.p_bot_config['mod_role'],[r.id for r in ctx.author.roles]):
+            if role.id not in self.pmon.p_bot_config['carry_roles']:
+                self.pmon.p_bot_config['carry_roles'].append(role.id)
+                self.pmon.p_save_config('settings.json')
+                return True
+
+    def remove_carry_role(self, ctx : Context,role: Role):
+        if self.role_check(self.pmon.p_bot_config['mod_role'],[r.id for r in ctx.author.roles]):
+            if role.id in self.pmon.p_bot_config['carry_roles']:
+                self.pmon.p_bot_config['carry_roles'].pop(self.pmon.p_bot_config['carry_roles'].index(role.id))
+                self.pmon.p_save_config('settings.json')
+                return True
+
     def add_mod_role(self, ctx : Context,role: Role):
         if self.role_check(self.pmon.p_bot_config['mod_role'],[r.id for r in ctx.author.roles]):
             if role.id not in self.pmon.p_bot_config['mod_role']:
@@ -180,6 +203,14 @@ class AdministrationBase:
                 roles_.append(role_get.mention)
         return roles_
     
+    def get_carry_roles(self):
+        roles = self.pmon.p_bot_config['carry_roles']
+        roles_ = []
+        for role in roles:
+            role_get = get(self.pmon.guilds[0].roles,id=role)
+            if role_get is not None:
+                roles_.append(role_get.mention)
+        return roles_
     
     
     def set_voicecreate_channel(self, ctx : Context, channel: VoiceChannel):

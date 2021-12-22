@@ -99,12 +99,47 @@ class Administration(commands.Cog):
             embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=['coopc'],description='coopc \nsets channel where people ask for help')
+    async def coopchannel(self, ctx ):
+        check = self.administration_handler.set_helper_channel(ctx, ctx.message.channel)
+
+        if check is not None:
+            embed = Embed(title='Coop Channel changed!', description=f'**Channel set to <#{ctx.channel.id}>',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+            await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'You dont have enough perms!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+
     @commands.command(aliases=['eventc','evc'],description='evc \nsets channel where events will posted')
     async def eventchannel(self, ctx ):
         check = self.administration_handler.set_event_channel(ctx, ctx.message.channel)
 
         if check is not None:
             embed = Embed(title='Event Channel changed!', description=f'**Channel set to <#{ctx.channel.id}>',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+            await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'You dont have enough perms!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+    @commands.command(description='coop \nShows the channel where events will posted')
+    async def coop(self, ctx ):
+        check = self.administration_handler.get_helper_channel()
+
+        if check is not None:
+            embed = Embed(title='Co-op Channel!', description=f'**Channel set to <#{check.id}>',color=0xf5e0d0) 
             embed.set_author(name=ctx.author.display_name,
                                 icon_url=ctx.author.avatar.url)
             embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
@@ -221,6 +256,74 @@ class Administration(commands.Cog):
             embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
             await ctx.send(embed=embed)
     
+    @commands.command(description='Shows the list of carry roles!')
+    async def carry(self, ctx):
+        
+        check = self.administration_handler.get_carry_roles()
+        
+        if len(check) != 0:
+            text = '\n'.join(check)
+            embed = Embed(title='Carry Roles!', description=f'{text}',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'No carry role set!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+
+    @commands.command(description='addcarry (role)\nAdds the specified role to carry roles list!')
+    async def addcarry(self, ctx, role: Role):
+        if role is not None:
+            check = self.administration_handler.add_carry_role(ctx, role)
+            
+            if check is not None:
+                embed = Embed(title='Carry role added!', description=f'{role.mention} added!',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+                await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Administration Error!',description=f'You dont have enough perms!',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'You have not mentioned the role!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['rcarry'],description='rcarry (role)\n Removes the role from carry list!')
+    async def removecarry(self, ctx, role: Role):
+        if role is not None:
+            check = self.administration_handler.remove_carry_role(ctx, role)
+            
+            if check is not None:
+                embed = Embed(title='Carry role removed!', description=f'{role.mention} removed!',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+                await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Administration Error!',description=f'You dont have enough perms!',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'You have not mentioned the role!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+
     @commands.command(aliases=['addmods'],description='addmods (role)\nAdds the specified role to mod list!')
     async def addmoderator(self, ctx, role: Role):
         if role is not None:

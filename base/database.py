@@ -13,6 +13,8 @@ from util.logging import logc
 from json import dump,load
 import genshinstats as gs
 from base.resin import reminder_set
+import re
+
 class GenshinDB():
     def __init__(self, pmon: Paimon):
         self.path = getcwd()
@@ -59,6 +61,49 @@ class GenshinDB():
                     return False
             return None
         return None
+
+   
+
+    def set_world_level(self, member: Member,region: str, wl: str):
+        id_ = str(member.id)
+        region = region.lower()
+        if id_ in self.data:
+            print(self.data[id_])
+            if 'wl' in self.data[id_]:
+                print(self.data[id_]['wl'])
+                if region in self.allowed:                    
+                    self.data[id_]['wl'][region] = wl
+                    self.__save()
+                    return True
+                else:
+                    self.data[id_]['wl'][region] = wl
+                    self.__save()
+                    return True
+
+            else:
+                if region in self.allowed:
+                    self.data[id_]['wl'] = {region:  wl}
+                    self.__save()
+                    return True
+
+    def get_wls(self,discord_id: str):
+        '''
+        All the servers discord user with id discord_id has linked in database.
+
+        Returns:
+            dict with regions and uid
+            if none found, returns None
+        '''
+        if discord_id in self.data:
+            if 'wl' in self.data[discord_id]:                
+                return self.data[discord_id]['wl']
+            return None
+        return None
+
+
+
+
+
 
     def fetch_key(self,key, dict_, type_ = None):
         if key in dict_:

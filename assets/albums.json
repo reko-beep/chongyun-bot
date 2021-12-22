@@ -1,0 +1,1883 @@
+{
+ "The Wind and The Star Traveler": [
+  {
+   "name": "Genshin Impact Main Theme",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Soundtrack_The_Wind_and_The_Star_Traveler_01.ogg",
+   "src": "Main Menu (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Dawn Winery Theme",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Soundtrack_The_Wind_and_The_Star_Traveler_02.ogg",
+   "src": "Official Website",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "A Sweet Smile",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Soundtrack_The_Wind_and_The_Star_Traveler_03.ogg",
+   "src": "Dialogue scenes with Amber",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "A Storm, A Spire, and a Sanctum (Dvalin's Nest)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Soundtrack_The_Wind_and_The_Star_Traveler_04.ogg",
+   "src": "Stormterror's Lair",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Caelestinum Finale Termini",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Soundtrack_The_Wind_and_The_Star_Traveler_05.ogg",
+   "src": "Confront Stormterror",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Lone Sojourner",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Soundtrack_The_Wind_and_The_Star_Traveler_06.ogg",
+   "src": "Dawn Winery (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "A Day in Mondstadt",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Soundtrack_The_Wind_and_The_Star_Traveler_07.ogg",
+   "src": "City of Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Dream Aria (Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Soundtrack_The_Wind_and_The_Star_Traveler_08.ogg",
+   "src": "Main Menu (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Pure Sky",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Soundtrack_The_Wind_and_The_Star_Traveler_09.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "The Edge of the Prairie",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Soundtrack_The_Wind_and_The_Star_Traveler_10.ogg",
+   "src": "Mondstadt (Dusk & Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "A Tale of Two Dragons",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Soundtrack_The_Wind_and_The_Star_Traveler_11.ogg",
+   "src": "Cinematic in That Green Fellow",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Rite of Battle",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Soundtrack_The_Wind_and_The_Star_Traveler_12.ogg",
+   "src": "Mondstadt Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Knighthood Excellence",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Soundtrack_The_Wind_and_The_Star_Traveler_13.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "Happy Journey",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Soundtrack_The_Wind_and_The_Star_Traveler_14.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  },
+  {
+   "name": "The Outlander Who Caught the Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Soundtrack_The_Wind_and_The_Star_Traveler_15.ogg",
+   "src": "Genshin Impact Announcement Trailer - The Outlander Who Caught The Wind",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/The_Wind_and_the_Star_Traveler.jpg"
+  }
+ ],
+ "City of Winds and Idylls": [
+  {
+   "name": "Twilight Serenity (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Soundtrack_City_of_Winds_and_Idylls_01.ogg",
+   "src": "Main Menu (Evening)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Legend of the Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Soundtrack_City_of_Winds_and_Idylls_02.ogg",
+   "src": "Wind, Courage, and Wings",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "The City Favored by Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Soundtrack_City_of_Winds_and_Idylls_03.ogg",
+   "src": "City of Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Bustling Afternoon in Mondstadt",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Soundtrack_City_of_Winds_and_Idylls_04.ogg",
+   "src": "City of Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Dusk in Mondstadt",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Soundtrack_City_of_Winds_and_Idylls_05.ogg",
+   "src": "City of Mondstadt (Dusk)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Mondstadt Starlit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Soundtrack_City_of_Winds_and_Idylls_06.ogg",
+   "src": "City of Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Moonlight in Mondstadt",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Soundtrack_City_of_Winds_and_Idylls_07.ogg",
+   "src": "City of Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Another Day in Mondstadt",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Soundtrack_City_of_Winds_and_Idylls_08.ogg",
+   "src": "City of Mondstadt (Dawn)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Windborne Hymn",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Soundtrack_City_of_Winds_and_Idylls_09.ogg",
+   "src": "Favonius Cathedral",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Knights of Favonius",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Soundtrack_City_of_Winds_and_Idylls_10.ogg",
+   "src": "Knights of Favonius Headquarters",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Angel's Share",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Soundtrack_City_of_Winds_and_Idylls_11.ogg",
+   "src": "Angel's Share",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Silhouette and Silk Steps",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Soundtrack_City_of_Winds_and_Idylls_12.ogg",
+   "src": "Stealth challenges",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Perilous Path",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Soundtrack_City_of_Winds_and_Idylls_13.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Say My Name",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Soundtrack_City_of_Winds_and_Idylls_14.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Welp, Didn't Expect That",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Soundtrack_City_of_Winds_and_Idylls_15.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "An Interesting Labor",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Soundtrack_City_of_Winds_and_Idylls_16.ogg",
+   "src": "Time trials",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Make Haste, Partner",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Soundtrack_City_of_Winds_and_Idylls_17.ogg",
+   "src": "Lost Treasure of Arcadia, The Reward for Courage is Flight",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "A Happy Day",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Soundtrack_City_of_Winds_and_Idylls_18.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Reunion in the Whispering Woods",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Soundtrack_City_of_Winds_and_Idylls_19.ogg",
+   "src": "Cinematic in Forest Rendezvous",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Startled",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Soundtrack_City_of_Winds_and_Idylls_20.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Meeting Amber",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Soundtrack_City_of_Winds_and_Idylls_21.ogg",
+   "src": "Amber's introduction in Wind-Riding Knight",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Storm Befalls",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Soundtrack_City_of_Winds_and_Idylls_22.ogg",
+   "src": "Cinematic in Dragon Storm",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Slight Distress",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Soundtrack_City_of_Winds_and_Idylls_23.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Tender Strength",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Soundtrack_City_of_Winds_and_Idylls_24.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Imminent Triumph",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Soundtrack_City_of_Winds_and_Idylls_25.ogg",
+   "src": "Dialogue scene in Shadow Over Mondstadt",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Beckoning (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Soundtrack_City_of_Winds_and_Idylls_26.ogg",
+   "src": "Mondstadt",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Hence, Begins the Journey",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Soundtrack_City_of_Winds_and_Idylls_27.ogg",
+   "src": "Cinematic in Bird's Eye View",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Dawn Winery Theme",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Soundtrack_City_of_Winds_and_Idylls_28.ogg",
+   "src": "Dawn Winery (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Before Dawn, at the Winery",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Soundtrack_City_of_Winds_and_Idylls_29.ogg",
+   "src": "Dawn Winery (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "A Familiar Sight and Leisure",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Soundtrack_City_of_Winds_and_Idylls_30.ogg",
+   "src": "Emerald Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Cold Night",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Soundtrack_City_of_Winds_and_Idylls_31.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Whispering Plain",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Soundtrack_City_of_Winds_and_Idylls_32.ogg",
+   "src": "Mondstadt",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Statue of The Seven",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Soundtrack_City_of_Winds_and_Idylls_33.ogg",
+   "src": "Statue of The Seven, Wishes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Acquaintance (Statue of The Seven)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Soundtrack_City_of_Winds_and_Idylls_34.ogg",
+   "src": "Statue of The Seven",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Stealing Words of the Moon",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Soundtrack_City_of_Winds_and_Idylls_35.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Wayfarer's Peace",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Soundtrack_City_of_Winds_and_Idylls_36.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Wind-Washed Mountains",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Soundtrack_City_of_Winds_and_Idylls_37.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Wayward Souls",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Soundtrack_City_of_Winds_and_Idylls_38.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Reminiscence (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Soundtrack_City_of_Winds_and_Idylls_39.ogg",
+   "src": "Main Menu (Dusk)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Restless Blazing Sun",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Soundtrack_City_of_Winds_and_Idylls_40.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Remembrance (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Soundtrack_City_of_Winds_and_Idylls_41.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "The Horizon",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Soundtrack_City_of_Winds_and_Idylls_42.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Awaiting the Future",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Soundtrack_City_of_Winds_and_Idylls_43.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Moonlit Wilderness",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Soundtrack_City_of_Winds_and_Idylls_44.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "A New Day with Hope",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Soundtrack_City_of_Winds_and_Idylls_45.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Journey of Hope (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Soundtrack_City_of_Winds_and_Idylls_46.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Forlorn Child of Archaic Winds (Dvalin's Nest)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Soundtrack_City_of_Winds_and_Idylls_47.ogg",
+   "src": "Stormterror's Lair",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Forsaken Child of Ancient Times (Dvalin's Nest)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Soundtrack_City_of_Winds_and_Idylls_48.ogg",
+   "src": "Stormterror's Lair",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Midday Prospects",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Soundtrack_City_of_Winds_and_Idylls_49.ogg",
+   "src": "Cinematic in Where Ancient Stars Align",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Dwelling in the Past",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Soundtrack_City_of_Winds_and_Idylls_50.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Eternal Anamnesis (Genshin Impact Main Theme Var.)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Soundtrack_City_of_Winds_and_Idylls_51.ogg",
+   "src": "Mondstadt (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Photon of Fluctuation",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Soundtrack_City_of_Winds_and_Idylls_52.ogg",
+   "src": "Battle Theme, Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "His Resolution",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Soundtrack_City_of_Winds_and_Idylls_53.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Rhythm from Ancient Times",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Soundtrack_City_of_Winds_and_Idylls_54.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Endless Echoes",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Soundtrack_City_of_Winds_and_Idylls_55.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Charge! Fearless Warriors",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Soundtrack_City_of_Winds_and_Idylls_56.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Beats of Water Drops",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Soundtrack_City_of_Winds_and_Idylls_57.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Magic Intrigues",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Soundtrack_City_of_Winds_and_Idylls_58.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Against All Odds",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Soundtrack_City_of_Winds_and_Idylls_59.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Perpetual Motion of Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Soundtrack_City_of_Winds_and_Idylls_60.ogg",
+   "src": "City of Mondstadt (Dragon Storm)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Riders of the Wind, Onward",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Soundtrack_City_of_Winds_and_Idylls_61.ogg",
+   "src": "Battle theme in Dragon Storm",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Whirl of Boreal Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Soundtrack_City_of_Winds_and_Idylls_62.ogg",
+   "src": "Andrius, Dominator of Wolves (Phase 1)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  },
+  {
+   "name": "Symphony of Boreal Wind",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Soundtrack_City_of_Winds_and_Idylls_63.ogg",
+   "src": "Andrius, Dominator of Wolves (Phase 2)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/City_of_Winds_and_Idylls.png"
+  }
+ ],
+ "Jade Moon Upon a Sea of Clouds": [
+  {
+   "name": "Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_01.ogg",
+   "src": "Concert Version",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Moon in One's Cup",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_02.ogg",
+   "src": "Liyue Harbor (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Relaxation in Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_03.ogg",
+   "src": "Liyue Harbor (Dusk)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Maiden's Longing",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_04.ogg",
+   "src": "Liyue Harbor (North)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Sun Rises in Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_05.ogg",
+   "src": "Liyue Harbor (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Good Night, Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_06.ogg",
+   "src": "Liyue Harbor (Dawn)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Call It a Day in Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_07.ogg",
+   "src": "Liyue Harbor (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Clear Sky Over Liyue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_08.ogg",
+   "src": "Liyue Harbor (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "A Transparent Moon (Liuli Pavilion)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_09.ogg",
+   "src": "Liuli Pavilion, Xinyue Kiosk",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Treasury From the Northland",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_10.ogg",
+   "src": "Northland Bank",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Cozy Leisure Time (Wangshu Daytime)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_11.ogg",
+   "src": "Wangshu Inn (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Sojourner's Sweet Dream (Wangshu Night)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_12.ogg",
+   "src": "Wangshu Inn (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Winding River",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_13.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Mild Waves",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_14.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Rhythm Amidst the Reeds",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_15.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Flows of Jade-Like Water",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_16.ogg",
+   "src": "Bishui Plain",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Blossoms Across the Valley",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_17.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Flow of Mildness",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_18.ogg",
+   "src": "Bishui Plain (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Stroll in the Shadows",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_19.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Melodious Flute",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_20.ogg",
+   "src": "Bishui Plain (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Gentle Rain",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_21.ogg",
+   "src": "Bishui Plain (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Vague Whispers",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_22.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Legends Swept Away",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_23.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Joy of Returning",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_24.ogg",
+   "src": "Bishui Plain (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Loner's Departure",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_25.ogg",
+   "src": "Qiongji Estuary (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Foxes at Play",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_26.ogg",
+   "src": "Qiongji Estuary (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Plain of Nostalgia",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_27.ogg",
+   "src": "Qiongji Estuary (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Another Hopeful Tomorrow",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_28.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "This Little Light of Mine",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_29.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Legend of Redemption",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_30.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Hazy Light",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_31.ogg",
+   "src": "Yaoguang Shoal",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Scattered Amongst the Tides",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_32.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Rhythms From the Conch",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_33.ogg",
+   "src": "Liyue Harbor (North)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Peaceful Hike (Qingce Daytime)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_34.ogg",
+   "src": "Qingce Village (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "The Fading Stories (Qingce Night)",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_35.ogg",
+   "src": "Qingce Village (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Wandering Flight",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_36.ogg",
+   "src": "Jueyun Karst (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Faint Tracks",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_37.ogg",
+   "src": "Jueyun Karst (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Idle Away From the Mountains",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_38.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Humming Amidst Rocks",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_39.ogg",
+   "src": "Wuwang Hill",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Above the Sea of Clouds",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_40.ogg",
+   "src": "Qingyun Peak (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Adeptus' Retirement",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_41.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "A Casual Visit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_42.ogg",
+   "src": "Huaguang Stone Forest (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "A Serendipitous Encounter",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_43.ogg",
+   "src": "Huaguang Stone Forest (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Freedom of Crane",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_44.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Rays of Sunlight",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_45.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Rainbow at Summit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_46.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Spring in Clouds",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_47.ogg",
+   "src": "Qingyun Peak (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Adeptus' Solace",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_48.ogg",
+   "src": "Jueyun Karst (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "The Absence of Adepti",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_49.ogg",
+   "src": "Huaguang Stone Forest (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Emerging Clouds",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_50.ogg",
+   "src": "Jueyun Karst (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Drink With a Hermit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_51.ogg",
+   "src": "Liyue",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Moss Covered Path",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_52.ogg",
+   "src": "Mingyun Village",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Bird Call From Afar",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_53.ogg",
+   "src": "Qingyun Peak (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Red Leaf on the Chessboard",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_54.ogg",
+   "src": "Jueyun Karst (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Secluded Sanctuary",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_55.ogg",
+   "src": "Wuwang Hill, Liyue (Rain)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Flickering Petals",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_56.ogg",
+   "src": "Liyue Harbor (North)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Swinging in the Breeze",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_57.ogg",
+   "src": "Liyue Harbor (North)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Solitude Mountains",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_58.ogg",
+   "src": "Liyue Harbor (West)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Distant Resonance",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_59.ogg",
+   "src": "Liyue Harbor (West)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Foregone Giants",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_60.ogg",
+   "src": "Liyue Harbor (West)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Linger in the Valley",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_61.ogg",
+   "src": "Lingju Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Slumbering Lore",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_62.ogg",
+   "src": "Lingju Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Silent Ruins",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_63.ogg",
+   "src": "Lingju Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Lone Drifter",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_64.ogg",
+   "src": "Lingju Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Lost Expectation",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_65.ogg",
+   "src": "Lingju Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "The Realm Within",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_66.ogg",
+   "src": "Domains",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Rapid as Wildfires",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_67.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Chasing the Torrents",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_68.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  },
+  {
+   "name": "Gallant Challenge",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Soundtrack_Jade_Moon_Upon_a_Sea_of_Clouds_69.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Jade_Moon_Upon_a_Sea_of_Clouds.jpg"
+  }
+ ],
+ "The Stellar Moments": [
+  {
+   "name": "Bard's Adventure",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Soundtrack_The_Stellar_Moments_01.ogg",
+   "src": "Character Demo - \"Venti: A Bard's Business\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Let's Go, Crimson Knight!",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Soundtrack_The_Stellar_Moments_02.ogg",
+   "src": "New Character Demo - \"Klee: Da-Da Da!\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Where the Sunlight Flees",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Soundtrack_The_Stellar_Moments_03.ogg",
+   "src": "Character Tales - \"Fleeing Sunlight in the Night\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Flaming Fry",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Soundtrack_The_Stellar_Moments_04.ogg",
+   "src": "\"Pyro Chapter\" - Chef de Cuisine Xiangling",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Ouvert\u00fcre der ewigen Nacht",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Soundtrack_The_Stellar_Moments_05.ogg",
+   "src": "New Character Demo - \"Fischl: Glanz der Nacht\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Sieh an, mein Sommernachtgarten!",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Soundtrack_The_Stellar_Moments_06.ogg",
+   "src": "New Character Announcement - \"Fischl can't lose just yet!\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Preserver of Fortune",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Soundtrack_The_Stellar_Moments_07.ogg",
+   "src": "New Character Demo - \"Qiqi: Icy Resurrection\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Surge of Prophecies",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Soundtrack_The_Stellar_Moments_08.ogg",
+   "src": "New Character Demo - \"Mona: Fate and Destiny\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Letter From Ajax",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Soundtrack_The_Stellar_Moments_09.ogg",
+   "src": "Character Demo - \"Childe: A Letter to Snezhnaya\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "From Snezhnaya With Boldness",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Soundtrack_The_Stellar_Moments_10.ogg",
+   "src": "Character Tales - \"Childe: Sigil of Permission\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Exclusive Specialty",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Soundtrack_The_Stellar_Moments_11.ogg",
+   "src": "New Character Demo - \"Diona: Wine Industry Slayer\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Rockin' With Fire",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Soundtrack_The_Stellar_Moments_12.ogg",
+   "src": "New Character Demo - \"Xinyan: Aw Yeah, Rock On!\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Nimble as Lightning",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Soundtrack_The_Stellar_Moments_13.ogg",
+   "src": "New Character Demo - \"Keqing: Yuheng of the Qixing\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Contemplation in Snow",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Soundtrack_The_Stellar_Moments_14.ogg",
+   "src": "Character Demo - \"Albedo: Contemplation in Chalk\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Genius of Takwin",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Soundtrack_The_Stellar_Moments_15.ogg",
+   "src": "Character Teaser - \"Albedo: Still Life and Creation\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Qilin's Prance",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Soundtrack_The_Stellar_Moments_16.ogg",
+   "src": "Character Demo - \"Ganyu: Radiant Dreams\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  },
+  {
+   "name": "Rex Incognito",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Soundtrack_The_Stellar_Moments_17.ogg",
+   "src": "Character Demo - \"Zhongli: The Listener\"",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Stellar_Moments_OST.jpg"
+  }
+ ],
+ "Vortex of Legends": [
+  {
+   "name": "Snow-Buried Tales",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Soundtrack_Vortex_of_Legends_01.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Fragile Fantasy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Soundtrack_Vortex_of_Legends_02.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Chattering Snowflakes",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Soundtrack_Vortex_of_Legends_03.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Serene and Sweet Adieu",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Soundtrack_Vortex_of_Legends_04.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Glistening Shards",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Soundtrack_Vortex_of_Legends_05.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Ad Oblivione",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Soundtrack_Vortex_of_Legends_06.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Abiding Chills",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Soundtrack_Vortex_of_Legends_07.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Menacing Cove",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Soundtrack_Vortex_of_Legends_08.ogg",
+   "src": "Starglow Cavern",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Striding in the Snowstorm",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Soundtrack_Vortex_of_Legends_09.ogg",
+   "src": "Starglow Cavern",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Sinister Mist",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Soundtrack_Vortex_of_Legends_10.ogg",
+   "src": "Starglow Cavern",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "In the Desolate Hallway",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Soundtrack_Vortex_of_Legends_11.ogg",
+   "src": "Starglow Cavern",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "The Flourishing Past",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Soundtrack_Vortex_of_Legends_12.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Unfinished Frescoes",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Soundtrack_Vortex_of_Legends_13.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Spin of Ice Crystals",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Soundtrack_Vortex_of_Legends_14.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Finale of the Snowtomb",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Soundtrack_Vortex_of_Legends_15.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Once-Colored Memories",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Soundtrack_Vortex_of_Legends_16.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  },
+  {
+   "name": "Moonlike Smile",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Soundtrack_Vortex_of_Legends_17.ogg",
+   "src": "Dragonspine",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Vortex_of_Legends.jpg"
+  }
+ ],
+ "The Shimmering Voyage": [
+  {
+   "name": "What a Hopeful Voyage",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Soundtrack_The_Shimmering_Voyage_01.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Vast and Blue",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Soundtrack_The_Shimmering_Voyage_02.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Mesmerizing Waves",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/Soundtrack_The_Shimmering_Voyage_03.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Journey into Sweet Dreams",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Soundtrack_The_Shimmering_Voyage_04.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Whispering Seabreeze",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Soundtrack_The_Shimmering_Voyage_05.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Sunshine Beach",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Soundtrack_The_Shimmering_Voyage_06.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Ariel's Footprints",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Soundtrack_The_Shimmering_Voyage_07.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Melody of Jellyfish",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Soundtrack_The_Shimmering_Voyage_08.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Comforting Quietude",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Soundtrack_The_Shimmering_Voyage_09.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Old Tales Preserved",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Soundtrack_The_Shimmering_Voyage_10.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Cautious Explorers",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Soundtrack_The_Shimmering_Voyage_11.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "In Stories of Fading Light",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Soundtrack_The_Shimmering_Voyage_12.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Cozy Company",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Soundtrack_The_Shimmering_Voyage_13.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Reminiscence of the Old Days",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Soundtrack_The_Shimmering_Voyage_14.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Faraway Solicitude",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Soundtrack_The_Shimmering_Voyage_15.ogg",
+   "src": "Golden Apple Archipelago",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Overture of Storms",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Soundtrack_The_Shimmering_Voyage_16.ogg",
+   "src": "Opening cinematic in Wanderer's Trail",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Sparky Clash",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Soundtrack_The_Shimmering_Voyage_17.ogg",
+   "src": "Klee's introduction in Who is Mondstadt's Strongest Fighter?",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Innocent Age",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Soundtrack_The_Shimmering_Voyage_18.ogg",
+   "src": "Genshin Impact EP - Trail of the Scorching Summer Treasure",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Whence the Flow Cometh",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Soundtrack_The_Shimmering_Voyage_19.ogg",
+   "src": "Springvale",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Hunt for Delicacy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Soundtrack_The_Shimmering_Voyage_20.ogg",
+   "src": "Xiangling's introduction in Little Chef on a Hunt",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Sneaky & Mischievous",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Soundtrack_The_Shimmering_Voyage_21.ogg",
+   "src": "Dialogue scenes with Xiangling",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Mellow Memories",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Soundtrack_The_Shimmering_Voyage_22.ogg",
+   "src": "Dawn Winery",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Wolf Boy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Soundtrack_The_Shimmering_Voyage_23.ogg",
+   "src": "Razor's introduction in Wolves' Territory",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Battle Preparation",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Soundtrack_The_Shimmering_Voyage_24.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Astrologist Awaiting",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Soundtrack_The_Shimmering_Voyage_25.ogg",
+   "src": "Mona's introduction in Astrology and the 50-Year Pact",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Starlit Past",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Soundtrack_The_Shimmering_Voyage_26.ogg",
+   "src": "Mondstadt (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Fireside Rest",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Soundtrack_The_Shimmering_Voyage_27.ogg",
+   "src": "Dawn Winery Manor",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Wicked Plot",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Soundtrack_The_Shimmering_Voyage_28.ogg",
+   "src": "Dialogue scenes",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Cunning Trick",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Soundtrack_The_Shimmering_Voyage_29.ogg",
+   "src": "Cinematic in Ending Note",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "L'arrivo Della Signora",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Soundtrack_The_Shimmering_Voyage_30.ogg",
+   "src": "Signora's introduction in Ending Note",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Yearning Breeze",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Soundtrack_The_Shimmering_Voyage_31.ogg",
+   "src": "Cinematic in Should You Be Trapped in a Windless Land",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Ripples of Daydream",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Soundtrack_The_Shimmering_Voyage_32.ogg",
+   "src": "Springvale",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Welcome Back, My Companion",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Soundtrack_The_Shimmering_Voyage_33.ogg",
+   "src": "Cinematic in A Long Shot",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Sudden Collapse",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Soundtrack_The_Shimmering_Voyage_34.ogg",
+   "src": "Cinematic in Rite of Descension",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Lunar-Eclipsing Palace",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Soundtrack_The_Shimmering_Voyage_35.ogg",
+   "src": "Cinematic in Zhongli's Treat",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Unexpected Savior",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Soundtrack_The_Shimmering_Voyage_36.ogg",
+   "src": "Childe's introduction in Rite of Descension",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Letter from Afar",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Soundtrack_The_Shimmering_Voyage_37.ogg",
+   "src": "Genshin Impact EP - A Warrior Far From Home",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Lovers' Oath",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Soundtrack_The_Shimmering_Voyage_38.ogg",
+   "src": "Xiao's introduction in Wangshu",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "All-Conquering Tide",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Soundtrack_The_Shimmering_Voyage_39.ogg",
+   "src": "Dragonspine battle theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Never-Ending Performance",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Soundtrack_The_Shimmering_Voyage_40.ogg",
+   "src": "Enter the Golden House Phases 1 & 2",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Wrath of Monoceros Caeli",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Soundtrack_The_Shimmering_Voyage_41.ogg",
+   "src": "Enter the Golden House Phase 3",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Dance with the Great Vortex",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Soundtrack_The_Shimmering_Voyage_42.ogg",
+   "src": "Battle theme in Turning Point",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Ode to Azhdaha",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Soundtrack_The_Shimmering_Voyage_43.ogg",
+   "src": "Beneath the Dragon-Queller Phase 1",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Rage Beneath the Mountains",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Soundtrack_The_Shimmering_Voyage_44.ogg",
+   "src": "Beneath the Dragon-Queller Phase 2",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Hymn of the Pearl",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Soundtrack_The_Shimmering_Voyage_45.ogg",
+   "src": "Cinematic in Battle Pass",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Overture of Falling Stars",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Soundtrack_The_Shimmering_Voyage_46.ogg",
+   "src": "Cinematic in Unknown Star",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Ominous Fandango",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Soundtrack_The_Shimmering_Voyage_47.ogg",
+   "src": "Scaramouche's introduction in What the Skies Conceal, the Water Reveals",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Rapture of the Chaos",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Soundtrack_The_Shimmering_Voyage_48.ogg",
+   "src": "Cinematic in Heart of Glaze",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Foul Legacy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Soundtrack_The_Shimmering_Voyage_49.ogg",
+   "src": "Cinematic in Defender of Childhood Dreams",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Golden Dreams",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Soundtrack_The_Shimmering_Voyage_50.ogg",
+   "src": "Golden House",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Palace of Jadeite",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Soundtrack_The_Shimmering_Voyage_51.ogg",
+   "src": "Jade Chamber",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Moon-Eclipsing Chamber",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Soundtrack_The_Shimmering_Voyage_52.ogg",
+   "src": "Cinematic in Heart of Glaze",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "The Imminent Triumph",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Soundtrack_The_Shimmering_Voyage_53.ogg",
+   "src": "Cinematic in Turning Point",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A Noble Sacrifice",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Soundtrack_The_Shimmering_Voyage_54.ogg",
+   "src": "Cinematic in Turning Point",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Lingering Bitterness",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Soundtrack_The_Shimmering_Voyage_55.ogg",
+   "src": "Dialogue scene in A Record of All Things",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Frostbiting Bloom",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/Soundtrack_The_Shimmering_Voyage_56.ogg",
+   "src": "Cinematic in Uninvited Guests",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Tale of the Yakshas",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Soundtrack_The_Shimmering_Voyage_57.ogg",
+   "src": "Cinematic in Glimmers of the Vigilant Yaksha",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Invitation of Windblume",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Soundtrack_The_Shimmering_Voyage_58.ogg",
+   "src": "Cinematic in Dream of Wind and Flowers",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "An Inauspicious Blow",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Soundtrack_The_Shimmering_Voyage_59.ogg",
+   "src": "Cinematic in A Soul Set Apart",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Fateful Departing",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Soundtrack_The_Shimmering_Voyage_60.ogg",
+   "src": "Cinematic in A Soul Set Apart",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Reconnaissance Captain",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Soundtrack_The_Shimmering_Voyage_61.ogg",
+   "src": "Eula's introduction in Shadow of the Past",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Ominous Monolith",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Soundtrack_The_Shimmering_Voyage_62.ogg",
+   "src": "Cinematic in Amidst Chaos, the Rock Is Unmoved",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Through the Eyes of a Dragon",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Soundtrack_The_Shimmering_Voyage_63.ogg",
+   "src": "Cinematic in Amidst Chaos, the Rock Is Unmoved",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Dvalin Is Landing!",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Soundtrack_The_Shimmering_Voyage_64.ogg",
+   "src": "Cinematic in Mysterious Islands: Journey to the Unknown",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Summertime Wonderland",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Soundtrack_The_Shimmering_Voyage_65.ogg",
+   "src": "Cinematic in Summer Vacation: Proceed With Caution",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "A New Summer Adventure!",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Soundtrack_The_Shimmering_Voyage_66.ogg",
+   "src": "Cinematic in The Final Riddle: A Secret Uncovered",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Tales from the Snow Mountain",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Soundtrack_The_Shimmering_Voyage_67.ogg",
+   "src": "\"Tales From the Snow Mountain\" - Genshin Impact Dragonspine OST Feature Video",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  },
+  {
+   "name": "Destined Parting",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Soundtrack_The_Shimmering_Voyage_68.ogg",
+   "src": "Genshin Impact Story Teaser: We Will Be Reunited",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/The_Shimmering_Voyage.jpg"
+  }
+ ],
+ "Realm of Tranquil Eternity": [
+  {
+   "name": "Inazuma",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Soundtrack_Realm_of_Tranquil_Eternity_01.ogg",
+   "src": "Concert Version",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Fall of Maples",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Soundtrack_Realm_of_Tranquil_Eternity_02.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Separated Dream",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Soundtrack_Realm_of_Tranquil_Eternity_03.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Streets of Elegance",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Soundtrack_Realm_of_Tranquil_Eternity_04.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Lingering Blossom",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/Soundtrack_Realm_of_Tranquil_Eternity_05.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "The Land of Her Serenity",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Soundtrack_Realm_of_Tranquil_Eternity_06.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "In the Strange Realm of Sakura",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Soundtrack_Realm_of_Tranquil_Eternity_07.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Blue Dream",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Soundtrack_Realm_of_Tranquil_Eternity_08.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Dream of Scattered Petals",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Soundtrack_Realm_of_Tranquil_Eternity_09.ogg",
+   "src": "Inazuma City",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Thoughts of Lightning",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Soundtrack_Realm_of_Tranquil_Eternity_10.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "The Mysterious Islands",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Soundtrack_Realm_of_Tranquil_Eternity_11.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Sakura-Scented Kiseru",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Soundtrack_Realm_of_Tranquil_Eternity_12.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Her Legacy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Soundtrack_Realm_of_Tranquil_Eternity_13.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Everlasting Devotion",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Soundtrack_Realm_of_Tranquil_Eternity_14.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Kitsune's Mask",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Soundtrack_Realm_of_Tranquil_Eternity_15.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Hanachirusato",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Soundtrack_Realm_of_Tranquil_Eternity_16.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Time to Say Farewell",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Soundtrack_Realm_of_Tranquil_Eternity_17.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Flickering Sakura",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Soundtrack_Realm_of_Tranquil_Eternity_18.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Sigh of an Old Friend",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Soundtrack_Realm_of_Tranquil_Eternity_19.ogg",
+   "src": "Narukami Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "The Sealed Harbor",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Soundtrack_Realm_of_Tranquil_Eternity_20.ogg",
+   "src": "Ritou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Island for Outlanders",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Soundtrack_Realm_of_Tranquil_Eternity_21.ogg",
+   "src": "Ritou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Dream of Homeland",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Soundtrack_Realm_of_Tranquil_Eternity_22.ogg",
+   "src": "Ritou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Interwoven Nostalgia",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Soundtrack_Realm_of_Tranquil_Eternity_23.ogg",
+   "src": "Ritou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Preparation of Matsuri",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Soundtrack_Realm_of_Tranquil_Eternity_24.ogg",
+   "src": "Amakane Island, Mt. Yougou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Island of Hanabi - Amakane",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Soundtrack_Realm_of_Tranquil_Eternity_25.ogg",
+   "src": "Amakane Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Murmuring Creek",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Soundtrack_Realm_of_Tranquil_Eternity_26.ogg",
+   "src": "Chinju Forest",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Remaining Tenderness",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Soundtrack_Realm_of_Tranquil_Eternity_27.ogg",
+   "src": "Mt. Yougou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "A Harmonious Rest",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Soundtrack_Realm_of_Tranquil_Eternity_28.ogg",
+   "src": "Konda Village (Day)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Island of Hanabi",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Soundtrack_Realm_of_Tranquil_Eternity_29.ogg",
+   "src": "Konda Village (Night)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Where the Heart Settles",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Soundtrack_Realm_of_Tranquil_Eternity_30.ogg",
+   "src": "Mt. Yougou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Miko's Night",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Soundtrack_Realm_of_Tranquil_Eternity_31.ogg",
+   "src": "Mt. Yougou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Where the Shirasagi Dances",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Soundtrack_Realm_of_Tranquil_Eternity_32.ogg",
+   "src": "Kamisato Estate",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Shirasagi's Demeanor",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Soundtrack_Realm_of_Tranquil_Eternity_33.ogg",
+   "src": "Yashiro Commission Headquarters",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Valor & Prowess",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Soundtrack_Realm_of_Tranquil_Eternity_34.ogg",
+   "src": "Kujou Encampment",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "A Night Watch",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Soundtrack_Realm_of_Tranquil_Eternity_35.ogg",
+   "src": "Kujou Encampment",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Samurai's Sorrow",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Soundtrack_Realm_of_Tranquil_Eternity_36.ogg",
+   "src": "Kujou Encampment",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Scarred Island",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Soundtrack_Realm_of_Tranquil_Eternity_37.ogg",
+   "src": "Higi Village (formerly)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Silent Testimony",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Soundtrack_Realm_of_Tranquil_Eternity_38.ogg",
+   "src": "Araumi, Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Soul of Soulless Conditions",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Soundtrack_Realm_of_Tranquil_Eternity_39.ogg",
+   "src": "Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Ones Who Strive to Live",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Soundtrack_Realm_of_Tranquil_Eternity_40.ogg",
+   "src": "Higi Village (formerly)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Resounding of Silence",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Soundtrack_Realm_of_Tranquil_Eternity_41.ogg",
+   "src": "Mikage Furnace (Balethunder)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "You Shall Not Tempt It",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Soundtrack_Realm_of_Tranquil_Eternity_42.ogg",
+   "src": "Mikage Furnace (Balethunder)",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "The Lost Mound",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Soundtrack_Realm_of_Tranquil_Eternity_43.ogg",
+   "src": "Araumi, Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Dirge of the Soundless",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Soundtrack_Realm_of_Tranquil_Eternity_44.ogg",
+   "src": "Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Nothing but Ivy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Soundtrack_Realm_of_Tranquil_Eternity_45.ogg",
+   "src": "Araumi, Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Shadow of War",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Soundtrack_Realm_of_Tranquil_Eternity_46.ogg",
+   "src": "Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Another Conflict Incoming",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Soundtrack_Realm_of_Tranquil_Eternity_47.ogg",
+   "src": "Kannazuka",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Fortification of Resistance",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Soundtrack_Realm_of_Tranquil_Eternity_48.ogg",
+   "src": "Fort Fujitou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Unwavering March",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Soundtrack_Realm_of_Tranquil_Eternity_49.ogg",
+   "src": "Fort Fujitou",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Caress of the Spirit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Soundtrack_Realm_of_Tranquil_Eternity_50.ogg",
+   "src": "Jinren Island, Nazuchi Beach, Fort Mumei",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Stranded Wish",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Soundtrack_Realm_of_Tranquil_Eternity_51.ogg",
+   "src": "Nazuchi Beach, Fort Mumei",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Busy Silhouettes",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Soundtrack_Realm_of_Tranquil_Eternity_52.ogg",
+   "src": "Yashiori Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "A Hollowed Skull",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Soundtrack_Realm_of_Tranquil_Eternity_53.ogg",
+   "src": "Yashiori Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Whispering Tatarigami",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Soundtrack_Realm_of_Tranquil_Eternity_54.ogg",
+   "src": "Yashiori Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Orobashi's Teaching",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Soundtrack_Realm_of_Tranquil_Eternity_55.ogg",
+   "src": "Yashiori Island",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Forgotten Epic",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Soundtrack_Realm_of_Tranquil_Eternity_56.ogg",
+   "src": "Musoujin Gorge, Higi Village",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Serpent's Tragedy",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Soundtrack_Realm_of_Tranquil_Eternity_57.ogg",
+   "src": "Musoujin Gorge, Higi Village",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Embrace of Sea Waves",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Soundtrack_Realm_of_Tranquil_Eternity_58.ogg",
+   "src": "Concert Version",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Duel in the Mist",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Soundtrack_Realm_of_Tranquil_Eternity_59.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Against the Invisible Net",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Soundtrack_Realm_of_Tranquil_Eternity_60.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Overlord of the Thunderstorm",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Soundtrack_Realm_of_Tranquil_Eternity_61.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  },
+  {
+   "name": "Fiery Pursuit",
+   "audio": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Soundtrack_Realm_of_Tranquil_Eternity_62.ogg",
+   "src": "Battle Theme",
+   "album_image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Realm_of_Tranquil_Eternity.jpg"
+  }
+ ],
+ "Featured Original Soundtrack (2021)": []
+}

@@ -155,9 +155,9 @@ class GenshinGuides:
                 stars = f"{('⭐') * self.info[character_data].get('rarity',0)}"
                 
                 element = self.correct_fields(element)
-                nation = self.correct_fields(element)
-                weapon = self.correct_fields(element)
-                stars = self.correct_fields(element)
+                nation = self.correct_fields(nation)
+                weapon = self.correct_fields(weapon)
+                stars = self.correct_fields(stars)
                 images_list = self.info[character_data].get('image',[])
                 if bool(images_list):
                     image = images_list[-1]

@@ -6,7 +6,8 @@ from nextcord.ext import commands, tasks
 from nextcord import TextChannel
 from core.paimon import Paimon
 from util.logging import logc
-
+from fetcher.events import Events
+import os
 
 gevents = GenshinEvents()
 
@@ -21,6 +22,11 @@ class GenshinEventsList(commands.Cog):
         self.name = 'Events'
         self.description = 'Module to send the events ongoing or passed in game!'
         self.event_channel : TextChannel = None
+        self.event_fetcher = Events()
+        self.events_list = []
+        if os.path.exists('genshin_events_list.json'):
+            with open('genshin_events_list.json','r') as f:
+                self.events_list = json.load(f)
         
 
     @commands.Cog.listener()
@@ -32,10 +38,17 @@ class GenshinEventsList(commands.Cog):
 
     # TODO: Make this a task too.
     # TODO: send a success/failure message acknowledging the command
-    @tasks.loop(hours=24)
-    async def update_event_embeds(self):
+    @tasks.loop(hours=6)
+    async def update_event_embeds(self):    
+        current = self.event_fetcher.fetch_data('Current')
+        self.events_list += await self.event_fetcher.map_ids_message(current, self.events_list, self.event_channel)
+               
+        upcoming = self.event_fetcher.fetch_data('Upcoming')
+        self.events_list = await self.event_fetcher.map_ids_message(upcoming, self.events_list, self.event_channel)
+        with open('genshin_events_list.json','w') as f:
+            json.dump(self.events_list,f)
         # todo: validate event channel id.
-        
+        '''
         if self.event_channel is not None:
             new_active_events = gevents.get_active_events()
 
@@ -111,7 +124,7 @@ class GenshinEventsList(commands.Cog):
 
             with open("genshin_event_msgs.json", 'w') as f:
                 json.dump(active_event_msgs,f)
-
+        '''
 
 
 

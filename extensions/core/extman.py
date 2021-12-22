@@ -23,18 +23,21 @@ class ExtensionManager(commands.Cog):
         # todo: check if that file exists 
         # todo: add error handling.
         logc("loading extension", arg)
-        self.bot.load_extension(self.ext_path + arg)
+        self.client.load_extension(self.ext_path + arg)
+        await ctx.send(f'loaded {arg} module')
 
 
     @commands.command(aliases=['unlext'],description='unlext( extension name)\nUnloads extension')
     async def uloadext(self, ctx, arg):
         logc("unloading extension", arg)
-        self.bot.unload_extension(self.ext_path + arg)
+        self.client.unload_extension(self.ext_path + arg)
+        await ctx.send(f'Unloaded {arg} module')
 
     @commands.command(aliases=['rlext'],description='lext( extension name)\nReloads extension')
     async def rloadext(self, ctx, arg):
         logc("reloading extension", arg)
-        self.bot.reload_extension(self.ext_path + arg)
+        self.client.reload_extension(self.ext_path + arg)
+        await ctx.send(f'Reloaded {arg} module')
 
 
     def loadext_all(self):

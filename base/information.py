@@ -1,7 +1,8 @@
 from json import load,dump
 from os.path import exists, isfile, join
 from os import listdir,mkdir, getcwd
-
+from bs4 import BeautifulSoup
+import requests
 from nextcord import Embed
 
 class GenshinInformation:
@@ -229,10 +230,59 @@ class GenshinInformation:
             
             return embeds
                             
-                    
-                    
+       
+    def daily_posts(self ,sub, flair):
+        link = f'https://www.reddit.com/r/{sub}/search.rss?q=flair:{flair}&restrict_sr=on&sort=new&t=all'
+        headers_ = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"}
+        r = requests.get(link,headers=headers_).content    
+        bs = BeautifulSoup(r,'lxml')
+        items = bs.find_all("content",{"type":"html"})    
+        images_ = []
+        for i in items:      
+            text_ = i.text                     
+            parser = text_
+            while "href" in parser:
+                s = str(self.find_href(parser))
+                parser = parser.replace("href","",1)            
+                s = s.strip('"')
+                if '.jpg' in s:
+                    images_.append(s)
+                else:
+                    if '.png' in s:
+                        images_.append(s)           
+        return images_
 
-                            
+    def save_daily_posts(self):
+        correct_path = self.path[:self.path.find(self.path.split('/')[-2])]
+        daily_posts = self.daily_posts('Genshin_Impact','OC')[:7] + [img for img in self.daily_posts('HuTao_Mains','OC Fanart') if 'preview' not in img][:7] + self.daily_posts('KeqingMains','Art')[:7]
+        print(correct_path, daily_posts)
+        with open(correct_path + '/genshin_reddit_posts.json', 'w') as f:
+            dump(daily_posts, f)
+    
+    def load_daily_posts(self):
+        correct_path = self.path[:self.path.find(self.path.split('/')[-2])]
+        with open(correct_path + '/genshin_reddit_posts.json', 'r') as f:
+            return load(f)
+
+
+    def find_href(self, text):
+        s = text.find("href")+len("href=")
+        t_s = text[s:]
+        t_s_s = t_s.find(">")
+        t_s_s_s = t_s[:t_s_s]
+        return t_s_s_s                    
+
+    def embeds_daily_posts(self):
+        list_ = self.load_daily_posts()
+
+        embeds = {}
+        for c,img in enumerate(list_,1):
+            embed = Embed(title='Daily Genshin Post',color=0xf5e0d0)       
+            embed.set_image(url=img)       
+            embeds[f'Daily Post {c}'] = embed
+        if len(embeds) == 0:
+            embeds['Nothing Found'] = Embed(title='Nothing found',color=0xf5e0d0)    
+        return embeds 
 
 
 
