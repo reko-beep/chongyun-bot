@@ -212,12 +212,14 @@ class Domains:
         day_time = now_utc_.astimezone(pytz.timezone(time_region))
         check = None
         days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
-        if day == '':          
+        if day == '':         
 
             day = days[day_time.weekday()]
         else:
             if day not in days:
                 return None
+        if day == 'sunday':
+            return None
         if channel is None:
             channel = self.domain_channel
         if len(self.message_storage_list)  == 0:

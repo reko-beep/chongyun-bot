@@ -570,5 +570,27 @@
     ]
    }
   ]
+ },
+ "Co-op Points" : {
+     "name": "Co-op Points",
+     "description": "A point/rep system for co-op helpers",
+     "commands": [
+         {"name": "coopgivepoint",
+            "aliases": ["cogp", "cogpoint"],
+            "description": "cogp (member)\nGives other co-op point"
+        },
+        {"name": "cooppoints",
+            "aliases": ["cops", "cops"],
+            "description": "cops (member)\nShows member co-op points!"
+        },
+        {"name": "coopleaderboardreset",
+            "aliases": ["colbrs"],
+            "description": "colbrs\n resets co-op leaderboard"
+        },
+        {"name": "coopleaderboard",
+            "aliases": ["colb"],
+            "description": "colb\nShows co-op leaderboard!"
+        }
+     ]
  }
 }

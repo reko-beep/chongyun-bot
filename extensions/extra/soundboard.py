@@ -7,7 +7,7 @@ from nextcord.ext import commands
 from nextcord.ext.commands.context import Context
 from nextcord.message import Message
 from extensions.views.information import NavigatableView
-from extensions.views.soundboard import VoiceOverList
+from extensions.views.soundboard import VoiceOverList, OSTList
 
 from util.logging import logc
 from util import Numoji
@@ -40,7 +40,11 @@ class SoundBoard(commands.Cog):
         view.add_item(VoiceOverList(self.pmon, 'languages','','', ctx))
         await ctx.send('Please select a character from below', view=view)
 
-
+    @commands.command(description='ost\nOpens an interaction to play a ost for user')
+    async def ost(self, ctx):
+        view = NavigatableView(ctx.author)
+        view.add_item(OSTList(self.pmon, 'albums','','', ctx))
+        await ctx.send('Please select a character from below', view=view)
 
 
 
@@ -49,48 +53,24 @@ class SoundBoard(commands.Cog):
 
      
     @commands.command(aliases=['sbp'],description='sbp\n Plays the available paimon sounds in vc!')
-    async def soundboardpaimon(self, ctx, given_chara=None, given_voice_type=None, given_lang='Japanese'):
+    async def soundboardpaimon(self, ctx):
 
-        # TODO: handle characters/voices with spaces correctly.
-        #       maybe make (,) an optional delimiter when spaces are present
+        msg = await self.handle_other_sounds(ctx)         
 
-        # invoked without arguments, display availabe sounds.
-        if (given_chara and given_voice_type) is None:
-            msg = await self.handle_other_sounds(ctx)
-            return
+       
+    async def play_audio(self, ctx: Context, sound):
+  
+        src = FFmpegPCMAudio(sound, executable='ffmpeg')
 
-        # get language dictkey
-        for lang in self.voicelines.keys():
-            if given_lang.lower() in lang.lower():
-                break
-
-        # get character name dictkey
-        for chara in self.voicelines[lang].keys():
-            if given_chara.lower() in chara.lower():
-                break
-        if chara is None:
-            await ctx.send("that character does not exist.")
-            return
-
-        # get voice_type dictkey
-        for voice_type in self.voicelines[lang][chara].keys():
-            if given_voice_type.lower() in voice_type.lower():
-                break
-        if voice_type is None:
-            await ctx.send("that voice type does not exist.")
-            return
-
-        url = random.choice(self.voicelines[lang][chara][voice_type])
-        logc("evaluated url", url)
-
-        embed = Embed(title='Hurray!',description=f'Playing {voice_type} of {chara} now!',color=0xf5e0d0) 
-        embed.set_author(name=ctx.author.display_name,
-                            icon_url=ctx.author.avatar.url)
-        embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
-        await ctx.send(embed=embed)
-
-        await self.play_audio(ctx, url)  
-
+        if not ctx.author.voice: # author not in vc
+            await get_angry(ctx,
+                'Hufff!',
+                "I can't sound dumb now, can I!\n You are not in a vc!")    
+            return 
+        else:
+            if not ctx.voice_client: # paimon not in vc
+                await ctx.author.voice.channel.connect()
+            ctx.voice_client.play(src, after=None)
     
             
 

@@ -24,7 +24,7 @@ class ResetNotifier:
 
         
         
-        time_region = self.pmon.p_bot_config['region']
+        time_region = 'Asia/Shanghai'
         now_utc_ = datetime.now(pytz.timezone('UTC'))
             # Convert to Asia/Kolkata time zone
         region_time = now_utc_.astimezone(pytz.timezone(time_region))

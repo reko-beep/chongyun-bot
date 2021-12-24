@@ -100,27 +100,95 @@ class UIDManager(commands.Cog):
                     if message.author.id != self.pmon.user.id:
                         await message.delete()
         
-        
+    @commands.command(aliases=['gwl'])
+    async def gworldlevel(self, ctx, region:str = '', worldlevel: str= ''):
+        if region != '':
+            if worldlevel != '':
+                if worldlevel.isdigit() and 1 <= int(worldlevel) <= 8:                
+                    check = self.db.set_world_level(ctx.author, region, worldlevel)
+                    print(check)
+
+                    if check is not None:
+                        embed = Embed(title='WL set!',
+                                description=f'{region.upper()} world level set to {worldlevel}'
+                                ,color=0xf5e0d0)
+
+                        await ctx.send(embed=embed)
+                    
+                    else:
+                        embed = Embed(title='Failed!',
+                                description=f'Failed to set {region.upper()} world level to {worldlevel}'
+                                ,color=0xf5e0d0)
+
+                        await ctx.send(embed=embed)
+                else:
+                    embed = Embed(title='Failed!',
+                            description=f'Please provide a number (1-8) as world level!'
+                            ,color=0xf5e0d0)
+
+                    await ctx.send(embed=embed)
+            
+            else:
+                embed = Embed(title='Failed!',
+                        description=f'Please provide a region (eu, asia, na)!'
+                        ,color=0xf5e0d0)
+
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Failed!',
+                    description=f'Please provide a region (eu, asia, na)!'
+                    ,color=0xf5e0d0)
+
+            await ctx.send(embed=embed)
+
+
+
+
     
     @commands.command(aliases=['gserv','gservers'],description='gserv (user `optional`)\nShows the linked uids of a user or either the user who has invoked the command ')
-    async def gserver(self,ctx, user: Member = None):
+    async def gserver(self,ctx, user: Member = None, region:str = ''):
 
         if not user:
             user = ctx.author
         
         id = str(user.id)
         servers = self.db.get_servers(id)
-
+        worldlevel = self.db.get_wls(id)
+        print(worldlevel)
         if servers:
             embed = discord.Embed(
                         title=f'Genshin Impact servers!'
                         ,color=0xf5e0d0)    
 
             embed.set_author(name=f'{user.display_name}',icon_url=user.avatar.url)
+            if region == '':
 
-            for server in servers:
-                embed.add_field(name=server.upper(),value=f'UID: {servers[server]}')
+                for server in servers:
+                    desp_ = f'UID: {servers[server]}'                
+                    if worldlevel is not None:              
+                        if server in worldlevel:
+                            desp_ += f'\nWorld level: {worldlevel[server]}'
+                        else:
+                            desp_ += f'\nuse !gwl ({server}) (world level)!'
+                    else:
+                        desp_ += f'\nuse !gwl ({server}) (world level)!'
+                    embed.add_field(name=server.upper(),value=f'{desp_}', inline=True)  
+                    
+            
+            else:
 
+                if region in servers:
+                    desp_ = f'UID: {servers[region]}'   
+                    
+                    if region in worldlevel:
+                        desp_ += f'\nWorld level: {worldlevel[region]}'
+                    else:
+                        desp_ += f'\nuse !gwl ({region}) (world level)!'
+                    embed.add_field(name=region.upper(),value=f'{desp_}', inline=True)  
+                else:
+                    embed.add_field(name=region.upper(),value=f'Not linked yet!')
+
+           
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/889177911020626000/898899943807414283/happy.png')
 
             await ctx.send(embed=embed)
