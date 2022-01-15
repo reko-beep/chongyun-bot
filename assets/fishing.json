@@ -1,0 +1,1026 @@
+{
+ "Mondstadt": [
+  {
+   "location": "Cider Lake",
+   "description": "North of Springvale",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Fishing_Point_Cider_Lake_1.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    },
+    {
+     "name": "Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Pufferfish.png"
+    },
+    {
+     "name": "Bitter Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Bitter_Pufferfish.png"
+    }
+   ],
+   "file": "cider_lake.png"
+  },
+  {
+   "location": "Cider Lake",
+   "description": "East of City of Mondstadt",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Fishing_Point_Cider_Lake_2.png",
+   "fishes": [
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Rusty Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Rusty_Koi.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    }
+   ],
+   "file": "cider_lake_1.png"
+  },
+  {
+   "location": "Stormbearer Mountains",
+   "description": "South of the Anemo Hypostasis",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Fishing_Point_Stormbearer_Mountains.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Golden Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Golden_Koi.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    }
+   ],
+   "file": "stormbearer_mountains.png"
+  },
+  {
+   "location": "Stormterror's Lair",
+   "description": "South side of Stormterror's Lair",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Fishing_Point_Stormterror%27s_Lair_1.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    }
+   ],
+   "file": "stormterror's_lair.png"
+  },
+  {
+   "location": "Stormterror's Lair",
+   "description": "North side of Stormterror's Lair",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Fishing_Point_Stormterror%27s_Lair_2.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    }
+   ],
+   "file": "stormterror's_lair_1.png"
+  },
+  {
+   "location": "Windrise",
+   "description": "South of the Statue of The Seven",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Fishing_Point_Windrise.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    }
+   ],
+   "file": "windrise.png"
+  },
+  {
+   "location": "Near Dawn Winery",
+   "description": "West of Dawn Winery, across the small islet",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Fishing_Point_Dawn_Winery.png",
+   "fishes": [
+    {
+     "name": "Aizen Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Aizen_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    },
+    {
+     "name": "Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Pufferfish.png"
+    },
+    {
+     "name": "Bitter Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Bitter_Pufferfish.png"
+    }
+   ],
+   "file": "near_dawn_winery.png"
+  },
+  {
+   "location": "Dragonspine",
+   "description": "At the lake, northwest of the Starglow Cavern's Teleport Waypoint(Unregistered with the Fishing Association)",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Fishing_Point_Dragonspine.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Venomspine Fish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Venomspine_Fish.png"
+    },
+    {
+     "name": "Snowstrider",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Snowstrider.png"
+    },
+    {
+     "name": "Tea-Colored Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Tea-Colored_Shirakodai.png"
+    }
+   ],
+   "file": "dragonspine.png"
+  }
+ ],
+ "Liyue": [
+  {
+   "location": "Qingce Village",
+   "description": "Northeast of Qingce Village",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Fishing_Point_Qingce_Village.png",
+   "fishes": [
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    },
+    {
+     "name": "Bitter Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Bitter_Pufferfish.png"
+    }
+   ],
+   "file": "qingce_village.png"
+  },
+  {
+   "location": "Dihua Marsh",
+   "description": "West of the Statue of The Seven",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Fishing_Point_Dihua_Marsh.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "dihua_marsh.png"
+  },
+  {
+   "location": "Beside Wangshu Inn",
+   "description": "West of Wangshu Inn, at the docks",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Fishing_Point_Wangshu_Inn.png",
+   "fishes": [
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Golden Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Golden_Koi.png"
+    },
+    {
+     "name": "Rusty Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Rusty_Koi.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "beside_wangshu_inn.png"
+  },
+  {
+   "location": "Beside Guili Plains",
+   "description": "In the middle of the bridge connecting to Mingyun Village",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Fishing_Point_Guili_Plains.png",
+   "fishes": [
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Golden Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Golden_Koi.png"
+    },
+    {
+     "name": "Rusty Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Rusty_Koi.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "beside_guili_plains.png"
+  },
+  {
+   "location": "Bishui Plain",
+   "description": "Northeast of the Clear Pool and Mountain Cavern Domain",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Fishing_Point_Bishui_Plain.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "bishui_plain.png"
+  },
+  {
+   "location": "Bishui Plain",
+   "description": "East of the Clear Pool and Mountain Cavern Domain",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Fishing_Point_Bishui_Plain_2.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "bishui_plain_1.png"
+  },
+  {
+   "location": "Mt. Hulao",
+   "description": "East of Mt. Hulao Teleport Waypoint",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Fishing_Point_Mt_Hulao.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "mt_hulao.png"
+  },
+  {
+   "location": "Luhua Pool",
+   "description": "Near the entrance of Hidden Palace of Guizang Formula",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Fishing_Point_Luhua_Pool.png",
+   "fishes": [
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Golden Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Golden_Koi.png"
+    },
+    {
+     "name": "Rusty Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Rusty_Koi.png"
+    },
+    {
+     "name": "Brown Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Brown_Shirakodai.png"
+    }
+   ],
+   "file": "luhua_pool.png"
+  },
+  {
+   "location": "Tianqiu Valley",
+   "description": "West of the Teleport Waypoint, before the broken bridge",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Fishing_Point_Tianqiu_Valley.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    }
+   ],
+   "file": "tianqiu_valley.png"
+  },
+  {
+   "location": "Liyue Harbor",
+   "description": "At the shore near the southern wharf of Liyue Harbor",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Fishing_Point_Liyue_Harbor.png",
+   "fishes": [
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Betta",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Betta.png"
+    },
+    {
+     "name": "Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Pufferfish.png"
+    }
+   ],
+   "file": "liyue_harbor.png"
+  },
+  {
+   "location": "Mt. Aocang",
+   "description": "In front of Cloud Retainer's abode(Unregistered with the Fishing Association)",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Fishing_Point_Mt_Aocang.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Sweet-Flower Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Sweet-Flower_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Abiding Angelfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Abiding_Angelfish.png"
+    }
+   ],
+   "file": "mt_aocang.png"
+  }
+ ],
+ "Inazuma": [
+  {
+   "location": "Ritou",
+   "description": "At the docks",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Fishing_Point_Ritou.png",
+   "fishes": [
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Pufferfish.png"
+    },
+    {
+     "name": "Bitter Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Bitter_Pufferfish.png"
+    }
+   ],
+   "file": "ritou.png"
+  },
+  {
+   "location": "Near Amakane Island",
+   "description": "Behind Violet Court Domain",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Fishing_Point_Amakane_Island.png",
+   "fishes": [
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    }
+   ],
+   "file": "near_amakane_island.png"
+  },
+  {
+   "location": "Nazuchi Beach",
+   "description": "North of the shipwreck",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Fishing_Point_Nazuchi_Beach.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    },
+    {
+     "name": "Bitter Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Bitter_Pufferfish.png"
+    }
+   ],
+   "file": "nazuchi_beach.png"
+  },
+  {
+   "location": "Sangonomiya Shrine",
+   "description": "South of the north Teleport Waypoint in Watatsumi Island",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Fishing_Point_Sangonomiya_Shrine.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    }
+   ],
+   "file": "sangonomiya_shrine.png"
+  },
+  {
+   "location": "Suigetsu Pool",
+   "description": "Next to the Waverider Waypoint",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Fishing_Point_Suigetsu_Pool.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    }
+   ],
+   "file": "suigetsu_pool.png"
+  },
+  {
+   "location": "Koseki Village",
+   "description": "Underneath the Statue of The Seven",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Fishing_Point_Koseki_Village.png",
+   "fishes": [
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Golden Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Golden_Koi.png"
+    },
+    {
+     "name": "Rusty Koi",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Rusty_Koi.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    }
+   ],
+   "file": "koseki_village.png"
+  },
+  {
+   "location": "Koseki Village",
+   "description": "Near East of Koseki Village",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Fishing_Point_Koseki_Village_2.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    },
+    {
+     "name": "Pufferfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Pufferfish.png"
+    }
+   ],
+   "file": "koseki_village_1.png"
+  },
+  {
+   "location": "Chirai Shrine",
+   "description": "West of Chirai Shrine",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Fishing_Point_Chirai_Shrine.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Glaze Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Glaze_Medaka.png"
+    },
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    }
+   ],
+   "file": "chirai_shrine.png"
+  },
+  {
+   "location": "Autake Plains",
+   "description": "West of Autake Plains[Note 1]",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Fishing_Point_Autake_Plains.png",
+   "fishes": [
+    {
+     "name": "Medaka",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Medaka.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    }
+   ],
+   "file": "autake_plains.png"
+  },
+  {
+   "location": "Tatarasuna",
+   "description": "East of Tatarasuna, at the shipwreck in the middle of the sea(Unregistered with the Fishing Association)",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Fishing_Point_Tatarasuna.png",
+   "fishes": [
+    {
+     "name": "Raimei Angelfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Item_Raimei_Angelfish.png"
+    }
+   ],
+   "file": "tatarasuna.png"
+  }
+ ],
+ "Enkanomiya": [
+  {
+   "location": "The Serpent's Bowels",
+   "description": "In an underground cave on the southern tip of The Serpent's Bowels",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Fishing_Point_The_Serpent%27s_Bowels.png",
+   "fishes": [
+    {
+     "name": "Crystalfish",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Crystalfish.png"
+    },
+    {
+     "name": "Lunged Stickleback",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Lunged_Stickleback.png"
+    },
+    {
+     "name": "Divda Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Divda_Ray.png"
+    },
+    {
+     "name": "Formalo Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Formalo_Ray.png"
+    }
+   ],
+   "file": "the_serpent's_bowels.png"
+  },
+  {
+   "location": "The Serpent's Heart",
+   "description": "Underneath the altar",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Fishing_Point_The_Serpent%27s_Heart_Altar.png",
+   "fishes": [
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Akai Maou",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Redrot_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Akai_Maou.png"
+    },
+    {
+     "name": "Divda Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Divda_Ray.png"
+    },
+    {
+     "name": "Formalo Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Formalo_Ray.png"
+    }
+   ],
+   "file": "the_serpent's_heart.png"
+  },
+  {
+   "location": "The Serpent's Heart",
+   "description": "Underneath the altar to the southwest",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Fishing_Point_The_Serpent%27s_Heart_Altar_Southwest.png",
+   "fishes": [
+    {
+     "name": "Dawncatcher",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Fruit_Paste_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Dawncatcher.png"
+    },
+    {
+     "name": "Purple Shirakodai",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_False_Worm_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Purple_Shirakodai.png"
+    },
+    {
+     "name": "Divda Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Divda_Ray.png"
+    },
+    {
+     "name": "Formalo Ray",
+     "bait": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Fake_Fly_Bait.png",
+     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Formalo_Ray.png"
+    }
+   ],
+   "file": "the_serpent's_heart_1.png"
+  }
+ ]
+}
