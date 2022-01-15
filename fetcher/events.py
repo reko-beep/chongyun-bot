@@ -1,4 +1,4 @@
-from typing import ItemsView
+from typing import ItemsView, Text
 from nextcord.embeds import Embed
 from nextcord.errors import NotFound
 
@@ -118,117 +118,102 @@ class Events(Fetcher):
 
                
 
-    async def map_ids_message(self, fetch_list, existing_list, channel: TextChannel):
-        list_ = []
-        if len(existing_list) == 0:
-            for item in fetch_list:
-                embed = Embed(title=f"{item['name']}",url=f"{item['link']}",color=0xf5e0d0)
-                embed.add_field(name='Type',value=f"{item['type']}")
-                embed.add_field(name='Status',value=f"{item['status']}")
-                embed.add_field(name='Start',value=f"{item['start']}")
-                embed.add_field(name='End',value=f"{item['end']}")
-                embed.add_field(name='Asia',value=f"{item['timestamp']['asia']}")
-                embed.add_field(name='EU',value=f"{item['timestamp']['eu']}")
-                embed.add_field(name='NA',value=f"{item['timestamp']['na']}")
-                embed.set_image(url=f"{item['img']}")                
-                msg = await channel.send(embed=embed)
-                item['message'] = msg.id
-            list_ = fetch_list
-        else:
-            statuses = [i['status'] for i in fetch_list]
-            ids = [i['id'] for i in fetch_list]
-            for exist in existing_list:
-                try:
-                    item = fetch_list[ids.index(exist['id'])]
-                    if exist in ids:
-                        if statuses[ids.index(exist)] != exist['status']:                        
-                            embed = Embed(title=f"{item['name']}",url=f"{item['link']}",color=0xf5e0d0)
-                            embed.add_field(name='Type',value=f"{item['type']}")
-                            embed.add_field(name='Status',value=f"{item['status']}")
-                            embed.add_field(name='Start',value=f"{item['start']}")
-                            embed.add_field(name='End',value=f"{item['end']}")
-                            embed.add_field(name='Asia',value=f"{item['timestamp']['asia']}")
-                            embed.add_field(name='EU',value=f"{item['timestamp']['eu']}")
-                            embed.add_field(name='NA',value=f"{item['timestamp']['na']}")
-                            embed.set_image(url=f"{item['img']}")
-                            if 'message' in item:
-                                if item['message'] != 0:
-                                    try:
-                                        msg = await channel.fetch_message(item['message'])
-                                    except NotFound:
-                                        msg = await channel.send(embed=embed)
-                                        item['message'] = msg.id
-                                        exist = item
-                                    else:
-                                        await msg.edit(embed=embed)
-                                        exist = item
-                                    list_.append(exist)
-                                else:
-                                    msg = await channel.send(embed=embed)
-                                    item['message'] = msg.id
-                                    list_.append(item)
-                            else:
-                                msg = await channel.send(embed=embed)
-                                item['message'] = msg.id
-                                list_.append(item)                   
-                        
-                except ValueError:
 
-                    try:
-                        msg = await channel.fetch_message(exist['message'])
-                    except NotFound:
-                        pass
-                    else:
-                        await msg.delete()
-            
-            # recursive
 
-            ids = [i['id'] for i in list_]    
 
-            for fetch in fetch_list:
-                if fetch['id'] in ids:
-                    pass
-                else:
-                    item = fetch
-                    embed = Embed(title=f"{item['name']}",url=f"{item['link']}",color=0xf5e0d0)
-                    embed.add_field(name='Type',value=f"{item['type']}")
-                    embed.add_field(name='Status',value=f"{item['status']}")
-                    embed.add_field(name='Start',value=f"{item['start']}")
-                    embed.add_field(name='End',value=f"{item['end']}")
-                    embed.add_field(name='Asia',value=f"{item['timestamp']['asia']}")
-                    embed.add_field(name='EU',value=f"{item['timestamp']['eu']}")
-                    embed.add_field(name='NA',value=f"{item['timestamp']['na']}")
-                    embed.set_image(url=f"{item['img']}")
-                    if 'message' in item:
-                        if item['message'] != 0:
-                            try:
-                                msg = await channel.fetch_message(item['message'])
-                            except NotFound:
-                                msg = await channel.send(embed=embed)
-                                item['message'] = msg.id
-                                fetch = item
-                            else:
-                                await msg.edit(embed=embed)
-                                fetch = item
-                            list_.append(item)                        
-                        else:
-                            msg = await channel.send(embed=embed)
-                            item['message'] = msg.id
-                            list_.append(item)
-                    else:
-                        msg = await channel.send(embed=embed)
-                        item['message'] = msg.id
-                        list_.append(item)
-        return list_
 
+    async def update_event_list(self, channel):
+        local_events = self.load_data()
+
+        # fetch events from upstream. (ongoing and upcoming)
+        upstream_ongoing_data = self.fetch_data('Current')
+        upstream_upcoming_data = self.fetch_data('Upcoming')
+        upstream_event_data = upstream_ongoing_data + upstream_upcoming_data
+      
+        upstream_ongoing = set([event['id'] for event in upstream_ongoing_data])
+        upstream_upcoming = set([event['id'] for event in upstream_upcoming_data])
+      
+
+        # filter new data
+        new_upcoming = upstream_upcoming - set(local_events['upcoming'].keys())
+
+        # send messages for new data
+        for event_id in new_upcoming:
+            event = next(filter(lambda edata: edata['id'] == event_id, upstream_event_data), None)
+            msg_id = await self.create_event_msg(event, channel)
+            local_events['upcoming'][event_id] = msg_id
+
+
+        # update messages for new data (upcoming > ongoing)
+        new_ongoing = upstream_ongoing - set(local_events['ongoing'].keys())
         
-                  
-                    
+        for event_id in new_ongoing:
+            
+            event = next(filter(lambda edata: edata['id'] == event_id, upstream_event_data), None)
+
+            try:
+                # new_ongoing event means its moved from upcoming to ongoing.
+                msg_id = local_events['upcoming'][event_id]
+                del local_events['upcoming'][event_id]
+                local_events['ongoing'][event_id] = msg_id
+
+                # edit message status from upcoming to ongoing
+                await self.update_event_msg(event, msg_id, channel)
+            
+            except Exception:
+                # keyerror implies first run, just populate the ongoing list.
+                msg_id = await self.create_event_msg(event, channel)
+                local_events['ongoing'][event_id] = msg_id  
 
 
+        # remove old ongoing data.
+        old_ongoing = set(local_events['ongoing'].keys()) - upstream_ongoing
+        for event_id in old_ongoing:
+            msg_id = local_events['ongoing'][event_id]
+            msg = await channel.fetch_message(msg_id)
+            await msg.delete()
+            del local_events['ongoing'][event_id]
+
+    
+        self.save_data(local_events)
+
+
+    async def create_event_msg(self, event, channel: TextChannel):
+        """
+        creates an event message for the given event\n
+        returns the message's ID
+        """
+        embed = self.create_embed(event)
+        msg = await channel.send(embed=embed)
+        return msg.id
 
     
 
+    async def update_event_msg(self, event, msg_id, channel: TextChannel):
+        """
+        updates an event message for the given event
+        """
+        embed = self.create_embed(event)
+        msg = await channel.fetch_message(msg_id)
+        await msg.edit(embed=embed)
 
-        
+    def create_embed(self, event):
+        embed = Embed(title=f"{event['name']}",url=f"{event['link']}",color=0xf5e0d0)
+        embed.add_field(name='Type',value=f"{event['type']}")
+        embed.add_field(name='Status',value=f"{event['status']}")
+        embed.add_field(name='Start',value=f"{event['start']}")
+        embed.add_field(name='End',value=f"{event['end']}")
+        embed.add_field(name='Asia',value=f"{event['timestamp']['asia']}")
+        embed.add_field(name='EU',value=f"{event['timestamp']['eu']}")
+        embed.add_field(name='NA',value=f"{event['timestamp']['na']}")
+        embed.set_image(url=f"{event['img']}")
+        return embed
+    
+    def load_data(self):
+        with open('genshin_events_list.json','r') as f:
+            return json.load(f)
+    
+    def save_data(self, data):
+        with open('genshin_events_list.json', 'w') as f:
+            json.dump(data, f)
 
