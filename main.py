@@ -1,14 +1,16 @@
 import json
 import os 
+from json import load
 
 from asyncio import TimeoutError, sleep
-from random import random,choice
+from random import random,choice,seed, shuffle
 
 import nextcord as discord
+from nextcord import Webhook
 from nextcord.embeds import Embed
 from nextcord.ext import commands, tasks
-
-
+import time
+import aiohttp
 
 from base.lobby import Lobby
 from base.notifier import ResetNotifier
@@ -36,6 +38,89 @@ from core.paimon import Paimon
 # client: Bot and paimon: Paimon (subclass of Bot) are same
 pmon = Paimon(config_file="settings.json")
 client = pmon
+
+
+#
+#
+# load character names and icons for webhooks
+#
+#
+
+q_webhook  = 'https://discord.com/api/webhooks/930548828174700564/zZkZ1440x65TBI_Sv0dpXy6CjagLc46CobVO6NbwaYY8rvzn9TcDPrto47shkVudB3zt'
+webhook_data = {}
+webhook_quotes = {}
+
+with open(os.getcwd()+ '/assets/char_quotes.json', 'r') as f:
+    webhook_quotes = load(f)
+   
+
+with open(os.getcwd()+ '/assets/Information/characters.json', 'r') as f:
+    d = load(f)
+    for key in d:
+        if 'image' in d[key]:
+            image = d[key]['image']
+            portrait = [i for i in image if 'thumb' in i.lower()]
+            webhook_data[key] = image[0]
+            if bool(portrait):
+                webhook_data[key] = portrait[0]
+
+print(webhook_data)
+print(webhook_quotes)
+
+def random_webhook_character(goodmorning: bool, goodnight: bool):
+
+    if bool(webhook_data):
+        seed(time.perf_counter())
+        if goodnight:
+            good_night_quotes = {}
+            for i in webhook_data:
+                if i in webhook_quotes:
+                    quotes = webhook_quotes[i]
+                    for q in quotes:
+                        if 'good night' in q.lower():
+                            if i in good_night_quotes:
+    
+                                good_night_quotes[i].append(q) 
+                            else:
+                                good_night_quotes[i] = [q]
+
+            print('gn quotes', good_night_quotes)      
+            print(list(good_night_quotes.keys()))
+            chars = choice(list(good_night_quotes.keys()))
+            icon_url = webhook_data[chars]
+            quote = good_night_quotes[chars][0]
+            if len(good_night_quotes[chars]) > 1:
+                quote = choice(good_night_quotes[chars])
+            return chars, icon_url, quote
+
+        if goodmorning:
+            good_morning_quotes = {}
+            for i in webhook_data:
+                if i in webhook_quotes:
+                    quotes = webhook_quotes[i]
+                    for q in quotes:
+                        if 'good morning' in q.lower():
+                            if i in good_morning_quotes:
+
+                                good_morning_quotes[i].append(q) 
+                            else:
+                                good_morning_quotes[i] = [q]
+            
+            print('gm quotes', good_morning_quotes)    
+            chars = choice(list(good_morning_quotes.keys()))
+            icon_url = webhook_data[chars]
+            quote = good_morning_quotes[chars][0]
+
+            if len(good_morning_quotes[chars]) > 1:
+                quote = choice(good_morning_quotes[chars])
+            return chars, icon_url, quote
+
+        chars = choice(list(webhook_data.keys()))
+        icon_url = webhook_data[chars]
+        quote = choice(webhook_quotes[chars])
+        return chars, icon_url, quote
+    return None, None, None
+
 
 
 
@@ -88,6 +173,45 @@ async def resettime(ctx):
 async def on_message(message):
 
     if message.guild is not None:
+        
+        if message.channel.id == 926478421914173500:
+
+            if message.content.lower() == 'gn' or 'good night' == message.content.lower() or 'goodnight' == message.content.lower():
+
+                char, icon, quote = random_webhook_character(False, True)
+
+                if char == icon == quote:
+                    pass
+                else:
+
+                    async with aiohttp.ClientSession() as session:
+                        webhook = Webhook.from_url(q_webhook, session=session)
+                        await webhook.send(content=quote, username=char, avatar_url=icon)
+
+            if message.content.lower() == 'gm' or 'good morning' == message.content.lower() or 'goodmorning' == message.content.lower():
+    
+                char, icon, quote = random_webhook_character(True, False)
+
+                if char == icon == quote:
+                    pass
+                    
+                else:
+
+                    async with aiohttp.ClientSession() as session:
+                        webhook = Webhook.from_url(q_webhook, session=session)
+                        await webhook.send(content=quote, username=char, avatar_url=icon)
+            
+            if 'quote' == message.content:
+        
+                char, icon, quote = random_webhook_character(False, False)
+
+                if char == icon == quote:
+                    pass
+                else:
+                    async with aiohttp.ClientSession() as session:
+                        webhook = Webhook.from_url(q_webhook, session=session)
+                        await webhook.send(content=quote, username=char, avatar_url=icon)
+
         if message.channel.id == client.p_bot_config['leak_channel']:
 
             checks = ('http' in message.content or 'https' in message.content or len(message.embeds) != 0 or len(message.attachments) != 0 or message.webhook_id)

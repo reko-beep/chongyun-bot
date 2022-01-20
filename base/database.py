@@ -382,7 +382,7 @@ class GenshinDB():
         server = self.get_server_region(uid)
 
         if server:        
-            return f'{username} : Region **{server.capitalize()}** | UID {uid} linked!'
+            return f'{username} : Region **{server.upper()}** | UID {uid} linked!'
         else:
             return f'{username} : Region **Not Found** | UID {uid} linked!'
             

@@ -4,6 +4,10 @@ from os import listdir,mkdir, getcwd
 from bs4 import BeautifulSoup
 import requests
 from nextcord import Embed
+import random
+import time 
+from datetime import datetime, date
+from calendar import monthrange
 
 class GenshinInformation:
     def __init__(self) -> None:
@@ -250,20 +254,18 @@ class GenshinInformation:
                 else:
                     if '.png' in s:
                         images_.append(s)           
-        return images_
+        return [img for img in images_ if 'preview' not in img]
 
-    def save_daily_posts(self):
-        correct_path = self.path[:self.path.find(self.path.split('/')[-2])]
-        daily_posts = self.daily_posts('Genshin_Impact','OC')[:7] + [img for img in self.daily_posts('HuTao_Mains','OC Fanart') if 'preview' not in img][:7] + self.daily_posts('KeqingMains','Art')[:7]
-        print(correct_path, daily_posts)
-        with open(correct_path + '/genshin_reddit_posts.json', 'w') as f:
-            dump(daily_posts, f)
     
     def load_daily_posts(self):
         correct_path = self.path[:self.path.find(self.path.split('/')[-2])]
-        with open(correct_path + '/genshin_reddit_posts.json', 'r') as f:
+        with open(correct_path + '/wallpapers.json', 'r') as f:
             return load(f)
 
+    def search_list(self, dict, search):
+        for key in dict:
+            if search.lower() in key.lower():
+                return dict[key]
 
     def find_href(self, text):
         s = text.find("href")+len("href=")
@@ -272,9 +274,23 @@ class GenshinInformation:
         t_s_s_s = t_s[:t_s_s]
         return t_s_s_s                    
 
-    def embeds_daily_posts(self):
-        list_ = self.load_daily_posts()
+    def all_lists(self, dict):
+        lists =[]
+        for key in dict:
+            lists += dict[key]
+        return lists
 
+
+
+    def embeds_daily_posts(self, char: str = None):
+        
+        dict_ = self.load_daily_posts()
+        lists = self.all_lists(dict_)
+        if char is not None:
+            list_img = self.search_list(dict_, char)
+        random.seed(time.perf_counter())
+        random.shuffle(list_img)
+        list_ = random.sample(list_img,20)       
         embeds = {}
         for c,img in enumerate(list_,1):
             embed = Embed(title='Daily Genshin Post',color=0xf5e0d0)       
@@ -285,7 +301,62 @@ class GenshinInformation:
         return embeds 
 
 
+    def get_date(self, string, year):
+        
+        s = string.lower().split(' ')
+        months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+        month = months.index(s[0])+1
+        date_ = int(s[1][:-2]) if s[1][:-2].isdigit() else 1
+        return month, date_
 
+    def calculate_difference(self, from_, to, year):
+        
+        to_month, to_date = to
+        from_month, from_date = from_
+
+        days_diff = -1
+        if to_month == from_month:
+            days_diff = to_date- from_date
+        else:
+            if to_month > from_month:
+                ds = []
+                for m in range(from_month, to_month+1,1):
+
+                    days = monthrange(year, m)[1]
+                    ds.append(days)
+                ds[0] = ds[0] - from_date  
+                ds[-1] = to_date    
+                days_diff = sum(ds)
+        if days_diff < 0:
+            return None
+        return days_diff
+       
+
+    def get_bday(self, month, day):
+        current = datetime.now()
+        current_date = date(current.year, month, day)
+        with open(self.path+ '/characters.json','r') as f:
+            data = load(f)
+        bday_characters = []
+        bday_date = []
+        bday_difference = []
+        bday_thumb_links = []
+        for b in data:
+            if b != 'Traveler':
+                if 'birthday' in data[b]:
+                    m,d = self.get_date(data[b]['birthday'], current_date.year)            
+                    
+                    diff = self.calculate_difference((current_date.month, current_date.day), (m,d), current_date.year)
+                    if diff is not None:
+                        bday_characters.append(b)
+                        bday_thumb_links.append(data[b]['image'][-1])
+                        bday_date.append(data[b]['birthday'])
+                        bday_difference.append(diff)
+
+
+        bday_close = bday_difference.index(min(bday_difference))
+
+        return bday_characters[bday_close], bday_date[bday_close], bday_thumb_links[bday_close]
 
 
 

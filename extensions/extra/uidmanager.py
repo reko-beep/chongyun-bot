@@ -27,12 +27,15 @@ class UIDManager(commands.Cog):
 
     
     @commands.command(aliases=['glink'],description='glink (uid)\n Links the UID and Region with the user!')
-    async def genshinlink(self, ctx, uid=None):
-        author_id = str(ctx.author.id)
-
+    async def genshinlink(self, ctx, uid=None, member: Member = None):
+        d_member = ''
+        if member is None:
+            d_member = str(ctx.author.id)
+        else:
+            d_member = str(member.id)
         # show present uids
         if uid == None:
-            servers = self.db.get_servers(author_id)
+            servers = self.db.get_servers(d_member)
 
             if servers != None: # UIDs found.
                 description = ''
@@ -65,8 +68,8 @@ class UIDManager(commands.Cog):
        
         # add new uid
         else:
-            self.db.save_uid(author_id, int(uid))
-            linked_message = self.db.prettify_linked_message(ctx.author.display_name, int(uid))
+            self.db.save_uid(d_member, int(uid))
+            linked_message = self.db.prettify_linked_message(member.display_name, int(uid))
             embed = Embed(title='UID Linked!',
                         description=linked_message
                         ,color=0xf5e0d0)
