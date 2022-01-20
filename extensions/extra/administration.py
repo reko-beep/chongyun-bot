@@ -99,6 +99,30 @@ class Administration(commands.Cog):
             embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=['aprv'],description='aprv\n approves a member')
+    async def approve(self, ctx , member: Member= None):        
+        if member is not None:
+            check = await self.administration_handler.approve_member(ctx, member)
+            if check is True:
+                embed = Embed(title='Approved!', description=f'{member.display_name} approved.',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/qb0Zjiv.gif')
+                await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Administration Error!',description=f'Failed to approve member\n it may be due to perms!!',color=0xf5e0d0) 
+                embed.set_author(name=ctx.author.display_name,
+                                    icon_url=ctx.author.avatar.url)
+                embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Administration Error!',description=f'Please mention a member!',color=0xf5e0d0) 
+            embed.set_author(name=ctx.author.display_name,
+                                icon_url=ctx.author.avatar.url)
+            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
+            await ctx.send(embed=embed)
+
+
     @commands.command(aliases=['coopc'],description='coopc \nsets channel where people ask for help')
     async def coopchannel(self, ctx ):
         check = self.administration_handler.set_helper_channel(ctx, ctx.message.channel)

@@ -265,7 +265,7 @@ class GenshinGuides:
             if option_name == 'b':
                 main_heading_text = f"{self.options[option_name]['title']}"
                 title_text = ' '.join([name.title() for name in file_name[:file_name.find('dps')].split('_')])
-                if file_name.find('dps'):
+                if file_name.find('dps') != -1:
                     title_text += ' DPS'
             if option_name == 'as':
                 main_heading_text = f"{self.options[option_name]['title']}"

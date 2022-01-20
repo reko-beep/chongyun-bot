@@ -1,7 +1,9 @@
+from asyncio import events
 from typing import ItemsView, Text
 from nextcord.embeds import Embed
 from nextcord.errors import NotFound
-
+from os import getcwd
+from os.path import exists
 import requests
 from fetcher.main import Fetcher
 from bs4 import BeautifulSoup
@@ -39,10 +41,11 @@ class Events(Fetcher):
                     link = columns[0].find('a').attrs['href']
                     img = self.find_image(columns[0].find('img'))
                     datetime_obj = columns[1].attrs['data-sort-value']
-                    if len(self.extract_datetimes(datetime_obj)) != 0:
+                    if len(self.extract_datetimes(datetime_obj)) > 1 :
                         start, end = self.extract_datetimes(datetime_obj)
                     else:
-                        start, end = 'N/A','N/A'
+                        start = self.extract_datetimes(datetime_obj)[0]
+                        end = '2999-12-30 23:59:59'
                     type_ = columns[2].text.strip()
                     status, time_stamp = self.get_status(start, end)
                     events.append( {
@@ -68,17 +71,20 @@ class Events(Fetcher):
             status = start
             time_stamp = {'eu': 'N/A', 'asia': 'N/A', 'na': 'N/A'}
         else:
-            start_obj = datetime.strptime(f'{start} +0800', '%Y-%m-%d %H:%M:%S %z')
-            end_obj = datetime.strptime(f'{end} +0800', '%Y-%m-%d %H:%M:%S %z')
-            if current_time < start_obj:
-                status = 'Upcoming'
-                time_stamp = self.region_times(start_obj, end_obj, current_time)
-            if start_obj < current_time < end_obj:
-                status = 'Ongoing'
-                time_stamp = self.region_times(start_obj, end_obj, current_time)
-            if current_time > end_obj:
-                status = 'Ended'
-                time_stamp= self.region_times(start_obj, end_obj, current_time) 
+            if end != 'N/A':
+                start_obj = datetime.strptime(f'{start} +0800', '%Y-%m-%d %H:%M:%S %z')
+                end_obj = datetime.strptime(f'{end} +0800', '%Y-%m-%d %H:%M:%S %z')
+                if current_time < start_obj:
+                    status = 'Upcoming'
+                    time_stamp = self.region_times(start_obj, end_obj, current_time)
+                if start_obj < current_time < end_obj:
+                    status = 'Ongoing'
+                    time_stamp = self.region_times(start_obj, end_obj, current_time)
+                if current_time > end_obj:
+                    status = 'Ended'
+                    time_stamp= self.region_times(start_obj, end_obj, current_time) 
+            
+
 
         return status, time_stamp
             
@@ -122,60 +128,17 @@ class Events(Fetcher):
 
 
 
-    async def update_event_list(self, channel):
+    async def update_event_list(self, type_):
         local_events = self.load_data()
 
         # fetch events from upstream. (ongoing and upcoming)
-        upstream_ongoing_data = self.fetch_data('Current')
-        upstream_upcoming_data = self.fetch_data('Upcoming')
-        upstream_event_data = upstream_ongoing_data + upstream_upcoming_data
-      
-        upstream_ongoing = set([event['id'] for event in upstream_ongoing_data])
-        upstream_upcoming = set([event['id'] for event in upstream_upcoming_data])
-      
-
-        # filter new data
-        new_upcoming = upstream_upcoming - set(local_events['upcoming'].keys())
-
-        # send messages for new data
-        for event_id in new_upcoming:
-            event = next(filter(lambda edata: edata['id'] == event_id, upstream_event_data), None)
-            msg_id = await self.create_event_msg(event, channel)
-            local_events['upcoming'][event_id] = msg_id
-
-
-        # update messages for new data (upcoming > ongoing)
-        new_ongoing = upstream_ongoing - set(local_events['ongoing'].keys())
-        
-        for event_id in new_ongoing:
+        upstream_data = self.fetch_data(type_)             
+        embeds = []
+        for event in upstream_data:
+            embed = self.create_embed(event)
+            embeds.append(embed)
             
-            event = next(filter(lambda edata: edata['id'] == event_id, upstream_event_data), None)
-
-            try:
-                # new_ongoing event means its moved from upcoming to ongoing.
-                msg_id = local_events['upcoming'][event_id]
-                del local_events['upcoming'][event_id]
-                local_events['ongoing'][event_id] = msg_id
-
-                # edit message status from upcoming to ongoing
-                await self.update_event_msg(event, msg_id, channel)
-            
-            except Exception:
-                # keyerror implies first run, just populate the ongoing list.
-                msg_id = await self.create_event_msg(event, channel)
-                local_events['ongoing'][event_id] = msg_id  
-
-
-        # remove old ongoing data.
-        old_ongoing = set(local_events['ongoing'].keys()) - upstream_ongoing
-        for event_id in old_ongoing:
-            msg_id = local_events['ongoing'][event_id]
-            msg = await channel.fetch_message(msg_id)
-            await msg.delete()
-            del local_events['ongoing'][event_id]
-
-    
-        self.save_data(local_events)
+        return embeds
 
 
     async def create_event_msg(self, event, channel: TextChannel):
@@ -210,10 +173,13 @@ class Events(Fetcher):
         return embed
     
     def load_data(self):
-        with open('genshin_events_list.json','r') as f:
-            return json.load(f)
+        if exists(f'{getcwd()}/genshin_events_list.json'):
+            with open(f'{getcwd()}/genshin_events_list.json','r') as f:
+                return json.load(f)
+        return {'upcoming': {}, 'ongoing': {}}
     
     def save_data(self, data):
-        with open('genshin_events_list.json', 'w') as f:
+        
+        with open(f'{getcwd()}/genshin_events_list.json', 'w') as f:
             json.dump(data, f)
 

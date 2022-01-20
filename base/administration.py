@@ -149,10 +149,10 @@ class AdministrationBase:
 
     async def approve_member(self, ctx: Context, member: Member):
         if self.role_check(self.pmon.p_bot_config['mod_role'],[r.id for r in ctx.author.roles]):
-            if self.scrutiny_role is None:
-                self.scrutiny_role = get(self.pmon.guilds[0].roles,id=self.pmon.p_bot_config['approve_role'])
-            await member.edit(roles=[])
-            await member.add_roles(self.approve_role)
+            if self.approve_role is None:
+                self.approve_role = get(self.pmon.guilds[0].roles,id=self.pmon.p_bot_config['approve_role'])
+            print(self.approve_role)
+            await member.edit(roles=[self.approve_role])
             return True
 
     def add_questions(self, ctx: Context, question: str):

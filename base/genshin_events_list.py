@@ -3,11 +3,10 @@ import nextcord as discord
 from base.events import GenshinEvents
 import json
 from nextcord.ext import commands, tasks
-from nextcord import TextChannel,  Embed
+from nextcord import TextChannel
 from core.paimon import Paimon
 from util.logging import logc
 from fetcher.events import Events
-from extensions.views.base import EmbedView
 import os
 
 gevents = GenshinEvents()
@@ -20,55 +19,34 @@ def get_event(events, id):
 class GenshinEventsList(commands.Cog):
     def __init__(self, client: Paimon):
         self.client = client
-        self.pmon = client
         self.name = 'Events'
         self.description = 'Module to send the events ongoing or passed in game!'
         self.event_channel : TextChannel = None
         self.event_fetcher = Events()
-        self.events_list = []        
+        self.events_list = []
+        if os.path.exists('genshin_events_list.json'):
+            with open('genshin_events_list.json','r') as f:
+                self.events_list = json.load(f)
+        
 
     @commands.Cog.listener()
     async def on_message(self, message):
         if message.guild is not None:
             if self.event_channel is None:
                 self.event_channel = self.client.get_channel(self.client.p_bot_config['events_channel'])
-                print(self.event_channel)
-                #self.update_event_embeds.start()
+                self.update_event_embeds.start()
 
     # TODO: Make this a task too.
     # TODO: send a success/failure message acknowledging the command
-    '''
     @tasks.loop(hours=6)
     async def update_event_embeds(self):    
-        await self.event_fetcher.update_event_list(self.event_channel)
-    '''
-    
-    @commands.command()
-    async def events(self, ctx, type_: str):
-
-        types = ['Upcoming', 'Current', 'Permanent']
-        check = ''
-        for t in types:
-            if type_.lower() in t.lower():
-                check = t
-                break
-        print(t)
-        if check != '':
-            embeds = await self.event_fetcher.update_event_list(t)
-                
-            view = EmbedView(self.pmon, ctx, embeds, 0)
-
-            await ctx.send(embed=embeds[0], view=view)
-        
-        else:
-        
-            embed = Embed(title='Events Error', description='Please write an option from below\nPermanent\nUpcoming\nCurrent',color=0xf5e0d0) 
-            embed.set_thumbnail(url='https://i.imgur.com/QNKWJp2.gif')
-            await ctx.send(embed=embed)
-
-
-
-        
+        current = self.event_fetcher.fetch_data('Current')
+        self.events_list += await self.event_fetcher.map_ids_message(current, self.events_list, self.event_channel)
+               
+        upcoming = self.event_fetcher.fetch_data('Upcoming')
+        self.events_list = await self.event_fetcher.map_ids_message(upcoming, self.events_list, self.event_channel)
+        with open('genshin_events_list.json','w') as f:
+            json.dump(self.events_list,f)
         # todo: validate event channel id.
         '''
         if self.event_channel is not None:
