@@ -46,7 +46,7 @@ client = pmon
 #
 #
 
-q_webhook  = 'https://discord.com/api/webhooks/930548828174700564/zZkZ1440x65TBI_Sv0dpXy6CjagLc46CobVO6NbwaYY8rvzn9TcDPrto47shkVudB3zt'
+q_webhook  = 'webhook url'
 webhook_data = {}
 webhook_quotes = {}
 
