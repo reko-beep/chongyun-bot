@@ -3,16 +3,55 @@ from os.path import exists, isfile, join
 from os import listdir,mkdir, getcwd
 from bs4 import BeautifulSoup
 import requests
-from nextcord import Embed
+from nextcord import Embed, File, Role
+from nextcord.utils import get
 import random
 import time 
 from datetime import datetime, date
 from calendar import monthrange
+from PIL import Image, ImageDraw, ImageFont
+from io import BytesIO
 
 class GenshinInformation:
-    def __init__(self) -> None:
+    def __init__(self, pmon) -> None:
+        self.pmon = pmon
         self.path = f'{getcwd()}/assets/Information/'
+        self.bg_path = getcwd()+ '/assets/Backgrounds/'
+        self.thumb_path = getcwd()+ '/assets/Thumbnails/'
+        self.font_path = getcwd()+ '/assets/font.otf'
+        self.teamcomp_path = getcwd()+ '/assets/teampcomp.json'
+        self.teamcomp_data = {'data': []}
+        self.load_comps()
+
+
+    def load_comps(self):
+        if exists(self.teamcomp_path):
+            with open(self.teamcomp_path,'r') as f:
+                self.teamcomp_data = load(f)
+
+    def save_comp(self):
+        if exists(self.teamcomp_path):
+            with open(self.teamcomp_path,'w') as f:
+                dump(self.teamcomp_data,f,indent=1)
+
+
+    def search_comps(self, character_name: str):
+        comps = []
+        if len(self.teamcomp_data['data']) !=0:
+            for team_comp in self.teamcomp_data['data']:
+                for char in team_comp['chars']:
+                    c = list(char.keys())[0]
+                    if character_name.lower() in c.lower():
+                        if team_comp not in comps:
+                            comps.append(team_comp)
+            if len(comps) != 0:
+                return comps
+        else:
+            return None
+
     
+
+
     def get_options(self):
         '''
         options
@@ -299,6 +338,141 @@ class GenshinInformation:
         if len(embeds) == 0:
             embeds['Nothing Found'] = Embed(title='Nothing found',color=0xf5e0d0)    
         return embeds 
+
+
+    def load_thumbnail(self):
+        cards = {}
+        files = [self.thumb_path +'/'+ f for f in listdir(self.thumb_path) if isfile(self.thumb_path +'/'+ f)]
+        names = [f.split('.')[0] for f in files]
+        cards = dict(zip(names,files))
+        return cards
+
+    def find_thumbnail(self,cards_data, character_name: str):
+        for c_name in cards_data:
+            if character_name.lower() in c_name.lower():
+                return cards_data[c_name]
+
+    def random_bg(self):
+        return random.choice([self.bg_path +'/'+ f for f in listdir(self.bg_path) if isfile(self.bg_path +'/'+ f)])
+
+
+    def create_teamcomp_image(self,comp_title, chars):
+        main_bg = Image.open(self.random_bg(),'r').convert('RGBA')
+
+        title = comp_title
+        test_font = ImageFont.truetype(self.font_path,size=105)
+        ImageDraw.Draw(main_bg).text((main_bg.size[0]-test_font.getsize(title)[0]-30, 10), title,fill=(255,255,255,255), font=test_font)
+        chars = chars
+        chars_data = self.load_thumbnail()
+        start_w = main_bg.size[0] - (301*4)
+
+        role_font = ImageFont.truetype(self.font_path,size=30)
+        for char in chars:
+            char_key = list(char.keys())[0]
+            role = char[char_key]
+            char_image = self.find_thumbnail(chars_data, char_key)
+            print(char_key, char_image)
+            if char_image is not None:
+                img = Image.open(char_image,'r').convert('RGBA')
+                main_bg.paste(img, (start_w, main_bg.size[1]-256), img)
+                ImageDraw.Draw(main_bg).text((start_w+(role_font.getsize(role)[0]//2)+ 10, main_bg.size[1]-256-40), role, fill=(255,255,255,255), font=role_font)
+                start_w += 301
+
+        main_bg.show()
+        buffer = BytesIO()
+        main_bg.save(buffer,format='PNG')
+        buffer.seek(0)
+        return File(buffer, filename='image.png')
+
+    def set_comprole(self, role: Role):
+        self.pmon.p_bot_config['comprole'] = role.id
+        self.pmon.p_save_config('settings.json')
+        return True
+
+    def get_comprole(self):
+        if self.pmon.p_bot_config['comprole'] != 0:
+            return get(self.pmon.guilds[0].roles, id=self.pmon.p_bot_config['comprole'])
+        return None
+
+
+    def delete_comp(self, index_):
+        ind = self.teamcomp_data['data'].index(index_)
+        print(len(self.teamcomp_data['data'])-1, ind)
+        if len(self.teamcomp_data['data'])-1 >= ind:
+            print(self.teamcomp_data['data'])
+            self.teamcomp_data['data'].pop(ind)
+            print(self.teamcomp_data['data'])
+            self.save_comp()
+            return True
+
+
+    def create_comp(self, comp_name, comp_chars, comp_notes, owner):
+        prev_comp = ''
+        for comp in self.teamcomp_data['data']:
+            compare = ""
+            if '-' in comp['title']:
+                compare = comp['title'].split('-')[0]
+            else:
+                compare = comp['title']
+            if comp_name.lower() == compare.lower():
+                prev_comp = comp['title']        
+              
+        if prev_comp != '':
+            if '-' in prev_comp:
+                comp_name += "-"+str(int(prev_comp.split('-')[1])+1)
+            else:
+                comp_name += "-1"
+        base_char =  comp_chars.split(',')
+        chars = []
+        for base in base_char:
+            if ':' in base:
+                if len(base.split(":")) > 1:
+                    key = base.split(':')[0].strip().lower()
+                    value = base.split(':')[1].strip().lower()
+                    chars.append({key:value})
+                    
+                else:
+                    return None, None
+            else:
+                return None, None
+   
+
+        self.teamcomp_data['data'].append({
+            'title': comp_name,
+            'chars': chars,
+            'description': comp_notes,
+            'owner': owner.id
+
+
+        })
+        self.save_comp()
+        return True, {
+            'title': comp_name,
+            'chars': chars,
+            'description': comp_notes,
+            'owner': owner.id
+
+
+        }
+
+    def create_embed_comp(self, comp_dict):
+    
+        title = comp_dict['title']
+        chars = []
+        for char in comp_dict['chars']:
+            c = list(char.keys())[0]
+            chars.append(c.title())
+        owner_ = comp_dict.get('owner', None)
+        usr = None
+        if owner_ is not None:
+            usr = get(self.pmon.guilds[0].members, id=owner_)
+        desc = '\n'.join(chars)
+        embed = Embed(title=title, description=f"**Contributed by:** {usr}\n{comp_dict['description']}\n**Characters used in Team Composition**:\n{desc}", color=0x8241b4)
+        image = self.create_teamcomp_image(title, comp_dict['chars'])   
+        embed.set_image(url='attachment://image.png')
+        embed.set_footer(text='click on the image to enlarge')
+
+        return embed, image
 
 
     def get_date(self, string, year):

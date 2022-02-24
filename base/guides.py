@@ -110,7 +110,7 @@ class GenshinGuides:
                         session = requests.get(url)
                         path = self.images_path.format(base_path=self.path,character_name=character_name,type=self.options[type]['folder'])
                         name = build_type.replace(' ','_',99).lower()
-                        embed = Embed(title=f'Downloadin {option_text[type]} ..',color=0xf5e0d0) 
+                        embed = Embed(title=f'Downloading {option_text[type]} ..',color=0xf5e0d0) 
                         embed.set_image(url=url)
                         await message.edit(embed=embed)
                         if name[0] == '_':
@@ -264,9 +264,11 @@ class GenshinGuides:
         if option_name in self.options:
             if option_name == 'b':
                 main_heading_text = f"{self.options[option_name]['title']}"
-                title_text = ' '.join([name.title() for name in file_name[:file_name.find('dps')].split('_')])
-                if file_name.find('dps') != -1:
-                    title_text += ' DPS'
+                title_text = file_name.lower()
+                if 'dps' in file_name:
+                    title_text = title_text.title().replace('Dps', 'DPS',1).replace('_',' ',99)
+                else:
+                    title_text = title_text.title().replace('_',' ',99)
             if option_name == 'as':
                 main_heading_text = f"{self.options[option_name]['title']}"
                 title_text = ''

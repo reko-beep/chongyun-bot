@@ -9,10 +9,7 @@ from os import getcwd
 from json import load
 from core.paimon import Paimon
 
-from base.information import GenshinInformation
 
-
-information_handler = GenshinInformation()
 
 class NavigatableView(View):
     def __init__(self, user : Member, *, timeout: Optional[float] = 180):

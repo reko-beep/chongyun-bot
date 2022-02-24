@@ -1,0 +1,11 @@
+{
+ "discord_id": "497083777940717568",
+ "region": "eu",
+ "resin": 0,
+ "resin_cap": 160,
+ "start_time": "Thu Jan  6 14:51:07 2022",
+ "full_time": "Fri Jan  7 12:11:07 2022",
+ "start": false,
+ "full": "/root/paimon/assets/resin_full.png",
+ "empty": "/root/paimon/assets/resin_empty.png"
+}

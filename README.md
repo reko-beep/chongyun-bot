@@ -6,69 +6,63 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 
+![END](https://emoji.gg/assets/emoji/1235-paimon-cry.png)
 
-Paimon bot mainly created for discord community of Pakistan Genshin Impact server, but now being built for self hosting noe, you are free to use it, if you want!
-it contains
+Paimon bot was mainly created for discord community of Pakistan Genshin Impact server, to cater the needs of genshin players there.
 
-    🔸 Paimon soundboard! (sounds provided)
-    🔸 Support for build and ascension commands (you need to add yours own in the respective folder)
-    🔸 Paimon quotes (taken from paimonquotes twitter handle!)
-    🔸 Quests with chapters and acts. (Guides taken from Genshin Impact fandom page!)
-    🔸 An anime command, cuz felt the need for server.
-    🔸 Shows genshin stats from hoyolab (api wrapper by thesadru on github)
- 
- TOBEADDED | FUTURE IDEAS:
-     Wish History
-     Users custom builds creator.
-     Build Notes.
+### Bot is Discontinued 
+
+    The reason being, I got busy in real life stuff and I cannot manage it.
+
+    you are free to fork and customise this.
+
+# Features
+
+    🧡 Ability to add **Builds** | **Ascension** to bot.
+    🧡 Resin Reminder
+    🧡 Domain Schedule
+    🧡 Fetch basic information of characters and weapons , artifacts along with their ascension.
+    🧡 Quests Walkthrough
+    🧡 Co-op system with a leaderboard.
+    🧡 Fishing Points
+    🧡 Wish history [It can fetch wish history and save it, tho code in base/wishhistory.py might be obselete after 2 concurrent banners]
+    🧡 Team comps
+    🧡 Voicelines of characters
+    🧡 Saving Transaction logs or primogems etc
+    🧡 OSTS and some more...
+
+# Teamcomps
+
+    Files in : 
+
+        > /assets/teamcomps.json
+     Change the owner id from 0 to a discord ID of user for first startup
      
-     
+    Images in :
+
+        > /assets/thumbnails/
+     are used to create images on the fly
+
+    
+    
+
+# Updating database
+
+    Scripts are provided in :
+
+        > /database_maintainer/
+    
+    They scrape data from genshin fandom to be used by bot.
+
+    See examples.py for quick run.
+
+
 # Setting up the bot
  
  Change the **settings.json** file according to your needs!
+ Basic hints are given there, on how to set up the bot for first run!
 
- **announce_channel** is where paimon bot will make announcements!
-
-
-**announcement.json** is file containing a sample announcement, it will post that announcement in announcement channel, when the bot starts!
-setting **announce** to **true** will post the announcement if bot is restarted, and **false** will not.
-
- **dropuid_channel** is the one where users will post their uids along with region, so bot will automatically link it.
-
- Linking Format:
- ```
- eu: uid
- asia: uid
- na: uid 
- ```
-****
-   
-  **ltoken** required for genshin stats.
-  **ltuid** required for genshin stats.
-
-
- **bump_channel** is the one where disboard bump commands will be, so bot can respond to the successful bump!
-
-    NOTE: if you want to disable it just change it to 0.
-
- **events_channel** is the one where bot will post upcoming genshin impact events!
-
-    NOTE: if you want to disable it just change it to 0.
-
- **approve_role** is the role given, when user has verified!
-
- **scrutiny_role** is the role which would be given to a new user, if scrutiny is turned on.
-
- **verify_channel** is the channel where paimon will post a sample of question which you want to ask!
-
-
-    NOTE: change it in on_member_join function!
-
- **mod_role** is the role for mod commands! like scrutiny.
-
- **lobbycreatevc** is the voice channel which will create custom lobbies when a user joins it.
-
-    NOTE: if you want to disable it just change it to 0.
+ If you need any help, drop a message at reko#2564.
 
 
 # How can I get my cookies?

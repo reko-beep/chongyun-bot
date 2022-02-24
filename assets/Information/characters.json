@@ -8,7 +8,6 @@
   ],
   "element": "Geo",
   "weapon": "Sword",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -20,7 +19,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "December 23, 2020",
+  "releaseDate": "December 23, 202013\u00a0months ago",
   "dish": "Woodland Dream",
   "parents": [
    "Rhinedottir"
@@ -235,7 +234,6 @@
   ],
   "element": "Cryo",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -243,7 +241,7 @@
   ],
   "birthday": "April 4th",
   "affiliation": [],
-  "releaseDate": "September 01, 2021",
+  "releaseDate": "September 01, 20215\u00a0months ago",
   "dish": "Satiety Gel",
   "obtain": [
    "[1]"
@@ -454,7 +452,6 @@
   ],
   "element": "Pyro",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -466,7 +463,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Outrider's Champion Steak!",
   "obtain": [
    "Winds of the Past",
@@ -679,7 +676,6 @@
   ],
   "element": "Geo",
   "weapon": "Claymore",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -692,7 +688,7 @@
    "Arataki Gang",
    "Oni"
   ],
-  "releaseDate": "December 14, 202124\u00a0days ago",
+  "releaseDate": "December 14, 20212\u00a0months ago",
   "dish": "Way of the Strong",
   "obtain": [
    "Event Wish - Oni's Royale"
@@ -903,7 +899,6 @@
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -914,7 +909,7 @@
   "affiliation": [
    "Church of Favonius"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Spicy Stew",
   "parents": [
    "Frederica Gunnhildr",
@@ -1135,7 +1130,6 @@
   ],
   "element": "Electro",
   "weapon": "Claymore",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -1147,7 +1141,7 @@
    "The Crux",
    "Crux Fleet"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Flash-Fried Filet",
   "obtain": [
    "Wishes",
@@ -1359,7 +1353,6 @@
   ],
   "element": "Pyro",
   "weapon": "Sword",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -1368,9 +1361,10 @@
   "birthday": "February 29th",
   "region": "Mondstadt",
   "affiliation": [
-   "Adventurers' Guild"
+   "Adventurers' Guild",
+   "Benny's Adventure Team"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Teyvat Charred Egg",
   "obtain": [
    "Wishes",
@@ -1582,7 +1576,6 @@
   ],
   "element": "Cryo",
   "weapon": "Claymore",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -1593,7 +1586,7 @@
   "affiliation": [
    "Liyue Harbor"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Cold Noodles with Mountain Delicacies",
   "obtain": [
    "Wishes"
@@ -1804,7 +1797,6 @@
   ],
   "element": "Pyro",
   "weapon": "Claymore",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -1817,7 +1809,7 @@
    "Dawn Winery",
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 2020",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "\"Once Upon a Time in Mondstadt\"",
   "parents": [
    "Crepus Ragnvindr"
@@ -2035,7 +2027,6 @@
   ],
   "element": "Cryo",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -2047,7 +2038,7 @@
    "Cat's Tail",
    "K\u00e4tzlein Bloodline"
   ],
-  "releaseDate": "November 11, 2020",
+  "releaseDate": "November 11, 202015\u00a0months ago",
   "dish": "Definitely Not Bar Food!",
   "parents": [
    "Draff"
@@ -2264,7 +2255,6 @@
   ],
   "element": "Cryo",
   "weapon": "Claymore",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -2277,7 +2267,7 @@
    "Knights of Favonius",
    "Lawrence Clan"
   ],
-  "releaseDate": "May 18, 2021",
+  "releaseDate": "May 18, 20218\u00a0months ago",
   "dish": "Stormcrest Pie",
   "obtain": [
    "Event Wish - Born of Ocean Swell"
@@ -2491,7 +2481,6 @@
   ],
   "element": "Electro",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -2502,7 +2491,7 @@
   "affiliation": [
    "Adventurers' Guild"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Die Heilige Sinfonie",
   "obtain": [
    "Wishes",
@@ -2714,7 +2703,6 @@
   ],
   "element": "Cryo",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -2728,7 +2716,7 @@
    "Liyue Qixing",
    "Adepti"
   ],
-  "releaseDate": "January 12, 202111\u00a0months ago",
+  "releaseDate": "January 12, 202113\u00a0months ago",
   "dish": "Prosperous Peace",
   "obtain": [
    "Event Wish - Adrift in the Harbor"
@@ -2939,7 +2927,6 @@
   ],
   "element": "Geo",
   "weapon": "Bow",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -2950,7 +2937,7 @@
   "affiliation": [
    "Watatsumi Army"
   ],
-  "releaseDate": "December 14, 202126\u00a0days ago",
+  "releaseDate": "December 14, 20212\u00a0months ago",
   "dish": "Victorious Legend",
   "obtain": [
    "Wishes"
@@ -3161,7 +3148,6 @@
   ],
   "element": "Pyro",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -3174,7 +3160,7 @@
    "Wangsheng Funeral Parlor",
    "Hu Family"
   ],
-  "releaseDate": "March 02, 202110\u00a0months ago",
+  "releaseDate": "March 02, 202111\u00a0months ago",
   "dish": "Ghostly March",
   "obtain": [
    "Event Wish - Moment of Bloom"
@@ -3388,7 +3374,6 @@
   ],
   "element": "Anemo",
   "weapon": "Sword",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -3402,7 +3387,7 @@
    "Four Winds",
    "Gunnhildr Clan"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Invigorating Pizza",
   "parents": [
    "Frederica Gunnhildr",
@@ -3621,7 +3606,6 @@
   ],
   "element": "Anemo",
   "weapon": "Sword",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -3633,7 +3617,7 @@
    "The Crux",
    "Crux Fleet"
   ],
-  "releaseDate": "June 29, 20216\u00a0months ago",
+  "releaseDate": "June 29, 20217\u00a0months ago",
   "dish": "All-Weather Beauty",
   "obtain": [
    "Event Wish - Leaves in the Wind"
@@ -3847,7 +3831,6 @@
   ],
   "element": "Cryo",
   "weapon": "Sword",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -3860,7 +3843,7 @@
    "Knights of Favonius",
    "Khaenri'ah"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Fruity Skewers",
   "parents": [
    "Crepus",
@@ -4078,7 +4061,6 @@
   ],
   "element": "Cryo",
   "weapon": "Sword",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -4091,7 +4073,7 @@
    "Yashiro Commission",
    "Kamisato Clan"
   ],
-  "releaseDate": "July 21, 20215\u00a0months ago",
+  "releaseDate": "July 21, 20216\u00a0months ago",
   "dish": "\"Snow on the Hearth\"",
   "parents": [
    "Kamisato Kayo"
@@ -4314,7 +4296,6 @@
   ],
   "element": "Electro",
   "weapon": "Sword",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -4325,7 +4306,7 @@
   "affiliation": [
    "Liyue Qixing"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Survival Grilled Fish",
   "obtain": [
    "Wishes"
@@ -4536,7 +4517,6 @@
   ],
   "element": "Pyro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -4548,7 +4528,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "October 20, 202014\u00a0months ago",
+  "releaseDate": "October 20, 202015\u00a0months ago",
   "dish": "Fish-Flavored Toast",
   "parents": [
    "Alice"
@@ -4762,7 +4742,6 @@
   ],
   "element": "Electro",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -4774,7 +4753,7 @@
    "Tenryou Commission",
    "Tengu"
   ],
-  "releaseDate": "September 01, 20214\u00a0months ago",
+  "releaseDate": "September 01, 20215\u00a0months ago",
   "dish": "Faith Eternal",
   "parents": [
    "Kujou Takayuki"
@@ -4992,7 +4971,6 @@
   ],
   "element": "Electro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -5005,7 +4983,7 @@
    "Knights of Favonius",
    "Sumeru Academia"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Mysterious Bolognese",
   "obtain": [
    "Sparks Amongst the Pages",
@@ -5218,7 +5196,6 @@
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -5231,7 +5208,7 @@
    "Hexenzirkel",
    "The Steambird"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Der Weisheit Letzter Schluss (Life)",
   "obtain": [
    "Wishes"
@@ -5447,7 +5424,6 @@
   ],
   "element": "Geo",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -5458,7 +5434,7 @@
   "affiliation": [
    "Liyue Qixing"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Qiankun Mora Meat",
   "obtain": [
    "Wishes",
@@ -5670,7 +5646,6 @@
   ],
   "element": "Geo",
   "weapon": "Claymore",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -5681,7 +5656,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Lighter-Than-Air Pancake",
   "obtain": [
    "Wishes",
@@ -5893,7 +5868,6 @@
   ],
   "element": "Cryo",
   "weapon": "Sword",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -5905,7 +5879,7 @@
    "Bubu Pharmacy",
    "Adepti"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "No Tomorrow",
   "obtain": [
    "Wishes"
@@ -6116,7 +6090,6 @@
   ],
   "element": "Electro",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -6130,7 +6103,7 @@
    "Inazuma Shogunate",
    "Archons"
   ],
-  "releaseDate": "September 01, 20214\u00a0months ago",
+  "releaseDate": "September 01, 20215\u00a0months ago",
   "dish": "None",
   "obtain": [
    "Event Wish - Reign of Serenity"
@@ -6341,7 +6314,6 @@
   ],
   "element": "Electro",
   "weapon": "Claymore",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -6354,7 +6326,7 @@
    "Wolvendom",
    "Andrius"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Puppy-Paw Hash Brown",
   "obtain": [
    "Wishes",
@@ -6566,7 +6538,6 @@
   ],
   "element": "Cryo",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -6577,7 +6548,7 @@
   "affiliation": [
    "Church of Favonius"
   ],
-  "releaseDate": "April 06, 20219\u00a0months ago",
+  "releaseDate": "April 06, 202110\u00a0months ago",
   "dish": "Dinner of Judgment",
   "obtain": [
    "Wishes"
@@ -6788,7 +6759,6 @@
   ],
   "element": "Hydro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -6802,7 +6772,7 @@
    "Sangonomiya Clan",
    "Watatsumi Army"
   ],
-  "releaseDate": "September 21, 20213\u00a0months ago",
+  "releaseDate": "September 21, 20214\u00a0months ago",
   "dish": "A Stunning Stratagem",
   "obtain": [
    "Event Wish - Drifting Luminescence"
@@ -7021,7 +6991,6 @@
   ],
   "element": "Anemo",
   "weapon": "Claymore",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -7032,7 +7001,7 @@
   "affiliation": [
    "Shuumatsuban"
   ],
-  "releaseDate": "August 10, 20214\u00a0months ago",
+  "releaseDate": "August 10, 20216\u00a0months ago",
   "dish": "Dizziness-Be-Gone no Jutsu Version 2.0",
   "obtain": [
    "Wishes"
@@ -7243,7 +7212,6 @@
   ],
   "element": "Cryo",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -7254,7 +7222,7 @@
   "affiliation": [
    "Liyue Harbor"
   ],
-  "releaseDate": "January 05, 20224\u00a0days ago",
+  "releaseDate": "January 05, 202242\u00a0days ago",
   "dish": "Heartstring Noodles",
   "obtain": [
    "Event Wish - The Transcendent One Returns"
@@ -7267,7 +7235,7 @@
    },
    "2": {
     "name": "Centered Spirit",
-    "effect": "Divine Maiden's Deliverance lasts for 6 seconds longer. Active characters within the skill's field deals 15% increased Cryo CRIT DMG.",
+    "effect": "Divine Maiden's Deliverance lasts for 6 seconds longer.Active characters within the skill's field deals [sic] 15% increased Cryo CRIT DMG.",
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Constellation_Centered_Spirit.png"
    },
    "3": {
@@ -7282,7 +7250,7 @@
    },
    "5": {
     "name": "Divine Attainment",
-    "effect": "Increases the Level of Divine Maiden's Deliverance by 3. Maximum upgrade level is 15.",
+    "effect": "Increases the Level of Divine Maiden's Deliverance by 3.Maximum upgrade level is 15.",
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Constellation_Divine_Attainment.png"
    },
    "6": {
@@ -7465,7 +7433,6 @@
   ],
   "element": "Anemo",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -7476,7 +7443,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Nutritious Meal (V.593)",
   "obtain": [
    "Wishes"
@@ -7687,7 +7654,6 @@
   ],
   "element": "Hydro",
   "weapon": "Bow",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -7697,10 +7663,10 @@
   "birthday": "July 20th",
   "region": "Snezhnaya",
   "affiliation": [
-   "The Fatui",
+   "Fatui",
    "Eleven Fatui Harbingers"
   ],
-  "releaseDate": "November 11, 202013\u00a0months ago",
+  "releaseDate": "November 11, 202015\u00a0months ago",
   "dish": "A Prize Catch",
   "obtain": [
    "Event Wish - Farewell of Snezhnaya"
@@ -7912,7 +7878,6 @@
   ],
   "element": "Pyro",
   "weapon": "Polearm",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -7924,7 +7889,7 @@
    "Yashiro Commission",
    "Kamisato Clan"
   ],
-  "releaseDate": "November 02, 20212\u00a0months ago",
+  "releaseDate": "November 02, 20213\u00a0months ago",
   "dish": "\"Warmth\"",
   "obtain": [
    "Wishes"
@@ -8138,7 +8103,6 @@
   ],
   "element": "Adaptive",
   "weapon": "Sword",
-  "sex": "Player's Choice",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -8146,7 +8110,7 @@
    "Viatrix"
   ],
   "birthday": "Player's Choice",
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "siblings": "Traveler's Sibling",
   "constellations": {
    "1": {
@@ -8329,7 +8293,6 @@
   ],
   "element": "Anemo",
   "weapon": "Bow",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -8342,7 +8305,7 @@
    "City of Mondstadt",
    "Archons"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "A Buoyant Breeze",
   "obtain": [
    "Event Wish - Ballad in Goblets"
@@ -8553,7 +8516,6 @@
   ],
   "element": "Pyro",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -8566,7 +8528,7 @@
    "Wanmin Restaurant",
    "Crux Fleet"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "Wanmin Restaurant's Boiled Fish",
   "parents": [
    "Chef Mao"
@@ -8782,7 +8744,6 @@
   ],
   "element": "Anemo",
   "weapon": "Polearm",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -8795,7 +8756,7 @@
    "Adepti",
    "Yaksha"
   ],
-  "releaseDate": "February 03, 202111\u00a0months ago",
+  "releaseDate": "February 03, 202112\u00a0months ago",
   "dish": "\"Sweet Dream\"",
   "obtain": [
    "Event Wish - Invitation to Mundane Life"
@@ -9006,7 +8967,6 @@
   ],
   "element": "Hydro",
   "weapon": "Sword",
-  "sex": "Male",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -9019,7 +8979,7 @@
    "Feiyun Commerce Guild",
    "Guhua Clan"
   ],
-  "releaseDate": "September 28, 202015\u00a0months ago",
+  "releaseDate": "September 28, 202016\u00a0months ago",
   "dish": "All-Delicacy Parcels",
   "obtain": [
    "Wishes",
@@ -9231,7 +9191,6 @@
   ],
   "element": "Pyro",
   "weapon": "Claymore",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -9242,7 +9201,7 @@
   "affiliation": [
    "Liyue Harbor"
   ],
-  "releaseDate": "December 01, 202013\u00a0months ago",
+  "releaseDate": "December 01, 202014\u00a0months ago",
   "dish": "Rockin' Riffin' Chicken!",
   "obtain": [
    "Wishes"
@@ -9444,6 +9403,233 @@
   "description": "Rock 'n' roll is an avant-garde art in Liyue Harbor and Xinyan is the pioneer in this field.She rebels against ossified prejudices, using her music and passionate singing to awaken dazed souls fatigued by worldly matters.If you get the chance, do not miss out on her next performance!Description from the Official Website[1]",
   "nation": "Liyue"
  },
+ "Yae Miko": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Yae_Miko_Card.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Yae_Miko_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Yae_Miko_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Yae_Miko_Thumb.png"
+  ],
+  "element": "Electro",
+  "weapon": "Catalyst",
+  "rarity": 5,
+  "constellation": [
+   "Constellation",
+   "Divina Vulpes",
+   "Story Quest Chapter"
+  ],
+  "birthday": "June 27th",
+  "region": "Inazuma",
+  "affiliation": [
+   "Grand Narukami Shrine",
+   "Yae Publishing House",
+   "Youkai"
+  ],
+  "releaseDate": "February 16, 202220\u00a0hours ago",
+  "dish": "Fukuuchi Udon",
+  "obtain": [
+   "Event Wish - Everbloom Violet"
+  ],
+  "ancestry": [
+   "Hakushin Clan"
+  ],
+  "constellations": {
+   "1": {
+    "name": "Yakan Offering",
+    "effect": "Each time Great Secret Art: Tenko Kenshin activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Constellation_Yakan_Offering.png"
+   },
+   "2": {
+    "name": "Fox's Mooncall",
+    "effect": "Sesshou Sakura start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Constellation_Fox%27s_Mooncall.png"
+   },
+   "3": {
+    "name": "The Seven Glamours",
+    "effect": "Increases the Level of Yakan Evocation: Sesshou Sakura by 3.Maximum ugprade level is 15.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Constellation_The_Seven_Glamours.png"
+   },
+   "4": {
+    "name": "Sakura Channeling",
+    "effect": "When Sesshou Sakura lightning hits opponents, the Electro DMG Bonus of all nearby party members is increased by 20% for 5s.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Constellation_Sakura_Channeling.png"
+   },
+   "5": {
+    "name": "Mischievous Teasing",
+    "effect": "Increases the Level of Great Secret Art: Tenko Kenshin by 3.Maximum upgrade level is 15.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Constellation_Mischievous_Teasing.png"
+   },
+   "6": {
+    "name": "Forbidden Art: Daisesshou",
+    "effect": "The Sesshou Sakura's attacks will ignore 60% of the opponent's DEF.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Constellation_Forbidden_Art_Daisesshou.png"
+   }
+  },
+  "talents": [
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Talent_Spiritfox_Sin-Eater.png",
+    "name": "Spiritfox Sin-Eater",
+    "type": "Normal Attack"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Talent_Yakan_Evocation_Sesshou_Sakura.png",
+    "name": "Yakan Evocation: Sesshou Sakura",
+    "type": "Elemental Skill"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Talent_Great_Secret_Art_Tenko_Kenshin.png",
+    "name": "Great Secret Art: Tenko Kenshin",
+    "type": "Elemental Burst"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Talent_The_Shrine%27s_Sacred_Shade.png",
+    "name": "The Shrine's Sacred Shade",
+    "type": "1st Ascension Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Talent_Enlightened_Blessing.png",
+    "name": "Enlightened Blessing",
+    "type": "4th Ascension Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Talent_Meditations_of_a_Yako.png",
+    "name": "Meditations of a Yako",
+    "type": "Utility Passive"
+   }
+  ],
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Vajrada Amethyst Sliver",
+     "amount": "1"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "3"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "40,000"
+    },
+    {
+     "name": "Vajrada Amethyst Fragment",
+     "amount": "3"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "2"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "10"
+    },
+    {
+     "name": "Old Handguard",
+     "amount": "15"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "60,000"
+    },
+    {
+     "name": "Vajrada Amethyst Fragment",
+     "amount": "6"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "4"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "20"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "12"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "80,000"
+    },
+    {
+     "name": "Vajrada Amethyst Chunk",
+     "amount": "3"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "8"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "30"
+    },
+    {
+     "name": "Kageuchi Handguard",
+     "amount": "18"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "100,000"
+    },
+    {
+     "name": "Vajrada Amethyst Chunk",
+     "amount": "6"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "12"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "45"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "12"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "120,000"
+    },
+    {
+     "name": "Vajrada Amethyst Gemstone",
+     "amount": "6"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "20"
+    },
+    {
+     "name": "Sea Ganoderma",
+     "amount": "60"
+    },
+    {
+     "name": "Famed Handguard",
+     "amount": "24"
+    }
+   ]
+  },
+  "description": "The head shrine maiden in charge of Grand Narukami Shrine and a descendant of Kitsune lineage, Eternity's servant and friend, and the intimidating editor-in-chief of Yae Publishing House, a publisher of light novels...Description from the Official Website[1]",
+  "nation": "Inazuma"
+ },
  "Yanfei": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Character_Yanfei_Card.png",
@@ -9453,7 +9639,6 @@
   ],
   "element": "Pyro",
   "weapon": "Catalyst",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -9465,7 +9650,7 @@
    "Liyue Harbor",
    "Adepti"
   ],
-  "releaseDate": "April 28, 20218\u00a0months ago",
+  "releaseDate": "April 28, 20219\u00a0months ago",
   "dish": "\"My Way\"",
   "obtain": [
    "Wishes"
@@ -9676,7 +9861,6 @@
   ],
   "element": "Pyro",
   "weapon": "Bow",
-  "sex": "Female",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -9688,7 +9872,7 @@
   "affiliation": [
    "Naganohara Fireworks"
   ],
-  "releaseDate": "August 10, 20214\u00a0months ago",
+  "releaseDate": "August 10, 20216\u00a0months ago",
   "dish": "Summer Festival Fish",
   "parents": [
    "Naganohara Ryuunosuke"
@@ -9905,7 +10089,6 @@
   ],
   "element": "Geo",
   "weapon": "Polearm",
-  "sex": "Female",
   "rarity": 4,
   "constellation": [
    "Constellation",
@@ -9915,9 +10098,10 @@
   "region": "Liyue",
   "affiliation": [
    "Yun-Han Opera Troupe",
-   "Heyu Tea House"
+   "Heyu Tea House",
+   "Yun Family"
   ],
-  "releaseDate": "January 05, 20223\u00a0days ago",
+  "releaseDate": "January 05, 202242\u00a0days ago",
   "dish": "Cloud-Shrouded Jade",
   "obtain": [
    "Wishes"
@@ -10119,7 +10303,7 @@
     }
    ]
   },
-  "description": "One performance by Yun Jin at our tea house rakes in enough Mora that we won't have to open for a whole month!Fan Er'ye of Heyu Tea House",
+  "description": "The current director of the Yun-Han Opera Troupe, a renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.Description from the Official Website",
   "nation": "Liyue"
  },
  "Zhongli": {
@@ -10131,7 +10315,6 @@
   ],
   "element": "Geo",
   "weapon": "Polearm",
-  "sex": "Male",
   "rarity": 5,
   "constellation": [
    "Constellation",
@@ -10146,7 +10329,7 @@
    "Archons",
    "Adepti"
   ],
-  "releaseDate": "December 01, 202013\u00a0months ago",
+  "releaseDate": "December 01, 202014\u00a0months ago",
   "dish": "Slow-Cooked Bamboo Shoot Soup",
   "obtain": [
    "Event Wish - Gentry of Hermitage"
@@ -10355,7 +10538,6 @@
    "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Dainsleif_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Character_Dainsleif_Thumb.png"
   ],
-  "sex": "Male",
   "constellation": [
    "Constellation"
   ],
@@ -10367,30 +10549,32 @@
   "rarity": 0,
   "weapon": ""
  },
- "Yae Miko": {
-  "image": [
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Yae_Miko_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Yae_Miko_Game.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Yae_Miko_Thumb.png"
-  ],
-  "sex": "Female",
+ "Kamisato Ayato": {
   "constellation": [
    "Constellation",
-   "Divina Vulpes"
+   "Cypressus Custos"
   ],
   "region": "Inazuma",
   "affiliation": [
-   "Grand Narukami Shrine",
-   "Yae Publishing House"
+   "Kamisato Clan",
+   "Yashiro Commission",
+   "Shuumatsuban"
   ],
+  "parents": [
+   "Kamisato Kayo"
+  ],
+  "siblings": "Kamisato Ayaka (Sister)",
   "ancestry": [
-   "Hakushin Clan"
+   "Kamisato Clan"
   ],
   "constellations": {},
   "talents": [],
-  "description": "\"I have witnessed the Kitsune's majesty in the moonlit forest. She has a myriad of forms, revealing the unknown and the unseen... just as how fate shines on me and the endless world.\"Raiden Ei",
+  "description": "The game of politics is fraught with peril. Saying too little is not good, but saying too much is also bad. But don't get me wrong, my Lord does not take any joy in these 'battles.' For him, it's just... a matter of duty.Thoma",
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Character_Kamisato_Ayato_Thumb.png"
+  ],
   "nation": "Inazuma",
-  "element": "Electro",
+  "element": "Hydro",
   "rarity": 0,
   "weapon": ""
  }
