@@ -208,17 +208,19 @@ class AddImageOption(Select):
                 await message_.channel.send(content='Sorry you didnot respond within 30 seconds')  
         else:
             type_ = msg.content
-            await message_.channel.send(content='Please provide the link to image below!')             
+            _ = await message_.channel.send(content='Please provide the link to image below!')             
             try:
                 def check(m):
                     return m.author == user and m.channel.id == message_.channel.id
                 msg_ = await self.pmon.wait_for('message', check=check, timeout=30)
+
             except TimeoutError:
                 await message_.channel.send(content='Sorry you didnot respond within 30 seconds')  
             else:
                 url = msg_.content
                 if len(msg.attachments) != 0:
-                    url = msg.attachments[0].url                
+                    url = msg.attachments[0].url  
+                await _.delete()              
                 await self.guide_handler.add_build(character,self.type_show,url,type_, message_)
                 await msg_.delete()
 
@@ -230,13 +232,13 @@ class AddImageOption(Select):
         if interaction.user == self.user:
             if self.values[0] == 'Previous':             
                 view = NavigatableView(self.user)
-                view.add_item(BuildOptions(self.pmon,self.guide_handler,self.user,self.page-1))   
+                view.add_item(AddImageOption(self.pmon,self.guide_handler,self.type_show, self.user,self.page-1))   
                 await interaction.message.edit('Please select a character from below?',view=view)
             else:
 
                 if self.values[0] == 'Next':         
                     view = NavigatableView(self.user)
-                    view.add_item(BuildOptions(self.pmon,self.guide_handler,self.user,self.page+1))   
+                    view.add_item(AddImageOption(self.pmon,self.guide_handler,self.type_show, self.user,self.page+1))   
                     await interaction.message.edit(content='Please select a character from below?',view=view)                            
                 else:  
                     character = self.values[0]

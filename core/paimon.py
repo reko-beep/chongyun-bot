@@ -1,7 +1,7 @@
 import json
 
 from nextcord.ext.commands import Bot
-
+from nextcord import Embed
 
 from nextcord.ext import commands
 from nextcord.flags import Intents
@@ -76,6 +76,12 @@ class Paimon(Bot):
         @self.event
         async def on_ready():
             """runs when bot is logged in and ready"""
+            channel = self.get_channel(889199652862316574)
+   
+    
+    
+            await channel.send('If some one is willing to host the paimon bot, latest revision of code will available at\nhttps://github.com/reko-beep/paimon-bot\n in about 1hour.!')
+            
            
             logc("Authentication Successful...")
             self.p_load_core_extensions()

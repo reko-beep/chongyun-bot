@@ -5,13 +5,12 @@ from nextcord.mentions import AllowedMentions
 from nextcord.ui import Select,View,Button,button
 from nextcord import SelectOption, Interaction,InteractionMessage, SelectMenu, Member
 from nextcord.errors import NotFound
+from base.information import GenshinInformation
 
 from core.paimon import Paimon
 
-from base.information import GenshinInformation
 
 
-information_handler = GenshinInformation()
 
 class NavigatableView(View):
     def __init__(self, user : Member, *, timeout: Optional[float] = 180):
@@ -25,18 +24,18 @@ class NavigatableView(View):
         self.stop()
 
 class AllList(Select):
-    def __init__(self,pmon: Paimon, option: str, user : Member,page: int= 1):
+    def __init__(self,pmon: Paimon, inf_handler: GenshinInformation, option: str, user : Member,page: int= 1):
         '''
         initializes Ascension Option dropdown
         '''
-
+        self.information_handler = inf_handler
         self.pmon = pmon
-        self.allowed_options = information_handler.get_options()
+        self.allowed_options = self.information_handler.get_options()
         self.option_type = option
         if self.option_type != '' and self.option_type in self.allowed_options:
-            self.option_list = information_handler.get_names_list(option)
+            self.option_list = self.information_handler.get_names_list(option)
         else:
-            self.option_list = information_handler.get_options()
+            self.option_list = self.information_handler.get_options()
         self.page = page
         self.user = user
        
@@ -51,13 +50,13 @@ class AllList(Select):
         '''
 
         self.options.clear()
-        limit = (self.page)*24
+        limit = (self.page)*22
         if limit > len(self.option_list)-1:
             limit = len(self.option_list)-1
         else:
             self.append_option(SelectOption(label='Next'))
 
-        first = limit-24
+        first = limit-22
         if first > 0:
             self.append_option(SelectOption(label='Previous'))
             pass
@@ -76,35 +75,35 @@ class AllList(Select):
 
             if self.values[0] == 'Previous':             
                 view = NavigatableView(self.user)
-                view.add_item(AllList(self.pmon,self.option_type,self.user,self.page-1))   
+                view.add_item(AllList(self.pmon,self.information_handler,self.option_type,self.user,self.page-1))   
                 await interaction.message.edit('Please select a option from below?',view=view)
 
             else:
 
                 if self.values[0] == 'Next':         
                     view = NavigatableView(self.user)
-                    view.add_item(AllList(self.pmon,self.option_type,self.user,self.page+1))   
+                    view.add_item(AllList(self.pmon,self.information_handler,self.option_type,self.user,self.page+1))   
                     await interaction.message.edit('Please select a option from below?',view=view)      
 
                 else: 
                     if self.values[0] in self.allowed_options:                    
                         view = NavigatableView(self.user)
-                        view.add_item(AllList(self.pmon,self.values[0],self.user))   
+                        view.add_item(AllList(self.pmon,self.information_handler,self.values[0],self.user))   
                         await interaction.message.edit(content=f'Please select a {self.values[0]} from below?',view=view)  
                     else:
                         view = NavigatableView(self.user)
                         if self.option_type in ['Bows','Claymores','Catalysts','Swords','Polearms']:
-                            embeds = information_handler.create_weapon_embeds(self.option_type.lower(),self.values[0])
+                            embeds = self.information_handler.create_weapon_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a a option for {self.values[0]} from below?',view=view)
                             
                         if self.option_type == 'Artifacts':
-                            embeds = information_handler.create_artifact_embeds(self.option_type.lower(),self.values[0])
+                            embeds = self.information_handler.create_artifact_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a option for {self.values[0]} from below?',view=view)
                             
                         if self.option_type == 'Characters':
-                            embeds = information_handler.create_character_embeds(self.option_type.lower(),self.values[0])
+                            embeds = self.information_handler.create_character_embeds(self.option_type.lower(),self.values[0])
                             view.add_item(InformationDropDown(embeds,self.user))   
                             await interaction.message.edit(f'Please select a option for {self.values[0]} from below?',view=view)
                             

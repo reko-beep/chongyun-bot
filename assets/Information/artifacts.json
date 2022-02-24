@@ -80,9 +80,7 @@
      "Rewards"
     ],
     "4": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Oceanid"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -93,9 +91,7 @@
      "Midsummer Courtyard"
     ],
     "2": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Oceanid"
+     "Normal Bosses"
     ]
    }
   },
@@ -105,7 +101,7 @@
    3
   ]
  },
- "Luckydog": {
+ "Lucky Dog": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -162,10 +158,7 @@
      "Zhang Shun"
     ],
     "4": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Regisvine",
-     "Cryo Hypostasis"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -179,12 +172,7 @@
      "Domain of Guyun"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Maguu Kenki",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    }
   },
@@ -194,7 +182,7 @@
    3
   ]
  },
- "Travelingdoctor": {
+ "Traveling Doctor": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -251,9 +239,7 @@
      "Xigu Antiques"
     ],
     "4": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Geo Hypostasis"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -270,12 +256,7 @@
      "Elite Enemies"
     ],
     "4": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Geo Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Normal Bosses"
     ]
    }
   },
@@ -285,7 +266,7 @@
    3
   ]
  },
- "Resolutionof_Sojourner": {
+ "Resolution Of Sojourner": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -352,7 +333,7 @@
    4
   ]
  },
- "Tinymiracle": {
+ "Tiny Miracle": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -387,7 +368,7 @@
   ],
   "bonus": {
    "2": "All Elemental RES increased by 20%.",
-   "4": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+   "4": "Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
   },
   "obtain": {
    "3": {
@@ -455,22 +436,13 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier III"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Perpetual Mechanical Array"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier III"
     ],
     "5": [
      "Chests"
@@ -481,22 +453,13 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Perpetual Mechanical Array"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier II"
     ]
    }
   },
@@ -545,29 +508,19 @@
   "obtain": {
    "3": {
     "1": [
-     "Chests"
-    ],
-    "2": [
      "Elite Enemies"
     ],
+    "2": [
+     "Normal Bosses"
+    ],
     "3": [
-     "Domain Reliquary: Tier III"
+     "Weekly Bosses"
     ],
     "4": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Electro Hypostasis",
-     "Pyro Regisvine",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Domain Reliquary: Tier III"
     ],
     "5": [
-     "Weekly Bosses"
+     "Chests"
     ]
    },
    "4": {
@@ -575,23 +528,13 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Electro Hypostasis",
-     "Pyro Regisvine",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier II"
     ]
    }
   },
@@ -600,7 +543,7 @@
    4
   ]
  },
- "Theexile": {
+ "The Exile": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -643,22 +586,15 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier III"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
     ],
     "4": [
+     "Domain Reliquary: Tier III"
+    ],
+    "5": [
      "Chests"
     ]
    },
@@ -667,20 +603,13 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
+    ],
+    "4": [
+     "Domain Reliquary: Tier II"
     ]
    }
   },
@@ -689,7 +618,7 @@
    4
   ]
  },
- "Defender%27Swill": {
+ "Defenders Will": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -755,7 +684,7 @@
    4
   ]
  },
- "Braveheart": {
+ "Brave Heart": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -818,7 +747,7 @@
    4
   ]
  },
- "Martialartist": {
+ "Martial Artist": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -996,7 +925,7 @@
    4
   ]
  },
- "Prayersfor_Illumination": {
+ "Prayers For Illumination": {
   "pieces": [
    {
     "type": "Circlet of Logos",
@@ -1009,18 +938,12 @@
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Pyro Hypostasis"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Pyro Hypostasis"
+     "Normal Bosses"
     ]
    }
   },
@@ -1029,7 +952,7 @@
    4
   ]
  },
- "Prayersfor_Destiny": {
+ "Prayers For Destiny": {
   "pieces": [
    {
     "type": "Circlet of Logos",
@@ -1042,18 +965,12 @@
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Oceanid",
-     "Primo Geovishap",
-     "Hydro Hypostasis"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Oceanid",
-     "Primo Geovishap",
-     "Hydro Hypostasis"
+     "Normal Bosses"
     ]
    }
   },
@@ -1062,7 +979,7 @@
    4
   ]
  },
- "Prayersfor_Wisdom": {
+ "Prayers For Wisdom": {
   "pieces": [
    {
     "type": "Circlet of Logos",
@@ -1075,18 +992,12 @@
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Primo Geovishap",
-     "Thunder Manifestation"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Primo Geovishap",
-     "Thunder Manifestation"
+     "Normal Bosses"
     ]
    }
   },
@@ -1095,7 +1006,7 @@
    4
   ]
  },
- "Prayersto_Springtime": {
+ "Prayers To Springtime": {
   "pieces": [
    {
     "type": "Circlet of Logos",
@@ -1108,20 +1019,12 @@
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    }
   },
@@ -1130,7 +1033,7 @@
    4
   ]
  },
- "Gladiator%27Sfinale": {
+ "Gladiators Finale": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1196,7 +1099,7 @@
    5
   ]
  },
- "Wanderer%27Stroupe": {
+ "Wanderers Troupe": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1316,7 +1219,7 @@
    5
   ]
  },
- "Thunderingfury": {
+ "Thundering Fury": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1370,7 +1273,7 @@
    5
   ]
  },
- "Maidenbeloved": {
+ "Maiden Beloved": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1427,7 +1330,7 @@
    5
   ]
  },
- "Viridescentvenerer": {
+ "Viridescent Venerer": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1481,7 +1384,7 @@
    5
   ]
  },
- "Crimsonwitch_Of_Flames": {
+ "Crimson Witch Of Flames": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1589,7 +1492,7 @@
    5
   ]
  },
- "Noblesseoblige": {
+ "Noblesse Oblige": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1647,7 +1550,7 @@
    5
   ]
  },
- "Bloodstainedchivalry": {
+ "Bloodstained Chivalry": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1681,7 +1584,7 @@
    }
   ],
   "bonus": {
-   "2": "Physical DMG +25%",
+   "2": "Physical DMG Bonus +25%",
    "4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."
   },
   "obtain": {
@@ -1701,7 +1604,7 @@
    5
   ]
  },
- "Archaicpetra": {
+ "Archaic Petra": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1755,7 +1658,7 @@
    5
   ]
  },
- "Retracingbolide": {
+ "Retracing Bolide": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1809,7 +1712,7 @@
    5
   ]
  },
- "Blizzardstrayer": {
+ "Blizzard Strayer": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1863,7 +1766,7 @@
    5
   ]
  },
- "Heartof_Depth": {
+ "Heart Of Depth": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1917,7 +1820,7 @@
    5
   ]
  },
- "Tenacityof_The_Millelith": {
+ "Tenacity Of The Millelith": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1971,7 +1874,7 @@
    5
   ]
  },
- "Paleflame": {
+ "Pale Flame": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2005,7 +1908,7 @@
    }
   ],
   "bonus": {
-   "2": "Physical DMG +25%",
+   "2": "Physical DMG Bonus +25%",
    "4": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
   },
   "obtain": {
@@ -2025,7 +1928,7 @@
    5
   ]
  },
- "Shimenawa%27Sreminiscence": {
+ "Shimenawas Reminiscence": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2079,7 +1982,7 @@
    5
   ]
  },
- "Emblemof_Severed_Fate": {
+ "Emblem Of Severed Fate": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2103,7 +2006,7 @@
     "type": "Goblet of Eonothem",
     "name": "Scarlet Vessel",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210721030208",
-    "description": "With his secret sword technique, Tengu Sweeper, Iwakura Doukei became the Kujou Clan's swordsmanship instructor.He also received the title of \"Douin\" and founded a successful sword school.As he headed off to take up his post at the Kujou Estate, Doukei, who had long learned how to drink,Stepped into the branch shrine that had been utterly destroyed by his completion of the Tengu Sweeper.Here, in the courtyard of this abandoned branch shrine, he had sparred with the Tengu of Yougou ten times in the last thirteen years.He remembered his encounter with the black-winged tengu who had called herself \"Teruyo of Yougou\"...\n"
+    "description": "With his secret sword technique, Tengu Sweeper, Iwakura Doukei became the Kujou Clan's swordsmanship instructor.He also received the title of \"Douin\" and founded a successful sword school.As he headed off to take up his post at the Kujou Estate, Doukei, who had long learned how to drink,Stepped into the branch shrine that had been utterly destroyed by his completion of the Tengu Sweeper.Here, in the courtyard of this abandoned branch shrine, he had sparred with the Tengu of Yougou thirteen times in the last thirteen years.He remembered his encounter with the black-winged tengu who had called herself \"Teruyo of Yougou\"...\n"
    },
    {
     "type": "Circlet of Logos",
@@ -2133,7 +2036,7 @@
    5
   ]
  },
- "Huskof_Opulent_Dreams": {
+ "Husk Of Opulent Dreams": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2187,7 +2090,7 @@
    5
   ]
  },
- "Ocean-Huedclam": {
+ "Ocean-Hued Clam": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2205,7 +2108,7 @@
     "type": "Sands of Eon",
     "name": "Cowry of Parting",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20211124071325",
-    "description": "Time seems to pass exceedingly slowly in the silent, fluorescent ocean depths.Even the bright seashells might grow forgetful as the years lengthen.The people of Watatsumi once came forth from the darkness, and thus bade farewell to the long dreams of the deep.They escaped the prying gaze of the Dragonheir in the dark, walking the glimmering coral stair into the realm of daylight.It is said that at that time, the ocean people would take a single seashell as remembrance for their clan.And as for those who had lost theirs, they would be welcomed into a new family.In the ancient tongue, these pure shells would become known as the Parcels of Reunion.Two parties who embrace shall not again be parted by an outside force, though this enjoining is not itself eternal.These seashells, therefore, were a farewell to life beneath the waves, and the beginning of a new life under the sun."
+    "description": "Time seems to pass exceedingly slowly in the silent, fluorescent ocean depths.Even the bright seashells might grow forgetful as the years lengthen.The people of Watatsumi once came forth from the darkness, and thus bade farewell to the long dreams of the deep.They escaped the prying gaze of the Dragonheirs in the dark, walking the glimmering coral stair into the realm of daylight.It is said that at that time, the ocean people would take a single seashell as remembrance for their clan.And as for those who had lost theirs, they would be welcomed into a new family.In the ancient tongue, these pure shells would become known as the Parcels of Reunion.Two parties who embrace shall not again be parted by an outside force, though this enjoining is not itself eternal.These seashells, therefore, were a farewell to life beneath the waves, and the beginning of a new life under the sun."
    },
    {
     "type": "Goblet of Eonothem",
