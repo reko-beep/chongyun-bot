@@ -4,7 +4,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 # Paimon Bot v2
 
-#   Dev version still in development...
+> Dev version still in development...
 
     Some of the features in v1 might be stripped down depending on either they are helpful for genshin players or not!
     
