@@ -72,6 +72,15 @@ class ResourceManager:
         return list_dir 
     
     def goto(self, path, files: bool = True, dirs: bool = True):
+        '''
+        navigates to asset path
+
+        return
+        {
+            'files': [files, f, ...]
+            'folders' : [folders, f , ...]
+        }
+        '''
         list_dir = {}
 
         if '.' not in path and path[-1] != '/':
@@ -91,28 +100,32 @@ class ResourceManager:
 
         return list_dir 
 
-    def dbfile(self, path, files: bool = True, dirs: bool = True):
-        list_dir = {}
+    def dbfile(self, file_path: str, load_data:bool = False):
+        '''
+            generates a path for database file or loads data if set true
+        '''
 
-        if '.' not in path and path[-1] != '/':
-            path += '/' 
-        print(path)
-        gen_path = self.db.format(path=path)
+        if '.' not in file_path and file_path[-1] != '/':
+            file_path += '/' 
+
+        gen_path = self.db.format(path=file_path)
         
-        print('Folder', dirs, 'Files', files, 'Path', path, 'Generated Path', gen_path)  
         if exists(gen_path):
             if isfile(gen_path):
-                return {'files': [gen_path]}
-            lister = listdir(gen_path)
-            if files:              
-                    list_dir['files'] = [file for file in lister if isfile(self.__genpath(path, file))]
-            if dirs:
-                    list_dir['folders'] = [folder for folder in lister if isdir(self.__genpath(path, folder))]
-
-        return list_dir 
+                if load_data:
+                    if gen_path.split('/')[-1].split('.')[-1] in ['json','txt']:
+                        with open(gen_path, 'r') as f:
+                            return load(f)
+                return gen_path
+            
+         
 
 
     def get_character_guides(self, character_name: str, option: str, url:bool = False):
+        '''
+        gets all character guides for a [character_name] having option [option | builds | ascention_talents]
+        url if set true generates url 
+        '''
 
         characters = self.__navigate('images/characters/',False)['folders']
         print(characters)
@@ -128,13 +141,20 @@ class ResourceManager:
                 return [self.convert_to_url(p, url) for p in paths]
 
     def convert_to_url(self, path_: str, url: bool= False):
+        '''
+        converts to a url for webserver link
+        provided a local path path_
+        '''
         if url:
-            return path_.replace(getcwd()+'/assets/', self.site).url
+            return path_.replace(getcwd()+'/assets/', self.site)
         else:
             return path_
 
 
     def get_character_full_details(self, character_name: str, url: bool):
+        '''
+        gets all details for character [character_name]
+        '''
 
         data = {}
         character_search_list = list(self.characters.keys())
