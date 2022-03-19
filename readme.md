@@ -1,7 +1,9 @@
-[Logo](https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Icon_Emoji_002_Paimon_Ship_out%21.png)
+![Logo](https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Icon_Emoji_002_Paimon_Ship_out%21.png)
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)
 # Paimon Bot v2
-#
+
 #   Dev version still in development...
 
     Some of the features in v1 might be stripped down depending on either they are helpful for genshin players or not!
