@@ -1,0 +1,163 @@
+{
+ "data": [
+  {
+   "title": "Eula-Raiden Burst",
+   "chars": [
+    {
+     "raiden": "sub dps"
+    },
+    {
+     "sara": "support"
+    },
+    {
+     "eula": "main dps"
+    },
+    {
+     "diona": "heal/support"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Triple Geo + One",
+   "chars": [
+    {
+     "albedo": "sub dps"
+    },
+    {
+     "gorou": "support"
+    },
+    {
+     "itto": "main dps"
+    },
+    {
+     "diona": "shield/buff"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Geo Dominance",
+   "chars": [
+    {
+     "albedo": "sub dps"
+    },
+    {
+     "noelle": "support"
+    },
+    {
+     "ningguang": "main dps"
+    },
+    {
+     "zhongli": "shield/buff"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Childe Burst Vaporize One Shot",
+   "chars": [
+    {
+     "tartaglia": "main dps"
+    },
+    {
+     "bennett": "atk buff"
+    },
+    {
+     "zhongli": "atk buff"
+    },
+    {
+     "sucrose": "em buff"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Hu Tao Burst Melt One Shot",
+   "chars": [
+    {
+     "kaeya": "melt combo"
+    },
+    {
+     "zhongli": "atk buff"
+    },
+    {
+     "hutao": "main dps"
+    },
+    {
+     "bennett": "atk buff"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Test Comp",
+   "chars": [
+    {
+     "xiangling": "sub dps"
+    },
+    {
+     "bennet": "main dps"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Test Comp-1",
+   "chars": [
+    {
+     "xiangling": "sub dps"
+    },
+    {
+     "bennet": "main dps"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  },
+  {
+   "title": "Eula Triple Cryo",
+   "chars": [
+    {
+     "Eula": "MainDps"
+    },
+    {
+     "Raiden": "SubDps"
+    },
+    {
+     "Rosaria": "Crit Support"
+    },
+    {
+     "Diona": "Support"
+    }
+   ],
+   "description": "",
+   "owner": 449403360333004801
+  },
+  {
+   "title": "Eula Triple Cryo-1",
+   "chars": [
+    {
+     "Eula": "MainDps"
+    },
+    {
+     "Raiden": "SubDps"
+    },
+    {
+     "Rosaria": "Crit Support"
+    },
+    {
+     "Diona": "Support"
+    }
+   ],
+   "description": "",
+   "owner": 190842306818080769
+  }
+ ]
+}

@@ -1,0 +1,4098 @@
+{
+ "data": [
+  {
+   "id": "the_heron%27s_court",
+   "name": "The Heron%27S Court",
+   "start": "2021-07-21 11:00:00",
+   "end": "2021-08-10 17:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "kamisato_ayaka",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "ningguang",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "diona",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 1,
+     "4starpity": 1
+    },
+    {
+     "id": "rosaria",
+     "type": "Character",
+     "time": "2021-08-05 19:41:53",
+     "rank": "4",
+     "5starpity": 2,
+     "4starpity": 1
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 3,
+     "4starpity": 2
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 4,
+     "4starpity": 3
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 5,
+     "4starpity": 4
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 6,
+     "4starpity": 5
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 7,
+     "4starpity": 6
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 8,
+     "4starpity": 7
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:41:53",
+     "rank": "3",
+     "5starpity": 9,
+     "4starpity": 8
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 10,
+     "4starpity": 9
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 11,
+     "4starpity": 10
+    },
+    {
+     "id": "ningguang",
+     "type": "Character",
+     "time": "2021-08-05 19:42:45",
+     "rank": "4",
+     "5starpity": 12,
+     "4starpity": 1
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 13,
+     "4starpity": 2
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 14,
+     "4starpity": 3
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 15,
+     "4starpity": 4
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 16,
+     "4starpity": 5
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 17,
+     "4starpity": 6
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 18,
+     "4starpity": 7
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:42:45",
+     "rank": "3",
+     "5starpity": 19,
+     "4starpity": 8
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 20,
+     "4starpity": 9
+    },
+    {
+     "id": "rust",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "4",
+     "5starpity": 21,
+     "4starpity": 1
+    },
+    {
+     "id": "ningguang",
+     "type": "Character",
+     "time": "2021-08-05 19:43:29",
+     "rank": "4",
+     "5starpity": 22,
+     "4starpity": 1
+    },
+    {
+     "id": "yanfei",
+     "type": "Character",
+     "time": "2021-08-05 19:43:29",
+     "rank": "4",
+     "5starpity": 23,
+     "4starpity": 1
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 24,
+     "4starpity": 2
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 25,
+     "4starpity": 3
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 26,
+     "4starpity": 4
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 27,
+     "4starpity": 5
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 28,
+     "4starpity": 6
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:43:29",
+     "rank": "3",
+     "5starpity": 29,
+     "4starpity": 7
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 30,
+     "4starpity": 8
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 31,
+     "4starpity": 9
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 32,
+     "4starpity": 10
+    },
+    {
+     "id": "yanfei",
+     "type": "Character",
+     "time": "2021-08-05 19:44:13",
+     "rank": "4",
+     "5starpity": 33,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 34,
+     "4starpity": 2
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 35,
+     "4starpity": 3
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 36,
+     "4starpity": 4
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 37,
+     "4starpity": 5
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 38,
+     "4starpity": 6
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:13",
+     "rank": "3",
+     "5starpity": 39,
+     "4starpity": 7
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 40,
+     "4starpity": 8
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 41,
+     "4starpity": 9
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 42,
+     "4starpity": 10
+    },
+    {
+     "id": "ningguang",
+     "type": "Character",
+     "time": "2021-08-05 19:44:40",
+     "rank": "4",
+     "5starpity": 43,
+     "4starpity": 1
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 44,
+     "4starpity": 2
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 45,
+     "4starpity": 3
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 46,
+     "4starpity": 4
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 47,
+     "4starpity": 5
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 48,
+     "4starpity": 6
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:40",
+     "rank": "3",
+     "5starpity": 49,
+     "4starpity": 7
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-05 19:44:52",
+     "rank": "3",
+     "5starpity": 50,
+     "4starpity": 8
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-05 19:45:01",
+     "rank": "3",
+     "5starpity": 51,
+     "4starpity": 9
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-05 19:45:09",
+     "rank": "3",
+     "5starpity": 52,
+     "4starpity": 10
+    },
+    {
+     "id": "ningguang",
+     "type": "Character",
+     "time": "2021-08-05 19:45:14",
+     "rank": "4",
+     "5starpity": 53,
+     "4starpity": 1
+    }
+   ],
+   "totalpulls": 53,
+   "5starpity": 53,
+   "4starpity": 1,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! ",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [],
+   "4starpities": [
+    1,
+    10,
+    9,
+    1,
+    1,
+    10,
+    10,
+    10
+   ],
+   "5staritems": [],
+   "4staritems": [
+    "Rosaria",
+    "Ningguang",
+    "Rust",
+    "Ningguang",
+    "Yanfei",
+    "Yanfei",
+    "Ningguang",
+    "Ningguang"
+   ],
+   "5050items": [],
+   "rateup": null,
+   "chancefor5star": "0.6%",
+   "primogems": 8480
+  },
+  {
+   "id": "tapestry_of_golden_flames",
+   "name": "Tapestry Of Golden Flames",
+   "start": "2021-08-10 18:00:00",
+   "end": "2021-08-31 14:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "yoimiya",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "diona",
+     "type": "characters"
+    },
+    {
+     "id": "xinyan",
+     "type": "characters"
+    },
+    {
+     "id": "sayu",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "chongyun",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "ningguang",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    },
+    {
+     "id": "yanfei",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 54,
+     "4starpity": 2
+    },
+    {
+     "id": "xinyan",
+     "type": "Character",
+     "time": "2021-08-24 06:57:08",
+     "rank": "4",
+     "5starpity": 55,
+     "4starpity": 1
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 56,
+     "4starpity": 2
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 57,
+     "4starpity": 3
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 58,
+     "4starpity": 4
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 59,
+     "4starpity": 5
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 60,
+     "4starpity": 6
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 61,
+     "4starpity": 7
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 62,
+     "4starpity": 8
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-24 06:57:08",
+     "rank": "3",
+     "5starpity": 63,
+     "4starpity": 9
+    },
+    {
+     "id": "sayu",
+     "type": "Character",
+     "time": "2021-08-26 03:56:31",
+     "rank": "4",
+     "5starpity": 64,
+     "4starpity": 1
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 65,
+     "4starpity": 2
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 66,
+     "4starpity": 3
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 67,
+     "4starpity": 4
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 68,
+     "4starpity": 5
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 69,
+     "4starpity": 6
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 70,
+     "4starpity": 7
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 71,
+     "4starpity": 8
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 72,
+     "4starpity": 9
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-26 03:56:31",
+     "rank": "3",
+     "5starpity": 73,
+     "4starpity": 10
+    },
+    {
+     "id": "sayu",
+     "type": "Character",
+     "time": "2021-08-27 06:50:31",
+     "rank": "4",
+     "5starpity": 74,
+     "4starpity": 1
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 75,
+     "4starpity": 2
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 76,
+     "4starpity": 3
+    },
+    {
+     "id": "qiqi",
+     "type": "Character",
+     "time": "2021-08-27 06:50:31",
+     "rank": "5",
+     "5starpity": 1,
+     "4starpity": 4,
+     "5starwishresut": "won",
+     "chancefor5star": "32.4%"
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 2,
+     "4starpity": 5
+    },
+    {
+     "id": "sacrificial_fragments",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "4",
+     "5starpity": 3,
+     "4starpity": 1
+    },
+    {
+     "id": "diona",
+     "type": "Character",
+     "time": "2021-08-27 06:50:31",
+     "rank": "4",
+     "5starpity": 4,
+     "4starpity": 1
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 5,
+     "4starpity": 2
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 6,
+     "4starpity": 3
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-08-27 06:50:31",
+     "rank": "3",
+     "5starpity": 7,
+     "4starpity": 4
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 8,
+     "4starpity": 5
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 9,
+     "4starpity": 6
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 10,
+     "4starpity": 7
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 11,
+     "4starpity": 8
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 12,
+     "4starpity": 9
+    },
+    {
+     "id": "xinyan",
+     "type": "Character",
+     "time": "2021-08-29 02:37:21",
+     "rank": "4",
+     "5starpity": 13,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 14,
+     "4starpity": 2
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 15,
+     "4starpity": 3
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 16,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-08-29 02:37:21",
+     "rank": "3",
+     "5starpity": 17,
+     "4starpity": 5
+    }
+   ],
+   "totalpulls": 40,
+   "5starpity": 17,
+   "4starpity": 5,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! Your next pull is guaranteed for 5 star featured character!",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [
+    76
+   ],
+   "4starpities": [
+    2,
+    9,
+    10,
+    5,
+    1,
+    9
+   ],
+   "5staritems": [
+    "Qiqi"
+   ],
+   "4staritems": [
+    "Xinyan",
+    "Sayu",
+    "Sayu",
+    "Sacrificial Fragments",
+    "Diona",
+    "Xinyan"
+   ],
+   "5050items": [],
+   "rateup": false,
+   "chancefor5star": "0.6%",
+   "primogems": 6400
+  },
+  {
+   "id": "reign_of_serenity",
+   "name": "Reign Of Serenity",
+   "start": "2021-09-01 11:00:00",
+   "end": "2021-09-21 17:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "raiden_shogun",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "kujou_sara",
+     "type": "characters"
+    },
+    {
+     "id": "sucrose",
+     "type": "characters"
+    },
+    {
+     "id": "xiangling",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sayu",
+     "rank": "4"
+    },
+    {
+     "id": "chongyun",
+     "rank": "4"
+    },
+    {
+     "id": "diona",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "ningguang",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    },
+    {
+     "id": "yanfei",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 18,
+     "4starpity": 6
+    },
+    {
+     "id": "xiangling",
+     "type": "Character",
+     "time": "2021-09-01 15:59:02",
+     "rank": "4",
+     "5starpity": 19,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 20,
+     "4starpity": 2
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 21,
+     "4starpity": 3
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 22,
+     "4starpity": 4
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 23,
+     "4starpity": 5
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 24,
+     "4starpity": 6
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 25,
+     "4starpity": 7
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 26,
+     "4starpity": 8
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:02",
+     "rank": "3",
+     "5starpity": 27,
+     "4starpity": 9
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 28,
+     "4starpity": 10
+    },
+    {
+     "id": "sucrose",
+     "type": "Character",
+     "time": "2021-09-01 15:59:27",
+     "rank": "4",
+     "5starpity": 29,
+     "4starpity": 1
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 30,
+     "4starpity": 2
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 31,
+     "4starpity": 3
+    },
+    {
+     "id": "favonius_warbow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "4",
+     "5starpity": 32,
+     "4starpity": 1
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 33,
+     "4starpity": 2
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 34,
+     "4starpity": 3
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 35,
+     "4starpity": 4
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 36,
+     "4starpity": 5
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:27",
+     "rank": "3",
+     "5starpity": 37,
+     "4starpity": 6
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-01 15:59:51",
+     "rank": "3",
+     "5starpity": 38,
+     "4starpity": 7
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:33",
+     "rank": "3",
+     "5starpity": 39,
+     "4starpity": 8
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:33",
+     "rank": "3",
+     "5starpity": 40,
+     "4starpity": 9
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:33",
+     "rank": "3",
+     "5starpity": 41,
+     "4starpity": 10
+    },
+    {
+     "id": "sucrose",
+     "type": "Character",
+     "time": "2021-09-01 16:02:33",
+     "rank": "4",
+     "5starpity": 42,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:33",
+     "rank": "3",
+     "5starpity": 43,
+     "4starpity": 2
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:34",
+     "rank": "3",
+     "5starpity": 44,
+     "4starpity": 3
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:34",
+     "rank": "3",
+     "5starpity": 45,
+     "4starpity": 4
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:34",
+     "rank": "3",
+     "5starpity": 46,
+     "4starpity": 5
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:34",
+     "rank": "3",
+     "5starpity": 47,
+     "4starpity": 6
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-01 16:02:34",
+     "rank": "3",
+     "5starpity": 48,
+     "4starpity": 7
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-01 23:20:13",
+     "rank": "3",
+     "5starpity": 49,
+     "4starpity": 8
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-01 23:20:19",
+     "rank": "3",
+     "5starpity": 50,
+     "4starpity": 9
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-01 23:20:24",
+     "rank": "3",
+     "5starpity": 51,
+     "4starpity": 10
+    },
+    {
+     "id": "sucrose",
+     "type": "Character",
+     "time": "2021-09-01 23:20:29",
+     "rank": "4",
+     "5starpity": 52,
+     "4starpity": 1
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-02 01:20:07",
+     "rank": "3",
+     "5starpity": 53,
+     "4starpity": 2
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-02 01:20:14",
+     "rank": "3",
+     "5starpity": 54,
+     "4starpity": 3
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-02 01:20:17",
+     "rank": "3",
+     "5starpity": 55,
+     "4starpity": 4
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-02 01:20:26",
+     "rank": "3",
+     "5starpity": 56,
+     "4starpity": 5
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-02 02:27:36",
+     "rank": "3",
+     "5starpity": 57,
+     "4starpity": 6
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-02 05:27:26",
+     "rank": "3",
+     "5starpity": 58,
+     "4starpity": 7
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-02 05:27:32",
+     "rank": "3",
+     "5starpity": 59,
+     "4starpity": 8
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-02 18:08:33",
+     "rank": "3",
+     "5starpity": 60,
+     "4starpity": 9
+    },
+    {
+     "id": "sacrificial_sword",
+     "type": "Weapon",
+     "time": "2021-09-02 23:16:05",
+     "rank": "4",
+     "5starpity": 61,
+     "4starpity": 1
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-02 23:16:15",
+     "rank": "3",
+     "5starpity": 62,
+     "4starpity": 2
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-04 18:38:21",
+     "rank": "3",
+     "5starpity": 63,
+     "4starpity": 3
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:07",
+     "rank": "3",
+     "5starpity": 64,
+     "4starpity": 4
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:12",
+     "rank": "3",
+     "5starpity": 65,
+     "4starpity": 5
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:16",
+     "rank": "3",
+     "5starpity": 66,
+     "4starpity": 6
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:19",
+     "rank": "3",
+     "5starpity": 67,
+     "4starpity": 7
+    },
+    {
+     "id": "xiangling",
+     "type": "Character",
+     "time": "2021-09-06 01:10:22",
+     "rank": "4",
+     "5starpity": 68,
+     "4starpity": 1
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:28",
+     "rank": "3",
+     "5starpity": 69,
+     "4starpity": 2
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-06 01:10:32",
+     "rank": "3",
+     "5starpity": 70,
+     "4starpity": 3
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-06 17:43:45",
+     "rank": "3",
+     "5starpity": 71,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-06 17:43:50",
+     "rank": "3",
+     "5starpity": 72,
+     "4starpity": 5
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-06 17:43:53",
+     "rank": "3",
+     "5starpity": 73,
+     "4starpity": 6
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-06 17:43:56",
+     "rank": "3",
+     "5starpity": 74,
+     "4starpity": 7
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-07 04:48:33",
+     "rank": "3",
+     "5starpity": 75,
+     "4starpity": 8
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-08 01:10:59",
+     "rank": "3",
+     "5starpity": 76,
+     "4starpity": 9
+    },
+    {
+     "id": "yanfei",
+     "type": "Character",
+     "time": "2021-09-08 01:11:05",
+     "rank": "4",
+     "5starpity": 77,
+     "4starpity": 1
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-08 01:12:30",
+     "rank": "3",
+     "5starpity": 78,
+     "4starpity": 2
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 79,
+     "4starpity": 3
+    },
+    {
+     "id": "raiden_shogun",
+     "type": "Character",
+     "time": "2021-09-08 04:38:35",
+     "rank": "5",
+     "5starpity": 1,
+     "4starpity": 4,
+     "5starwishresut": "won",
+     "chancefor5star": "32.4%"
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 2,
+     "4starpity": 5
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 3,
+     "4starpity": 6
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 4,
+     "4starpity": 7
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 5,
+     "4starpity": 8
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 6,
+     "4starpity": 9
+    },
+    {
+     "id": "xiangling",
+     "type": "Character",
+     "time": "2021-09-08 04:38:35",
+     "rank": "4",
+     "5starpity": 7,
+     "4starpity": 1
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 8,
+     "4starpity": 2
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-08 04:38:35",
+     "rank": "3",
+     "5starpity": 9,
+     "4starpity": 3
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-19 05:55:36",
+     "rank": "3",
+     "5starpity": 10,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-19 05:55:51",
+     "rank": "3",
+     "5starpity": 11,
+     "4starpity": 5
+    }
+   ],
+   "totalpulls": 73,
+   "5starpity": 11,
+   "4starpity": 5,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! You are at 50/50 pull for 5 star featured character!",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [
+    79
+   ],
+   "4starpities": [
+    6,
+    10,
+    3,
+    10,
+    10,
+    9,
+    7,
+    9,
+    9
+   ],
+   "5staritems": [
+    "Raiden Shogun"
+   ],
+   "4staritems": [
+    "Xiangling",
+    "Sucrose",
+    "Favonius Warbow",
+    "Sucrose",
+    "Sucrose",
+    "Sacrificial Sword",
+    "Xiangling",
+    "Yanfei",
+    "Xiangling"
+   ],
+   "5050items": [],
+   "rateup": true,
+   "chancefor5star": "0.6%",
+   "primogems": 11680
+  },
+  {
+   "id": "drifting_luminescence",
+   "name": "Drifting Luminescence",
+   "start": "2021-09-21 18:00:00",
+   "end": "2021-10-12 14:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "sangonomiya_kokomi",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "rosaria",
+     "type": "characters"
+    },
+    {
+     "id": "beidou",
+     "type": "characters"
+    },
+    {
+     "id": "xingqiu",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sayu",
+     "rank": "4"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "chongyun",
+     "rank": "4"
+    },
+    {
+     "id": "diona",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "ningguang",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    },
+    {
+     "id": "yanfei",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 12,
+     "4starpity": 6
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 13,
+     "4starpity": 7
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 14,
+     "4starpity": 8
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 15,
+     "4starpity": 9
+    },
+    {
+     "id": "favonius_warbow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "4",
+     "5starpity": 16,
+     "4starpity": 1
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 17,
+     "4starpity": 2
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 18,
+     "4starpity": 3
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 19,
+     "4starpity": 4
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 20,
+     "4starpity": 5
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:28:58",
+     "rank": "3",
+     "5starpity": 21,
+     "4starpity": 6
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 22,
+     "4starpity": 7
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 23,
+     "4starpity": 8
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 24,
+     "4starpity": 9
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 25,
+     "4starpity": 10
+    },
+    {
+     "id": "rosaria",
+     "type": "Character",
+     "time": "2021-09-21 18:29:25",
+     "rank": "4",
+     "5starpity": 26,
+     "4starpity": 1
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 27,
+     "4starpity": 2
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 28,
+     "4starpity": 3
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 29,
+     "4starpity": 4
+    },
+    {
+     "id": "rainslasher",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "4",
+     "5starpity": 30,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:25",
+     "rank": "3",
+     "5starpity": 31,
+     "4starpity": 2
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 32,
+     "4starpity": 3
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 33,
+     "4starpity": 4
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 34,
+     "4starpity": 5
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 35,
+     "4starpity": 6
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 36,
+     "4starpity": 7
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 37,
+     "4starpity": 8
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 38,
+     "4starpity": 9
+    },
+    {
+     "id": "xingqiu",
+     "type": "Character",
+     "time": "2021-09-21 18:29:53",
+     "rank": "4",
+     "5starpity": 39,
+     "4starpity": 1
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 40,
+     "4starpity": 2
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:29:53",
+     "rank": "3",
+     "5starpity": 41,
+     "4starpity": 3
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 42,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 43,
+     "4starpity": 5
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 44,
+     "4starpity": 6
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 45,
+     "4starpity": 7
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 46,
+     "4starpity": 8
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 47,
+     "4starpity": 9
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 48,
+     "4starpity": 10
+    },
+    {
+     "id": "xingqiu",
+     "type": "Character",
+     "time": "2021-09-21 18:33:54",
+     "rank": "4",
+     "5starpity": 49,
+     "4starpity": 1
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 50,
+     "4starpity": 2
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-21 18:33:54",
+     "rank": "3",
+     "5starpity": 51,
+     "4starpity": 3
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 52,
+     "4starpity": 4
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 53,
+     "4starpity": 5
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 54,
+     "4starpity": 6
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 55,
+     "4starpity": 7
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 56,
+     "4starpity": 8
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 57,
+     "4starpity": 9
+    },
+    {
+     "id": "the_widsith",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "4",
+     "5starpity": 58,
+     "4starpity": 1
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 59,
+     "4starpity": 2
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 60,
+     "4starpity": 3
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:01",
+     "rank": "3",
+     "5starpity": 61,
+     "4starpity": 4
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 62,
+     "4starpity": 5
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 63,
+     "4starpity": 6
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 64,
+     "4starpity": 7
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 65,
+     "4starpity": 8
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 66,
+     "4starpity": 9
+    },
+    {
+     "id": "rosaria",
+     "type": "Character",
+     "time": "2021-09-21 18:39:09",
+     "rank": "4",
+     "5starpity": 67,
+     "4starpity": 1
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 68,
+     "4starpity": 2
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 69,
+     "4starpity": 3
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 70,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-09-21 18:39:09",
+     "rank": "3",
+     "5starpity": 71,
+     "4starpity": 5
+    },
+    {
+     "id": "the_bell",
+     "type": "Weapon",
+     "time": "2021-09-21 18:47:58",
+     "rank": "4",
+     "5starpity": 72,
+     "4starpity": 1
+    },
+    {
+     "id": "slingshot",
+     "type": "Weapon",
+     "time": "2021-09-21 18:48:03",
+     "rank": "3",
+     "5starpity": 73,
+     "4starpity": 2
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-09-21 18:48:07",
+     "rank": "3",
+     "5starpity": 74,
+     "4starpity": 3
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-09-23 22:02:19",
+     "rank": "3",
+     "5starpity": 75,
+     "4starpity": 4
+    }
+   ],
+   "totalpulls": 64,
+   "5starpity": 75,
+   "4starpity": 4,
+   "5starstage": "Soft Pity - Each next pull has 32.4% chance of being a 5 star item! You are at 50/50 pull for 5 star featured character!",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [],
+   "4starpities": [
+    9,
+    10,
+    4,
+    9,
+    10,
+    9,
+    9,
+    5
+   ],
+   "5staritems": [],
+   "4staritems": [
+    "Favonius Warbow",
+    "Rosaria",
+    "Rainslasher",
+    "Xingqiu",
+    "Xingqiu",
+    "The Widsith",
+    "Rosaria",
+    "The Bell"
+   ],
+   "5050items": [],
+   "rateup": true,
+   "chancefor5star": "0.6%",
+   "primogems": 10240
+  },
+  {
+   "id": "farewell_of_snezhnaya",
+   "name": "Farewell Of Snezhnaya",
+   "start": "2021-10-13 11:00:00",
+   "end": "2021-11-02 17:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "tartaglia",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "ningguang",
+     "type": "characters"
+    },
+    {
+     "id": "chongyun",
+     "type": "characters"
+    },
+    {
+     "id": "yanfei",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sayu",
+     "rank": "4"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "diona",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "kujou_sara",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "tartaglia",
+     "type": "Character",
+     "time": "2021-10-13 12:53:40",
+     "rank": "5",
+     "5starpity": 1,
+     "4starpity": 5,
+     "5starwishresut": "won",
+     "chancefor5star": "0.6%"
+    }
+   ],
+   "totalpulls": 1,
+   "5starpity": 1,
+   "4starpity": 5,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! You are at 50/50 pull for 5 star featured character!",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [
+    75
+   ],
+   "4starpities": [],
+   "5staritems": [
+    "Tartaglia"
+   ],
+   "4staritems": [],
+   "5050items": [
+    "Tartaglia"
+   ],
+   "rateup": true,
+   "chancefor5star": "0.6%",
+   "primogems": 160
+  },
+  {
+   "id": "moment_of_bloom",
+   "name": "Moment Of Bloom",
+   "start": "2021-11-02 18:00:00",
+   "end": "2021-11-23 14:59:59",
+   "banner_code": "301",
+   "featured5star": [
+    {
+     "id": "hu_tao",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "thoma",
+     "type": "characters"
+    },
+    {
+     "id": "sayu",
+     "type": "characters"
+    },
+    {
+     "id": "diona",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "chongyun",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "kujou_sara",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "ningguang",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    },
+    {
+     "id": "yanfei",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-11-02 18:13:52",
+     "rank": "3",
+     "5starpity": 2,
+     "4starpity": 6
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:01",
+     "rank": "3",
+     "5starpity": 3,
+     "4starpity": 7
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 4,
+     "4starpity": 8
+    },
+    {
+     "id": "ferrous_shadow",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 5,
+     "4starpity": 9
+    },
+    {
+     "id": "diona",
+     "type": "Character",
+     "time": "2021-11-02 18:14:06",
+     "rank": "4",
+     "5starpity": 6,
+     "4starpity": 1
+    },
+    {
+     "id": "hu_tao",
+     "type": "Character",
+     "time": "2021-11-02 18:14:06",
+     "rank": "5",
+     "5starpity": 1,
+     "4starpity": 2,
+     "5starwishresut": "won",
+     "chancefor5star": "0.6%"
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 2,
+     "4starpity": 3
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 3,
+     "4starpity": 4
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 4,
+     "4starpity": 5
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 5,
+     "4starpity": 6
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 6,
+     "4starpity": 7
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-11-02 18:14:06",
+     "rank": "3",
+     "5starpity": 7,
+     "4starpity": 8
+    },
+    {
+     "id": "sayu",
+     "type": "Character",
+     "time": "2021-11-02 18:16:32",
+     "rank": "4",
+     "5starpity": 8,
+     "4starpity": 1
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-02 18:16:42",
+     "rank": "3",
+     "5starpity": 9,
+     "4starpity": 2
+    },
+    {
+     "id": "raven_bow",
+     "type": "Weapon",
+     "time": "2021-11-02 18:16:48",
+     "rank": "3",
+     "5starpity": 10,
+     "4starpity": 3
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 11,
+     "4starpity": 4
+    },
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 12,
+     "4starpity": 5
+    },
+    {
+     "id": "skyrider_sword",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 13,
+     "4starpity": 6
+    },
+    {
+     "id": "thoma",
+     "type": "Character",
+     "time": "2021-11-02 18:18:26",
+     "rank": "4",
+     "5starpity": 14,
+     "4starpity": 1
+    },
+    {
+     "id": "debate_club",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 15,
+     "4starpity": 2
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 16,
+     "4starpity": 3
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 17,
+     "4starpity": 4
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 18,
+     "4starpity": 5
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 19,
+     "4starpity": 6
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-02 18:18:26",
+     "rank": "3",
+     "5starpity": 20,
+     "4starpity": 7
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-17 15:40:26",
+     "rank": "3",
+     "5starpity": 21,
+     "4starpity": 8
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-11-17 15:40:33",
+     "rank": "3",
+     "5starpity": 22,
+     "4starpity": 9
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-11-19 00:50:03",
+     "rank": "3",
+     "5starpity": 23,
+     "4starpity": 10
+    },
+    {
+     "id": "eye_of_perception",
+     "type": "Weapon",
+     "time": "2021-11-19 19:36:05",
+     "rank": "4",
+     "5starpity": 24,
+     "4starpity": 1
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-19 19:36:26",
+     "rank": "3",
+     "5starpity": 25,
+     "4starpity": 2
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-20 04:11:54",
+     "rank": "3",
+     "5starpity": 26,
+     "4starpity": 3
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-11-20 04:12:00",
+     "rank": "3",
+     "5starpity": 27,
+     "4starpity": 4
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-22 00:40:37",
+     "rank": "3",
+     "5starpity": 28,
+     "4starpity": 5
+    },
+    {
+     "id": "black_tassel",
+     "type": "Weapon",
+     "time": "2021-11-22 23:41:40",
+     "rank": "3",
+     "5starpity": 29,
+     "4starpity": 6
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-23 14:46:07",
+     "rank": "3",
+     "5starpity": 30,
+     "4starpity": 7
+    }
+   ],
+   "totalpulls": 35,
+   "5starpity": 30,
+   "4starpity": 7,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! You are at 50/50 pull for 5 star featured character!",
+   "4starstage": "Guaranteed - Next pull should have 100% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [
+    6
+   ],
+   "4starpities": [
+    9,
+    8,
+    6,
+    10
+   ],
+   "5staritems": [
+    "Hu Tao"
+   ],
+   "4staritems": [
+    "Diona",
+    "Sayu",
+    "Thoma",
+    "Eye of Perception"
+   ],
+   "5050items": [
+    "Hu Tao"
+   ],
+   "rateup": true,
+   "chancefor5star": "0.6%",
+   "primogems": 5600
+  },
+  {
+   "id": "born_of_ocean_swell",
+   "name": "Born Of Ocean Swell",
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "banner_code": "400",
+   "featured5star": [
+    {
+     "id": "eula",
+     "type": "characters"
+    }
+   ],
+   "featured4star": [
+    {
+     "id": "bennett",
+     "type": "characters"
+    },
+    {
+     "id": "noelle",
+     "type": "characters"
+    },
+    {
+     "id": "rosaria",
+     "type": "characters"
+    }
+   ],
+   "featured3star": [],
+   "weapons": [
+    {
+     "id": "favonius_warbow",
+     "rank": "4"
+    },
+    {
+     "id": "rust",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_bow",
+     "rank": "4"
+    },
+    {
+     "id": "the_stringless",
+     "rank": "4"
+    },
+    {
+     "id": "eye_of_perception",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_codex",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_fragments",
+     "rank": "4"
+    },
+    {
+     "id": "the_widsith",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "rainslasher",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_greatsword",
+     "rank": "4"
+    },
+    {
+     "id": "the_bell",
+     "rank": "4"
+    },
+    {
+     "id": "dragons_bane",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_lance",
+     "rank": "4"
+    },
+    {
+     "id": "favonius_sword",
+     "rank": "4"
+    },
+    {
+     "id": "lions_roar",
+     "rank": "4"
+    },
+    {
+     "id": "sacrificial_sword",
+     "rank": "4"
+    },
+    {
+     "id": "the_flute",
+     "rank": "4"
+    },
+    {
+     "id": "raven_bow",
+     "rank": "3"
+    },
+    {
+     "id": "sharpshooters_oath",
+     "rank": "3"
+    },
+    {
+     "id": "slingshot",
+     "rank": "3"
+    },
+    {
+     "id": "emerald_orb",
+     "rank": "3"
+    },
+    {
+     "id": "magic_guide",
+     "rank": "3"
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "rank": "3"
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "rank": "3"
+    },
+    {
+     "id": "debate_club",
+     "rank": "3"
+    },
+    {
+     "id": "ferrous_shadow",
+     "rank": "3"
+    },
+    {
+     "id": "black_tassel",
+     "rank": "3"
+    },
+    {
+     "id": "cool_steel",
+     "rank": "3"
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "rank": "3"
+    },
+    {
+     "id": "skyrider_sword",
+     "rank": "3"
+    }
+   ],
+   "characters": [
+    {
+     "id": "jean",
+     "rank": "5"
+    },
+    {
+     "id": "qiqi",
+     "rank": "5"
+    },
+    {
+     "id": "keqing",
+     "rank": "5"
+    },
+    {
+     "id": "mona",
+     "rank": "5"
+    },
+    {
+     "id": "diluc",
+     "rank": "5"
+    },
+    {
+     "id": "sayu",
+     "rank": "4"
+    },
+    {
+     "id": "sucrose",
+     "rank": "4"
+    },
+    {
+     "id": "chongyun",
+     "rank": "4"
+    },
+    {
+     "id": "diona",
+     "rank": "4"
+    },
+    {
+     "id": "rosaria",
+     "rank": "4"
+    },
+    {
+     "id": "beidou",
+     "rank": "4"
+    },
+    {
+     "id": "fischl",
+     "rank": "4"
+    },
+    {
+     "id": "kujou_sara",
+     "rank": "4"
+    },
+    {
+     "id": "razor",
+     "rank": "4"
+    },
+    {
+     "id": "ningguang",
+     "rank": "4"
+    },
+    {
+     "id": "noelle",
+     "rank": "4"
+    },
+    {
+     "id": "barbara",
+     "rank": "4"
+    },
+    {
+     "id": "xingqiu",
+     "rank": "4"
+    },
+    {
+     "id": "bennett",
+     "rank": "4"
+    },
+    {
+     "id": "thoma",
+     "rank": "4"
+    },
+    {
+     "id": "xiangling",
+     "rank": "4"
+    },
+    {
+     "id": "xinyan",
+     "rank": "4"
+    },
+    {
+     "id": "yanfei",
+     "rank": "4"
+    }
+   ],
+   "pulls": [
+    {
+     "id": "magic_guide",
+     "type": "Weapon",
+     "time": "2021-11-24 23:34:03",
+     "rank": "3",
+     "5starpity": 31,
+     "4starpity": 8
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-24 23:34:10",
+     "rank": "3",
+     "5starpity": 32,
+     "4starpity": 9
+    },
+    {
+     "id": "noelle",
+     "type": "Character",
+     "time": "2021-11-24 23:34:16",
+     "rank": "4",
+     "5starpity": 33,
+     "4starpity": 1
+    },
+    {
+     "id": "emerald_orb",
+     "type": "Weapon",
+     "time": "2021-11-24 23:34:55",
+     "rank": "3",
+     "5starpity": 34,
+     "4starpity": 2
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-24 23:35:02",
+     "rank": "3",
+     "5starpity": 35,
+     "4starpity": 3
+    },
+    {
+     "id": "harbinger_of_dawn",
+     "type": "Weapon",
+     "time": "2021-11-27 02:47:31",
+     "rank": "3",
+     "5starpity": 36,
+     "4starpity": 4
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-27 02:47:40",
+     "rank": "3",
+     "5starpity": 37,
+     "4starpity": 5
+    },
+    {
+     "id": "cool_steel",
+     "type": "Weapon",
+     "time": "2021-11-27 02:47:47",
+     "rank": "3",
+     "5starpity": 38,
+     "4starpity": 6
+    },
+    {
+     "id": "sharpshooters_oath",
+     "type": "Weapon",
+     "time": "2021-11-27 02:47:52",
+     "rank": "3",
+     "5starpity": 39,
+     "4starpity": 7
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-27 02:47:58",
+     "rank": "3",
+     "5starpity": 40,
+     "4starpity": 8
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-27 04:02:08",
+     "rank": "3",
+     "5starpity": 41,
+     "4starpity": 9
+    },
+    {
+     "id": "bloodtainted_greatsword",
+     "type": "Weapon",
+     "time": "2021-11-27 04:48:19",
+     "rank": "3",
+     "5starpity": 42,
+     "4starpity": 10
+    },
+    {
+     "id": "rosaria",
+     "type": "Character",
+     "time": "2021-11-27 04:48:25",
+     "rank": "4",
+     "5starpity": 43,
+     "4starpity": 1
+    },
+    {
+     "id": "thrilling_tales_of_dragon_slayers",
+     "type": "Weapon",
+     "time": "2021-11-27 04:59:01",
+     "rank": "3",
+     "5starpity": 44,
+     "4starpity": 2
+    }
+   ],
+   "totalpulls": 14,
+   "5starpity": 44,
+   "4starpity": 2,
+   "5starstage": "Hard Pity - Each next pull has 0.6% chance of being a 5 star item! You are at 50/50 pull for 5 star featured character!",
+   "4starstage": "Soft Pity - Each next pull has 13% chance of being a 4 star item!",
+   "4starchance": "",
+   "5starpities": [],
+   "4starpities": [
+    9,
+    10
+   ],
+   "5staritems": [],
+   "4staritems": [
+    "Noelle",
+    "Rosaria"
+   ],
+   "5050items": [],
+   "rateup": true,
+   "chancefor5star": "0.6%",
+   "primogems": 2240
+  }
+ ]
+}
