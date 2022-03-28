@@ -38,14 +38,18 @@ class Information():
             #
             #   MAIN
             #
-
+            min_desc = f"**Sex:**\n{data.get('sex','N/A')}\n**Element:**\n{data.get('element','N/A')}\n**Weapon:**\n{data.get('weapon','N/A')}\n**Nation:**\n{data.get('nation','N/A')}"
             if 'main' in specific_data:
                 main_keys = ['sex','element','rarity','birthday','region','weapon','parents','obtain', 'constellation']
                 embed = Embed(title=f'Basic Information', description=f"{data.get('description','')}")
                 for i in main_keys:
-                    if i in data:
-                        v = '\n'.join(data[i]) if type(data[i]) == list else data[i]
-                        embed.add_field(name=i.title(), value=v, inline=True)
+                    if i == 'constellation':
+                        v = data[i]
+                        embed.add_field(name=i.title(), value=v[-1], inline=True)
+                    else:
+                        if i in data:
+                            v = '\n'.join(data[i]) if type(data[i]) == list else data[i]
+                            embed.add_field(name=i.title(), value=v, inline=True)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
                 embed.set_footer(text=f' {character} ∎ Main Information')
@@ -93,7 +97,7 @@ class Information():
 
         if 'builds' in specific_data:
             for b in data['builds']:
-                embed = Embed(title='Builds',description=f"\n**Build Type:**\n{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()}")
+                embed = Embed(title='Builds',description=f"{min_desc}\n**Build Type:**\n{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()}")
                 embed.set_image(url=self.res_handler.convert_to_url(b,True))
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
@@ -103,7 +107,7 @@ class Information():
         
         if 'ascension_imgs' in specific_data:
             for a in data['ascension_imgs']:
-                embed = Embed(title='Ascension and Talent Mats')
+                embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}")
                 embed.set_image(url=self.res_handler.convert_to_url(a,True))
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
