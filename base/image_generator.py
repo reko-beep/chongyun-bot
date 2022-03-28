@@ -41,7 +41,7 @@ class ImageGenerator:
         '''
 
         w,h = size
-        return Image.new('RGBA', size, color=(0,0,0))
+        return Image.new('RGBA', size)
 
 
 
@@ -60,6 +60,7 @@ class ImageGenerator:
         '''
 
         filename = kwargs.get('filename', 'temp.png')
+        filepath = kwargs.get('filepath','/assets')
 
         #   calculates image height
         #   and width from images_list
@@ -74,13 +75,8 @@ class ImageGenerator:
             if temp_img is not None:
                 image_blank.paste(temp_img, ((index_ * self.base_width)+ (45 * index_) +15, 17 ), temp_img)
                 ImageDraw.Draw(image_blank).text(((index_ * self.base_width)+ (45 * index_)+ img_width+20, 25 ), text_list[index_].replace(' ','\n',10), fill=(255,255,255),font=self.font)
-                
+
+        if to_save:
+            image_blank.save(filepath + '/'+ filename)        
         return image_blank
 
-
-
-imgs = ['https://static.wikia.nocookie.net/gensin-impact/images/2/29/Constellation_Flower_of_Eden.png','https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Constellation_Opening_of_Phanerozoic.png','https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Constellation_Grace_of_Helios.png','https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Constellation_Descent_of_Divinity.png','https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Constellation_Tide_of_Hadean.png','https://static.wikia.nocookie.net/gensin-impact/images/5/52/Constellation_Dust_of_Purification.png']
-text = ['Flower of Eden', 'Opening of Phanerozoic','Grace of Helios','Grace of Helios','Tide of Hadean','Dust of Purification']
-img_m = ImageGenerator()
-test = img_m.create_image(imgs,text)
-test.show()
