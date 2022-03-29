@@ -130,8 +130,11 @@ class Information():
                 desc = '\n'.join(chars)
                 embed = Embed(title=title, description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=0x8241b4)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                embed.set_image(url=comp['file'])
+                
+                embed.set_image(url=url)
                 embed.set_footer(text=' {character} ∎ Team Comps ')
+                embeds.append(embed)
 
 
         return embeds
+
