@@ -98,7 +98,7 @@ class Information():
         if 'builds' in specific_data:
             for b in data['builds']:
                 embed = Embed(title=f"{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()} Build",description=f"{min_desc}")
-                embed.set_image(url=self.res_handler.convert_to_url(b,True))
+                embed.set_image(url=b)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
                 embed.set_footer(text=f' {character} ∎ Builds ')   
@@ -107,8 +107,8 @@ class Information():
         
         if 'ascension_imgs' in specific_data:
             for a in data['ascension_imgs']:
-                embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}")
-                embed.set_image(url=self.res_handler.convert_to_url(a,True))
+                embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}")                
+                embed.set_image(url=a)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
                 embed.set_footer(text=f' {character} ∎ Ascension ')   
@@ -131,7 +131,7 @@ class Information():
                 embed = Embed(title=title, description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=0x8241b4)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 
-                embed.set_image(url=url)
+                embed.set_image(url=comp['file'])
                 embed.set_footer(text=' {character} ∎ Team Comps ')
                 embeds.append(embed)
 

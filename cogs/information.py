@@ -19,7 +19,7 @@ class InformationCog(Cog):
 
         char = ''.join(arg)
 
-        embeds = self.inf.create_character_embeds(char, False, True)
+        embeds = self.inf.create_character_embeds(char, [],False, True)
 
         message : Message = await ctx.send(embed=embeds[0])
         view = PaginatorList(user=ctx.author, message=message, embeds=embeds)

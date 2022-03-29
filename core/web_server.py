@@ -43,7 +43,7 @@ async def dir_listing(req_path):
     url = abs_path.replace(BASE_DIR+'\\','/',99)
     # Check if path is a file and serve
     if os.path.isfile(abs_path):
-        return await render_template('image.html',ss_location=f"/file?path={url}")
+        return await send_file(abs_path)
     
     # Show directory contents
     listed = os.listdir(abs_path)
@@ -57,13 +57,5 @@ async def dir_listing(req_path):
 
     return data
 
-@app.route('/file')
-async def s_file():
-    print(request.args)
-    
-    args_ = request.args.get('path', None)
-    print(args_)
-    if args_ is not None:
-        return await send_file(os.getcwd()+'/'+args_)
-    
+
 
