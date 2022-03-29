@@ -1,12 +1,12 @@
 from nextcord import Embed, File
 from base.resource_manager import ResourceManager
 from json import load, dump
-
+from discord.utils import get
 
 class Information():    
-    def __init__(self, res: ResourceManager):
+    def __init__(self, res: ResourceManager, bot):
         self.res_handler = res
-
+        self.bot = bot
 
     def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False, url: bool= False):
         '''        
@@ -19,7 +19,7 @@ class Information():
         character = self.res_handler.search(character_name, self.res_handler.characters)
         data = self.res_handler.get_character_full_details(character_name, url)
         if data is not None:
-            options_allowed = ['main','constellations','talents','builds', 'ascension_imgs']
+            options_allowed = ['main','constellations','talents','builds', 'ascension_imgs', 'teamcomps']
             # check if provided options are
             specific_data = options_allowed
             if specific:
@@ -38,16 +38,16 @@ class Information():
             #
             #   MAIN
             #
-            min_desc = f"**Sex:**\n{data.get('sex','N/A')}\n**Element:**\n{data.get('element','N/A')}\n**Weapon:**\n{data.get('weapon','N/A')}\n**Nation:**\n{data.get('nation','N/A')}"
+            min_desc = f"**Sex:** *{data.get('sex','N/A')}* \n**Element:** *{data.get('element','N/A')}*\n**Weapon:** *{data.get('weapon','N/A')}*\n**Nation:** *{data.get('nation','N/A')}*\n**Rarity:** {data.get('rarity',3) *'⭐'}"
             if 'main' in specific_data:
-                main_keys = ['sex','element','rarity','birthday','region','weapon','parents','obtain', 'constellation']
-                embed = Embed(title=f'Basic Information', description=f"{data.get('description','')}")
+                main_keys = ['sex','element','birthday','region','weapon','parents','obtain', 'constellation']
+                embed = Embed(title=f'Basic Information', description=f"{data.get('description','')}\n\n**Rarity:** {data.get('rarity',3) *'⭐'}")
                 for i in main_keys:
                     if i == 'constellation':
                         v = data[i]
                         embed.add_field(name=i.title(), value=v[-1], inline=True)
                     else:
-                        if i in data:
+                        if i in data and i != 'rarity':
                             v = '\n'.join(data[i]) if type(data[i]) == list else data[i]
                             embed.add_field(name=i.title(), value=v, inline=True)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
@@ -97,7 +97,7 @@ class Information():
 
         if 'builds' in specific_data:
             for b in data['builds']:
-                embed = Embed(title='Builds',description=f"{min_desc}\n**Build Type:**\n{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()}")
+                embed = Embed(title=f"{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()} Build",description=f"{min_desc}")
                 embed.set_image(url=self.res_handler.convert_to_url(b,True))
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
@@ -114,4 +114,24 @@ class Information():
                 embed.set_footer(text=f' {character} ∎ Ascension ')   
 
                 embeds.append(embed)
+        
+        if 'teamcomps' in specific_data:
+            comps = data['teamcomps']
+            for comp in comps:
+                title = comp['title']
+                chars = []
+                for char in comp['chars']:
+                    c = list(char.keys())[0]
+                    chars.append(c.title())
+                owner_ = comp.get('owner', None)
+                usr = None
+                if owner_ is not None:
+                    usr = get(self.bot.guilds[0].members, id=owner_)
+                desc = '\n'.join(chars)
+                embed = Embed(title=title, description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=0x8241b4)
+                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                embed.set_image(url=comp['file'])
+                embed.set_footer(text=' {character} ∎ Team Comps ')
+
+
         return embeds

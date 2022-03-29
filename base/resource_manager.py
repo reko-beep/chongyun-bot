@@ -144,6 +144,24 @@ class ResourceManager:
             return path_
 
 
+    def get_comps(self, character_name: str, url: bool):
+        file = self.db.format(path='teamcomp.json')
+        with open(file, 'r') as f:
+            data = load(f)['data']
+        teamcomps = []
+        for i in data:
+            
+            chars = [list(k.keys())[0] for k in i['chars']]
+            for char in chars:
+                if character_name.lower() in char.lower():
+                    if url:
+                        path = self.genpath('images/teamcomps', i['file'])
+                        i['file'] = self.convert_to_url(path, url)
+                    else:
+                        i['file'] = self.genpath('images/teamcomps', i['file'])
+                    teamcomps.append(i)
+        return teamcomps
+
     def get_character_full_details(self, character_name: str, url: bool):
 
         data = {}
@@ -156,6 +174,7 @@ class ResourceManager:
             ascension = self.get_character_guides(character, 'as',  url)
             data['builds'] = builds
             data['ascension_imgs'] = ascension
+            data['teamcomps'] = self.get_comps(character, url)
 
         return data if len(data) != 0 else None
 
@@ -170,5 +189,8 @@ class ResourceManager:
     def character_details(self, character_name: str, details: list):
         raise NotImplementedError
 
+rm = ResourceManager()
+d = rm.get_character_full_details('albedo', True)
 
-
+with open('data.json', 'w') as f:
+    dump(d, f, indent=1)

@@ -21,7 +21,7 @@ class DevBot(Bot):
 
         }
         self.resource_manager : ResourceManager = resource_manager
-        self.inf : Information = Information(self.resource_manager)
+        self.inf : Information = Information(self.resource_manager, self)
         self.with_server = webserver
         self.load_config()
         self.load_all_extensions()

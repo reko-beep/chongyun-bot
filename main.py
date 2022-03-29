@@ -3,11 +3,14 @@ from base.image_generator import ImageGenerator
 from base.resource_manager import ResourceManager
 
 from core.bot import DevBot
-
-from json import load
+from os import getcwd
+from json import load, dump
 
 rm = ResourceManager()
-im = ImageGenerator()
-
+im = ImageGenerator(rm)
 bot = DevBot('!',rm, True)
+
 bot.b_run()
+
+
+
