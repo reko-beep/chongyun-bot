@@ -7,12 +7,8 @@ class Information():
     def __init__(self, res: ResourceManager, bot):
         self.res_handler = res
         self.bot = bot
-        self.bot_guild = get(self.bot.guilds, id=945256650355392554)
-        if self.bot_guild is not None:
-            self.emojis = self.bot_guild.emojis
-        else:
-            self.emojis = None
-        logc('Dev Guild', self.bot_guild,'\n','emojis loaded', len(self.emojis))
+        self.bot_guild = None
+        self.emojis = None
 
     def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False, url: bool= False):
         '''        
@@ -21,7 +17,15 @@ class Information():
         '''
 
         embeds = []
+        if self.bot_guild is None:
 
+            self.bot_guild = get(self.bot.guilds, id=945256650355392554)           
+            
+            if self.bot_guild is not None:
+                self.emojis = self.bot_guild.emojis
+            else:
+                self.emojis = None
+            logc('Dev Guild', self.bot_guild,'\n','emojis loaded', len(self.emojis))
         character = self.res_handler.search(character_name, self.res_handler.characters)
         data = self.res_handler.get_character_full_details(character_name, url)
         if data is not None:
@@ -41,13 +45,9 @@ class Information():
             
             element_color = element.get('color', 9486540)
             if self.emojis is not None:
-                element_emoji = get(self.emojis, name=element.lower())
-                logc('Element Emoji', element_emoji)
-                if element_emoji is not None:
-                    element_emoji = ':'+element_emoji.name+':'
-            else:
-                element_emoji = ''
-            logc('Final Element Emoji', element_emoji)
+                element_emoji = get(self.emojis, name=data.get('element').lower())
+                element_emoji = '<:'+element_emoji.name+":"+str(element_emoji.id)+'>'
+         
             if 'image' in specific_data:
                 specific_data.pop('image')
 
