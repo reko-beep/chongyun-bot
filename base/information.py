@@ -2,7 +2,7 @@ from nextcord import Embed, File
 from base.resource_manager import ResourceManager
 from json import load, dump
 from discord.utils import get
-
+from dev_log import logc
 class Information():    
     def __init__(self, res: ResourceManager, bot):
         self.res_handler = res
@@ -12,6 +12,7 @@ class Information():
             self.emojis = self.bot_guild.emojis
         else:
             self.emojis = None
+        logc('Dev Guild', self.bot_guild,'\n','emojis loaded', len(self.emojis))
 
     def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False, url: bool= False):
         '''        
@@ -40,12 +41,13 @@ class Information():
             
             element_color = element.get('color', 9486540)
             if self.emojis is not None:
-                element_emoji = get(self.emojis, name=element)
+                element_emoji = get(self.emojis, name=element.lower())
+                logc('Element Emoji', element_emoji)
                 if element_emoji is not None:
                     element_emoji = ':'+element_emoji.name+':'
             else:
                 element_emoji = ''
-
+            logc('Final Element Emoji', element_emoji)
             if 'image' in specific_data:
                 specific_data.pop('image')
 
