@@ -1,0 +1,33 @@
+{
+    "electro" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Element_Electro.svg",
+        "color" : 11571138
+    },
+    "hydro" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Element_Hydro.svg",
+        "color" : 4965361
+    },
+    "dendro" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Dendro.svg",
+        "color" : 10930488
+    },
+    "anemo" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Element_Anemo.svg",
+        "color" : 10930488
+    },
+    "pyro" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Element_Pyro.svg",
+        "color" : 15694389
+    },
+    "geo" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Element_Geo.svg",
+        "color" : 16430894
+    },
+    
+    "cryo" : {
+        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Element_Cryo.svg",
+        "color" : 10541028
+    }
+    
+
+}

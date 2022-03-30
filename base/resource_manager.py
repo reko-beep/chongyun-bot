@@ -189,8 +189,10 @@ class ResourceManager:
     def character_details(self, character_name: str, details: list):
         raise NotImplementedError
 
-rm = ResourceManager()
-d = rm.get_character_full_details('albedo', True)
-
-with open('data.json', 'w') as f:
-    dump(d, f, indent=1)
+    def get_element(self, element: str):
+        element_file = self.genpath('jsons',self.search('element',self.goto('jsons').get('files')))
+        with open(element_file,'r') as f:
+            element_data = load(f)
+            element_searched = self.search(element, list(element_data.keys()))
+            if element_searched is not None:
+                return element_data[element_searched]

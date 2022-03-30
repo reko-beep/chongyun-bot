@@ -44,7 +44,7 @@ class DevBot(Bot):
     def start_webserver(self):
         if self.resource_manager.site.startswith('http://127.0.0.1'):            
             self.loop.create_task(app.run_task('0.0.0.0', port=5000))            
-            self.resource_manager.site = 'http://'+socket.gethostbyname(socket.gethostname())+':5000/assets/'
+            self.resource_manager.site = self.b_config.get('site', 'http://127.0.0.1/')+'/assets/'
             print(self.resource_manager.site )
             logc(f'Resource manager site is set to {self.resource_manager.site}')
         else:
