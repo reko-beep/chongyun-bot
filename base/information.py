@@ -80,44 +80,47 @@ class Information():
             if 'constellations' in specific_data:
 
                 c_data = data.get('constellations', None)
-                if c_data is not None:
-                    c_desc = ''
-                    for const in c_data:
+                if len(c_data) > 0:
+                    if c_data is not None:
+                        c_desc = ''
+                        for const in c_data:
 
-                        level = const
-                        const_data = c_data[const]
-                        c_desc += f"**{const_data['name']}** ∎ **Level {level}**\n*{const_data['effect']}*\n\n"
+                            level = const
+                            const_data = c_data[const]
+                            c_desc += f"**{const_data['name']}** ∎ **Level {level}**\n*{const_data['effect']}*\n\n"
 
-                    embed = Embed(title=f'Constellations',description=c_desc, color=element_color)
-                    embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                    embed.set_thumbnail(url=images_dict.get('thumb'))
+                        embed = Embed(title=f'Constellations',description=c_desc, color=element_color)
+                        embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                        embed.set_thumbnail(url=images_dict.get('thumb'))
 
-                    folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
-                    image_url = self.res_handler.convert_to_url(f'{folder_name}/constellations.png', True)
-                    print(image_url)
-                    embed.set_image(url=image_url)
-                    embed.set_footer(text=f' {character} ∎ Constellations')   
-                    embeds.append(embed)
+                        folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
+                        image_url = self.res_handler.convert_to_url(f'{folder_name}/constellations.png', True)
+                        print(image_url)
+                        embed.set_image(url=image_url)
+                        embed.set_footer(text=f' {character} ∎ Constellations')   
+                        embeds.append(embed)
         
         if 'talents' in specific_data:
-    
+
                 t_data = data.get("talents", None)
+                
                 if t_data is not None:
-                    t_desc = ''
-                    for t in t_data:
+                    if len(c_data) > 0:
+                        t_desc = ''
+                        for t in t_data:
 
-                        t_desc += f"**{t['name']}**\n*{t['type']}*\n\n"
+                            t_desc += f"**{t['name']}**\n*{t['type']}*\n\n"
 
-                    embed = Embed(title=f'Talents',description=t_desc, color=element_color)
-                    embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                    embed.set_thumbnail(url=images_dict.get('thumb'))
+                        embed = Embed(title=f'Talents',description=t_desc, color=element_color)
+                        embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                        embed.set_thumbnail(url=images_dict.get('thumb'))
 
-                    folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
-                    image_url = self.res_handler.convert_to_url(f'{folder_name}/talents.png', True)
-                    print(image_url)
-                    embed.set_image(url=image_url)
-                    embed.set_footer(text=f' {character} ∎ Talents') 
-                    embeds.append(embed)  
+                        folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
+                        image_url = self.res_handler.convert_to_url(f'{folder_name}/talents.png', True)
+                        print(image_url)
+                        embed.set_image(url=image_url)
+                        embed.set_footer(text=f' {character} ∎ Talents') 
+                        embeds.append(embed)  
 
         if 'builds' in specific_data:
             b_data = data.get("builds", None)
