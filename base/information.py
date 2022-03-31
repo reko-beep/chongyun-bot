@@ -70,8 +70,8 @@ class Information():
             #
             sex = 'N/A' if data.get('sex','') == '' else data['sex']
             element = 'N/A' if data.get('element','') == '' else data['element']
-            weapon = 'N/A' if data.get('element','') == '' else data['weapon']
-            nation = 'N/A' if data.get('element','') == '' else data['nation']
+            weapon = 'N/A' if data.get('weapon','') == '' else data['weapon']
+            nation = 'N/A' if data.get('nation','') == '' else data['nation']
             rarity = ''
             if data.get('rarity', 0) == 0:
                 rarity = 'N/A'
@@ -96,7 +96,7 @@ class Information():
                         else:
                             if i in data and i != 'rarity':
                                 if data.get(i, None) != None:
-                                    if data[i] == list:
+                                    if type(data[i]) == list:
                                         v = '\n'.join(data[i])
                                     else:
                                         if data[i] == '':
@@ -250,24 +250,34 @@ class Information():
 
             if 'teamcomps' in specific_data:
                 comps = data.get('teamcomps', None)
+                
                 if comps is not None:
-                    for comp in comps:
-                        title = comp['title']
-                        chars = []
-                        for char in comp['chars']:
-                            c = list(char.keys())[0]
-                            chars.append(c.title())
-                        owner_ = comp.get('owner', None)
-                        usr = None
-                        if owner_ is not None:
-                            usr = get(self.bot.guilds[0].members, id=owner_)
-                        desc = '\n'.join(chars)
-                        embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=element_color)
-                        embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                        
-                        embed.set_image(url=comp['file'])
-                        embed.set_footer(text=f' {character} ∎ Team Comps ')
-                        embeds.append(embed)
+                    if len(comps) > 0:
+                        for comp in comps:
+                            title = comp['title']
+                            chars = []
+                            for char in comp['chars']:
+                                c = list(char.keys())[0]
+                                chars.append(c.title())
+                            owner_ = comp.get('owner', None)
+                            usr = None
+                            if owner_ is not None:
+                                usr = get(self.bot.guilds[0].members, id=owner_)
+                            desc = '\n'.join(chars)
+                            embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=element_color)
+                            embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                            
+                            embed.set_image(url=comp['file'])
+                            embed.set_footer(text=f' {character} ∎ Team Comps ')
+                            embeds.append(embed)
+                    else:
+                        embeds.append(self.create_na_embed(
+                            character,
+                            f'{min_desc}\n\n*No team comp available yet!*',
+                            element_color,
+                            'Team comps',
+                            images_dict.get('thumb')
+                        ))
                     
                 else:
                     embeds.append(self.create_na_embed(
