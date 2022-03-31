@@ -10,6 +10,16 @@ class Information():
         self.bot_guild = None
         self.emojis = None
 
+    def create_na_embed(self, character: str, desc_str: str, color_ : int, title: str, thumbnail_url: str):
+
+        embed = Embed(title=f'{title}',description=desc_str, color=color_)
+        embed.set_author(name=character, icon_url=thumbnail_url)
+        embed.set_thumbnail(url=thumbnail_url)
+
+    
+        embed.set_footer(text=f' {character} ∎ {title}') 
+        return embed
+
     def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False, url: bool= False):
         '''        
         create character embeds for character_name
@@ -80,8 +90,9 @@ class Information():
             if 'constellations' in specific_data:
 
                 c_data = data.get('constellations', None)
-                if len(c_data) > 0:
-                    if c_data is not None:
+                
+                if c_data is not None:
+                    if len(c_data) > 0:
                         c_desc = ''
                         for const in c_data:
 
@@ -99,6 +110,23 @@ class Information():
                         embed.set_image(url=image_url)
                         embed.set_footer(text=f' {character} ∎ Constellations')   
                         embeds.append(embed)
+                    else:
+                        embeds.append(self.create_na_embed(
+                        character,
+                        'No Constellation found yet!',
+                        element_color,
+                        'Constellations',
+                        images_dict.get('thumb')
+                    ))
+                else:
+                    embeds.append(self.create_na_embed(
+                        character,
+                        'No Constellation found yet!',
+                        element_color,
+                        'Constellations',
+                        images_dict.get('thumb')
+                    ))
+
         
         if 'talents' in specific_data:
 
@@ -121,7 +149,22 @@ class Information():
                         embed.set_image(url=image_url)
                         embed.set_footer(text=f' {character} ∎ Talents') 
                         embeds.append(embed)  
-
+                    else:
+                        embeds.append(self.create_na_embed(
+                        character,
+                        'No talents found yet!',
+                        element_color,
+                        'Talents',
+                        images_dict.get('thumb')
+                    ))
+                else:
+                    embeds.append(self.create_na_embed(
+                    character,
+                    'No talents found yet!',
+                    element_color,
+                    'Talents',
+                    images_dict.get('thumb')
+                ))
         if 'builds' in specific_data:
             b_data = data.get("builds", None)
             if b_data is not None:
@@ -134,6 +177,22 @@ class Information():
                         embed.set_footer(text=f' {character} ∎ Builds ')   
 
                         embeds.append(embed)
+                else:
+                    embeds.append(self.create_na_embed(
+                        character,
+                        f'{min_desc}\n\n*No builds available yet!*',
+                        element_color,
+                        'Builds',
+                        images_dict.get('thumb')
+                    ))
+            else:
+                embeds.append(self.create_na_embed(
+                        character,
+                        f'{min_desc}\n\n*No builds available yet!*',
+                        element_color,
+                        'Builds',
+                        images_dict.get('thumb')
+                    ))
         
         if 'ascension_imgs' in specific_data:
             a_data = data.get('ascension_imgs', None)
@@ -147,7 +206,25 @@ class Information():
                         embed.set_footer(text=f' {character} ∎ Ascension ')   
 
                         embeds.append(embed)
+                else:
+                    embeds.append(self.create_na_embed(
+                        character,
+                        f'{min_desc}\n\n*No ascension available yet!*',
+                        element_color,
+                        'Ascension and Talent Mats',
+                        images_dict.get('thumb')
+                    ))
+            else:
+                embeds.append(self.create_na_embed(
+                        character,
+                        f'{min_desc}\n\n*No ascension available yet!*',
+                        element_color,
+                        'Ascension and Talent Mats',
+                        images_dict.get('thumb')
+                    ))
         
+        
+
         if 'teamcomps' in specific_data:
             comps = data.get('teamcomps', None)
             if comps is not None:
@@ -168,6 +245,16 @@ class Information():
                     embed.set_image(url=comp['file'])
                     embed.set_footer(text=f' {character} ∎ Team Comps ')
                     embeds.append(embed)
+                
+            else:
+                embeds.append(self.create_na_embed(
+                        character,
+                        f'{min_desc}\n\n*No team comp available yet!*',
+                        element_color,
+                        'Team comps',
+                        images_dict.get('thumb')
+                    ))
+        
 
 
         return embeds
