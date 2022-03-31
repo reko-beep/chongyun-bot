@@ -47,7 +47,7 @@ class ImageGenerator:
         '''
 
         w,h = size
-        if background_path is not None:
+        if background_path != '':
             img = Image.open(background_path, 'r').convert('RGBA')
             return Image.new('RGBA', size).paste(img, (0,0), img)
         else:

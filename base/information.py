@@ -79,83 +79,92 @@ class Information():
 
             if 'constellations' in specific_data:
 
-                c_data = data['constellations']
-                c_desc = ''
-                for const in c_data:
+                c_data = data.get('constellations', None)
+                if c_data is not None:
+                    c_desc = ''
+                    for const in c_data:
 
-                    level = const
-                    const_data = c_data[const]
-                    c_desc += f"**{const_data['name']}** ∎ **Level {level}**\n*{const_data['effect']}*\n\n"
+                        level = const
+                        const_data = c_data[const]
+                        c_desc += f"**{const_data['name']}** ∎ **Level {level}**\n*{const_data['effect']}*\n\n"
 
-                embed = Embed(title=f'Constellations',description=c_desc, color=element_color)
-                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                embed.set_thumbnail(url=images_dict.get('thumb'))
+                    embed = Embed(title=f'Constellations',description=c_desc, color=element_color)
+                    embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                    embed.set_thumbnail(url=images_dict.get('thumb'))
 
-                folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
-                image_url = self.res_handler.convert_to_url(f'{folder_name}/constellations.png', True)
-                print(image_url)
-                embed.set_image(url=image_url)
-                embed.set_footer(text=f' {character} ∎ Constellations')   
-                embeds.append(embed)
+                    folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
+                    image_url = self.res_handler.convert_to_url(f'{folder_name}/constellations.png', True)
+                    print(image_url)
+                    embed.set_image(url=image_url)
+                    embed.set_footer(text=f' {character} ∎ Constellations')   
+                    embeds.append(embed)
         
         if 'talents' in specific_data:
     
-                t_data = data['talents']
-                t_desc = ''
-                for t in t_data:
+                t_data = data.get("talents", None)
+                if t_data is not None:
+                    t_desc = ''
+                    for t in t_data:
 
-                    t_desc += f"**{t['name']}**\n*{t['type']}*\n\n"
+                        t_desc += f"**{t['name']}**\n*{t['type']}*\n\n"
 
-                embed = Embed(title=f'Talents',description=t_desc, color=element_color)
-                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                embed.set_thumbnail(url=images_dict.get('thumb'))
+                    embed = Embed(title=f'Talents',description=t_desc, color=element_color)
+                    embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                    embed.set_thumbnail(url=images_dict.get('thumb'))
 
-                folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
-                image_url = self.res_handler.convert_to_url(f'{folder_name}/talents.png', True)
-                print(image_url)
-                embed.set_image(url=image_url)
-                embed.set_footer(text=f' {character} ∎ Talents') 
-                embeds.append(embed)  
+                    folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
+                    image_url = self.res_handler.convert_to_url(f'{folder_name}/talents.png', True)
+                    print(image_url)
+                    embed.set_image(url=image_url)
+                    embed.set_footer(text=f' {character} ∎ Talents') 
+                    embeds.append(embed)  
 
         if 'builds' in specific_data:
-            for b in data['builds']:
-                embed = Embed(title=f"{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title()} Build",description=f"{min_desc}", color=element_color)
-                embed.set_image(url=b)
-                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                embed.set_thumbnail(url=images_dict.get('thumb'))
-                embed.set_footer(text=f' {character} ∎ Builds ')   
+            b_data = data.get("builds", None)
+            if b_data is not None:
+                if len(b_data) > 0:
+                    for b in b_data:
+                        embed = Embed(title=f"{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title().replace('Dps','DPS',1)} Build",description=f"{min_desc}", color=element_color)
+                        embed.set_image(url=b)
+                        embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                        embed.set_thumbnail(url=images_dict.get('thumb'))
+                        embed.set_footer(text=f' {character} ∎ Builds ')   
 
-                embeds.append(embed)
+                        embeds.append(embed)
         
         if 'ascension_imgs' in specific_data:
-            for a in data['ascension_imgs']:
-                embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}", color=element_color)               
-                embed.set_image(url=a)
-                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                embed.set_thumbnail(url=images_dict.get('thumb'))
-                embed.set_footer(text=f' {character} ∎ Ascension ')   
+            a_data = data.get('ascension_imgs', None)
+            if a_data is not None:
+                if len(a_data) > 0:
+                    for a in data['ascension_imgs']:
+                        embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}", color=element_color)               
+                        embed.set_image(url=a)
+                        embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                        embed.set_thumbnail(url=images_dict.get('thumb'))
+                        embed.set_footer(text=f' {character} ∎ Ascension ')   
 
-                embeds.append(embed)
+                        embeds.append(embed)
         
         if 'teamcomps' in specific_data:
-            comps = data['teamcomps']
-            for comp in comps:
-                title = comp['title']
-                chars = []
-                for char in comp['chars']:
-                    c = list(char.keys())[0]
-                    chars.append(c.title())
-                owner_ = comp.get('owner', None)
-                usr = None
-                if owner_ is not None:
-                    usr = get(self.bot.guilds[0].members, id=owner_)
-                desc = '\n'.join(chars)
-                embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=element_color)
-                embed.set_author(name=character, icon_url=images_dict.get('thumb'))
-                
-                embed.set_image(url=comp['file'])
-                embed.set_footer(text=f' {character} ∎ Team Comps ')
-                embeds.append(embed)
+            comps = data.get('teamcomps', None)
+            if comps is not None:
+                for comp in comps:
+                    title = comp['title']
+                    chars = []
+                    for char in comp['chars']:
+                        c = list(char.keys())[0]
+                        chars.append(c.title())
+                    owner_ = comp.get('owner', None)
+                    usr = None
+                    if owner_ is not None:
+                        usr = get(self.bot.guilds[0].members, id=owner_)
+                    desc = '\n'.join(chars)
+                    embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=element_color)
+                    embed.set_author(name=character, icon_url=images_dict.get('thumb'))
+                    
+                    embed.set_image(url=comp['file'])
+                    embed.set_footer(text=f' {character} ∎ Team Comps ')
+                    embeds.append(embed)
 
 
         return embeds
