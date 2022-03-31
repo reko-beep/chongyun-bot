@@ -2,7 +2,6 @@
 from os import getcwd, listdir
 from os.path import exists, isfile, isdir
 from json import load, dump
-
 class ResourceManager:
     def __init__(self, site: str = ''):
         '''
@@ -50,9 +49,12 @@ class ResourceManager:
         """
         searches a string in search_list
         """
-        for s_item in search_list:
-            if search_string.lower() in s_item.lower():
-                return s_item
+        for s_item in search_list:                        
+            for s_item in search_list:
+                if type(search_string) == list:
+                    for s in search_string:
+                        if s.lower() in s_item.lower():
+                            return s_item
 
     def __load(self):
         for file in self.files:
@@ -196,3 +198,5 @@ class ResourceManager:
             element_searched = self.search(element, list(element_data.keys()))
             if element_searched is not None:
                 return element_data[element_searched]
+
+

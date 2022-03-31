@@ -72,15 +72,22 @@ class Information():
                 embed = Embed(title=f'Basic Information', description=f"{data.get('description','')}\n\n**Rarity:** {data.get('rarity',3) *'⭐'}", color=element_color)
                 for i in main_keys:
                     if i == 'constellation':
-                        v = data[i]
+                        if data.get("constellation", None) != None:
+                            if type(data['constellation']) == list:
+                                v = [c for c in data.get("constellation") if 'chapter' not in c.lower() and 'constellation' not in c.lower()]
+                                v = 'N/A' if len(v) == 0 else v[0]
+                            else:
+                                v = 'N/A'
+                        else:
+                            v = 'N/A'
                         embed.add_field(name=i.title(), value=v[-1], inline=True)
                     else:
                         if i == 'element':
-                            v = data[i]+' '+element_emoji
+                            v = 'N/A' if data.get(i,None) == None else data[i] +' '+element_emoji
                         else:
 
                             if i in data and i != 'rarity':
-                                v = '\n'.join(data[i]) if type(data[i]) == list else data[i]
+                                v = '\n'.join(data[i]) if type(data.get(i, 'N/A')) == list else data.get(i, 'N/A')
                                 embed.add_field(name=i.title(), value=v, inline=True)
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
