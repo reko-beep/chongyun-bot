@@ -41,7 +41,6 @@ class ResourceManager:
                     if s.lower() in s_item.lower():
                         return s_item
             else:
-
                 if search_string.lower() in s_item.lower():
                     return s_item
 
@@ -49,12 +48,16 @@ class ResourceManager:
         """
         searches a string in search_list
         """
-        for s_item in search_list:                        
-            for s_item in search_list:
-                if type(search_string) == list:
-                    for s in search_string:
-                        if s.lower() in s_item.lower():
-                            return s_item
+        if ' ' in search_string:
+            search_string = search_string.split(' ')
+        for s_item in search_list:
+            if type(search_string) == list:
+                for s in search_string:
+                    if s.lower() in s_item.lower():
+                        return s_item
+            else:
+                if search_string.lower() in s_item.lower():
+                    return s_item
 
     def __load(self):
         for file in self.files:
@@ -169,7 +172,7 @@ class ResourceManager:
         data = {}
         character_search_list = list(self.characters.keys())
         character = self.__search(character_name, character_search_list)
-
+        print(character_name, character, character_search_list)
         if character is not None:
             data = self.characters[character]
             builds = self.get_character_guides(character, 'b', url)
