@@ -68,7 +68,6 @@ class Information():
             #
             #   MAIN
             #
-            sex = 'N/A' if data.get('sex','') == '' else data['sex']
             element = 'N/A' if data.get('element','') == '' else data['element']
             weapon = 'N/A' if data.get('weapon','') == '' else data['weapon']
             nation = 'N/A' if data.get('nation','') == '' else data['nation']
@@ -77,7 +76,7 @@ class Information():
                 rarity = 'N/A'
             else:
                 rarity = '⭐'*data.get('rarity')
-            min_desc = f"**Sex:** *{sex}* \n**Element:** *{element}* {element_emoji}\n**Weapon:** *{weapon}*\n**Nation:** *{nation}*\n**Rarity:** {rarity}"
+            min_desc = f"\n**Element:** *{element}* {element_emoji}\n**Weapon:** *{weapon}*\n**Nation:** *{nation}*\n**Rarity:** {rarity}"
             if 'main' in specific_data:
                 main_keys = ['sex','element','birthday','region','weapon','parents','obtain', 'constellation']
                 
