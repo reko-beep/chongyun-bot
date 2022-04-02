@@ -125,7 +125,7 @@ class CoopManager:
             except ValueError:
                 pass
             else:
-                if index // 2 != 0:
+                if index % 2 != 0:
                     return allowed[index-1]
                 else:
                     return allowed[index]
@@ -341,7 +341,7 @@ class CoopManager:
             if len(profiles) > 0:                
                 data['profiles'] += '**Accounts:**\n'
                 for prof in profiles:
-                    data['profiles'] += f"**{prof.upper()}**\n__UID__: {profiles[prof].get('uid','Not setup yet')}\n__World Level__: {profiles[prof].get('world_level','Not setup yet')}\n__AR__: {profiles[prof].get('rank','Not setup yet')}\n"
+                    data[prof.upper()] += f"**{prof.upper()}**\nUID: {profiles[prof].get('uid','Not setup yet')}\n__World Level__: {profiles[prof].get('world_level','Not setup yet')}\n__AR__: {profiles[prof].get('rank','Not setup yet')}\n"
 
             else:
                 data['profiles'] = '**Accounts:**\nNone linked!'
@@ -355,7 +355,7 @@ class CoopManager:
 
                     domain_name = self.get_domains_map(dom_type, dom_key)
                     if domain_name is not None:
-                        data['domains'] += f"**{domain_name.split(',')[0]}**: *{domain_name.split(',')[1].strip()}, {dom_key.title().strip()}*\n"
+                        data[domain_name.split(',')[0]] += f"*{domain_name.split(',')[1].strip()}*, **{dom_key.title().strip()}**\n"
             else:
                 data['domains'] = '**Domains:**\nNot setup yet!'
             
@@ -369,7 +369,7 @@ class CoopManager:
             else:
                 data['leylines'] = '**Leylines:**\nNot setup yet!'
             
-            data['points'] = f"**Co op Points:** {d_['points']}\n*{d_['points_to_give']} can be given to other players*"
+            data['points'] = f"**Co-op Points:** {d_['points']}\n*{d_['points_to_give']} can be given to other players*"
 
         return data
 
