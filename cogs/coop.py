@@ -25,24 +25,45 @@ class CoopCog(Cog):
         data = self.coop.prettify_data(user)
 
         if len(data) > 1:
-            description = ''
+            description = self.coop.get_description(user) if self.coop.get_description(user) is not None else 'Not yet setup'
+           
+            base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
+            embed = Embed(title='Co-op Profile', description = description, color=base_color)
             for key in data:
-                description += data[key]+'\n'
-            embed = Embed(title='Co-op Profile', description=description, color=0x707dfa)
+                embed.add_field(name=key, value=data[key], inline=True)
             embed.set_author(name=user.display_name, icon_url=user.avatar.url)
-            embed.set_thumbnail(url=user.avatar.url)
+
+            thumbnail = self.coop.get_character(user)
+            print(thumbnail)
+            if thumbnail is not None and thumbnail != '':
+                embed.set_thumbnail(url=thumbnail)
+            else:
+                embed.set_thumbnail(url=user.avatar.url)
+            
+            image = self.coop.get_image(user)
+            print(image)
+            if image is not None and image != '':
+                embed.set_image(url=image)
             await ctx.send(embed=embed)
 
         else:
-            self.coop.generate_profile(user)
-
-            data = self.coop.prettify_data(user)
-            description = ''
+            description = self.coop.get_description(user) if self.coop.get_description(user) is not None else 'Not yet setup'
+           
+            base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
+            embed = Embed(title='Co-op Profile', description = description, color=base_color)
             for key in data:
-                description += data[key]+'\n'
-            embed = Embed(title='Co-op Profile', description=description, color=0x707dfa)
+                embed.add_field(name=key, value=data[key], inline=True)
             embed.set_author(name=user.display_name, icon_url=user.avatar.url)
-            embed.set_thumbnail(url=user.avatar.url)
+
+            thumbnail = self.coop.get_character(user)
+            if thumbnail is not None and thumbnail != '':
+                embed.set_thumbnail(url=thumbnail)
+            else:
+                embed.set_thumbnail(url=user.avatar.url)
+            
+            image = self.coop.get_image(user)
+            if image is not None and image != '':
+                embed.set_image(url=image)
             await ctx.send(embed=embed)
     
     @commands.command(aliases=['cpinfo', 'coinfo'], description='cpinfo (add|remove) (domain|leylines|wl|rank|uid) (domain type|leyline name|server region) (nation| nothing | value) adds a mentioned value to the coop')
@@ -66,6 +87,8 @@ class CoopCog(Cog):
                 check = self.coop.parse_arg(ctx.author, args[0], args[1], args[2])
             print(check)
             status = 'added' if args[0] == 'add' else 'remove'
+            if args[0] == 'set':
+                status = 'set'
             if type(check) == bool:
                 embed = Embed(title='Co-op profile updated!', description=f'{status.title()} {args[2]} {args[1]} to coop profile!', color=0x707dfa)
                 await ctx.send(embed=embed)

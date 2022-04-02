@@ -337,39 +337,41 @@ class CoopManager:
             d_ = self.coop_data[discord_id]
 
             profiles = d_['profiles']
-            data['profiles'] = ''
-            if len(profiles) > 0:                
-                data['profiles'] += '**Accounts:**\n'
+            if len(profiles) > 0:               
+                
                 for prof in profiles:
-                    data[prof.upper()] += f"**{prof.upper()}**\nUID: {profiles[prof].get('uid','Not setup yet')}\n__World Level__: {profiles[prof].get('world_level','Not setup yet')}\n__AR__: {profiles[prof].get('rank','Not setup yet')}\n"
+                    data[prof.upper()] = ''
+                    data[prof.upper()] += f"UID: {profiles[prof].get('uid','Not setup yet')}\nWorld Level: {profiles[prof].get('world_level','Not setup yet')}\nAR: {profiles[prof].get('rank','Not setup yet')}\n"
 
             else:
-                data['profiles'] = '**Accounts:**\nNone linked!'
+                data['Accounts'] = 'None linked!'
             
             domains = d_['domains']
             if len(domains) > 0:
-                data['domains'] = '**Domains:**\n'
                 for dom in domains:
                     dom_type = list(dom.keys())[0]
                     dom_key = dom[dom_type]
 
                     domain_name = self.get_domains_map(dom_type, dom_key)
                     if domain_name is not None:
+                        if domain_name.split(',')[0] not in data:
+                            data[domain_name.split(',')[0]] = ''
                         data[domain_name.split(',')[0]] += f"*{domain_name.split(',')[1].strip()}*, **{dom_key.title().strip()}**\n"
             else:
-                data['domains'] = '**Domains:**\nNot setup yet!'
+                data['Domains'] = 'Not setup yet!'
             
             leylines = d_['leylines']
+            data['Leylines'] = ''
             if len(leylines) > 0:
-                data['leylines'] = '**Leylines:**\n'
+                data['Leylines'] = ''
                 for ley in leylines:
                     leyline_name = self.get_leylines_map(ley)
                     if leyline_name is not None:
-                        data['leylines'] += f"*{leyline_name}*\n"
+                        data['Leylines'] += f"*{leyline_name}*\n"
             else:
-                data['leylines'] = '**Leylines:**\nNot setup yet!'
+                data['Leylines'] = 'Not setup yet!'
             
-            data['points'] = f"**Co-op Points:** {d_['points']}\n*{d_['points_to_give']} can be given to other players*"
+            data['Co-op Points'] = f"You have {d_['points']} co-op points\n*{d_['points_to_give']} co-op points can be given to other players*"
 
         return data
 
@@ -385,13 +387,19 @@ class CoopManager:
             'remove': {
                 'domains': self.remove_domain,
                 'leylines': self.remove_leyline                
+            },
+            'set': {
+                'image': self.set_image,
+                'character': self.set_character,
+                'description': self.set_description,
+                'color': self.set_color
             }
         }
 
         if opr in list(funcs.keys()):
             if type_ in list(funcs[opr].keys()):
                 print('args', opr, type_, name, value)
-                if type_ in ['leylines', 'uid']:
+                if type_ in ['leylines', 'uid', 'image', 'character', 'color', 'description']:
                     check = funcs[opr][type_](discord_member, name)          
                 else:
                     check = funcs[opr][type_](discord_member,name,  value)
@@ -418,8 +426,97 @@ class CoopManager:
             print(funcs.keys())
             return list(funcs.keys())
                     
+    def set_character(self, discord_member: Member, character_str: str):
+        discord_id = str(discord_member.id)
+        thumbnail = self.res.genpath('images/thumbnails', self.res.search(character_str, self.res.goto('images/thumbnails').get('files')))
+        
+        if thumbnail.split('/')[-1] == 'None':
+            self.coop_data[discord_id]['thumbnail'] = ''
+            return True
 
-rm = ResourceManager()
-test = CoopManager(rm)
+        
+        if discord_id not in self.coop_data:
+            self.generate_profile(discord_member)            
+        self.coop_data[discord_id]['thumbnail'] = thumbnail
+        self.__save()
+        return True
+    
+    def get_character(self, discord_member: Member):
+        discord_id = str(discord_member.id)   
 
-print(test.get_server_region(uid=8126127612))
+        
+        if discord_id  in self.coop_data:
+            if self.coop_data[discord_id].get('thumbnail', None) != None:
+                return self.res.convert_to_url(self.coop_data[discord_id].get('thumbnail'), True)
+            
+    
+    def set_image(self, discord_member: Member, url: str):
+        discord_id = str(discord_member.id)
+        url_check = url.startswith('http') and url.split('/')[-1].split('.')[1] in ['png','jpg','jpeg','gif']
+   
+
+        
+        if discord_id not in self.coop_data:
+            self.generate_profile(discord_member)
+            
+        self.coop_data[discord_id]['image'] = url
+        self.__save()
+        return True
+    
+    def get_image(self, discord_member: Member):
+        discord_id = str(discord_member.id)
+       
+        
+        if discord_id  in self.coop_data:
+            
+            return self.coop_data[discord_id].get('image', None)
+    
+    def set_color(self, discord_member: Member, color: str):
+        discord_id = str(discord_member.id)
+        
+        if color.isdigit() is False:
+            return None
+   
+        if '0x' in color or '#' in color:
+            color = int(color, 16)
+        else:
+            color = int(color)
+        
+        if discord_id not in self.coop_data:
+            self.generate_profile(discord_member)
+            
+        self.coop_data[discord_id]['color'] = color
+        self.__save()
+        return True
+
+    def set_description(self, discord_member: Member, description: str):
+        discord_id = str(discord_member.id)
+        
+        if description == '':
+            description = 'Not yet setup!'
+        
+        if discord_id not in self.coop_data:
+            self.generate_profile(discord_member)
+            
+        self.coop_data[discord_id]['description'] = description
+        self.__save()
+        return True
+    
+    def get_color(self, discord_member: Member):
+        discord_id = str(discord_member.id)
+        
+        
+        if discord_id in self.coop_data:
+            return self.coop_data[discord_id].get('color', None)
+        
+           
+
+    def get_description(self, discord_member: Member):
+        discord_id = str(discord_member.id)
+      
+        
+        if discord_id  in self.coop_data:            
+            return self.coop_data[discord_id].get('description', None)
+        
+        
+
