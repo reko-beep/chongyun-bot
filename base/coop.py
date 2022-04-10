@@ -25,13 +25,16 @@ class CoopManager:
             ],
             "forgery": [
                 'liyue',
-                'mondstadt'
+                'mondstadt',
                 'inazuma'
             ],
             "blessings": [
                 'liyue',
                 'mondstadt',
                 'inazuma'
+            ],
+            "all" : [
+                "all"
             ]
         }
         self.domains_map = {
@@ -56,6 +59,9 @@ class CoopManager:
                 "Domain of Guyun\nRidge Watch\nHidden Palace of Zhour Formula\nThe Lost Valley\nClear Pool and Mountain Cavern",
                 "Midsummer Courtyard\nValley of Rememberance\nPeak of Vindagnyr",
                 "Momiji-Dyed Court\nSlumbering Court\n"
+            ],
+            "Domains" : [
+                "All Domains"
             ]
         }
         self.leylines = [

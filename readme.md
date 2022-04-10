@@ -1,4 +1,4 @@
-![Logo](https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Icon_Emoji_002_Paimon_Ship_out%21.png)
+![Logo](https://github.com/reko-beep/paimon-bot/blob/dev/logo.png?raw=true)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/reko-beep/)

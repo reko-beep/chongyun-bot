@@ -8,9 +8,8 @@ class ResourceManager:
         Initializes Resource Manager Client
         '''
         self.site = site+'/assets/' if site != '' else 'http://127.0.0.1:5000/assets/'        
-        self.files = ['characters.json','quests.json','voiceovers.json',
-                    'polearms.json','swords.json','quests.json','wallpapers.json',
-                    'catalysts.json','claymores.json','domains.json', 'artifacts.json']
+        self.files = ['characters.json','quests.json','voiceovers.json','quests.json','wallpapers.json','weapons.json'
+                    ,'domains.json', 'artifacts.json']
         
         self.path = getcwd()+'/assets/{path}'
         self.db = getcwd()+'/db/{path}'
@@ -191,9 +190,6 @@ class ResourceManager:
             raise Exception(f'No data exists with {key}!')
 
 
-    def character_details(self, character_name: str, details: list):
-        raise NotImplementedError
-
     def get_element(self, element: str):
         element_file = self.genpath('jsons',self.search('element',self.goto('jsons').get('files')))
         with open(element_file,'r') as f:
@@ -203,3 +199,11 @@ class ResourceManager:
                 return element_data[element_searched]
 
 
+    def get_weapon_details(self, weapon_name:str):
+
+        
+        weapons_names = list(self.weapons.keys())
+        selected_weapon = self.search(weapon_name, weapons_names)
+
+        if selected_weapon is not None:
+            return self.weapons[selected_weapon]

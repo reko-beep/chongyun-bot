@@ -3,12 +3,27 @@ from base.resource_manager import ResourceManager
 from json import load, dump
 from discord.utils import get
 from dev_log import logc
+from random import choice
 class Information():    
     def __init__(self, res: ResourceManager, bot):
         self.res_handler = res
         self.bot = bot
         self.bot_guild = None
         self.emojis = None
+        self.teamcomps = {
+
+        }
+        self.load_comps()
+    
+    def load_comps(self):
+        path = self.res_handler.db.format(path='teamcomp.json')
+        with open(path, 'r') as f:
+            self.teamcomps = load(f)
+
+    def save_comps(self):
+        path = self.res_handler.db.format(path='teamcomp.json')
+        with open(path, 'w') as f:
+            dump(self.teamcomps, f)
 
     def create_na_embed(self, character: str, desc_str: str, color_ : int, title: str, thumbnail_url: str):
 
@@ -289,4 +304,194 @@ class Information():
         
         print(embeds)
         return embeds
+
+    def delete_comp(self, index_):
+            ind = self.teamcomps['data'].index(index_)
+            if len(self.teamcomps['data'])-1 >= ind:
+                self.teamcomps['data'].pop(ind)
+                print(self.teamcomps['data'])
+                self.save_comps()
+                return True
+
+    def comp_index(self, comp_title):
+        comps = self.teamcomps['data']
+        for comp in comps:
+            if '-' in comp['title'].strip():
+                title = comp['title'].split('-')[0].strip()                
+            else:
+                title = comp['title'].strip()              
+            if comp_title.strip().lower() == title.lower():
+                return comps.index(comp)
+
+    def comp_exists(self, comp_title):
+        comps = self.teamcomps['data']
+        for comp in comps:
+            if '-' in comp['title'].strip():
+                title = comp['title'].split('-')[0].strip()
+                index = int(comp['title'].split('-')[1].strip())
+            else:
+                title = comp['title'].strip()
+                index = 0
+            if comp_title.strip().lower() == title.lower():
+                return True, index
+        return None, None
+
+    def create_comp(self, comp_name, comp_chars, comp_notes, owner):
+        
+        exists, number = self.comp_exists(comp_name)
+        if exists == number:
+            pass
+        else:
+            comp_name += f"- {number + 1}"
+        base_char =  comp_chars.split(',')
+        chars = []
+        for base in base_char:
+            if ':' in base:
+                if len(base.split(":")) > 1:
+                    key = base.split(':')[0].strip().lower()
+                    value = base.split(':')[1].strip().lower()
+                    chars.append({key:value})
+                    
+                else:
+                    return None, None
+            else:
+                return None, None
+   
+
+        self.teamcomps['data'].append({
+            'title': comp_name,
+            'chars': chars,
+            'description': comp_notes,
+            'owner': owner.id
+
+
+        })
+        self.save_comps()
+        return True, {
+            'title': comp_name,
+            'chars': chars,
+            'description': comp_notes,
+            'owner': owner.id
+
+
+        }
+
+
+    def create_weapon_embeds(self, weapon_name: str, options: list = [], specific:bool=False):
+
+        data = self.res_handler.get_weapon_details(weapon_name)
+        weapon = self.res_handler.search(weapon_name, self.res_handler.weapons)
+        embeds = []
+        if data is not None:
+
+            options_allowed = ['main','refinement', 'ascension', 'ascension_image']
+            specific_data = options_allowed
+
+            if specific:
+                specific_data = set(options_allowed).intersection(options)
+
+            rarity = data.get("rarity",3) * '⭐'
+            image = choice(data.get("image"))
+            type = data.get('type', 'N/A')
+            obtain = '\n'.join(data.get("obtain", ['']))
+            series = data.get('series', 'N/A')
+            main_desc = f"{choice(data.get('description', ['']))}"
+
+            if 'main' in specific_data:
+            
+                
+                embed = Embed(title='Basic Information', description=f"{main_desc}\n**Rarity:** {rarity}")
+                embed.add_field(name='Type', value=type)
+                embed.add_field(name='Obtain', value=obtain)
+                embed.add_field(name='Series', value=series)
+
+                stats = data['stats']
+                
+                base_atk = stats.get('Base ATK(Lv. 1 - 90)', 'N/A')
+                second_stat = stats.get('2nd StatType', 'N/A')
+                second_stat_perc = stats.get('2nd Stat(Lv. 1 - 90)', 'N/A')
+                embed.add_field(name='Stats', value=f"Base Attack [Lv.1-90]: *{base_atk}*\n2nd Stat: *{second_stat}*\n2nd Stat Percentage: *{second_stat_perc}*")
+
+                embed.set_author(name=weapon, icon_url=image)
+                            
+                embed.set_thumbnail(url=image)
+                embed.set_footer(text=f' {weapon} ∎ Basic Information ')
+                embeds.append(embed)
+
+            if 'refinement' in specific_data:
+
+                refinements = data['refinement']
+                text = refinements['text']
+
+                refinements.pop("text")
+
+                for refinement in refinements:
+                    refine_text = text
+
+                    for val in refinements[refinement]:
+                        refine_text = refine_text.replace(val, f'**{refinements[refinement][val]}**', 1)
+
+                    embed = Embed(title=f'Refinement Level {refinement}', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+                    embed.add_field(name='Refinement stats', value=refine_text)
+                    
+                    
+                    embed.set_author(name=weapon, icon_url=image)
+                                
+                    embed.set_thumbnail(url=image)
+                    embed.set_footer(text=f' {weapon} ∎ Refinement Level {refinement} ')
+                    embeds.append(embed)
+            
+            if 'ascension' in specific_data:
+
+                embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+               
+                
+                embed.set_author(name=weapon, icon_url=image)
+                            
+                embed.set_thumbnail(url=image)
+                embed.set_footer(text=f' {weapon} ∎ Ascension Materials')
+                
+                
+                ascension = data['ascension']
+                for level in ascension:
+
+                    materials = ascension[level]
+                    ascension_text = ''
+
+                    for mat in materials:
+
+                        ascension_text += f"{mat['name']}: *{mat['amount']}*\n"
+                    embed.add_field(name=f'Ascension Level {level}', value=ascension_text)
+                embeds.append(embed)
+            print(specific_data)
+            if 'ascension_image' in specific_data:
+                print(data['file'])
+                if data['file'] is not None:
+                    url = self.res_handler.convert_to_url(self.res_handler.genpath('images/weapons', data['file']), True)
+                    embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+
+                    
+                    
+                    embed.set_author(name=weapon, icon_url=image)
+                                
+                    embed.set_thumbnail(url=image)
+                    embed.set_image(url=url)
+                    embed.set_footer(text=f' {weapon} ∎ Ascension Materials')
+                    embeds.append(embed)
+                else:
+                    embeds.append(self.create_na_embed(
+                        weapon,
+                        f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*",
+                        0x5283ff,
+                        f'Ascension Materials',
+                        image
+                    ))
+
+        return embeds
+
+
+
+
+
+
 

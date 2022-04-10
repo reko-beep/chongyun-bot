@@ -17,6 +17,36 @@ class CoopCog(Cog):
         self.inf = self.bot.inf
         self.coop = CoopManager(self.resm)
 
+    @commands.Cog.listener()
+    async def on_message(self, message):
+        if message.channel.id == self.bot.b_config.get("uid_channel"):
+            if message.author.id != self.bot.user.id:
+                if message.content.isdigit():
+                    if message.content[0] in ['8', '7','6']:
+                        self.coop.set_uid(message.author, int(message.content))
+                        embed = Embed(title='UID Linked', description=f'**UID:** {message.content}\n**Region:** {self.coop.get_server_region(uid=int(message.content))}\n\n*use !cpp to see coop profile\nuse !cpinfo add|remove|set domains|leylines|rank|wl|color|image|character (value) (value) to modify your profile*', color=0xc3dde4)
+                        embed.set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
+                        embed.set_thumbnail(url=message.author.avatar.url)
+                        await message.channel.send(embed=embed)
+                        await message.delete()
+                    else:
+                        await message.delete()
+                else:
+                        await message.delete()
+
+    @commands.command(aliases=['col'])
+    async def intcolor(self,ctx, hex:str):
+        base = 16
+        if hex.startswith('#'):
+            hex = hex.replace('#','',1)
+
+        if hex.startswith('0x'):
+            base = 10
+            hex.replace('0x','',1)
+        
+        await ctx.send(f"INT Color: {int(hex, base)}")
+
+
     @commands.command(aliases=['cpp','coprofile'], description='cpp (discord member)\nShows the co-op profile of the user')
     async def coopprofile(self, ctx, member: Member=None):
 
