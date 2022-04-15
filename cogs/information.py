@@ -26,7 +26,7 @@ class InformationCog(Cog):
             embeds = self.inf.create_character_embeds(char, [],False, True)
 
             message : Message = await ctx.send(embed=embeds[0])
-            view = PaginatorList(user=ctx.author, message=message, embeds=embeds)
+            view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
             await message.edit(embed=embeds[0],view=view)
         else:
              
@@ -40,19 +40,36 @@ class InformationCog(Cog):
     @commands.command(aliases=['wep','weapon'], description='char (character name)\nshows the full info from database for a character')
     async def weaponinfo(self, ctx : Context, *arg:str):
 
-        wep = ''.join(arg)
+        wep = ' '.join(arg)
+        print(wep)
         if wep != '':
-            embeds = self.inf.create_weapon_embeds(wep, [],False)
-
+            embeds = self.inf.create_weapon_embeds(wep.lower(), [],False)
+            print(embeds)
             message : Message = await ctx.send(embed=embeds[0])
-            view = PaginatorList(user=ctx.author, message=message, embeds=embeds)
+            view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
             await message.edit(embed=embeds[0],view=view)
         else:
             weps = list(self.bot.resource_manager.weapons.keys())
             view = View()
             view.add_item(DropdownList(self.bot, weps, 'create_weapon_embeds', ctx.author, 1))
             await ctx.send('All Weapons list', view=view)
-            
+
+    @commands.command(aliases=['arti','artifact'], description='arti (artifact name)\nshows the full info from database for a artifact')
+    async def artifactinfo(self, ctx : Context, *arg:str):
+
+        wep = ' '.join(arg)
+        print(wep)
+        if wep != '':
+            embeds = self.inf.create_artifact_embeds(wep.lower(), [],False)
+            print(embeds)
+            message : Message = await ctx.send(embed=embeds[0])
+            view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+            await message.edit(embed=embeds[0],view=view)
+        else:
+            weps = list(self.bot.resource_manager.artifacts.keys())
+            view = View()
+            view.add_item(DropdownList(self.bot, weps, 'create_artifact_embeds', ctx.author, 1))
+            await ctx.send('All Artifacts list', view=view)   
 
     
     @commands.command(aliases=['b','builds'], description='b (character name)\nshows the builds for a character')
@@ -63,7 +80,7 @@ class InformationCog(Cog):
         embeds = self.inf.create_character_embeds(char, ['builds'],True, True)
 
         message : Message = await ctx.send(embed=embeds[0])
-        view = PaginatorList(user=ctx.author, message=message, embeds=embeds)
+        view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
         await message.edit(embed=embeds[0],view=view)
     
     @commands.command(aliases=['as','ascensions'], description='as (character name)\nshows the ascension materials for a character')
@@ -74,7 +91,7 @@ class InformationCog(Cog):
         embeds = self.inf.create_character_embeds(char, ['ascension_imgs'],True, True)
 
         message : Message = await ctx.send(embed=embeds[0])
-        view = PaginatorList(user=ctx.author, message=message, embeds=embeds)
+        view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
         await message.edit(embed=embeds[0],view=view)
 
     @commands.command(aliases=['tc','teamcomps'], description='tc (character name)\nshows the teamcomps for a character')
@@ -85,7 +102,7 @@ class InformationCog(Cog):
         embeds = self.inf.create_character_embeds(char, ['teamcomps'],True, True)
 
         message : Message = await ctx.send(embed=embeds[0])
-        view = PaginatorList(user=ctx.author, message=message, embeds=embeds)
+        view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
         await message.edit(embed=embeds[0],view=view)
 
 

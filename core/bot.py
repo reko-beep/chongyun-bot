@@ -1,4 +1,5 @@
 from nextcord.ext.commands import Bot
+from nextcord import Intents
 
 from os.path import exists
 from os import getcwd, listdir
@@ -16,13 +17,13 @@ import socket
 
 class DevBot(Bot):
     def __init__(self, command_prefix: str,resource_manager: ResourceManager, webserver: bool = False):
-        super().__init__(command_prefix=command_prefix)
+        super().__init__(command_prefix=command_prefix, intents=Intents.all())
         self.b_config = {
 
         }
         self.resource_manager : ResourceManager = resource_manager
         self.inf : Information = Information(self.resource_manager, self)
-        self.with_server = webserver
+        self.with_server = webserver        
         self.load_config()
         self.load_all_extensions()
     

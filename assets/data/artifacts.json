@@ -5,13 +5,13 @@
     "type": "Flower of Life",
     "name": "Initiate's Flower",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20210514215057",
-    "description": "\u00a0"
+    "description": ""
    },
    {
     "type": "Plume of Death",
     "name": "Initiate's Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Initiate%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20210514215058",
-    "description": "\u00a0\n"
+    "description": ""
    }
   ],
   "bonus": {},
@@ -20,7 +20,8 @@
   },
   "rarity": [
    1
-  ]
+  ],
+  "file": "Initiate.png"
  },
  "Adventurer": {
   "pieces": [
@@ -28,25 +29,25 @@
     "type": "Flower of Life",
     "name": "Adventurer's Flower",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120051635",
-    "description": "The ambitious adventurer came across this resilient flower in the depths of a gloomy ruin.Moved by the sight of life sprouting in defiance of a lifeless land, he almost forgot about the treasures buried deep in the ruin.After pausing to ponder it for a while, the adventurer plucked the flower, wore it as a brooch, and ventured forth into the darkness."
+    "description": "The ambitious adventurer came across this resilient flower in the depths of a gloomy ruin.Moved by the sight of life sprouting in defiance of a lifeless land, he almost forgot about the treasures buried deep in the ruin.After pausing to ponder it for a while, the adventurer plucked the flower, wore it as a brooch, and ventured forth into the darkness.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Adventurer's Tail Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Adventurer%27s_Tail_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120051654",
-    "description": "An adventurer once traveled through a forest in search of rare beasts never seen before.As he tore his way recklessly through the foliage, the adventurer tripped on a tree root.When he regained consciousness, he saw a girl so beautiful that he was willing to give up the adventurer's life to be with her.Her appearance was surreal, with a cluster of feathers adorning her hair."
+    "description": "An adventurer once traveled through a forest in search of rare beasts never seen before.As he tore his way recklessly through the foliage, the adventurer tripped on a tree root.When he regained consciousness, he saw a girl so beautiful that he was willing to give up the adventurer's life to be with her.Her appearance was surreal, with a cluster of feathers adorning her hair.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Adventurer's Pocket Watch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120051708",
-    "description": "A pocket watch that once belonged to an adventurer. It was crafted by a master watchmaker with simplicity and practicality in mind, aligning with the philosophy of the Adventurers' Guild.The adventurer spent most of his days in darkness. The rhythmic sound of its moving hands was the only proof he had of the passage of time.Long after he had grown accustomed to a normal life, having given up the adventurer lifestyle he once loved so dearly, this forgotten pocket watch still sat quietly in the cabinet, waiting for its next adventure."
+    "description": "A pocket watch that once belonged to an adventurer. It was crafted by a master watchmaker with simplicity and practicality in mind, aligning with the philosophy of the Adventurers' Guild.The adventurer spent most of his days in darkness. The rhythmic sound of its moving hands was the only proof he had of the passage of time.Long after he had grown accustomed to a normal life, having given up the adventurer lifestyle he once loved so dearly,this forgotten pocket watch still sat quietly in the cabinet, waiting for its next adventure.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Adventurer's Golden Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120051727",
-    "description": "An old golden goblet that the adventurer used to drink water. It is said that he found it in an old ruin.The exterior is engraved with ancient symbols and inlaid with a faded gemstone.Eventually, the adventurer bid farewell to the nomadic lifestyle.This old golden goblet was traded in for new, shiny Mora."
+    "description": "An old golden goblet that the adventurer used to drink water. It is said that he found it in an old ruin.The exterior is engraved with ancient symbols and inlaid with a faded gemstone.Eventually, the adventurer bid farewell to the nomadic lifestyle.This old golden goblet was traded in for new, shiny Mora.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -80,9 +81,7 @@
      "Rewards"
     ],
     "4": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Oceanid"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -93,9 +92,7 @@
      "Midsummer Courtyard"
     ],
     "2": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Oceanid"
+     "Normal Bosses"
     ]
    }
   },
@@ -103,33 +100,34 @@
    1,
    2,
    3
-  ]
+  ],
+  "file": "Adventurer.png"
  },
- "Luckydog": {
+ "Lucky Dog": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Lucky Dog's Clover",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Lucky_Dog%27s_Clover.png/revision/latest/scale-to-width-down/60?cb=20201120052434",
-    "description": "One who is favored by fortune tends to experience at least their fair share of miracles.The legendary four-leaf clover, for instance, is a precious find that brings luck to its bearer.Once, while playing in the field, the carefree young boy known as Lucky Dog happened across just such a clover.Delighted, he plucked it from the ground and put it in his pocket.No one knows whether it was the clover which brought him his good fortune, or the other way around."
+    "description": "One who is favored by fortune tends to experience at least their fair share of miracles.The legendary four-leaf clover, for instance, is a precious find that brings luck to its bearer.Once, while playing in the field, the carefree young boy known as Lucky Dog happened across just such a clover.Delighted, he plucked it from the ground and put it in his pocket.No one knows whether it was the clover which brought him his good fortune, or the other way around.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Lucky Dog's Eagle Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Item_Lucky_Dog%27s_Eagle_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052445",
-    "description": "When fortune has your back, even the most ferocious monster has to yield.Strolling in the forest, the boy known as Lucky Dog had no idea that a monster was lurking nearby, having singled him out as its prey.The boy became distracted by some colorful mushrooms, and the monster pounced. He leaped out and landed on the poisonous mushrooms, stomping them flat.This was going to be an easy hunt, the monster thought \u2014 until a feather from the eagle circling above fell quietly onto its back."
+    "description": "When fortune has your back, even the most ferocious monster has to yield.Strolling in the forest, the boy known as Lucky Dog had no idea that a monster was lurking nearby, having singled him out as its prey.The boy became distracted by some colorful mushrooms, and the monster pounced. He leaped out and landed on the poisonous mushrooms, stomping them flat.This was going to be an easy hunt, the monster thought \u2014 until a feather from the eagle circling above fell quietly onto its back.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Lucky Dog's Hourglass",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120052500",
-    "description": "Even time itself could not leave a wrinkle on the face of the happy-go-lucky boy known as Lucky Dog.Lucky Dog had no family, let alone children of his own.But in the course of his life of good fortune, he considered all he met as his friends and family.As his life was nearing its end, he saw an hourglass with sand flowing down, as if counting down his remaining time.He simply chuckled, took a slingshot, and shattered the hourglass."
+    "description": "Even time itself could not leave a wrinkle on the face of the happy-go-lucky boy known as Lucky Dog.Lucky Dog had no family, let alone children of his own.But in the course of his life of good fortune, he considered all he met as his friends and family.As his life was nearing its end, he saw an hourglass with sand flowing down, as if counting down his remaining time.He simply chuckled, took a slingshot, and shattered the hourglass.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Lucky Dog's Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120052515",
-    "description": "Once there was a child favored by fortune from the day he was born.Try as they might, even the most vicious bandits could not lay a finger on him. He became known as Lucky Dog.The child grew up, and one day in the throes of adulthood he found himself stumbling drunk along the back alley behind the tavern.Under the starless sky, a vicious bandit prepared to rob Lucky Dog, taking advantage of his compromised state.But just as the bandit was about to strike, a flying goblet hit him square on the forehead, knocking him out cold.Naturally, this makes Lucky Dog one of very few people known to have benefited, rather than suffered, from being in the vicinity of a tavern brawl."
+    "description": "Once there was a child favored by fortune from the day he was born.Try as they might, even the most vicious bandits could not lay a finger on him. He became known as Lucky Dog.The child grew up, and one day in the throes of adulthood he found himself stumbling drunk along the back alley behind the tavern.Under the starless sky, a vicious bandit prepared to rob Lucky Dog, taking advantage of his compromised state.But just as the bandit was about to strike, a flying goblet hit him square on the forehead, knocking him out cold.Naturally, this makes Lucky Dog one of very few people known to have benefited, rather than suffered, from being in the vicinity of a tavern brawl.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -162,10 +160,7 @@
      "Zhang Shun"
     ],
     "4": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Regisvine",
-     "Cryo Hypostasis"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -179,12 +174,7 @@
      "Domain of Guyun"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Maguu Kenki",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    }
   },
@@ -192,33 +182,34 @@
    1,
    2,
    3
-  ]
+  ],
+  "file": "Lucky Dog.png"
  },
- "Travelingdoctor": {
+ "Traveling Doctor": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Traveling Doctor's Silver Lotus",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Traveling_Doctor%27s_Silver_Lotus.png/revision/latest/scale-to-width-down/60?cb=20201120052230",
-    "description": "The doctor traveled across the land in search of rare herbs, with the zeal of an adventurer.On a steep cliff between slippery rocks, she found this silver lotus.The lotus was never made into medicine, but its scent gave her the strength to go on from that day forward."
+    "description": "The doctor traveled across the land in search of rare herbs, with the zeal of an adventurer.On a steep cliff between slippery rocks, she found this silver lotus.The lotus was never made into medicine, but its scent gave her the strength to go on from that day forward.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Traveling Doctor's Owl Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Traveling_Doctor%27s_Owl_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120052246",
-    "description": "Even the pitch-black night could not stand between the traveling doctor and her patients.Danger lurks in every corner at night. Those who venture out must be as vigilant as the owl.But unlike the owl, the endless nights without rest eventually took their toll on the traveling doctor, and she fell ill."
+    "description": "Even the pitch-black night could not stand between the traveling doctor and her patients.Danger lurks in every corner at night. Those who venture out must be as vigilant as the owl.But unlike the owl, the endless nights without rest eventually took their toll on the traveling doctor, and she fell ill.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Traveling Doctor's Pocket Watch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120052258",
-    "description": "When treating a dying patient, every second counts.The accuracy of this watch had helped the traveling doctor turn the tide numerous times.But as she lay alone on the sickbed in her final days, all she could do was savor its sound, each tick standing for one of the precious moments of life she had left.What used to be a tool to save lives now sang a final elegy for its owner."
+    "description": "When treating a dying patient, every second counts.The accuracy of this watch had helped the traveling doctor turn the tide numerous times.But as she lay alone on the sickbed in her final days, all she could do was savor its sound, each tick standing for one of the precious moments of life she had left.What used to be a tool to save lives now sang a final elegy for its owner.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Traveling Doctor's Medicine Pot",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png/revision/latest/scale-to-width-down/60?cb=20201120052322",
-    "description": "The medicine has long dried up, but its bitter smell still lingers in this pot.With that bitter medicine, the traveling doctor saved countless lives.And when she fell seriously ill, no one was there for her except for the medicine pot on the furnace."
+    "description": "The medicine has long dried up, but its bitter smell still lingers in this pot.With that bitter medicine, the traveling doctor saved countless lives.And when she fell seriously ill, no one was there for her except for the medicine pot on the furnace.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -251,9 +242,7 @@
      "Xigu Antiques"
     ],
     "4": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Geo Hypostasis"
+     "Normal Bosses"
     ],
     "5": [
      "Investigation"
@@ -270,12 +259,7 @@
      "Elite Enemies"
     ],
     "4": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Geo Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Normal Bosses"
     ]
    }
   },
@@ -283,9 +267,10 @@
    1,
    2,
    3
-  ]
+  ],
+  "file": "Traveling Doctor.png"
  },
- "Resolutionof_Sojourner": {
+ "Resolution Of Sojourner": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -309,7 +294,7 @@
     "type": "Goblet of Eonothem",
     "name": "Goblet of the Sojourner",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png/revision/latest/scale-to-width-down/60?cb=20201120055633",
-    "description": "A lyre has 4 strings.The days he spent with his comrades in the \"troupe\" were probably the happiest in his life of wandering.At first, it was just a chance meeting with the conductor \u2014 but for the invisible strings of fate.First came the girl who used a flute as a sword, and then that fellow Kreuzlied - one by one, the traveler met them all.\n"
+    "description": "A lyre has 4 strings.The days he spent with his comrades in the \"troupe\" were probably the happiest in his life of wandering.At first, it was just a chance meeting with the conductor \u2014 but for the invisible strings of fate.First came the girl who used a flute as a sword, and then that fellow Kreuzlied \u2014 one by one, the traveler met them all.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -350,44 +335,45 @@
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Resolution Of Sojourner.png"
  },
- "Tinymiracle": {
+ "Tiny Miracle": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Tiny Miracle's Flower",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Tiny_Miracle%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120060259",
-    "description": "A little blue flower that sprouted between the cracks of an old tombstone.\nThe carvings on the tombstone are a legacy of death, yet what sprouted from its cracks was the miracle of life."
+    "description": "A little blue flower that sprouted between the cracks of an old tombstone.The carvings on the tombstone are a legacy of death, yet what sprouted from its cracks was the miracle of life.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Tiny Miracle's Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Tiny_Miracle%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120060340",
-    "description": "Plucked from a falcon that was as fast as the wind. The mere existence of such a bird is a miracle.\n"
+    "description": "Plucked from a falcon that was as fast as the wind. The mere existence of such a bird is a miracle.It was gifted with clear vision and sharp claws.With its broad wings, its gliding speed was unparalleled.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Tiny Miracle's Hourglass",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120060350",
-    "description": "It is often said that one may achieve victory by striving, but receive a miracle only by waiting.\n"
+    "description": "It is often said that one may achieve victory by striving, but receive a miracle only by waiting.But is it not a miracle that fine sand was once a hard rock?Is it not too a miracle that we met each other?\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Tiny Miracle's Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120060419",
-    "description": "A clear goblet glittering with starlight.\n"
+    "description": "A clear goblet glittering with starlight.In the past it was used to tell fortunes,For the water it held was believed to reflect the Starry Sea.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Tiny Miracle's Earrings",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Tiny_Miracle%27s_Earrings.png/revision/latest/scale-to-width-down/60?cb=20201120060428",
-    "description": "An inexpensive pair of earrings made from metal that shines like the stars.\n"
+    "description": "An inexpensive pair of earrings made from metal that shines like the stars.What the sellers don't know is that the shine of these earrings comes from the fallen stars of ancient times.\n"
    }
   ],
   "bonus": {
    "2": "All Elemental RES increased by 20%.",
-   "4": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+   "4": "Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
   },
   "obtain": {
    "3": {
@@ -410,38 +396,39 @@
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Tiny Miracle.png"
  },
  "Berserker": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Berserker's Rose",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png/revision/latest/scale-to-width-down/60?cb=20201120053934",
-    "description": "In the days before the berserker descended into madness, he would sometimes pause in the rose garden for a moment to himself.He had never had a family, nor had he a lover, or a friend.When he was not on the battlefield, he would come here to tend to the fragile flowers in the garden with all his heart, as if the crimson flowers buried in the thorns were the only warmth he could cling to."
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png/revision/latest/scale-to-width-down/60?cb=20220202000733",
+    "description": "In the days before the berserker descended into madness, he would sometimes pause in the rose garden for a moment to himself.He had never had a family, nor had he a lover, or a friend.When he was not on the battlefield, he would come here to tend to the fragile flowers in the garden with all his heart, as if the crimson flowers buried in the thorns were the only warmth he could cling to.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Berserker's Indigo Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Berserker%27s_Indigo_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120053942",
-    "description": "The once-sane berserker's homeland fell victim to the raging war between gods and mortals.The rose garden burst into flames and birds of omen fed on the flesh of his countrymen.Reborn in flames, vengeance and bloodlust took over the warrior's mind, turning him into a berserker.Black feathers, scattered on the battlefield, were painted red by his rage as he took his revenge."
+    "description": "The once-sane berserker's homeland fell victim to the raging war between gods and mortals.The rose garden burst into flames and birds of omen fed on the flesh of his countrymen.Reborn in flames, vengeance and bloodlust took over the warrior's mind, turning him into a berserker.Black feathers, scattered on the battlefield, were painted red by his rage as he took his revenge.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Berserker's Timepiece",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png/revision/latest/scale-to-width-down/60?cb=20201120053952",
-    "description": "The end inevitably comes for all, even the seemingly invincible berserker.As the blood on his hands finally dried up, the berserker's footsteps began to falter.His life was destined to end the moment he met his last challenge in the battlefield.On the battlefield where blood flowed like rivers, his hourglass was painted red by the setting sun."
+    "description": "The end inevitably comes for all, even the seemingly invincible berserker.As the blood on his hands finally dried up, the berserker's footsteps began to falter.His life was destined to end the moment he met his last challenge in the battlefield.On the battlefield where blood flowed like rivers, his hourglass was painted red by the setting sun.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Berserker's Bone Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054003",
-    "description": "The bloodthirsty berserker ravaged the lands, fighting humans and monsters alike, and even challenged the gods.In a barren and lifeless land, he encountered a giant monster.His iron mask could not conceal his rage, and so an endless fight ensued.Hours, days, and years passed. The monster was finally defeated.The berserker sucked out the marrow of the monster's broken horn. This was how the victor drank to his success."
+    "description": "The bloodthirsty berserker ravaged the lands, fighting humans and monsters alike, and even challenged the gods.In a barren and lifeless land, he encountered a giant monster.His iron mask could not conceal his rage, and so an endless fight ensued.Hours, days, and years passed. The monster was finally defeated.The berserker sucked out the marrow of the monster's broken horn. This was how the victor drank to his success.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Berserker's Battle Mask",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120054015",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png/revision/latest/scale-to-width-down/60?cb=20220202000855",
     "description": "Bathed in the flames that devoured his homeland, the berserker's face was no longer recognizable.The iron mask became joined with his flesh, permanently branding his face with a heartless countenance.Then, in a fierce battle, his horrifying mask was split into two by his opponent.The cracks of the mask tore apart the flesh that had long stuck to it.But neither pain nor blood could stop the berserker's unfaltering footsteps.The berserker kept roaring until the fresh blood covered the black clots hardened on his face.\n"
    }
   ],
@@ -455,22 +442,13 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier III"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Perpetual Mechanical Array"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier III"
     ],
     "5": [
      "Chests"
@@ -481,29 +459,21 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Perpetual Mechanical Array"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier II"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Berserker.png"
  },
  "Instructor": {
   "pieces": [
@@ -511,25 +481,25 @@
     "type": "Flower of Life",
     "name": "Instructor's Brooch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Item_Instructor%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120053706",
-    "description": "Every student in the school knew that the strict instructor was a serious soldier.But every week, there would always be a day or two when the instructor would wear this yellow flower brooch on his chest.The smile on the instructor's face would always bring the students a sense of relief.For when the instructor wore the yellow flower brooch, it meant that they could take a day off and go home.Once his boisterous students had finally gone, the instructor would visit a silent graveyard.There, after a moment of silence, he would pay his respects to the familiar names carved on the tombstones."
+    "description": "Every student in the school knew that the strict instructor was a serious soldier.But every week, there would always be a day or two when the instructor would wear this yellow flower brooch on his chest.The smile on the instructor's face would always bring the students a sense of relief.For when the instructor wore the yellow flower brooch, it meant that they could take a day off and go home.Once his boisterous students had finally gone, the instructor would visit a silent graveyard.There, after a moment of silence, he would pay his respects to the familiar names carved on the tombstones.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Instructor's Feather Accessory",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Item_Instructor%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120053734",
-    "description": "The strict instructor once sharpened his own combat skills on the merciless battlefield.What he teaches the students goes beyond self-defense techniques to apply in battle.Moreso that attacking and defending, what he imparts to them is the skill of surviving on the front line even in the face of insurmountable odds.Every move and technique he demonstrates pays homage to the veterans of wars gone by.For it was their sacrifices that helped him become who he is today."
+    "description": "The strict instructor once sharpened his own combat skills on the merciless battlefield.What he teaches the students goes beyond self-defense techniques to apply in battle.Moreso than attacking and defending, what he imparts to them is the skill of surviving on the front line even in the face of insurmountable odds.Every move and technique he demonstrates pays homage to the veterans of wars gone by.For it was their sacrifices that helped him become who he is today.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Instructor's Pocket Watch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Instructor%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120053803",
-    "description": "A pocket watch treasured by the instructor. It is not, however, military-issue gear from the instructor's school.Back when the instructor was still a soldier, this pocket watch was used to coordinate charges against the enemy.It marked victories and defeats, and counted the final hours of the soldiers.For the students, it represented the hardships they endured on the long path towards becoming a real soldier."
+    "description": "A pocket watch treasured by the instructor. It is not, however, military-issue gear from the instructor's school.Back when the instructor was still a soldier, this pocket watch was used to coordinate charges against the enemy.It marked victories and defeats, and counted the final hours of the soldiers.For the students, it represented the hardships they endured on the long path towards becoming a real soldier.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Instructor's Tea Cup",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120053813",
-    "description": "Every military school student knows that the so-called \"free training time\" could not have anything less to do with freedom.The instructor sits back and watches while the students train rigorously in the field.A cup of black tea with a little too much sugar in marks a typical afternoon for the instructor.This peaceful time is a privilege of the instructor, and the embodiment of his authority."
+    "description": "Every military school student knows that the so-called \"free training time\" could not have anything less to do with freedom.The instructor sits back and watches while the students train rigorously in the field.A cup of black tea with a little too much sugar in it marks a typical afternoon for the instructor.This peaceful time is a privilege of the instructor, and the embodiment of his authority.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -545,29 +515,19 @@
   "obtain": {
    "3": {
     "1": [
-     "Chests"
-    ],
-    "2": [
      "Elite Enemies"
     ],
+    "2": [
+     "Normal Bosses"
+    ],
     "3": [
-     "Domain Reliquary: Tier III"
+     "Weekly Bosses"
     ],
     "4": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Electro Hypostasis",
-     "Pyro Regisvine",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Domain Reliquary: Tier III"
     ],
     "5": [
-     "Weekly Bosses"
+     "Chests"
     ]
    },
    "4": {
@@ -575,56 +535,47 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Anemo Hypostasis",
-     "Electro Hypostasis",
-     "Pyro Regisvine",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Maguu Kenki",
-     "Pyro Hypostasis",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
     ],
     "4": [
-     "Weekly Bosses"
+     "Domain Reliquary: Tier II"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Instructor.png"
  },
- "Theexile": {
+ "The Exile": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Exile's Flower",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Exile%27s_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120054137",
-    "description": "It all happened before the exiled aristocrat was involved in the family feud.This flower bloomed before the first blood was shed.Having witnessed the cruelty of humanity, the exile left his kindness and gentleness in the past.But this faded flower and the innocent smile he once had will always be his treasure."
+    "description": "It all happened before the exiled aristocrat was involved in the family feud.This flower bloomed before the first blood was shed.Having witnessed the cruelty of humanity, the exile left his kindness and gentleness in the past.But this faded flower and the innocent smile he once had will always be his treasure.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Exile's Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Exile%27s_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120054148",
-    "description": "Through plains and forests, the exile traveled alone in the wild.Through thick layers of dark clouds, an azure feather fell on his shoulder.The feather came from a panicked bird escaping from the falcon, just like the exile.The feather represents the spirit of a nestless, free bird, just like the exile."
+    "description": "Through plains and forests, the exile traveled alone in the wild.Through thick layers of dark clouds, an azure feather fell on his shoulder.The feather came from a panicked bird escaping from the falcon, just like the exile.The feather represents the spirit of a nestless, free bird, just like the exile.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Exile's Pocket Watch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120054202",
-    "description": "The aristocrat acquired this pocket watch back in his youth.This delicate timepiece recorded every moment of his childhood.But tragedy brought his carefree days to an abrupt end.The aristocrat was forced into a long and lonesome exile."
+    "description": "The aristocrat acquired this pocket watch back in his youth.This delicate timepiece recorded every moment of his childhood.But tragedy brought his carefree days to an abrupt end.The aristocrat was forced into a long and lonesome exile.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Exile's Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120054213",
-    "description": "This silver goblet is a family heirloom of an exiled aristocrat.The exterior was once inlaid with a gem engraved with his family crest.\nBut after the exile had brought shame to his family, he carved out the symbol of which he was once proud.As a result, this cup is broken and can no longer hold liquid.But the exile still carries it with him until the end of his journey."
+    "description": "This silver goblet is a family heirloom of an exiled aristocrat. The exterior was once inlaid with a gem engraved with his family crest.But after the exile had brought shame to his family, he carved out the symbol of which he was once proud.As a result, this cup is broken and can no longer hold liquid.But the exile still carries it with him until the end of his journey.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -643,22 +594,15 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier III"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
     ],
     "4": [
+     "Domain Reliquary: Tier III"
+    ],
+    "5": [
      "Chests"
     ]
    },
@@ -667,29 +611,23 @@
      "Elite Enemies"
     ],
     "2": [
-     "Domain Reliquary: Tier II"
+     "Normal Bosses"
     ],
     "3": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Cryo Hypostasis",
-     "Cryo Regisvine",
-     "Oceanid",
-     "Geo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array",
-     "Hydro Hypostasis",
-     "Thunder Manifestation",
-     "Golden Wolflord"
+     "Weekly Bosses"
+    ],
+    "4": [
+     "Domain Reliquary: Tier II"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "The Exile.png"
  },
- "Defender%27Swill": {
+ "Defenders Will": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -701,7 +639,7 @@
     "type": "Plume of Death",
     "name": "Guardian's Sigil",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Guardian%27s_Sigil.png/revision/latest/scale-to-width-down/60?cb=20201120055937",
-    "description": "The shield-crest engraved upon this quill glitters in the pale moonlight.Long ago, this light would strike fear into the hearts of evildoers and thieves.\nThe guardian had a very precious knightly title.But at night, he would disguise his crest and face beneath a mantle.Thus, he could shake off his restraints and do that which needed to be done\u2014\u2014Yet could not be done by an upright knight in good standing."
+    "description": "The shield-crest engraved upon this quill glitters in the pale moonlight.Long ago, this light would strike fear into the hearts of evildoers and thieves.\n"
    },
    {
     "type": "Sands of Eon",
@@ -713,7 +651,7 @@
     "type": "Goblet of Eonothem",
     "name": "Guardian's Vessel",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120060031",
-    "description": "An exceedingly ordinary old wine canteen.If one had to point out something special about it,It would be that it never once contained a drop of alcohol.\n\"Come on, you have to try a little wine sometime.\"The guardian's longtime friend and superior joked.\"Quit knitting those eyebrows together, have a little wine and song!\"\"I mean, that's how we have the courage to face tomorrow.\""
+    "description": "An exceedingly ordinary old wine canteen.If one had to point out something special about it,It would be that it never once contained a drop of alcohol.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -753,9 +691,10 @@
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Defenders Will.png"
  },
- "Braveheart": {
+ "Brave Heart": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -816,33 +755,34 @@
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Brave Heart.png"
  },
- "Martialartist": {
+ "Martial Artist": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Martial Artist's Red Flower",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Martial_Artist%27s_Red_Flower.png/revision/latest/scale-to-width-down/60?cb=20201120055759",
-    "description": "Ever since being recognized by the master, the martial artist had been practicing every day for years.The path of pursuing martial arts is long and harsh, and injuries are inevitable.As instructed, he plucked a small crimson flower in the forest.Although his proud battle scars will never fully heal, at least the pain can be alleviated."
+    "description": "Ever since being recognized by the master, the martial artist had been practicing every day for years.The path of pursuing martial arts is long and harsh, and injuries are inevitable.As instructed, he plucked a small crimson flower in the forest.Although his proud battle scars will never fully heal, at least the pain can be alleviated.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Martial Artist's Feather Accessory",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Martial_Artist%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120055810",
-    "description": "A feather plucked from a bird soaring in the sky by a skillful martial artist.The essence of martial arts is not necessarily about the power of attacks.The condescending evil stole his love's joy,Agility and nimbleness honed over years of training are just as prideworthy for a martial artist.The martial artist will wear the feather on his chest as proof of his unparalleled skills."
+    "description": "A feather plucked from a bird soaring in the sky by a skillful martial artist.The essence of martial arts is not necessarily about the power of attacks.The condescending evil stole his love's joy,Agility and nimbleness honed over years of training are just as prideworthy for a martial artist.The martial artist will wear the feather on his chest as proof of his unparalleled skills.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Martial Artist's Water Hourglass",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png/revision/latest/scale-to-width-down/60?cb=20201120055819",
-    "description": "An hourglass that uses the flow of water to measure the passage of time. The martial artist would have it with him at all times.When he was training under the waterfall or practicing a single leg stance on the stake,he endured all the pain and suffering alone.This time piece recorded every second of it in silence."
+    "description": "An hourglass that uses the flow of water to measure the passage of time. The martial artist would have it with him at all times.When he was training under the waterfall or practicing a single leg stance on the stake,he endured all the pain and suffering alone.This time piece recorded every second of it in silence.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Martial Artist's Wine Cup",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120055827",
-    "description": "Before proudly stepping into the arena, a parting ritual with a glass of fine wine is essential for martial artists.Each of them faced with a worthy opponent, two martial artists will raise their glasses to one another.They then step into the arena with a calm and collected composure to face their opponent with the utmost respect.This is the true meaning of the toast, which comes before the fight takes place. It does not serve to glorify victory or cast shame on defeat."
+    "description": "Before proudly stepping into the arena, a parting ritual with a glass of fine wine is essential for martial artists.Each of them faced with a worthy opponent, two martial artists will raise their glasses to one another.They then step into the arena with a calm and collected composure to face their opponent with the utmost respect.This is the true meaning of the toast, which comes before the fight takes place. It does not serve to glorify victory or cast shame on defeat.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -862,6 +802,9 @@
     ],
     "2": [
      "Ridge Watch"
+    ],
+    "3": [
+     "The Lost Valley"
     ]
    },
    "4": {
@@ -870,13 +813,17 @@
     ],
     "2": [
      "Ridge Watch"
+    ],
+    "3": [
+     "The Lost Valley"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Martial Artist.png"
  },
  "Gambler": {
   "pieces": [
@@ -884,25 +831,25 @@
     "type": "Flower of Life",
     "name": "Gambler's Brooch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Gambler%27s_Brooch.png/revision/latest/scale-to-width-down/60?cb=20201120062914",
-    "description": "Gamblers like to flaunt their wealth, although their money can disappear overnight.She would wear this huge, exotic flower ornament on her ears.It certainly catches the eye.But what they would not see is the trick dice carefully hidden within the flower.The gambler would only sneak this dice out of the brooch in an urgent situation.Swapping in this dice under the vigilant eyes of the guests was how she turned the table around."
+    "description": "Gamblers like to flaunt their wealth, although their money can disappear overnight.She would wear this huge, exotic flower ornament on her ears. It certainly catches the eye.But what they would not see is the trick dice carefully hidden within the flower.The gambler would only sneak this dice out of the brooch in an urgent situation.Swapping in this dice under the vigilant eyes of the guests was how she turned the table around.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Gambler's Feather Accessory",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Gambler%27s_Feather_Accessory.png/revision/latest/scale-to-width-down/60?cb=20201120062922",
-    "description": "This colorful feather served to decorate a gambler's hat. Its flamboyance disgusts true aristocrats.But what the aristocrats do not see is the delicate mechanism hidden beneath the surface.When the time comes, the gambler subtly swaps in a hidden, game-changing card.Upon seeing this card, the disdain and condescension on the aristocrats' faces would instantly give way to sheer shock."
+    "description": "This colorful feather served to decorate a gambler's hat. Its flamboyance disgusts true aristocrats.But what the aristocrats do not see is the delicate mechanism hidden beneath the surface.When the time comes, the gambler subtly swaps in a hidden, game-changing card.Upon seeing this card, the disdain and condescension on the aristocrats' faces would instantly give way to sheer shock.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Gambler's Pocket Watch",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png/revision/latest/scale-to-width-down/60?cb=20201120062934",
-    "description": "Perfect timing is necessary for the gambler's trick to work.That's why she always had this golden pocket watch in her breast pocket.In countless games, there was always that crucial moment when her sensitive perception of time saved her."
+    "description": "Perfect timing is necessary for the gambler's trick to work.That's why she always had this golden pocket watch in her breast pocket.In countless games, there was always that crucial moment when her sensitive perception of time saved her.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Gambler's Dice Cup",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120062942",
-    "description": "Every gambler is superstitious to some degree. Many are very fond of custom-made dice cups, for instance.This was her custom-made dice cup. Despite what one might expect, there was nothing dishonest about it. It had no hidden mechanisms.Fate only decides half of one's dice rolls. The other half are decided by oneself.And yet, she never rolled the dice away from the gambling table."
+    "description": "Every gambler is superstitious to some degree. Many are very fond of custom-made dice cups, for instance.This was her custom-made dice cup. Despite what one might expect, there was nothing dishonest about it. It had no hidden mechanisms.Fate only decides half of one's dice rolls. The other half are decided by oneself.And yet, she never rolled the dice away from the gambling table.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -922,6 +869,9 @@
     ],
     "2": [
      "Peak of Vindagnyr"
+    ],
+    "3": [
+     "The Lost Valley"
     ]
    },
    "4": {
@@ -930,13 +880,17 @@
     ],
     "2": [
      "Peak of Vindagnyr"
+    ],
+    "3": [
+     "The Lost Valley"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Gambler.png"
  },
  "Scholar": {
   "pieces": [
@@ -944,31 +898,31 @@
     "type": "Flower of Life",
     "name": "Scholar's Bookmark",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Scholar%27s_Bookmark.png/revision/latest/scale-to-width-down/60?cb=20201120063103",
-    "description": "Flowers were a rare sight for the scholar who lived in her ivory tower, buried under piles of books.\n"
+    "description": "Flowers were a rare sight for the scholar who lived in her ivory tower, buried under piles of books.A young man who admired the scholar once gave her this exotic flower in the hope of bringing some life to the dull and lonely days she spent in her study.The scholar accepted the gift gratefully and made a flower bookmark with it.Ever since then there has always been a splash of vivid color hidden somewhere in the pages of the dull piles of books.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Scholar's Quill Pen",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Scholar%27s_Quill_Pen.png/revision/latest/scale-to-width-down/60?cb=20201120063115",
-    "description": "The scholar's quill pen is made from the feather of an exotic bird.\n"
+    "description": "The scholar's quill pen is made from the feather of an exotic bird.After an enormous amount of writing, the feather has been stained black.In all her years, the scholar never thought of changing her stained quill pen for a new one.Just as an old soldier feels most at ease with his own weapon, the scholar needed her familiar quill pen.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Scholar's Clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png/revision/latest/scale-to-width-down/60?cb=20201120063123",
-    "description": "A delicate clock placed carefully on the scholar's desk.\n"
+    "description": "A delicate clock placed carefully on the scholar's desk.Spending days and nights in her study, the scholar lost all sense of time.This exquisite clock served as a beacon guiding the scholar in her relentless pursuit of knowledge.The time the scholar spent would prove to be fruitful.Knowledge would find its way to her.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Scholar's Ink Cup",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png/revision/latest/scale-to-width-down/60?cb=20201120063134",
-    "description": "A delicate tea cup that belonged to a scholar, this treasured cup is made of light porcelain and gilded with gold stripes.\n"
+    "description": "A delicate tea cup that belonged to a scholar. This treasured cup is made of light porcelain and gilded with gold stripes.The dainty cup was in stark contrast with the messy room in which it was found, but seemed to suggest that the scholar was from a well-to-do family.Not caring about the beauty and purpose of the tea cup, the scholar in her ivory tower dipped her quill pen in it.She only saw it as a convenient ware to wash the tip. Now covered in ink stains, the cup has long since lost its former elegance.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Scholar's Lens",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Scholar%27s_Lens.png/revision/latest/scale-to-width-down/60?cb=20201120063144",
-    "description": "The pursuit of knowledge is a risky gamble. Even after devoting one's entire life to it, it may prove to have been futile.\n"
+    "description": "The pursuit of knowledge is a risky gamble. Even after devoting one's entire life to it, it may prove to have been futile.The scholar spent half of her lifetime in endless research, taking notes and making calculations.Having failed to find the answers she was looking for, she once hesitated and questioned her career choice, thus wasting further time.Her once sharp eyesight had also been damaged by intensive reading.All this, and the answers she sought were still beyond her reach.\n"
    }
   ],
   "bonus": {
@@ -994,149 +948,128 @@
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Scholar.png"
  },
- "Prayersfor_Illumination": {
+ "Prayers For Illumination": {
   "pieces": [
    {
     "type": "Circlet of Logos",
     "name": "Tiara of Flame",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Tiara_of_Flame.png/revision/latest/scale-to-width-down/60?cb=20201120054540",
-    "description": "They say that,Once upon a time, the people of the land could hear revelations from the heavens directly.The envoys of the gods walked among benighted humanity then.The eternal ice had just begun to thaw, and the first fires were still new.\n"
+    "description": "They say that,Once upon a time, the people of the land could hear revelations from the heavens directly.The envoys of the gods walked among benighted humanity then. The eternal ice had just begun to thaw, and the first fires were still new.\n"
    }
   ],
   "bonus": {},
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Pyro Hypostasis"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Pyro Regisvine",
-     "Primo Geovishap",
-     "Pyro Hypostasis"
+     "Normal Bosses"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Prayers For Illumination.png"
  },
- "Prayersfor_Destiny": {
+ "Prayers For Destiny": {
   "pieces": [
    {
     "type": "Circlet of Logos",
     "name": "Tiara of Torrents",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Tiara_of_Torrents.png/revision/latest/scale-to-width-down/60?cb=20201120054713",
-    "description": "They say that,\n"
+    "description": "They say that,Once upon a time, the people of the land could hear revelations from the heavens directly.Then, the envoys of the gods would walk among benighted humanity, and the ancient flames were extinguished amidst the first falling rains.\n"
    }
   ],
   "bonus": {},
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Oceanid",
-     "Primo Geovishap",
-     "Hydro Hypostasis"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Oceanid",
-     "Primo Geovishap",
-     "Hydro Hypostasis"
+     "Normal Bosses"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Prayers For Destiny.png"
  },
- "Prayersfor_Wisdom": {
+ "Prayers For Wisdom": {
   "pieces": [
    {
     "type": "Circlet of Logos",
     "name": "Tiara of Thunder",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Tiara_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120054405",
-    "description": "They say that,Once upon a time, the people of the land could hear revelations from the heavens directly.\n"
+    "description": "They say that,Once upon a time, the people of the land could hear revelations from the heavens directly.Then, the envoys of the gods would walk among benighted humanity, and the waters ran dry as thunder first pierced the skies.\n"
    }
   ],
   "bonus": {},
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Primo Geovishap",
-     "Thunder Manifestation"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Electro Hypostasis",
-     "Primo Geovishap",
-     "Thunder Manifestation"
+     "Normal Bosses"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Prayers For Wisdom.png"
  },
- "Prayersto_Springtime": {
+ "Prayers To Springtime": {
   "pieces": [
    {
     "type": "Circlet of Logos",
     "name": "Tiara of Frost",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiara_of_Frost.png/revision/latest/scale-to-width-down/60?cb=20201120054507",
-    "description": "They say that,\n"
+    "description": "They say that,The line of chief priests have always seen this same sight as their days draw to an end:A mountain of crowns in a secret place, beneath a withered tree\u2014\u2014each one hiding a lifetime of secrets kept.Each retiring chief priest offers up their crown of flawless white branches to this world.Every mighty and ancient city, and every austere place of sacrifice must one day return to profundity in the earth.\n"
    }
   ],
   "bonus": {},
   "obtain": {
    "3": {
     "1": [
-     "Normal Bosses",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    },
    "4": {
     "1": [
-     "Normal Bosses",
-     "Cryo Regisvine",
-     "Cryo Hypostasis",
-     "Primo Geovishap",
-     "Perpetual Mechanical Array"
+     "Normal Bosses"
     ]
    }
   },
   "rarity": [
    3,
    4
-  ]
+  ],
+  "file": "Prayers To Springtime.png"
  },
- "Gladiator%27Sfinale": {
+ "Gladiators Finale": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Gladiator's Nostalgia",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201120063313",
-    "description": "An ordinary flower picked gently by the gladiator's master.He made a brooch with it and pinned it on the gladiator's chest, it came to symbolize his gentler side.\n"
+    "description": "An ordinary flower picked gently by the gladiator's master.He made a brooch with it and pinned it on the gladiator's chest. It came to symbolize his gentler side.\n"
    },
    {
     "type": "Plume of Death",
@@ -1188,15 +1121,19 @@
     ],
     "3": [
      "Domain Reliquary: Tier I"
+    ],
+    "4": [
+     "Artifact Strongbox"
     ]
    }
   },
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Gladiators Finale.png"
  },
- "Wanderer%27Stroupe": {
+ "Wanderers Troupe": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1208,25 +1145,25 @@
     "type": "Plume of Death",
     "name": "Bard's Arrow Feather",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png/revision/latest/scale-to-width-down/60?cb=20201120063940",
-    "description": "The harpist of the troupe was also a skilled archer. Legend has it that he could lure the birds in the sky with his harp and shoot them down with his arrows.\nIt is said that he never looked at the sky while he was playing the harp to lure the birds. Some believed the reason was his harpist's arrogance, while his companion said it was his hunter's mercy."
+    "description": "An azure arrow fletching that has survived the test of time.The fletching seems to produce a tune as the arrow flies through air.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Concert's Final Hour",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png/revision/latest/scale-to-width-down/60?cb=20201120063951",
-    "description": "The troupe's hourglass, which is also a harp.\n"
+    "description": "The troupe's hourglass, which is also a harp.The tune becomes deeper with the passage of time.\n"
    },
    {
     "type": "Goblet of Eonothem",
-    "name": "Wanderer's String Kettle",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Wanderer%27s_String_Kettle.png/revision/latest/scale-to-width-down/60?cb=20201120064002",
-    "description": "A strangle-shaped kettle that plays a wondrous tune as the water flows out.\n"
+    "name": "Wanderer's String-Kettle",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png/revision/latest/scale-to-width-down/60?cb=20201120064002",
+    "description": "A strangely-shaped kettle that plays a wondrous tune as the water flows out.There was always music in the life of a Troupe member, even when drinking water.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Conductor's Top Hat",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120064011",
-    "description": "A beautiful top hat untouched by time.\n"
+    "description": "A beautiful top hat untouched by time.Listening closely, one can almost hear an ancient tune echoing inside the hat.\n"
    }
   ],
   "bonus": {
@@ -1254,13 +1191,17 @@
     ],
     "3": [
      "Domain Reliquary: Tier I"
+    ],
+    "4": [
+     "Artifact Strongbox"
     ]
    }
   },
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Wanderers Troupe.png"
  },
  "Thundersoother": {
   "pieces": [
@@ -1268,31 +1209,31 @@
     "type": "Flower of Life",
     "name": "Thundersoother's Heart",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png/revision/latest/scale-to-width-down/60?cb=20201120065517",
-    "description": "A purple flower plucked in a thunderstorm.\n"
+    "description": "A purple flower plucked in a thunderstorm.Whoever wears it will no longer fear the thunder and lightning.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Thundersoother's Plume",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065527",
-    "description": "An insignia made in the shape of the plume of a falcon that soared through the storms.\n"
+    "description": "An insignia made in the shape of the plume of a falcon that soared through the storms.Its wearer can almost feel the booming of thunder and the heat of a volcano.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Hour of Soothing Thunder",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Hour_of_Soothing_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120065535",
-    "description": "An hourglass the Thundersoother once used. Flowing within it is not sand, but tiny Electro shards.\n"
+    "description": "An hourglass the Thundersoother once used. Flowing within it is not sand, but tiny Electro shards.The shards shatter and flow down as time passes, then merge together at the bottom of the hourglass.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Thundersoother's Goblet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png/revision/latest/scale-to-width-down/60?cb=20201120065626",
-    "description": "A goblet that once belonged to the Thundersoother.\n"
+    "description": "A goblet that once belonged to the Thundersoother.Perhaps its former owner once used it to drink the thunder.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Thundersoother's Diadem",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120065551",
-    "description": "A very ancient diadem.\n"
+    "description": "A very ancient diadem.It shines with the light of the pacified lightning.\n"
    }
   ],
   "bonus": {
@@ -1314,39 +1255,40 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Thundersoother.png"
  },
- "Thunderingfury": {
+ "Thundering Fury": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Thunderbird's Mercy",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png/revision/latest/scale-to-width-down/60?cb=20201120064634",
-    "description": "A purple wild flower that survived in the volcanic ash.\n"
+    "description": "A purple wild flower that survived in the volcanic ash.It witnessed the total decimation of the ancient tribe.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Survivor of Catastrophe",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png/revision/latest/scale-to-width-down/60?cb=20201120064643",
-    "description": "The ancient tribe held the Thunderbird as its protector. But it rained down thunder upon the tribe.\n"
+    "description": "The lost feather of the Thunderbird enchanted in purple lightning.It serves as the last witness of the destruction of the tribe.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Hourglass of Thunder",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png/revision/latest/scale-to-width-down/60?cb=20201120064652",
-    "description": "A luxurious hourglass, made with amethyst and amber gold, that belonged to a shaman.\n"
+    "description": "A luxurious hourglass belonging to the ancient tribe that worshiped the Thunderbird.As the tribe faded away, so did the hourglass.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Omen of Thunderstorm",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png/revision/latest/scale-to-width-down/60?cb=20201120064701",
-    "description": "A ritual goblet used by the shamans of an ancient tribe.\n"
+    "description": "A ritual goblet used by the shamans of an ancient tribe.It held the blood to be offered to the Thunderbird.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Thunder Summoner's Crown",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png/revision/latest/scale-to-width-down/60?cb=20201120064711",
-    "description": "The Thunderbird soared through the thunderstorms, raining down purple thunder and rain.\n"
+    "description": "In the ancient tribe that worshiped the Thunderbird, elder shamans worn [sic] this crown.\n"
    }
   ],
   "bonus": {
@@ -1368,15 +1310,16 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Thundering Fury.png"
  },
- "Maidenbeloved": {
+ "Maiden Beloved": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Maiden's Distant Love",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png/revision/latest/scale-to-width-down/60?cb=20201120063428",
-    "description": "The maiden's flower, fresh and elegant just like its original owner.The books say that this species of flower has long been extinct,\n"
+    "description": "The maiden's flower. Fresh and elegant just like its original owner.The books say that this species of flower has long been extinct.\n"
    },
    {
     "type": "Plume of Death",
@@ -1394,7 +1337,7 @@
     "type": "Goblet of Eonothem",
     "name": "Maiden's Fleeting Leisure",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png/revision/latest/scale-to-width-down/60?cb=20201120063454",
-    "description": "The maiden's most cherished tea ware,It was once filled with elegant by tea.\n"
+    "description": "The maiden's most cherished teaware.It was once filled with elegant black tea.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -1425,9 +1368,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Maiden Beloved.png"
  },
- "Viridescentvenerer": {
+ "Viridescent Venerer": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1451,13 +1395,13 @@
     "type": "Goblet of Eonothem",
     "name": "Viridescent Venerer's Vessel",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png/revision/latest/scale-to-width-down/60?cb=20201120064534",
-    "description": "A very robust and leakproof vessel.\n"
+    "description": "A very robust and leakproof vessel.A legendary hunter known as the Viridescent Venerer once used it to collect whispers by the campfire.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Viridescent Venerer's Diadem",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png/revision/latest/scale-to-width-down/60?cb=20201120064550",
-    "description": "A hunter's hat without any blood stains.\n"
+    "description": "A hunter's hat without any blood stains.In folklore, it belonged to the uncrowned queen of hunters \u2014 the Viridescent Venerer.\n"
    }
   ],
   "bonus": {
@@ -1479,27 +1423,28 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Viridescent Venerer.png"
  },
- "Crimsonwitch_Of_Flames": {
+ "Crimson Witch Of Flames": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Witch's Flower of Blaze",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png/revision/latest/scale-to-width-down/60?cb=20201120065356",
-    "description": "A common species of flower.\n"
+    "description": "A common species of flower.It is curiously capable of resisting the Crimson Witch's flames.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Witch's Ever-Burning Plume",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png/revision/latest/scale-to-width-down/60?cb=20201120065406",
-    "description": "A forever-burning bird feather.\n"
+    "description": "A forever-burning bird feather.The fire shall burn for all eternity.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Witch's End Time",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png/revision/latest/scale-to-width-down/60?cb=20201120065447",
-    "description": "A small vessel containing a high-temperature liquid.\n"
+    "description": "A small vessel containing a high-temperature liquid.It is said to be the molten souls of evil spirits.\n"
    },
    {
     "type": "Goblet of Eonothem",
@@ -1511,7 +1456,7 @@
     "type": "Circlet of Logos",
     "name": "Witch's Scorching Hat",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png/revision/latest/scale-to-width-down/60?cb=20201120065429",
-    "description": "A traditional witch's pointed hat with a large brim.\n"
+    "description": "A traditional witch's pointed hat with a large brim.It grants a witch the reverence and fear which she commands.\n"
    }
   ],
   "bonus": {
@@ -1533,7 +1478,8 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Crimson Witch Of Flames.png"
  },
  "Lavawalker": {
   "pieces": [
@@ -1587,9 +1533,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Lavawalker.png"
  },
- "Noblesseoblige": {
+ "Noblesse Oblige": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1637,6 +1584,9 @@
      "Clear Pool and Mountain Cavern"
     ],
     "2": [
+     "Artifact Strongbox"
+    ],
+    "3": [
      "Adventure Rank",
      "Rewards"
     ]
@@ -1645,15 +1595,16 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Noblesse Oblige.png"
  },
- "Bloodstainedchivalry": {
+ "Bloodstained Chivalry": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Bloodstained Flower of Iron",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png/revision/latest/scale-to-width-down/60?cb=20201120063726",
-    "description": "A common white flower given to the knight by a rescued damsel.It is dried and hardened by the blood from all his bloodshed.Thanking him for his valor, the damsel offered a reward.He turned down all she gave, save for a pure white flower.\n"
+    "description": "A common white flower given to the knight by a rescued damsel.It is dried and hardened by the blood from all his bloodshed.\n"
    },
    {
     "type": "Plume of Death",
@@ -1681,7 +1632,7 @@
    }
   ],
   "bonus": {
-   "2": "Physical DMG +25%",
+   "2": "Physical DMG Bonus +25%",
    "4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."
   },
   "obtain": {
@@ -1693,15 +1644,19 @@
    "5": {
     "1": [
      "Clear Pool and Mountain Cavern"
+    ],
+    "2": [
+     "Artifact Strongbox"
     ]
    }
   },
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Bloodstained Chivalry.png"
  },
- "Archaicpetra": {
+ "Archaic Petra": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1753,39 +1708,40 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Archaic Petra.png"
  },
- "Retracingbolide": {
+ "Retracing Bolide": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Summer Night's Bloom",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png/revision/latest/scale-to-width-down/60?cb=20201120064133",
-    "description": "A summer festival flower that blooms forever,\n"
+    "description": "A summer festival flower that blooms forever,That will not wilt even if buried deep below the snow.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Summer Night's Finale",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png/revision/latest/scale-to-width-down/60?cb=20201120064151",
-    "description": "An intricately-made throwing dart. It is a common sight during the summer festival.\n"
+    "description": "An intricately-made throwing dart. It is a common sight during the summer festival.In the ghost stories of Inazuma,There is a tale about a meeting between the human and inhuman...\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Summer Night's Moment",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png/revision/latest/scale-to-width-down/60?cb=20201120064255",
-    "description": "A small, ornate pocket watch.\n"
+    "description": "A small, ornate pocket watch.The watch seems to have stopped at a certain time of day.In the ghost stories of Inazuma,This has something to do with an encounter with something inhuman...\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Summer Night's Waterballoon",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png/revision/latest/scale-to-width-down/60?cb=20201120064320",
-    "description": "A beautiful water balloon filled with water.\n"
+    "description": "A beautiful water balloon filled with water.In the ghost stories of Inazuma,This is a memento of a chance meeting with something inhuman...\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Summer Night's Mask",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png/revision/latest/scale-to-width-down/60?cb=20201120064405",
-    "description": "The mask of one indwelt by a deity.\n"
+    "description": "The mask of one indwelt by a deity.A mask that has been cast in the image of some legendary deity.\n"
    }
   ],
   "bonus": {
@@ -1807,9 +1763,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Retracing Bolide.png"
  },
- "Blizzardstrayer": {
+ "Blizzard Strayer": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -1839,7 +1796,7 @@
     "type": "Circlet of Logos",
     "name": "Broken Rime's Echo",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Broken_Rime%27s_Echo.png/revision/latest/scale-to-width-down/60?cb=20201225230157",
-    "description": "The hero set out on his journey, bearing the tiny hopes that the entombed city still had for salvation. Donning his winter crown, he marched purposefully away, disappearing into the boundless snowstorm.\n"
+    "description": "The hero set out on his journey, bearing the tiny hopes that the entombed city still had for salvation.Donning his winter crown, he marched purposefully away, disappearing into the boundless snowstorm.\n"
    }
   ],
   "bonus": {
@@ -1861,39 +1818,40 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Blizzard Strayer.png"
  },
- "Heartof_Depth": {
+ "Heart Of Depth": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Gilded Corsage",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png/revision/latest/scale-to-width-down/60?cb=20201225230417",
-    "description": "A corsage whose coloration has been blistered away by the sea-salt wind.\n"
+    "description": "A corsage whose coloration has been blistered away by the sea-salt wind.Even a man who wanders the ocean waves,Has items and memories that he prizes.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Gust of Nostalgia",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Gust_of_Nostalgia.png/revision/latest/scale-to-width-down/60?cb=20201225230410",
-    "description": "A red feather is an ill omen, perhaps even a portent of death.\n"
+    "description": "A red feather is an ill omen, perhaps even a portent of death.It washed ashore one day together with the corpse of a great sea creature.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Copper Compass",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png/revision/latest/scale-to-width-down/60?cb=20201225230459",
-    "description": "A bronze compass used by a seaman.\n"
+    "description": "A bronze compass used by a seaman.In an ever-tumultuous life of wandering,It points toward the direction where its owner's heart lies.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Goblet of Thundering Deep",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png/revision/latest/scale-to-width-down/60?cb=20201225230348",
-    "description": "A faded, but finely-crafted wine cup,\n"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png/revision/latest/scale-to-width-down/60?cb=20220202001855",
+    "description": "A faded, but finely-crafted wine cup,Ground down by the sands in the sea's depths.\n"
    },
    {
     "type": "Circlet of Logos",
     "name": "Wine-Stained Tricorne",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Wine-Stained_Tricorne.png/revision/latest/scale-to-width-down/60?cb=20201225230357",
-    "description": "A tricorne hat thick with the smell of alcohol.\n"
+    "description": "A tricorne hat thick with the smell of alcohol.Its shape and design symbolize the position of its owner.\n"
    }
   ],
   "bonus": {
@@ -1915,21 +1873,22 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Heart Of Depth.png"
  },
- "Tenacityof_The_Millelith": {
+ "Tenacity Of The Millelith": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Flower of Accolades",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png/revision/latest/scale-to-width-down/60?cb=20210416205617",
-    "description": "In an age when solemn songs were sung from the clifftops, a meteorite once fell into the Chasm.Out of the depths of the boundless night sky above, the iron meteorite plummeted to the ground, turning the earth to powdered glaze on impact.\n"
+    "description": "In an age when solemn songs were sung from the clifftops, a meteorite once fell into the Chasm.Out of the depths of the boundless night sky above, the iron meteorite plummeted to the ground, turning the earth to Glazed Sand Crystal on impact.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Ceremonial War-Plume",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Ceremonial_War-Plume.png/revision/latest/scale-to-width-down/60?cb=20210428200249",
-    "description": "As a mark of military service, the Millelith use the feathers of high-altitude birds of prey to adorn their uniforms.\n"
+    "description": "As a mark of military service, the Millelith use the feathers of high-altitude birds of prey to adorn their uniforms.These tail feathers are only worn on ceremonial occasions. They boost the morale of the citizenry and fill visiting outlanders with a sense of awe.\n"
    },
    {
     "type": "Sands of Eon",
@@ -1941,7 +1900,7 @@
     "type": "Goblet of Eonothem",
     "name": "Noble's Pledging Vessel",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Noble%27s_Pledging_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210428200251",
-    "description": "When the Millelith was first founded, Liyue was still a savage and dangerous place. The elders of towns, villages, and tribes would pledge oaths of allegiance with a golden cup.\n"
+    "description": "When the Millelith was first founded, Liyue was still a savage and dangerous place. The elders of towns, villages, and tribes would pledge oaths of allegiance with a golden cup.As a show of loyalty to Rex Lapis and duty to their countrymen,They selected valiant soldiers from all regions. These soldiers became known as the Millelith.They would go on to take up arms with a yaksha in battle, fighting from the rearguard. They too drank from that golden cup.It was a final toast to the benevolent and majestic Lord of Geo. With their gaze fixed ahead of them, they stormed into the abyss.Hundreds of years later, a conceited adventurer retrieved the cup from the depths of The Chasm and washed away the imperfections.Miraculously, the cup remained whole and untarnished by the passage of time. The pitch-dark of that subterranean realm had failed to remove its radiance.Yet more centuries passed. Eventually, the people of Liyue would tell tales of an era of catastrophe and a nameless yaksha,Tales of how heroes from disparate heritages and different lands united under a single banner against the Abyss...Inevitably, the tale would touch upon the cup, and how the blood of those that went before remained clear and spotless as the day it was spilled.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -1969,9 +1928,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Tenacity Of The Millelith.png"
  },
- "Paleflame": {
+ "Pale Flame": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2005,7 +1965,7 @@
    }
   ],
   "bonus": {
-   "2": "Physical DMG +25%",
+   "2": "Physical DMG Bonus +25%",
    "4": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
   },
   "obtain": {
@@ -2023,9 +1983,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Pale Flame.png"
  },
- "Shimenawa%27Sreminiscence": {
+ "Shimenawas Reminiscence": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2077,9 +2038,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Shimenawas Reminiscence.png"
  },
- "Emblemof_Severed_Fate": {
+ "Emblem Of Severed Fate": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2103,7 +2065,7 @@
     "type": "Goblet of Eonothem",
     "name": "Scarlet Vessel",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png/revision/latest/scale-to-width-down/60?cb=20210721030208",
-    "description": "With his secret sword technique, Tengu Sweeper, Iwakura Doukei became the Kujou Clan's swordsmanship instructor.He also received the title of \"Douin\" and founded a successful sword school.As he headed off to take up his post at the Kujou Estate, Doukei, who had long learned how to drink,Stepped into the branch shrine that had been utterly destroyed by his completion of the Tengu Sweeper.Here, in the courtyard of this abandoned branch shrine, he had sparred with the Tengu of Yougou ten times in the last thirteen years.He remembered his encounter with the black-winged tengu who had called herself \"Teruyo of Yougou\"...\n"
+    "description": "With his secret sword technique, Tengu Sweeper, Iwakura Doukei became the Kujou Clan's swordsmanship instructor.He also received the title of \"Douin\" and founded a successful sword school.As he headed off to take up his post at the Kujou Estate, Doukei, who had long learned how to drink,Stepped into the branch shrine that had been utterly destroyed by his completion of the Tengu Sweeper.Here, in the courtyard of this abandoned branch shrine, he had sparred with the Tengu of Yougou thirteen times in the last thirteen years.He remembered his encounter with the black-winged tengu who had called herself \"Teruyo of Yougou\"...\n"
    },
    {
     "type": "Circlet of Logos",
@@ -2131,9 +2093,10 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Emblem Of Severed Fate.png"
  },
- "Huskof_Opulent_Dreams": {
+ "Husk Of Opulent Dreams": {
   "pieces": [
    {
     "type": "Flower of Life",
@@ -2157,7 +2120,7 @@
     "type": "Goblet of Eonothem",
     "name": "Calabash of Awakening",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Calabash_of_Awakening.png/revision/latest/scale-to-width-down/60?cb=20211124024245",
-    "description": "Amenoma, Kyoushin, Isshin, Doume, Senju.These were, once upon a time, the five branches of the Raiden Gokaden,But today, only Amenoma still maintains its line of succession.While the Isshin line can just barely be said to have extant descendants.In the eyes of the people, this is just the natural result of the ravages of time.They never once suspected that such sudden falls from grace might have some hidden mystery behind them.\n"
+    "description": "Amenoma, Futsu, Isshin, Hyakume, Senju.These were, once upon a time, the five branches of the Raiden Gokaden,But today, only Amenoma still maintains its line of succession.While the Isshin line can just barely be said to have extant descendants.In the eyes of the people, this is just the natural result of the ravages of time.They never once suspected that such sudden falls from grace might have some hidden mystery behind them.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -2185,33 +2148,34 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Husk Of Opulent Dreams.png"
  },
- "Ocean-Huedclam": {
+ "Ocean-Hued Clam": {
   "pieces": [
    {
     "type": "Flower of Life",
     "name": "Sea-Dyed Blossom",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png/revision/latest/scale-to-width-down/60?cb=20211124071311",
-    "description": "A tender flower from the ocean. Its core is adorned with pure pearls.The songs of Watatsumi Island say that these flowers bloom in the pearl-lit depths.Steeped in the lovesickness of the diving sea-daughters and the gentle moonlight, they would give off a pearly gleam.When all conflicts have ceased, the sea beasts shall no longer weep for their lonesome companions,And when the moonlight rises over Touzan, the lovely deity shall rise and sing.\"Come, sea-daughters, come and see, O people of my heart, for the moon is out tonight.\"\"Though Touzan might fall this night, the lightning and the storm can never hide the moon's pearly glory...\"The lonesome maiden will sing and dance upon the moon-silver waves.The divers shall forget the pain of loss, and even the tender flowers will regain their vibrance."
+    "description": "A tender flower from the ocean. Its core is adorned with pure pearls.The songs of Watatsumi Island say that these flowers bloom in the pearl-lit depths.Steeped in the lovesickness of the diving sea-daughters and the gentle moonlight, they would give off a pearly gleam.When all conflicts have ceased, the sea beasts shall no longer weep for their lonesome companions,And when the moonlight rises over Touzan, the lovely deity shall rise and sing.\"Come, sea-daughters, come and see, O people of my heart, for the moon is out tonight.\"\"Though Touzan might fall this night, the lightning and the storm can never hide the moon's pearly glory...\"The lonesome maiden will sing and dance upon the moon-silver waves.The divers shall forget the pain of loss, and even the tender flowers will regain their vibrance.\n"
    },
    {
     "type": "Plume of Death",
     "name": "Deep Palace's Plume",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Deep_Palace%27s_Plume.png/revision/latest/scale-to-width-down/60?cb=20211124071302",
-    "description": "In the days when the many clans first saw the light of day, Omikami chose shrine maidens from among the people of the sea.In the island-songs of history, the first Divine Priestess was once one of the sea-daughters who collected pearls.She would come amongst the children, who in their meaningless conflict, lost sight of their futureAnd amongst the old who had lost sight of life's beauty amidst ruthless tragedy.The Divine Priestess comforted the people using her lovely songs and gentle words,And even amidst the stormy times, the people of Watatsumi saw hope for the first time.This sea-born feather was said to have come from that Divine Priestess' ceremonial garb.It was plucked by mistake by a child's tender hand, and was preserved by a fretful person.Later, when the brave hero and priestesses rushed to their irrevocable sacrifice,The Divine Priestess' ceremonial garment was not lost, but passed down in memory to the present day."
+    "description": "In the days when the many clans first saw the light of day, Omikami chose shrine maidens from among the people of the sea.In the island-songs of history, the first Divine Priestess was once one of the sea-daughters who collected pearls.She would come amongst the children, who in their meaningless conflict, lost sight of their futureAnd amongst the old who had lost sight of life's beauty amidst ruthless tragedy.The Divine Priestess comforted the people using her lovely songs and gentle words,And even amidst the stormy times, the people of Watatsumi saw hope for the first time.This sea-born feather was said to have come from that Divine Priestess' ceremonial garb.It was plucked by mistake by a child's tender hand, and was preserved by a fretful person.Later, when the brave hero and priestesses rushed to their irrevocable sacrifice,The Divine Priestess' ceremonial garment was not lost, but passed down in memory to the present day.\n"
    },
    {
     "type": "Sands of Eon",
     "name": "Cowry of Parting",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png/revision/latest/scale-to-width-down/60?cb=20211124071325",
-    "description": "Time seems to pass exceedingly slowly in the silent, fluorescent ocean depths.Even the bright seashells might grow forgetful as the years lengthen.The people of Watatsumi once came forth from the darkness, and thus bade farewell to the long dreams of the deep.They escaped the prying gaze of the Dragonheir in the dark, walking the glimmering coral stair into the realm of daylight.It is said that at that time, the ocean people would take a single seashell as remembrance for their clan.And as for those who had lost theirs, they would be welcomed into a new family.In the ancient tongue, these pure shells would become known as the Parcels of Reunion.Two parties who embrace shall not again be parted by an outside force, though this enjoining is not itself eternal.These seashells, therefore, were a farewell to life beneath the waves, and the beginning of a new life under the sun."
+    "description": "Time seems to pass exceedingly slowly in the silent, fluorescent ocean depths.Even the bright seashells might grow forgetful as the years lengthen.The people of Watatsumi once came forth from the darkness, and thus bade farewell to the long dreams of the deep.They escaped the prying gaze of the Dragonheirs in the dark, walking the glimmering coral stair into the realm of daylight.It is said that at that time, the ocean people would take a single seashell as remembrance for their clan.And as for those who had lost theirs, they would be welcomed into a new family.In the ancient tongue, these pure shells would become known as the Parcels of Reunion.Two parties who embrace shall not again be parted by an outside force, though this enjoining is not itself eternal.These seashells, therefore, were a farewell to life beneath the waves, and the beginning of a new life under the sun.\n"
    },
    {
     "type": "Goblet of Eonothem",
     "name": "Pearl Cage",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Pearl_Cage.png/revision/latest/scale-to-width-down/60?cb=20211124071308",
-    "description": "To the sea people, the bright pearls that Watatsumi's deity once praised are priceless treasures.Only the Divine Priestess had the right to sing the great song themed around those pearls.Legend has it that the rainbow-hued clams produced these flawless gems in gratitude for Watatsumi's tenderness.In latter days, it was even said that the bloodline of the Divine Priestess was originally birthed from these pearls.Having stepped down from her soft, vivid cradle, she and the sisters who danced with the sea and moon were greatly favored,For out of his rejoicing and love, Omikami gave unto them beautiful gems that granted them the pure desire to pursue daylight.In the hands of those whose veins run true with Watatsumi blood, pearls seem to gleam brighter than normal.Perhaps this is but an ancient tale, the truth of which can no longer be verified.But it is said that at the point of defeat, the Divine Priestess and the twin sisters [1] exchanged their clothes and concealed themselves within the endless waves.Only this bright pearl was lost in the rippling tumult, returning to the silent solitude of the depths."
+    "description": "To the sea people, the bright pearls that Watatsumi's deity once praised are priceless treasures.Only the Divine Priestess had the right to sing the great song themed around those pearls.Legend has it that the rainbow-hued clams produced these flawless gems in gratitude for Watatsumi's tenderness.In latter days, it was even said that the bloodline of the Divine Priestess was originally birthed from these pearls.Having stepped down from her soft, vivid cradle, she and the sisters who danced with the sea and moon were greatly favored,For out of his rejoicing and love, Omikami gave unto them beautiful gems that granted them the pure desire to pursue daylight.In the hands of those whose veins run true with Watatsumi blood, pearls seem to gleam brighter than normal.Perhaps this is but an ancient tale, the truth of which can no longer be verified.But it is said that at the point of defeat, the Divine Priestess and the twin sisters[1] exchanged their clothes and concealed themselves within the endless waves.Only this bright pearl was lost in the rippling tumult, returning to the silent solitude of the depths.\n"
    },
    {
     "type": "Circlet of Logos",
@@ -2239,6 +2203,129 @@
   "rarity": [
    4,
    5
-  ]
+  ],
+  "file": "Ocean-Hued Clam.png"
+ },
+ "Vermillion Hereafter": {
+  "pieces": [
+   {
+    "type": "Flower of Life",
+    "name": "Flowering Life",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Flowering_Life.png/revision/latest/scale-to-width-down/60?cb=20220330033017",
+    "description": "Even the ancient cinnabar cliffs were once home to lovely blooming flowers.\nEven in the era when blackened blood flowed freely, they were not stained by even the smallest smidge of mud.\n\nWhile the Millelith stands guard, evil shall never prevail. Even should the enemy be dark demons, this would not change.\nThe silent mountain people and the steel moon constructed their peaceful camp.\n\n\"Oh daughters of the cliffs of Glazed Sand Crystal, weep not for me.\"\n\"I was born in the shade of Tianheng, and I fight to repay Rex Lapis' mercy.\"\n\"I entrust my life to the four-armed Yaksha, and we shall go into the glowing depths.\"\n\"The shadowed road of the darkest pits we shall tread, we shall brave the stony crystal halls.\"\n\"We will face the defilement arising from the depths, the twisted beasts that dwell there.\"\n\"These horrors and their strangeness shall not put me to flight or fear.\"\n\nThe night wind interrupted the Millelith soldier's words, causing him to be unable to finish what he had to say.\nHe simply left this small flower for that young daughter of the mountain tribe as a memento, a ward against forgetting.\n\n\"The only thing I truly fear is to be lost and forgotten.\"\n\"Should ill fate dictate that I am to be buried in some nameless place, do not forget me.\"\n"
+   },
+   {
+    "type": "Plume of Death",
+    "name": "Feather of Nascent Light",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Feather_of_Nascent_Light.png/revision/latest/scale-to-width-down/60?cb=20220330032944",
+    "description": "Legend has it that a hero once plucked an eagle's feather from atop the highest cliff of The Chasm.\nIt is also said that those who could accomplish such a deed earned the right to die alongside the adepti.\n\n\"Going to one's death willingly in defense of the people... A good cause indeed.\"\n\"Yet, if you think about it, this would be akin to a fish sinking into a deep pool or a bird plummeting into a forge.\"\n\"I may yet achieve my own desire, but we shall go unknown, and ultimately unremembered.\"\n\"Mortals like us are like feathers caught up in a whirlwind, floating into the deep sky.\"\n\"Saving, defending... In the end, these are all pointless things, void of meaning.\"\n\nThese dark murmurings shook the hearts of those who would never make a name for themselves.\n\nBut the battle was over in the end, and many a soldier would rest eternally in the cavernous depths.\nThe freakish cries of the dark forces were also silenced like fading ripples...\nAnd though mortal spans are short, the land will forever remember.\n"
+   },
+   {
+    "type": "Sands of Eon",
+    "name": "Solar Relic",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Item_Solar_Relic.png/revision/latest/scale-to-width-down/60?cb=20220330033109",
+    "description": "It is said that Rex Laps [sic] was yet young, the sun was a chariot that raced across the earth.\nWhen the three sisters of the night sky were martyred in a calamity, the solar chariot fell into a deep gorge.\nThe mountain people, taking it for a sign, repaired the device, allowing it to shine through the darkness again.\nAnd though it was returned to its constant westward cycle, a single piece would forever remain behind.\nWhen they moved to the city, they would grind that fragment into crystals and sell it to someone who knew its value...\n\n\"Hey, hey, that's a joke, right? I mean, you can't trust these baseless folktales, can you?\"\n\"The merchants of Shenglu Hall have long left their obscurity and forgotten their past.\"\n\"Glittering Sand Crystal cannot easily be made into lacquerware, after all, nor is it suited to making luxury paints.\"\n\"According to the miners at The Chasm \u2014 and mind you don't believe this story too readily either\u2014\"\n\"This timepiece and sand crystal came from the Millelith five hundred years ago.\"\n\nIn the lightless abyss where light wrestled against darkness, even one with a Yaksha's might could not hold out for long.\nAnd all the more did mere mortals need light to prevent them from getting lost in the steel curtain of devouring night.\nThe Millelith thus collected glowing sand to light the way, and it just so happened to resemble the pale moonlight.\nThe timepiece for its part told of the time they spent there in the abyss, and serves as proof that where they fell, others have come after to take up their duty.\n"
+   },
+   {
+    "type": "Goblet of Eonothem",
+    "name": "Moment of the Pact",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Moment_of_the_Pact.png/revision/latest/scale-to-width-down/60?cb=20220330033056",
+    "description": "This place known as The Chasm has shone with a cinnabar luster since ancient days.\nThe mountain miners and the metropolitan merchants still tell the legend of a Yaksha...\nPeople say that the lone traveler with four arms once came to the barren wastes where the star fell.\nHearing that this wandering figure's evil-exorcising travels had now brought them hence, the tribes-people of the mountains came forward one after another:\n\n\"Guest from afar, please accept our wine, and hear our plea.\"\n\"You may consider our aged spirits bitter and hard to swallow, a far cry from the sweet brews of Mt. Tianheng that even Rex Lapis praises.\"\n\"But the heavens have graced us with stores of precious stones and marvelous jade, and we carve the jagged rock for a living.\"\n\"Thanks to the grace of Rex Lapis, our lives are, while not ideal, at least free of terror.\"\n\"Yet things have changed, and a dark shadow is cast over the blessing we have received from the fallen star.\"\n\"We do not have any precious gifts to present as a pledge, but still we beg for your succor.\"\n\nThe guest heard the elders' plea, and silently drank every drop of that bitter wine.\nThe guest promised nothing, and did not chastise the mortals for their insolence, but simply turned east, disregarding all attempts to make them stay.\n\nAs for what came after, all now know what happened...\n\nBut the simple crystal-sand wine cup that the guest shared with the tribal elders remains to this day as a testament to their pact.\n"
+   },
+   {
+    "type": "Circlet of Logos",
+    "name": "Thundering Poise",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Thundering_Poise.png/revision/latest/scale-to-width-down/60?cb=20220330033151",
+    "description": "Tianqiu once played host to a Yaksha, four-armed and mighty.\nHe came to The Chasm from afar, to the praises of the tribes.\nA feast they put forth for him, the food in abundance.\nBlade in hand, he entered The Chasm, a disaster to still.\nMighty as a demon, purple bale-fire shone in his eyes.\nThe lightning pierced the deathly shadow, and thunder dissolved the darkness.\nThe clouds hid the abyss, maw stretching to devour the firmament.\nThe wild wind howled, the cinnabar sweeping the darkness.\nThe mountain ranges shock, and the gorges caved in.\nThe depths cried out as they collapsed, and then all was silent.\nThe dense clouds solidified sundown-light as the perching birds sang sadly:\n\"Do you not hear? The drums die in the north wind, the hero sinks into the vortex.\"\n\"Have you not seen? The Yaksha's battle for the dawn \u2014 alas for a life so spent.\"\n"
+   }
+  ],
+  "bonus": {
+   "2": "ATK +18%.",
+   "4": "After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+  },
+  "obtain": {
+   "4": {
+    "1": [
+     "The Lost Valley"
+    ],
+    "2": [
+     "Domain Reliquary: Tier II"
+    ]
+   },
+   "5": {
+    "1": [
+     "The Lost Valley"
+    ],
+    "2": [
+     "Domain Reliquary: Tier I"
+    ]
+   }
+  },
+  "rarity": [
+   4,
+   5
+  ],
+  "file": "Vermillion Hereafter.png"
+ },
+ "Echoes Of An Offering": {
+  "pieces": [
+   {
+    "type": "Flower of Life",
+    "name": "Soulscent Bloom",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png/revision/latest/scale-to-width-down/60?cb=20220330042626",
+    "description": "Each year, when the Spiritscent Flowers bloom, Qiaoying Village will prepare for its tea-serving ceremonies.\nOnce the flowers wither, flower tea infused with nine layers of scents are presented in the village hall.\nThe Spiritscent Flower is a fleeting thing, much like the sudden coming and going of a certain adeptus.\nThis one left behind the ambiguous name of \"Herblord,\" as well as many foggy and fragmented legends.\n\nIn one such tale, the Herblord's adeptal form would turn into the branches of an ancient tea tree.\nIn another, the adeptus flew up to the adeptal mountain on a subdued evil beast.\nThere is even a story that goes like this\u2014\n\nThe young lady grasped at the hooded hat on the ground as she struggled ashore, placing it on her head haphazardly.\nFor if she did not cover her face, then she might feel embarrassed and find herself at a loss for words.\nJust then, the orchestrator of her suffering poked their head out of the water.\nThe rainbow-scales on their body glimmered, as if to revel in this victory.\n\n\"*cough* Alright! So you can swim! Very impressive! ...You know what? May you drown someday!\"\n\nShe spoke these words in anger, but also in jest.\nAnd yet that glittering streak would eventually sink into the depths, never to come back to the surface.\n"
+   },
+   {
+    "type": "Plume of Death",
+    "name": "Jade Leaf",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Jade_Leaf.png/revision/latest/scale-to-width-down/60?cb=20220330033045",
+    "description": "A very long time ago, there was no ford across the river, only a misty hillside.\nThe owner of this mountain had yet to decide what to plant here when someone preempted them.\n\n\"Once this tree gets a bit larger, I'll cut its leaves down and make some tea for all of you.\"\n\"When that time comes, we'll get Cloud Retainer and Mountain Shaper to come over...\"\n\n\"Seriously? You plant trees any way you like on my turf, and you have the nerve to spout such things?\"\nBut though the young lady who was master of this mountain complained, she too could imagine the tea's fragrance.\n\nLater, someone would quietly tie this jade pendant to the thin branches of the small tree.\nWhen more time had passed, the mountain's master returned, but in a changed aspect,\nAnd sans the finger that might untie the pendant. This was a long time ago now.\n\nMany years later, the branches of this tree would be grafted to the other side of the river by the mortals who dwelled in the mountains.\nThe fragrance of tea would also travel from this place, Chenyu Vale, to Liyue Harbor, and from there to many more places still.\n\nThere are many legends concerning the tea trees of Chenyu Vale. One of them goes like this:\nNo matter the waters, soil, or sunlight, this sort of tree only grows lushly in Chenyu Vale.\nThis is because it remembers the promise that old friends made in the ancient past beside the tea sapling.\n"
+   },
+   {
+    "type": "Sands of Eon",
+    "name": "Symbol of Felicitation",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Symbol_of_Felicitation.png/revision/latest/scale-to-width-down/60?cb=20220330042638",
+    "description": "It is said that this jade ornament comes from the long-sealed sacred mountain.\nJust as a Starconch separated from the sea will recall the sound of the waves,\nThe ornament will also emit the sound of flowing water.\n\nYou may often hear such rumors in inns...\n\"You know, legend has it that the greatest treasure of the mountains is a slab of fine jade that can bring down sweet rains.\"\n\"But when the world was in turmoil, demons began to covet its power.\"\n\"So the master of the mountain split it into many parts, forming each part into different shapes, so as to hide them.\"\n\"Then, the master concealed them underwater, in the hills, and some were even offered to shrines.\"\n\"In the legends of Chenyu Vale, these jade ornaments bear the blessing of a deity's pact.\"\n\"It's just that no one has been able to find them, even after so many years...\"\n\nThe priest had been ever careful in hiding this jade loop on their person.\nBut on certain years, they would discreetly show it to a friend with no sense of refinement on the eve of a departure.\nThe priest would speak of its patterns and its origins, and of the pact made with a deity by their ancestors,\nBut the friend was busy pounding herbs with mortar and pestle, and did not hear a single word.\n\n\"We do this song and dance every year, and I've heard this story who-knows-how-many times.\"\n\"Didn't you say you'd treat me to some tea when you get back? Let's talk then.\"\nBut that which came from the waters was not that which she had thought would come, and would vanish henceforth back into those waters...\n\nTill today, the artisans of Yilong Port still make such simple ornaments.\nVisiting merchants will also often place these jade loops close to their ears, as the legend says,\nWondering if they can truly hear the sound of the rain pitter-pattering on mountain stone.\n"
+   },
+   {
+    "type": "Goblet of Eonothem",
+    "name": "Chalice of the Font",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Chalice_of_the_Font.png/revision/latest/scale-to-width-down/60?cb=20220330033204",
+    "description": "This was originally a gift from a friend, linked to a small realm within.\nThe spring within the chalice would never dry up, making it a fine place to temporarily stay.\nIt could hold a reflection of the sun and moon, and could play host to swimming fish.\n\nCompared to the ill-fate accorded to the Yaksha, she believed that she was luckier by far.\nBut the price for inheriting the ancient rites was to never spend much time on land.\nIn those days, the sweet waters did not flow across Liyue in such abundance.\nThe harbor-city beneath the mountains and the gathering in the plains was, to her, a distant dream.\nBut that person, ever afraid of trouble, decided to set off with this teacup in hand.\n\nThis \"Liyue Harbor\" she spoke of would almost certainly be as full of flaws as a village ceremony.\nThis journey would surely be full of arguments, struggle, and many troubles.\nShe knew that they both quite enamored with their gifts of the gab, but much less with crowds.\nNowhere else in this world could you find two adepti as small as they, envious and fearing prosperity in equal measure.\n\n\"But we had promised each other many things in the past, and this is very good.\"\nAs they were to leave, she thought thus.\n\"Well, at least this trip will be interesting. I can introduce her to some other old friends.\"\n\nLater, the brazier and tea kettle would come into common use, and the teacup's shape, too, was taken up by people.\nAnd thus did everyone become able to have the moon on their desk and hold it in their palms.\n"
+   },
+   {
+    "type": "Circlet of Logos",
+    "name": "Flowing Rings",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Flowing_Rings.png/revision/latest/scale-to-width-down/60?cb=20220330033033",
+    "description": "Chenyu Vale is home to many mountains, streams, and stories. Among these, the most famous is:\nA long time ago, there was a priceless gem that fell into the hands of a demon and was thrown into the waters where it sunk...\n\nThe wide river of a legend will oft produce many tributaries. One of these goes like this:\nThis gem was once jade from a sacred mountain, carved into its current shape only by the hand of Rex Lapis himself.\nAnd the stone that had been lost to the waters may have been a lesser jade, or perhaps just a simple cup.\nSome even say that the \"jade\" in the tale is in fact an analogy for a beautiful person.\n\nThe legends even have it that people had once seen this:\n\nUnnumbered koi with tails like gems in the sunlight,\nHaving left the shackles of the lakes and rivers to which aquatic creatures are bound,\nFlying freely with the wind in the sky.\nSo too did the pair of jade earrings belonging to a certain person change form.\n"
+   }
+  ],
+  "bonus": {
+   "2": "ATK +18%.",
+   "4": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.This effect will be dispelled 0.05s after a Normal Attack deals DMG.If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.This trigger can occur once every 0.2s."
+  },
+  "obtain": {
+   "4": {
+    "1": [
+     "The Lost Valley"
+    ],
+    "2": [
+     "Domain Reliquary: Tier II"
+    ]
+   },
+   "5": {
+    "1": [
+     "The Lost Valley"
+    ],
+    "2": [
+     "Domain Reliquary: Tier I"
+    ]
+   }
+  },
+  "rarity": [
+   4,
+   5
+  ],
+  "file": "Echoes Of An Offering.png"
  }
 }

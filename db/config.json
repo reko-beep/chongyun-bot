@@ -1,5 +1,7 @@
 {
-"token": "",
-"site": "",
-"uid_channel": 0
+    "token": "",
+    "site": "",
+    "uid_channel": 0,
+    "coop_roles": [],
+    "coop_channel": 0
 }

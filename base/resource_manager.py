@@ -2,6 +2,9 @@
 from os import getcwd, listdir
 from os.path import exists, isfile, isdir
 from json import load, dump
+from colorthief import ColorThief
+import requests
+from io import BytesIO
 class ResourceManager:
     def __init__(self, site: str = ''):
         '''
@@ -13,10 +16,26 @@ class ResourceManager:
         
         self.path = getcwd()+'/assets/{path}'
         self.db = getcwd()+'/db/{path}'
+        self.cached_colors = {
+
+        }
 
 
         self.__load()
+        self.__load_colors()
     
+    def __load_colors(self):
+        path = self.db.format(path='cc.json')
+        if exists(path):
+            with open(path, 'r') as f:
+                self.cached_colors = load(f)
+    
+    def __save_colors(self):
+        path = self.db.format(path='cc.json')        
+        with open(path, 'w') as f:
+            dump(self.cached_colors, f, indent=1)
+    
+
     def flatten_list(self, list_ : list):
         if len(list_) > 0:
             return list_[0]
@@ -28,12 +47,13 @@ class ResourceManager:
         if exists(self.path.format(path=path_)):
             return self.path.format(path=path_)
 
-    def search(self, search_string: str , search_list: list):
+    def search(self, search_string: str , search_list: list, split_search:bool=True):
         """
         searches a string in search_list
         """
-        if ' ' in search_string:
-            search_string = search_string.split(' ')
+        if split_search:
+            if ' ' in search_string:
+                search_string = search_string.split(' ')
         for s_item in search_list:
             if type(search_string) == list:
                 for s in search_string:
@@ -166,12 +186,32 @@ class ResourceManager:
                     teamcomps.append(i)
         return teamcomps
 
-    def get_character_full_details(self, character_name: str, url: bool):
+    def get_color_from_image(self, url, rgb:bool=False, hex:bool=False, int_color:bool=True):
+
+        if url in self.cached_colors:
+            return self.cached_colors[url]
+        else:
+            with requests.get(url) as f:
+                test = ColorThief(BytesIO(f.content))
+                def clamp(x): 
+                    return max(0, min(x, 255))
+                color = test.get_color(quality=1)
+                if rgb:
+                    return color
+                if hex:
+                    return "{0:02x}{1:02x}{2:02x}".format(clamp(color[0]), clamp(color[1]), clamp(color[2]))
+                self.cached_colors[url] = int("{0:02x}{1:02x}{2:02x}".format(clamp(color[0]), clamp(color[1]), clamp(color[2])),16)
+                self.__save_colors()
+                return int("{0:02x}{1:02x}{2:02x}".format(clamp(color[0]), clamp(color[1]), clamp(color[2])),16)
+
+
+    def get_character_full_details(self, character_name: str,split_search:bool=True):
 
         data = {}
         character_search_list = list(self.characters.keys())
         character = self.__search(character_name, character_search_list)
         print(character_name, character, character_search_list)
+        url = True
         if character is not None:
             data = self.characters[character]
             builds = self.get_character_guides(character, 'b', url)
@@ -199,11 +239,20 @@ class ResourceManager:
                 return element_data[element_searched]
 
 
-    def get_weapon_details(self, weapon_name:str):
+    def get_weapon_details(self, weapon_name:str, split_search:bool=True):
 
         
         weapons_names = list(self.weapons.keys())
-        selected_weapon = self.search(weapon_name, weapons_names)
+        selected_weapon = self.search(weapon_name, weapons_names, split_search)
 
         if selected_weapon is not None:
             return self.weapons[selected_weapon]
+    
+    def get_artifact_details(self, artifact_name:str, split_search:bool=True):
+    
+        
+        artifacts_names = list(self.artifacts.keys())
+        selected_artifact = self.search(artifact_name, artifacts_names, split_search)
+
+        if selected_artifact is not None:
+            return self.artifacts[selected_artifact]

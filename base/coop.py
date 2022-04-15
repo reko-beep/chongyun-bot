@@ -1,8 +1,11 @@
+
+from dis import disco
 from json import load, dump
 from base.resource_manager import ResourceManager
+from base.utils import get_ordered_dicts, paginator
 
-from nextcord import Member
-
+from nextcord import Member, Message
+from datetime import datetime
 from os.path import exists
 
 class CoopManager:
@@ -112,6 +115,7 @@ class CoopManager:
     def get_server_region(self, **kwargs):
         from_uid = kwargs.get("uid", -1)
         region_str = kwargs.get("region", '').lower()
+        print(region_str)
         if from_uid != -1:
             uid = from_uid
             if type(from_uid) == int:
@@ -123,15 +127,17 @@ class CoopManager:
                 return 'eu'
             if uid[0] == '6':
                 return 'na'
-            
+           
         if region_str != '':
-            allowed :list = 'asia:asia:eu:europe:na:northamerica'.split(":")
+            allowed :list = ['asia','asia','eu','europe','na','northamerica']
+            
             try:
                 index = allowed.index(region_str)
-            except ValueError:
+                print('index found', index)
+            except ValueError:                
                 pass
-            else:
-                if index % 2 != 0:
+            else:              
+                if index % 2 != 0:                    
                     return allowed[index-1]
                 else:
                     return allowed[index]
@@ -323,9 +329,81 @@ class CoopManager:
             self.__save()
             return True
     
+    def warn_system(self, discord_member: Member, message: Message):
+        if 'warns' not in self.coop_data:
+            self.coop_data['warns'] = {}
+
+        discord_id = str(discord_member.id)
+        if discord_id not in self.coop_data:
+            self.generate_profile(discord_member)
+        if 'banned' not in self.coop_data:
+            self.coop_data['banned'] = []
+        last_message_time = None
+        if discord_id in self.coop_data['warns']:
+            last_message_time = self.coop_data['warns'][discord_id].get('warn_time', None)
+        else:
+            self.coop_data['warns'][discord_id] = {}
+
+        if message.author.id == discord_member.id:
+            message_time = message.created_at
+            if last_message_time is not None:
+                lmt_obj = datetime.strptime(last_message_time, '%c %z')
+                if (message_time-lmt_obj).seconds < 360:
+                    if 'warn_count' not in self.coop_data['warns'][discord_id]:
+                        self.coop_data['warns'][discord_id]['warn_count'] = 0
+                    self.coop_data['warns'][discord_id]['warn_count'] += 1
+
+                    if int(discord_id) in self.coop_data['banned']: ## if user is already banned
+                        return 'BANNED'
+
+                    if self.coop_data['warns'][discord_id]['warn_count'] > 3:      #if warn count is greater than 3 bans the user                   
+                        self.coop_data['banned'].append(discord_member.id)
+                        self.coop_data['warns'][discord_id]['warn_count'] = 0
+                        self.coop_data['warns'][discord_id]['warn_time'] = message_time.strftime("%c %z")
+                        return 'BANNED'
+                    self.coop_data['warns'][discord_id]['warn_time'] = message_time.strftime("%c %z")
+                    return 'WARNED'
+                self.coop_data['warns'][discord_id]['warn_time'] = message_time.strftime("%c %z")
+            self.coop_data['warns'][discord_id]['warn_time'] = message_time.strftime("%c %z")
+
+        self.__save()
+
+    def add_to_give_points(self, discord_member: Member, points: int):
+
+        discord_id = str(discord_member.id)
+        if points > 3:
+            points = 3
+
+        if discord_id not in self.coop_path:
+            self.generate_profile(discord_member)
+        
+        self.coop_data[discord_id]['points_to_give'] += points
+        self.__save()
+    
+    def add_coop_point(self, giver: Member, discord_member: Member, points: int):
+        giver_id = str(giver.id)
+        discord_id = str(discord_member.id)
+
+        points_can_be_given = self.coop_data[giver_id]['points_to_give']
+
+
+        duplicate_check = self.duplicate_point_check(giver, discord_member)
+        if duplicate_check is None:
+            if points_can_be_given >= points:
+                if discord_id not in self.coop_data:
+                    self.generate_profile(discord_member)
+                self.coop_data[discord_id]['points'] += points
+                self.coop_data[giver_id]['points_to_give'] -= points 
+                self.__save()
+                return True
+        else:
+            return False
+
+        
+
     def reset_coop_points(self):
         for discord_id in self.coop_data:
-            if discord_id != 'banned':
+            if discord_id not in ['banned', 'warns', 'point_check']:
                 self.coop_data[discord_id]['points'] = 0
                 self.coop_data[discord_id]['points_to_give'] = 0
         self.__save() 
@@ -380,6 +458,70 @@ class CoopManager:
             data['Co-op Points'] = f"You have {d_['points']} co-op points\n*{d_['points_to_give']} co-op points can be given to other players*"
 
         return data
+
+    def duplicate_point_check(self, giver: Member, discord_member: Member):
+        giver_id = str(giver.id)
+        receiver_id = str(discord_member.id)
+
+        if 'point_check' not in self.coop_data:
+            self.coop_data['point_check'] = {}        
+        if giver_id not in self.coop_data['point_check']:
+            self.coop_data['point_check'][giver_id] = {}
+        
+        if self.coop_data['point_check'][giver_id].get('last_id', None) != None:
+            if self.coop_data['point_check'][giver_id]['last_id'] == receiver_id:
+                lst_tm = datetime.strptime(self.coop_data['point_check'][giver_id]['last_time'], '%c')
+                now_tm = datetime.now()
+                print((now_tm-lst_tm).seconds)
+                if (now_tm-lst_tm).seconds < 360:
+                    return True
+            else:
+                self.coop_data['point_check'][giver_id]['last_id'] = receiver_id
+                self.coop_data['point_check'][giver_id]['last_time'] = datetime.now().strftime('%c')
+                self.__save()
+        else:
+            self.coop_data['point_check'][giver_id]['last_id'] = receiver_id
+            self.coop_data['point_check'][giver_id]['last_time'] = datetime.now().strftime('%c')
+            self.__save()
+            
+
+
+    def coop_leaderboard(self, bot, guild):
+
+        coop_dict = {}
+        for c in self.coop_data:
+            if c not in ['banned', 'warns', 'point_check']:
+                coop_dict[c] = self.coop_data[c]['points']
+        
+        ordered = get_ordered_dicts(coop_dict)
+        embeds = paginator(bot, guild, ordered, 'Co-op leaderboard', '{key} has **{value}** co-op points!', 10)
+        return embeds
+
+    def get_region_from_carry_role(self, role_name:str):
+        role_name = role_name.lower().replace("carry", "",99).strip()
+        
+        print('role_name provided', role_name)
+        server = self.get_server_region(region=role_name)
+        print('server_returned', server)
+        
+        return server
+
+    def get_data_from_carry_role(self,discord_member:Member, role_name:str):
+
+        discord_id = str(discord_member.id)
+
+        role_name = role_name.lower().replace("carry", "",99)
+        server = self.get_server_region(region=role_name)
+
+        if discord_id in self.coop_data:
+            return self.coop_data[discord_id]
+
+
+
+
+        
+
+
 
     def parse_arg(self, discord_member: Member, opr: str, type_: str, name:str='', value:str = ''):
         funcs = {

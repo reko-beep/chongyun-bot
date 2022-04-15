@@ -1,32 +1,15 @@
 {
+ "warns": {
+  "190842306818080769": {
+   "warn_time": "Fri Apr 15 20:49:02 2022 +0000"
+  }
+ },
  "190842306818080769": {
-  "profiles": {
-   "asia": {
-    "world_level": "1",
-    "rank": "10",
-    "uid": "812130821"
-   },
-   "eu": {
-    "uid": 765654623
-   }
-  },
-  "world_level": 0,
-  "leylines": [
-   "wealth"
-  ],
-  "domains": [
-   {
-    "boss": "childe"
-   },
-   {
-    "forgery": "liyue"
-   }
-  ],
+  "profiles": {},
+  "leylines": [],
+  "domains": [],
   "points": 0,
-  "points_to_give": 0,
-  "thumbnail": "",
-  "image": "https://assets.gamepur.com/wp-content/uploads/2021/01/02151118/Genshin-Impact-Albedo.jpg",
-  "color": 16705451,
-  "description": "''"
- }
+  "points_to_give": 3
+ },
+ "banned": []
 }

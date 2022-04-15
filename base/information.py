@@ -1,3 +1,4 @@
+from posixpath import split
 from nextcord import Embed, File
 from base.resource_manager import ResourceManager
 from json import load, dump
@@ -23,7 +24,7 @@ class Information():
     def save_comps(self):
         path = self.res_handler.db.format(path='teamcomp.json')
         with open(path, 'w') as f:
-            dump(self.teamcomps, f)
+            dump(self.teamcomps, f, indent=1)
 
     def create_na_embed(self, character: str, desc_str: str, color_ : int, title: str, thumbnail_url: str):
 
@@ -35,7 +36,7 @@ class Information():
         embed.set_footer(text=f' {character} ∎ {title}') 
         return embed
 
-    def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False, url: bool= False):
+    def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False,  split_search:bool=True):
         '''        
         create character embeds for character_name
         from specified options
@@ -51,8 +52,8 @@ class Information():
             else:
                 self.emojis = None
             logc('Dev Guild', self.bot_guild,'\n','emojis loaded', len(self.emojis))
-        character = self.res_handler.search(character_name, self.res_handler.characters)
-        data = self.res_handler.get_character_full_details(character_name, url)
+        character = self.res_handler.search(character_name, self.res_handler.characters , split_search)
+        data = self.res_handler.get_character_full_details(character_name, split_search)
         print(data)
         if data is not None:
             options_allowed = ['main','constellations','talents','builds', 'ascension_imgs', 'teamcomps']
@@ -306,7 +307,7 @@ class Information():
         return embeds
 
     def delete_comp(self, index_):
-            ind = self.teamcomps['data'].index(index_)
+            ind = index_
             if len(self.teamcomps['data'])-1 >= ind:
                 self.teamcomps['data'].pop(ind)
                 print(self.teamcomps['data'])
@@ -339,7 +340,7 @@ class Information():
     def create_comp(self, comp_name, comp_chars, comp_notes, owner):
         
         exists, number = self.comp_exists(comp_name)
-        if exists == number:
+        if exists == number == None:
             pass
         else:
             comp_name += f"- {number + 1}"
@@ -377,10 +378,10 @@ class Information():
         }
 
 
-    def create_weapon_embeds(self, weapon_name: str, options: list = [], specific:bool=False):
+    def create_weapon_embeds(self, weapon_name: str, options: list = [], specific:bool=False, split_search:bool=True):
 
-        data = self.res_handler.get_weapon_details(weapon_name)
-        weapon = self.res_handler.search(weapon_name, self.res_handler.weapons)
+        data = self.res_handler.get_weapon_details(weapon_name, split_search)
+        weapon = self.res_handler.search(weapon_name, self.res_handler.weapons, split_search)
         embeds = []
         if data is not None:
 
@@ -392,6 +393,7 @@ class Information():
 
             rarity = data.get("rarity",3) * '⭐'
             image = choice(data.get("image"))
+            color = self.res_handler.get_color_from_image(image)
             type = data.get('type', 'N/A')
             obtain = '\n'.join(data.get("obtain", ['']))
             series = data.get('series', 'N/A')
@@ -400,7 +402,7 @@ class Information():
             if 'main' in specific_data:
             
                 
-                embed = Embed(title='Basic Information', description=f"{main_desc}\n**Rarity:** {rarity}")
+                embed = Embed(title='Basic Information', description=f"{main_desc}\n**Rarity:** {rarity}", color=color)
                 embed.add_field(name='Type', value=type)
                 embed.add_field(name='Obtain', value=obtain)
                 embed.add_field(name='Series', value=series)
@@ -422,7 +424,7 @@ class Information():
 
                 refinements = data['refinement']
                 text = refinements['text']
-
+                print(refinements, weapon_name)
                 refinements.pop("text")
 
                 for refinement in refinements:
@@ -431,7 +433,7 @@ class Information():
                     for val in refinements[refinement]:
                         refine_text = refine_text.replace(val, f'**{refinements[refinement][val]}**', 1)
 
-                    embed = Embed(title=f'Refinement Level {refinement}', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+                    embed = Embed(title=f'Refinement Level {refinement}', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*", color=color)
                     embed.add_field(name='Refinement stats', value=refine_text)
                     
                     
@@ -443,7 +445,7 @@ class Information():
             
             if 'ascension' in specific_data:
 
-                embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+                embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*", color=color)
                
                 
                 embed.set_author(name=weapon, icon_url=image)
@@ -467,8 +469,8 @@ class Information():
             if 'ascension_image' in specific_data:
                 print(data['file'])
                 if data['file'] is not None:
-                    url = self.res_handler.convert_to_url(self.res_handler.genpath('images/weapons', data['file']), True)
-                    embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*")
+                    url = self.res_handler.convert_to_url(self.res_handler.genpath('images/weapons', data['file'].replace(' ','%20',99)), True)
+                    embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*", color=color)
 
                     
                     
@@ -482,7 +484,7 @@ class Information():
                     embeds.append(self.create_na_embed(
                         weapon,
                         f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*",
-                        0x5283ff,
+                        color,
                         f'Ascension Materials',
                         image
                     ))
@@ -491,7 +493,73 @@ class Information():
 
 
 
+    def create_artifact_embeds(self, artifact_name:str, options:list=[], specific:bool=False, split_search:bool=False):
 
+        data = self.res_handler.get_artifact_details(artifact_name, split_search)
+        artifact = self.res_handler.search(artifact_name, list(self.res_handler.artifacts.keys()), split_search)
+        embeds = []
+        if data is not None:
+
+            options_allowed = ['main','refinement', 'ascension', 'ascension_image']
+            specific_data = options_allowed
+
+            if specific:
+                specific_data = set(options_allowed).intersection(options)
+            
+
+            bonus_check = len(data['bonus']) > 0
+            rarity_check = len(data['rarity']) > 1
+
+            rarity_text = ''
+            if rarity_check:
+                rarity_text = f"**Rarity:** {data['rarity'][0]} - {data['rarity'][-1]} ⭐'s"
+            else:
+                rarity_text = f"**Rarity:**  {data['rarity'][0]} ⭐"
+            
+            desc_text = ""
+            pieces = data['pieces']
+            for i in pieces:
+                desc_text += f" **{i['name']} ∎ {i['type']}** \n *{i['description'].strip()}* \n"
+            desc_text += rarity_text
+            color = self.res_handler.get_color_from_image(data['pieces'][0]['img'])
+
+            embed_main = Embed(title='Basic Information', description=desc_text, color=color)
+          
+            embed_main.set_author(name=artifact, icon_url=data['pieces'][0]['img'])                                
+            embed_main.set_thumbnail(url=data['pieces'][0]['img'])
+            
+            embed_main.set_footer(text=f' {artifact} ∎ Basic Information')
+            embeds.append(embed_main)
+
+            embed = Embed(title='Bonuses and Obtain', description=f"{data['pieces'][0]['description']}\n{rarity_text}", color=color)
+            
+            for o in data['obtain']:
+                obtain_text = ''
+                for source in data['obtain'][o]:
+                    obtain_text += '🔸'
+                    obtain_text += '\n 🔸'.join(data['obtain'][o][source])
+                    obtain_text += '\n'
+                embed.add_field(name=f"{o}-star source", value=obtain_text)
+            
+            b_text = ''
+            if bonus_check:
+                for b in data['bonus']:
+                    b_text += f" 🔸{b}-piece Bonus \n*{data['bonus'][b]}*\n\n"
+                
+                embed.add_field(name='Bonus', value=b_text)
+            if data['file'] is not None:
+                url_ = self.res_handler.convert_to_url(self.res_handler.genpath('images/artifacts', data['file']), True).replace(' ','%20', 99)
+                print(url_)
+                embed.set_image(url=url_)
+            embed.set_author(name=artifact, icon_url=data['pieces'][0]['img'])                                
+            embed.set_thumbnail(url=data['pieces'][0]['img'])
+            
+            embed.set_footer(text=f' {artifact} ∎ Bonuses and Obtain')
+            embeds.append(embed)
+            return embeds
+
+
+        
 
 
 
