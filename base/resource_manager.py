@@ -12,7 +12,7 @@ class ResourceManager:
         '''
         self.site = site+'/assets/' if site != '' else 'http://127.0.0.1:5000/assets/'        
         self.files = ['characters.json','quests.json','voiceovers.json','quests.json','wallpapers.json','weapons.json'
-                    ,'domains.json', 'artifacts.json']
+                    ,'domains.json', 'artifacts.json', 'furnishing.json']
         
         self.path = getcwd()+'/assets/{path}'
         self.db = getcwd()+'/db/{path}'
@@ -204,6 +204,10 @@ class ResourceManager:
                 self.__save_colors()
                 return int("{0:02x}{1:02x}{2:02x}".format(clamp(color[0]), clamp(color[1]), clamp(color[2])),16)
 
+    def get_abyss_details(self):
+        path = self.res_handler.genpath('data', self.res_handler.search('abyss',self.res_handler.goto('data').get('files')))        
+        with open(path, 'r') as f:
+            return load(f)
 
     def get_character_full_details(self, character_name: str,split_search:bool=True):
 
@@ -256,3 +260,51 @@ class ResourceManager:
 
         if selected_artifact is not None:
             return self.artifacts[selected_artifact]
+    
+    def get_furnishing_details(self, character_name:str, split_search:bool=True):
+        
+        
+        furnishings = self.furnishing['data']
+        searched = []
+        for furn in furnishings:
+            selected= self.search(character_name, furn['chars'], split_search)
+            if selected is not None:
+                searched.append(furn)
+
+        if len(searched) != 0:
+            return searched
+    
+    def get_domain(self, day:str='', region:str='', type_:str=''):
+
+        with open(self.path.format(path='data/domains.json'), 'r') as f:
+            data = load(f)
+        
+        searched = []
+        search_data = data['rotations']
+
+        for rot in search_data:
+            domain = data['domains'][rot['domain_id']]
+            days = [d.lower() for d in rot['days']]
+            days += ['']
+            type_rot = [rot['type']]
+            type_rot += ['']
+            region_rot = ['', domain['location'].split(",")[-1].lower().strip()]
+            print(day, days, type_, type_rot, region, region_rot)
+            print(day in days, type_ in type_rot, region in region_rot)
+            if day in days and type_ in type_rot and region in region_rot:
+                searched.append({
+                    'domain_name' : domain['title'],
+                    'domain_location' : domain['location'],
+                    'domain_description': domain['description'],
+                    'day' : '🔸'+'\n🔸'.join([d.title() for d in days]),
+                    'type': domain['type'] +' | ' + rot['type'].title(),
+                    'required_ar': domain['required_ar'],
+                    'required_plevel': domain['required_party_level'],
+                    'domain_image': domain['image'],
+                    'farmed_for': [f['title'] for f in rot['for']],
+                    'item_series': rot['series'],
+                    'items': [f['title'] for f in rot['items']],
+                    'file': self.genpath("images/domains", rot['file'])
+                })
+        return searched
+

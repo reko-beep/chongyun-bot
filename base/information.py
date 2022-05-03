@@ -1,10 +1,13 @@
 from posixpath import split
-from nextcord import Embed, File
+from nextcord import Embed, File, Guild
+from base.bookmark import Bookmarer
 from base.resource_manager import ResourceManager
 from json import load, dump
 from discord.utils import get
 from dev_log import logc
-from random import choice
+from random import choice, random
+from os import getcwd
+from PIL import Image, ImageFont, ImageDraw
 class Information():    
     def __init__(self, res: ResourceManager, bot):
         self.res_handler = res
@@ -14,6 +17,8 @@ class Information():
         self.teamcomps = {
 
         }
+        self.bookmark = Bookmarer(bot)
+        
         self.load_comps()
     
     def load_comps(self):
@@ -36,7 +41,7 @@ class Information():
         embed.set_footer(text=f' {character} ∎ {title}') 
         return embed
 
-    def create_character_embeds(self, character_name: str, options: list= [], specific:bool = False,  split_search:bool=True):
+    def create_character_embeds(self,guild: Guild, character_name: str, options: list= [],  specific:bool = False,  split_search:bool=True ):
         '''        
         create character embeds for character_name
         from specified options
@@ -277,7 +282,7 @@ class Information():
                             owner_ = comp.get('owner', None)
                             usr = None
                             if owner_ is not None:
-                                usr = get(self.bot.guilds[0].members, id=owner_)
+                                usr = get(guild.members, id=owner_)
                             desc = '\n'.join(chars)
                             embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}", color=element_color)
                             embed.set_author(name=character, icon_url=images_dict.get('thumb'))
@@ -318,7 +323,10 @@ class Information():
         comps = self.teamcomps['data']
         for comp in comps:
             if '-' in comp['title'].strip():
-                title = comp['title'].split('-')[0].strip()                
+                if comp['title'].split('-')[1].strip().isdigit():
+                    title = comp['title'].split('-')[0].strip()         
+                else:
+                    title = comp['title'].strip()        
             else:
                 title = comp['title'].strip()              
             if comp_title.strip().lower() == title.lower():
@@ -326,16 +334,44 @@ class Information():
 
     def comp_exists(self, comp_title):
         comps = self.teamcomps['data']
+        exist = None
+        index = None
         for comp in comps:
             if '-' in comp['title'].strip():
-                title = comp['title'].split('-')[0].strip()
-                index = int(comp['title'].split('-')[1].strip())
+                print(comp['title'].split('-')[-1], comp['title'].split('-')[-1].strip().isdigit())
+                if comp['title'].split('-')[-1].strip().isdigit():
+                    title = comp['title'].replace(comp['title'].split('-')[-1], '', 1).strip()                    
+                    index = int(comp['title'].split('-')[-1].strip())
+                    print('number found', index)
+                else:
+                    title = comp['title'].strip()
+                    index = 0                
             else:
                 title = comp['title'].strip()
                 index = 0
             if comp_title.strip().lower() == title.lower():
-                return True, index
-        return None, None
+                exist = True
+        return exist, index 
+
+    def create_comp_embed(self, comp: dict, guild):
+        title = comp['title']
+        chars = []
+        for char in comp['chars']:
+            c = list(char.keys())[0]
+            chars.append(c.title())
+        owner_ = comp.get('owner', None)
+        usr = None
+        if owner_ is not None:
+            usr = get(guild.members, id=owner_)
+        desc = '\n'.join(chars)
+        embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}")
+        
+        url_ = self.res_handler.convert_to_url(self.res_handler.genpath('images/teamcomps', comp['file']), True)
+        embed.set_image(url=url_)
+        embed.set_footer(text=f'{title} Team Comp')
+        return embed
+
+
 
     def create_comp(self, comp_name, comp_chars, comp_notes, owner):
         
@@ -343,7 +379,9 @@ class Information():
         if exists == number == None:
             pass
         else:
-            comp_name += f"- {number + 1}"
+            if number is not None:
+                comp_name += f"- {number + 1}"
+        print(number, comp_name)
         base_char =  comp_chars.split(',')
         chars = []
         for base in base_char:
@@ -358,12 +396,13 @@ class Information():
             else:
                 return None, None
    
-
+        file = self.create_teamcomp_image(comp_name, chars)
         self.teamcomps['data'].append({
             'title': comp_name,
             'chars': chars,
             'description': comp_notes,
-            'owner': owner.id
+            'owner': owner.id,
+            'file': file
 
 
         })
@@ -372,13 +411,49 @@ class Information():
             'title': comp_name,
             'chars': chars,
             'description': comp_notes,
-            'owner': owner.id
+            'owner': owner.id,
+            'file': file
 
 
         }
 
 
-    def create_weapon_embeds(self, weapon_name: str, options: list = [], specific:bool=False, split_search:bool=True):
+    def random_bg(self):
+
+        bgs = self.res_handler.goto("images/bgs").get("files")
+
+        return self.res_handler.genpath('images/bgs', choice(bgs))
+
+    def create_teamcomp_image(self,comp_title, chars):
+        main_bg = Image.open(self.random_bg(),'r').convert('RGBA')
+        font_path = self.res_handler.genpath('misc', 'font.otf')
+        title = comp_title
+        test_font = ImageFont.truetype(font_path,size=105)
+        ImageDraw.Draw(main_bg).text((main_bg.size[0]-test_font.getsize(title)[0]-30, 10), title,fill=(255,255,255,255), font=test_font)
+        chars = chars
+        start_w = main_bg.size[0] - (301*4)
+
+        role_font = ImageFont.truetype(font_path,size=30)
+        for char in chars:
+            char_key = list(char.keys())[0]
+            role = char[char_key]
+            char_image = self.res_handler.search(char_key, self.res_handler.goto("images/thumbnails").get('files'))
+
+            
+            
+            if char_image is not None:
+                char_image = self.res_handler.genpath('images/thumbnails', char_image)
+                img = Image.open(char_image,'r').convert('RGBA')
+                main_bg.paste(img, (start_w, main_bg.size[1]-256), img)
+                ImageDraw.Draw(main_bg).text((start_w+(role_font.getsize(role)[0]//2)+ 10, main_bg.size[1]-256-40), role, fill=(255,255,255,255), font=role_font)
+                start_w += 301
+        
+        file_name = comp_title.replace(' ','_',99999).replace('-','',99)+'.png'
+        path = self.res_handler.genpath('images/teamcomps' ,file_name)
+        main_bg.save(path,format='PNG')
+        return file_name
+
+    def create_weapon_embeds(self,guild: Guild, weapon_name: str, options: list = [], specific:bool=False, split_search:bool=True):
 
         data = self.res_handler.get_weapon_details(weapon_name, split_search)
         weapon = self.res_handler.search(weapon_name, self.res_handler.weapons, split_search)
@@ -493,7 +568,7 @@ class Information():
 
 
 
-    def create_artifact_embeds(self, artifact_name:str, options:list=[], specific:bool=False, split_search:bool=False):
+    def create_artifact_embeds(self, guild:Guild, artifact_name:str, options:list=[], specific:bool=False, split_search:bool=False):
 
         data = self.res_handler.get_artifact_details(artifact_name, split_search)
         artifact = self.res_handler.search(artifact_name, list(self.res_handler.artifacts.keys()), split_search)
@@ -558,8 +633,162 @@ class Information():
             embeds.append(embed)
             return embeds
 
+    def create_abyss_embeds(self, floor_str: str):
 
+        args = {'floor': '', 'chamber': '', 'half':''}
+        if '-' in floor_str:
+            keys = list(args.keys())
+            for i in range(len(floor_str.split('-'))):
+                args[keys[i]] = floor_str.split("-")[i]
+        else:
+            args['floor'] = floor_str
+
+        floor_ = 'floor_{floor}'.format(floor=args['floor'])
+
+        embeds = []
+        desc = ''
+        
+        path = self.res_handler.genpath('data', self.res_handler.search('abyss',self.res_handler.goto('data').get('files')))
+        path_fix = getcwd()+"/assets/images/abyss/{floor}/{chamber}/{half}.png"
+        with open(path, 'r') as f:
+            abyss = load(f)
+        color = self.res_handler.get_color_from_image(self.bot.user.avatar.url)
+        data = abyss[floor_]
+        leyline_text = ['None'] if data.get('Ley Line Disorder', 'None') == 'None' else data['Ley Line Disorder']['text']
+        t = '🔸'
+        t += '\n🔸'.join(leyline_text)
+        desc += f"**Ley Line Disorder:**\n{t}\n"
+        t = '🔸'
+        ae_text = ['None'] if data.get('Additional Effects', 'None') == 'None' else data['Additional Effects']['text']
+        t += '\n 🔸'.join(ae_text)
+        desc += f"**Additional Effects:**\n{t}\n"
+        main = Embed(title=f"Floor {args['floor']}", description=desc, color=color)
+        main.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
+        main.set_thumbnail(url=self.bot.user.avatar.url)
+        
+        main.set_footer(text=f' Abyss Moon Spiral ∎ Basic Information')
+        embeds.append(main)
+
+        '''
+        chamber keys
+        if specific only those keys
+        '''
+        chamber_keys = [chamb for chamb in data if 'chamber' in chamb.lower()]
+        if args['chamber'] != '':
+            chamber_keys = []
+            for c in range(int(args['chamber'])):
+                if f'chamber {c+1}' in [l.lower() for l in data.keys()]:
+                    chamber_keys.append(f'chamber {c+1}'.title())
         
 
+        for chamber in chamber_keys:
+            c_data = data[chamber]
+            if args['half'] == '1' or args['half'] == '':
+                desc_ = f"**Enemy Level:** {c_data['Enemy Level']}\n**Challenge Target:**\n{c_data['Challenge Target']}"
+                path = self.res_handler.convert_to_url(path_fix.format(floor=floor_, chamber=chamber.lower().replace(" ",'_',99).strip(), half='first_half'), True)
+                e_embed = Embed(title=f"Floor {args['floor']} ∎ {chamber} - First Half", description=desc_, color=color)
+                enem_text = '\n'.join([f"🔸 {i['amount']} {i['name']}" for i in c_data['First Half']['enemies']])
+                e_embed.add_field(name='Enemies', value=enem_text)
 
+                e_embed.set_image(url=path)
+                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
+                e_embed.set_thumbnail(url=self.bot.user.avatar.url)
+                
+                e_embed.set_footer(text=f" Abyss Moon Spiral ∎ Floor {args['floor']}  ∎ {chamber} - First Half")
+                embeds.append(e_embed)
+
+            
+            if args['half'] == '2' or args['half'] == '':
+                path = self.res_handler.convert_to_url(path_fix.format(floor=floor_, chamber=chamber.lower().replace(" ",'_',99).strip(), half='second_half'), True)
+                e_embed = Embed(title=f"Floor {args['floor']} ∎ {chamber} - Second Half", description=desc_, color=color)
+                enem_text = '\n'.join([f"🔸 {i['amount']} {i['name']}" for i in c_data['Second Half']['enemies']])
+                e_embed.add_field(name='Enemies', value=enem_text)
+                e_embed.set_image(url=path)
+                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
+                e_embed.set_thumbnail(url=self.bot.user.avatar.url)
+                
+                e_embed.set_footer(text=f"Abyss Moon Spiral ∎ Floor {args['floor']}  ∎ {chamber} - Second Half")
+                embeds.append(e_embed)
+        return embeds
+
+
+    def create_furnishing_embeds(self, character_name:str):
+        data = self.res_handler.get_furnishing_details(character_name)
+        char = self.res_handler.search(character_name, list(self.res_handler.characters.keys()))
+        data_char = self.res_handler.get_character_full_details(character_name)
+        images_dict = {k.split('/')[-1].split('.')[0].split('_')[-1].lower(): k for k in data_char['image']}
+
+        embeds = []
+        if data is not None:
+            for furn in data:
+                print(furn)
+                embed = Embed(title=f"Furnishing set -  {furn['title']}", description=furn['description'], color=self.res_handler.get_color_from_image(images_dict['thumb']))
+                embed.set_author(name=char, icon_url=images_dict['thumb'])
+                embed.set_thumbnail(url=images_dict['thumb'])
+                for k in furn:
+                    v = 'N/A'
+                    if k not in ['file', 'description','gift_sets', 'link', 'img', 'title']:
+                        if type(furn[k]) == list:
+                            v = '🔸'
+                            v += '\n 🔸'.join(furn[k])
+                        else:
+                            v = furn[k]                  
+                       
+                        if k != 'chars':
+                            embed.add_field(name=k.replace('_', ' ',99).title(), value=v)
+                        else:
+                            embed.add_field(name='Characters', value=v)
+                embed.set_image(url=furn['img'])
+                embed.set_footer(text=f"{char} - furnishing set")
+                embeds.append(embed)
+                for f in furn['file']:
+                    path = self.res_handler.convert_to_url(self.res_handler.genpath('images/furnishing', f), True)
+                    print(path)
+                    f_embed = Embed(title=f"Furnishing set -  {furn['title']}", description=furn['description']+'\n\n*Gift items overview*', color=self.res_handler.get_color_from_image(images_dict['thumb']))
+                    v = 'N/A'
+                    for gf in  furn['gift_sets']:
+                        v += f"🔸 {gf['amount']} {gf['title']}\n"
+                    f_embed.add_field(name='Gift sets', value=v)
+                    f_embed.set_author(name=char, icon_url=images_dict['thumb'])
+                    f_embed.set_thumbnail(url=images_dict['thumb'])
+                    f_embed.set_image(url=path)
+                    f_embed.set_footer(text=f"{char} - Furnishing set - {furn['title']}")
+                    embeds.append(f_embed)
+
+        return embeds
+
+        
+    def create_domains_embeds(self, day:str, region:str, type_:str):
+        embeds = []
+        if day == 'sunday':
+            color = self.res_handler.get_color_from_image(self.bot.user.avatar.url)
+            embed = Embed(title='All Domains', color=color)
+            embed.add_field(name='Day', value='Sunday')
+            embed.add_field(name='Item Series', value='All series of items availabe')
+            
+            embed.set_image(url=url_)
+
+            embeds.append(embed)
+          
+        else:
+
+            data = self.res_handler.get_domain(day, region, type_)
+
+            for domain in data:
+                color = self.res_handler.get_color_from_image(domain['domain_image'])
+                embed = Embed(title=domain['domain_name'], description=domain['domain_description']+f"\n**Type:** *{domain['type']}*\n**Required AR:** *{domain['required_ar']}*\n**Recommended Part Level:** *{domain['required_plevel']}*", color=color)
+                embed.add_field(name='Days', value=domain['day'])
+                embed.add_field(name='Item Series', value=domain['item_series'])
+                
+                embed.set_thumbnail(url=domain['domain_image'])
+                items = '🔸' + '\n🔸'.join(domain['items'])
+                embed.add_field(name='Items', value=items)
+                fors = '🔸' + '\n🔸'.join(domain['farmed_for'])
+                embed.add_field(name='Farmed for', value=fors)
+                url_ = self.res_handler.convert_to_url(domain['file'], True)
+                embed.set_image(url=url_)
+
+                embeds.append(embed)
+
+        return embeds
 

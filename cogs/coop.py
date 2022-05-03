@@ -8,7 +8,7 @@ from core.bot import DevBot
 
 from base.resource_manager import ResourceManager
 from base.information import Information
-from base.paginator import PaginatorList
+from base.paginator import PaginatorList, SwitchPaginator
 from base.coop import CoopManager
  
 from dev_log import logc
@@ -17,10 +17,13 @@ class CoopCog(Cog):
         self.bot = bot
         self.resm = self.bot.resource_manager
         self.inf = self.bot.inf
-        self.coop = CoopManager(self.resm)
+        self.coop = self.bot.coop
 
     @commands.Cog.listener()
     async def on_message(self, message: Message):
+        
+        if message.guild is not None:
+            self.bot.admin.load_roles_channels(message.guild)    
         if message.channel.id == self.bot.b_config.get("uid_channel"):
             if message.author.id != self.bot.user.id:
                 if message.content.isdigit():
@@ -50,8 +53,6 @@ class CoopCog(Cog):
                     await message.channel.send(embed=embed)
                 
                 logc('Co-op Warn system', '[', message.author.id,']', warn_check)
-                print(warn_check is None)
-                print(warn_check not in ['BANNED', 'WARNED'])
                 if warn_check == None and warn_check not in ['BANNED', 'WARNED']:
                     digits = [int(s) for s in message.content.split() if s.isdigit()]                        
                     digits = digits[0] if len(digits) > 0 else 3
@@ -117,6 +118,61 @@ class CoopCog(Cog):
 
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=['gchar', 'gchars'], description='gchar (region)\n shows characters owned from genshin api')
+    async def genshincharacter(self, ctx, region: str):
+
+        member = ctx.author
+
+        uid = self.coop.get_member_uid(member, region)
+        if uid is not None:
+            data = self.coop.get_user_data(uid, 'chars')
+            if data is not None:
+                embeds = self.coop.create_char_embeds(data)
+                msg = await ctx.send(embed=embeds['characters'][0])
+                view = SwitchPaginator(member, embeds, msg)
+                await msg.edit(view=view)
+            else:
+                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                embed = Embed(title='Co-op error', description=f'You have not made your data public from hoyolab1!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+
+                await ctx.send(embed=embed)
+
+        else:
+            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            embed = Embed(title='Co-op error', description=f'You have not linked the uid yet for that region!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['gstat', 'gstats'], description='gstat (region)\n shows stats from genshin api')
+    async def genshinstatistics(self, ctx, region: str):
+
+        member = ctx.author
+
+        uid = self.coop.get_member_uid(member, region)
+        if uid is not None:
+            data = self.coop.get_user_data(uid, 'stats')
+            print(data)
+            if data is not None:
+                embeds = self.coop.create_stat_embeds(member, data)
+                msg = await ctx.send(embed=embeds[0])
+                view = PaginatorList(user=member, message=msg, embeds=embeds, bot=self.bot)
+                await msg.edit(view=view)
+            else:
+                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                embed = Embed(title='Co-op error', description=f'You have not made your data public from hoyolab!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+
+                await ctx.send(embed=embed)
+
+        else:
+            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            embed = Embed(title='Co-op error', description=f'You have not linked the uid yet for that region!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+
+            await ctx.send(embed=embed)
+
     @commands.command(aliases=['colb'], description='colb \n shows co-op leader board')
     async def coopleaderboard(self, ctx):
 
@@ -143,9 +199,9 @@ class CoopCog(Cog):
                 embed.add_field(name='Co-op Points', value=data['Co-op Points'], inline=True)
             embed.set_author(name=user.display_name, icon_url=user.avatar.url)
 
-            thumbnail = self.coop.get_character(user)
-            print(thumbnail)
+            thumbnail = self.coop.get_character(user)            
             if thumbnail is not None and thumbnail != '':
+                print(thumbnail)
                 embed.set_thumbnail(url=thumbnail)
             else:
                 embed.set_thumbnail(url=user.avatar.url)
@@ -162,8 +218,9 @@ class CoopCog(Cog):
             embed.set_author(name=user.display_name, icon_url=user.avatar.url)
 
             thumbnail = self.coop.get_character(user)
-            print(thumbnail)
+            
             if thumbnail is not None and thumbnail != '':
+                print(thumbnail)
                 embed.set_thumbnail(url=thumbnail)
             else:
                 embed.set_thumbnail(url=user.avatar.url)
@@ -251,6 +308,53 @@ class CoopCog(Cog):
                 desc = '\n'.join(check)
                 embed = Embed(title='Available arguments', description=f'{desc}', color=0x707dfa)
                 await ctx.send(embed=embed)
+
+    @commands.command(aliases=['glink'], description='glink (uid) adds a mentioned value to the coop')
+    async def genshinlink(self,ctx,  uid):
+        if uid.isdigit():
+            check = self.coop.parse_arg(ctx.author, 'add', 'uid', uid)
+            region = self.coop.get_server_region(uid=uid)
+            if check:
+                embed = Embed(title='Co-op profile updated!', description=f'Added {region.upper()} UID *{uid}* to coop profile!', color=0x707dfa)
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Co-op Error!', description=f'Write a uid!', color=0x707dfa)
+            await ctx.send(embed=embed)
+
+
+    @commands.command(aliases=['gserv'], description='gserv (member)')
+    async def genshinserver(self,ctx,  member: Member=None, region:str=''):
+        regions = ['ASIA','EU', 'NA']
+        
+        if member is None:
+            member = ctx.author
+
+        data = self.coop.prettify_data(member)
+        print(data)
+        embed = Embed(title='Genshin Impact Accounts', color=self.resm.get_color_from_image(member.avatar.url))
+        
+        if 'Accounts' in data:
+
+            embed = Embed(title='Genshin Impact Accounts', description=data['Accounts'], color=self.resm.get_color_from_image(member.avatar.url))
+            
+ 
+        embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+        embed.set_thumbnail(url=member.avatar.url)
+        for r in regions:            
+            if region == '':
+                if r in data:
+                    embed.add_field(name=r.upper(), value=data[r])
+            else:
+                if r.lower() in region:
+                    if r in data:
+                        embed.add_field(name=r.upper(), value=data[r])
+
+
+
+        await ctx.send(embed=embed)
+
+
+
 
 def setup(bot):
     bot.add_cog(CoopCog(bot))

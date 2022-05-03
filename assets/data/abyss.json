@@ -1,0 +1,1445 @@
+{
+ "floor_1": {
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  }
+ },
+ "floor_2": {
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  }
+ },
+ "floor_3": {
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  }
+ },
+ "floor_4": {
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  }
+ },
+ "floor_5": {
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  }
+ },
+ "floor_6": {
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  }
+ },
+ "floor_7": {
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  }
+ },
+ "floor_8": {
+  "Additional Effects": {
+   "text": [
+    "In Chamber 2's First Half, there is a Cryo Elemental Node that periodically applies a massive resistance and defense buff to enemy units until the status has been removed with Pyro attacks.",
+    "In Chamber 2's Second Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/330/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hydro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Enemy_Hydro_Abyss_Mage_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Enemy_Cryo_Abyss_Mage_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Abyss Mage",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Enemy_Pyro_Abyss_Mage_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/360 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Hilichurl Fighter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Wooden Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Hilichurl Berserker",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Hilichurl Grenadier",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 70",
+   "Challenge Target": ": Remaining challenge time longer than 60/120/180 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Enemy_Cryo_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Pyro Regisvine",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Pyro_Regisvine_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  }
+ },
+ "floor_9": {
+  "Ley Line Disorder": {
+   "text": [
+    "All characters in the party gain a 75% Anemo DMG Bonus."
+   ]
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
+    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 95",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Kairagi: Dancing Thunder",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Kairagi: Fiery Might",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Kairagi_Fiery_Might_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Jintouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Nobushi_Jintouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Hitsukeban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Enemy_Nobushi_Hitsukeban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Kikouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Treasure Hoarders: Pyro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Treasure Hoarders: Hydro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
+      "amount": "4"
+     },
+     {
+      "name": "Treasure Hoarders: Electro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Treasure Hoarders: Cryo Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 98",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
+      "amount": "3"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Lector: Violet Lightning",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 100",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  }
+ },
+ "floor_10": {
+  "Chamber 1": {
+   "Enemy Level": ": 95",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Kairagi: Dancing Thunder",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Kairagi: Fiery Might",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Kairagi_Fiery_Might_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Jintouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Nobushi_Jintouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Hitsukeban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Enemy_Nobushi_Hitsukeban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Kikouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Treasure Hoarders: Pyro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Treasure Hoarders: Hydro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
+      "amount": "4"
+     },
+     {
+      "name": "Treasure Hoarders: Electro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Treasure Hoarders: Cryo Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 98",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
+      "amount": "3"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Lector: Violet Lightning",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 100",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Ley Line Disorder": {
+   "text": [
+    "All characters in the party gain a 75% Anemo DMG Bonus."
+   ]
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
+    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+   ]
+  }
+ },
+ "floor_11": {
+  "Ley Line Disorder": {
+   "text": [
+    "All characters in the party gain a 75% Anemo DMG Bonus."
+   ]
+  },
+  "Additional Effects": {
+   "text": [
+    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
+    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 95",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Kairagi: Dancing Thunder",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Kairagi: Fiery Might",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Kairagi_Fiery_Might_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Jintouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Nobushi_Jintouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Hitsukeban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Enemy_Nobushi_Hitsukeban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Kikouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Treasure Hoarders: Pyro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Treasure Hoarders: Hydro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
+      "amount": "4"
+     },
+     {
+      "name": "Treasure Hoarders: Electro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Treasure Hoarders: Cryo Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 98",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
+      "amount": "3"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Lector: Violet Lightning",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 100",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  }
+ },
+ "floor_12": {
+  "Additional Effects": {
+   "text": [
+    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
+    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+   ]
+  },
+  "Chamber 1": {
+   "Enemy Level": ": 95",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Kairagi: Dancing Thunder",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Kairagi: Fiery Might",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Kairagi_Fiery_Might_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Jintouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Nobushi_Jintouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Hitsukeban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Enemy_Nobushi_Hitsukeban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Nobushi: Kikouban",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Treasure Hoarders: Pyro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Treasure Hoarders: Hydro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
+      "amount": "4"
+     },
+     {
+      "name": "Treasure Hoarders: Electro Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Treasure Hoarders: Cryo Potioneer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Ruin Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  },
+  "Chamber 2": {
+   "Enemy Level": ": 98",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Cryo Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Whopperflower",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
+      "amount": "3"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Lector: Violet Lightning",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "1"
+     }
+    ]
+   }
+  },
+  "Chamber 3": {
+   "Enemy Level": ": 100",
+   "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
+   "First Half": {
+    "enemies": [
+     {
+      "name": "Abyss Lector: Fathomless Flames",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "amount": "2"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
+      "name": "Abyss Herald: Wicked Torrents",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "amount": "2"
+     }
+    ]
+   }
+  }
+ }
+}

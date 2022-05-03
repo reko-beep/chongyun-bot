@@ -4,13 +4,16 @@ from json import load, dump
 from base.resource_manager import ResourceManager
 from base.utils import get_ordered_dicts, paginator
 
-from nextcord import Member, Message
+
+from nextcord import Member, Message, Embed
+from nextcord.utils import get
 from datetime import datetime
 from os.path import exists
-
+import genshinstats as gs
 class CoopManager:
-    def __init__(self, res: ResourceManager):
-        self.res = res
+    def __init__(self, bot):
+        self.bot = bot
+        self.res = bot.resource_manager
         self.coop_path = self.res.db.format(path='coop.json')
         self.coop_data = {}
         self.domains = {
@@ -374,7 +377,7 @@ class CoopManager:
         if points > 3:
             points = 3
 
-        if discord_id not in self.coop_path:
+        if discord_id not in self.coop_data:
             self.generate_profile(discord_member)
         
         self.coop_data[discord_id]['points_to_give'] += points
@@ -576,7 +579,7 @@ class CoopManager:
                     
     def set_character(self, discord_member: Member, character_str: str):
         discord_id = str(discord_member.id)
-        thumbnail = self.res.genpath('images/thumbnails', self.res.search(character_str, self.res.goto('images/thumbnails').get('files')))
+        thumbnail = self.res.genpath('images/thumbnails', self.res.search(character_str, self.res.goto('images/thumbnails').get('files')).replace(' ','%20',999))
         
         if thumbnail.split('/')[-1] == 'None':
             self.coop_data[discord_id]['thumbnail'] = ''
@@ -595,7 +598,7 @@ class CoopManager:
         
         if discord_id  in self.coop_data:
             if self.coop_data[discord_id].get('thumbnail', None) != None:
-                return self.res.convert_to_url(self.coop_data[discord_id].get('thumbnail'), True)
+                return self.res.convert_to_url(self.coop_data[discord_id].get('thumbnail').replace(" ",'%20',99), True)
             
     
     def set_image(self, discord_member: Member, url: str):
@@ -666,5 +669,250 @@ class CoopManager:
         if discord_id  in self.coop_data:            
             return self.coop_data[discord_id].get('description', None)
         
+    def get_member_uid(self, member: Member, region: str):
+
+        discord_id = str(member.id)
+        if discord_id in self.coop_data:
+            d_ = self.coop_data[discord_id]['profiles']
+            if region in d_:
+                return d_[region].get("uid", None)
+
+    def get_user_data(self, uid: int, options: str):
+
+        if options == 'chars':
+
+            gs.set_cookies(self.bot.b_config.get("cookies"))
+            try:
+                data = gs.get_characters(uid)
+            except gs.DataNotPublic:
+                return None
+            else:
+                
+                data_simplified = {'characters': [], 'weapons': [], 'artifacts': []}
+                for char in data:
+                    emoji = get(self.bot.inf.emojis, name=char['element'].lower()) if self.bot.inf.emojis is not None else ''
+                    element = self.bot.resource_manager.get_element(char['element'])
+                    if emoji != '':
+                        emoji = '<:'+emoji.name+":"+str(emoji.id)+'>'
+                    data_simplified['characters'].append({
+                        'name': char['name'],
+                        'rarity': char['rarity'],
+                        'level': char['level'],
+                        'element': char['element'] + emoji,
+                        'constellation': char['constellation'],
+                        'friendship': char['friendship'],
+                        'thumb': char['icon'],
+                        'embed_color': element.get('color') if element is not None else 19561321,
+
+                    })
+                    data_simplified['weapons'].append({
+                        'name': char['weapon']['name'],
+                        'rarity': char['weapon']['rarity'],
+                        'type': char['weapon']['type'],
+                        'level': char['weapon']['level'],
+                        'refinemeent': char['weapon']['refinement'],
+                        'ascension': char['weapon']['refinement'],
+                        'description' : char['weapon']['description'],
+                        'thumb': char['weapon']['icon']
+                    })
+                    artis_tally = {}
+                    arti_sets = {}
+                    
+                    artis = char['artifacts']
+                    
+                    for arti in artis:
+                        if arti['set']['name'] not in artis_tally:
+                            artis_tally[arti['set']['name']] = {}
+                        if arti['set']['name'] not in arti_sets:
+                            arti_sets[arti['set']['name']] = {str(e['pieces']): e['effect'] for e in arti['set']['effects']}
+                        if 'pieces' not in artis_tally[arti['set']['name']]:
+                            artis_tally[arti['set']['name']]['pieces'] = []
+                        
+                        artis_tally[arti['set']['name']]['pieces'].append({
+                            'rarity': arti['rarity'],
+                            'level': arti['level'],
+                            'piece': arti['pos_name'].title()
+                        })
+                    for art in artis_tally:
+                        d_ = artis_tally[art]
+                        pieces = len(d_['pieces'])
+                        if pieces < 2:
+                            artis_tally[art]['bonus'] = 'N/A'
+                        else:
+                            if pieces < 4:
+                                artis_tally[art]['bonus'] = arti_sets[art]['2']
+                            else:
+                                artis_tally[art]['bonus'] = arti_sets[art]['4']
+
+                    data_simplified['artifacts'].append(artis_tally)
+                
+                return data_simplified        
+
+        if options == 'stats':
+            gs.set_cookies(self.bot.b_config.get("cookies"))
+            try:
+                data = gs.get_user_stats(uid)
+            except gs.DataNotPublic:
+                return None
+            else:
+                print(list(data.keys()))
+                data_simplified = {'stats': {}, 'teapot': {}, 'exploration': {}}
+                for sat in  data['stats']:
+                    data_simplified['stats'][sat.replace("_"," ",99).title()] = data['stats'][sat]
+                
+                if 'teapot' in data:
+                    if data['teapot'] is not None:
+                        data_simplified['teapot']['name'] = data['teapot']["comfort_name"]
+                        data_simplified['teapot']['level'] = data['teapot']['level']
+                        data_simplified['teapot']['thumb'] = data['teapot']['comfort_icon']
+                        data_simplified['teapot']['visitors'] = data['teapot']['visitors']
+                        data_simplified['teapot']['realms'] = '🔸' + '\n🔸'.join([f['name'] for f in data['teapot']['realms']])
+                        data_simplified['teapot']['items'] = data['teapot']['items']
+                        data_simplified['teapot']['comfort'] = data['teapot']['comfort']
+
+                if 'explorations' in data:
+                    for exp in data['explorations']:                   
+                        temp_dict = {}
+                        for k in exp:
+                            if k != 'name' and k !='icon':
+                                temp_dict[k] = exp[k]
+                            else:
+                                if k == 'icon':
+                                    temp_dict['thumb'] = exp[k]                        
+                        temp_dict['offerings'] = 'N/A'
+                        if len(exp['offerings']) > 0:
+                            print(exp['offerings'])
+                            temp_dict['offerings'] = '🔸' + '\n🔸'.join([f['name']+" "+ str(f['level']) for f in exp['offerings']])
+                        data_simplified['exploration'][exp['name']] = temp_dict
+                    print(data_simplified)
+                return data_simplified      
+
+    def create_stat_embeds(self, member: Member, data:dict):
+
+        embeds = []
+
+        stats = data['stats']
+        stat_embed = Embed(title='Basic Statistics', color=self.res.get_color_from_image(member.avatar.url))
+
+        for stat in stats:
+            stat_embed.add_field(name=stat, value=stats[stat])
         
+        stat_embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+        stat_embed.set_thumbnail(url=member.avatar.url)
+        stat_embed.set_footer(text=f' {member.display_name} - Basic Statistics')
+        embeds.append(stat_embed)
+
+        teapot = data['teapot']
+        if len(teapot) != 0:
+            tp_embed = Embed(title=f"Teapot - {teapot['name']}", color=self.res.get_color_from_image(member.avatar.url))
+
+            for key in teapot:
+                if key != 'thumb':
+                    tp_embed.add_field(name=key.title(), value=teapot[key])
+            
+            tp_embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+            tp_embed.set_thumbnail(url=member.avatar.url)
+            if teapot['thumb'].startswith("http"):
+                tp_embed.set_image(url=teapot['thumb'])
+            tp_embed.set_footer(text=f' {member.display_name} - Teapot')
+            embeds.append(tp_embed)
+        exps = data['exploration']
+        if len(exps) != 0:
+            embed = Embed(title=f"Exploration", color=self.res.get_color_from_image(member.avatar.url))
+            
+            for exp in exps:
+                desc_ = ''                
+                desc_ += "```css\n"     
+                for key in exps[exp]:
+                    if key != 'thumb':                                           
+                        desc_ += f"{key.title()} : {exps[exp][key]}"
+                        if key == 'explored':
+                            desc_ += '%'
+                        desc_ += '\n'
+                desc_  += "\n```"
+                embed.add_field(name=exp, value=desc_)
+            
+            embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+            embed.set_thumbnail(url=member.avatar.url)
+            embed.set_footer(text=f' {member.display_name} - Exploration')
+
+            embeds.append(embed)
+
+        return embeds
+
+
+    def create_char_embeds(self, data: dict):
+
+        embeds = {'characters': [], 'weapons': [], 'artifacts': []}
+        keys = list(data.keys() )
+
+        for i in range(len(data[keys[0]])):
+
+            char = data['characters'][i]
+            char_desc = self.bot.resource_manager.get_character_full_details(char['name'])
+            if char_desc is not None:
+                char_desc = char_desc.get('description', 'N/A')
+            wep = data['weapons'][i]
+            arti = data['artifacts'][i]
+
+            char_embed = Embed(title=f"Basic Stats", description=char_desc, color=char['embed_color'])
+            char_embed.set_author(name=char['name'], icon_url=char['thumb'])
+            char_embed.set_thumbnail(url=char['thumb'])
+            
+            for k in char:
+                if k not in ['thumb','embed_color','name']:
+                    char_embed.add_field(name=k.title(), value=char[k], inline=True)
+            
+            char_embed.set_footer(text=f"{char['name']} - Basic Stats")
+            embeds['characters'].append(char_embed)
+
+            wep_embed = Embed(title=f"{wep['name']} - Basic Stats", description=wep['description'], color=char['embed_color'])
+            wep_embed.set_author(name=char['name'], icon_url=char['thumb'])
+            wep_embed.set_thumbnail(url=wep['thumb'])
+            
+            wep_embed.add_field(name='Equipped on', value=char['name'])
+            for k in wep:
+                if k not in ['name', 'thumb', 'description']:
+                    wep_embed.add_field(name=k.title(), value=wep[k], inline=True)
+            
+            wep_embed.set_footer(text=f"{char['name']} - {wep['name']} Basic Stats")
+            embeds['weapons'].append(wep_embed)
+
+            arti_embed = Embed(title=f"Artifact Stats", description=char_desc +"\n *equipped on {char['name']}*" , color=char['embed_color'])
+            for art in arti:
+                name = art
+                
+                piece_bonus = 'No'
+                if 2 <= len(arti[art]['pieces']) < 4:
+                    piece_bonus = 2
+                elif len(arti[art]['pieces']) > 3:
+                    piece_bonus = 4
+                desc_ = f"{piece_bonus} piece bonus\n **Description**: *{arti[art]['bonus']}*\n```css\n"
+                for a in arti[art]['pieces']:
+                    desc_ += f" {'⭐' * a['rarity']} {a['piece']} lvl. {a['level']}\n"
+                desc_ += "\n```"
+
+                arti_embed.add_field(name=name, value=desc_)
+
+
+            arti_embed.set_author(name=char['name'], icon_url=char['thumb'])
+            arti_embed.set_thumbnail(url=char['thumb'])
+            
+      
+            
+            arti_embed.set_footer(text=f"{char['name']} - Artifact Stats")
+            embeds['artifacts'].append(arti_embed)
+
+        if len(embeds['characters']) > 0:
+            return embeds
+
+            
+
+
+
+
+
+
+
+
 

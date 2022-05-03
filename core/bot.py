@@ -5,11 +5,12 @@ from os.path import exists
 from os import getcwd, listdir
 
 from json import load, dump
+from base.admin import Administrator
 
 from base.resource_manager import ResourceManager
 from base.information import Information
 from core.web_server import app
-
+from base.coop import CoopManager
 from threading import Thread
 import asyncio
 from dev_log import logc
@@ -23,6 +24,8 @@ class DevBot(Bot):
         }
         self.resource_manager : ResourceManager = resource_manager
         self.inf : Information = Information(self.resource_manager, self)
+        self.coop: CoopManager = CoopManager(self) 
+        self.admin = Administrator(self)
         self.with_server = webserver        
         self.load_config()
         self.load_all_extensions()
@@ -52,8 +55,8 @@ class DevBot(Bot):
             logc(f'Running with web server at {self.rm.site}') 
         
         
-        
-      
+    
+    
         
         
     def load_all_extensions(self):
@@ -67,6 +70,7 @@ class DevBot(Bot):
 
     async def on_ready(self):
             logc('Bot is up now!')
+
 
     def b_run(self):      
         

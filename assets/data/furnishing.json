@@ -1,0 +1,2148 @@
+{
+ "data": [
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Furnishing_Set_Amidst_Poetic_Pondering_Display.png",
+   "link": "/wiki/Amidst_Poetic_Pondering",
+   "title": "Amidst Poetic Pondering",
+   "rarity": 4,
+   "adeptal_energy": "960",
+   "load": "1947",
+   "category": "Indoor Set",
+   "chars": [
+    "Eula",
+    "Fischl",
+    "Jean",
+    "Lisa",
+    "Mona"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A subtly-decorated study based heavily upon the Knights of Favonius office. It's been said that each part of this study has followed careful placement rules, allowing the candle lights and shadows to blend perfectly to create a unique lighting effect. Literature-loving readers and writers will find a wellspring of inspiration here, while the busy can get in the zone with minimal fuss and chance of interruption.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Archivist%27s_Treasure_Trove.png",
+     "amount": "1",
+     "title": "\"Archivist's Treasure Trove\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Soft_Lounge_Sofa.png",
+     "amount": "1",
+     "title": "Soft Lounge Sofa"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Exquisite_Cuihua_Bookshelf.png",
+     "amount": "2",
+     "title": "Exquisite Cuihua Bookshelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Economy_Cuihua_Bookshelf.png",
+     "amount": "1",
+     "title": "Economy Cuihua Bookshelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Clear_Blue_Afternoon.png",
+     "amount": "1",
+     "title": "\"Clear Blue Afternoon\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Favonius_Office_Table.png",
+     "amount": "1",
+     "title": "Favonius Office Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Item_Golden_Triple-Arm_Candelabrum.png",
+     "amount": "1",
+     "title": "Golden Triple-Arm Candelabrum"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Etiquette_of_Correspondence.png",
+     "amount": "1",
+     "title": "\"Etiquette of Correspondence\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Two-Tier_Library_Bookshelf.png",
+     "amount": "1",
+     "title": "Two-Tier Library Bookshelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Red_Pine_Wood_Round_Stool.png",
+     "amount": "1",
+     "title": "Red Pine Wood Round Stool"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Potted_Plant_Crystalline_Breeze.png",
+     "amount": "1",
+     "title": "Potted Plant: Crystalline Breeze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Mondstadt_Rug_Crimson_Ardor.png",
+     "amount": "1",
+     "title": "Mondstadt Rug: Crimson Ardor"
+    }
+   ],
+   "file": [
+    "amidst_poetic_pondering.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Furnishing_Set_Amidst_Whispering_Winds_Display.png",
+   "link": "/wiki/Amidst_Whispering_Winds",
+   "title": "Amidst Whispering Winds",
+   "rarity": 4,
+   "adeptal_energy": "900",
+   "load": "1864",
+   "category": "Indoor Set",
+   "chars": [
+    "Barbara",
+    "Eula",
+    "Noelle"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A bedroom that embodies the idea of a \"caring heart.\" For busy folk, a bedroom may just be a place that contains a bed, a place where one gets a little shut-eye, and which does not require too much care. But for those with an eye for detail, every part of one's living space is worth time and care.Whether they be the winds of freedom or resistance, they all began as the tiniest of gentle breezes. One who travels far must take good care of themselves, and surely fatigue will slip away unnoticed if one lives surrounded by warmth and comfort.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Mondstadt_Rug_Crimson_Ardor.png",
+     "amount": "1",
+     "title": "Mondstadt Rug: Crimson Ardor"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Potted_Plant_Crystalline_Breeze.png",
+     "amount": "2",
+     "title": "Potted Plant: Crystalline Breeze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Large_Birch_Wardrobe.png",
+     "amount": "1",
+     "title": "Large Birch Wardrobe"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Item_Birch_Double_Drawer_Nightstand.png",
+     "amount": "1",
+     "title": "Birch Double Drawer Nightstand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Item_Seashell_Table_Lamp.png",
+     "amount": "1",
+     "title": "Seashell Table Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Breeze-Blessed_Bed.png",
+     "amount": "1",
+     "title": "Breeze-Blessed Bed"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Item_Sturdy_Birch_Vanity.png",
+     "amount": "1",
+     "title": "Sturdy Birch Vanity"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Clear_Blue_Afternoon.png",
+     "amount": "1",
+     "title": "\"Clear Blue Afternoon\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Favonius_Office_Table.png",
+     "amount": "1",
+     "title": "Favonius Office Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Flower_Arrangement_Sprawling_Daybreak.png",
+     "amount": "1",
+     "title": "Flower Arrangement: Sprawling Daybreak"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Red_Pine_Wood_Round_Stool.png",
+     "amount": "1",
+     "title": "Red Pine Wood Round Stool"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Item_Sturdy_Library_Table.png",
+     "amount": "1",
+     "title": "Sturdy Library Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Item_Exquisite_Hourglass_Ornament.png",
+     "amount": "1",
+     "title": "Exquisite Hourglass Ornament"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Item_Golden_Triple-Arm_Candelabrum.png",
+     "amount": "1",
+     "title": "Golden Triple-Arm Candelabrum"
+    }
+   ],
+   "file": [
+    "amidst_whispering_winds_1.png",
+    "amidst_whispering_winds_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Furnishing_Set_Feiyun_Study_Room_Display.png",
+   "link": "/wiki/Feiyun_Study_Room",
+   "title": "Feiyun Study Room",
+   "rarity": 4,
+   "adeptal_energy": "870",
+   "load": "1973",
+   "category": "Indoor Set",
+   "chars": [
+    "Ningguang",
+    "Xingqiu",
+    "Yun Jin",
+    "Zhongli"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "There are many ways to fashion a study in Liyue, but luxury is optional, for the learned prefer \"spirit\" and \"elegance.\" A potted plant here balances out the moisture in the room, and the table and shelves exude a light woody fragrance that combines with the plain layout and the sunset glow of the lamps to inspire genius and elevate writing.They say that many years ago, a certain guest at Feiyun Slope laid just such a study out, and this design was taken up by the previous boss of Wanwen Bookhouse. Thus, it was ever after known as the Feiyun Study Room and became recognized throughout Liyue.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Item_Pine-Backed_Tea_Chair.png",
+     "amount": "2",
+     "title": "Pine-Backed Tea Chair"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Calligraphy_Set_Assiduous_Calligraphy.png",
+     "amount": "1",
+     "title": "Calligraphy Set: Assiduous Calligraphy"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Entrance_Rug_A_Warm_Welcome.png",
+     "amount": "1",
+     "title": "Entrance Rug: A Warm Welcome"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Intricately_Carved_Calligraphy_Table.png",
+     "amount": "1",
+     "title": "Intricately Carved Calligraphy Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/Item_Red_Cedar_Scroll_Shelf.png",
+     "amount": "1",
+     "title": "Red Cedar Scroll Shelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Shopkeeper%27s_Cedar_Shelf.png",
+     "amount": "1",
+     "title": "Shopkeeper's Cedar Shelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Red_Cedar_Curio_Stand.png",
+     "amount": "1",
+     "title": "Red Cedar Curio Stand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Pine_Folding_Screen_Billowing_Sails.png",
+     "amount": "1",
+     "title": "Pine Folding Screen: Billowing Sails"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Liuli_Pavilion_Sandbearer_Floor_Lamp.png",
+     "amount": "1",
+     "title": "Liuli Pavilion Sandbearer Floor Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Potted_Plant_Crystalline_Breeze.png",
+     "amount": "2",
+     "title": "Potted Plant: Crystalline Breeze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Item_Potted_Plant_Petite_Perrenial.png",
+     "amount": "1",
+     "title": "Potted Plant: Petite Perrenial"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Red_Pine_Wood_Round_Stool.png",
+     "amount": "1",
+     "title": "Red Pine Wood Round Stool"
+    }
+   ],
+   "file": [
+    "feiyun_study_room.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Furnishing_Set_Cloudy_Haze_Dream-Court_Display.png",
+   "link": "/wiki/Cloudy_Haze_Dream-Court",
+   "title": "Cloudy Haze Dream-Court",
+   "rarity": 4,
+   "adeptal_energy": "810",
+   "load": "1390",
+   "category": "Indoor Set",
+   "chars": [
+    "Chongyun",
+    "Ganyu",
+    "Keqing",
+    "Hu Tao",
+    "Yanfei"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "\"Of cloud-haze faintly dreaming.\"A humble and unassuming bedroom alike in many ways to one you might find in Wangshu Inn. This bedroom's mystery is hard to explain in words. Sometimes it will evoke remembrance in those who pass through, like the sunlight poking through the swirling clouds. Yet it will remove the sorrows therein and leave only the marks of happenings past.We are all adrift in this mortal life, and only by remembering who \"we\" are can we remain steady along our course. Our thoughts are clearest in the interstice between dreaming and waking. No wonder those who visit Wangshu Inn for a night find themselves re-energized a hundred times over, radiant and ready to embark on their journey once more.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Entrance_Rug_A_Warm_Welcome.png",
+     "amount": "1",
+     "title": "Entrance Rug: A Warm Welcome"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Red_Cedar_Curio_Stand.png",
+     "amount": "1",
+     "title": "Red Cedar Curio Stand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Gold-Lined_Sandbearer_Wardrobe.png",
+     "amount": "1",
+     "title": "Gold-Lined Sandbearer Wardrobe"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Square_Pine_Tea_Table.png",
+     "amount": "1",
+     "title": "Square Pine Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Glazed_Porcelain_Tea_Set_Embracing_Truth.png",
+     "amount": "1",
+     "title": "Glazed Porcelain Tea Set: \"Embracing Truth\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Item_Pine-Backed_Tea_Chair.png",
+     "amount": "2",
+     "title": "Pine-Backed Tea Chair"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Gold-Lined_Sandbearer_Nightstand.png",
+     "amount": "1",
+     "title": "Gold-Lined Sandbearer Nightstand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Item_Seashell_Table_Lamp.png",
+     "amount": "1",
+     "title": "Seashell Table Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Cloudy_Haze_Bed.png",
+     "amount": "1",
+     "title": "Cloudy Haze Bed"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Potted_Plant_Crystalline_Breeze.png",
+     "amount": "1",
+     "title": "Potted Plant: Crystalline Breeze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Liuli_Pavilion_Sandbearer_Floor_Lamp.png",
+     "amount": "1",
+     "title": "Liuli Pavilion Sandbearer Floor Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Pine_Folding_Screen_Billowing_Sails.png",
+     "amount": "1",
+     "title": "Pine Folding Screen: Billowing Sails"
+    }
+   ],
+   "file": [
+    "cloudy_haze_dreamcourt.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Furnishing_Set_Secret_Research_Lab_Display.png",
+   "link": "/wiki/Secret_Research_Lab",
+   "title": "Secret Research Lab",
+   "rarity": 4,
+   "adeptal_energy": "870",
+   "load": "1891",
+   "category": "Indoor Set",
+   "chars": [
+    "Albedo",
+    "Klee",
+    "Lisa",
+    "Sucrose"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A plain old alchemy workshop. Take out the specialized, intricate apparatus and it would look just like any other study, but for the collection of books on the shelves, the reagents in their containers, and the various experimental samples marked \"Do Not Open,\" the uses of which can only be wildly guessed at by the uninitiated. An incident is probably unavoidable should some curious cat fall to heed his instruction.After actual cats that mistakenly entered the workshop caused two such alchemical potion accidents, the Knights of Favonius Investigation Team would place strict entry-exit regulations on alchemy workshops within the city. A great number of the strange rumors concerning alchemy were also born around this time, causing no small number of headaches for researchers just trying to concentrate on their work.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Large_Birch_Wardrobe.png",
+     "amount": "1",
+     "title": "Large Birch Wardrobe"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Archivist%27s_Treasure_Trove.png",
+     "amount": "1",
+     "title": "\"Archivist's Treasure Trove\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/Item_Alchemic_Device_Between_Fire_and_Water.png",
+     "amount": "1",
+     "title": "Alchemic Device: Between Fire and Water"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Favonius_Office_Table.png",
+     "amount": "1",
+     "title": "Favonius Office Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Alchemic_Component_Burden_of_Dust.png",
+     "amount": "1",
+     "title": "Alchemic Component: Burden of Dust"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Item_Exquisite_Hourglass_Ornament.png",
+     "amount": "1",
+     "title": "Exquisite Hourglass Ornament"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Item_Sturdy_Library_Table.png",
+     "amount": "1",
+     "title": "Sturdy Library Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Scholar%27s_Weariness.png",
+     "amount": "1",
+     "title": "\"Scholar's Weariness\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Unwavering_Determination.png",
+     "amount": "1",
+     "title": "\"Unwavering Determination\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Potted_Plant_Crystalline_Breeze.png",
+     "amount": "1",
+     "title": "Potted Plant: Crystalline Breeze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Clear_Blue_Afternoon.png",
+     "amount": "2",
+     "title": "\"Clear Blue Afternoon\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Neat_Stack_of_Books.png",
+     "amount": "1",
+     "title": "Neat Stack of Books"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Mondstadt_Rug_Crimson_Ardor.png",
+     "amount": "1",
+     "title": "Mondstadt Rug: Crimson Ardor"
+    }
+   ],
+   "file": [
+    "secret_research_lab_1.png",
+    "secret_research_lab_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Furnishing_Set_Cottage_Kitchen_Display.png",
+   "link": "/wiki/Cottage_Kitchen",
+   "title": "Cottage Kitchen",
+   "rarity": 4,
+   "adeptal_energy": "570",
+   "load": "1914",
+   "category": "Indoor Set",
+   "chars": [
+    "Mona",
+    "Razor",
+    "Tartaglia",
+    "Xiangling",
+    "Xiao"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A fully equipped kitchen with a cabinet full of carefully prepared seasonings.Chefs seeking excellence will buy fresh ingredients from the market daily, and true culinary artists will even pay close attention to the firewood used in their stoves. The young head chef of Wanmin Restaurant once shared that to make the traditional dishes of Qingce Village, one must first place dry bamboo chips into the stove and carefully control the flame. If one can process the shrubbery near Wolfhooks into thin firewood, one can even add a little Mondstadt flair in.Different kinds of firewood produce vastly different effects, and most chefs will never truly master them. As such, Wanmin Restaurant has a monopoly on this particular technique.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Item_Portable_Stove.png",
+     "amount": "1",
+     "title": "Portable Stove"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Item_Open-Top_Fir_Shelf.png",
+     "amount": "1",
+     "title": "Open-Top Fir Shelf"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Item_Fir_Case_Shelf_Combination.png",
+     "amount": "1",
+     "title": "Fir Case Shelf Combination"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Item_Sturdy_Birch_Vanity.png",
+     "amount": "2",
+     "title": "Sturdy Birch Vanity"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Pine_Dining_Chair.png",
+     "amount": "3",
+     "title": "Pine Dining Chair"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Item_Long_Table_With_Tablecloth.png",
+     "amount": "1",
+     "title": "Long Table With Tablecloth"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Item_Trusty_Portable_Lamp.png",
+     "amount": "2",
+     "title": "Trusty Portable Lamp"
+    }
+   ],
+   "file": [
+    "cottage_kitchen.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Furnishing_Set_Weapon_Forging_Station_Display.png",
+   "link": "/wiki/Weapon_Forging_Station",
+   "title": "Weapon Forging Station",
+   "rarity": 4,
+   "adeptal_energy": "500",
+   "load": "880",
+   "category": "Outdoor Set",
+   "chars": [
+    "Bennett",
+    "Diluc",
+    "Diona",
+    "Noelle"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A fully-equipped blacksmith's that can accommodate the work of many smiths at once to produce the greatest number of high-quality weapons or repair damaged weaponry most efficiently.As long as monsters still exist on this continent and the wayfaring footsteps of adventurers do not cease, weapons and equipment will always be in demand. To meet this demand, smiths must be trained over many long years, and given that some duds will be produced during this training, it can be quite a huge expense. As such, blacksmiths will at times be strapped for cash, during which the Knights of Favonius will try to secure orders for them to help maintain their quality of life. Rumor has it that a certain farsighted winery owner has also provided some timely injections of capital in the past.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Item_Hardwood_Weapon_Rack.png",
+     "amount": "2",
+     "title": "Hardwood Weapon Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Fir_Weapon_Rack.png",
+     "amount": "3",
+     "title": "Fir Weapon Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Item_Fir_Shelves.png",
+     "amount": "1",
+     "title": "Fir Shelves"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Heavy_Fir_Forging_Table.png",
+     "amount": "1",
+     "title": "Heavy Fir Forging Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Open-Air_Workshop.png",
+     "amount": "1",
+     "title": "Open-Air Workshop"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Long_Pine_Table.png",
+     "amount": "1",
+     "title": "Long Pine Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Mature_Cuihua_Tree.png",
+     "amount": "1",
+     "title": "Mature Cuihua Tree"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Old_Well.png",
+     "amount": "1",
+     "title": "Old Well"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Overgrown_Wildvest.png",
+     "amount": "1",
+     "title": "Overgrown Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Dainty_Fists.png",
+     "amount": "1",
+     "title": "\"Dainty Fists\""
+    }
+   ],
+   "file": [
+    "weapon_forging_station.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Furnishing_Set_Idyllic_Town_Display.png",
+   "link": "/wiki/Idyllic_Town",
+   "title": "Idyllic Town",
+   "rarity": 4,
+   "adeptal_energy": "550",
+   "load": "1480",
+   "category": "Outdoor Set",
+   "chars": [
+    "Amber",
+    "Diona",
+    "Razor"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A corner of a rural town that follows after the style of Springvale.Among the many praises that visitors sing of Springvale, \"a relaxing environment\" and \"a comfortable lifestyle\" stand out. But of course, these tourists largely stay in Springvale for but a short while. Long-term living in these places requires such skills as hunting and farming. Only by mastering such skills can one truly keep up with the locals' lifestyle, appreciate the gifts of nature, and enjoy Springvale's breezes and idylls.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Pocket-Sized_Pine_Cabin.png",
+     "amount": "1",
+     "title": "Pocket-Sized Pine Cabin"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Item_Classic_Country_Home.png",
+     "amount": "1",
+     "title": "Classic Country Home"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Item_Country_Home_With_Tall_Attic.png",
+     "amount": "1",
+     "title": "Country Home With Tall Attic"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Smooth_Wooden_Bench.png",
+     "amount": "2",
+     "title": "Smooth Wooden Bench"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Long_Pine_Table.png",
+     "amount": "1",
+     "title": "Long Pine Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Heavy_Hay_Bale.png",
+     "amount": "1",
+     "title": "Heavy Hay Bale"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Item_Messy_Pile_of_Fir_Crates.png",
+     "amount": "1",
+     "title": "Messy Pile of Fir Crates"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Item_Simple_Cargo_Cart.png",
+     "amount": "1",
+     "title": "Simple Cargo Cart"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Neat_Stack_of_Fir_Kegs.png",
+     "amount": "1",
+     "title": "Neat Stack of Fir Kegs"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Pine_Street_Light.png",
+     "amount": "2",
+     "title": "Pine Street Light"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Item_The_Color_of_the_Wind.png",
+     "amount": "1",
+     "title": "\"The Color of the Wind\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Roofed_Well_For_Purity.png",
+     "amount": "1",
+     "title": "Roofed Well: For Purity"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Dainty_Fists.png",
+     "amount": "1",
+     "title": "\"Dainty Fists\""
+    }
+   ],
+   "file": [
+    "idyllic_town_1.png",
+    "idyllic_town_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Furnishing_Set_Bird_and_Blossom_Park_Display.png",
+   "link": "/wiki/Bird_and_Blossom_Park",
+   "title": "Bird and Blossom Park",
+   "rarity": 4,
+   "adeptal_energy": "500",
+   "load": "1165",
+   "category": "Outdoor Set",
+   "chars": [
+    "Barbara",
+    "Jean",
+    "Kaeya",
+    "Rosaria",
+    "Venti"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A Mondstadt-style park lined with lush hedgerows and sturdy trees that surround a fountain. A passing breeze is sure to carry the lovely fragrances enjoyed by finches and butterflies.In the eyes of some poets, flowers and birds are a symbol of goodness and nature. As such, bards will sometimes sing by the fountains, which often attracts the attention of passers-by \u2014 and their various pets, of course.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Item_The_Color_of_the_Wind.png",
+     "amount": "1",
+     "title": "\"The Color of the Wind\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Overgrown_Wildvest.png",
+     "amount": "2",
+     "title": "Overgrown Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Smooth_Stone_Bench.png",
+     "amount": "2",
+     "title": "Smooth Stone Bench"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Smooth_Wooden_Bench.png",
+     "amount": "3",
+     "title": "Smooth Wooden Bench"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Bird_and_Blossom_Design_Fountain.png",
+     "amount": "1",
+     "title": "Bird and Blossom Design Fountain"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Mature_Cuihua_Tree.png",
+     "amount": "1",
+     "title": "Mature Cuihua Tree"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Wrought_Iron_Carved_Street_Light.png",
+     "amount": "1",
+     "title": "Wrought Iron Carved Street Light"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Blooming_Hedge.png",
+     "amount": "4",
+     "title": "Blooming Hedge"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Stone_Cup-Shaped_Pool.png",
+     "amount": "1",
+     "title": "Stone Cup-Shaped Pool"
+    }
+   ],
+   "file": [
+    "bird_and_blossom_park.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Furnishing_Set_Gathering_of_Gourmets_Display.png",
+   "link": "/wiki/Gathering_of_Gourmets",
+   "title": "Gathering of Gourmets",
+   "rarity": 4,
+   "adeptal_energy": "930",
+   "load": "1580",
+   "category": "Outdoor Set",
+   "chars": [
+    "Beidou",
+    "Ganyu",
+    "Tartaglia",
+    "Xiangling",
+    "Xinyan"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A food street with outdoor facilities that replicates the bustle of Chihu Rock.To call this a \"gathering of gourmets\" is an understatement, and while it may seem that there aren't too many cooking utensils lying around, there are more than enough to cover all the known specialties of the Liyue region. After all, skilled chefs can make delicious dishes with the simplest of utensils, and it certainly helps that many ingredients that don't require complex preparation have become pillars of some of the most renown dishes.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Bamboo_Outdoor_Tea_Table.png",
+     "amount": "1",
+     "title": "Bamboo Outdoor Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Wine_Shop_Display_Counter_To_Your_Heart%27s_Content.png",
+     "amount": "1",
+     "title": "Wine Shop Display Counter: To Your Heart's Content"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Item_Wooden_Outdoor_Tea_Table.png",
+     "amount": "3",
+     "title": "Wooden Outdoor Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Fragrant_Cedar_Vegetable_Rack.png",
+     "amount": "1",
+     "title": "Fragrant Cedar Vegetable Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Item_Four-Quadrant_Cooking_Cauldron.png",
+     "amount": "1",
+     "title": "\"Four-Quadrant Cooking Cauldron\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Fruit_Seller%27s_Caution.png",
+     "amount": "1",
+     "title": "Fruit Seller's Caution"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Two-Tier_Vendor%27s_Booth_Rising_Fortunes.png",
+     "amount": "1",
+     "title": "Two-Tier Vendor's Booth: Rising Fortunes"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Fruit_and_Veggie_Stall_Harvest_Bounties.png",
+     "amount": "1",
+     "title": "Fruit and Veggie Stall: Harvest Bounties"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Storage_Sack_Buzz-Off_Bag.png",
+     "amount": "2",
+     "title": "Storage Sack: Buzz-Off Bag"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Wine_Jar_With_Bamboo_Casing_Spirits_Awaiting_Moonrise.png",
+     "amount": "2",
+     "title": "Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Evil-Repelling_Lantern_All-Around_Lighting.png",
+     "amount": "1",
+     "title": "Evil-Repelling Lantern: All-Around Lighting"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Traveling_Merchant_North_of_the_Stone_Gate.png",
+     "amount": "1",
+     "title": "\"Traveling Merchant North of the Stone Gate\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Old_Well.png",
+     "amount": "1",
+     "title": "Old Well"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Mature_Cuihua_Tree.png",
+     "amount": "1",
+     "title": "Mature Cuihua Tree"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Hunter%27s_Vantage.png",
+     "amount": "1",
+     "title": "\"Hunter's Vantage\""
+    }
+   ],
+   "file": [
+    "gathering_of_gourmets_1.png",
+    "gathering_of_gourmets_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Furnishing_Set_Glittering_Street_Display.png",
+   "link": "/wiki/Glittering_Street",
+   "title": "Glittering Street",
+   "rarity": 4,
+   "adeptal_energy": "780",
+   "load": "1185",
+   "category": "Outdoor Set",
+   "chars": [
+    "Keqing",
+    "Ningguang",
+    "Shenhe",
+    "Xingqiu",
+    "Yanfei",
+    "Yun Jin",
+    "Zhongli"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "An urban area filled with goods and wares, from strange and precious treasures to everyday items, recreating the bustle of Liyue's markets.\"Glittering\" here is no overstatement, for Liyue is the place where all ships go and all stocks flow. As such, the vast majority of its citizens do not want for necessities. But if something is indeed lacking, you can wait for the end of the month to send feedback to the purple-haired young woman who often roams the markets during that time. Her true identity is unclear, but what is known is that most goods brought to her attention will soon appear on the markets.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Item_Roll-Roofed_Fruit_and_Vegetable_Cart.png",
+     "amount": "1",
+     "title": "Roll-Roofed Fruit and Vegetable Cart"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Clouds_East_of_Bishui.png",
+     "amount": "1",
+     "title": "\"Clouds East of Bishui\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Traveling_Merchant_North_of_the_Stone_Gate.png",
+     "amount": "1",
+     "title": "\"Traveling Merchant North of the Stone Gate\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Evil-Repelling_Lantern_All-Around_Lighting.png",
+     "amount": "1",
+     "title": "Evil-Repelling Lantern: All-Around Lighting"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Storage_Sack_Buzz-Off_Bag.png",
+     "amount": "1",
+     "title": "Storage Sack: Buzz-Off Bag"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Two-Tier_Vendor%27s_Booth_Rising_Fortunes.png",
+     "amount": "1",
+     "title": "Two-Tier Vendor's Booth: Rising Fortunes"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Umbrella_Shop_Kaleidoscope_of_Parasol_Colors.png",
+     "amount": "1",
+     "title": "Umbrella Shop: Kaleidoscope of Parasol Colors"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Toy_Stand_Dazzling_Delights.png",
+     "amount": "1",
+     "title": "Toy Stand: Dazzling Delights"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Crude_Double-Decker_Pallet.png",
+     "amount": "1",
+     "title": "Crude Double-Decker Pallet"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Wine_Shop_Display_Counter_To_Your_Heart%27s_Content.png",
+     "amount": "1",
+     "title": "Wine Shop Display Counter: To Your Heart's Content"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Wine_Jar_With_Bamboo_Casing_Spirits_Awaiting_Moonrise.png",
+     "amount": "1",
+     "title": "Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Pine_Dining_Chair.png",
+     "amount": "1",
+     "title": "Pine Dining Chair"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Bamboo_Outdoor_Tea_Table.png",
+     "amount": "1",
+     "title": "Bamboo Outdoor Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Item_Fruit_Seller%27s_Caution.png",
+     "amount": "1",
+     "title": "Fruit Seller's Caution"
+    }
+   ],
+   "file": [
+    "glittering_street_1.png",
+    "glittering_street_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Furnishing_Set_Qingce_Cloud_Residence_Display.png",
+   "link": "/wiki/Qingce_Cloud_Residence",
+   "title": "Qingce Cloud Residence",
+   "rarity": 4,
+   "adeptal_energy": "920",
+   "load": "1615",
+   "category": "Outdoor Set",
+   "chars": [
+    "Hu Tao",
+    "Qiqi",
+    "Xiao",
+    "Xinyan",
+    "Shenhe"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A mountain hamlet modeled after Qingce Village. It is said that the friendly atmosphere there is infectious and that visitors who enter will find themselves calmed and more appreciative of simple joys that they may have once forgotten.To head out in pursuit of one's ideals and spend one's years magnificently chasing a career is certainly praiseworthy. But after spending so long on such endeavors, one may eventually tire. When that happens, a quiet and peaceful life out in the countryside remains a good choice. Qingce Village has always maintained its acceptance of young folk who head out to seek their fortunes, and is ready to welcome them back with open arms at any time.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Item_The_Color_of_the_Wind.png",
+     "amount": "1",
+     "title": "\"The Color of the Wind\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Profuse_Awlking.png",
+     "amount": "1",
+     "title": "Profuse Awlking"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Item_Sturdy_Pine_Fence.png",
+     "amount": "4",
+     "title": "Sturdy Pine Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Bamboo_Outdoor_Tea_Table.png",
+     "amount": "2",
+     "title": "Bamboo Outdoor Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Crude_Double-Decker_Pallet.png",
+     "amount": "1",
+     "title": "Crude Double-Decker Pallet"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Large_Stone_Mill.png",
+     "amount": "1",
+     "title": "Large Stone Mill"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Item_Liyue_House_Time_Waits_for_No_One.png",
+     "amount": "1",
+     "title": "Liyue House: Time Waits for No One"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Liyue_Shop_Citywide_Favorite.png",
+     "amount": "1",
+     "title": "Liyue Shop: Citywide Favorite"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Item_Sturdy_Stone_Well.png",
+     "amount": "1",
+     "title": "Sturdy Stone Well"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Adeptus_Gate.png",
+     "amount": "1",
+     "title": "Adeptus Gate"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Shadow_Lamp_Painted_Shadow.png",
+     "amount": "1",
+     "title": "Shadow Lamp: Painted Shadow"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Evil-Repelling_Lantern_All-Around_Lighting.png",
+     "amount": "1",
+     "title": "Evil-Repelling Lantern: All-Around Lighting"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Item_Straw_Shed.png",
+     "amount": "1",
+     "title": "Straw Shed"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Item_Wooden_Outdoor_Tea_Table.png",
+     "amount": "1",
+     "title": "Wooden Outdoor Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Overgrown_Wildvest.png",
+     "amount": "1",
+     "title": "Overgrown Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Dainty_Fists.png",
+     "amount": "2",
+     "title": "\"Dainty Fists\""
+    }
+   ],
+   "file": [
+    "qingce_cloud_residence_1.png",
+    "qingce_cloud_residence_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Furnishing_Set_Of_Hunting_and_Dancing_Display.png",
+   "link": "/wiki/Of_Hunting_and_Dancing",
+   "title": "Of Hunting and Dancing",
+   "rarity": 4,
+   "adeptal_energy": "760",
+   "load": "1735",
+   "category": "Outdoor Set",
+   "chars": [
+    "Aloy",
+    "Amber",
+    "Beidou",
+    "Klee",
+    "Sucrose"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "An encampment set up with some skill that has referenced the famed writings of the researcher Musk to recreate a hilichurl dwelling, and which can be used to study their living habits.They say that in the past, the Knights of Favonius would set up such camps and engage in detailed planning, led by the Outriders, ahead of expeditions against monsters. The seafaring Crux Fleet also tends to set sand tables up in a similar fashion based on various sources of intelligence to simulate boarding an island and clearing it of monsters.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Item_Hardwood_Weapon_Rack.png",
+     "amount": "1",
+     "title": "Hardwood Weapon Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Fir_Weapon_Rack.png",
+     "amount": "1",
+     "title": "Fir Weapon Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Item_Fir_Shelves.png",
+     "amount": "1",
+     "title": "Fir Shelves"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Hilichurl_Totem_Fence.png",
+     "amount": "2",
+     "title": "Hilichurl Totem Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Wooden_Hilichurl_Fence.png",
+     "amount": "2",
+     "title": "Wooden Hilichurl Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Item_Hilichurl_Horned_Pot.png",
+     "amount": "1",
+     "title": "Hilichurl Horned Pot"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Item_Hilichurl_Archery_Target.png",
+     "amount": "1",
+     "title": "Hilichurl Archery Target"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Hilichurl_Straw_Hut.png",
+     "amount": "1",
+     "title": "Hilichurl Straw Hut"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Item_Two-Story_Hilichurl_Sentry_Tower.png",
+     "amount": "1",
+     "title": "Two-Story Hilichurl Sentry Tower"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Hilichurl_Chieftain_Hall.png",
+     "amount": "1",
+     "title": "Hilichurl Chieftain Hall"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Hilichurl_Spiral_Watchtower.png",
+     "amount": "1",
+     "title": "Hilichurl Spiral Watchtower"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Item_Hilichurl_Outpost_Hut.png",
+     "amount": "1",
+     "title": "Hilichurl Outpost Hut"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Mature_Cuihua_Tree.png",
+     "amount": "1",
+     "title": "Mature Cuihua Tree"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Dainty_Fists.png",
+     "amount": "1",
+     "title": "\"Dainty Fists\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Hiding_Grazestone.png",
+     "amount": "1",
+     "title": "Hiding Grazestone"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Hazel_Wildvest.png",
+     "amount": "1",
+     "title": "Hazel Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Overgrown_Wildvest.png",
+     "amount": "1",
+     "title": "Overgrown Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Item_The_Color_of_the_Wind.png",
+     "amount": "1",
+     "title": "\"The Color of the Wind\""
+    }
+   ],
+   "file": [
+    "of_hunting_and_dancing_1.png",
+    "of_hunting_and_dancing_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Furnishing_Set_Iter_Ad_Astra_Abyssosque_Display.png",
+   "link": "/wiki/Iter_Ad_Astra_Abyssosque",
+   "title": "Iter Ad Astra Abyssosque",
+   "rarity": 4,
+   "adeptal_energy": "430",
+   "load": "965",
+   "category": "Outdoor Set",
+   "chars": [
+    "Albedo",
+    "Aloy",
+    "Bennett",
+    "Chongyun",
+    "Fischl",
+    "Qiqi"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "An adventurer camp that can often be seen out in the wild. It uses the latest and greatest in tent designs.Experienced adventurers are used to leading a hard existence and require only a lightweight and durable tent to sleep soundly \u2014 even in a howling storm. After regaining their strength the next day, they move on to their next destination. As such, attractive and affordable tents like these have always had ready buyers.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Deadwood_Road_Sign.png",
+     "amount": "1",
+     "title": "Deadwood Road Sign"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Simple_Single-Person_Tent.png",
+     "amount": "1",
+     "title": "Simple Single-Person Tent"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Lightning_Protective_Tent.png",
+     "amount": "1",
+     "title": "Lightning Protective Tent"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_%22The_Adventurer%27s_Burdens%22.png",
+     "amount": "1",
+     "title": "\"The Adventurer's Burdens\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Brightcrown_Plumebush.png",
+     "amount": "1",
+     "title": "\"Brightcrown Plumebush\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Scholar%27s_Weariness.png",
+     "amount": "1",
+     "title": "\"Scholar's Weariness\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Tianheng_Red_Maple_Branches_Aflame.png",
+     "amount": "1",
+     "title": "Tianheng Red Maple: Branches Aflame"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Hazel_Wildvest.png",
+     "amount": "2",
+     "title": "Hazel Wildvest"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Dainty_Fists.png",
+     "amount": "2",
+     "title": "\"Dainty Fists\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_The_Adventurer%27s_Treasures.png",
+     "amount": "1",
+     "title": "\"The Adventurer's Treasures\""
+    }
+   ],
+   "file": [
+    "iter_ad_astra_abyssosque.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Furnishing_Set_Dawn_Orchard_Display.png",
+   "link": "/wiki/Dawn_Orchard",
+   "title": "Dawn Orchard",
+   "rarity": 4,
+   "adeptal_energy": "840",
+   "load": "1130",
+   "category": "Outdoor Set",
+   "chars": [
+    "Diluc",
+    "Kaeya",
+    "Rosaria",
+    "Venti"
+   ],
+   "description": "The orchards of the Dawn Winery are quite famous indeed. It is said that someone from the wine industry in another nation visited the Dawn Winery years ago to study it and gather experience in orchard management. The wine industries in various other nations raced to follow the resultant Dawn Orchard model.Unfortunately, the excellence of the base ingredients is only one factor in the production of fine wines, and it is the Dawn Winery's skill in wine making that is key to its position at the apex of the industry. Unable to compete, some of its rivals had to resort to using part of their produce to make fruit juice to balance the books.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Soil-Carrying_Wooden_Barrel.png",
+     "amount": "1",
+     "title": "Soil-Carrying Wooden Barrel"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Tall_Wooden_Pole.png",
+     "amount": "2",
+     "title": "Tall Wooden Pole"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Temporary_Work_Quarters.png",
+     "amount": "1",
+     "title": "Temporary Work Quarters"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Pine_Street_Light.png",
+     "amount": "1",
+     "title": "Pine Street Light"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Neat_Stack_of_Fir_Kegs.png",
+     "amount": "1",
+     "title": "Neat Stack of Fir Kegs"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Item_Simple_Cargo_Cart.png",
+     "amount": "1",
+     "title": "Simple Cargo Cart"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Sturdy_Wooden_Barrel.png",
+     "amount": "1",
+     "title": "Sturdy Wooden Barrel"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Simple_Wooden_Fence.png",
+     "amount": "2",
+     "title": "Simple Wooden Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Half-Constructed_Fence.png",
+     "amount": "2",
+     "title": "Half-Constructed Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Lush_Grapevine.png",
+     "amount": "8",
+     "title": "Lush Grapevine"
+    }
+   ],
+   "file": [
+    "dawn_orchard.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Furnishing_Set_Court_of_the_Upright_Display.png",
+   "link": "/wiki/Court_of_the_Upright",
+   "title": "Court of the Upright",
+   "rarity": 4,
+   "adeptal_energy": "1050",
+   "load": "1739",
+   "category": "Outdoor Set",
+   "chars": [
+    "Kujou Sara",
+    "Kamisato Ayato"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "This majestic structure combines the Tri-Commission buildings and the Police Station to great effect, it has both the aura of a stately mansion and the practiced professional air of an executive agency, all while maintaining an optimized aesthetic. \"Proper\" is the operative word here indeed. Those of distinguished background and honest character will surely approve of this courtyard layout. Indeed, you have heard it said that a certain Tenryou Commission general once recommended that officials should stay close to the commission estates such that they might get to work more quickly and contribute more effectively to the Almighty Shogun's dream of achieving \"eternity.\"",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Item_Key_Fence_Self-Restraint.png",
+     "amount": "4",
+     "title": "Key Fence: Self-Restraint"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sappan_and_Vermilion_Enjoined.png",
+     "amount": "2",
+     "title": "Sappan and Vermilion Enjoined"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Official_Residence_Corridor_Power%27s_Reach.png",
+     "amount": "2",
+     "title": "Official Residence Corridor: Power's Reach"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Inazuman_Official_Residence_Strict_Adherence.png",
+     "amount": "1",
+     "title": "Inazuman Official Residence: Strict Adherence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Fence_Corner_Long_Watch.png",
+     "amount": "3",
+     "title": "Fence Corner: Long Watch"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Key_Gateway_Beneath_the_Clouds.png",
+     "amount": "1",
+     "title": "Key Gateway: Beneath the Clouds"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Headquarters_Alarm_Sound_of_Thunder.png",
+     "amount": "1",
+     "title": "Headquarters Alarm: Sound of Thunder"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_The_Red_Kite%27s_Waking_and_Sleeping.png",
+     "amount": "1",
+     "title": "The Red Kite's Waking and Sleeping"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_War_Drum_Line-Breaking_Reverb.png",
+     "amount": "2",
+     "title": "War Drum: Line-Breaking Reverb"
+    }
+   ],
+   "file": [
+    "court_of_the_upright.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Furnishing_Set_Wakeful_Spring_Display.png",
+   "link": "/wiki/Wakeful_Spring",
+   "title": "Wakeful Spring",
+   "rarity": 4,
+   "adeptal_energy": "780",
+   "load": "780",
+   "category": "Outdoor Set",
+   "chars": [
+    "Yoimiya",
+    "Yae Miko",
+    "Gorou"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "A feature-complete open-air hot spring. The minerals present her may not be the equal of Aisa Bathhouse, but hot springs of this kind win in terms of their relaxed, casual atmosphere and the relative lack of regulations. Just a half-hour soak in here and all the fatigue you've accumulated from work will dissipate into nothingness, replaced by a reawakened vigor, and if there's time, you can lean against a nearby white stone and have some tea and a chat with your friends. Of course, please keep some basic etiquette in mind before entering: enjoying the hot spring with friends is fine, but do not stay too long. If you spend too much time in there with chatty folk like the Queen of the Summer Festival, you might get dizzy.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Item_Hot_Spring_Whitestone_Secret_Fire.png",
+     "amount": "1",
+     "title": "Hot Spring Whitestone: Secret Fire"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Hot_Spring_Folding_Screen_Moderation.png",
+     "amount": "2",
+     "title": "Hot Spring Folding Screen: Moderation"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Hot_Spring_Wall_Well-Grounded.png",
+     "amount": "1",
+     "title": "Hot Spring Wall: Well-Grounded"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Wading_Stones.png",
+     "amount": "1",
+     "title": "Wading Stones"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_The_Precious_Pink_of_Spring.png",
+     "amount": "1",
+     "title": "The Precious Pink of Spring"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Hot_Spring_Outer_Wall_No_Vaulting.png",
+     "amount": "6",
+     "title": "Hot Spring Outer Wall: No Vaulting"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_Flower%27s_First_Blushing_Bloom.png",
+     "amount": "1",
+     "title": "Flower's First Blushing Bloom"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_A_Thousand_Petals_of_Red_Glaze.png",
+     "amount": "2",
+     "title": "A Thousand Petals of Red Glaze"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Meditation_Stone.png",
+     "amount": "1",
+     "title": "Meditation Stone"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Whitestone_Hot_Spring_Diffusing_Warmth.png",
+     "amount": "1",
+     "title": "Whitestone Hot Spring: Diffusing Warmth"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Hot_Spring_Foyer_Shelter_from_the_Cold.png",
+     "amount": "1",
+     "title": "Hot Spring Foyer: Shelter from the Cold"
+    }
+   ],
+   "file": [
+    "wakeful_spring.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Furnishing_Set_Rural_Concealment_Display.png",
+   "link": "/wiki/Rural_Concealment",
+   "title": "Rural Concealment",
+   "rarity": 4,
+   "adeptal_energy": "950",
+   "load": "",
+   "category": "Outdoor Set",
+   "chars": [
+    "Sayu",
+    "Gorou"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "This Inazuman village quite effectively recalls the scenery of Konda Village. These buildings are already of certain \"age,\" but they are far from dilapidated. Instead, they give off a feeling of simple leisure. None of the buildings stand out in particular, and it even seems like they might all blend in with the nearby mountains in a few more years... These are, of course, all the hallmarks of an excellent hiding spot \u2014 and you can be sure that a certain lazy Shuumatsuban ninja has done just that before, slacking off and sleeping somewhere in an equally sleepy village.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Item_The_Wandering_Bird_Within.png",
+     "amount": "1",
+     "title": "The Wandering Bird Within"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Otogi_Tanin_Wood_Barrel.png",
+     "amount": "1",
+     "title": "Otogi \"Tanin\" Wood Barrel"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Item_Kokutan_Thick-Walled_Clay_Water_Tank.png",
+     "amount": "1",
+     "title": "\"Kokutan\" Thick-Walled Clay Water Tank"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Otogi_Kintake_Fence.png",
+     "amount": "10",
+     "title": "Otogi \"Kintake\" Fence"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_High-Flying_Fish_Flag.png",
+     "amount": "1",
+     "title": "High-Flying Fish Flag"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Otogi_Kintake_Courtyard_Gate.png",
+     "amount": "1",
+     "title": "Otogi \"Kintake\" Courtyard Gate"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Item_Inazuman_Bamboo-Roofed_Home_Wild_Heart.png",
+     "amount": "1",
+     "title": "Inazuman Bamboo-Roofed Home: Wild Heart"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Inazuman_Bamboo-Roofed_Home_The_Long_Peace.png",
+     "amount": "1",
+     "title": "Inazuman Bamboo-Roofed Home: The Long Peace"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_The_Fruit_Farmer%27s_Thrift.png",
+     "amount": "6",
+     "title": "The Fruit Farmer's Thrift"
+    }
+   ],
+   "file": [
+    "rural_concealment.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Furnishing_Set_Ancient_Branch_Shrine_Display.png",
+   "link": "/wiki/Ancient_Branch_Shrine",
+   "title": "Ancient Branch Shrine",
+   "rarity": 4,
+   "adeptal_energy": "1030",
+   "load": "",
+   "category": "Outdoor Set",
+   "chars": [
+    "Raiden Shogun",
+    "Yae Miko"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "The architectural design, the bright red paint, and the overall layout of the serene and beautiful shrine comes in the same style as the Grand Narukami Shrine. It serves as a place of meditation for mortals, but for Her Excellency the Shogun, the sight of it was enough to form a hazy, but vivid memory of a bygone era...",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Item_Cleansing_Shrine.png",
+     "amount": "1",
+     "title": "Cleansing Shrine"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_The_Aster%27s_Sigh.png",
+     "amount": "1",
+     "title": "The Aster's Sigh"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Item_Yumemiru_Seiken_Offering_Box.png",
+     "amount": "1",
+     "title": "Yumemiru \"Seiken\" Offering Box"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Item_White_Fish_Tallow_Candle_Evenlight.png",
+     "amount": "3",
+     "title": "White Fish Tallow Candle: Evenlight"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Foundations_of_Stone_Double-Time.png",
+     "amount": "2",
+     "title": "Foundations of Stone: Double-Time"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Item_Foundations_of_Stone_Timely_Arrival.png",
+     "amount": "2",
+     "title": "Foundations of Stone: Timely Arrival"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Foundations_of_Stone_Path_of_Cultivation.png",
+     "amount": "1",
+     "title": "Foundations of Stone: Path of Cultivation"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Item_Fortune_Slip_Stand_Omen-Reader.png",
+     "amount": "1",
+     "title": "Fortune Slip Stand: Omen-Reader"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Item_Seal_of_the_Provisional_Head_Priestess.png",
+     "amount": "1",
+     "title": "\"Seal of the Provisional Head Priestess\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sappan_and_Vermilion_Enjoined.png",
+     "amount": "1",
+     "title": "Sappan and Vermilion Enjoined"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_The_Red_Kite%27s_Waking_and_Sleeping.png",
+     "amount": "2",
+     "title": "The Red Kite's Waking and Sleeping"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Yumemiru_Saikyo_Fortune_Slip_Hanger.png",
+     "amount": "1",
+     "title": "Yumemiru \"Saikyo\" Fortune Slip Hanger"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Sky_Kitsune_Statue_Hakushin%27s_Legacy.png",
+     "amount": "2",
+     "title": "Sky Kitsune Statue: Hakushin's Legacy"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Yumemiru_Kuukai_Street_Lamp.png",
+     "amount": "2",
+     "title": "Yumemiru \"Kuukai\" Street Lamp"
+    }
+   ],
+   "file": [
+    "ancient_branch_shrine_1.png",
+    "ancient_branch_shrine_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Furnishing_Set_Military_Exercise_Grounds_Display.png",
+   "link": "/wiki/Military_Exercise_Grounds",
+   "title": "Military Exercise Grounds",
+   "rarity": 4,
+   "adeptal_energy": "1360",
+   "load": "",
+   "category": "Outdoor Set",
+   "chars": [
+    "Kujou Sara"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "Draws inspiration from the layout of the military buildings and furnishings of the Kujou Encampment. During the conflict between the Shogun's Army and the resistance, both sides have sought various ways to improve the quality of their new recruits upon joining their respective armies. Compared with traditional training sites, this type of training ground not only provides all kind of equipment, it also can simulate the urgency of being on the frontline, giving an experience that is very close to the real thing. Naturally, this allows the new recruits to get a sufficient amount of training.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Replica_Ancient_Otogi_Keg.png",
+     "amount": "1",
+     "title": "Replica Ancient Otogi Keg"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Village_Well_Subterranean_Secrets.png",
+     "amount": "1",
+     "title": "Village Well: Subterranean Secrets"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sappan_and_Vermilion_Enjoined.png",
+     "amount": "1",
+     "title": "Sappan and Vermilion Enjoined"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Item_The_Wandering_Bird_Within.png",
+     "amount": "1",
+     "title": "The Wandering Bird Within"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Item_Narukami%27s_Banner.png",
+     "amount": "2",
+     "title": "Narukami's Banner"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Encampment_Fence_Decisive_Judgment.png",
+     "amount": "2",
+     "title": "Encampment Fence: Decisive Judgment"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Camp_Gate_Fealty.png",
+     "amount": "1",
+     "title": "Camp Gate: Fealty"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Item_Camp_Spear-Rack_Point_Break.png",
+     "amount": "2",
+     "title": "Camp Spear-Rack: Point Break"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Camp_Dwelling_Shoring_Up.png",
+     "amount": "1",
+     "title": "Camp Dwelling: Shoring Up"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Camp_Tent_Timely_Tactics.png",
+     "amount": "1",
+     "title": "Camp Tent: Timely Tactics"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Camp_Watchtower_Viewport.png",
+     "amount": "1",
+     "title": "Camp Watchtower: Viewport"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Encampment_Fence_Jagged_Teeth.png",
+     "amount": "5",
+     "title": "Encampment Fence: Jagged Teeth"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Encampment_Fence_Honing_Goad.png",
+     "amount": "5",
+     "title": "Encampment Fence: Honing Goad"
+    }
+   ],
+   "file": [
+    "military_exercise_grounds_1.png",
+    "military_exercise_grounds_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Furnishing_Set_Jade_Wilds_Display.png",
+   "link": "/wiki/Jade_Wilds",
+   "title": "Jade Wilds",
+   "rarity": 4,
+   "adeptal_energy": "450",
+   "load": "",
+   "category": "Outdoor Set",
+   "chars": [
+    "Kaedehara Kazuha",
+    "Arataki Itto"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "A quiet, serene landscape on the outskirts of Inazuma. A shrine made of Otogi Wood stands tall amongst the Sakura trees, the maple trees, and the colorful flowers. The candlelight flickers, blending in with an intangible sense of majesty and stability. Everywhere, the falling petals seem to be touched by spirituality.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Of_Promises_Unkept_the_Night_Flowers_Speak.png",
+     "amount": "2",
+     "title": "Of Promises Unkept the Night Flowers Speak"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Item_Seal_of_the_Provisional_Head_Priestess.png",
+     "amount": "1",
+     "title": "\"Seal of the Provisional Head Priestess\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_The_Red_Kite%27s_Waking_and_Sleeping.png",
+     "amount": "1",
+     "title": "The Red Kite's Waking and Sleeping"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sappan_and_Vermilion_Enjoined.png",
+     "amount": "1",
+     "title": "Sappan and Vermilion Enjoined"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Ritual_Shrine.png",
+     "amount": "1",
+     "title": "Ritual Shrine"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Item_White_Fish_Tallow_Candle_Evenlight.png",
+     "amount": "2",
+     "title": "White Fish Tallow Candle: Evenlight"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Otogi_Countryside_Street_Lamp.png",
+     "amount": "2",
+     "title": "Otogi Countryside Street Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Wading_Stones.png",
+     "amount": "1",
+     "title": "Wading Stones"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Meditation_Stone.png",
+     "amount": "2",
+     "title": "Meditation Stone"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Melancholy%2C_the_Dewgrass_Shadowing.png",
+     "amount": "7",
+     "title": "Melancholy, the Dewgrass Shadowing"
+    }
+   ],
+   "file": [
+    "jade_wilds.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Furnishing_Set_Summer_Night%27s_Recollection_Display.png",
+   "link": "/wiki/Summer_Night%27s_Recollection",
+   "title": "Summer Night's Recollection",
+   "rarity": 4,
+   "adeptal_energy": "800",
+   "load": "",
+   "category": "Outdoor Set",
+   "chars": [
+    "Kamisato Ayaka",
+    "Arataki Itto",
+    "Kamisato Ayato"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "The scenery perfectly recreates the lively atmosphere found in the festivals of Inazuma.Inazuma City holds several festivals each year, but the biggest, most memorable ones often fall during the middle of summer. The food stalls, games, and fireworks in the night sky will make visitors linger a little longer. The stalls may disappear after the last day, but the good times shared with companions will last forever.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Festival_Kiban_Store.png",
+     "amount": "1",
+     "title": "Festival \"Kiban\" Store"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Item_Festival_Teiban_Store.png",
+     "amount": "1",
+     "title": "Festival \"Teiban\" Store"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Otogi_Wood_Rice_Cake_Soup_Stand.png",
+     "amount": "1",
+     "title": "Otogi Wood Rice Cake Soup Stand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Replica_Ancient_Otogi_Crate.png",
+     "amount": "1",
+     "title": "Replica Ancient Otogi Crate"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_Flower%27s_First_Blushing_Bloom.png",
+     "amount": "1",
+     "title": "Flower's First Blushing Bloom"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Item_Otogi_Rakushi_Square_Stool.png",
+     "amount": "4",
+     "title": "Otogi \"Rakushi\" Square Stool"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Otogi_Rakushi_Square_Table.png",
+     "amount": "2",
+     "title": "Otogi \"Rakushi\" Square Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_The_Precious_Pink_of_Spring.png",
+     "amount": "1",
+     "title": "The Precious Pink of Spring"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Inazuman_Home_Easy_Adaptation.png",
+     "amount": "1",
+     "title": "Inazuman Home: Easy Adaptation"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Five-Lantern_Festival_Gate.png",
+     "amount": "1",
+     "title": "Five-Lantern Festival Gate"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Foundations_of_Stone_Path_of_Cultivation.png",
+     "amount": "4",
+     "title": "Foundations of Stone: Path of Cultivation"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Village_Well_Subterranean_Secrets.png",
+     "amount": "1",
+     "title": "Village Well: Subterranean Secrets"
+    }
+   ],
+   "file": [
+    "summer_night's_recollection.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Furnishing_Set_Sakura-Hued_Street_Display.png",
+   "link": "/wiki/Sakura-Hued_Street",
+   "title": "Sakura-Hued Street",
+   "rarity": 4,
+   "adeptal_energy": "940",
+   "load": "2,673",
+   "category": "Outdoor Set",
+   "chars": [
+    "Yoimiya",
+    "Thoma"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "A perfect facsimile of Inazuma City's carefully planned shopping district.No matter what happens, the people of Inazuma live life in a calm, peaceful atmosphere. The walkable streets reflect the living conditions of the residents, which is the truest depiction of the city. By following Thoma, a local who knows Inazuma inside and out, and checking out the various businesses and shops, one can truly understand and appreciate the local customs.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Kouki_Aralia_Mask_Rack.png",
+     "amount": "1",
+     "title": "\"Kouki\" Aralia Mask Rack"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Village_Well_Subterranean_Secrets.png",
+     "amount": "1",
+     "title": "Village Well: Subterranean Secrets"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Foundations_of_Stone_Path_of_Cultivation.png",
+     "amount": "5",
+     "title": "Foundations of Stone: Path of Cultivation"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Replica_Ancient_Otogi_Crate.png",
+     "amount": "1",
+     "title": "Replica Ancient Otogi Crate"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Item_Simple_Otogi_Street_Lamp.png",
+     "amount": "2",
+     "title": "Simple Otogi Street Lamp"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Inazuman_Store_Numberless_Gems.png",
+     "amount": "1",
+     "title": "Inazuman Store: Numberless Gems"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Umbrella_Shop_Drapes_of_Differing_Dreams.png",
+     "amount": "1",
+     "title": "Umbrella Shop: Drapes of Differing Dreams"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Fruit_and_Veggie_Stall_Good_Honest_Flavor.png",
+     "amount": "2",
+     "title": "Fruit and Veggie Stall: Good Honest Flavor"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Inazuman_Home_The_Work_of_Generations.png",
+     "amount": "1",
+     "title": "Inazuman Home: The Work of Generations"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sappan_and_Vermilion_Enjoined.png",
+     "amount": "1",
+     "title": "Sappan and Vermilion Enjoined"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_The_Red_Kite%27s_Waking_and_Sleeping.png",
+     "amount": "1",
+     "title": "The Red Kite's Waking and Sleeping"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Otogi_Wood_Ramen_Stand.png",
+     "amount": "1",
+     "title": "Otogi Wood Ramen Stand"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Five-Lantern_Festival_Gate.png",
+     "amount": "1",
+     "title": "Five-Lantern Festival Gate"
+    }
+   ],
+   "file": [
+    "sakurahued_street_1.png",
+    "sakurahued_street_2.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Furnishing_Set_Eternal_Domain_of_Fleeting_Dreams_Display.png",
+   "link": "/wiki/Eternal_Domain_of_Fleeting_Dreams",
+   "title": "Eternal Domain of Fleeting Dreams",
+   "rarity": 4,
+   "adeptal_energy": "600",
+   "load": "",
+   "category": "Indoor Set",
+   "chars": [
+    "Sayu",
+    "Sangonomiya Kokomi"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "This bedroom is filled with a unique Inazuman aesthetic but also adopts ideas from other nations quite freely, thus striking a brilliant balance between tradition and practicality. The design process included considerations as to how guests might feel, and the room itself was designed for them to relax sufficiently, such that they will feel re-energized, as one might after a long, dreaming sleep, even after only taking a short rest. The kotatsu that has been kindly set up also contributes to feeling of never wanting to leave your room.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Yumemiru_Sakura%27s_Rest_Bed.png",
+     "amount": "1",
+     "title": "Yumemiru \"Sakura's Rest\" Bed"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Item_Yumemiru_Cold_and_Warmth_Kotatsu.png",
+     "amount": "1",
+     "title": "Yumemiru \"Cold and Warmth\" Kotatsu"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Spiritchaser_Screen.png",
+     "amount": "1",
+     "title": "Spiritchaser Screen"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Item_Cast_in_Clay.png",
+     "amount": "1",
+     "title": "Cast in Clay"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Red-Iron_Coral.png",
+     "amount": "1",
+     "title": "Red-Iron Coral"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Yumemiru_Dewcover_Wardrobe.png",
+     "amount": "1",
+     "title": "Yumemiru \"Dewcover\" Wardrobe"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Teahouse_Cushion_Night-Woven.png",
+     "amount": "4",
+     "title": "Teahouse Cushion: Night-Woven"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Item_Yumemiru_Jukaku_Folding_Screen.png",
+     "amount": "1",
+     "title": "Yumemiru \"Jukaku\" Folding Screen"
+    }
+   ],
+   "file": [
+    "eternal_domain_of_fleeting_dreams.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Furnishing_Set_A_Thousand_Swings_Display.png",
+   "link": "/wiki/A_Thousand_Swings",
+   "title": "A Thousand Swings",
+   "rarity": 4,
+   "adeptal_energy": "870",
+   "load": "N/A",
+   "category": "Indoor Set",
+   "chars": [
+    "Raiden Shogun",
+    "Kamisato Ayaka"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "This is a place where true swordsmanship is forged. Many hereditary clan swords are arrange here, and a solemn, upright-seated armor sets the austere atmosphere. The Evil-Slaying Bows and Spiritchaser Screen that serve as ornaments have the ceremonial purpose of purging both the surroundings and the hearts of those training there of any wicked thought. Most Inazuman martial artists believe that aside from swinging your sword a thousand times, you only need to maintain the will to sharpen your skills and put your utmost effort into it, and you will surely push yourself to the pinnacle of your art.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Item_Maple_Wood_Floor_Lamp_Clarity.png",
+     "amount": "1",
+     "title": "Maple Wood Floor Lamp: Clarity"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Teahouse_Cushion_Night-Woven.png",
+     "amount": "2",
+     "title": "Teahouse Cushion: Night-Woven"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Teahouse_Folding_Screen_Hidden_Heart_of_Gold.png",
+     "amount": "4",
+     "title": "Teahouse Folding Screen: Hidden Heart of Gold"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Maple_Wood_Ritual_Drum_Festive_Music.png",
+     "amount": "1",
+     "title": "Maple Wood Ritual Drum: Festive Music"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Hatamoto_Armor_Eijin_Genkou.png",
+     "amount": "1",
+     "title": "Hatamoto Armor: Eijin Genkou"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Ancestral_Sword_Rack_Four_Core_Principles.png",
+     "amount": "2",
+     "title": "Ancestral Sword Rack: Four Core Principles"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Item_Evil-Slaying_Bows.png",
+     "amount": "1",
+     "title": "Evil-Slaying Bows"
+    }
+   ],
+   "file": [
+    "a_thousand_swings.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Furnishing_Set_Scholarly_Trove_Display.png",
+   "link": "/wiki/Scholarly_Trove",
+   "title": "Scholarly Trove",
+   "rarity": 4,
+   "adeptal_energy": "840",
+   "load": "1203\u20131495",
+   "category": "Indoor Set",
+   "chars": [
+    "Sangonomiya Kokomi"
+   ],
+   "blueprint": "Remarkable Chest",
+   "description": "A healthy collection of texts has been placed here using the large bookcase preferred by all arms of the Tri-Commission. This could fit at least a hundred books for sure. But to some Inazumans, it is not the number of books that counts, but instead \"precision\" and \"precipitation\"; that is to say that you must deposit every word of each good book you read into your heart. As such, one merely needs to arrange one's books according to how much one values them. For books that you have long ago read and committed to memory, you can lend them or even sell them if you like. They say that the Divine Priestess of Watatsumi Island has this exact habit.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Teahouse_Long_Table_Seamless_Seating.png",
+     "amount": "1",
+     "title": "Teahouse Long Table: Seamless Seating"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Teahouse_Candlestand_Scentless_Flame.png",
+     "amount": "1",
+     "title": "Teahouse Candlestand: Scentless Flame"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Item_Cast_in_Clay.png",
+     "amount": "1",
+     "title": "Cast in Clay"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Calligraphy_Set_Proper_Penmanship.png",
+     "amount": "1",
+     "title": "Calligraphy Set: Proper Penmanship"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Red-Iron_Coral.png",
+     "amount": "1",
+     "title": "Red-Iron Coral"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Teahouse_Cushion_Night-Woven.png",
+     "amount": "1",
+     "title": "Teahouse Cushion: Night-Woven"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Teahouse_Folding_Screen_Hidden_Heart_of_Gold.png",
+     "amount": "2",
+     "title": "Teahouse Folding Screen: Hidden Heart of Gold"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Maple_Wood_Bookcase_Trove_of_a_Thousand_Tomes.png",
+     "amount": "1",
+     "title": "Maple Wood Bookcase: Trove of a Thousand Tomes"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Maple_Wood_Bookcase_Inkheart.png",
+     "amount": "2",
+     "title": "Maple Wood Bookcase: Inkheart"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Item_Maple_Wood_Floor_Lamp_Clarity.png",
+     "amount": "1",
+     "title": "Maple Wood Floor Lamp: Clarity"
+    }
+   ],
+   "file": [
+    "scholarly_trove.png"
+   ]
+  },
+  {
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Furnishing_Set_Of_Maple_and_Tea_Scents_Entwined_Display.png",
+   "link": "/wiki/Of_Maple_and_Tea_Scents_Entwined",
+   "title": "Of Maple and Tea Scents Entwined",
+   "rarity": 4,
+   "adeptal_energy": "630",
+   "load": "1399",
+   "category": "Indoor Set",
+   "chars": [
+    "Thoma",
+    "Kaedehara Kazuha"
+   ],
+   "blueprint": "Realm Depot",
+   "description": "The layout of this traditional Inazuman teahouse has used Komore Teahouse as reference material and has used similar Maple Wood tables and tea ceremony items, all of which evoke that elegant but not overly strict, friendly but not arbitrary atmosphere. Legend has it that various forms of inspiration spring forth unto those who sit in a tea room filled with the fragrance of maple wood and tea. As such, some poets tend to write their poetry while sipping tea, with the white-haired wanderer who gave many plants their elegant nicknames counting amongst this number.",
+   "gift_sets": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Item_Teahouse_Counter_Toshimaru.png",
+     "amount": "1",
+     "title": "Teahouse Counter: \"Toshimaru\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Hyoutei_Stacked_Aralia_Wood_Boxes.png",
+     "amount": "1",
+     "title": "\"Hyoutei\" Stacked Aralia Wood Boxes"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Teahouse_Vessel_Scent-Sealer.png",
+     "amount": "1",
+     "title": "Teahouse Vessel: Scent-Sealer"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Spiritchaser_Screen.png",
+     "amount": "1",
+     "title": "Spiritchaser Screen"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Teahouse_Round_Stool_Pain_Point_Reduction.png",
+     "amount": "3",
+     "title": "Teahouse Round Stool: Pain Point Reduction"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Sekijou_Aralia_Tea_Table.png",
+     "amount": "1",
+     "title": "\"Sekijou\" Aralia Tea Table"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Item_The_Essential_Vase.png",
+     "amount": "1",
+     "title": "The Essential Vase"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Item_Tea_Wisp-Clouded_White_Couch.png",
+     "amount": "1",
+     "title": "\"Tea Wisp-Clouded White Couch\""
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Item_Aralia_Fusen_Cupboard.png",
+     "amount": "1",
+     "title": "Aralia \"Fusen\" Cupboard"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Aralia_Bangaku_Shelf.png",
+     "amount": "1",
+     "title": "Aralia \"Bangaku\" Shelf"
+    }
+   ],
+   "file": [
+    "of_maple_and_tea_scents_entwined.png"
+   ]
+  }
+ ]
+}

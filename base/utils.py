@@ -21,8 +21,8 @@ def paginator(bot: Bot, guild: Guild, data:dict, title:str, field_str: str, limi
                     user = None
                     key = ''
                     if keys_[index].isdigit():
-                        user = get(guild.members, id=int(keys_[index]))                        
-                    print(guild.members,keys_[index] )
+                        user = get(guild.members, id=int(keys_[index]))                
+
                     value = data[keys_[index]]
 
                     if user is not None:

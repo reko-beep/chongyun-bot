@@ -1,0 +1,886 @@
+{
+ "domains": {
+  "forsaken_rift": {
+   "location": "Springvale, Windwail Highland, Mondstadt",
+   "type": "Domains of Mastery",
+   "description": "It is said in ancient times, people would venture into the valley to seek out the ancient tree on the altar. They would whisper their secrets into the tree hole, relieving themselves of the burden of keeping the secrets to themselves. The Forsaken Rift is filled with long-forgotten secrets.",
+   "required_ar": "27/28/36/45",
+   "required_party_level": "38/54/71/88",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Domain_Forsaken_Rift.png",
+   "title": "Forsaken Rift",
+   "id": "forsaken_rift"
+  },
+  "taishan_mansion": {
+   "location": "Jueyun Karst, Minlin, Liyue",
+   "type": "Domains of Mastery",
+   "description": "Once, people who sought the path of the adepti had to pass the trials of heavens and earth. Taishan Mansion served as the trial of \"earth.\" Now that the adepti have long departed from this realm, Taishan Mansion has also turned into a common treasure trove.",
+   "required_ar": "27/28/36/45",
+   "required_party_level": "38/54/71/88",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Domain_Taishan_Mansion.png",
+   "title": "Taishan Mansion",
+   "id": "taishan_mansion"
+  },
+  "violet_court": {
+   "location": "Kannazuka, Inazuma",
+   "type": "Domains of Mastery",
+   "description": "Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven's dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.",
+   "required_ar": "27/28/36/45",
+   "required_party_level": "38/54/71/88",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Domain_Violet_Court.png",
+   "title": "Violet Court",
+   "id": "violet_court"
+  },
+  "cecilia_garden": {
+   "location": "Wolvendom, Windwail Highland, Mondstadt",
+   "type": "Domains of Forgery",
+   "description": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here. The ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+   "required_ar": "16/21/30/40",
+   "required_party_level": "15/36/59/80",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Domain_Cecilia_Garden.png",
+   "title": "Cecilia Garden",
+   "id": "cecilia_garden"
+  },
+  "hidden_palace_of_lianshan_formula": {
+   "location": "Mingyun Village, Qiongji Estuary, Liyue",
+   "type": "Domains of Forgery",
+   "description": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to the curious souls.",
+   "required_ar": "16/21/30/40",
+   "required_party_level": "15/36/59/80",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Domain_Hidden_Palace_of_Lianshan_Formula.png",
+   "title": "Hidden Palace of Lianshan Formula",
+   "id": "hidden_palace_of_lianshan_formula"
+  },
+  "court_of_flowing_sand": {
+   "location": "Mt. Yougou, Narukami Island, Inazuma",
+   "type": "Domains of Forgery",
+   "description": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the obsessions of the past remain.",
+   "required_ar": "16/21/30/40",
+   "required_party_level": "15/36/59/80",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Domain_Court_of_Flowing_Sand.png",
+   "title": "Court of Flowing Sand",
+   "id": "court_of_flowing_sand"
+  }
+ },
+ "rotations": [
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "forsaken_rift",
+   "items": [
+    {
+     "title": "Teachings of Freedom",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png"
+    },
+    {
+     "title": "Guide to Freedom",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png"
+    },
+    {
+     "title": "Philosophies of Freedom",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png"
+    }
+   ],
+   "series": "Freedom Books",
+   "for": [
+    {
+     "title": "Aloy",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Character_Aloy_Thumb.png"
+    },
+    {
+     "title": "Amber",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png"
+    },
+    {
+     "title": "Barbara",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png"
+    },
+    {
+     "title": "Diona",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png"
+    },
+    {
+     "title": "Klee",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png"
+    },
+    {
+     "title": "Sucrose",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png"
+    },
+    {
+     "title": "Tartaglia",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png"
+    }
+   ],
+   "file": "forsaken_rift_monday_thursday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "forsaken_rift",
+   "items": [
+    {
+     "title": "Teachings of Resistance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png"
+    },
+    {
+     "title": "Guide to Resistance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png"
+    },
+    {
+     "title": "Philosophies of Resistance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png"
+    }
+   ],
+   "series": "Resistance Books",
+   "for": [
+    {
+     "title": "Bennett",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png"
+    },
+    {
+     "title": "Diluc",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png"
+    },
+    {
+     "title": "Eula",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Character_Eula_Thumb.png"
+    },
+    {
+     "title": "Jean",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png"
+    },
+    {
+     "title": "Mona",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png"
+    },
+    {
+     "title": "Noelle",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png"
+    },
+    {
+     "title": "Razor",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png"
+    }
+   ],
+   "file": "forsaken_rift_tuesday_friday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "taishan_mansion",
+   "items": [
+    {
+     "title": "Teachings of Prosperity",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png"
+    },
+    {
+     "title": "Guide to Prosperity",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png"
+    },
+    {
+     "title": "Philosophies of Prosperity",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png"
+    }
+   ],
+   "series": "Prosperity Books",
+   "for": [
+    {
+     "title": "Keqing",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png"
+    },
+    {
+     "title": "Ningguang",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png"
+    },
+    {
+     "title": "Qiqi",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png"
+    },
+    {
+     "title": "Shenhe",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Character_Shenhe_Thumb.png"
+    },
+    {
+     "title": "Xiao",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png"
+    }
+   ],
+   "file": "taishan_mansion_monday_thursday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "taishan_mansion",
+   "items": [
+    {
+     "title": "Teachings of Diligence",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png"
+    },
+    {
+     "title": "Guide to Diligence",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png"
+    },
+    {
+     "title": "Philosophies of Diligence",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png"
+    }
+   ],
+   "series": "Diligence Books",
+   "for": [
+    {
+     "title": "Chongyun",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png"
+    },
+    {
+     "title": "Ganyu",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png"
+    },
+    {
+     "title": "Hu Tao",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Hu_Tao_Thumb.png"
+    },
+    {
+     "title": "Kaedehara Kazuha",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png"
+    },
+    {
+     "title": "Xiangling",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png"
+    },
+    {
+     "title": "Yun Jin",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Character_Yun_Jin_Thumb.png"
+    }
+   ],
+   "file": "taishan_mansion_tuesday_friday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "violet_court",
+   "items": [
+    {
+     "title": "Teachings of Transience",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png"
+    },
+    {
+     "title": "Guide to Transience",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png"
+    },
+    {
+     "title": "Philosophies of Transience",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png"
+    }
+   ],
+   "series": "Transience Books",
+   "for": [
+    {
+     "title": "Sangonomiya Kokomi",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png"
+    },
+    {
+     "title": "Thoma",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Thoma_Thumb.png"
+    },
+    {
+     "title": "Yoimiya",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Character_Yoimiya_Thumb.png"
+    }
+   ],
+   "file": "violet_court_monday_thursday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "violet_court",
+   "items": [
+    {
+     "title": "Teachings of Elegance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png"
+    },
+    {
+     "title": "Guide to Elegance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png"
+    },
+    {
+     "title": "Philosophies of Elegance",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png"
+    }
+   ],
+   "series": "Elegance Books",
+   "for": [
+    {
+     "title": "Arataki Itto",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Arataki_Itto_Thumb.png"
+    },
+    {
+     "title": "Kamisato Ayaka",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png"
+    },
+    {
+     "title": "Kamisato Ayato",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Character_Kamisato_Ayato_Thumb.png"
+    },
+    {
+     "title": "Kujou Sara",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kujou_Sara_Thumb.png"
+    }
+   ],
+   "file": "violet_court_tuesday_friday.png",
+   "type": "talents"
+  },
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "cecilia_garden",
+   "items": [
+    {
+     "title": "Tile of Decarabian's Tower",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Tile_of_Decarabian%27s_Tower.png"
+    },
+    {
+     "title": "Debris of Decarabian's City",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Item_Debris_of_Decarabian%27s_City.png"
+    },
+    {
+     "title": "Fragment of Decarabian's Epic",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Fragment_of_Decarabian%27s_Epic.png"
+    },
+    {
+     "title": "Scattered Piece of Decarabian's Dream",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Scattered_Piece_of_Decarabian%27s_Dream.png"
+    }
+   ],
+   "series": "Tile of Decarabian's Tower",
+   "for": [
+    {
+     "title": "Apprentice's Notes",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png"
+    },
+    {
+     "title": "Aquila Favonia",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png"
+    },
+    {
+     "title": "Cinnabar Spindle",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Weapon_Cinnabar_Spindle.png"
+    },
+    {
+     "title": "Cool Steel",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png"
+    },
+    {
+     "title": "Dull Blade",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png"
+    },
+    {
+     "title": "Favonius Codex",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Weapon_Favonius_Codex.png"
+    },
+    {
+     "title": "Favonius Sword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Weapon_Favonius_Sword.png"
+    },
+    {
+     "title": "Ferrous Shadow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Weapon_Ferrous_Shadow.png"
+    },
+    {
+     "title": "Magic Guide",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Magic_Guide.png"
+    },
+    {
+     "title": "Mitternachts Waltz",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Mitternachts_Waltz.png"
+    },
+    {
+     "title": "Pocket Grimoire",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Weapon_Pocket_Grimoire.png"
+    },
+    {
+     "title": "Raven Bow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Weapon_Raven_Bow.png"
+    },
+    {
+     "title": "Royal Grimoire",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png"
+    },
+    {
+     "title": "Royal Longsword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png"
+    },
+    {
+     "title": "Silver Sword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png"
+    },
+    {
+     "title": "Snow-Tombed Starsilver",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Weapon_Snow-Tombed_Starsilver.png"
+    },
+    {
+     "title": "Song of Broken Pines",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Weapon_Song_of_Broken_Pines.png"
+    },
+    {
+     "title": "The Alley Flash",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png"
+    },
+    {
+     "title": "The Bell",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_The_Bell.png"
+    },
+    {
+     "title": "The Stringless",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Weapon_The_Stringless.png"
+    },
+    {
+     "title": "The Viridescent Hunt",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Weapon_The_Viridescent_Hunt.png"
+    }
+   ],
+   "file": "cecilia_garden_monday_thursday.png",
+   "type": "weapon"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "cecilia_garden",
+   "items": [
+    {
+     "title": "Boreal Wolf's Milk Tooth",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Boreal_Wolf%27s_Milk_Tooth.png"
+    },
+    {
+     "title": "Boreal Wolf's Cracked Tooth",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Boreal_Wolf%27s_Cracked_Tooth.png"
+    },
+    {
+     "title": "Boreal Wolf's Broken Fang",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Boreal_Wolf%27s_Broken_Fang.png"
+    },
+    {
+     "title": "Boreal Wolf's Nostalgia",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Boreal_Wolf%27s_Nostalgia.png"
+    }
+   ],
+   "series": "Boreal Wolf's Milk Tooth",
+   "for": [
+    {
+     "title": "Bloodtainted Greatsword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Weapon_Bloodtainted_Greatsword.png"
+    },
+    {
+     "title": "Deathmatch",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Deathmatch.png"
+    },
+    {
+     "title": "Dodoco Tales",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Weapon_Dodoco_Tales.png"
+    },
+    {
+     "title": "Dragonspine Spear",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Weapon_Dragonspine_Spear.png"
+    },
+    {
+     "title": "Elegy for the End",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Weapon_Elegy_for_the_End.png"
+    },
+    {
+     "title": "Harbinger of Dawn",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Weapon_Harbinger_of_Dawn.png"
+    },
+    {
+     "title": "Hunter's Bow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png"
+    },
+    {
+     "title": "Old Merc's Pal",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Old_Merc%27s_Pal.png"
+    },
+    {
+     "title": "Sacrificial Bow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Weapon_Sacrificial_Bow.png"
+    },
+    {
+     "title": "Sacrificial Greatsword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sacrificial_Greatsword.png"
+    },
+    {
+     "title": "Seasoned Hunter's Bow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Seasoned_Hunter%27s_Bow.png"
+    },
+    {
+     "title": "Sharpshooter's Oath",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Weapon_Sharpshooter%27s_Oath.png"
+    },
+    {
+     "title": "Skyward Atlas",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png"
+    },
+    {
+     "title": "Skyward Blade",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png"
+    },
+    {
+     "title": "Skyward Harp",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Skyward_Harp.png"
+    },
+    {
+     "title": "Skyward Pride",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Skyward_Pride.png"
+    },
+    {
+     "title": "Sword of Descension",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sword_of_Descension.png"
+    },
+    {
+     "title": "The Black Sword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_The_Black_Sword.png"
+    },
+    {
+     "title": "The Flute",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png"
+    },
+    {
+     "title": "The Widsith",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Weapon_The_Widsith.png"
+    },
+    {
+     "title": "Thrilling Tales of Dragon Slayers",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Thrilling_Tales_of_Dragon_Slayers.png"
+    },
+    {
+     "title": "Waster Greatsword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png"
+    },
+    {
+     "title": "Wine and Song",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png"
+    }
+   ],
+   "file": "cecilia_garden_tuesday_friday.png",
+   "type": "weapon"
+  },
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "hidden_palace_of_lianshan_formula",
+   "items": [
+    {
+     "title": "Luminous Sands from Guyun",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Luminous_Sands_from_Guyun.png"
+    },
+    {
+     "title": "Lustrous Stone from Guyun",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Lustrous_Stone_from_Guyun.png"
+    },
+    {
+     "title": "Relic from Guyun",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Relic_from_Guyun.png"
+    },
+    {
+     "title": "Divine Body from Guyun",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Divine_Body_from_Guyun.png"
+    }
+   ],
+   "series": "Luminous Sands from Guyun",
+   "for": [
+    {
+     "title": "Blackcliff Agate",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png"
+    },
+    {
+     "title": "Blackcliff Longsword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png"
+    },
+    {
+     "title": "Blackcliff Warbow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png"
+    },
+    {
+     "title": "Crescent Pike",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Crescent_Pike.png"
+    },
+    {
+     "title": "Dark Iron Sword",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Dark_Iron_Sword.png"
+    },
+    {
+     "title": "Emerald Orb",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Weapon_Emerald_Orb.png"
+    },
+    {
+     "title": "Lion's Roar",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png"
+    },
+    {
+     "title": "Lithic Blade",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png"
+    },
+    {
+     "title": "Primordial Jade Winged-Spear",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png"
+    },
+    {
+     "title": "Rust",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Weapon_Rust.png"
+    },
+    {
+     "title": "Slingshot",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Slingshot.png"
+    },
+    {
+     "title": "Solar Pearl",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Solar_Pearl.png"
+    },
+    {
+     "title": "Summit Shaper",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Summit_Shaper.png"
+    },
+    {
+     "title": "White Tassel",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Weapon_White_Tassel.png"
+    },
+    {
+     "title": "Whiteblind",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Weapon_Whiteblind.png"
+    }
+   ],
+   "file": "hidden_palace_of_lianshan_formula_monday_thursday.png",
+   "type": "weapon"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "hidden_palace_of_lianshan_formula",
+   "items": [
+    {
+     "title": "Mist Veiled Lead Elixir",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Mist_Veiled_Lead_Elixir.png"
+    },
+    {
+     "title": "Mist Veiled Mercury Elixir",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Mist_Veiled_Mercury_Elixir.png"
+    },
+    {
+     "title": "Mist Veiled Gold Elixir",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Mist_Veiled_Gold_Elixir.png"
+    },
+    {
+     "title": "Mist Veiled Primo Elixir",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Mist_Veiled_Primo_Elixir.png"
+    }
+   ],
+   "series": "Mist Veiled Lead Elixir",
+   "for": [
+    {
+     "title": "Blackcliff Pole",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png"
+    },
+    {
+     "title": "Blackcliff Slasher",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png"
+    },
+    {
+     "title": "Calamity Queller",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Weapon_Calamity_Queller.png"
+    },
+    {
+     "title": "Debate Club",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Weapon_Debate_Club.png"
+    },
+    {
+     "title": "Dragon's Bane",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Weapon_Dragon%27s_Bane.png"
+    },
+    {
+     "title": "Eye of Perception",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Weapon_Eye_of_Perception.png"
+    },
+    {
+     "title": "Fillet Blade",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_Fillet_Blade.png"
+    },
+    {
+     "title": "Halberd",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Weapon_Halberd.png"
+    },
+    {
+     "title": "Messenger",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Messenger.png"
+    },
+    {
+     "title": "Primordial Jade Cutter",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png"
+    },
+    {
+     "title": "Prototype Amber",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Prototype_Amber.png"
+    },
+    {
+     "title": "Prototype Crescent",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Prototype_Crescent.png"
+    },
+    {
+     "title": "Prototype Rancour",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png"
+    },
+    {
+     "title": "Rainslasher",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Rainslasher.png"
+    },
+    {
+     "title": "Royal Spear",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Royal_Spear.png"
+    },
+    {
+     "title": "The Unforged",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_The_Unforged.png"
+    },
+    {
+     "title": "Twin Nephrite",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Weapon_Twin_Nephrite.png"
+    }
+   ],
+   "file": "hidden_palace_of_lianshan_formula_tuesday_friday.png",
+   "type": "weapon"
+  },
+  {
+   "days": [
+    "Monday",
+    "Thursday"
+   ],
+   "domain_id": "court_of_flowing_sand",
+   "items": [
+    {
+     "title": "Coral Branch of a Distant Sea",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Coral_Branch_of_a_Distant_Sea.png"
+    },
+    {
+     "title": "Jeweled Branch of a Distant Sea",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Item_Jeweled_Branch_of_a_Distant_Sea.png"
+    },
+    {
+     "title": "Jade Branch of a Distant Sea",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Jade_Branch_of_a_Distant_Sea.png"
+    },
+    {
+     "title": "Golden Branch of a Distant Sea",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Golden_Branch_of_a_Distant_Sea.png"
+    }
+   ],
+   "series": "Coral Branch of a Distant Sea",
+   "for": [
+    {
+     "title": "Akuoumaru",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Weapon_Akuoumaru.png"
+    },
+    {
+     "title": "Amenoma Kageuchi",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Weapon_Amenoma_Kageuchi.png"
+    },
+    {
+     "title": "Everlasting Moonglow",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Weapon_Everlasting_Moonglow.png"
+    },
+    {
+     "title": "Hakushin Ring",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Weapon_Hakushin_Ring.png"
+    },
+    {
+     "title": "Mistsplitter Reforged",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Mistsplitter_Reforged.png"
+    },
+    {
+     "title": "Oathsworn Eye",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Weapon_Oathsworn_Eye.png"
+    }
+   ],
+   "file": "court_of_flowing_sand_monday_thursday.png",
+   "type": "weapon"
+  },
+  {
+   "days": [
+    "Tuesday",
+    "Friday"
+   ],
+   "domain_id": "court_of_flowing_sand",
+   "items": [
+    {
+     "title": "Narukami's Wisdom",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Narukami%27s_Wisdom.png"
+    },
+    {
+     "title": "Narukami's Joy",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Narukami%27s_Joy.png"
+    },
+    {
+     "title": "Narukami's Affection",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Item_Narukami%27s_Affection.png"
+    },
+    {
+     "title": "Narukami's Valor",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Narukami%27s_Valor.png"
+    }
+   ],
+   "series": "Narukami's Wisdom",
+   "for": [
+    {
+     "title": "Hamayumi",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Weapon_Hamayumi.png"
+    },
+    {
+     "title": "Haran Geppaku Futsu",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Weapon_Haran_Geppaku_Futsu.png"
+    },
+    {
+     "title": "Katsuragikiri Nagamasa",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Weapon_Katsuragikiri_Nagamasa.png"
+    },
+    {
+     "title": "Mouun's Moon",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Weapon_Mouun%27s_Moon.png"
+    },
+    {
+     "title": "Predator",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Weapon_Predator.png"
+    },
+    {
+     "title": "Redhorn Stonethresher",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Redhorn_Stonethresher.png"
+    },
+    {
+     "title": "Thundering Pulse",
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Thundering_Pulse.png"
+    }
+   ],
+   "file": "court_of_flowing_sand_tuesday_friday.png",
+   "type": "weapon"
+  }
+ ]
+}
