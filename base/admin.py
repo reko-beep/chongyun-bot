@@ -1,7 +1,7 @@
 from json import load, dump
 from nextcord import Member, Embed
 from nextcord.utils import get
-
+from dev_log import logc
 from nextcord.ext.commands import Context
 class Administrator:
     def __init__(self, bot):
@@ -9,7 +9,7 @@ class Administrator:
         self.approve_role = None
         self.member_role = None
         self.approve_channel = None
-        self.scrutiny = self.bot.b_config.get("scrutiny")
+        self.scrutiny = self.bot.b_config.get("scrutiny", True)
     
 
     def check_admin(self, ctx: Context):
@@ -45,13 +45,18 @@ class Administrator:
             return True
 
     async def member_role_check(self, member: Member):
+        print(self.scrutiny)
         if self.scrutiny:     
-            if self.approve_role is None:       
-                await member.edit(roles=[self.approve_role])
+            print('role', self.approve_role)
+            if self.approve_role is not None:  
+                logc('scrutiny is set to', self.scrutiny, '\n', 'role to give', str(self.approve_role))     
+                await member.add_roles(self.approve_role)
                 await self.send_approve_message(member)
         else:
-            if self.member_role is None:   
-                await member.edit(roles=[self.member_role])
+            print('role', self.member_role)
+            if self.member_role is not None:   
+                logc('scrutiny is set to', self.scrutiny, '\n', 'role to give', str(self.member_role))     
+                await member.add_roles(self.member_role)
 
 
         

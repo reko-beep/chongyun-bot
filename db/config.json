@@ -15,5 +15,6 @@
     "approve_role": 0,
     "member_role": 0,
     "approve_channel": 0,
-    "teamcomp_role": 0
+    "teamcomp_role": 0,
+    "scrutiny": true
 }

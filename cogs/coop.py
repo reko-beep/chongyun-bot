@@ -293,16 +293,22 @@ class CoopCog(Cog):
             await ctx.send(embed=embed)
 
         else:
-            if len(args) > 3:
-                check = self.coop.parse_arg(ctx.author, args[0], args[1], args[2], args[3])
-            else:
+            print(args)
+                        
+            if len(args) > 3:   
+                if args[1].strip() == 'description':   
+                    print(args[0], args[1], ''.join(args[2:]))                 
+                    check = self.coop.parse_arg(ctx.author, args[0], args[1], ' '.join(args[2:]))   
+                else:          
+                    check = self.coop.parse_arg(ctx.author, args[0], args[1], args[2], args[3])
+            else:                
                 check = self.coop.parse_arg(ctx.author, args[0], args[1], args[2])
             print(check)
             status = 'added' if args[0] == 'add' else 'remove'
             if args[0] == 'set':
                 status = 'set'
             if type(check) == bool:
-                embed = Embed(title='Co-op profile updated!', description=f'{status.title()} {args[2]} {args[1]} to coop profile!', color=0x707dfa)
+                embed = Embed(title='Co-op profile updated!', description=f'{status.title()} {args[2]} {args[1]} to coop profile!', color=0x707dfa)     
                 await ctx.send(embed=embed)
             else:
                 desc = '\n'.join(check)
