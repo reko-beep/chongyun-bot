@@ -3,7 +3,7 @@ from dis import disco
 from json import load, dump
 from base.resource_manager import ResourceManager
 from base.utils import get_ordered_dicts, paginator
-
+from base.calculator import StatCalculator
 
 from nextcord import Member, Message, Embed
 from nextcord.utils import get
@@ -16,6 +16,8 @@ class CoopManager:
         self.res = bot.resource_manager
         self.coop_path = self.res.db.format(path='coop.json')
         self.coop_data = {}
+        self.calculator = StatCalculator(bot)
+
         self.domains = {
             "boss": [
                 'childe',
@@ -843,7 +845,7 @@ class CoopManager:
 
     def create_char_embeds(self, data: dict):
 
-        embeds = {'characters': [], 'weapons': [], 'artifacts': []}
+        embeds = {'characters': [], 'weapons': [], 'artifacts': [], 'stats': []}
         keys = list(data.keys() )
 
         for i in range(len(data[keys[0]])):
@@ -902,6 +904,30 @@ class CoopManager:
             
             arti_embed.set_footer(text=f"{char['name']} - Artifact Stats")
             embeds['artifacts'].append(arti_embed)
+
+            chars = self.calculator.get_char_stats(char['name'], char['level'], char['rarity'])
+            print(wep['name'])
+            weps = self.calculator.get_weapon_stats(wep['name'], wep['level'], wep['ascension'])
+            
+            total = self.calculator.sum_stats(chars, weps)
+
+            desc_ = f'\n*Character Stat!*\n```css\n'
+            for char_ in chars:
+                desc_ += f"{char_.replace('_',' ',99).upper()}: {chars[char_]}\n"
+            desc_+= f"\n```\n*Weapon {wep['name']} Stats*\n```css\n"
+            for wep in weps:
+                desc_ += f"{wep.replace('_',' ',99).upper()}: {weps[wep]}\n"
+            desc_ += f"\n```\n"
+            sembed = Embed(title=f"Probable Stats without Artifacts", description=f"{char_desc} {desc_}", color=char['embed_color'])
+            total_desc = '```css\n'
+            for t in total:
+                total_desc += f"{t.replace('_',' ',99).upper()}: {total[t]}\n"
+            total_desc += "\n```\n"
+
+            sembed.add_field(name='Stats Sum!', value=total_desc)
+            sembed.set_author(name=char['name'], icon_url=char['thumb'])
+            sembed.set_thumbnail(url=char['thumb'])
+            embeds['stats'].append(sembed)
 
         if len(embeds['characters']) > 0:
             return embeds

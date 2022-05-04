@@ -2,6 +2,7 @@ from posixpath import split
 from nextcord import Embed, File, Guild
 from base.bookmark import Bookmarer
 from base.resource_manager import ResourceManager
+
 from json import load, dump
 from discord.utils import get
 from dev_log import logc
@@ -18,6 +19,7 @@ class Information():
 
         }
         self.bookmark = Bookmarer(bot)
+        
         
         self.load_comps()
     

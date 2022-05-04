@@ -9,11 +9,11 @@ weapon_names = []
 weapon_data = {}
 with open(getcwd()+'/assets/data/weapons.json', 'r') as f:
     weapon_data = load(f)
-
+weapon_names = list(weapon_data.keys())
 def get_weapon_name(wep_name: str):    
 
     for wep in weapon_names:        
-              
+        print(wep_name.lower(), wep.lower(), wep_name.lower() in wep.lower())
         if wep_name.lower() in wep.lower():            
             return wep+'.jpg'
     return ''.join(wep_name)+'_dberror.jpg'
@@ -53,6 +53,8 @@ def download_files():
 
 
 
+
+download_files()
 for wep in weapon_data:
     file = get_filename(wep)
     weapon_data[wep]['file'] = file

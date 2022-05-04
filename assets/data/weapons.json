@@ -636,7 +636,7 @@
    "In the distant past, in a silent city ringed in from all sides,\nCheers erupted to the sound of a lyre and at last pierced the prison of raging winds.\nA certain group, comprised of a youth, a spirit, an archer, a knight and a wandering flame-haired warrior,\nCame and stood before the tower that loomed like a sky-piercing lance,\nThat cast a shadow like that of a titan,\nAnd they swore to be free, and vowed to shatter the rule of the tower's lone tyrant.",
    "The weak and infirm who could not scale the tower instead sang the song that, till now, had only ever been whispered in corners where the wind did not reach,\nAnd that drinking song rose up with force enough to shake the city walls, spurring the heroes on as they climbed...\n\"If someone plucks out your tongue, you can still sing with your eyes.\"\n\"If someone blinds you in both eyes, you can still see with your ears.\"\n\"But if anyone dares to steal your song, the freedom you yearn for,\"\n\"\u2014 That alone, that alone shall never do!\""
   ],
-  "file": "Freedom-Sworn.jpg"
+  "file": "Freedomsworn.jpg"
  },
  "Haran Geppaku Futsu": {
   "image": [
@@ -5888,7 +5888,7 @@
      "amount": "3"
     },
     {
-     "name": "Slime Condensate",
+     "name": "Divining Scroll",
      "amount": "2"
     }
    ],
@@ -5906,7 +5906,7 @@
      "amount": "12"
     },
     {
-     "name": "Slime Condensate",
+     "name": "Divining Scroll",
      "amount": "8"
     }
    ],
@@ -5924,7 +5924,7 @@
      "amount": "6"
     },
     {
-     "name": "Slime Secretions",
+     "name": "Sealed Scroll",
      "amount": "6"
     }
    ],
@@ -5942,7 +5942,7 @@
      "amount": "12"
     },
     {
-     "name": "Slime Secretions",
+     "name": "Sealed Scroll",
      "amount": "9"
     }
    ],
@@ -5960,7 +5960,7 @@
      "amount": "9"
     },
     {
-     "name": "Slime Concentrate",
+     "name": "Forbidden Curse Scroll",
      "amount": "6"
     }
    ],
@@ -5978,7 +5978,7 @@
      "amount": "18"
     },
     {
-     "name": "Slime Concentrate",
+     "name": "Forbidden Curse Scroll",
      "amount": "12"
     }
    ]
@@ -9480,7 +9480,7 @@
    "The hero ended his fruitless journey at last.\nTainted black blood dripped from the blade of his greatsword,\nAs he trudged through now-foreign snowy paths.\nBut when he returned to the great hall of that mountain country,\nNaught but ringing deathly echoes welcomed him.",
    "\"So even here, there is nothing left for me to protect...\"\n\"You who dwell in the heavens, you must wish for naught but to watch our ashen suffering here below.\"\n\"In that case, then let me help you pass the time with a song of iron and blood.\"\nThe outlander left the Starsilver originally meant to shatter snow and wind alike between the frescoes.\nThen, he descended the mountain to search for a land full of war and strife - a place he might paint red with blood."
   ],
-  "file": "Snow-Tombed Starsilver.jpg"
+  "file": "Snow Tombed Starsilver.jpg"
  },
  "Serpent Spine": {
   "image": [
@@ -10568,7 +10568,7 @@
    "\"So then did I forsake the path of strength,\"\n\"Taking up the path of the jellyfish.\"\n\"After a long, long life,\"\n\"I became able to control every organ in my body.\"\n\"So I stopped my own heart,\"\n\"And was not mistaken for fresh fish and sliced open.\"\n\"You may think that I am naught but a salted fish, 'tis true,\"\n\"But allow me to become your strength.\"",
    "\"Now then, you who wield this old one.\"\n\"Hmm...\"\n\"When all the waters flow into the sea,\"\n\"When the final stars go out,\"\n\"When everything returns to the primordial ocean whence they came,\"\n\"Would you try yourself against me?\""
   ],
-  "file": "Luxurious Sea-Lord.jpg"
+  "file": "Luxurious Sea Lord.jpg"
  },
  "Lithic Blade": {
   "image": [
@@ -12472,7 +12472,7 @@
    "Into the depths of the sea the behemoth sank, there to stay forever.",
    "Released from its thundering roars were the people of Liyue."
   ],
-  "file": "Primordial Jade Winged-Spear.jpg"
+  "file": "Primordial Jade Winged Spear.jpg"
  },
  "Calamity Queller": {
   "image": [

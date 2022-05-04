@@ -22,10 +22,10 @@ class Administrator:
                 self.member_role = get(guild.roles, id=self.bot.b_config.get("member_role"))
         if self.approve_role is None:
                 self.approve_role = get(guild.roles, id=self.bot.b_config.get("approve_role"))
+                print("roles loaded", self.approve_role, self.member_role)
         if self.approve_channel is None:
-            self.approve_channel = get(guild.channels, id=self.bot.b_config.get('approve_channel'))
-        print("roles loaded", self.approve_role, self.member_role)
-        print("channels loaded", self.approve_channel)
+            self.approve_channel = get(guild.channels, id=self.bot.b_config.get('approve_channel'))        
+            print("channels loaded", self.approve_channel)
 
 
     async def send_approve_message(self, member:Member):
