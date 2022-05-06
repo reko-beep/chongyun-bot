@@ -3,12 +3,13 @@ from warnings import warn
 from nextcord import Embed, Message, Member
 from nextcord.ext.commands import Cog, Context
 from nextcord.ext import commands
+import random
 
 from core.bot import DevBot
 
 from base.resource_manager import ResourceManager
 from base.information import Information
-from base.paginator import PaginatorList, SwitchPaginator
+from base.paginator import LibenBox, PaginatorList, SwitchPaginator
 from base.coop import CoopManager
  
 from dev_log import logc
@@ -18,6 +19,7 @@ class CoopCog(Cog):
         self.resm = self.bot.resource_manager
         self.inf = self.bot.inf
         self.coop = self.bot.coop
+
 
     @commands.Cog.listener()
     async def on_message(self, message: Message):
@@ -119,9 +121,9 @@ class CoopCog(Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=['gchar', 'gchars'], description='gchar (region)\n shows characters owned from genshin api')
-    async def genshincharacter(self, ctx, region: str):
-
-        member = ctx.author
+    async def genshincharacter(self, ctx, region: str, member:Member=None):
+        if member is None:
+            member = ctx.author
 
         uid = self.coop.get_member_uid(member, region)
         if uid is not None:
@@ -146,9 +148,9 @@ class CoopCog(Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=['gstat', 'gstats'], description='gstat (region)\n shows stats from genshin api')
-    async def genshinstatistics(self, ctx, region: str):
-
-        member = ctx.author
+    async def genshinstatistics(self, ctx, region: str, member:Member=None):
+        if member is None:
+            member = ctx.author
 
         uid = self.coop.get_member_uid(member, region)
         if uid is not None:
@@ -359,8 +361,97 @@ class CoopCog(Cog):
 
         await ctx.send(embed=embed)
 
+    @commands.command(aliases=['lbt'])
+    async def libentoggle(self, ctx):
 
+        if self.bot.admin.check_admin(ctx):
 
+            self.bot.coop.liben.enabled = not self.bot.coop.liben.enabled
+            self.bot.b_config['liben'] = self.bot.coop.liben.enabled
+            self.bot.save_config()
+
+            embed = Embed(title=f'Liben Module Enabled - {self.bot.coop.liben.enabled}', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+            await ctx.send(embed=embed)
+        
+        else:
+
+            embed = Embed(title=f'Not enough perms', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['lb'])
+    async def liben(self, ctx, region:str, box:str):
+
+        if self.coop.liben.enabled:
+
+            boxes = self.coop.liben.get_boxes(ctx.author, region, box)
+
+            if boxes is None:
+
+                embed = Embed(title=f'No boxes found!', description=f'**Box**: {box.title()}\n**Region:** {region.title()}\n\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+                embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+                await ctx.send(embed=embed)
+
+            else:
+
+                box = random.choice(boxes)
+                embed = self.coop.liben.get_random_box_embed(ctx.guild, box)
+                msg = await ctx.send(embed=embed)
+                view = LibenBox(bot=self.bot, user=ctx.author, msg=msg, box=box)
+                await msg.edit(view=view)
+        else:
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['lbadd'])
+    async def libenadd(self, ctx, uid: str, box:str):
+
+        if self.coop.liben.enabled:
+            box_check = self.coop.liben.add_box(ctx.author, uid, box)
+
+            if box_check:
+                
+
+                embed = Embed(title=f'Box added!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                await ctx.send(embed=embed)
+
+            else:
+
+                embed = Embed(title=f'Error!', description=f'Either uid is invalid or boxes are not allowed\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+                await ctx.send(embed=embed)
+        else:
+           
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            await ctx.send(embed=embed)
+        
+
+    @commands.command(aliases=['lbrem'])
+    async def libenremove(self, ctx):
+
+        if self.coop.liben.enabled:
+            box_check = self.coop.liben.remove_box(ctx.author)
+
+            if box_check:
+                
+
+                embed = Embed(title=f'Box removed!', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                await ctx.send(embed=embed)
+
+            else:
+
+                embed = Embed(title=f'Error!', description=f'You dont ahve a box listed', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            await ctx.send(embed=embed)
 
 def setup(bot):
     bot.add_cog(CoopCog(bot))

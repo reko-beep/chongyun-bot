@@ -1,6 +1,7 @@
 
 from dis import disco
 from json import load, dump
+from base.liben import LibenManager
 from base.resource_manager import ResourceManager
 from base.utils import get_ordered_dicts, paginator
 from base.calculator import StatCalculator
@@ -16,6 +17,7 @@ class CoopManager:
         self.res = bot.resource_manager
         self.coop_path = self.res.db.format(path='coop.json')
         self.coop_data = {}
+        self.liben = LibenManager(self.bot)
         self.calculator = StatCalculator(bot)
 
         self.domains = {
@@ -905,9 +907,9 @@ class CoopManager:
             arti_embed.set_footer(text=f"{char['name']} - Artifact Stats")
             embeds['artifacts'].append(arti_embed)
 
-            chars = self.calculator.get_char_stats(char['name'], char['level'], char['rarity'])
+            chars = self.calculator.get_char_stats(char['name'].replace('"','',99), char['level'], char['rarity'])
             print(wep['name'])
-            weps = self.calculator.get_weapon_stats(wep['name'], wep['level'], wep['ascension'])
+            weps = self.calculator.get_weapon_stats(wep['name'].replace('"','',99).replace("'","",99), wep['level'], wep['ascension'])
             
             total = self.calculator.sum_stats(chars, weps)
 

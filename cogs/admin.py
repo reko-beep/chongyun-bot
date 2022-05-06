@@ -51,6 +51,19 @@ class AdminCog(Cog):
             embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=['ac'])
+    async def announcecode(self, ctx, code:str):
+
+        if self.bot.admin.check_admin(ctx):
+            embed, file = self.bot.admin.create_code_embed(code)
+
+            await ctx.send(embed=embed, file=file)
+        else:
+            
+            embed = Embed(title='Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            await ctx.send(embed=embed)
+
 def setup(bot):
     bot.add_cog(AdminCog(bot))
 

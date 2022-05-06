@@ -12,7 +12,9 @@ must be in list
 from re import A
 from nextcord.ui import View, Button, button, Select
 from nextcord import Member, Interaction, Message, Embed, ButtonStyle, SelectOption
+from nextcord.utils import get
 from core.bot import DevBot
+import random
 
 from typing import Optional, List
 
@@ -290,3 +292,43 @@ class BKDelete(Button):
             embed = interaction.message.embeds[0].set_footer(text='This bookmark is now deleted!')
             file = interaction.message.attachments
             await interaction.message.edit(embed=embed,attachments=file,view=self.view)
+
+
+class LibenBox(View):
+    def __init__(self, bot: DevBot, user: Member, msg:Message, box):
+        super().__init__(timeout=60)
+
+        self.box = box
+        self.bot = bot
+        self.user = user
+        self.message = msg
+    
+    @button(label='Claim',style=ButtonStyle.green, emoji='✔️')
+    async def claim(self, button: Button,interaction: Interaction):
+        if interaction.user == self.user:
+            member = get(interaction.guild.members,id=int(self.box['member']))
+            if member is not None:
+                check = self.bot.coop.liben.add_claimed('✅', member, self.box['region'], self.box['box'], self.user)
+                if check:                    
+                    embed = self.bot.coop.liben.get_random_box_embed(interaction.guild, self.box)
+                    self.disable_all()
+                    await interaction.message.edit(embed=embed, view=self)
+
+
+    def disable_all(self):
+        for i in self.children:
+            if hasattr(i, 'disabled'):
+                i.disabled = True
+
+  
+    async def interaction_check(self, interaction: Interaction) -> bool:
+        return interaction.user == self.user
+
+    async def on_timeout(self) -> None:
+        for ui_items in self.children:
+            if hasattr(ui_items, 'disabled'):
+                ui_items.disabled = True
+        await self.message.edit(view=self)
+
+
+

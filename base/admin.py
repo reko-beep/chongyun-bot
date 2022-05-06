@@ -1,8 +1,13 @@
 from json import load, dump
-from nextcord import Member, Embed
+from nextcord import Member, Embed, File
 from nextcord.utils import get
 from dev_log import logc
 from nextcord.ext.commands import Context
+
+from PIL import Image, ImageDraw, ImageFont
+from io import BytesIO
+
+
 class Administrator:
     def __init__(self, bot):
         self.bot  = bot
@@ -59,5 +64,30 @@ class Administrator:
                 await member.add_roles(self.member_role)
 
 
-        
+    def create_code_image(self, code: str):
+    
+        path = self.bot.resource_manager.path.format(path='/misc/code.png')
+        font = self.bot.resource_manager.path.format(path='/misc/font.otf')
+
+        f = ImageFont.truetype(font, 95)
+        img = Image.open(path, 'r').convert('RGBA')
+
+        ImageDraw.Draw(img).text((250, 430), code, fill=(255,255,255), font=f)
+        bytes_ = BytesIO()
+        img.save(bytes_, 'PNG')
+        bytes_.seek(0)
+        return bytes_
+    
+    def create_code_embed(self, code:str):
+
+        embed = Embed(title='Announcement', description=f'\n\n**CODE:**\n```css\n{code.upper()}\n```', color=0x196a87)
+        embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+        embed.set_thumbnail(url=self.bot.user.avatar.url)
+        embed.add_field(name='Link for redeeming code', value=f'https://genshin.hoyoverse.com/en/gift?code={code.upper()}')
+        embed.set_image(url='attachment://code.png')
+        file = File(self.create_code_image(code.upper()), filename='code.png')
+
+        return embed, file
+
+
 
