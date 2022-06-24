@@ -1,0 +1,5750 @@
+{
+ "data": [
+  {
+   "title": "Farewell of Snezhnaya",
+   "featured": [
+    "Tartaglia",
+    "Rosaria",
+    "Barbara",
+    "Fischl"
+   ],
+   "start": "2021-04-06 18:00:00",
+   "end": "2021-04-27 14:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-04-06 18:00:00",
+     "end": "2021-04-27 14:59:59"
+    },
+    "eu": {
+     "start": "2021-04-06 11:00:00",
+     "end": "2021-04-27 07:59:59"
+    },
+    "na": {
+     "start": "2021-04-06 05:00:00",
+     "end": "2021-04-27 01:59:59"
+    }
+   },
+   "5_pity": 9,
+   "4_pity": 10,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Tartaglia",
+     "rarity": 5,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Farewell_of_Snezhnaya_2021-04-06.png"
+  },
+  {
+   "title": "The Heron's Court",
+   "featured": [
+    "Kamisato Ayaka",
+    "Ningguang",
+    "Chongyun",
+    "Yanfei"
+   ],
+   "start": "2021-07-21 11:00:00",
+   "end": "2021-08-10 17:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-07-21 11:00:00",
+     "end": "2021-08-10 17:59:59"
+    },
+    "eu": {
+     "start": "2021-07-21 04:00:00",
+     "end": "2021-08-10 10:59:59"
+    },
+    "na": {
+     "start": "2021-07-20 22:00:00",
+     "end": "2021-08-10 04:59:59"
+    }
+   },
+   "5_pity": 32,
+   "4_pity": 4,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Chongyun",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ningguang",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Greatsword",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Yanfei",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Chongyun",
+     "rarity": 4,
+     "pity": 3,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 3,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ningguang",
+     "rarity": 4,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/The_Heron%27s_Court_2021-07-21.png"
+  },
+  {
+   "title": "Tapestry of Golden Flames",
+   "featured": [
+    "Yoimiya",
+    "Sayu",
+    "Diona",
+    "Xinyan"
+   ],
+   "start": "2021-08-10 18:00:00",
+   "end": "2021-08-31 14:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-08-10 18:00:00",
+     "end": "2021-08-31 14:59:59"
+    },
+    "eu": {
+     "start": "2021-08-10 11:00:00",
+     "end": "2021-08-31 07:59:59"
+    },
+    "na": {
+     "start": "2021-08-10 05:00:00",
+     "end": "2021-08-31 01:59:59"
+    }
+   },
+   "5_pity": 63,
+   "4_pity": 1,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xinyan",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rainslasher",
+     "rarity": 4,
+     "pity": 6,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sayu",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diona",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Tapestry_of_Golden_Flames_2021-08-10.png"
+  },
+  {
+   "title": "Reign of Serenity",
+   "featured": [
+    "Raiden Shogun",
+    "Kujou Sara",
+    "Xiangling",
+    "Sucrose"
+   ],
+   "start": "2021-09-01 11:00:00",
+   "end": "2021-09-21 17:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-09-01 11:00:00",
+     "end": "2021-09-21 17:59:59"
+    },
+    "eu": {
+     "start": "2021-09-01 04:00:00",
+     "end": "2021-09-21 10:59:59"
+    },
+    "na": {
+     "start": "2021-08-31 22:00:00",
+     "end": "2021-09-21 04:59:59"
+    }
+   },
+   "5_pity": 28,
+   "4_pity": 5,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Jean",
+     "rarity": 5,
+     "pity": 77,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xiangling",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Warbow",
+     "rarity": 4,
+     "pity": 4,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sucrose",
+     "rarity": 4,
+     "pity": 4,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sucrose",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xiangling",
+     "rarity": 4,
+     "pity": 7,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sucrose",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Sucrose",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Dragon's Bane",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raiden Shogun",
+     "rarity": 5,
+     "pity": 58,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xiangling",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xiangling",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xiangling",
+     "rarity": 4,
+     "pity": 6,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Reign_of_Serenity_2021-09-01.png"
+  },
+  {
+   "title": "Drifting Luminescence",
+   "featured": [
+    "Sangonomiya Kokomi",
+    "Rosaria",
+    "Beidou",
+    "Xingqiu"
+   ],
+   "start": "2021-09-21 18:00:00",
+   "end": "2021-10-12 14:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-09-21 18:00:00",
+     "end": "2021-10-12 14:59:59"
+    },
+    "eu": {
+     "start": "2021-09-21 11:00:00",
+     "end": "2021-10-12 07:59:59"
+    },
+    "na": {
+     "start": "2021-09-21 05:00:00",
+     "end": "2021-10-12 01:59:59"
+    }
+   },
+   "5_pity": 53,
+   "4_pity": 2,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xingqiu",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Lion's Roar",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Drifting_Luminescence_2021-09-21.png"
+  },
+  {
+   "title": "Secretum Secretorum",
+   "featured": [
+    "Albedo",
+    "Bennett",
+    "Noelle",
+    "Rosaria"
+   ],
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-11-24 11:00:00",
+     "end": "2021-12-14 17:59:59"
+    },
+    "eu": {
+     "start": "2021-11-24 04:00:00",
+     "end": "2021-12-14 10:59:59"
+    },
+    "na": {
+     "start": "2021-11-23 22:00:00",
+     "end": "2021-12-14 04:59:59"
+    }
+   },
+   "5_pity": 77,
+   "4_pity": 4,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 6,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bennett",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 5,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eula",
+     "rarity": 5,
+     "pity": 76,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bennett",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Codex",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bennett",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Bell",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bennett",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 6,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Mona",
+     "rarity": 5,
+     "pity": 78,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Stringless",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Beidou",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Widsith",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Greatsword",
+     "rarity": 4,
+     "pity": 7,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Secretum_Secretorum_2021-11-24.png"
+  },
+  {
+   "title": "Gentry of Hermitage",
+   "featured": [
+    "Zhongli",
+    "Xingqiu",
+    "Beidou",
+    "Yanfei"
+   ],
+   "start": "2022-01-25 18:00:00",
+   "end": "2022-02-15 14:59:59",
+   "times": {
+    "asia": {
+     "start": "2022-01-25 18:00:00",
+     "end": "2022-02-15 14:59:59"
+    },
+    "eu": {
+     "start": "2022-01-25 11:00:00",
+     "end": "2022-02-15 07:59:59"
+    },
+    "na": {
+     "start": "2022-01-25 05:00:00",
+     "end": "2022-02-15 01:59:59"
+    }
+   },
+   "5_pity": 27,
+   "4_pity": 2,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Zhongli",
+     "rarity": 5,
+     "pity": 78,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Flute",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Yanfei",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Barbara",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Yanfei",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Beidou",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diluc",
+     "rarity": 5,
+     "pity": 42,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xingqiu",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xingqiu",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Lance",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Gentry_of_Hermitage_2022-01-25.png"
+  },
+  {
+   "title": "Everbloom Violet",
+   "featured": [
+    "Yae Miko",
+    "Fischl",
+    "Diona",
+    "Thoma"
+   ],
+   "start": "2022-02-16 11:00:00",
+   "end": "2022-03-08 17:59:59",
+   "times": {
+    "asia": {
+     "start": "2022-02-16 11:00:00",
+     "end": "2022-03-08 17:59:59"
+    },
+    "eu": {
+     "start": "2022-02-16 04:00:00",
+     "end": "2022-03-08 10:59:59"
+    },
+    "na": {
+     "start": "2022-02-15 22:00:00",
+     "end": "2022-03-08 04:59:59"
+    }
+   },
+   "5_pity": 39,
+   "4_pity": 7,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Fischl",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thoma",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Lion's Roar",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Fischl",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Flute",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Yae Miko",
+     "rarity": 5,
+     "pity": 78,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diona",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diona",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diona",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Fischl",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": true,
+   "5050": 0,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Everbloom_Violet_2022-02-16.png"
+  },
+  {
+   "title": "The Heron's Court",
+   "featured": [
+    "Kamisato Ayaka",
+    "Razor",
+    "Rosaria",
+    "Sayu"
+   ],
+   "start": "2022-04-19 18:00:00",
+   "end": "2022-05-31 05:59:59",
+   "times": {
+    "asia": {
+     "start": "2022-04-19 18:00:00",
+     "end": "2022-05-31 05:59:59"
+    },
+    "eu": {
+     "start": "2022-04-19 11:00:00",
+     "end": "2022-05-30 22:59:59"
+    },
+    "na": {
+     "start": "2022-04-19 05:00:00",
+     "end": "2022-05-30 16:59:59"
+    }
+   },
+   "5_pity": 10,
+   "4_pity": 4,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rosaria",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 5,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Razor",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Razor",
+     "rarity": 4,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sayu",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Razor",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Kamisato Ayaka",
+     "rarity": 5,
+     "pity": 79,
+     "at_fifty": true
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Razor",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 1,
+   "type": "characters",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/The_Heron%27s_Court_2022-04-19.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "featured": [
+    "Thundering Pulse",
+    "Skyward Blade",
+    "Sacrificial Sword",
+    "Rainslasher",
+    "Dragon's Bane",
+    "Sacrificial Fragments",
+    "Favonius Warbow"
+   ],
+   "start": "2021-08-10 18:00:00",
+   "end": "2021-08-31 14:59:59",
+   "times": {
+    "asia": {
+     "start": "2021-08-10 18:00:00",
+     "end": "2021-08-31 14:59:59"
+    },
+    "eu": {
+     "start": "2021-08-10 11:00:00",
+     "end": "2021-08-31 07:59:59"
+    },
+    "na": {
+     "start": "2021-08-10 05:00:00",
+     "end": "2021-08-31 01:59:59"
+    }
+   },
+   "5_pity": 14,
+   "4_pity": 6,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Bell",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "weapons",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Epitome_Invocation_2021-08-10.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "featured": [
+    "Polar Star",
+    "Memory of Dust",
+    "Akuoumaru",
+    "Favonius Sword",
+    "Favonius Lance",
+    "Eye of Perception",
+    "Rust"
+   ],
+   "start": "2021-10-13 11:00:00",
+   "end": "2021-11-02 17:59:00",
+   "times": {
+    "asia": {
+     "start": "2021-10-13 11:00:00",
+     "end": "2021-11-02 17:59:00"
+    },
+    "eu": {
+     "start": "2021-10-13 04:00:00",
+     "end": "2021-11-02 10:59:00"
+    },
+    "na": {
+     "start": "2021-10-12 22:00:00",
+     "end": "2021-11-02 04:59:00"
+    }
+   },
+   "5_pity": 34,
+   "4_pity": 3,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rust",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 7,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "weapons",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Epitome_Invocation_2021-10-13.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "featured": [
+    "Kagura's Verity",
+    "Primordial Jade Cutter",
+    "Wavebreaker's Fin",
+    "Sacrificial Sword",
+    "Rainslasher",
+    "Eye of Perception",
+    "The Stringless"
+   ],
+   "start": "2022-02-16 11:00:00",
+   "end": "2022-03-08 17:59:59",
+   "times": {
+    "asia": {
+     "start": "2022-02-16 11:00:00",
+     "end": "2022-03-08 17:59:59"
+    },
+    "eu": {
+     "start": "2022-02-16 04:00:00",
+     "end": "2022-03-08 10:59:59"
+    },
+    "na": {
+     "start": "2022-02-15 22:00:00",
+     "end": "2022-03-08 04:59:59"
+    }
+   },
+   "5_pity": 54,
+   "4_pity": 8,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rainslasher",
+     "rarity": 4,
+     "pity": 5,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Wavebreaker's Fin",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "weapons",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Epitome_Invocation_2022-02-16.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "featured": [
+    "Mistsplitter Reforged",
+    "The Unforged",
+    "Favonius Sword",
+    "The Bell",
+    "Favonius Lance",
+    "Favonius Codex",
+    "Favonius Warbow"
+   ],
+   "start": "2022-04-19 18:00:00",
+   "end": "2022-05-31 05:59:59",
+   "times": {
+    "asia": {
+     "start": "2022-04-19 18:00:00",
+     "end": "2022-05-31 05:59:59"
+    },
+    "eu": {
+     "start": "2022-04-19 11:00:00",
+     "end": "2022-05-30 22:59:59"
+    },
+    "na": {
+     "start": "2022-04-19 05:00:00",
+     "end": "2022-05-30 16:59:59"
+    }
+   },
+   "5_pity": 9,
+   "4_pity": 4,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Favonius Warbow",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Codex",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Amos' Bow",
+     "rarity": 5,
+     "pity": 65,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "weapons",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Epitome_Invocation_2022-04-19.png"
+  },
+  {
+   "title": "Wanderlust Invocation",
+   "featured": [],
+   "start": "2020-09-28 10:00:00",
+   "end": "",
+   "times": {
+    "asia": {
+     "start": "2020-09-28 10:00:00"
+    },
+    "eu": {
+     "start": "2020-09-28 03:00:00"
+    },
+    "na": {
+     "start": "2020-09-27 21:00:00"
+    }
+   },
+   "5_pity": 1,
+   "4_pity": 4,
+   "pity": 0,
+   "pulls": [
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Bell",
+     "rarity": 4,
+     "pity": 5,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Stringless",
+     "rarity": 4,
+     "pity": 4,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Xinyan",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sacrificial Fragments",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Amber",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Lisa",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Primordial Jade Winged-Spear",
+     "rarity": 5,
+     "pity": 44,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Dragon's Bane",
+     "rarity": 4,
+     "pity": 8,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Lance",
+     "rarity": 4,
+     "pity": 3,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bennett",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Chongyun",
+     "rarity": 4,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Sword",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Favonius Warbow",
+     "rarity": 4,
+     "pity": 7,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Chongyun",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "The Widsith",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Ferrous Shadow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Kujou Sara",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Rust",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diluc",
+     "rarity": 5,
+     "pity": 78,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Noelle",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Lion's Roar",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Magic Guide",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Amber",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Fischl",
+     "rarity": 4,
+     "pity": 2,
+     "at_fifty": false
+    },
+    {
+     "name": "Chongyun",
+     "rarity": 4,
+     "pity": 1,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Diona",
+     "rarity": 4,
+     "pity": 4,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Eye of Perception",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Bloodtainted Greatsword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Kujou Sara",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Cool Steel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Skyrider Sword",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sacrificial Sword",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Slingshot",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Black Tassel",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Emerald Orb",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Kujou Sara",
+     "rarity": 4,
+     "pity": 9,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Harbinger of Dawn",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Debate Club",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Sharpshooter's Oath",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Dragon's Bane",
+     "rarity": 4,
+     "pity": 10,
+     "at_fifty": false
+    },
+    {
+     "name": "Raven Bow",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Thrilling Tales of Dragon Slayers",
+     "rarity": 3,
+     "pity": 0,
+     "at_fifty": false
+    },
+    {
+     "name": "Primordial Jade Winged-Spear",
+     "rarity": 5,
+     "pity": 78,
+     "at_fifty": false
+    }
+   ],
+   "rateup": false,
+   "5050": 0,
+   "type": "standard",
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Wanderlust_Invocation_2020-11-11.png"
+  }
+ ],
+ "characters": {
+  "5050": 1,
+  "primogems": 92320,
+  "pulls": 577,
+  "5_pity": 10,
+  "4_pity": 4,
+  "5star_items": [
+   "0|Tartaglia",
+   "0|Jean",
+   "0|Raiden Shogun",
+   "0|Eula",
+   "0|Mona",
+   "0|Zhongli",
+   "0|Diluc",
+   "0|Yae Miko",
+   "0|Kamisato Ayaka"
+  ],
+  "4star_items": [
+   "1|Rosaria",
+   "10|Chongyun",
+   "9|Ningguang",
+   "1|Favonius Greatsword",
+   "1|Yanfei",
+   "3|Chongyun",
+   "3|Eye of Perception",
+   "2|Ningguang",
+   "9|Xinyan",
+   "6|Rainslasher",
+   "10|Sayu",
+   "9|Diona",
+   "9|Favonius Sword",
+   "9|Xiangling",
+   "4|Favonius Warbow",
+   "4|Sucrose",
+   "9|Sucrose",
+   "7|Xiangling",
+   "10|Eye of Perception",
+   "9|Sucrose",
+   "1|Sucrose",
+   "9|Dragon's Bane",
+   "9|Xiangling",
+   "10|Xiangling",
+   "6|Xiangling",
+   "9|Favonius Sword",
+   "9|Xingqiu",
+   "10|Lion's Roar",
+   "6|Rosaria",
+   "9|Bennett",
+   "5|Rosaria",
+   "10|Bennett",
+   "10|Favonius Codex",
+   "10|Bennett",
+   "10|The Bell",
+   "9|Noelle",
+   "9|Eye of Perception",
+   "9|Bennett",
+   "6|Noelle",
+   "9|Rosaria",
+   "9|Noelle",
+   "10|The Stringless",
+   "1|Rosaria",
+   "8|Beidou",
+   "9|Noelle",
+   "10|The Widsith",
+   "10|Noelle",
+   "7|Favonius Greatsword",
+   "10|Rosaria",
+   "9|The Flute",
+   "8|Yanfei",
+   "9|Barbara",
+   "9|Yanfei",
+   "9|Beidou",
+   "10|Xingqiu",
+   "9|Xingqiu",
+   "9|Favonius Lance",
+   "9|Fischl",
+   "9|Thoma",
+   "9|Lion's Roar",
+   "10|Fischl",
+   "10|The Flute",
+   "9|Diona",
+   "9|Diona",
+   "10|Diona",
+   "10|Fischl",
+   "10|Rosaria",
+   "5|Favonius Sword",
+   "9|Razor",
+   "2|Razor",
+   "9|Sayu",
+   "9|Razor",
+   "9|Razor"
+  ]
+ },
+ "weapons": {
+  "5050": 0,
+  "primogems": 11680,
+  "pulls": 73,
+  "5_pity": 9,
+  "4_pity": 4,
+  "5star_items": [
+   "0|Amos' Bow"
+  ],
+  "4star_items": [
+   "8|The Bell",
+   "8|Favonius Sword",
+   "8|Rust",
+   "7|Eye of Perception",
+   "5|Rainslasher",
+   "2|Eye of Perception",
+   "8|Wavebreaker's Fin",
+   "8|Favonius Warbow",
+   "8|Favonius Codex",
+   "8|Favonius Sword"
+  ]
+ },
+ "novice": {
+  "5050": 0,
+  "primogems": 0,
+  "pulls": 0,
+  "5_pity": 0,
+  "4_pity": 0,
+  "5star_items": [],
+  "4star_items": []
+ },
+ "standard": {
+  "5050": 0,
+  "primogems": 32000,
+  "pulls": 200,
+  "5_pity": 1,
+  "4_pity": 4,
+  "5star_items": [
+   "0|Primordial Jade Winged-Spear",
+   "0|Diluc",
+   "0|Primordial Jade Winged-Spear"
+  ],
+  "4star_items": [
+   "5|The Bell",
+   "4|The Stringless",
+   "9|Xinyan",
+   "10|Sacrificial Fragments",
+   "9|Amber",
+   "1|Eye of Perception",
+   "1|Lisa",
+   "8|Dragon's Bane",
+   "3|Favonius Lance",
+   "9|Bennett",
+   "2|Chongyun",
+   "9|Favonius Sword",
+   "7|Favonius Warbow",
+   "10|Chongyun",
+   "9|The Widsith",
+   "9|Kujou Sara",
+   "10|Rust",
+   "9|Noelle",
+   "10|Lion's Roar",
+   "9|Amber",
+   "2|Fischl",
+   "1|Chongyun",
+   "4|Diona",
+   "9|Eye of Perception",
+   "10|Kujou Sara",
+   "9|Sacrificial Sword",
+   "9|Kujou Sara",
+   "10|Dragon's Bane"
+  ]
+ }
+}

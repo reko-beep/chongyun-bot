@@ -2,7 +2,7 @@
  "Albedo": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Albedo_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Albedo_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png"
   ],
@@ -19,15 +19,11 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "December 23, 202015\u00a0months ago",
+  "releaseDate": "December 23, 202017\u00a0months ago",
   "dish": "Woodland Dream",
-  "parents": [
-   "Rhinedottir"
-  ],
   "obtain": [
    "Event Wish - Secretum Secretorum"
   ],
-  "siblings": "Durin, Primordial Albedo, Rifthounds (\"Brother\", Rhinedottir's other creations)",
   "constellations": {
    "1": {
     "name": "Flower of Eden",
@@ -62,7 +58,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Talent_Favonius_Bladework_-_Weiss.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Sword_Geo.png",
     "name": "Favonius Bladework - Weiss",
     "type": "Normal Attack"
    },
@@ -121,16 +117,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "2"
-    },
-    {
      "name": "Cecilia",
      "amount": "10"
     },
     {
      "name": "Divining Scroll",
      "amount": "15"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "2"
     }
    ],
    "3": [
@@ -143,16 +139,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "4"
-    },
-    {
      "name": "Cecilia",
      "amount": "20"
     },
     {
      "name": "Sealed Scroll",
      "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "4"
     }
    ],
    "4": [
@@ -165,16 +161,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "8"
-    },
-    {
      "name": "Cecilia",
      "amount": "30"
     },
     {
      "name": "Sealed Scroll",
      "amount": "18"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "8"
     }
    ],
    "5": [
@@ -187,15 +183,15 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "12"
-    },
-    {
      "name": "Cecilia",
      "amount": "45"
     },
     {
      "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
      "amount": "12"
     }
    ],
@@ -209,16 +205,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "20"
-    },
-    {
      "name": "Cecilia",
      "amount": "60"
     },
     {
      "name": "Forbidden Curse Scroll",
      "amount": "24"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "20"
     }
    ]
   },
@@ -228,7 +224,7 @@
  "Aloy": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Character_Aloy_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Aloy_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Character_Aloy_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Aloy_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Character_Aloy_Thumb.png"
   ],
@@ -241,7 +237,7 @@
   ],
   "birthday": "April 4th",
   "affiliation": [],
-  "releaseDate": "September 01, 20216\u00a0months ago",
+  "releaseDate": "September 01, 20219\u00a0months ago",
   "dish": "Satiety Gel",
   "obtain": [
    "[1]"
@@ -280,7 +276,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Talent_Rapid_Fire.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Bow_Cryo.png",
     "name": "Rapid Fire",
     "type": "Normal Attack"
    },
@@ -339,16 +335,16 @@
      "amount": "3"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "2"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "10"
     },
     {
      "name": "Spectral Husk",
      "amount": "15"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "2"
     }
    ],
    "3": [
@@ -361,16 +357,16 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "4"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "20"
     },
     {
      "name": "Spectral Heart",
      "amount": "12"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "4"
     }
    ],
    "4": [
@@ -383,16 +379,16 @@
      "amount": "3"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "8"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "30"
     },
     {
      "name": "Spectral Heart",
      "amount": "18"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "8"
     }
    ],
    "5": [
@@ -405,15 +401,15 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "12"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "45"
     },
     {
      "name": "Spectral Nucleus",
+     "amount": "12"
+    },
+    {
+     "name": "Crystalline Bloom",
      "amount": "12"
     }
    ],
@@ -427,16 +423,16 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "20"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "60"
     },
     {
      "name": "Spectral Nucleus",
      "amount": "24"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "20"
     }
    ]
   },
@@ -446,7 +442,7 @@
  "Amber": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Amber_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Character_Amber_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png"
   ],
@@ -463,7 +459,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Outrider's Champion Steak!",
   "obtain": [
    "Winds of the Past",
@@ -504,7 +500,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Talent_Sharpshooter.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Bow_Pyro.png",
     "name": "Sharpshooter",
     "type": "Normal Attack"
    },
@@ -563,16 +559,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "10"
     },
     {
      "name": "Firm Arrowhead",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -585,16 +581,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "20"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -607,16 +603,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "30"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -629,15 +625,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "45"
     },
     {
      "name": "Weathered Arrowhead",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -651,16 +647,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "60"
     },
     {
      "name": "Weathered Arrowhead",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -670,7 +666,7 @@
  "Arataki Itto": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Arataki_Itto_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Arataki_Itto_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Arataki_Itto_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Character_Arataki_Itto_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Arataki_Itto_Thumb.png"
   ],
@@ -689,7 +685,7 @@
    "Oni",
    "Youkai"
   ],
-  "releaseDate": "December 14, 20213\u00a0months ago",
+  "releaseDate": "December 14, 20215\u00a0months ago",
   "dish": "Way of the Strong",
   "obtain": [
    "Event Wish - Oni's Royale"
@@ -728,7 +724,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Talent_Fight_Club_Legend.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Claymore_Geo.png",
     "name": "Fight Club Legend",
     "type": "Normal Attack"
    },
@@ -787,16 +783,16 @@
      "amount": "3"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "2"
-    },
-    {
      "name": "Onikabuto",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "2"
     }
    ],
    "3": [
@@ -809,16 +805,16 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "4"
-    },
-    {
      "name": "Onikabuto",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "4"
     }
    ],
    "4": [
@@ -831,16 +827,16 @@
      "amount": "3"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "8"
-    },
-    {
      "name": "Onikabuto",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "8"
     }
    ],
    "5": [
@@ -853,15 +849,15 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "12"
-    },
-    {
      "name": "Onikabuto",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Riftborn Regalia",
      "amount": "12"
     }
    ],
@@ -875,16 +871,16 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "20"
-    },
-    {
      "name": "Onikabuto",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "20"
     }
    ]
   },
@@ -894,7 +890,7 @@
  "Barbara": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Barbara_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Barbara_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png"
   ],
@@ -910,18 +906,13 @@
   "affiliation": [
    "Church of Favonius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Spicy Stew",
-  "parents": [
-   "Frederica Gunnhildr",
-   "Seamus Pegg"
-  ],
   "obtain": [
    "Wishes",
    "Baptism of Song",
    "Paimon's Bargains"
   ],
-  "siblings": "Jean Gunnhildr (Sister)",
   "ancestry": [
    "Gunnhildr Clan"
   ],
@@ -959,7 +950,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Whisper_of_Water.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Catalyst_Hydro.png",
     "name": "Whisper of Water",
     "type": "Normal Attack"
    },
@@ -1018,16 +1009,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "2"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "10"
     },
     {
      "name": "Divining Scroll",
      "amount": "15"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -1040,16 +1031,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "4"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "20"
     },
     {
      "name": "Sealed Scroll",
      "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -1062,16 +1053,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "8"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "30"
     },
     {
      "name": "Sealed Scroll",
      "amount": "18"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -1084,15 +1075,15 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "12"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "45"
     },
     {
      "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
      "amount": "12"
     }
    ],
@@ -1106,16 +1097,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "20"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "60"
     },
     {
      "name": "Forbidden Curse Scroll",
      "amount": "24"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "20"
     }
    ]
   },
@@ -1125,7 +1116,7 @@
  "Beidou": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Character_Beidou_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Beidou_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png"
   ],
@@ -1141,7 +1132,7 @@
   "affiliation": [
    "The Crux"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Flash-Fried Filet",
   "obtain": [
    "Wishes",
@@ -1181,7 +1172,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Talent_Oceanborne.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Claymore_Electro.png",
     "name": "Oceanborne",
     "type": "Normal Attack"
    },
@@ -1240,16 +1231,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "2"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "2"
     }
    ],
    "3": [
@@ -1262,16 +1253,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "4"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "4"
     }
    ],
    "4": [
@@ -1284,16 +1275,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "8"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "8"
     }
    ],
    "5": [
@@ -1306,15 +1297,15 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "12"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
      "amount": "12"
     }
    ],
@@ -1328,16 +1319,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "20"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "20"
     }
    ]
   },
@@ -1347,7 +1338,7 @@
  "Bennett": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Character_Bennett_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Bennett_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png"
   ],
@@ -1364,7 +1355,7 @@
    "Adventurers' Guild",
    "Benny's Adventure Team"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Teyvat Charred Egg",
   "obtain": [
    "Wishes",
@@ -1397,14 +1388,14 @@
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Constellation_True_Explorer.png"
    },
    "6": {
-    "name": "Fire Ventures with Me",
+    "name": "Fire Ventures With Me",
     "effect": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Constellation_Fire_Ventures_with_Me.png"
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Constellation_Fire_Ventures_With_Me.png"
    }
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Strike_of_Fortune.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Sword_Pyro.png",
     "name": "Strike of Fortune",
     "type": "Normal Attack"
    },
@@ -1463,16 +1454,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -1485,16 +1476,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -1507,16 +1498,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -1529,15 +1520,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -1551,16 +1542,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -1570,7 +1561,7 @@
  "Chongyun": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Character_Chongyun_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Character_Chongyun_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png"
   ],
@@ -1584,7 +1575,7 @@
   "birthday": "September 7th",
   "region": "Liyue",
   "affiliation": [],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Cold Noodles with Mountain Delicacies",
   "obtain": [
    "Wishes"
@@ -1623,7 +1614,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Demonbane.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Claymore_Cryo.png",
     "name": "Demonbane",
     "type": "Normal Attack"
    },
@@ -1682,16 +1673,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -1704,16 +1695,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -1726,16 +1717,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -1748,15 +1739,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -1770,16 +1761,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -1789,7 +1780,7 @@
  "Diluc": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Character_Diluc_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png"
   ],
@@ -1807,15 +1798,11 @@
    "Dawn Winery",
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "\"Once Upon a Time in Mondstadt\"",
-  "parents": [
-   "Crepus Ragnvindr"
-  ],
   "obtain": [
    "Wishes"
   ],
-  "siblings": "Kaeya (Adoptive Brother)[4]",
   "ancestry": [
    "Ragnvindr Clan"
   ],
@@ -1853,7 +1840,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Tempered_Sword.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Claymore_Pyro.png",
     "name": "Tempered Sword",
     "type": "Normal Attack"
    },
@@ -1912,16 +1899,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "10"
     },
     {
      "name": "Recruit's Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -1934,16 +1921,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "20"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -1956,16 +1943,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "30"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -1978,15 +1965,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "45"
     },
     {
      "name": "Lieutenant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -2000,16 +1987,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "60"
     },
     {
      "name": "Lieutenant's Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -2019,7 +2006,7 @@
  "Diona": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Character_Diona_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Diona_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png"
   ],
@@ -2033,14 +2020,11 @@
   "birthday": "January 18th",
   "region": "Mondstadt",
   "affiliation": [
-   "Cat's Tail",
+   "The Cat's Tail",
    "K\u00e4tzlein Bloodline"
   ],
-  "releaseDate": "November 11, 202016\u00a0months ago",
+  "releaseDate": "November 11, 202018\u00a0months ago",
   "dish": "Definitely Not Bar Food!",
-  "parents": [
-   "Draff"
-  ],
   "obtain": [
    "Wishes"
   ],
@@ -2069,9 +2053,9 @@
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Constellation_Wine_Industry_Slayer.png"
    },
    "5": {
-    "name": "Double Shot, On The Rocks",
+    "name": "Double Shot, on the Rocks",
     "effect": "Increases the Level of Icy Paws by 3.Maximum upgrade level is 15.",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Constellation_Double_Shot%2C_On_The_Rocks.png"
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Constellation_Double_Shot%2C_on_the_Rocks.png"
    },
    "6": {
     "name": "Cat's Tail Closing Time",
@@ -2081,7 +2065,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_K%C3%A4tzlein_Style.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Bow_Cryo.png",
     "name": "K\u00e4tzlein Style",
     "type": "Normal Attack"
    },
@@ -2140,16 +2124,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Calla Lily",
      "amount": "10"
     },
     {
      "name": "Firm Arrowhead",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -2162,16 +2146,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Calla Lily",
      "amount": "20"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -2184,16 +2168,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Calla Lily",
      "amount": "30"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -2206,15 +2190,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Calla Lily",
      "amount": "45"
     },
     {
      "name": "Weathered Arrowhead",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -2228,16 +2212,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Calla Lily",
      "amount": "60"
     },
     {
      "name": "Weathered Arrowhead",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -2247,7 +2231,7 @@
  "Eula": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Character_Eula_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Eula_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Eula_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Eula_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Character_Eula_Thumb.png"
   ],
@@ -2265,7 +2249,7 @@
    "Knights of Favonius",
    "Lawrence Clan"
   ],
-  "releaseDate": "May 18, 202110\u00a0months ago",
+  "releaseDate": "May 18, 202112\u00a0months ago",
   "dish": "Stormcrest Pie",
   "obtain": [
    "Event Wish - Born of Ocean Swell"
@@ -2307,7 +2291,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Talent_Favonius_Bladework_-_Edel.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Claymore_Cryo.png",
     "name": "Favonius Bladework - Edel",
     "type": "Normal Attack"
    },
@@ -2366,16 +2350,16 @@
      "amount": "3"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "2"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "2"
     }
    ],
    "3": [
@@ -2388,16 +2372,16 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "4"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "4"
     }
    ],
    "4": [
@@ -2410,16 +2394,16 @@
      "amount": "3"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "8"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "8"
     }
    ],
    "5": [
@@ -2432,15 +2416,15 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "12"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Crystalline Bloom",
      "amount": "12"
     }
    ],
@@ -2454,16 +2438,16 @@
      "amount": "6"
     },
     {
-     "name": "Crystalline Bloom",
-     "amount": "20"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Crystalline Bloom",
+     "amount": "20"
     }
    ]
   },
@@ -2473,7 +2457,7 @@
  "Fischl": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Fischl_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Fischl_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png"
   ],
@@ -2489,7 +2473,7 @@
   "affiliation": [
    "Adventurers' Guild"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Die Heilige Sinfonie",
   "obtain": [
    "Wishes",
@@ -2529,7 +2513,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Bow_Electro.png",
     "name": "Bolts of Downfall",
     "type": "Normal Attack"
    },
@@ -2588,16 +2572,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "2"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "10"
     },
     {
      "name": "Firm Arrowhead",
      "amount": "15"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "2"
     }
    ],
    "3": [
@@ -2610,16 +2594,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "4"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "20"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "4"
     }
    ],
    "4": [
@@ -2632,16 +2616,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "8"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "30"
     },
     {
      "name": "Sharp Arrowhead",
      "amount": "18"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "8"
     }
    ],
    "5": [
@@ -2654,15 +2638,15 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "12"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "45"
     },
     {
      "name": "Weathered Arrowhead",
+     "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
      "amount": "12"
     }
    ],
@@ -2676,16 +2660,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "20"
-    },
-    {
      "name": "Small Lamp Grass",
      "amount": "60"
     },
     {
      "name": "Weathered Arrowhead",
      "amount": "24"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "20"
     }
    ]
   },
@@ -2695,7 +2679,7 @@
  "Ganyu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Ganyu_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Character_Ganyu_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png"
   ],
@@ -2711,10 +2695,10 @@
   "region": "Liyue",
   "affiliation": [
    "Yuehai Pavilion",
-   "Liyue Qixing",
+   "Liyue Qixing Employees",
    "Adepti"
   ],
-  "releaseDate": "January 12, 202114\u00a0months ago",
+  "releaseDate": "January 12, 202116\u00a0months ago",
   "dish": "Prosperous Peace",
   "obtain": [
    "Event Wish - Adrift in the Harbor"
@@ -2753,7 +2737,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Talent_Liutian_Archery.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Bow_Cryo.png",
     "name": "Liutian Archery",
     "type": "Normal Attack"
    },
@@ -2812,16 +2796,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Qingxin",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -2834,16 +2818,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Qingxin",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -2856,16 +2840,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Qingxin",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -2878,15 +2862,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Qingxin",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -2900,16 +2884,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Qingxin",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -2919,7 +2903,7 @@
  "Gorou": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Character_Gorou_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Character_Gorou_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Gorou_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Gorou_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Character_Gorou_Thumb.png"
   ],
@@ -2933,9 +2917,10 @@
   "birthday": "May 18th",
   "region": "Inazuma",
   "affiliation": [
+   "Watatsumi Island",
    "Watatsumi Army"
   ],
-  "releaseDate": "December 14, 20213\u00a0months ago",
+  "releaseDate": "December 14, 20215\u00a0months ago",
   "dish": "Victorious Legend",
   "obtain": [
    "Wishes"
@@ -2974,7 +2959,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Ripping_Fang_Fletching.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Bow_Geo.png",
     "name": "Ripping Fang Fletching",
     "type": "Normal Attack"
    },
@@ -3033,16 +3018,16 @@
      "amount": "3"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "2"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "10"
     },
     {
      "name": "Spectral Husk",
      "amount": "15"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -3055,16 +3040,16 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "4"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "20"
     },
     {
      "name": "Spectral Heart",
      "amount": "12"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -3077,16 +3062,16 @@
      "amount": "3"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "8"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "30"
     },
     {
      "name": "Spectral Heart",
      "amount": "18"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -3099,15 +3084,15 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "12"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "45"
     },
     {
      "name": "Spectral Nucleus",
+     "amount": "12"
+    },
+    {
+     "name": "Perpetual Heart",
      "amount": "12"
     }
    ],
@@ -3121,16 +3106,16 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "20"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "60"
     },
     {
      "name": "Spectral Nucleus",
      "amount": "24"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "20"
     }
    ]
   },
@@ -3140,7 +3125,7 @@
  "Hutao": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Character_Hu_Tao_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Hu_Tao_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Hu_Tao_Thumb.png"
   ],
@@ -3158,7 +3143,7 @@
    "Wangsheng Funeral Parlor",
    "Hu Family"
   ],
-  "releaseDate": "March 02, 202112\u00a0months ago",
+  "releaseDate": "March 02, 202115\u00a0months ago",
   "dish": "Ghostly March",
   "obtain": [
    "Event Wish - Moment of Bloom"
@@ -3200,7 +3185,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Secret_Spear_of_Wangsheng.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Polearm_Pyro.png",
     "name": "Secret Spear of Wangsheng",
     "type": "Normal Attack"
    },
@@ -3259,16 +3244,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "2"
-    },
-    {
      "name": "Silk Flower",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "2"
     }
    ],
    "3": [
@@ -3281,16 +3266,16 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "4"
-    },
-    {
      "name": "Silk Flower",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "4"
     }
    ],
    "4": [
@@ -3303,16 +3288,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "8"
-    },
-    {
      "name": "Silk Flower",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "8"
     }
    ],
    "5": [
@@ -3325,15 +3310,15 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "12"
-    },
-    {
      "name": "Silk Flower",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
      "amount": "12"
     }
    ],
@@ -3347,16 +3332,16 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "20"
-    },
-    {
      "name": "Silk Flower",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "20"
     }
    ]
   },
@@ -3366,7 +3351,7 @@
  "Jean": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Character_Jean_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Jean_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png"
   ],
@@ -3385,16 +3370,11 @@
    "Four Winds",
    "Gunnhildr Clan"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Invigorating Pizza",
-  "parents": [
-   "Frederica Gunnhildr",
-   "Seamus Pegg"
-  ],
   "obtain": [
    "Wishes"
   ],
-  "siblings": "Barbara Pegg (Sister)",
   "ancestry": [
    "Gunnhildr Clan"
   ],
@@ -3432,7 +3412,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Talent_Favonius_Bladework.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Sword_Anemo.png",
     "name": "Favonius Bladework",
     "type": "Normal Attack"
    },
@@ -3491,16 +3471,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "2"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -3513,16 +3493,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "4"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -3535,16 +3515,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "8"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -3557,15 +3537,15 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "12"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
      "amount": "12"
     }
    ],
@@ -3579,16 +3559,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "20"
-    },
-    {
      "name": "Dandelion Seed",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "20"
     }
    ]
   },
@@ -3598,7 +3578,7 @@
  "Kaedehara Kazuha": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Character_Kaedehara_Kazuha_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Kaedehara_Kazuha_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Kaedehara_Kazuha_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png"
   ],
@@ -3613,9 +3593,10 @@
   "region": "Inazuma",
   "affiliation": [
    "The Crux",
+   "Kaedehara Clan",
    "Watatsumi Army"
   ],
-  "releaseDate": "June 29, 20219\u00a0months ago",
+  "releaseDate": "June 29, 202111\u00a0months ago",
   "dish": "All-Weather Beauty",
   "obtain": [
    "Event Wish - Leaves in the Wind"
@@ -3631,7 +3612,7 @@
    },
    "2": {
     "name": "Yamaarashi Tailwind",
-    "effect": "The Autumn Whirlwind field created by Kazuha Slash has the following effects:\nIncreases Kaedehara Kazuha's own Elemental Mastery by 200.\nIncreases the Elemental Mastery of characters within the field by 200.\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+    "effect": "The Autumn Whirlwind field created by Kazuha Slash has the following effects:\nIncreases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\nIncreases the Elemental Mastery of characters within the field by 200.\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Constellation_Yamaarashi_Tailwind.png"
    },
    "3": {
@@ -3651,13 +3632,13 @@
    },
    "6": {
     "name": "Crimson Momiji",
-    "effect": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%.",
+    "effect": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Constellation_Crimson_Momiji.png"
    }
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Talent_Garyuu_Bladework.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Sword_Anemo.png",
     "name": "Garyuu Bladework",
     "type": "Normal Attack"
    },
@@ -3716,16 +3697,16 @@
      "amount": "3"
     },
     {
-     "name": "Marionette Core",
-     "amount": "2"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -3738,16 +3719,16 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "4"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -3760,16 +3741,16 @@
      "amount": "3"
     },
     {
-     "name": "Marionette Core",
-     "amount": "8"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -3782,15 +3763,15 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "12"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Marionette Core",
      "amount": "12"
     }
    ],
@@ -3804,16 +3785,16 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "20"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "20"
     }
    ]
   },
@@ -3823,7 +3804,7 @@
  "Kaeya": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Kaeya_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Character_Kaeya_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Kaeya_Thumb.png"
   ],
@@ -3841,18 +3822,13 @@
    "Knights of Favonius",
    "Khaenri'ah"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Fruity Skewers",
-  "parents": [
-   "Crepus",
-   "[1]"
-  ],
   "obtain": [
    "Crash Course",
    "Wanderlust Invocation",
    "Paimon's Bargains"
   ],
-  "siblings": "Diluc (adoptive brother)[1]",
   "constellations": {
    "1": {
     "name": "Excellent Blood",
@@ -3887,7 +3863,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Talent_Ceremonial_Bladework.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Sword_Cryo.png",
     "name": "Ceremonial Bladework",
     "type": "Normal Attack"
    },
@@ -3946,16 +3922,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Calla Lily",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -3968,16 +3944,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Calla Lily",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -3990,16 +3966,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Calla Lily",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -4012,15 +3988,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Calla Lily",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -4034,16 +4010,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Calla Lily",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -4053,7 +4029,7 @@
  "Kamisato Ayaka": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Kamisato_Ayaka_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Kamisato_Ayaka_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Character_Kamisato_Ayaka_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kamisato_Ayaka_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png"
   ],
@@ -4071,15 +4047,11 @@
    "Yashiro Commission",
    "Kamisato Clan"
   ],
-  "releaseDate": "July 21, 20218\u00a0months ago",
+  "releaseDate": "July 21, 202110\u00a0months ago",
   "dish": "\"Snow on the Hearth\"",
-  "parents": [
-   "Kamisato Kayo"
-  ],
   "obtain": [
    "Event Wish - The Heron's Court"
   ],
-  "siblings": "Kamisato Ayato (Brother)",
   "ancestry": [
    "Kamisato Clan"
   ],
@@ -4117,7 +4089,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Kamisato_Art_Kabuki.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Sword_Cryo.png",
     "name": "Kamisato Art: Kabuki",
     "type": "Normal Attack"
    },
@@ -4181,16 +4153,16 @@
      "amount": "3"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "2"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "10"
     },
     {
      "name": "Old Handguard",
      "amount": "15"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -4203,16 +4175,16 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "4"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "20"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "12"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -4225,16 +4197,16 @@
      "amount": "3"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "8"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "30"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "18"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -4247,15 +4219,15 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "12"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "45"
     },
     {
      "name": "Famed Handguard",
+     "amount": "12"
+    },
+    {
+     "name": "Perpetual Heart",
      "amount": "12"
     }
    ],
@@ -4269,16 +4241,16 @@
      "amount": "6"
     },
     {
-     "name": "Perpetual Heart",
-     "amount": "20"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "60"
     },
     {
      "name": "Famed Handguard",
      "amount": "24"
+    },
+    {
+     "name": "Perpetual Heart",
+     "amount": "20"
     }
    ]
   },
@@ -4288,7 +4260,8 @@
  "Kamisato Ayato": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Kamisato_Ayato_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Kamisato_Ayato_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Kamisato_Ayato_Full_Wish.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Character_Kamisato_Ayato_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Character_Kamisato_Ayato_Thumb.png"
   ],
   "element": "Hydro",
@@ -4299,22 +4272,18 @@
    "Cypressus Custos",
    "Story Quest Chapter"
   ],
-  "birthday": "March 26",
+  "birthday": "March 26th",
   "region": "Inazuma",
   "affiliation": [
    "Yashiro Commission",
    "Kamisato Clan",
    "Shuumatsuban"
   ],
-  "releaseDate": "March 30, 202236\u00a0hours ago",
+  "releaseDate": "March 30, 20222\u00a0months ago",
   "dish": "Quiet Elegance",
-  "parents": [
-   "Kamisato Kayo"
-  ],
   "obtain": [
    "Event Wish - Azure Excursion"
   ],
-  "siblings": "Kamisato Ayaka (Sister)",
   "ancestry": [
    "Kamisato Clan"
   ],
@@ -4352,7 +4321,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Kamisato_Art_Marobashi.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Sword_Hydro.png",
     "name": "Kamisato Art: Marobashi",
     "type": "Normal Attack"
    },
@@ -4411,16 +4380,16 @@
      "amount": "3"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "2"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "10"
     },
     {
      "name": "Old Handguard",
      "amount": "15"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "2"
     }
    ],
    "3": [
@@ -4433,16 +4402,16 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "4"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "20"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "12"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "4"
     }
    ],
    "4": [
@@ -4455,16 +4424,16 @@
      "amount": "3"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "8"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "30"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "18"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "8"
     }
    ],
    "5": [
@@ -4477,15 +4446,15 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "12"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "45"
     },
     {
      "name": "Famed Handguard",
+     "amount": "12"
+    },
+    {
+     "name": "Dew of Repudiation",
      "amount": "12"
     }
    ],
@@ -4499,16 +4468,16 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "20"
-    },
-    {
      "name": "Sakura Bloom",
      "amount": "60"
     },
     {
      "name": "Famed Handguard",
      "amount": "24"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "20"
     }
    ]
   },
@@ -4518,7 +4487,7 @@
  "Keqing": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Keqing_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Keqing_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png"
   ],
@@ -4534,7 +4503,7 @@
   "affiliation": [
    "Liyue Qixing"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Survival Grilled Fish",
   "obtain": [
    "Wishes"
@@ -4632,16 +4601,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "2"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "2"
     }
    ],
    "3": [
@@ -4654,16 +4623,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "4"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "4"
     }
    ],
    "4": [
@@ -4676,16 +4645,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "8"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "8"
     }
    ],
    "5": [
@@ -4698,15 +4667,15 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "12"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
      "amount": "12"
     }
    ],
@@ -4720,16 +4689,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "20"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "20"
     }
    ]
   },
@@ -4739,7 +4708,7 @@
  "Klee": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Klee_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Character_Klee_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png"
   ],
@@ -4756,11 +4725,8 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "October 20, 202017\u00a0months ago",
+  "releaseDate": "October 20, 202019\u00a0months ago",
   "dish": "Fish-Flavored Toast",
-  "parents": [
-   "Alice"
-  ],
   "obtain": [
    "Event Wish - Sparkling Steps"
   ],
@@ -4798,7 +4764,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Kaboom%21.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Catalyst_Pyro.png",
     "name": "Kaboom!",
     "type": "Normal Attack"
    },
@@ -4857,16 +4823,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "10"
     },
     {
      "name": "Divining Scroll",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -4879,16 +4845,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "20"
     },
     {
      "name": "Sealed Scroll",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -4901,16 +4867,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "30"
     },
     {
      "name": "Sealed Scroll",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -4923,15 +4889,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "45"
     },
     {
      "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -4945,16 +4911,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "60"
     },
     {
      "name": "Forbidden Curse Scroll",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -4964,7 +4930,7 @@
  "Kujou Sara": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Character_Kujou_Sara_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Kujou_Sara_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Kujou_Sara_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Kujou_Sara_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kujou_Sara_Thumb.png"
   ],
@@ -4982,16 +4948,11 @@
    "Tengu",
    "Youkai"
   ],
-  "releaseDate": "September 01, 20216\u00a0months ago",
+  "releaseDate": "September 01, 20219\u00a0months ago",
   "dish": "Faith Eternal",
-  "parents": [
-   "Kujou Takayuki",
-   "[5]"
-  ],
   "obtain": [
    "Wishes"
   ],
-  "siblings": "Kujou Kamaji (Adoptive Brother)Kujou Masahito (Adoptive Brother)",
   "ancestry": [
    "Kujou Clan"
   ],
@@ -5029,7 +4990,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Tengu_Bowmanship.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Bow_Electro.png",
     "name": "Tengu Bowmanship",
     "type": "Normal Attack"
    },
@@ -5088,16 +5049,16 @@
      "amount": "3"
     },
     {
-     "name": "Storm Beads",
-     "amount": "2"
-    },
-    {
      "name": "Dendrobium",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "2"
     }
    ],
    "3": [
@@ -5110,16 +5071,16 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "4"
-    },
-    {
      "name": "Dendrobium",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "4"
     }
    ],
    "4": [
@@ -5132,16 +5093,16 @@
      "amount": "3"
     },
     {
-     "name": "Storm Beads",
-     "amount": "8"
-    },
-    {
      "name": "Dendrobium",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "8"
     }
    ],
    "5": [
@@ -5154,15 +5115,15 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "12"
-    },
-    {
      "name": "Dendrobium",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Storm Beads",
      "amount": "12"
     }
    ],
@@ -5176,16 +5137,16 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "20"
-    },
-    {
      "name": "Dendrobium",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "20"
     }
    ]
   },
@@ -5195,7 +5156,7 @@
  "Lisa": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Lisa_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Lisa_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png"
   ],
@@ -5213,7 +5174,7 @@
    "Knights of Favonius",
    "Sumeru Academia"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Mysterious Bolognese",
   "obtain": [
    "Sparks Amongst the Pages",
@@ -5254,7 +5215,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Lightning_Touch.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Catalyst_Electro.png",
     "name": "Lightning Touch",
     "type": "Normal Attack"
    },
@@ -5313,16 +5274,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "2"
-    },
-    {
      "name": "Valberry",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "2"
     }
    ],
    "3": [
@@ -5335,16 +5296,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "4"
-    },
-    {
      "name": "Valberry",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "4"
     }
    ],
    "4": [
@@ -5357,16 +5318,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "8"
-    },
-    {
      "name": "Valberry",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "8"
     }
    ],
    "5": [
@@ -5379,15 +5340,15 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "12"
-    },
-    {
      "name": "Valberry",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
      "amount": "12"
     }
    ],
@@ -5401,16 +5362,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "20"
-    },
-    {
      "name": "Valberry",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "20"
     }
    ]
   },
@@ -5420,7 +5381,7 @@
  "Mona": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Character_Mona_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Mona_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png"
   ],
@@ -5438,7 +5399,7 @@
    "Hexenzirkel",
    "The Steambird"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Der Weisheit Letzter Schluss (Life)",
   "obtain": [
    "Wishes"
@@ -5477,7 +5438,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Talent_Ripple_of_Fate.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Catalyst_Hydro.png",
     "name": "Ripple of Fate",
     "type": "Normal Attack"
    },
@@ -5541,16 +5502,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "2"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -5563,16 +5524,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "4"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -5585,16 +5546,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "8"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -5607,15 +5568,15 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "12"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
      "amount": "12"
     }
    ],
@@ -5629,16 +5590,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "20"
-    },
-    {
      "name": "Philanemo Mushroom",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "20"
     }
    ]
   },
@@ -5648,7 +5609,7 @@
  "Ningguang": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Ningguang_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Ningguang_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png"
   ],
@@ -5664,7 +5625,7 @@
   "affiliation": [
    "Liyue Qixing"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Qiankun Mora Meat",
   "obtain": [
    "Wishes",
@@ -5682,9 +5643,9 @@
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Constellation_Shock_Effect.png"
    },
    "3": {
-    "name": "Majesty be the Array of Stars",
+    "name": "Majesty Be the Array of Stars",
     "effect": "Increases the Level of Starshatter by 3.Maximum upgrade level is 15.",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Constellation_Majesty_be_the_Array_of_Stars.png"
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Constellation_Majesty_Be_the_Array_of_Stars.png"
    },
    "4": {
     "name": "Exquisite be the Jade, Outshining All Beneath",
@@ -5692,19 +5653,19 @@
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Constellation_Exquisite_be_the_Jade%2C_Outshining_All_Beneath.png"
    },
    "5": {
-    "name": "Invincible be the Jade Screen",
+    "name": "Invincible Be the Jade Screen",
     "effect": "Increases the Level of Jade Screen by 3.Maximum upgrade level is 15.",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Constellation_Invincible_be_the_Jade_Screen.png"
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Constellation_Invincible_Be_the_Jade_Screen.png"
    },
    "6": {
-    "name": "Grandeur be the Seven Stars",
+    "name": "Grandeur Be the Seven Stars",
     "effect": "When Starshatter is used, Ningguang gains 7 Star Jades.",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Constellation_Grandeur_be_the_Seven_Stars.png"
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Constellation_Grandeur_Be_the_Seven_Stars.png"
    }
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Sparkling_Scatter.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Catalyst_Geo.png",
     "name": "Sparkling Scatter",
     "type": "Normal Attack"
    },
@@ -5763,16 +5724,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "2"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "10"
     },
     {
      "name": "Recruit's Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "2"
     }
    ],
    "3": [
@@ -5785,16 +5746,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "4"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "20"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "4"
     }
    ],
    "4": [
@@ -5807,16 +5768,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "8"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "30"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "8"
     }
    ],
    "5": [
@@ -5829,15 +5790,15 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "12"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "45"
     },
     {
      "name": "Lieutenant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
      "amount": "12"
     }
    ],
@@ -5851,16 +5812,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "20"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "60"
     },
     {
      "name": "Lieutenant's Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "20"
     }
    ]
   },
@@ -5870,7 +5831,7 @@
  "Noelle": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Noelle_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Noelle_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png"
   ],
@@ -5886,7 +5847,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Lighter-Than-Air Pancake",
   "obtain": [
    "Wishes",
@@ -5926,7 +5887,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Claymore_Geo.png",
     "name": "Favonius Bladework - Maid",
     "type": "Normal Attack"
    },
@@ -5985,16 +5946,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "2"
-    },
-    {
      "name": "Valberry",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "2"
     }
    ],
    "3": [
@@ -6007,16 +5968,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "4"
-    },
-    {
      "name": "Valberry",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "4"
     }
    ],
    "4": [
@@ -6029,16 +5990,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "8"
-    },
-    {
      "name": "Valberry",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "8"
     }
    ],
    "5": [
@@ -6051,15 +6012,15 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "12"
-    },
-    {
      "name": "Valberry",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
      "amount": "12"
     }
    ],
@@ -6073,16 +6034,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "20"
-    },
-    {
      "name": "Valberry",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "20"
     }
    ]
   },
@@ -6092,7 +6053,7 @@
  "Qiqi": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Qiqi_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Qiqi_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png"
   ],
@@ -6109,7 +6070,7 @@
    "Bubu Pharmacy",
    "Adepti"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "No Tomorrow",
   "obtain": [
    "Wishes"
@@ -6148,7 +6109,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Sword_Cryo.png",
     "name": "Ancient Sword Art",
     "type": "Normal Attack"
    },
@@ -6207,16 +6168,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Violetgrass",
      "amount": "10"
     },
     {
      "name": "Divining Scroll",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -6229,16 +6190,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Violetgrass",
      "amount": "20"
     },
     {
      "name": "Sealed Scroll",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -6251,16 +6212,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Violetgrass",
      "amount": "30"
     },
     {
      "name": "Sealed Scroll",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -6273,15 +6234,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Violetgrass",
      "amount": "45"
     },
     {
      "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -6295,16 +6256,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Violetgrass",
      "amount": "60"
     },
     {
      "name": "Forbidden Curse Scroll",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -6314,7 +6275,7 @@
  "Raiden Shogun": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Raiden_Shogun_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Character_Raiden_Shogun_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Character_Raiden_Shogun_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Character_Raiden_Shogun_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png"
   ],
@@ -6333,7 +6294,7 @@
    "Inazuma Shogunate",
    "Archons"
   ],
-  "releaseDate": "September 01, 20216\u00a0months ago",
+  "releaseDate": "September 01, 20219\u00a0months ago",
   "dish": "None",
   "obtain": [
    "Event Wish - Reign of Serenity"
@@ -6372,7 +6333,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Talent_Origin.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Polearm_Electro.png",
     "name": "Origin",
     "type": "Normal Attack"
    },
@@ -6431,16 +6392,16 @@
      "amount": "3"
     },
     {
-     "name": "Storm Beads",
-     "amount": "2"
-    },
-    {
      "name": "Amakumo Fruit",
      "amount": "10"
     },
     {
      "name": "Old Handguard",
      "amount": "15"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "2"
     }
    ],
    "3": [
@@ -6453,16 +6414,16 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "4"
-    },
-    {
      "name": "Amakumo Fruit",
      "amount": "20"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "12"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "4"
     }
    ],
    "4": [
@@ -6475,16 +6436,16 @@
      "amount": "3"
     },
     {
-     "name": "Storm Beads",
-     "amount": "8"
-    },
-    {
      "name": "Amakumo Fruit",
      "amount": "30"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "18"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "8"
     }
    ],
    "5": [
@@ -6497,15 +6458,15 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "12"
-    },
-    {
      "name": "Amakumo Fruit",
      "amount": "45"
     },
     {
      "name": "Famed Handguard",
+     "amount": "12"
+    },
+    {
+     "name": "Storm Beads",
      "amount": "12"
     }
    ],
@@ -6519,16 +6480,16 @@
      "amount": "6"
     },
     {
-     "name": "Storm Beads",
-     "amount": "20"
-    },
-    {
      "name": "Amakumo Fruit",
      "amount": "60"
     },
     {
      "name": "Famed Handguard",
      "amount": "24"
+    },
+    {
+     "name": "Storm Beads",
+     "amount": "20"
     }
    ]
   },
@@ -6538,7 +6499,7 @@
  "Razor": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Razor_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Character_Razor_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png"
   ],
@@ -6556,7 +6517,7 @@
    "Wolvendom",
    "Andrius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Puppy-Paw Hash Brown",
   "obtain": [
    "Wishes",
@@ -6596,7 +6557,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Steel_Fang.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Claymore_Electro.png",
     "name": "Steel Fang",
     "type": "Normal Attack"
    },
@@ -6655,16 +6616,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "2"
-    },
-    {
      "name": "Wolfhook",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "2"
     }
    ],
    "3": [
@@ -6677,16 +6638,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "4"
-    },
-    {
      "name": "Wolfhook",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "4"
     }
    ],
    "4": [
@@ -6699,16 +6660,16 @@
      "amount": "3"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "8"
-    },
-    {
      "name": "Wolfhook",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "8"
     }
    ],
    "5": [
@@ -6721,15 +6682,15 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "12"
-    },
-    {
      "name": "Wolfhook",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Lightning Prism",
      "amount": "12"
     }
    ],
@@ -6743,16 +6704,16 @@
      "amount": "6"
     },
     {
-     "name": "Lightning Prism",
-     "amount": "20"
-    },
-    {
      "name": "Wolfhook",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Lightning Prism",
+     "amount": "20"
     }
    ]
   },
@@ -6762,7 +6723,7 @@
  "Rosaria": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Rosaria_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Character_Rosaria_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Character_Rosaria_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Rosaria_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Rosaria_Thumb.png"
   ],
@@ -6778,7 +6739,7 @@
   "affiliation": [
    "Church of Favonius"
   ],
-  "releaseDate": "April 06, 202111\u00a0months ago",
+  "releaseDate": "April 06, 202113\u00a0months ago",
   "dish": "Dinner of Judgment",
   "obtain": [
    "Wishes"
@@ -6817,7 +6778,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Spear_of_the_Church.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Polearm_Cryo.png",
     "name": "Spear of the Church",
     "type": "Normal Attack"
    },
@@ -6876,16 +6837,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "2"
-    },
-    {
      "name": "Valberry",
      "amount": "10"
     },
     {
      "name": "Recruit's Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -6898,16 +6859,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "4"
-    },
-    {
      "name": "Valberry",
      "amount": "20"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -6920,16 +6881,16 @@
      "amount": "3"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "8"
-    },
-    {
      "name": "Valberry",
      "amount": "30"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -6942,15 +6903,15 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "12"
-    },
-    {
      "name": "Valberry",
      "amount": "45"
     },
     {
      "name": "Lieutenant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Hoarfrost Core",
      "amount": "12"
     }
    ],
@@ -6964,16 +6925,16 @@
      "amount": "6"
     },
     {
-     "name": "Hoarfrost Core",
-     "amount": "20"
-    },
-    {
      "name": "Valberry",
      "amount": "60"
     },
     {
      "name": "Lieutenant's Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Hoarfrost Core",
+     "amount": "20"
     }
    ]
   },
@@ -6983,7 +6944,7 @@
  "Sangonomiya Kokomi": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Character_Sangonomiya_Kokomi_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Character_Sangonomiya_Kokomi_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Sangonomiya_Kokomi_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Character_Sangonomiya_Kokomi_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png"
   ],
@@ -7002,7 +6963,7 @@
    "Sangonomiya Clan",
    "Watatsumi Army"
   ],
-  "releaseDate": "September 21, 20216\u00a0months ago",
+  "releaseDate": "September 21, 20218\u00a0months ago",
   "dish": "A Stunning Stratagem",
   "obtain": [
    "Event Wish - Drifting Luminescence"
@@ -7044,7 +7005,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_The_Shape_of_Water.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Catalyst_Hydro.png",
     "name": "The Shape of Water",
     "type": "Normal Attack"
    },
@@ -7108,16 +7069,16 @@
      "amount": "3"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "2"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "10"
     },
     {
      "name": "Spectral Husk",
      "amount": "15"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "2"
     }
    ],
    "3": [
@@ -7130,16 +7091,16 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "4"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "20"
     },
     {
      "name": "Spectral Heart",
      "amount": "12"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "4"
     }
    ],
    "4": [
@@ -7152,16 +7113,16 @@
      "amount": "3"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "8"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "30"
     },
     {
      "name": "Spectral Heart",
      "amount": "18"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "8"
     }
    ],
    "5": [
@@ -7174,15 +7135,15 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "12"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "45"
     },
     {
      "name": "Spectral Nucleus",
+     "amount": "12"
+    },
+    {
+     "name": "Dew of Repudiation",
      "amount": "12"
     }
    ],
@@ -7196,16 +7157,16 @@
      "amount": "6"
     },
     {
-     "name": "Dew of Repudiation",
-     "amount": "20"
-    },
-    {
      "name": "Sango Pearl",
      "amount": "60"
     },
     {
      "name": "Spectral Nucleus",
      "amount": "24"
+    },
+    {
+     "name": "Dew of Repudiation",
+     "amount": "20"
     }
    ]
   },
@@ -7215,7 +7176,7 @@
  "Sayu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Character_Sayu_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Character_Sayu_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Character_Sayu_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Sayu_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Character_Sayu_Thumb.png"
   ],
@@ -7231,7 +7192,7 @@
   "affiliation": [
    "Shuumatsuban"
   ],
-  "releaseDate": "August 10, 20217\u00a0months ago",
+  "releaseDate": "August 10, 20219\u00a0months ago",
   "dish": "Dizziness-Be-Gone no Jutsu Version 2.0",
   "obtain": [
    "Wishes"
@@ -7270,7 +7231,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Talent_Shuumatsuban_Ninja_Blade.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Claymore_Anemo.png",
     "name": "Shuumatsuban Ninja Blade",
     "type": "Normal Attack"
    },
@@ -7329,16 +7290,16 @@
      "amount": "3"
     },
     {
-     "name": "Marionette Core",
-     "amount": "2"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "2"
     }
    ],
    "3": [
@@ -7351,16 +7312,16 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "4"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "4"
     }
    ],
    "4": [
@@ -7373,16 +7334,16 @@
      "amount": "3"
     },
     {
-     "name": "Marionette Core",
-     "amount": "8"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "8"
     }
    ],
    "5": [
@@ -7395,15 +7356,15 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "12"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Marionette Core",
      "amount": "12"
     }
    ],
@@ -7417,16 +7378,16 @@
      "amount": "6"
     },
     {
-     "name": "Marionette Core",
-     "amount": "20"
-    },
-    {
      "name": "Crystal Marrow",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Marionette Core",
+     "amount": "20"
     }
    ]
   },
@@ -7436,7 +7397,7 @@
  "Shenhe": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Character_Shenhe_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Character_Shenhe_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Character_Shenhe_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Character_Shenhe_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Character_Shenhe_Thumb.png"
   ],
@@ -7450,9 +7411,9 @@
   "birthday": "March 10th",
   "region": "Liyue",
   "affiliation": [
-   "Liyue Harbor"
+   "Cloud Retainer's Abode"
   ],
-  "releaseDate": "January 05, 20222\u00a0months ago",
+  "releaseDate": "January 05, 20224\u00a0months ago",
   "dish": "Heartstring Noodles",
   "obtain": [
    "Event Wish - The Transcendent One Returns"
@@ -7491,7 +7452,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Talent_Dawnstar_Piercer.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Polearm_Cryo.png",
     "name": "Dawnstar Piercer",
     "type": "Normal Attack"
    },
@@ -7550,16 +7511,16 @@
      "amount": "3"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "2"
-    },
-    {
      "name": "Qingxin",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "2"
     }
    ],
    "3": [
@@ -7572,16 +7533,16 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "4"
-    },
-    {
      "name": "Qingxin",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "4"
     }
    ],
    "4": [
@@ -7594,16 +7555,16 @@
      "amount": "3"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "8"
-    },
-    {
      "name": "Qingxin",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "8"
     }
    ],
    "5": [
@@ -7616,15 +7577,15 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "12"
-    },
-    {
      "name": "Qingxin",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Dragonheir's False Fin",
      "amount": "12"
     }
    ],
@@ -7638,16 +7599,16 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "20"
-    },
-    {
      "name": "Qingxin",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "20"
     }
    ]
   },
@@ -7657,7 +7618,7 @@
  "Sucrose": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Character_Sucrose_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Sucrose_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png"
   ],
@@ -7673,7 +7634,7 @@
   "affiliation": [
    "Knights of Favonius"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Nutritious Meal (V.593)",
   "obtain": [
    "Wishes"
@@ -7712,7 +7673,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Talent_Wind_Spirit_Creation.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Catalyst_Anemo.png",
     "name": "Wind Spirit Creation",
     "type": "Normal Attack"
    },
@@ -7771,16 +7732,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "2"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "10"
     },
     {
      "name": "Whopperflower Nectar",
      "amount": "15"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -7793,16 +7754,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "4"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "20"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -7815,16 +7776,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "8"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "30"
     },
     {
      "name": "Shimmering Nectar",
      "amount": "18"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -7837,15 +7798,15 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "12"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "45"
     },
     {
      "name": "Energy Nectar",
+     "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
      "amount": "12"
     }
    ],
@@ -7859,16 +7820,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "20"
-    },
-    {
      "name": "Windwheel Aster",
      "amount": "60"
     },
     {
      "name": "Energy Nectar",
      "amount": "24"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "20"
     }
    ]
   },
@@ -7878,7 +7839,7 @@
  "Tartaglia": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Character_Tartaglia_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Character_Tartaglia_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png"
   ],
@@ -7896,12 +7857,11 @@
    "Fatui",
    "Eleven Fatui Harbingers"
   ],
-  "releaseDate": "November 11, 202016\u00a0months ago",
+  "releaseDate": "November 11, 202018\u00a0months ago",
   "dish": "A Prize Catch",
   "obtain": [
    "Event Wish - Farewell of Snezhnaya"
   ],
-  "siblings": "Tonia (Sister)Anthon (Brother)Teucer (Brother)",
   "constellations": {
    "1": {
     "name": "Foul Legacy: Tide Withholder",
@@ -7936,7 +7896,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Talent_Cutting_Torrent.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Bow_Hydro.png",
     "name": "Cutting Torrent",
     "type": "Normal Attack"
    },
@@ -7995,16 +7955,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "2"
-    },
-    {
      "name": "Starconch",
      "amount": "10"
     },
     {
      "name": "Recruit's Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -8017,16 +7977,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "4"
-    },
-    {
      "name": "Starconch",
      "amount": "20"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -8039,16 +7999,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "8"
-    },
-    {
      "name": "Starconch",
      "amount": "30"
     },
     {
      "name": "Sergeant's Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -8061,15 +8021,15 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "12"
-    },
-    {
      "name": "Starconch",
      "amount": "45"
     },
     {
      "name": "Lieutenant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
      "amount": "12"
     }
    ],
@@ -8083,16 +8043,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "20"
-    },
-    {
      "name": "Starconch",
      "amount": "60"
     },
     {
      "name": "Lieutenant's Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "20"
     }
    ]
   },
@@ -8102,7 +8062,7 @@
  "Thoma": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Character_Thoma_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Character_Thoma_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Character_Thoma_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Thoma_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Thoma_Thumb.png"
   ],
@@ -8119,7 +8079,7 @@
    "Yashiro Commission",
    "Kamisato Clan"
   ],
-  "releaseDate": "November 02, 20214\u00a0months ago",
+  "releaseDate": "November 02, 20217\u00a0months ago",
   "dish": "\"Warmth\"",
   "obtain": [
    "Wishes"
@@ -8158,7 +8118,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Talent_Swiftshatter_Spear.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Polearm_Pyro.png",
     "name": "Swiftshatter Spear",
     "type": "Normal Attack"
    },
@@ -8217,16 +8177,16 @@
      "amount": "3"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "2"
-    },
-    {
      "name": "Fluorescent Fungus",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "2"
     }
    ],
    "3": [
@@ -8239,16 +8199,16 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "4"
-    },
-    {
      "name": "Fluorescent Fungus",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "4"
     }
    ],
    "4": [
@@ -8261,16 +8221,16 @@
      "amount": "3"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "8"
-    },
-    {
      "name": "Fluorescent Fungus",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "8"
     }
    ],
    "5": [
@@ -8283,15 +8243,15 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "12"
-    },
-    {
      "name": "Fluorescent Fungus",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Smoldering Pearl",
      "amount": "12"
     }
    ],
@@ -8305,16 +8265,16 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "20"
-    },
-    {
      "name": "Fluorescent Fungus",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "20"
     }
    ]
   },
@@ -8325,13 +8285,11 @@
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Traveler_Female_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Character_Traveler_%28Male%29_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Traveler_%28Female%29_Portrait.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Character_Traveler_Male_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Traveler_Female_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png"
   ],
-  "element": "Adaptive",
+  "element": "Anemo",
   "weapon": "Sword",
   "rarity": 5,
   "constellation": [
@@ -8340,8 +8298,8 @@
    "Viatrix"
   ],
   "birthday": "Player's Choice",
-  "releaseDate": "September 28, 202018\u00a0months ago",
-  "siblings": "Traveler's Sibling",
+  "affiliation": [],
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "constellations": {
    "1": {
     "name": "Raging Vortex",
@@ -8376,7 +8334,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Talent_Foreign_Ironwind.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Sword_Anemo.png",
     "name": "Foreign Ironwind",
     "type": "Normal Attack"
    },
@@ -8517,7 +8475,7 @@
  "Venti": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Venti_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Character_Venti_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png"
   ],
@@ -8535,7 +8493,7 @@
    "City of Mondstadt",
    "Archons"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "A Buoyant Breeze",
   "obtain": [
    "Event Wish - Ballad in Goblets"
@@ -8574,7 +8532,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Divine_Marksmanship.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Bow_Anemo.png",
     "name": "Divine Marksmanship",
     "type": "Normal Attack"
    },
@@ -8633,16 +8591,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "2"
-    },
-    {
      "name": "Cecilia",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -8655,16 +8613,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "4"
-    },
-    {
      "name": "Cecilia",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -8677,16 +8635,16 @@
      "amount": "3"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "8"
-    },
-    {
      "name": "Cecilia",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -8699,15 +8657,15 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "12"
-    },
-    {
      "name": "Cecilia",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Hurricane Seed",
      "amount": "12"
     }
    ],
@@ -8721,16 +8679,16 @@
      "amount": "6"
     },
     {
-     "name": "Hurricane Seed",
-     "amount": "20"
-    },
-    {
      "name": "Cecilia",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Hurricane Seed",
+     "amount": "20"
     }
    ]
   },
@@ -8740,7 +8698,7 @@
  "Xiangling": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiangling_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Xiangling_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png"
   ],
@@ -8758,11 +8716,8 @@
    "Wanmin Restaurant",
    "Crux Fleet"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "Wanmin Restaurant's Boiled Fish",
-  "parents": [
-   "Chef Mao"
-  ],
   "obtain": [
    "Wishes",
    "Spiral Abyss Event - People's Choice",
@@ -8802,7 +8757,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Dough-Fu.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Polearm_Pyro.png",
     "name": "Dough-Fu",
     "type": "Normal Attack"
    },
@@ -8861,16 +8816,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Jueyun Chili",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -8883,16 +8838,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Jueyun Chili",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -8905,16 +8860,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Jueyun Chili",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -8927,15 +8882,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Jueyun Chili",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -8949,16 +8904,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Jueyun Chili",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -8968,7 +8923,7 @@
  "Xiao": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Character_Xiao_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiao_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png"
   ],
@@ -8984,9 +8939,9 @@
   "region": "Liyue",
   "affiliation": [
    "Adepti",
-   "Yaksha"
+   "Yakshas"
   ],
-  "releaseDate": "February 03, 202113\u00a0months ago",
+  "releaseDate": "February 03, 202116\u00a0months ago",
   "dish": "\"Sweet Dream\"",
   "obtain": [
    "Event Wish - Invitation to Mundane Life"
@@ -9025,7 +8980,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Whirlwind_Thrust.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Polearm_Anemo.png",
     "name": "Whirlwind Thrust",
     "type": "Normal Attack"
    },
@@ -9084,16 +9039,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "2"
-    },
-    {
      "name": "Qingxin",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "2"
     }
    ],
    "3": [
@@ -9106,16 +9061,16 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "4"
-    },
-    {
      "name": "Qingxin",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "4"
     }
    ],
    "4": [
@@ -9128,16 +9083,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "8"
-    },
-    {
      "name": "Qingxin",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "8"
     }
    ],
    "5": [
@@ -9150,15 +9105,15 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "12"
-    },
-    {
      "name": "Qingxin",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
      "amount": "12"
     }
    ],
@@ -9172,16 +9127,16 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "20"
-    },
-    {
      "name": "Qingxin",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "20"
     }
    ]
   },
@@ -9191,7 +9146,7 @@
  "Xingqiu": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Character_Xingqiu_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Xingqiu_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png"
   ],
@@ -9209,7 +9164,7 @@
    "Feiyun Commerce Guild",
    "Guhua Clan"
   ],
-  "releaseDate": "September 28, 202018\u00a0months ago",
+  "releaseDate": "September 28, 202020\u00a0months ago",
   "dish": "All-Delicacy Parcels",
   "obtain": [
    "Wishes",
@@ -9249,7 +9204,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Talent_Guhua_Style.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Sword_Hydro.png",
     "name": "Guhua Style",
     "type": "Normal Attack"
    },
@@ -9308,16 +9263,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "2"
-    },
-    {
      "name": "Silk Flower",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "2"
     }
    ],
    "3": [
@@ -9330,16 +9285,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "4"
-    },
-    {
      "name": "Silk Flower",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "4"
     }
    ],
    "4": [
@@ -9352,16 +9307,16 @@
      "amount": "3"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "8"
-    },
-    {
      "name": "Silk Flower",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "8"
     }
    ],
    "5": [
@@ -9374,15 +9329,15 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "12"
-    },
-    {
      "name": "Silk Flower",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Cleansing Heart",
      "amount": "12"
     }
    ],
@@ -9396,16 +9351,16 @@
      "amount": "6"
     },
     {
-     "name": "Cleansing Heart",
-     "amount": "20"
-    },
-    {
      "name": "Silk Flower",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Cleansing Heart",
+     "amount": "20"
     }
    ]
   },
@@ -9415,7 +9370,7 @@
  "Xinyan": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Character_Xinyan_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Xinyan_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png"
   ],
@@ -9428,10 +9383,8 @@
   ],
   "birthday": "October 16th",
   "region": "Liyue",
-  "affiliation": [
-   "Liyue Harbor"
-  ],
-  "releaseDate": "December 01, 202015\u00a0months ago",
+  "affiliation": [],
+  "releaseDate": "December 01, 202018\u00a0months ago",
   "dish": "Rockin' Riffin' Chicken!",
   "obtain": [
    "Wishes"
@@ -9470,7 +9423,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Dance_on_Fire.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Claymore_Pyro.png",
     "name": "Dance on Fire",
     "type": "Normal Attack"
    },
@@ -9529,16 +9482,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "2"
-    },
-    {
      "name": "Violetgrass",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "2"
     }
    ],
    "3": [
@@ -9551,16 +9504,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "4"
-    },
-    {
      "name": "Violetgrass",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "4"
     }
    ],
    "4": [
@@ -9573,16 +9526,16 @@
      "amount": "3"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "8"
-    },
-    {
      "name": "Violetgrass",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "8"
     }
    ],
    "5": [
@@ -9595,15 +9548,15 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "12"
-    },
-    {
      "name": "Violetgrass",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Everflame Seed",
      "amount": "12"
     }
    ],
@@ -9617,16 +9570,16 @@
      "amount": "6"
     },
     {
-     "name": "Everflame Seed",
-     "amount": "20"
-    },
-    {
      "name": "Violetgrass",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Everflame Seed",
+     "amount": "20"
     }
    ]
   },
@@ -9636,7 +9589,7 @@
  "Yae Miko": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Yae_Miko_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Yae_Miko_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Character_Yae_Miko_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Yae_Miko_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Yae_Miko_Thumb.png"
   ],
@@ -9655,7 +9608,7 @@
    "Yae Publishing House",
    "Youkai"
   ],
-  "releaseDate": "February 16, 202243\u00a0days ago",
+  "releaseDate": "February 16, 20223\u00a0months ago",
   "dish": "Fukuuchi Udon",
   "obtain": [
    "Event Wish - Everbloom Violet"
@@ -9697,7 +9650,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Talent_Spiritfox_Sin-Eater.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Catalyst_Electro.png",
     "name": "Spiritfox Sin-Eater",
     "type": "Normal Attack"
    },
@@ -9756,16 +9709,16 @@
      "amount": "3"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "2"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "10"
     },
     {
      "name": "Old Handguard",
      "amount": "15"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "2"
     }
    ],
    "3": [
@@ -9778,16 +9731,16 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "4"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "20"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "12"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "4"
     }
    ],
    "4": [
@@ -9800,16 +9753,16 @@
      "amount": "3"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "8"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "30"
     },
     {
      "name": "Kageuchi Handguard",
      "amount": "18"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "8"
     }
    ],
    "5": [
@@ -9822,15 +9775,15 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "12"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "45"
     },
     {
      "name": "Famed Handguard",
+     "amount": "12"
+    },
+    {
+     "name": "Dragonheir's False Fin",
      "amount": "12"
     }
    ],
@@ -9844,16 +9797,16 @@
      "amount": "6"
     },
     {
-     "name": "Dragonheir's False Fin",
-     "amount": "20"
-    },
-    {
      "name": "Sea Ganoderma",
      "amount": "60"
     },
     {
      "name": "Famed Handguard",
      "amount": "24"
+    },
+    {
+     "name": "Dragonheir's False Fin",
+     "amount": "20"
     }
    ]
   },
@@ -9863,7 +9816,7 @@
  "Yanfei": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Character_Yanfei_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Character_Yanfei_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Character_Yanfei_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Yanfei_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yanfei_Thumb.png"
   ],
@@ -9877,10 +9830,9 @@
   "birthday": "July 28th",
   "region": "Liyue",
   "affiliation": [
-   "Liyue Harbor",
    "Adepti"
   ],
-  "releaseDate": "April 28, 202111\u00a0months ago",
+  "releaseDate": "April 28, 202113\u00a0months ago",
   "dish": "\"My Way\"",
   "obtain": [
    "Wishes"
@@ -9919,7 +9871,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Seal_of_Approval.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Catalyst_Pyro.png",
     "name": "Seal of Approval",
     "type": "Normal Attack"
    },
@@ -9978,16 +9930,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "2"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "10"
     },
     {
      "name": "Treasure Hoarder Insignia",
      "amount": "15"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "2"
     }
    ],
    "3": [
@@ -10000,16 +9952,16 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "4"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "20"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "4"
     }
    ],
    "4": [
@@ -10022,16 +9974,16 @@
      "amount": "3"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "8"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "30"
     },
     {
      "name": "Silver Raven Insignia",
      "amount": "18"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "8"
     }
    ],
    "5": [
@@ -10044,15 +9996,15 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "12"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "45"
     },
     {
      "name": "Golden Raven Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Juvenile Jade",
      "amount": "12"
     }
    ],
@@ -10066,26 +10018,252 @@
      "amount": "6"
     },
     {
-     "name": "Juvenile Jade",
-     "amount": "20"
-    },
-    {
      "name": "Noctilucous Jade",
      "amount": "60"
     },
     {
      "name": "Golden Raven Insignia",
      "amount": "24"
+    },
+    {
+     "name": "Juvenile Jade",
+     "amount": "20"
     }
    ]
   },
   "description": "A half-illuminated beast and highly-skilled legal adviser.She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work. She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.Description from the Official Website[1]",
   "nation": "Liyue"
  },
+ "Yelan": {
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Character_Yelan_Card.jpg",
+   "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Yelan_Full_Wish.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Yelan_Game.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Character_Yelan_Thumb.png"
+  ],
+  "element": "Hydro",
+  "weapon": "Bow",
+  "rarity": 5,
+  "constellation": [
+   "Constellation",
+   "Umbrabilis Orchis",
+   "Story Quest Chapter"
+  ],
+  "birthday": "April 20th",
+  "region": "Liyue",
+  "affiliation": [
+   "Yanshang Teahouse",
+   "Ministry of Civil Affairs"
+  ],
+  "releaseDate": "May 31, 20223\u00a0days ago",
+  "dish": "Dew-Dipped Shrimp",
+  "obtain": [
+   "Event Wish - Discerner of Enigmas"
+  ],
+  "ancestry": [
+   "Boyang"
+  ],
+  "constellations": {
+   "1": {
+    "name": "Enter the Plotters",
+    "effect": "Lingering Lifeline gains 1 additional charge.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Constellation_Enter_the_Plotters.png"
+   },
+   "2": {
+    "name": "Taking All Comers",
+    "effect": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Constellation_Taking_All_Comers.png"
+   },
+   "3": {
+    "name": "Beware the Trickster's Dice",
+    "effect": "Increases the Level of Depth-Clarion Dice by 3. Maximum upgrade level is 5.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Constellation_Beware_the_Trickster%27s_Dice.png"
+   },
+   "4": {
+    "name": "Bait-and-Switch",
+    "effect": "Increases all party members' Max HP by 10% for 25s for every opponent marked by Lifeline when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Constellation_Bait-and-Switch.png"
+   },
+   "5": {
+    "name": "Dealer's Sleight",
+    "effect": "Increases the Level of Lingering Lifeline by 3. Maximum upgrade level is 5.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Constellation_Dealer%27s_Sleight.png"
+   },
+   "6": {
+    "name": "Winner Takes All",
+    "effect": "After using Depth-Clarion Dice, Yelan will enter the Mastermind state.In this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.The Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Constellation_Winner_Takes_All.png"
+   }
+  },
+  "talents": [
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Bow_Hydro.png",
+    "name": "Stealthy Bowshot",
+    "type": "Normal Attack"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Talent_Lingering_Lifeline.png",
+    "name": "Lingering Lifeline",
+    "type": "Elemental Skill"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Talent_Depth-Clarion_Dice.png",
+    "name": "Depth-Clarion Dice",
+    "type": "Elemental Burst"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Talent_Turn_Control.png",
+    "name": "Turn Control",
+    "type": "1st Ascension Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Talent_Adapt_With_Ease.png",
+    "name": "Adapt With Ease",
+    "type": "4th Ascension Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Talent_Necessary_Calculation.png",
+    "name": "Necessary Calculation",
+    "type": "Utility Passive"
+   }
+  ],
+  "ascension": {
+   "1": [
+    {
+     "name": "Mora",
+     "amount": "20,000"
+    },
+    {
+     "name": "Varunada Lazurite Sliver",
+     "amount": "1"
+    },
+    {
+     "name": "Starconch",
+     "amount": "3"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "3"
+    }
+   ],
+   "2": [
+    {
+     "name": "Mora",
+     "amount": "40,000"
+    },
+    {
+     "name": "Varunada Lazurite Fragment",
+     "amount": "3"
+    },
+    {
+     "name": "Starconch",
+     "amount": "10"
+    },
+    {
+     "name": "Recruit's Insignia",
+     "amount": "15"
+    },
+    {
+     "name": "Runic Fang",
+     "amount": "2"
+    }
+   ],
+   "3": [
+    {
+     "name": "Mora",
+     "amount": "60,000"
+    },
+    {
+     "name": "Varunada Lazurite Fragment",
+     "amount": "6"
+    },
+    {
+     "name": "Starconch",
+     "amount": "20"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Runic Fang",
+     "amount": "4"
+    }
+   ],
+   "4": [
+    {
+     "name": "Mora",
+     "amount": "80,000"
+    },
+    {
+     "name": "Varunada Lazurite Chunk",
+     "amount": "3"
+    },
+    {
+     "name": "Starconch",
+     "amount": "30"
+    },
+    {
+     "name": "Sergeant's Insignia",
+     "amount": "18"
+    },
+    {
+     "name": "Runic Fang",
+     "amount": "8"
+    }
+   ],
+   "5": [
+    {
+     "name": "Mora",
+     "amount": "100,000"
+    },
+    {
+     "name": "Varunada Lazurite Chunk",
+     "amount": "6"
+    },
+    {
+     "name": "Starconch",
+     "amount": "45"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "12"
+    },
+    {
+     "name": "Runic Fang",
+     "amount": "12"
+    }
+   ],
+   "6": [
+    {
+     "name": "Mora",
+     "amount": "120,000"
+    },
+    {
+     "name": "Varunada Lazurite Gemstone",
+     "amount": "6"
+    },
+    {
+     "name": "Starconch",
+     "amount": "60"
+    },
+    {
+     "name": "Lieutenant's Insignia",
+     "amount": "24"
+    },
+    {
+     "name": "Runic Fang",
+     "amount": "20"
+    }
+   ]
+  },
+  "description": "Oh, you're looking for Yelan? Hmm, I'd like to suggest that you treat her as an ordinary person, but if you do, it's easy to lose control over negotiations. There are some things that really depend on her impression of you.Yanfei",
+  "nation": "Liyue"
+ },
  "Yoimiya": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Character_Yoimiya_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Yoimiya_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Yoimiya_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Character_Yoimiya_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Character_Yoimiya_Thumb.png"
   ],
@@ -10102,11 +10280,8 @@
   "affiliation": [
    "Naganohara Fireworks"
   ],
-  "releaseDate": "August 10, 20217\u00a0months ago",
+  "releaseDate": "August 10, 20219\u00a0months ago",
   "dish": "Summer Festival Fish",
-  "parents": [
-   "Naganohara Ryuunosuke"
-  ],
   "obtain": [
    "Event Wish - Tapestry of Golden Flames"
   ],
@@ -10141,13 +10316,13 @@
    },
    "6": {
     "name": "Naganohara Meteor Swarm",
-    "effect": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+    "effect": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
     "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Constellation_Naganohara_Meteor_Swarm.png"
    }
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Firework_Flare-Up.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Bow_Pyro.png",
     "name": "Firework Flare-Up",
     "type": "Normal Attack"
    },
@@ -10206,16 +10381,16 @@
      "amount": "3"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "2"
-    },
-    {
      "name": "Naku Weed",
      "amount": "10"
     },
     {
      "name": "Divining Scroll",
      "amount": "15"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "2"
     }
    ],
    "3": [
@@ -10228,16 +10403,16 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "4"
-    },
-    {
      "name": "Naku Weed",
      "amount": "20"
     },
     {
      "name": "Sealed Scroll",
      "amount": "12"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "4"
     }
    ],
    "4": [
@@ -10250,16 +10425,16 @@
      "amount": "3"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "8"
-    },
-    {
      "name": "Naku Weed",
      "amount": "30"
     },
     {
      "name": "Sealed Scroll",
      "amount": "18"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "8"
     }
    ],
    "5": [
@@ -10272,15 +10447,15 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "12"
-    },
-    {
      "name": "Naku Weed",
      "amount": "45"
     },
     {
      "name": "Forbidden Curse Scroll",
+     "amount": "12"
+    },
+    {
+     "name": "Smoldering Pearl",
      "amount": "12"
     }
    ],
@@ -10294,16 +10469,16 @@
      "amount": "6"
     },
     {
-     "name": "Smoldering Pearl",
-     "amount": "20"
-    },
-    {
      "name": "Naku Weed",
      "amount": "60"
     },
     {
      "name": "Forbidden Curse Scroll",
      "amount": "24"
+    },
+    {
+     "name": "Smoldering Pearl",
+     "amount": "20"
     }
    ]
   },
@@ -10313,7 +10488,7 @@
  "Yunjin": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Character_Yun_Jin_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Yun_Jin_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Yun_Jin_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Character_Yun_Jin_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Character_Yun_Jin_Thumb.png"
   ],
@@ -10331,7 +10506,7 @@
    "Heyu Tea House",
    "Yun Family"
   ],
-  "releaseDate": "January 05, 20222\u00a0months ago",
+  "releaseDate": "January 05, 20224\u00a0months ago",
   "dish": "Cloud-Shrouded Jade",
   "obtain": [
    "Wishes"
@@ -10373,7 +10548,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Cloud-Grazing_Strike.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Polearm_Geo.png",
     "name": "Cloud-Grazing Strike",
     "type": "Normal Attack"
    },
@@ -10432,16 +10607,16 @@
      "amount": "3"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "2"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "10"
     },
     {
      "name": "Damaged Mask",
      "amount": "15"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "2"
     }
    ],
    "3": [
@@ -10454,16 +10629,16 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "4"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "20"
     },
     {
      "name": "Stained Mask",
      "amount": "12"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "4"
     }
    ],
    "4": [
@@ -10476,16 +10651,16 @@
      "amount": "3"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "8"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "30"
     },
     {
      "name": "Stained Mask",
      "amount": "18"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "8"
     }
    ],
    "5": [
@@ -10498,15 +10673,15 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "12"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "45"
     },
     {
      "name": "Ominous Mask",
+     "amount": "12"
+    },
+    {
+     "name": "Riftborn Regalia",
      "amount": "12"
     }
    ],
@@ -10520,16 +10695,16 @@
      "amount": "6"
     },
     {
-     "name": "Riftborn Regalia",
-     "amount": "20"
-    },
-    {
      "name": "Glaze Lily",
      "amount": "60"
     },
     {
      "name": "Ominous Mask",
      "amount": "24"
+    },
+    {
+     "name": "Riftborn Regalia",
+     "amount": "20"
     }
    ]
   },
@@ -10539,7 +10714,7 @@
  "Zhongli": {
   "image": [
    "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Character_Zhongli_Portrait.png",
+   "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Character_Zhongli_Full_Wish.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Zhongli_Game.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png"
   ],
@@ -10559,7 +10734,7 @@
    "Archons",
    "Adepti"
   ],
-  "releaseDate": "December 01, 202015\u00a0months ago",
+  "releaseDate": "December 01, 202018\u00a0months ago",
   "dish": "Slow-Cooked Bamboo Shoot Soup",
   "obtain": [
    "Event Wish - Gentry of Hermitage"
@@ -10598,7 +10773,7 @@
   },
   "talents": [
    {
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Rain_of_Stone.png",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Polearm_Geo.png",
     "name": "Rain of Stone",
     "type": "Normal Attack"
    },
@@ -10657,16 +10832,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "2"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "10"
     },
     {
      "name": "Slime Condensate",
      "amount": "15"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "2"
     }
    ],
    "3": [
@@ -10679,16 +10854,16 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "4"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "20"
     },
     {
      "name": "Slime Secretions",
      "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "4"
     }
    ],
    "4": [
@@ -10701,16 +10876,16 @@
      "amount": "3"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "8"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "30"
     },
     {
      "name": "Slime Secretions",
      "amount": "18"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "8"
     }
    ],
    "5": [
@@ -10723,15 +10898,15 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "12"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "45"
     },
     {
      "name": "Slime Concentrate",
+     "amount": "12"
+    },
+    {
+     "name": "Basalt Pillar",
      "amount": "12"
     }
    ],
@@ -10745,20 +10920,20 @@
      "amount": "6"
     },
     {
-     "name": "Basalt Pillar",
-     "amount": "20"
-    },
-    {
      "name": "Cor Lapis",
      "amount": "60"
     },
     {
      "name": "Slime Concentrate",
      "amount": "24"
+    },
+    {
+     "name": "Basalt Pillar",
+     "amount": "20"
     }
    ]
   },
-  "description": "Wangsheng Funeral Parlor's mysterious consultant. Handsome, elegant, and surpassingly learned.\nThough no one knows where Zhongli is from, he is a master of courtesy and rules. From his seat at Wangsheng Funeral Parlor, he performs all manner of rituals.Description from the Official Website[1]",
+  "description": "Wangsheng Funeral Parlor's mysterious consultant. Handsome, elegant, and surpassingly learned.",
   "nation": "Liyue"
  },
  "Dainsleif": {
@@ -10772,6 +10947,9 @@
    "Constellation"
   ],
   "region": "Khaenri'ah",
+  "affiliation": [
+   "Eclipse Dynasty"
+  ],
   "constellations": {},
   "talents": [],
   "nation": "Khaenri'ah",
@@ -10785,6 +10963,9 @@
    "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kuki_Shinobu_Portrait.png",
    "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Kuki_Shinobu_Thumb.png"
   ],
+  "element": "Electro",
+  "weapon": "Sword",
+  "rarity": 4,
   "constellation": [
    "Constellation",
    "Tribulatio Demptio"
@@ -10793,34 +10974,58 @@
   "affiliation": [
    "Arataki Gang"
   ],
-  "siblings": "Miyuki (Sister)",
-  "constellations": {},
-  "talents": [],
-  "description": "My apologies, I have not sent my regards for a long time. I am writing to introduce a talented person to you. She is very knowledgeable, well-versed in both literature and martial arts, and is an invaluable assistant... Unfortunately, she is currently working for the Arataki Gang and only accepts outsourced consultations, which is a pity.Kujou Sara",
-  "nation": "Inazuma",
-  "element": "Electro",
-  "rarity": 0,
-  "weapon": ""
- },
- "Yelan": {
-  "image": [
-   "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Character_Yelan_Card.jpg",
-   "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Character_Yelan_Portrait.png",
-   "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Character_Yelan_Thumb.png"
+  "dish": "Omurice Waltz",
+  "obtain": [
+   "Wishes"
   ],
+  "constellations": {},
+  "talents": [
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Talent_Sanctifying_Ring.png",
+    "name": "Sanctifying Ring",
+    "type": "Elemental Skill"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Gyoei_Narukami_Kariyama_Rite.png",
+    "name": "Gyoei Narukami Kariyama Rite",
+    "type": "Elemental Burst"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Talent_Electro_Unknown.png",
+    "name": "Protracted Prayers",
+    "type": "Utility Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Talent_Electro_Unknown.png",
+    "name": "Breaking Free",
+    "type": "Passive"
+   },
+   {
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Talent_Electro_Unknown.png",
+    "name": "Heart's Repose",
+    "type": "Passive"
+   }
+  ],
+  "description": "My apologies, I have not sent my regards for a long time. I am writing to introduce a talented person to you. She is very knowledgeable, well-versed in both literature and martial arts, and is an invaluable assistant... Unfortunately, she is currently working for the Arataki Gang and only accepts outsourced consultations, which is a pity.Kujou Sara",
+  "nation": "Inazuma"
+ },
+ "Shikanoin Heizou": {
   "constellation": [
    "Constellation",
-   "Umbrabilis Orchis"
+   "Cervus Minor"
   ],
-  "region": "Liyue",
+  "region": "Inazuma",
   "affiliation": [
-   "Ministry of Civil Affairs"
+   "Tenryou Commission"
   ],
   "constellations": {},
   "talents": [],
-  "description": "Oh, you're looking for Yelan? Hmm, I'd like to suggest that you treat her as an ordinary person, but if you do, it's easy to lose control over negotiations. There are some things that really depend on her impression of you.Yanfei",
-  "nation": "Liyue",
-  "element": "Hydro",
+  "description": "Doushin Shikanoin has admirable wit and insight. While he is unfettered and unrestrained in demeanor, one should not dismiss his talents. The Tenryou Commission is incredibly fortunate to have such a man in their ranks.Kamisato Ayato",
+  "image": [
+   "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Character_Shikanoin_Heizou_Thumb.png"
+  ],
+  "nation": "Inazuma",
+  "element": "Anemo",
   "rarity": 0,
   "weapon": ""
  }

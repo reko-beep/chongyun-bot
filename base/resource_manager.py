@@ -10,9 +10,9 @@ class ResourceManager:
         '''
         Initializes Resource Manager Client
         '''
-        self.site = site+'/assets/' if site != '' else 'http://127.0.0.1:5000/assets/'        
+        self.site = site+'/assets/' if site != '' else 'http://127.0.0.1:80/assets/'        
         self.files = ['characters.json','quests.json','voiceovers.json','quests.json','wallpapers.json','weapons.json'
-                    ,'domains.json', 'artifacts.json', 'furnishing.json']
+                    ,'domains.json', 'artifacts.json', 'furnishing.json', 'materials.json']
         
         self.path = getcwd()+'/assets/{path}'
         self.db = getcwd()+'/db/{path}'
@@ -173,17 +173,19 @@ class ResourceManager:
         with open(file, 'r') as f:
             data = load(f)['data']
         teamcomps = []
-        for i in data:
+        character_name = character_name.strip()
+        for c,i in enumerate(data):
             
             chars = [list(k.keys())[0] for k in i['chars']]
-            for char in chars:
-                if character_name.lower() in char.lower():
+            
+            for char in chars:               
+                if char.lower() in character_name.lower():
                     if url:
                         path = self.genpath('images/teamcomps', i['file'])
                         i['file'] = self.convert_to_url(path, url)
                     else:
                         i['file'] = self.genpath('images/teamcomps', i['file'])
-                    teamcomps.append(i)
+                    teamcomps.append({ **i, **{'index': c}})
         return teamcomps
 
     def get_color_from_image(self, url, rgb:bool=False, hex:bool=False, int_color:bool=True):
@@ -214,7 +216,6 @@ class ResourceManager:
         data = {}
         character_search_list = list(self.characters.keys())
         character = self.__search(character_name, character_search_list)
-        print(character_name, character, character_search_list)
         url = True
         if character is not None:
             data = self.characters[character]
@@ -222,8 +223,7 @@ class ResourceManager:
             ascension = self.get_character_guides(character, 'as',  url)
             data['builds'] = builds
             data['ascension_imgs'] = ascension
-            data['teamcomps'] = self.get_comps(character, url)
-
+            data['teamcomps'] = self.get_comps(character_name, url)
         return data if len(data) != 0 else None
 
     def getdata(self, key: str):
@@ -289,8 +289,6 @@ class ResourceManager:
             type_rot = [rot['type']]
             type_rot += ['']
             region_rot = ['', domain['location'].split(",")[-1].lower().strip()]
-            print(day, days, type_, type_rot, region, region_rot)
-            print(day in days, type_ in type_rot, region in region_rot)
             if day in days and type_ in type_rot and region in region_rot:
                 searched.append({
                     'domain_name' : domain['title'],
@@ -308,3 +306,10 @@ class ResourceManager:
                 })
         return searched
 
+    def get_material_details(self, material_name:str, split_search:bool=True):
+
+        material_list = list(self.materials.keys())
+        material = self.search(material_name, material_list, split_search)
+
+        if material is not None:
+            return self.materials[material]

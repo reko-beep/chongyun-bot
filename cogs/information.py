@@ -26,16 +26,45 @@ class InformationCog(Cog):
         if char != '':
 
             embeds = self.inf.create_character_embeds(ctx.guild, char, [],False, True)
-
-            message : Message = await ctx.send(embed=embeds[0])
-            view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
-            await message.edit(embed=embeds[0],view=view)
+            if embeds is not None:
+                message : Message = await ctx.send(embed=embeds[0])
+                view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+                await message.edit(embed=embeds[0],view=view)
+            else:
+                embed = Embed(title='Info Error', description=f'No character having name ```css\n{char}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                await ctx.send(embed=embed)     
         else:
              
             chars = list(self.bot.resource_manager.characters.keys())
             view = View()
             view.add_item(DropdownList(self.bot, chars, 'create_character_embeds', ctx.author, 1))
             await ctx.send('All Characters list', view=view)
+    
+    @commands.command(aliases=['material','mtrl'], description='mtrl (material name)\nshows the full info from database for a material')
+    async def materialinfo(self, ctx : Context, *arg:str):
+
+        
+        mat = ''.join(arg)
+        if len(arg) > 0:
+            mat = ' '.join(arg)
+
+        if mat != '':
+
+            embeds = self.inf.create_material_embeds(ctx.guild, mat, [],False, False)
+            if embeds is not None:
+                message : Message = await ctx.send(embed=embeds[0])
+                view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+                await message.edit(embed=embeds[0],view=view)
+            else:
+                embed = Embed(title='Info Error', description=f'No material having name ```css\n{mat}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                await ctx.send(embed=embed)     
+
+        else:
+             
+            chars = list(self.bot.resource_manager.materials.keys())
+            view = View()
+            view.add_item(DropdownList(self.bot, chars, 'create_material_embeds', ctx.author, 1))
+            await ctx.send('All Materials list', view=view)
      
     @commands.command(aliases=['dom'], description='dom (day) (region) (type)\nshows the full info from database for a character')
     async def domain(self, ctx : Context, day:str='', region:str='', type:str=''):
@@ -94,10 +123,14 @@ class InformationCog(Cog):
         print(wep)
         if wep != '':
             embeds = self.inf.create_weapon_embeds(ctx.guild, wep.lower(), [],False)
-            print(embeds)
-            message : Message = await ctx.send(embed=embeds[0])
-            view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
-            await message.edit(embed=embeds[0],view=view)
+            if embeds is not None:                 
+                message : Message = await ctx.send(embed=embeds[0])
+                view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+                await message.edit(embed=embeds[0],view=view)
+            else:
+                
+                embed = Embed(title='Info Error', description=f'No weapon having name ```css\n{wep}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                await ctx.send(embed=embed)     
         else:
             weps = list(self.bot.resource_manager.weapons.keys())
             view = View()
@@ -145,16 +178,16 @@ class InformationCog(Cog):
         await message.edit(embed=embeds[0],view=view)
 
     @commands.command(aliases=['ctc', 'createtc'], description='ctc (title) (chars) (description)')
-    async def  createteamcomp(self, ctx, title, chars, description):
+    async def  createteamcomp(self, ctx, title, chars, description=""):
         roles = [r.id for r in ctx.author.roles]
-        check_roles = self.bot.b_config.get('teamcomp_role')
+        check_roles = [self.bot.b_config.get('teamcomp_role')]
 
-        if len(set(roles).intersection(check_roles) != 0):
+        if len(set(roles).intersection(check_roles))  != 0:
 
             check, dict_ = self.inf.create_comp(title, chars, description, ctx.author)
 
             if check is not None:
-                embed = self.inf.create_comp_embed(dict_)
+                embed = self.inf.create_comp_embed(dict_, ctx.guild)
                 embed.color = self.resm.get_color_from_image(ctx.author.avatar.url)
                 embed.set_author(name=ctx.author.display_name, url=ctx.author.avatar.url)
                 await ctx.send(embed=embed)
@@ -248,6 +281,28 @@ class InformationCog(Cog):
         view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
         await message.edit(embed=embeds[0],view=view)
 
+    @commands.command(aliases=['cc'], description='cc (region) (char)\nyou can use all in (char) to show all cards, it will show all available cards\n to generate or update cards use !cc')
+    async def charactercards(self, ctx, region:str, char: str='', member: Member=None):
+        if member is None:
+            member = ctx.author
+        
+        uid = self.bot.coop.get_member_uid(member, region)
+        if uid is not None:
+            if char == '':
+                await self.inf.save_uid_cards(uid, ctx)
+            else:
+                if char == 'all':
+                    embeds = self.inf.get_uid_cards(ctx, uid, '')
+                else:
+                    embeds = self.inf.get_uid_cards(ctx, uid, char)
+                message : Message = await ctx.send(embed=embeds[0])
+                view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+                await message.edit(embed=embeds[0],view=view)
+        else:
+            embed = Embed(title='Card Error', description='You have not linked uid for that region!', color=self.resm.get_color_from_image(member.avatar.url))
+            embed.set_thumbnail(url=member.avatar.url)
+            await ctx.send(embed=embed)
+                
 
 
 def setup(bot):

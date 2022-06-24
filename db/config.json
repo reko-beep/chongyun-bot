@@ -1,20 +1,20 @@
+
+
 {
     "token": "",
-    "site": "",
-    "uid_channel": 0,
-    "coop_channel": 0,
-    "coop_roles": [
-       
-    ],
-    "cookies": {
-        "ltuid": "",
-        "ltoken": ""
-    },
-    "admin_roles": [
-    ],
-    "approve_role": 0,
-    "member_role": 0,
-    "approve_channel": 0,
-    "teamcomp_role": 0,
-    "scrutiny": true
-}
+     "site": "",
+      "uid_channel": 0, 
+      "coop_channel": 0,
+       "coop_roles": [], 
+       "cookies": {"ltuid": "", "ltoken": ""}, 
+       "admin_roles": [],
+        "approve_role": 0, 
+        "member_role": 0,
+         "approve_channel": 0, 
+         "teamcomp_role": 0, 
+         "scrutiny": true, 
+         "liben": false, 
+         "art_channel": 0, 
+         "leak_channel": 0, 
+         "owner_bot": 0, 
+         "nuke_enabled": true}

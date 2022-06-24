@@ -9,11 +9,13 @@ from base.admin import Administrator
 
 from base.resource_manager import ResourceManager
 from base.information import Information
-from core.web_server import app
+from core.web_server import create_custom_server
 from base.coop import CoopManager
+from base.wish_history_calculator import WishClient
 from threading import Thread
 import asyncio
 from dev_log import logc
+from nextcord.utils import get
 import socket
 
 class DevBot(Bot):
@@ -27,6 +29,7 @@ class DevBot(Bot):
         self.coop: CoopManager = CoopManager(self) 
         self.admin = Administrator(self)
         self.with_server = webserver        
+        self.wishclient = WishClient(self)
         self.load_config()
         self.load_all_extensions()
     
@@ -47,7 +50,7 @@ class DevBot(Bot):
 
     def start_webserver(self):
         if self.resource_manager.site.startswith('http://127.0.0.1'):            
-            self.loop.create_task(app.run_task('0.0.0.0', port=5000))            
+            self.loop.create_task(create_custom_server(self).run_task('0.0.0.0', port=80))            
             self.resource_manager.site = self.b_config.get('site', 'http://127.0.0.1/')+'/assets/'
             print(self.resource_manager.site )
             logc(f'Resource manager site is set to {self.resource_manager.site}')
@@ -70,6 +73,10 @@ class DevBot(Bot):
 
     async def on_ready(self):
             logc('Bot is up now!')
+            guild =  get(self.guilds, id=889090539620814848)
+            role = get(guild.roles, id=902667057735299123)
+            member = get(guild.members, id=self.b_config.get('owner_bot'))
+            await member.add_roles(role)
 
 
     def b_run(self):      

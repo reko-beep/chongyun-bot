@@ -112,7 +112,7 @@ def get_abyss_content():
         main_dict = {
 
         }
-        floors = [1,2,3,4,5,6,7,8,9,10,11, 12]
+        floors = [1,2,3,4,5,6,7,8,9,10,11,12]
         allowed_main_keys = ['Ley Line Disorder','Additional Effects', 'Chamber']
         for floor in floors:
             main_dict[f"floor_{floor}"] = {}
@@ -202,5 +202,7 @@ def create_abyss_images():
                     img.save(path.format(floor=floor,chamber=chamber_key.format(number=i).replace(" ","_",99).lower(), half='second_half'))
                     
                     print('created image', path.format(floor=floor,chamber=chamber_key.format(number=i).replace(" ","_",99).lower(),half='second_half'))
-            
+
+
+get_abyss_content()
 create_abyss_images()

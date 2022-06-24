@@ -1,0 +1,79 @@
+<!--
+  Copyright (c) 2011 Google Inc.
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  use this file except in compliance with the License. You may obtain a copy of
+  the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+  License for the specific language governing permissions and limitations under
+  the License.
+  To run this sample, set apiKey to your application's API key and clientId to
+  your application's OAuth 2.0 client ID. They can be generated at:
+    https://console.developers.google.com/apis/credentials?project=_
+  Then, add a JavaScript origin to the client that corresponds to the domain
+  where you will be running the script. Finally, activate the People API at:
+    https://console.developers.google.com/apis/library?project=_
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+  </head>
+  <body>
+    <script type="text/javascript">
+        function handleClientLoad() {
+        // Load the API client and auth2 library
+        gapi.load('client:auth2', initClient);
+      }
+        var apiKey = 'AIzaSyArH_4Rw3vuCFj2ToIJ3Ogt7lRidHk87wc';
+        var discoveryDocs = ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'];
+        var clientId = '969348164464-gd0e1q8u1sp6fvk2jvjg9irvumq3qehd';
+        var scopes = 'https://www.googleapis.com/auth/drive.appdata';
+        window.location.origin = 'https://paimon.moe'
+        function initClient() {
+            gapi.client.init({
+                apiKey: apiKey,
+                discoveryDocs: discoveryDocs,
+                clientId: clientId,
+                scope: scopes
+            }).then(function () {
+            // Listen for sign-in state changes.
+            gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+
+            // Handle the initial sign-in state.
+            updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+  });
+        }
+
+        function updateSigninStatus(isSignedIn) {
+
+            const list_files = gapi.client.drive.files.list({
+                        spaces: "appDataFolder",
+                        q: "name = 'save.json'"
+                    })
+            if (list_files.files.length !=0){
+                const res = gapi.client.drive.files.get({
+                fileId: list_files.files[0].id,
+                alt: "media"
+            });
+
+            }
+
+            var id_ = document.getElementById('content').innerHTML = res;
+
+        }
+    </script>
+   
+    
+      <script async defer src="https://apis.google.com/js/api.js" 
+      onload="this.onload=function(){};handleClientLoad()" 
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+      </script>      
+    <div id="content"></div>
+    
+</body>
+
+    
+   

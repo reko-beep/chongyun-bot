@@ -1,0 +1,3316 @@
+{
+ "characters": [
+  {
+   "title": "Ballad in Goblets",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Venti",
+     "id": "venti"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Fischl",
+     "id": "fischl"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    }
+   ],
+   "start": "2020-09-28 10:00:00",
+   "end": "2020-10-18 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-09-28 09:00:00",
+     "end": "2020-10-18 16:59:59"
+    },
+    "eu": {
+     "start": "2020-09-28 03:00:00",
+     "end": "2020-10-18 10:59:59"
+    },
+    "na": {
+     "start": "2020-09-27 21:00:00",
+     "end": "2020-10-18 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Ballad_in_Goblets_2020-09-28.png"
+  },
+  {
+   "title": "Sparkling Steps",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Klee",
+     "id": "klee"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    }
+   ],
+   "start": "2020-10-20 18:00:00",
+   "end": "2020-11-10 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-10-20 17:00:00",
+     "end": "2020-11-10 13:59:59"
+    },
+    "eu": {
+     "start": "2020-10-20 11:00:00",
+     "end": "2020-11-10 07:59:59"
+    },
+    "na": {
+     "start": "2020-10-20 05:00:00",
+     "end": "2020-11-10 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Sparkling_Steps_2020-10-20.png"
+  },
+  {
+   "title": "Farewell of Snezhnaya",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Tartaglia",
+     "id": "tartaglia"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    }
+   ],
+   "start": "2020-11-11 10:00:00",
+   "end": "2020-12-01 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-11-11 09:00:00",
+     "end": "2020-12-01 14:59:59"
+    },
+    "eu": {
+     "start": "2020-11-11 03:00:00",
+     "end": "2020-12-01 08:59:59"
+    },
+    "na": {
+     "start": "2020-11-10 21:00:00",
+     "end": "2020-12-01 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Farewell_of_Snezhnaya_2020-11-11.png"
+  },
+  {
+   "title": "Gentry of Hermitage",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Zhongli",
+     "id": "zhongli"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    },
+    {
+     "rarity": "4",
+     "name": "Razor",
+     "id": "razor"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    }
+   ],
+   "start": "2020-12-01 18:00:00",
+   "end": "2020-12-22 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-12-01 17:00:00",
+     "end": "2020-12-22 13:59:59"
+    },
+    "eu": {
+     "start": "2020-12-01 11:00:00",
+     "end": "2020-12-22 07:59:59"
+    },
+    "na": {
+     "start": "2020-12-01 05:00:00",
+     "end": "2020-12-22 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Gentry_of_Hermitage_2020-12-01.png"
+  },
+  {
+   "title": "Secretum Secretorum",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Albedo",
+     "id": "albedo"
+    },
+    {
+     "rarity": "4",
+     "name": "Fischl",
+     "id": "fischl"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    }
+   ],
+   "start": "2020-12-23 10:00:00",
+   "end": "2021-01-12 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-12-23 09:00:00",
+     "end": "2021-01-12 14:59:59"
+    },
+    "eu": {
+     "start": "2020-12-23 03:00:00",
+     "end": "2021-01-12 08:59:59"
+    },
+    "na": {
+     "start": "2020-12-22 21:00:00",
+     "end": "2021-01-12 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Secretum_Secretorum_2020-12-23.png"
+  },
+  {
+   "title": "Adrift in the Harbor",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Ganyu",
+     "id": "ganyu"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    }
+   ],
+   "start": "2021-01-12 18:00:00",
+   "end": "2021-02-02 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-01-12 17:00:00",
+     "end": "2021-02-02 13:59:59"
+    },
+    "eu": {
+     "start": "2021-01-12 11:00:00",
+     "end": "2021-02-02 07:59:59"
+    },
+    "na": {
+     "start": "2021-01-12 05:00:00",
+     "end": "2021-02-02 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Adrift_in_the_Harbor_2021-01-12.png"
+  },
+  {
+   "title": "Invitation to Mundane Life",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Xiao",
+     "id": "xiao"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    }
+   ],
+   "start": "2021-02-03 09:49:00",
+   "end": "2021-02-17 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-02-03 08:49:00",
+     "end": "2021-02-17 14:59:59"
+    },
+    "eu": {
+     "start": "2021-02-03 02:49:00",
+     "end": "2021-02-17 08:59:59"
+    },
+    "na": {
+     "start": "2021-02-02 20:49:00",
+     "end": "2021-02-17 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Invitation_to_Mundane_Life_2021-02-03.png"
+  },
+  {
+   "title": "Dance of Lanterns",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Keqing",
+     "id": "keqing"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    }
+   ],
+   "start": "2021-02-17 18:00:00",
+   "end": "2021-03-02 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-02-17 17:00:00",
+     "end": "2021-03-02 14:59:59"
+    },
+    "eu": {
+     "start": "2021-02-17 11:00:00",
+     "end": "2021-03-02 08:59:59"
+    },
+    "na": {
+     "start": "2021-02-17 05:00:00",
+     "end": "2021-03-02 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Dance_of_Lanterns_2021-02-17.png"
+  },
+  {
+   "title": "Moment of Bloom",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Hu Tao",
+     "id": "hu_tao"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    }
+   ],
+   "start": "2021-03-02 18:00:00",
+   "end": "2021-03-16 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-03-02 17:00:00",
+     "end": "2021-03-16 13:59:59"
+    },
+    "eu": {
+     "start": "2021-03-02 11:00:00",
+     "end": "2021-03-16 07:59:59"
+    },
+    "na": {
+     "start": "2021-03-02 05:00:00",
+     "end": "2021-03-16 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Moment_of_Bloom_2021-03-02.png"
+  },
+  {
+   "title": "Ballad in Goblets",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Venti",
+     "id": "venti"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    },
+    {
+     "rarity": "4",
+     "name": "Razor",
+     "id": "razor"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    }
+   ],
+   "start": "2021-03-17 11:00:00",
+   "end": "2021-04-06 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-03-17 10:00:00",
+     "end": "2021-04-06 14:59:59"
+    },
+    "eu": {
+     "start": "2021-03-17 04:00:00",
+     "end": "2021-04-06 08:59:59"
+    },
+    "na": {
+     "start": "2021-03-16 22:00:00",
+     "end": "2021-04-06 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Ballad_in_Goblets_2021-03-17.png"
+  },
+  {
+   "title": "Farewell of Snezhnaya",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Tartaglia",
+     "id": "tartaglia"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Fischl",
+     "id": "fischl"
+    }
+   ],
+   "start": "2021-04-06 18:00:00",
+   "end": "2021-04-27 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-04-06 17:00:00",
+     "end": "2021-04-27 13:59:59"
+    },
+    "eu": {
+     "start": "2021-04-06 11:00:00",
+     "end": "2021-04-27 07:59:59"
+    },
+    "na": {
+     "start": "2021-04-06 05:00:00",
+     "end": "2021-04-27 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Farewell_of_Snezhnaya_2021-04-06.png"
+  },
+  {
+   "title": "Gentry of Hermitage",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Zhongli",
+     "id": "zhongli"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    }
+   ],
+   "start": "2021-04-28 11:00:00",
+   "end": "2021-05-18 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-04-28 10:00:00",
+     "end": "2021-05-18 16:59:00"
+    },
+    "eu": {
+     "start": "2021-04-28 04:00:00",
+     "end": "2021-05-18 10:59:00"
+    },
+    "na": {
+     "start": "2021-04-27 22:00:00",
+     "end": "2021-05-18 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Gentry_of_Hermitage_2021-04-28.png"
+  },
+  {
+   "title": "Born of Ocean Swell",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Eula",
+     "id": "eula"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    }
+   ],
+   "start": "2021-05-18 18:00:00",
+   "end": "2021-06-08 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-05-18 17:00:00",
+     "end": "2021-06-08 13:59:59"
+    },
+    "eu": {
+     "start": "2021-05-18 11:00:00",
+     "end": "2021-06-08 07:59:59"
+    },
+    "na": {
+     "start": "2021-05-18 05:00:00",
+     "end": "2021-06-08 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Born_of_Ocean_Swell_2021-05-18.png"
+  },
+  {
+   "title": "Sparkling Steps",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Klee",
+     "id": "klee"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    },
+    {
+     "rarity": "4",
+     "name": "Fischl",
+     "id": "fischl"
+    }
+   ],
+   "start": "2021-06-09 11:00:00",
+   "end": "2021-06-29 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-06-09 10:00:00",
+     "end": "2021-06-29 16:59:00"
+    },
+    "eu": {
+     "start": "2021-06-09 04:00:00",
+     "end": "2021-06-29 10:59:00"
+    },
+    "na": {
+     "start": "2021-06-08 22:00:00",
+     "end": "2021-06-29 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Sparkling_Steps_2021-06-09.png"
+  },
+  {
+   "title": "Leaves in the Wind",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Kaedehara Kazuha",
+     "id": "kaedehara_kazuha"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Razor",
+     "id": "razor"
+    }
+   ],
+   "start": "2021-06-29 18:00:00",
+   "end": "2021-07-20 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-06-29 17:00:00",
+     "end": "2021-07-20 13:59:59"
+    },
+    "eu": {
+     "start": "2021-06-29 11:00:00",
+     "end": "2021-07-20 07:59:59"
+    },
+    "na": {
+     "start": "2021-06-29 05:00:00",
+     "end": "2021-07-20 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Leaves_in_the_Wind_2021-06-29.png"
+  },
+  {
+   "title": "The Heron's Court",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Kamisato Ayaka",
+     "id": "kamisato_ayaka"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    }
+   ],
+   "start": "2021-07-21 11:00:00",
+   "end": "2021-08-10 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-07-21 10:00:00",
+     "end": "2021-08-10 16:59:59"
+    },
+    "eu": {
+     "start": "2021-07-21 04:00:00",
+     "end": "2021-08-10 10:59:59"
+    },
+    "na": {
+     "start": "2021-07-20 22:00:00",
+     "end": "2021-08-10 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/The_Heron%27s_Court_2021-07-21.png"
+  },
+  {
+   "title": "Tapestry of Golden Flames",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Yoimiya",
+     "id": "yoimiya"
+    },
+    {
+     "rarity": "4",
+     "name": "Sayu",
+     "id": "sayu"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    }
+   ],
+   "start": "2021-08-10 18:00:00",
+   "end": "2021-08-31 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-08-10 17:00:00",
+     "end": "2021-08-31 13:59:59"
+    },
+    "eu": {
+     "start": "2021-08-10 11:00:00",
+     "end": "2021-08-31 07:59:59"
+    },
+    "na": {
+     "start": "2021-08-10 05:00:00",
+     "end": "2021-08-31 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Tapestry_of_Golden_Flames_2021-08-10.png"
+  },
+  {
+   "title": "Reign of Serenity",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Raiden Shogun",
+     "id": "raiden_shogun"
+    },
+    {
+     "rarity": "4",
+     "name": "Kujou Sara",
+     "id": "kujou_sara"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    }
+   ],
+   "start": "2021-09-01 11:00:00",
+   "end": "2021-09-21 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-09-01 10:00:00",
+     "end": "2021-09-21 16:59:59"
+    },
+    "eu": {
+     "start": "2021-09-01 04:00:00",
+     "end": "2021-09-21 10:59:59"
+    },
+    "na": {
+     "start": "2021-08-31 22:00:00",
+     "end": "2021-09-21 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Reign_of_Serenity_2021-09-01.png"
+  },
+  {
+   "title": "Drifting Luminescence",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Sangonomiya Kokomi",
+     "id": "sangonomiya_kokomi"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    }
+   ],
+   "start": "2021-09-21 18:00:00",
+   "end": "2021-10-12 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-09-21 17:00:00",
+     "end": "2021-10-12 13:59:59"
+    },
+    "eu": {
+     "start": "2021-09-21 11:00:00",
+     "end": "2021-10-12 07:59:59"
+    },
+    "na": {
+     "start": "2021-09-21 05:00:00",
+     "end": "2021-10-12 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Drifting_Luminescence_2021-09-21.png"
+  },
+  {
+   "title": "Farewell of Snezhnaya",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Tartaglia",
+     "id": "tartaglia"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    }
+   ],
+   "start": "2021-10-13 11:00:00",
+   "end": "2021-11-02 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-10-13 10:00:00",
+     "end": "2021-11-02 16:59:59"
+    },
+    "eu": {
+     "start": "2021-10-13 04:00:00",
+     "end": "2021-11-02 10:59:59"
+    },
+    "na": {
+     "start": "2021-10-12 22:00:00",
+     "end": "2021-11-02 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Farewell_of_Snezhnaya_2021-10-13.png"
+  },
+  {
+   "title": "Moment of Bloom",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Hu Tao",
+     "id": "hu_tao"
+    },
+    {
+     "rarity": "4",
+     "name": "Thoma",
+     "id": "thoma"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    },
+    {
+     "rarity": "4",
+     "name": "Sayu",
+     "id": "sayu"
+    }
+   ],
+   "start": "2021-11-02 18:00:00",
+   "end": "2021-11-23 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-11-02 17:00:00",
+     "end": "2021-11-23 13:59:59"
+    },
+    "eu": {
+     "start": "2021-11-02 11:00:00",
+     "end": "2021-11-23 07:59:59"
+    },
+    "na": {
+     "start": "2021-11-02 05:00:00",
+     "end": "2021-11-23 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Moment_of_Bloom_2021-11-02.png"
+  },
+  {
+   "title": "Secretum Secretorum",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Albedo",
+     "id": "albedo"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    }
+   ],
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-11-24 10:00:00",
+     "end": "2021-12-14 16:59:59"
+    },
+    "eu": {
+     "start": "2021-11-24 04:00:00",
+     "end": "2021-12-14 10:59:59"
+    },
+    "na": {
+     "start": "2021-11-23 22:00:00",
+     "end": "2021-12-14 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Secretum_Secretorum_2021-11-24.png"
+  },
+  {
+   "title": "Born of Ocean Swell",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Eula",
+     "id": "eula"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    }
+   ],
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-11-24 10:00:00",
+     "end": "2021-12-14 16:59:59"
+    },
+    "eu": {
+     "start": "2021-11-24 04:00:00",
+     "end": "2021-12-14 10:59:59"
+    },
+    "na": {
+     "start": "2021-11-23 22:00:00",
+     "end": "2021-12-14 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Born_of_Ocean_Swell_2021-11-24.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "Oni's Royale",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Arataki Itto",
+     "id": "arataki_itto"
+    },
+    {
+     "rarity": "4",
+     "name": "Gorou",
+     "id": "gorou"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    }
+   ],
+   "start": "2021-12-14 18:00:00",
+   "end": "2022-01-04 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-12-14 17:00:00",
+     "end": "2022-01-04 13:59:59"
+    },
+    "eu": {
+     "start": "2021-12-14 11:00:00",
+     "end": "2022-01-04 07:59:59"
+    },
+    "na": {
+     "start": "2021-12-14 05:00:00",
+     "end": "2022-01-04 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Oni%27s_Royale_2021-12-14.png"
+  },
+  {
+   "title": "The Transcendent One Returns",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Shenhe",
+     "id": "shenhe"
+    },
+    {
+     "rarity": "4",
+     "name": "Yun Jin",
+     "id": "yun_jin"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    }
+   ],
+   "start": "2022-01-05 11:00:00",
+   "end": "2022-01-25 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-05 10:00:00",
+     "end": "2022-01-25 16:59:59"
+    },
+    "eu": {
+     "start": "2022-01-05 04:00:00",
+     "end": "2022-01-25 10:59:59"
+    },
+    "na": {
+     "start": "2022-01-04 22:00:00",
+     "end": "2022-01-25 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/The_Transcendent_One_Returns_2022-01-05.png"
+  },
+  {
+   "title": "Invitation to Mundane Life",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Xiao",
+     "id": "xiao"
+    },
+    {
+     "rarity": "4",
+     "name": "Yun Jin",
+     "id": "yun_jin"
+    },
+    {
+     "rarity": "4",
+     "name": "Ningguang",
+     "id": "ningguang"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    }
+   ],
+   "start": "2022-01-05 11:00:00",
+   "end": "2022-01-25 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-05 10:00:00",
+     "end": "2022-01-25 16:59:59"
+    },
+    "eu": {
+     "start": "2022-01-05 04:00:00",
+     "end": "2022-01-25 10:59:59"
+    },
+    "na": {
+     "start": "2022-01-04 22:00:00",
+     "end": "2022-01-25 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Invitation_to_Mundane_Life_2022-01-05.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "Gentry of Hermitage",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Zhongli",
+     "id": "zhongli"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    }
+   ],
+   "start": "2022-01-25 18:00:00",
+   "end": "2022-02-15 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-25 17:00:00",
+     "end": "2022-02-15 13:59:59"
+    },
+    "eu": {
+     "start": "2022-01-25 11:00:00",
+     "end": "2022-02-15 07:59:59"
+    },
+    "na": {
+     "start": "2022-01-25 05:00:00",
+     "end": "2022-02-15 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Gentry_of_Hermitage_2022-01-25.png"
+  },
+  {
+   "title": "Adrift in the Harbor",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Ganyu",
+     "id": "ganyu"
+    },
+    {
+     "rarity": "4",
+     "name": "Xingqiu",
+     "id": "xingqiu"
+    },
+    {
+     "rarity": "4",
+     "name": "Beidou",
+     "id": "beidou"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    }
+   ],
+   "start": "2022-01-25 18:00:00",
+   "end": "2022-02-15 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-25 17:00:00",
+     "end": "2022-02-15 13:59:59"
+    },
+    "eu": {
+     "start": "2022-01-25 11:00:00",
+     "end": "2022-02-15 07:59:59"
+    },
+    "na": {
+     "start": "2022-01-25 05:00:00",
+     "end": "2022-02-15 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Adrift_in_the_Harbor_2022-01-25.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "Everbloom Violet",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Yae Miko",
+     "id": "yae_miko"
+    },
+    {
+     "rarity": "4",
+     "name": "Fischl",
+     "id": "fischl"
+    },
+    {
+     "rarity": "4",
+     "name": "Diona",
+     "id": "diona"
+    },
+    {
+     "rarity": "4",
+     "name": "Thoma",
+     "id": "thoma"
+    }
+   ],
+   "start": "2022-02-16 11:00:00",
+   "end": "2022-03-08 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-02-16 10:00:00",
+     "end": "2022-03-08 16:59:59"
+    },
+    "eu": {
+     "start": "2022-02-16 04:00:00",
+     "end": "2022-03-08 10:59:59"
+    },
+    "na": {
+     "start": "2022-02-15 22:00:00",
+     "end": "2022-03-08 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Everbloom_Violet_2022-02-16.png"
+  },
+  {
+   "title": "Reign of Serenity",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Raiden Shogun",
+     "id": "raiden_shogun"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    },
+    {
+     "rarity": "4",
+     "name": "Kujou Sara",
+     "id": "kujou_sara"
+    }
+   ],
+   "start": "2022-03-08 18:00:00",
+   "end": "2022-03-29 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-08 17:00:00",
+     "end": "2022-03-29 13:59:59"
+    },
+    "eu": {
+     "start": "2022-03-08 11:00:00",
+     "end": "2022-03-29 07:59:59"
+    },
+    "na": {
+     "start": "2022-03-08 05:00:00",
+     "end": "2022-03-29 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Reign_of_Serenity_2022-03-08.png"
+  },
+  {
+   "title": "Drifting Luminescence",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Sangonomiya Kokomi",
+     "id": "sangonomiya_kokomi"
+    },
+    {
+     "rarity": "4",
+     "name": "Bennett",
+     "id": "bennett"
+    },
+    {
+     "rarity": "4",
+     "name": "Xinyan",
+     "id": "xinyan"
+    },
+    {
+     "rarity": "4",
+     "name": "Kujou Sara",
+     "id": "kujou_sara"
+    }
+   ],
+   "start": "2022-03-08 18:00:00",
+   "end": "2022-03-29 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-08 17:00:00",
+     "end": "2022-03-29 13:59:59"
+    },
+    "eu": {
+     "start": "2022-03-08 11:00:00",
+     "end": "2022-03-29 07:59:59"
+    },
+    "na": {
+     "start": "2022-03-08 05:00:00",
+     "end": "2022-03-29 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Drifting_Luminescence_2022-03-08.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "Azure Excursion",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Kamisato Ayato",
+     "id": "kamisato_ayato"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    },
+    {
+     "rarity": "4",
+     "name": "Yun Jin",
+     "id": "yun_jin"
+    }
+   ],
+   "start": "2022-03-30 11:00:00",
+   "end": "2022-04-19 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-30 10:00:00",
+     "end": "2022-04-19 16:59:00"
+    },
+    "eu": {
+     "start": "2022-03-30 04:00:00",
+     "end": "2022-04-19 10:59:00"
+    },
+    "na": {
+     "start": "2022-03-29 22:00:00",
+     "end": "2022-04-19 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Azure_Excursion_2022-03-30.png"
+  },
+  {
+   "title": "Ballad in Goblets",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Venti",
+     "id": "venti"
+    },
+    {
+     "rarity": "4",
+     "name": "Sucrose",
+     "id": "sucrose"
+    },
+    {
+     "rarity": "4",
+     "name": "Xiangling",
+     "id": "xiangling"
+    },
+    {
+     "rarity": "4",
+     "name": "Yun Jin",
+     "id": "yun_jin"
+    }
+   ],
+   "start": "2022-03-30 11:00:00",
+   "end": "2022-04-19 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-30 10:00:00",
+     "end": "2022-04-19 16:59:00"
+    },
+    "eu": {
+     "start": "2022-03-30 04:00:00",
+     "end": "2022-04-19 10:59:00"
+    },
+    "na": {
+     "start": "2022-03-29 22:00:00",
+     "end": "2022-04-19 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Ballad_in_Goblets_2022-03-30.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "The Heron's Court",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Kamisato Ayaka",
+     "id": "kamisato_ayaka"
+    },
+    {
+     "rarity": "4",
+     "name": "Razor",
+     "id": "razor"
+    },
+    {
+     "rarity": "4",
+     "name": "Rosaria",
+     "id": "rosaria"
+    },
+    {
+     "rarity": "4",
+     "name": "Sayu",
+     "id": "sayu"
+    }
+   ],
+   "start": "2022-04-19 18:00:00",
+   "end": "2022-05-31 05:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-04-19 17:00:00",
+     "end": "2022-05-31 04:59:59"
+    },
+    "eu": {
+     "start": "2022-04-19 11:00:00",
+     "end": "2022-05-30 22:59:59"
+    },
+    "na": {
+     "start": "2022-04-19 05:00:00",
+     "end": "2022-05-30 16:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/The_Heron%27s_Court_2022-04-19.png"
+  },
+  {
+   "title": "Discerner of Enigmas",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Yelan",
+     "id": "yelan"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    }
+   ],
+   "start": "2022-05-31 11:00:00",
+   "end": "2022-06-21 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2022-05-31 10:00:00",
+     "end": "2022-06-21 16:59:00"
+    },
+    "eu": {
+     "start": "2022-05-31 04:00:00",
+     "end": "2022-06-21 10:59:00"
+    },
+    "na": {
+     "start": "2022-05-30 22:00:00",
+     "end": "2022-06-21 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Discerner_of_Enigmas_2022-05-31.png"
+  },
+  {
+   "title": "Invitation to Mundane Life",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Xiao",
+     "id": "xiao"
+    },
+    {
+     "rarity": "4",
+     "name": "Barbara",
+     "id": "barbara"
+    },
+    {
+     "rarity": "4",
+     "name": "Yanfei",
+     "id": "yanfei"
+    },
+    {
+     "rarity": "4",
+     "name": "Noelle",
+     "id": "noelle"
+    }
+   ],
+   "start": "2022-05-31 11:00:00",
+   "end": "2022-06-21 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2022-05-31 10:00:00",
+     "end": "2022-06-21 16:59:00"
+    },
+    "eu": {
+     "start": "2022-05-31 04:00:00",
+     "end": "2022-06-21 10:59:00"
+    },
+    "na": {
+     "start": "2022-05-30 22:00:00",
+     "end": "2022-06-21 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Invitation_to_Mundane_Life_2022-05-31.png",
+   "second_character_banner": true
+  },
+  {
+   "title": "Oni's Royale",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Arataki Itto",
+     "id": "arataki_itto"
+    },
+    {
+     "rarity": "4",
+     "name": "Kuki Shinobu",
+     "id": "kuki_shinobu"
+    },
+    {
+     "rarity": "4",
+     "name": "Chongyun",
+     "id": "chongyun"
+    },
+    {
+     "rarity": "4",
+     "name": "Gorou",
+     "id": "gorou"
+    }
+   ],
+   "start": "2022-06-21 18:00:00",
+   "end": "2022-07-12 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-06-21 17:00:00",
+     "end": "2022-07-12 13:59:59"
+    },
+    "eu": {
+     "start": "2022-06-21 11:00:00",
+     "end": "2022-07-12 07:59:59"
+    },
+    "na": {
+     "start": "2022-06-21 05:00:00",
+     "end": "2022-07-12 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Oni%27s_Royale_2022-06-21.png"
+  }
+ ],
+ "weapons": [
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Aquila Favonia",
+     "id": "aquila_favonia"
+    },
+    {
+     "rarity": "5",
+     "name": "Amos' Bow",
+     "id": "amos_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    }
+   ],
+   "start": "2020-09-28 10:00:00",
+   "end": "2020-10-18 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-09-28 09:00:00",
+     "end": "2020-10-18 16:59:59"
+    },
+    "eu": {
+     "start": "2020-09-28 03:00:00",
+     "end": "2020-10-18 10:59:59"
+    },
+    "na": {
+     "start": "2020-09-27 21:00:00",
+     "end": "2020-10-18 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Epitome_Invocation_2020-09-28.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Lost Prayer to the Sacred Winds",
+     "id": "lost_prayer_to_the_sacred_winds"
+    },
+    {
+     "rarity": "5",
+     "name": "Wolf's Gravestone",
+     "id": "wolfs_gravestone"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    }
+   ],
+   "start": "2020-10-20 18:00:00",
+   "end": "2020-11-10 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-10-20 17:00:00",
+     "end": "2020-11-10 13:59:59"
+    },
+    "eu": {
+     "start": "2020-10-20 11:00:00",
+     "end": "2020-11-10 07:59:59"
+    },
+    "na": {
+     "start": "2020-10-20 05:00:00",
+     "end": "2020-11-10 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Epitome_Invocation_2020-10-20.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Memory of Dust",
+     "id": "memory_of_dust"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Harp",
+     "id": "skyward_harp"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Rainslasher",
+     "id": "rainslasher"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Rust",
+     "id": "rust"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    }
+   ],
+   "start": "2020-11-11 10:00:00",
+   "end": "2020-12-01 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-11-11 09:00:00",
+     "end": "2020-12-01 14:59:59"
+    },
+    "eu": {
+     "start": "2020-11-11 03:00:00",
+     "end": "2020-12-01 08:59:59"
+    },
+    "na": {
+     "start": "2020-11-10 21:00:00",
+     "end": "2020-12-01 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Epitome_Invocation_2020-11-11.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Vortex Vanquisher",
+     "id": "vortex_vanquisher"
+    },
+    {
+     "rarity": "5",
+     "name": "The Unforged",
+     "id": "the_unforged"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    }
+   ],
+   "start": "2020-12-01 18:00:00",
+   "end": "2020-12-22 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-12-01 17:00:00",
+     "end": "2020-12-22 13:59:59"
+    },
+    "eu": {
+     "start": "2020-12-01 11:00:00",
+     "end": "2020-12-22 07:59:59"
+    },
+    "na": {
+     "start": "2020-12-01 05:00:00",
+     "end": "2020-12-22 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Epitome_Invocation_2020-12-01.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Summit Shaper",
+     "id": "summit_shaper"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Atlas",
+     "id": "skyward_atlas"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    }
+   ],
+   "start": "2020-12-23 10:00:00",
+   "end": "2021-01-12 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2020-12-23 09:00:00",
+     "end": "2021-01-12 14:59:59"
+    },
+    "eu": {
+     "start": "2020-12-23 03:00:00",
+     "end": "2021-01-12 08:59:59"
+    },
+    "na": {
+     "start": "2020-12-22 21:00:00",
+     "end": "2021-01-12 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Epitome_Invocation_2020-12-23.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Skyward Pride",
+     "id": "skyward_pride"
+    },
+    {
+     "rarity": "5",
+     "name": "Amos' Bow",
+     "id": "amos_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    }
+   ],
+   "start": "2021-01-12 18:00:00",
+   "end": "2021-02-02 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-01-12 17:00:00",
+     "end": "2021-02-02 13:59:59"
+    },
+    "eu": {
+     "start": "2021-01-12 11:00:00",
+     "end": "2021-02-02 07:59:59"
+    },
+    "na": {
+     "start": "2021-01-12 05:00:00",
+     "end": "2021-02-02 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Epitome_Invocation_2021-01-12.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Cutter",
+     "id": "primordial_jade_cutter"
+    },
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Winged-Spear",
+     "id": "primordial_jade_winged-spear"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Rust",
+     "id": "rust"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    }
+   ],
+   "start": "2021-02-03 11:00:00",
+   "end": "2021-02-23 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-02-03 10:00:00",
+     "end": "2021-02-23 14:59:59"
+    },
+    "eu": {
+     "start": "2021-02-03 04:00:00",
+     "end": "2021-02-23 08:59:59"
+    },
+    "na": {
+     "start": "2021-02-02 22:00:00",
+     "end": "2021-02-23 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Epitome_Invocation_2021-02-03.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Staff of Homa",
+     "id": "staff_of_homa"
+    },
+    {
+     "rarity": "5",
+     "name": "Wolf's Gravestone",
+     "id": "wolfs_gravestone"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Blade",
+     "id": "lithic_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Spear",
+     "id": "lithic_spear"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    }
+   ],
+   "start": "2021-02-23 18:00:00",
+   "end": "2021-03-16 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-02-23 17:00:00",
+     "end": "2021-03-16 13:59:59"
+    },
+    "eu": {
+     "start": "2021-02-23 11:00:00",
+     "end": "2021-03-16 07:59:59"
+    },
+    "na": {
+     "start": "2021-02-23 05:00:00",
+     "end": "2021-03-16 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Epitome_Invocation_2021-02-23.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Elegy for the End",
+     "id": "elegy_for_the_end"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Blade",
+     "id": "skyward_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "The Alley Flash",
+     "id": "the_alley_flash"
+    },
+    {
+     "rarity": "4",
+     "name": "Wine and Song",
+     "id": "wine_and_song"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    }
+   ],
+   "start": "2021-03-17 11:00:00",
+   "end": "2021-04-06 15:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-03-17 10:00:00",
+     "end": "2021-04-06 14:59:59"
+    },
+    "eu": {
+     "start": "2021-03-17 04:00:00",
+     "end": "2021-04-06 08:59:59"
+    },
+    "na": {
+     "start": "2021-03-16 22:00:00",
+     "end": "2021-04-06 02:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Epitome_Invocation_2021-03-17.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Skyward Harp",
+     "id": "skyward_harp"
+    },
+    {
+     "rarity": "5",
+     "name": "Lost Prayer to the Sacred Winds",
+     "id": "lost_prayer_to_the_sacred_winds"
+    },
+    {
+     "rarity": "4",
+     "name": "Alley Hunter",
+     "id": "alley_hunter"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    }
+   ],
+   "start": "2021-04-06 18:00:00",
+   "end": "2021-04-27 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-04-06 17:00:00",
+     "end": "2021-04-27 13:59:59"
+    },
+    "eu": {
+     "start": "2021-04-06 11:00:00",
+     "end": "2021-04-27 07:59:59"
+    },
+    "na": {
+     "start": "2021-04-06 05:00:00",
+     "end": "2021-04-27 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Epitome_Invocation_2021-04-06.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Summit Shaper",
+     "id": "summit_shaper"
+    },
+    {
+     "rarity": "5",
+     "name": "Memory of Dust",
+     "id": "memory_of_dust"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Blade",
+     "id": "lithic_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Spear",
+     "id": "lithic_spear"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    }
+   ],
+   "start": "2021-04-28 11:00:00",
+   "end": "2021-05-18 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-04-28 10:00:00",
+     "end": "2021-05-18 16:59:00"
+    },
+    "eu": {
+     "start": "2021-04-28 04:00:00",
+     "end": "2021-05-18 10:59:00"
+    },
+    "na": {
+     "start": "2021-04-27 22:00:00",
+     "end": "2021-05-18 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Epitome_Invocation_2021-04-28.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Song of Broken Pines",
+     "id": "song_of_broken_pines"
+    },
+    {
+     "rarity": "5",
+     "name": "Aquila Favonia",
+     "id": "aquila_favonia"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Rainslasher",
+     "id": "rainslasher"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    },
+    {
+     "rarity": "4",
+     "name": "Rust",
+     "id": "rust"
+    }
+   ],
+   "start": "2021-05-18 18:00:00",
+   "end": "2021-06-08 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-05-18 17:00:00",
+     "end": "2021-06-08 13:59:59"
+    },
+    "eu": {
+     "start": "2021-05-18 11:00:00",
+     "end": "2021-06-08 07:59:59"
+    },
+    "na": {
+     "start": "2021-05-18 05:00:00",
+     "end": "2021-06-08 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Epitome_Invocation_2021-05-18.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Skyward Pride",
+     "id": "skyward_pride"
+    },
+    {
+     "rarity": "5",
+     "name": "Lost Prayer to the Sacred Winds",
+     "id": "lost_prayer_to_the_sacred_winds"
+    },
+    {
+     "rarity": "4",
+     "name": "Mitternachts Waltz",
+     "id": "mitternachts_waltz"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    }
+   ],
+   "start": "2021-06-09 11:00:00",
+   "end": "2021-06-29 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-06-09 10:00:00",
+     "end": "2021-06-29 16:59:00"
+    },
+    "eu": {
+     "start": "2021-06-09 04:00:00",
+     "end": "2021-06-29 10:59:00"
+    },
+    "na": {
+     "start": "2021-06-08 22:00:00",
+     "end": "2021-06-29 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Epitome_Invocation_2021-06-09.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Freedom-Sworn",
+     "id": "freedom-sworn"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Atlas",
+     "id": "skyward_atlas"
+    },
+    {
+     "rarity": "4",
+     "name": "The Alley Flash",
+     "id": "the_alley_flash"
+    },
+    {
+     "rarity": "4",
+     "name": "Wine and Song",
+     "id": "wine_and_song"
+    },
+    {
+     "rarity": "4",
+     "name": "Alley Hunter",
+     "id": "alley_hunter"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    }
+   ],
+   "start": "2021-06-29 18:00:00",
+   "end": "2021-07-20 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-06-29 17:00:00",
+     "end": "2021-07-20 13:59:59"
+    },
+    "eu": {
+     "start": "2021-06-29 11:00:00",
+     "end": "2021-07-20 07:59:59"
+    },
+    "na": {
+     "start": "2021-06-29 05:00:00",
+     "end": "2021-07-20 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Epitome_Invocation_2021-06-29.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Mistsplitter Reforged",
+     "id": "mistsplitter_reforged"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Spine",
+     "id": "skyward_spine"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    }
+   ],
+   "start": "2021-07-21 11:00:00",
+   "end": "2021-08-10 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-07-21 10:00:00",
+     "end": "2021-08-10 16:59:00"
+    },
+    "eu": {
+     "start": "2021-07-21 04:00:00",
+     "end": "2021-08-10 10:59:00"
+    },
+    "na": {
+     "start": "2021-07-20 22:00:00",
+     "end": "2021-08-10 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Epitome_Invocation_2021-07-21.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Thundering Pulse",
+     "id": "thundering_pulse"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Blade",
+     "id": "skyward_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Rainslasher",
+     "id": "rainslasher"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    }
+   ],
+   "start": "2021-08-10 18:00:00",
+   "end": "2021-08-31 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-08-10 17:00:00",
+     "end": "2021-08-31 13:59:59"
+    },
+    "eu": {
+     "start": "2021-08-10 11:00:00",
+     "end": "2021-08-31 07:59:59"
+    },
+    "na": {
+     "start": "2021-08-10 05:00:00",
+     "end": "2021-08-31 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Epitome_Invocation_2021-08-10.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Engulfing Lightning",
+     "id": "engulfing_lightning"
+    },
+    {
+     "rarity": "5",
+     "name": "The Unforged",
+     "id": "the_unforged"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    }
+   ],
+   "start": "2021-09-01 11:00:00",
+   "end": "2021-09-21 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-09-01 10:00:00",
+     "end": "2021-09-21 16:59:00"
+    },
+    "eu": {
+     "start": "2021-09-01 04:00:00",
+     "end": "2021-09-21 10:59:00"
+    },
+    "na": {
+     "start": "2021-08-31 22:00:00",
+     "end": "2021-09-21 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Epitome_Invocation_2021-09-01.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Everlasting Moonglow",
+     "id": "everlasting_moonglow"
+    },
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Cutter",
+     "id": "primordial_jade_cutter"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    }
+   ],
+   "start": "2021-09-21 18:00:00",
+   "end": "2021-10-12 14:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-09-21 17:00:00",
+     "end": "2021-10-12 13:59:00"
+    },
+    "eu": {
+     "start": "2021-09-21 11:00:00",
+     "end": "2021-10-12 07:59:00"
+    },
+    "na": {
+     "start": "2021-09-21 05:00:00",
+     "end": "2021-10-12 01:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Epitome_Invocation_2021-09-21.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Polar Star",
+     "id": "polar_star"
+    },
+    {
+     "rarity": "5",
+     "name": "Memory of Dust",
+     "id": "memory_of_dust"
+    },
+    {
+     "rarity": "4",
+     "name": "Akuoumaru",
+     "id": "akuoumaru"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Rust",
+     "id": "rust"
+    }
+   ],
+   "start": "2021-10-13 11:00:00",
+   "end": "2021-11-02 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2021-10-13 10:00:00",
+     "end": "2021-11-02 16:59:00"
+    },
+    "eu": {
+     "start": "2021-10-13 04:00:00",
+     "end": "2021-11-02 10:59:00"
+    },
+    "na": {
+     "start": "2021-10-12 22:00:00",
+     "end": "2021-11-02 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Epitome_Invocation_2021-10-13.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Staff of Homa",
+     "id": "staff_of_homa"
+    },
+    {
+     "rarity": "5",
+     "name": "Elegy for the End",
+     "id": "elegy_for_the_end"
+    },
+    {
+     "rarity": "4",
+     "name": "Wavebreaker's Fin",
+     "id": "wavebreakers_fin"
+    },
+    {
+     "rarity": "4",
+     "name": "Mouun's Moon",
+     "id": "mouuns_moon"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Rainslasher",
+     "id": "rainslasher"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    }
+   ],
+   "start": "2021-11-02 18:00:00",
+   "end": "2021-11-23 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-11-02 17:00:00",
+     "end": "2021-11-23 13:59:59"
+    },
+    "eu": {
+     "start": "2021-11-02 11:00:00",
+     "end": "2021-11-23 07:59:59"
+    },
+    "na": {
+     "start": "2021-11-02 05:00:00",
+     "end": "2021-11-23 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Epitome_Invocation_2021-11-02.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Freedom-Sworn",
+     "id": "freedom-sworn"
+    },
+    {
+     "rarity": "5",
+     "name": "Song of Broken Pines",
+     "id": "song_of_broken_pines"
+    },
+    {
+     "rarity": "4",
+     "name": "Wine and Song",
+     "id": "wine_and_song"
+    },
+    {
+     "rarity": "4",
+     "name": "Alley Hunter",
+     "id": "alley_hunter"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    }
+   ],
+   "start": "2021-11-24 11:00:00",
+   "end": "2021-12-14 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-11-24 10:00:00",
+     "end": "2021-12-14 16:59:59"
+    },
+    "eu": {
+     "start": "2021-11-24 04:00:00",
+     "end": "2021-12-14 10:59:59"
+    },
+    "na": {
+     "start": "2021-11-23 22:00:00",
+     "end": "2021-12-14 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Epitome_Invocation_2021-11-24.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Redhorn Stonethresher",
+     "id": "redhorn_stonethresher"
+    },
+    {
+     "rarity": "5",
+     "name": "Skyward Harp",
+     "id": "skyward_harp"
+    },
+    {
+     "rarity": "4",
+     "name": "The Alley Flash",
+     "id": "the_alley_flash"
+    },
+    {
+     "rarity": "4",
+     "name": "Mitternachts Waltz",
+     "id": "mitternachts_waltz"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    }
+   ],
+   "start": "2021-12-14 18:00:00",
+   "end": "2022-01-04 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2021-12-14 17:00:00",
+     "end": "2022-01-04 13:59:59"
+    },
+    "eu": {
+     "start": "2021-12-14 11:00:00",
+     "end": "2022-01-04 07:59:59"
+    },
+    "na": {
+     "start": "2021-12-14 05:00:00",
+     "end": "2022-01-04 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Epitome_Invocation_2021-12-14.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Calamity Queller",
+     "id": "calamity_queller"
+    },
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Winged-Spear",
+     "id": "primordial_jade_winged-spear"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Spear",
+     "id": "lithic_spear"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    }
+   ],
+   "start": "2022-01-05 11:00:00",
+   "end": "2022-01-25 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-05 10:00:00",
+     "end": "2022-01-25 16:59:59"
+    },
+    "eu": {
+     "start": "2022-01-05 04:00:00",
+     "end": "2022-01-25 10:59:59"
+    },
+    "na": {
+     "start": "2022-01-04 22:00:00",
+     "end": "2022-01-25 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Epitome_Invocation_2022-01-05.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Vortex Vanquisher",
+     "id": "vortex_vanquisher"
+    },
+    {
+     "rarity": "5",
+     "name": "Amos' Bow",
+     "id": "amos_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Blade",
+     "id": "lithic_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    }
+   ],
+   "start": "2022-01-25 18:00:00",
+   "end": "2022-02-15 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-01-25 17:00:00",
+     "end": "2022-02-15 13:59:59"
+    },
+    "eu": {
+     "start": "2022-01-25 11:00:00",
+     "end": "2022-02-15 07:59:59"
+    },
+    "na": {
+     "start": "2022-01-25 05:00:00",
+     "end": "2022-02-15 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Epitome_Invocation_2022-01-25.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Kagura's Verity",
+     "id": "kaguras_verity"
+    },
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Cutter",
+     "id": "primordial_jade_cutter"
+    },
+    {
+     "rarity": "4",
+     "name": "Wavebreaker's Fin",
+     "id": "wavebreakers_fin"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "Rainslasher",
+     "id": "rainslasher"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    }
+   ],
+   "start": "2022-02-16 11:00:00",
+   "end": "2022-03-08 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-02-16 10:00:00",
+     "end": "2022-03-08 16:59:59"
+    },
+    "eu": {
+     "start": "2022-02-16 04:00:00",
+     "end": "2022-03-08 10:59:59"
+    },
+    "na": {
+     "start": "2022-02-15 22:00:00",
+     "end": "2022-03-08 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Epitome_Invocation_2022-02-16.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Engulfing Lightning",
+     "id": "engulfing_lightning"
+    },
+    {
+     "rarity": "5",
+     "name": "Everlasting Moonglow",
+     "id": "everlasting_moonglow"
+    },
+    {
+     "rarity": "4",
+     "name": "Akuoumaru",
+     "id": "akuoumaru"
+    },
+    {
+     "rarity": "4",
+     "name": "Mouun's Moon",
+     "id": "mouuns_moon"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    }
+   ],
+   "start": "2022-03-08 18:00:00",
+   "end": "2022-03-29 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-08 17:00:00",
+     "end": "2022-03-29 13:59:59"
+    },
+    "eu": {
+     "start": "2022-03-08 11:00:00",
+     "end": "2022-03-29 07:59:59"
+    },
+    "na": {
+     "start": "2022-03-08 05:00:00",
+     "end": "2022-03-29 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Epitome_Invocation_2022-03-08.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Haran Geppaku Futsu",
+     "id": "haran_geppaku_futsu"
+    },
+    {
+     "rarity": "5",
+     "name": "Elegy for the End",
+     "id": "elegy_for_the_end"
+    },
+    {
+     "rarity": "4",
+     "name": "The Flute",
+     "id": "the_flute"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Greatsword",
+     "id": "sacrificial_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "The Widsith",
+     "id": "the_widsith"
+    },
+    {
+     "rarity": "4",
+     "name": "Rust",
+     "id": "rust"
+    }
+   ],
+   "start": "2022-03-30 11:00:00",
+   "end": "2022-04-19 17:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-03-30 10:00:00",
+     "end": "2022-04-19 16:59:59"
+    },
+    "eu": {
+     "start": "2022-03-30 04:00:00",
+     "end": "2022-04-19 10:59:59"
+    },
+    "na": {
+     "start": "2022-03-29 22:00:00",
+     "end": "2022-04-19 04:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Epitome_Invocation_2022-03-30.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Mistsplitter Reforged",
+     "id": "mistsplitter_reforged"
+    },
+    {
+     "rarity": "5",
+     "name": "The Unforged",
+     "id": "the_unforged"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Sword",
+     "id": "favonius_sword"
+    },
+    {
+     "rarity": "4",
+     "name": "The Bell",
+     "id": "the_bell"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Lance",
+     "id": "favonius_lance"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Codex",
+     "id": "favonius_codex"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Warbow",
+     "id": "favonius_warbow"
+    }
+   ],
+   "start": "2022-04-19 18:00:00",
+   "end": "2022-05-31 05:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-04-19 17:00:00",
+     "end": "2022-05-31 04:59:59"
+    },
+    "eu": {
+     "start": "2022-04-19 11:00:00",
+     "end": "2022-05-30 22:59:59"
+    },
+    "na": {
+     "start": "2022-04-19 05:00:00",
+     "end": "2022-05-30 16:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Epitome_Invocation_2022-04-19.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Aqua Simulacra",
+     "id": "aqua_simulacra"
+    },
+    {
+     "rarity": "5",
+     "name": "Primordial Jade Winged-Spear",
+     "id": "primordial_jade_winged-spear"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Spear",
+     "id": "lithic_spear"
+    },
+    {
+     "rarity": "4",
+     "name": "Eye of Perception",
+     "id": "eye_of_perception"
+    },
+    {
+     "rarity": "4",
+     "name": "Favonius Greatsword",
+     "id": "favonius_greatsword"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Bow",
+     "id": "sacrificial_bow"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Sword",
+     "id": "sacrificial_sword"
+    }
+   ],
+   "start": "2022-05-31 11:00:00",
+   "end": "2022-06-21 17:59:00",
+   "reg_times": {
+    "asia": {
+     "start": "2022-05-31 10:00:00",
+     "end": "2022-06-21 16:59:00"
+    },
+    "eu": {
+     "start": "2022-05-31 04:00:00",
+     "end": "2022-06-21 10:59:00"
+    },
+    "na": {
+     "start": "2022-05-30 22:00:00",
+     "end": "2022-06-21 04:59:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Epitome_Invocation_2022-05-31.png"
+  },
+  {
+   "title": "Epitome Invocation",
+   "items": [
+    {
+     "rarity": "5",
+     "name": "Redhorn Stonethresher",
+     "id": "redhorn_stonethresher"
+    },
+    {
+     "rarity": "5",
+     "name": "Memory of Dust",
+     "id": "memory_of_dust"
+    },
+    {
+     "rarity": "4",
+     "name": "Lithic Blade",
+     "id": "lithic_blade"
+    },
+    {
+     "rarity": "4",
+     "name": "Lion's Roar",
+     "id": "lions_roar"
+    },
+    {
+     "rarity": "4",
+     "name": "Dragon's Bane",
+     "id": "dragons_bane"
+    },
+    {
+     "rarity": "4",
+     "name": "Sacrificial Fragments",
+     "id": "sacrificial_fragments"
+    },
+    {
+     "rarity": "4",
+     "name": "The Stringless",
+     "id": "the_stringless"
+    }
+   ],
+   "start": "2022-06-21 18:00:00",
+   "end": "2022-07-12 14:59:59",
+   "reg_times": {
+    "asia": {
+     "start": "2022-06-21 17:00:00",
+     "end": "2022-07-12 13:59:59"
+    },
+    "eu": {
+     "start": "2022-06-21 11:00:00",
+     "end": "2022-07-12 07:59:59"
+    },
+    "na": {
+     "start": "2022-06-21 05:00:00",
+     "end": "2022-07-12 01:59:59"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Epitome_Invocation_2022-06-21.png"
+  }
+ ],
+ "standard": [
+  {
+   "title": "Wanderlust Invocation",
+   "items": [],
+   "start": "2020-09-28 10:00:00",
+   "end": "",
+   "reg_times": {
+    "asia": {
+     "start": "2020-09-28 09:00:00"
+    },
+    "eu": {
+     "start": "2020-09-28 03:00:00"
+    },
+    "na": {
+     "start": "2020-09-27 21:00:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Wanderlust_Invocation_2020-11-11.png"
+  }
+ ],
+ "novice": [
+  {
+   "title": "Beginners' Wish",
+   "items": [],
+   "start": "2020-09-28 10:00:00",
+   "end": "",
+   "reg_times": {
+    "asia": {
+     "start": "2020-09-28 09:00:00"
+    },
+    "eu": {
+     "start": "2020-09-28 03:00:00"
+    },
+    "na": {
+     "start": "2020-09-27 21:00:00"
+    }
+   },
+   "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Wish_Beginners.png"
+  }
+ ]
+}

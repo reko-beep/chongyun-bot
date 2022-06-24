@@ -10,13 +10,13 @@ must be in list
 
 
 from re import A
-from nextcord.ui import View, Button, button, Select
+from nextcord.ui import View, Button, button, Select, Modal, TextInput
 from nextcord import Member, Interaction, Message, Embed, ButtonStyle, SelectOption
 from nextcord.utils import get
 from core.bot import DevBot
 import random
 
-from typing import Optional, List
+from typing import Optional, List, Text
 
 
 class PaginatorList(View):
@@ -27,6 +27,7 @@ class PaginatorList(View):
         self.embeds = embeds
         self.page = 0
         self.bot : DevBot = bot
+        print(self.user.display_name)
         self.comp_delete_button()
         
 
@@ -41,6 +42,7 @@ class PaginatorList(View):
     
     @button(label='Previous',style=ButtonStyle.blurple)
     async def previous(self, button: Button,interaction: Interaction):
+        print('interaction check', interaction.user.display_name, self.user.display_name)
         if interaction.user == self.user:
             if self.page > 0:
                 self.page-= 1   
@@ -49,26 +51,33 @@ class PaginatorList(View):
                 await interaction.message.edit(embed=self.embeds[self.page], view=self)
 
     def comp_delete_button(self):
+        for ui_items in self.children:                                
+            if hasattr(ui_items, 'cdict'):
+                self.remove_item(ui_items)
         if 'team comps' in self.embeds[self.page].title.lower():
-            title = self.embeds[self.page].title.split('-')[1].strip()
-            comp = self.bot.inf.comp_index(title)
-            
-            
-            if comp is not None:
-                comp_selected = self.bot.inf.teamcomps['data'][comp]
-                print('selected comp', comp_selected, comp_selected['owner'])
-                if comp_selected['owner'] == self.user.id:
-                    self.add_item(CompDelete(self.bot, comp_selected))
+            if '-' in self.embeds[self.page].title:
+                title = '-'.join(self.embeds[self.page].title.split('-')[1:]).strip()
+                comp = self.bot.inf.comp_index(title)      
+                print('comp attributes', title, self.bot.inf.generate_id(title), comp)
+                if comp is not None:               
+                    comp_selected = self.bot.inf.teamcomps['data'][comp]                    
+                    print('selected comp', comp_selected, comp_selected['owner'])
+                    if comp_selected['owner'] == self.user.id:
+                        self.add_item(CompDelete(self.bot, comp_selected))
+                    else:
+                        for ui_items in self.children:                                
+                            if hasattr(ui_items, 'cdict'):
+                                self.remove_item(ui_items)
                 else:
-                    for ui_items in self.children:                                
-                        if hasattr(ui_items, 'cdict'):
-                            self.remove_item(ui_items) 
-            else:
-                 self.add_item(CompDelete(self.bot, comp_selected, label='Deleted Comp', disabled=True))
+                    self.add_item(CompDelete(self.bot, {'owner': -1}, label='Deleted Comp', disabled=True))
+        
 
 
     @button(label='Next',style=ButtonStyle.blurple)
+    
     async def next(self, button: Button,interaction: Interaction):
+        
+        print('interaction check', interaction.user.display_name, self.user.display_name)
         if interaction.user == self.user:
             if self.page < len(self.embeds)-1:
                 self.page += 1       
@@ -89,7 +98,7 @@ class DropdownList(Select):
         self.option_to_add = list_
         self.page = page
         self.user = user
-       
+        self.none = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png'
 
         super().__init__(placeholder='Choose a option',min_values=1,max_values=1)
         self.populate_items()
@@ -101,9 +110,12 @@ class DropdownList(Select):
         '''
 
         self.options.clear()
+        
+       
 
         for num in range(1, len(self.option_to_add)+1, 1):
-            if ((self.page*22) - 22) < num < self.page*22:
+            if ((self.page*22) - 22) < num < self.page*22:                 
+
                 self.append_option(SelectOption(label=self.option_to_add[num]))    
         
         if self.page < divmod(len(self.option_to_add),22)[0]:
@@ -141,7 +153,7 @@ class DropdownList(Select):
 
                 else: 
                     if self.func is not None:
-                        embeds = self.func(interaction.guild, self.values[0], [], False, False, interaction.guild)
+                        embeds = self.func(interaction.guild, self.values[0], [], False, False)
                         embed_view = PaginatorList(user=self.user, message=interaction.message, embeds=embeds, bot=self.bot)
                         await interaction.message.edit(self.values[0] + 'selected',embed=embeds[0], view=embed_view) 
 
@@ -159,12 +171,13 @@ class CompDelete(Button):
     async def callback(self, interaction: Interaction):
 
         if interaction.user.id == self.owner:
-            index_ = self.bot.inf.teamcomps['data'].index(self.cdict)
-            self.bot.inf.delete_comp(index_ )
-            self.disabled = True
-            embed = interaction.message.embeds[0].set_footer(text='This team comp is now deleted!')
-            file = interaction.message.attachments
-            await interaction.message.edit(embed=embed,attachments=file,view=self.view)
+            index_ = self.bot.inf.comp_index(self.cdict['title'])
+            if index_ is not None:
+                self.bot.inf.delete_comp(index_ )
+                self.disabled = True
+                embed = interaction.message.embeds[0].set_footer(text='This team comp is now deleted!')
+                file = interaction.message.attachments
+                await interaction.message.edit(embed=embed,attachments=file,view=self.view)
 
 
 class SwitchPaginator(View):
@@ -331,4 +344,26 @@ class LibenBox(View):
         await self.message.edit(view=self)
 
 
+
+class ApproveForm(Modal):
+    def __init__(self, bot: DevBot, user: Member):
+        super().__init__('Member Approval Form', timeout=90)
+        self.bot = bot
+        self.user = user
+
+        self.from_where = TextInput(label='Where are you from?', placeholder='City , Country, or location!', required=True)
+        self.add_item(self.from_where)
+
+        self.invite_where = TextInput(label='Where you got the invite from?', placeholder='Disboard or friends name!', required=True)
+        self.add_item(self.invite_where)
+
+    async def callback(self, interaction: Interaction):
+        embed = Embed(title=f'{self.user.display_name} Approval form', color=self.bot.resource_manager.get_color_from_image(self.user.avatar.url))
+        embed.set_author(name=self.user.display_name, icon_url=self.user.avatar.url)
+        w_t = 'N/A' if self.from_where.value is None else self.from_where.value
+        embed.add_field(name=f"{self.user.display_name} is from", value=w_t)
+        i_t = 'N/A' if self.invite_where.value is None else self.invite_where.value
+        embed.add_field(name=f"{self.user.display_name} got the invite from", value=i_t)
+
+        await interaction.response.send_message(embed=embed)
 

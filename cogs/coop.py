@@ -5,7 +5,7 @@ from nextcord.ext.commands import Cog, Context
 from nextcord.ext import commands
 import random
 
-from core.bot import DevBot
+
 
 from base.resource_manager import ResourceManager
 from base.information import Information
@@ -14,11 +14,12 @@ from base.coop import CoopManager
  
 from dev_log import logc
 class CoopCog(Cog):
-    def __init__(self, bot: DevBot):
+    def __init__(self, bot):
         self.bot = bot
         self.resm = self.bot.resource_manager
         self.inf = self.bot.inf
         self.coop = self.bot.coop
+        self.wc = self.bot.wishclient
 
 
     @commands.Cog.listener()
@@ -32,8 +33,8 @@ class CoopCog(Cog):
                     if message.content[0] in ['8', '7','6']:
                         self.coop.set_uid(message.author, int(message.content))
                         embed = Embed(title='UID Linked', description=f'**UID:** {message.content}\n**Region:** {self.coop.get_server_region(uid=int(message.content))}\n\n*use !cpp to see coop profile\nuse !cpinfo add|remove|set domains|leylines|rank|wl|color|image|character (value) (value) to modify your profile*', color=0xc3dde4)
-                        embed.set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
-                        embed.set_thumbnail(url=message.author.avatar.url)
+                        embed.set_author(name=message.author.display_name, icon_url=message.author.display_avatar.url)
+                        embed.set_thumbnail(url=message.author.display_avatar.url)
                         await message.channel.send(embed=embed)
                         await message.delete()
                     else:
@@ -48,10 +49,10 @@ class CoopCog(Cog):
             if roles_check:
                 warn_check = self.coop.warn_system(message.author, message)
                 if warn_check in ['BANNED', 'WARNED']:
-                    c = self.resm.get_color_from_image(message.author.avatar.url)
+                    c = self.resm.get_color_from_image(message.author.display_avatar.url)
                     embed = Embed(title='Co-op abuse', description=f"You are tagging too quick!\n You have been {warn_check.lower()}", color=c)
-                    embed.set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
-                    embed.set_thumbnail(url=message.author.avatar.url)
+                    embed.set_author(name=message.author.display_name, icon_url=message.author.display_avatar.url)
+                    embed.set_thumbnail(url=message.author.display_avatar.url)
                     await message.channel.send(embed=embed)
                 
                 logc('Co-op Warn system', '[', message.author.id,']', warn_check)
@@ -73,10 +74,10 @@ class CoopCog(Cog):
                     else:
                         text = f'Region for which help is needed: **{region.upper()}**\n**UID:**\nNot linked yet!'
 
-                    c = self.resm.get_color_from_image(message.author.avatar.url)
+                    c = self.resm.get_color_from_image(message.author.display_avatar.url)
                     embed = Embed(title='Co-op Request', description=f"{text}\n\n*You are eligible to give {digits} co-op points\n after you have received help!*", color=c)
-                    embed.set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
-                    embed.set_thumbnail(url=message.author.avatar.url)                    
+                    embed.set_author(name=message.author.display_name, icon_url=message.author.display_avatar.url)
+                    embed.set_thumbnail(url=message.author.display_avatar.url)                    
                     self.coop.add_to_give_points(message.author, digits)
                     await message.channel.send(embed=embed)
                 else:
@@ -94,29 +95,168 @@ class CoopCog(Cog):
         
         await ctx.send(f"INT Color: {int(hex, base)}")
 
+
+    @commands.command(aliases=['colbrs'], description='colbrs resets co-op leaderboard')
+    async def coopleaderboardreset(self, ctx):
+        if self.bot.admin.check_admin(ctx):
+
+            check = self.coop.reset_coop_points()
+            if check:
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed = Embed(title='Co-op', description=f'Coop leaderboard reset!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                await ctx.send(embed=embed)
+        else:
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+            embed = Embed(title='Co-op error', description=f'Not enough perms!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['counban'], description='cogunban (user) unbans user from coop warn system')
+    async def coopunban(self, ctx, user:Member=None):
+
+        if self.bot.admin.check_admin(ctx):
+            if user is not None:
+                check = self.coop.unban_from_coop(user)
+                if check:
+                    color = self.resm.get_color_from_image(user.display_avatar.url)
+                    embed = Embed(title='Co-op', description=f'User has been unbanned from co-op system!', color=color)
+                    embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
+
+                    await ctx.send(embed=embed)
+                else:
+                    if check is False:
+                        color = self.resm.get_color_from_image(user.display_avatar.url)
+                        embed = Embed(title='Co-op error', description=f'User is not banned!', color=color)
+                        embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
+
+                        await ctx.send(embed=embed)
+                    else:
+
+                        color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                        embed = Embed(title='Co-op error', description=f'Failed to unban User from co-op system!', color=color)
+                        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                        await ctx.send(embed=embed)
+            else:
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed = Embed(title='Co-op error', description=f'Please mention a user!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                await ctx.send(embed=embed)
+
+        else:
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+            embed = Embed(title='Co-op error', description=f'Not enough perms!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+            await ctx.send(embed=embed)
+    
+    @commands.command(aliases=['coban'], description='cogban (user) bans user from coop system')
+    async def coopban(self, ctx, user:Member=None):
+
+        if self.bot.admin.check_admin(ctx):
+            if user is not None:
+                check = self.coop.ban_from_coop(user)
+                if check:
+                    color = self.resm.get_color_from_image(user.display_avatar.url)
+                    embed = Embed(title='Co-op', description=f'User has been banned from co-op system!', color=color)
+                    embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
+
+                    await ctx.send(embed=embed)
+                else:
+                    if check is False:
+                        color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                        embed = Embed(title='Co-op error', description=f'User is already banned!', color=color)
+                        embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
+
+                        await ctx.send(embed=embed)
+                    else:
+
+                        color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                        embed = Embed(title='Co-op error', description=f'Failed to ban User from co-op system!', color=color)
+                        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                        await ctx.send(embed=embed)
+            else:
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed = Embed(title='Co-op error', description=f'Please mention a user!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                await ctx.send(embed=embed)
+
+        else:
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+            embed = Embed(title='Co-op error', description=f'Not enough perms!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+            await ctx.send(embed=embed)
+    
+    @commands.command(aliases=['coregp'], description='coregp (user) removes user  eligible points')
+    async def coopremoveeligiblepoints(self, ctx, user:Member=None):
+
+        if self.bot.admin.check_admin(ctx):
+            if user is not None:
+                check = self.coop.remove_eligible_point(user, True)
+                if check:
+                    color = self.resm.get_color_from_image(user.display_avatar.url)
+                    embed = Embed(title='Co-op', description=f'User all eligible points that he can give others are removed!', color=color)
+                    embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
+
+                    await ctx.send(embed=embed)
+                else:
+                   
+                    color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                    embed = Embed(title='Co-op error', description=f'User have zero eligible points!', color=color)
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                    await ctx.send(embed=embed)
+            else:
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed = Embed(title='Co-op error', description=f'Please mention a user!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+                await ctx.send(embed=embed)
+
+        else:
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+            embed = Embed(title='Co-op error', description=f'Not enough perms!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+            await ctx.send(embed=embed)
+
     @commands.command(aliases=['cogp','cogivepoint'], description='cogp (member)\n gives co-op point to the user')
     async def coopgivepoint(self, ctx, member:Member=None):
 
         if member is not None:
+            if member is not ctx.author:
+                point_success = self.coop.add_coop_point(ctx.author, member, 1)
+                if point_success is True:
 
-            point_success = self.coop.add_coop_point(ctx.author, member, 1)
-            if point_success is True:
+                    color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                    embed = Embed(title='Co-op Point', description=f'You have given **{member.display_name}** a coop point!', color=color)
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
-                embed = Embed(title='Co-op Point', description=f'You have given **{member.display_name}** a coop point!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                    await ctx.send(embed=embed)
+                else:
+                    color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                    embed = Embed(title='Co-op error', description=f'You have given **{member.display_name}** a coop point already \n or you have not tagged carry roles!', color=color)
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
-                await ctx.send(embed=embed)
+                    await ctx.send(embed=embed)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
-                embed = Embed(title='Co-op error', description=f'You have given **{member.display_name}** a coop point already \n or you have not tagged carry roles!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed = Embed(title='Co-op error', description=f'You have not mentioned a user!', color=color)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
+
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Co-op error', description=f'You have not mentioned a user!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
 
@@ -131,19 +271,19 @@ class CoopCog(Cog):
             if data is not None:
                 embeds = self.coop.create_char_embeds(data)
                 msg = await ctx.send(embed=embeds['characters'][0])
-                view = SwitchPaginator(member, embeds, msg)
+                view = SwitchPaginator(ctx.author, embeds, msg)
                 await msg.edit(view=view)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
                 embed = Embed(title='Co-op error', description=f'You have not made your data public from hoyolab1!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
 
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Co-op error', description=f'You have not linked the uid yet for that region!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
 
@@ -159,19 +299,19 @@ class CoopCog(Cog):
             if data is not None:
                 embeds = self.coop.create_stat_embeds(member, data)
                 msg = await ctx.send(embed=embeds[0])
-                view = PaginatorList(user=member, message=msg, embeds=embeds, bot=self.bot)
+                view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
                 await msg.edit(view=view)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
                 embed = Embed(title='Co-op error', description=f'You have not made your data public from hoyolab!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
 
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Co-op error', description=f'You have not linked the uid yet for that region!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
 
@@ -179,7 +319,6 @@ class CoopCog(Cog):
     async def coopleaderboard(self, ctx):
 
         embeds = self.coop.coop_leaderboard(self.bot, ctx.guild)
-
         msg = await ctx.send( "Co-op leaderboard", embed=embeds[0])
         view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
         await msg.edit(view=view)
@@ -196,17 +335,16 @@ class CoopCog(Cog):
             description = self.coop.get_description(user) if self.coop.get_description(user) is not None else 'Not yet setup'
            
             base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
-            embed = Embed(title='Co-op Profile', description = description, color=base_color)
-            for key in data:
-                embed.add_field(name='Co-op Points', value=data['Co-op Points'], inline=True)
-            embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+            embed = Embed(title='Co-op Profile', description = description, color=base_color)            
+            embed.add_field(name='Co-op Points', value=data['Co-op Points'], inline=True)
+            embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
 
             thumbnail = self.coop.get_character(user)            
             if thumbnail is not None and thumbnail != '':
                 print(thumbnail)
                 embed.set_thumbnail(url=thumbnail)
             else:
-                embed.set_thumbnail(url=user.avatar.url)
+                embed.set_thumbnail(url=user.display_avatar.url)
             
             await ctx.send(embed=embed)
 
@@ -214,10 +352,9 @@ class CoopCog(Cog):
             description = self.coop.get_description(user) if self.coop.get_description(user) is not None else 'Not yet setup'
            
             base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
-            embed = Embed(title='Co-op Profile', description = description, color=base_color)
-            for key in data:
-                embed.add_field(name='Co-op Points', value=data['Co-op Points'], inline=True)
-            embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+            embed = Embed(title='Co-op Profile', description = description, color=base_color)            
+            embed.add_field(name='Co-op Points', value=data['Co-op Points'], inline=True)
+            embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
 
             thumbnail = self.coop.get_character(user)
             
@@ -225,7 +362,7 @@ class CoopCog(Cog):
                 print(thumbnail)
                 embed.set_thumbnail(url=thumbnail)
             else:
-                embed.set_thumbnail(url=user.avatar.url)
+                embed.set_thumbnail(url=user.display_avatar.url)
             
             await ctx.send(embed=embed)
 
@@ -244,15 +381,18 @@ class CoopCog(Cog):
             base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
             embed = Embed(title='Co-op Profile', description = description, color=base_color)
             for key in data:
-                embed.add_field(name=key, value=data[key], inline=True)
-            embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+                if key != 'Info':
+                    embed.add_field(name=key, value=data[key], inline=True)
+            if 'Info' in data:
+                embed.set_footer(text=data['Info'])
+            embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
 
             thumbnail = self.coop.get_character(user)
             print(thumbnail)
             if thumbnail is not None and thumbnail != '':
                 embed.set_thumbnail(url=thumbnail)
             else:
-                embed.set_thumbnail(url=user.avatar.url)
+                embed.set_thumbnail(url=user.display_avatar.url)
             
             image = self.coop.get_image(user)
             print(image)
@@ -266,14 +406,17 @@ class CoopCog(Cog):
             base_color = self.coop.get_color(user) if self.coop.get_color(user) is not None else 0x707dfa
             embed = Embed(title='Co-op Profile', description = description, color=base_color)
             for key in data:
-                embed.add_field(name=key, value=data[key], inline=True)
-            embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+                if key != 'Info':
+                    embed.add_field(name=key, value=data[key], inline=True)
+            if 'Info' in data:
+                embed.set_footer(text=data['Info'])
+            embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
 
             thumbnail = self.coop.get_character(user)
             if thumbnail is not None and thumbnail != '':
                 embed.set_thumbnail(url=thumbnail)
             else:
-                embed.set_thumbnail(url=user.avatar.url)
+                embed.set_thumbnail(url=user.display_avatar.url)
             
             image = self.coop.get_image(user)
             if image is not None and image != '':
@@ -329,6 +472,49 @@ class CoopCog(Cog):
             embed = Embed(title='Co-op Error!', description=f'Write a uid!', color=0x707dfa)
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=['gar'], description='gar (region) (ar) adds a rank for a specified region to the coop')
+    async def genshinrank(self,ctx,  region, rank):
+        uid = self.coop.get_member_uid(ctx.author, region)
+        if uid is not None:
+            if region.lower() in ['eu','asia', 'na']:
+                check = self.coop.parse_arg(ctx.author, 'add', 'rank', region, rank)
+                if check:
+                    embed = Embed(title='Co-op profile updated!', description=f'Added World Level{rank} for region {region.upper()} to coop profile!', color=0x707dfa)
+                    await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Co-op Error!', description=f'Not a valid region!', color=0x707dfa)
+                await ctx.send(embed=embed)
+
+        else:
+            embed = Embed(title='Co-op Error!', description=f'You have not linked the uid yet!', color=0x707dfa)
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['gwl'], description='gwl (region) (wl) adds a wl for a specified region to the coop')
+    async def genshinworldlevel(self,ctx,  region, world_level):
+        uid = self.coop.get_member_uid(ctx.author, region)
+        if uid is not None:
+            if region.lower() in ['eu','asia', 'na']:
+                if world_level.isdigit():
+                    if  0 < int(world_level) < 9:
+                        check = self.coop.parse_arg(ctx.author, 'add', 'wl', region, world_level)
+                        if check:
+                            embed = Embed(title='Co-op profile updated!', description=f'Added AR {world_level} for region {region.upper()} to coop profile!', color=0x707dfa)
+                            await ctx.send(embed=embed)
+                    else:
+                        embed = Embed(title='Co-op Error!', description=f'Allowed world levels 1-8!', color=0x707dfa)
+                        await ctx.send(embed=embed)
+                else:
+                    embed = Embed(title='Co-op Error!', description=f'Not a number!', color=0x707dfa)
+                    await ctx.send(embed=embed)
+
+            else:
+                embed = Embed(title='Co-op Error!', description=f'Not a valid region!', color=0x707dfa)
+                await ctx.send(embed=embed)
+
+        else:
+            embed = Embed(title='Co-op Error!', description=f'You have not linked the uid yet!', color=0x707dfa)
+            await ctx.send(embed=embed)
+
 
     @commands.command(aliases=['gserv'], description='gserv (member)')
     async def genshinserver(self,ctx,  member: Member=None, region:str=''):
@@ -336,18 +522,18 @@ class CoopCog(Cog):
         
         if member is None:
             member = ctx.author
-
+        
         data = self.coop.prettify_data(member)
         print(data)
-        embed = Embed(title='Genshin Impact Accounts', color=self.resm.get_color_from_image(member.avatar.url))
+        embed = Embed(title='Genshin Impact Accounts', color=self.resm.get_color_from_image(member.display_avatar.url))
         
         if 'Accounts' in data:
 
-            embed = Embed(title='Genshin Impact Accounts', description=data['Accounts'], color=self.resm.get_color_from_image(member.avatar.url))
+            embed = Embed(title='Genshin Impact Accounts', description=data['Accounts'], color=self.resm.get_color_from_image(member.display_avatar.url))
             
  
-        embed.set_author(name=member.display_name, icon_url=member.avatar.url)
-        embed.set_thumbnail(url=member.avatar.url)
+        embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
+        embed.set_thumbnail(url=member.display_avatar.url)
         for r in regions:            
             if region == '':
                 if r in data:
@@ -370,14 +556,14 @@ class CoopCog(Cog):
             self.bot.b_config['liben'] = self.bot.coop.liben.enabled
             self.bot.save_config()
 
-            embed = Embed(title=f'Liben Module Enabled - {self.bot.coop.liben.enabled}', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+            embed = Embed(title=f'Liben Module Enabled - {self.bot.coop.liben.enabled}', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.display_avatar.url)
             await ctx.send(embed=embed)
         
         else:
 
-            embed = Embed(title=f'Not enough perms', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+            embed = Embed(title=f'Not enough perms', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+            embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.display_avatar.url)
             await ctx.send(embed=embed)
 
     @commands.command(aliases=['lb'])
@@ -389,8 +575,8 @@ class CoopCog(Cog):
 
             if boxes is None:
 
-                embed = Embed(title=f'No boxes found!', description=f'**Box**: {box.title()}\n**Region:** {region.title()}\n\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-                embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
+                embed = Embed(title=f'No boxes found!', description=f'**Box**: {box.title()}\n**Region:** {region.title()}\n\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+                embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.display_avatar.url)
                 await ctx.send(embed=embed)
 
             else:
@@ -401,8 +587,8 @@ class CoopCog(Cog):
                 view = LibenBox(bot=self.bot, user=ctx.author, msg=msg, box=box)
                 await msg.edit(view=view)
         else:
-            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.display_avatar.url)
             await ctx.send(embed=embed)
 
     @commands.command(aliases=['lbadd'])
@@ -414,19 +600,19 @@ class CoopCog(Cog):
             if box_check:
                 
 
-                embed = Embed(title=f'Box added!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed = Embed(title=f'Box added!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                 await ctx.send(embed=embed)
 
             else:
 
-                embed = Embed(title=f'Error!', description=f'Either uid is invalid or boxes are not allowed\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+                embed = Embed(title=f'Error!', description=f'Either uid is invalid or boxes are not allowed\n**Boxes allowed:** *cryo,anemo,geo,electro,hydro,pyro*', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.display_avatar.url)
                 await ctx.send(embed=embed)
         else:
            
-            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.display_avatar.url)
             await ctx.send(embed=embed)
         
 
@@ -439,19 +625,110 @@ class CoopCog(Cog):
             if box_check:
                 
 
-                embed = Embed(title=f'Box removed!', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed = Embed(title=f'Box removed!', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                 await ctx.send(embed=embed)
 
             else:
 
-                embed = Embed(title=f'Error!', description=f'You dont ahve a box listed', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+                embed = Embed(title=f'Error!', description=f'You dont ahve a box listed', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.display_avatar.url)
                 await ctx.send(embed=embed)
         else:
-            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.avatar.url)
+            embed = Embed(title=f'Error!', description=f'Libenbox commands are disabled', color=self.bot.resource_manager.get_color_from_image(self.bot.user.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=self.bot.user.display_avatar.url)
             await ctx.send(embed=embed)
+
+
+    @commands.command(aliases=['wi','wishimport'], description='wi (authkey| link to paimon moe excel file) (region)\nregion is not required if you are using authkey')
+    async def wishesimport(self, ctx, authkey, region:str=''):
+        if 'paimon.moe' in authkey or authkey.split('.')[-1] in ['xlsx','xls']:
+            if region != '':
+                uid = self.coop.get_member_uid(ctx.author, region)
+                print(uid)
+                if uid is not None:
+                    wishes = self.wc.save_wishes(authkey, uid)
+                    if wishes is not None:
+                        embed = Embed(title='Wishes', description=f'Your wishes are being processed for pity|\ncheck back in a min', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)                        
+                        await ctx.send(embed=embed)
+                    else:
+                        embed = Embed(title='Error', description=f'The paimon moe excel file is not correct!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                        await ctx.send(embed=embed)
+                else:
+                    embed = Embed(title='Error', description=f'You have not linked ur uid with discord account!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                    await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Error', description=f'You have not provided the region\nregion is necessary for paimon moe import!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                await ctx.send(embed=embed)
+        else:
+            uid = self.coop.get_member_uid(ctx.author, region)           
+            if uid is not None:
+                wishes = self.wc.save_wishes(authkey, uid)
+                if wishes is not None:
+                    embed = Embed(title='Wishes', description=f'Your wishes are being processed for pity|\ncheck back in a min', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)                        
+                    await ctx.send(embed=embed)
+                else:
+                    embed = Embed(title='Error', description=f'The authkey link is not correct \ outdated!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                    self.wc.process_wishes(uid)
+                    await ctx.send(embed=embed)
+            else:
+                embed = Embed(title='Error', description=f'You have not provided the region\nregion is necessary for paimon moe import!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                await ctx.send(embed=embed)
+
+    
+    @commands.command(aliases=['wish'], description='wish (region) (banner_type) \n banner types can be characters, weapons, standard, novice')
+    async def wishes(self, ctx, region, banner):
+        uid = self.coop.get_member_uid(ctx.author, region)
+        if uid is not None:
+            stats = self.wc.get_wish_stats(uid, banner)
+            if stats is not None:
+                embeds = self.wc.wish_embeds(stats, ctx.author)
+
+                if embeds is not None:
+                    message : Message = await ctx.send(embed=embeds[0])
+                    view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
+                    await message.edit(embed=embeds[0],view=view)
+                else:
+                    embed = Embed(title='Error', description=f'Error occurred!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                    self.wc.process_wishes(uid)
+                    await ctx.send(embed=embed)
+
+            else:
+                embed = Embed(title='Error', description=f'Either your wishes are not processed yet or you have not imported wishes', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+                self.wc.process_wishes(uid)
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Error', description=f'You have not linked ur uid to discord account!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+            self.wc.process_wishes(uid)
+            await ctx.send(embed=embed)
+
+    @commands.command(aliases=['wishr'], description='wishr (region)')
+    async def wishesremove(self, ctx, region):
+        uid = self.coop.get_member_uid(ctx.author, region)
+        if uid is not None:
+            check = self.wc.wishes_clear(uid)
+            if check:
+                embed = Embed(title='Wishes', description=f'Your wishes data is removed', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)                        
+                await ctx.send(embed=embed)
+        else:
+            embed = Embed(title='Error', description=f'You have not linked ur uid to discord account!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+            self.wc.process_wishes(uid)
+            await ctx.send(embed=embed)
+
+
+
 
 def setup(bot):
     bot.add_cog(CoopCog(bot))

@@ -1,13 +1,27 @@
+from datetime import datetime
 from posixpath import split
 from nextcord import Embed, File, Guild
 from base.bookmark import Bookmarer
 from base.resource_manager import ResourceManager
+from nextcord.ext.commands import Context 
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+from os import getcwd
+from os.path import exists, isfile
+from base.resource_manager import ResourceManager
+from asyncio import sleep
+
 
 from json import load, dump
 from discord.utils import get
 from dev_log import logc
 from random import choice, random
-from os import getcwd
+from os import getcwd, makedirs, listdir, remove
 from PIL import Image, ImageFont, ImageDraw
 class Information():    
     def __init__(self, res: ResourceManager, bot):
@@ -20,7 +34,10 @@ class Information():
         }
         self.bookmark = Bookmarer(bot)
         
+
         
+        
+
         self.load_comps()
     
     def load_comps(self):
@@ -61,7 +78,6 @@ class Information():
             logc('Dev Guild', self.bot_guild,'\n','emojis loaded', len(self.emojis))
         character = self.res_handler.search(character_name, self.res_handler.characters , split_search)
         data = self.res_handler.get_character_full_details(character_name, split_search)
-        print(data)
         if data is not None:
             options_allowed = ['main','constellations','talents','builds', 'ascension_imgs', 'teamcomps']
 
@@ -74,8 +90,6 @@ class Information():
                     specific_data =  list(set(options).intersection(options_allowed))
             
             images_dict = {k.split('/')[-1].split('.')[0].split('_')[-1].lower(): k for k in data['image']}
-            print(images_dict)
-            print(specific_data)
             element = self.res_handler.get_element(data.get('element'))
             
             element_color = element.get('color', 9486540)
@@ -129,7 +143,6 @@ class Information():
                 embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                 embed.set_thumbnail(url=images_dict.get('thumb'))
                 embed.set_footer(text=f' {character} ∎ Main Information')
-                print(embed.to_dict())
                 embeds.append(embed)
 
             if 'constellations' in specific_data:
@@ -151,7 +164,6 @@ class Information():
 
                         folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
                         image_url = self.res_handler.convert_to_url(f'{folder_name}/constellations.png', True)
-                        print(image_url)
                         embed.set_image(url=image_url)
                         embed.set_footer(text=f' {character} ∎ Constellations')   
                         embeds.append(embed)
@@ -190,7 +202,6 @@ class Information():
 
                             folder_name = self.res_handler.genpath('images/characters',self.res_handler.search(character, self.res_handler.goto('images/characters').get('folders')))
                             image_url = self.res_handler.convert_to_url(f'{folder_name}/talents.png', True)
-                            print(image_url)
                             embed.set_image(url=image_url)
                             embed.set_footer(text=f' {character} ∎ Talents') 
                             embeds.append(embed)  
@@ -216,7 +227,7 @@ class Information():
                     if len(b_data) > 0:
                         for b in b_data:
                             embed = Embed(title=f"{b.split('/')[-1].split('.')[0].replace('_',' ', 99).title().replace('Dps','DPS',1)} Build",description=f"{min_desc}", color=element_color)
-                            embed.set_image(url=b)
+                            embed.set_image(url=b.replace(" ",'%20', 99))
                             embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                             embed.set_thumbnail(url=images_dict.get('thumb'))
                             embed.set_footer(text=f' {character} ∎ Builds ')   
@@ -244,8 +255,9 @@ class Information():
                 if a_data is not None:
                     if len(a_data) > 0:
                         for a in data['ascension_imgs']:
-                            embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}", color=element_color)               
-                            embed.set_image(url=a)
+                            embed = Embed(title='Ascension and Talent Mats',description=f"{min_desc}", color=element_color) 
+                            print(a)              
+                            embed.set_image(url=a.replace(" ",'%20', 99))
                             embed.set_author(name=character, icon_url=images_dict.get('thumb'))
                             embed.set_thumbnail(url=images_dict.get('thumb'))
                             embed.set_footer(text=f' {character} ∎ Ascension ')   
@@ -310,49 +322,35 @@ class Information():
                             images_dict.get('thumb')
                         ))
         
-        print(embeds)
         return embeds
 
     def delete_comp(self, index_):
             ind = index_
             if len(self.teamcomps['data'])-1 >= ind:
                 self.teamcomps['data'].pop(ind)
-                print(self.teamcomps['data'])
                 self.save_comps()
                 return True
 
     def comp_index(self, comp_title):
         comps = self.teamcomps['data']
-        for comp in comps:
-            if '-' in comp['title'].strip():
-                if comp['title'].split('-')[1].strip().isdigit():
-                    title = comp['title'].split('-')[0].strip()         
-                else:
-                    title = comp['title'].strip()        
-            else:
-                title = comp['title'].strip()              
-            if comp_title.strip().lower() == title.lower():
+        id_ = self.generate_id(comp_title)
+        for comp in comps:                      
+            if comp['id'] == id_:
                 return comps.index(comp)
 
     def comp_exists(self, comp_title):
         comps = self.teamcomps['data']
         exist = None
         index = None
+        id_ = self.generate_id(comp_title)        
         for comp in comps:
-            if '-' in comp['title'].strip():
-                print(comp['title'].split('-')[-1], comp['title'].split('-')[-1].strip().isdigit())
-                if comp['title'].split('-')[-1].strip().isdigit():
-                    title = comp['title'].replace(comp['title'].split('-')[-1], '', 1).strip()                    
-                    index = int(comp['title'].split('-')[-1].strip())
-                    print('number found', index)
-                else:
-                    title = comp['title'].strip()
-                    index = 0                
-            else:
-                title = comp['title'].strip()
-                index = 0
-            if comp_title.strip().lower() == title.lower():
-                exist = True
+           if comp['id'] == id_:
+               if index == None:
+                   index = 0
+               else:
+                   index += 1             
+               
+
         return exist, index 
 
     def create_comp_embed(self, comp: dict, guild):
@@ -369,11 +367,17 @@ class Information():
         embed = Embed(title=f'Team Comps - {title}', description=f"**Contributed by:** {usr}\n{comp['description']}\n**Characters used in Team Composition**:\n{desc}")
         
         url_ = self.res_handler.convert_to_url(self.res_handler.genpath('images/teamcomps', comp['file']), True)
+        
         embed.set_image(url=url_)
         embed.set_footer(text=f'{title} Team Comp')
         return embed
 
-
+    def generate_id(self, string: str):
+        seps = ['-','/','\\','.',':',';','|', "'","!","`","~"]
+        string = string.strip()
+        for s in seps:
+            string = string.replace(s, '_',99)
+        return string.replace(' ','_',99).lower()
 
     def create_comp(self, comp_name, comp_chars, comp_notes, owner):
         
@@ -383,7 +387,7 @@ class Information():
         else:
             if number is not None:
                 comp_name += f"- {number + 1}"
-        print(number, comp_name)
+        comp_name = comp_name.strip()
         base_char =  comp_chars.split(',')
         chars = []
         for base in base_char:
@@ -400,21 +404,22 @@ class Information():
    
         file = self.create_teamcomp_image(comp_name, chars)
         self.teamcomps['data'].append({
-            'title': comp_name,
+            'title': comp_name.strip(),
             'chars': chars,
             'description': comp_notes,
             'owner': owner.id,
-            'file': file
-
+            'file': file,
+            'id' : self.generate_id(comp_name)
 
         })
         self.save_comps()
         return True, {
-            'title': comp_name,
+            'title': comp_name.strip(),
             'chars': chars,
             'description': comp_notes,
             'owner': owner.id,
-            'file': file
+            'file': file,            
+            'id' : self.generate_id(comp_name)
 
 
         }
@@ -501,7 +506,6 @@ class Information():
 
                 refinements = data['refinement']
                 text = refinements['text']
-                print(refinements, weapon_name)
                 refinements.pop("text")
 
                 for refinement in refinements:
@@ -542,9 +546,7 @@ class Information():
                         ascension_text += f"{mat['name']}: *{mat['amount']}*\n"
                     embed.add_field(name=f'Ascension Level {level}', value=ascension_text)
                 embeds.append(embed)
-            print(specific_data)
             if 'ascension_image' in specific_data:
-                print(data['file'])
                 if data['file'] is not None:
                     url = self.res_handler.convert_to_url(self.res_handler.genpath('images/weapons', data['file'].replace(' ','%20',99)), True)
                     embed = Embed(title=f'Ascension Materials', description=f"{main_desc}\n**Rarity:** {rarity}\n**Type:** *{type}*", color=color)
@@ -625,8 +627,7 @@ class Information():
                 
                 embed.add_field(name='Bonus', value=b_text)
             if data['file'] is not None:
-                url_ = self.res_handler.convert_to_url(self.res_handler.genpath('images/artifacts', data['file']), True).replace(' ','%20', 99)
-                print(url_)
+                url_ = self.res_handler.convert_to_url(self.res_handler.genpath('images/artifacts', data['file'].replace(' ','%20', 99)), True)
                 embed.set_image(url=url_)
             embed.set_author(name=artifact, icon_url=data['pieces'][0]['img'])                                
             embed.set_thumbnail(url=data['pieces'][0]['img'])
@@ -723,7 +724,6 @@ class Information():
         embeds = []
         if data is not None:
             for furn in data:
-                print(furn)
                 embed = Embed(title=f"Furnishing set -  {furn['title']}", description=furn['description'], color=self.res_handler.get_color_from_image(images_dict['thumb']))
                 embed.set_author(name=char, icon_url=images_dict['thumb'])
                 embed.set_thumbnail(url=images_dict['thumb'])
@@ -745,7 +745,6 @@ class Information():
                 embeds.append(embed)
                 for f in furn['file']:
                     path = self.res_handler.convert_to_url(self.res_handler.genpath('images/furnishing', f), True)
-                    print(path)
                     f_embed = Embed(title=f"Furnishing set -  {furn['title']}", description=furn['description']+'\n\n*Gift items overview*', color=self.res_handler.get_color_from_image(images_dict['thumb']))
                     v = 'N/A'
                     for gf in  furn['gift_sets']:
@@ -793,4 +792,259 @@ class Information():
                 embeds.append(embed)
 
         return embeds
+
+    def create_material_embeds(self, guild:Guild, material_name:str, options:list=[], specific:bool=False, split_search:bool=False):
+        data = self.res_handler.get_material_details(material_name, split_search)
+        material = self.res_handler.search(material_name, list(self.res_handler.materials.keys()), split_search)
+        embeds = []
+        if data is not None:
+
+            options_allowed = ['main','craft_usage', 'recipes', 'fishing_location', 'videos']
+            specific_data = options_allowed
+
+            if specific:
+                specific_data = set(options_allowed).intersection(options)
+            
+            fish_check = 'fish' in [f.lower() for f in data['type']]
+            color = self.res_handler.get_color_from_image(data['img'])
+
+            
+            recipe_absent = len(data.get('recipes', [])) == 0
+            ascension_absent = len(data['ascension_usage']['character']) == len(data['ascension_usage']['weapon']) == len(data['ascension_usage']['misc']) == 0 if data.get("ascension_usage", None) != None else True
+            fishing_location_absent = data.get("fishing_location", None) == None
+            craft_absent = len(data.get('craft_usage', [])) == 0
+            talent_absent = len(data.get('talent_leveling_usage', [])) == 0
+            videos_absent = len(data.get('videos', [])) == 0
+            type_ = '\n'.join(data.get('type', ['N/A']))
+            source = '\n'.join(data.get('source', ['N/A']))
+            shop = '\n'.join(data.get('shop', ['Not sold by anyone']))
+            min_desc = f"{data.get('description', 'N/A')}\n"
+
+            description = f"{data.get('description', 'N/A')}\n**Type:**\n{type_}\n**Source:**\n{source}\n**Shop / NPC:**\n{shop}\n"
+            if 'rarity' in data:
+                description += f"**Rarity:** {data['rarity']}\n"
+                min_desc  += f"**Rarity:** {data['rarity']}\n"
+
+            if fish_check:
+                for key in ['living_being_type', 'living_being_group','living_being_family']:
+                    if key in data:
+                        description += f"**{key.replace('_',' ',99).title()}:** *{data[key]}*\n"
+            
+            if ascension_absent == False:
+                description += "\n**Ascension Usage**\n"
+                for asc in data['ascension_usage']:
+                    if len(data['ascension_usage'][asc]) != 0:
+                        main = asc.title()+"s"
+                        asc_text = '\n'.join(data['ascension_usage'][asc])
+                        description += f"Used for these **{main}** ascension:\n **{asc_text}**\n"
+            if talent_absent == False:
+                description += "\n**Talent Leveling Usage**\n"
+                for asc in data['talent_leveling_usage']:
+                    if len(data['talent_leveling_usage'][asc]) != 0:
+                        main = asc.title()+"s"
+                        asc_text = '\n'.join(data['talent_leveling_usage'][asc])
+                        description += f"Used for these **{main}**  talent leveling:\n **{asc_text}**\n"
+            main_embed = Embed(title="Basic Information", description=description, color=color)
+            main_embed.set_author(name=data['title'], icon_url=data['img'])
+            main_embed.set_thumbnail(url=data['img'])
+            main_embed.set_footer(text=f"{data['title']} - Basic Information")
+            if fish_check:
+                if data.get('fish_splash_image', None) != None:
+                    embed.set_image(url=data['fish_image_splash'])
+            embeds.append(main_embed)
+
+            if 'craft_usage' in specific_data:
+                if craft_absent is False:
+                    craft_desc = min_desc+"\n\n"
+                    for craft in data['craft_usage']:
+                        craft_desc += f"**{craft['name']}**\nmade by {craft['type']}\n```css\n"
+                        items = '\n'.join([f"{it['item']} x {it['amount']}" for it in craft['items']])
+                        craft_desc += items+"\n```\n"
+                    
+                    embed = Embed(title="Craft Usage", description=craft_desc, color=color)
+                    embed.set_author(name=data['title'], icon_url=data['img'])
+                    embed.set_thumbnail(url=data['img'])
+                    embed.set_footer(text=f"{data['title']} - Craft Usage")
+                    if fish_check:
+                        if data.get('fish_splash_image', None) != None:
+                            embed.set_image(url=data['fish_image_splash'])
+
+                    embeds.append(embed)
+
+            if 'recipes' in specific_data:
+                if recipe_absent == False:
+                    recipe_desc = min_desc+"\n\n"
+                    for recipe in data['recipes']:
+                        yield_ = f" {recipe['yield'][0]['name']} x {recipe['yield'][0]['amount']}"
+                        recipe_desc += f"**{recipe['type']}** | **Duration**: {recipe['minutes']}\n```css\n"
+                        items = '\n'.join([f"{it['name']} x{it['amount']}" for it in recipe['items']])
+                        recipe_desc += items+f"\n-------------\nyields {yield_}```\n"
+
+                    embed = Embed(title="Recipes", description=recipe_desc, color=color)
+                    embed.set_author(name=data['title'], icon_url=data['img'])
+                    embed.set_thumbnail(url=data['img'])
+                    embed.set_footer(text=f"{data['title']} - Recipes")
+                    if fish_check:
+                        if data.get('fish_splash_image', None) != None:
+                            embed.set_image(url=data['fish_image_splash'])
+
+                    embeds.append(embed)
+
+            
+
+            if fish_check:
+                if fishing_location_absent == False:
+                    for city in data['fishing_location']:
+                        for loc in data['fishing_location'][city]:
+
+                            embed = Embed(title=f"Fishing Location - {loc['title']}", description=min_desc+f"\n**City:** *{city}*", color=color)
+                            embed.set_author(name=data['title'], icon_url=data['img'])
+                            embed.set_image(url=loc['img'])
+                            embed.set_thumbnail(url=data['img'])
+                            embed.set_footer(text=f"{data['title']} - {city} Fishing Location - {loc['title']}")
+                        
+                            embeds.append(embed)
+            
+            if 'videos' in specific_data:
+                if videos_absent == False:
+                    for video in data['videos']:
+
+                        embed = Embed(title=f"Video Guide - {video['text'][:25]}..", description=video['text'] +"\nClick on the title to go to video!", url=video['url'], color=color)
+                        embed.set_author(name=data['title'], icon_url=data['img'])
+                        embed.set_thumbnail(url=data['img'])
+                        embed.set_footer(text=f"{data['title']} - Video Guide")                        
+                        if video.get('img', None) != None:
+                            embed.set_image(url=video['img'])
+
+                        embeds.append(embed)
+
+        return None if len(embeds) == 0 else embeds
+    
+
+
+    async def save_uid_cards(self, uid: int, ctx: Context):
+
+        browser_options = Options()
+        browser_options.headless = True
+        browser_options.add_argument('--no-sandbox')
+        browser_options.add_argument("window-size=1920,1080")        
+        browser_options.add_argument('--disable-dev-shm-usage')
+        browser_options.add_argument("--disable-gpu")
+        browser_options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36")
+        
+        driver = uc.Chrome(service=Service(ChromeDriverManager().install()), options=browser_options)
+        
+        driver.get("https://enka.shinshin.moe/u/"+ str(uid)) 
+        embed = Embed(title='Character Cards', description='This will take a while, check back this message in a min!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+        embed.set_thumbnail(url=ctx.author.avatar.url)        
+        msg = await ctx.send(embed=embed)  
+        await sleep(20)     
+        
+        driver.switch_to.window(driver.current_window_handle)
+        avatars = driver.find_elements(By.CLASS_NAME, 'avatar') 
+        with open('test.html', 'w') as f:
+            f.write(driver.page_source)
+        print(avatars)
+        
+        '''   
+        print('session id', driver.session_id, 'chars', len(avatars))
+        if len(avatars) == 0:
+            embed = Embed(title='Character Cards', description='You dont have characters on showcase!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+            embed.set_thumbnail(url=ctx.author.avatar.url)
+            if msg is not None:
+                await msg.edit(embed=embed)
+            else:
+                msg = await ctx.send(embed=embed)
+            return False
+        '''
+        if not exists(self.res_handler.path.format(path=f"images/cards/{uid}/")):
+                embed = Embed(title='Character Cards', description='Your character cards are being generated please check back in min!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+                embed.set_thumbnail(url=ctx.author.avatar.url)
+                if msg is not None:
+                    await msg.edit(embed=embed)
+                else:
+                    msg = await ctx.send(embed=embed)
+        else:
+            for f in [self.res_handler.path.format(path=f"images/cards/{uid}/{f}") for _ in listdir(self.res_handler.path.format(path=f"images/cards/{uid}/")) if isfile(self.res_handler.path.format(path=f"images/cards/{uid}/{f}")) and exists(self.res_handler.path.format(path=f"images/cards/{uid}/{f}"))]:
+                remove(f)
+            embed = Embed(title='Character Cards', description='Your character cards are being updated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+            embed.set_thumbnail(url=ctx.author.avatar.url)
+            if msg is not None:
+                await msg.edit(embed=embed)
+            else:
+                msg = await ctx.send(embed=embed)
+
+        for avatar in avatars:                
+            avatar.click()
+            
+            await sleep(5)            
+            url_ = driver.find_element(By.CLASS_NAME, 'name').text.lower()   
+            if not exists(self.res_handler.path.format(path=f"images/cards/{uid}/")):
+                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+                embed.set_thumbnail(url=ctx.author.avatar.url)
+                embed.set_footer(text=f"({avatars.index(avatar)+1}/ {len(avatars)})")
+                makedirs(self.res_handler.path.format(path=f"images/cards/{uid}/"))
+            else:
+                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+                
+                embed.set_footer(text=f"({avatars.index(avatar)+1}/ {len(avatars)})")
+                embed.set_thumbnail(url=ctx.author.avatar.url)
+            if msg is not None:
+                await msg.edit(embed=embed)
+            else:
+                msg = await ctx.send(embed=embed)
+
+            driver.find_element(By.TAG_NAME, 'iframe').screenshot(self.res_handler.path.format(path=f"images/cards/{uid}/") + url_+".png")
+    
+        driver.quit()
+
+        return True
+
+    def get_uid_cards(self,ctx: Context, uid: int, char: str =''):           
+        embeds = []
+        if  exists(self.res_handler.path.format(path=f"images/cards/{uid}/")):
+            print(self.res_handler.path.format(path=f"images/cards/{uid}/"))
+            files = [f for f in listdir(self.res_handler.path.format(path=f"images/cards/{uid}/")) if isfile(self.res_handler.path.format(path=f"images/cards/{uid}/{f}"))]
+            search = [f.split('.')[0] for f in files]
+            chars = []
+            if char != '':
+                chars_ = self.res_handler.search(char, search)
+                print(chars, search, char)
+                if chars is not None:
+                    chars = [self.res_handler.convert_to_url(self.res_handler.path.format(path=f"images/cards/{uid}/{chars_}.png").replace(" ",'%20', 99), True)]
+            else:
+                chars = [self.res_handler.convert_to_url(self.res_handler.path.format(path=f"images/cards/{uid}/{f}").replace(" ",'%20', 99), True) for f in files]
+            timestamp = str(int(datetime.now().timestamp()))
+            print(chars)
+            if len(chars) != 0:
+                for char in chars:
+                    
+
+                    title_ = char.split('/')[-1].split('.')[0].replace('%20',' ',99)
+                    char_d = char.replace('%20', ' ',99)
+                    if title_ == 'yun jin':
+                        title_ = 'yunjin'
+                    if title_ == 'hu tao':
+                        title_ = 'hutao'
+                    data = self.res_handler.get_character_full_details(title_, True)
+                    desc = 'N/A'
+                    if data is not None:
+                        desc = data['description']
+                    embed = Embed(title=f"{title_.title()} stats", description=desc)
+                    
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                    embed.set_image(url=f"{char}?timestamp={timestamp}")
+                    embed.set_footer(text='image generated from enka.shinshin.moe')
+                    embeds.append(embed)
+            else:
+                embed = Embed(title=f"Card error", description='Your cards are not generated yet or you have not enabled showcase from game')
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embeds.append(embed)
+        else:               
+                embed = Embed(title=f"Card error", description='Your cards are not generated yet or you have not enabled showcase from game')
+                
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embeds.append(embed)
+        return embeds
+
 

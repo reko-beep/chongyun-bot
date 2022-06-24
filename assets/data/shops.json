@@ -1,0 +1,1201 @@
+{
+ "shops": [
+  {
+   "vendor": "Flora",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/NPC_Flora.png",
+   "region": "Mondstadt",
+   "dialoguereward": "The Fox in the Dandelion Sea",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Sweet Flower",
+      "200",
+      "10",
+      "2,000",
+      "Every 3 Days"
+     ],
+     [
+      "Windwheel Aster",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Cecilia",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Small Lamp Grass",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Calla Lily",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/NPC_Location_Donna_%26_Flora.png",
+     "text": "Flora's location (Daytime)"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/NPC_Location_Donna_%26_Flora_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Chloris",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/NPC_Chloris.png",
+   "region": "Mondstadt",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Snapdragon",
+      "280",
+      "10",
+      "2,800",
+      "Every 3 Days"
+     ],
+     [
+      "Mint",
+      "150",
+      "10",
+      "1,500",
+      "Every 3 Days"
+     ],
+     [
+      "Wolfhook",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Valberry",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Philanemo Mushroom",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/NPC_Location_Chloris.png",
+     "text": "Chloris' general  location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/NPC_Location_Chloris_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Ms. Bai",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/NPC_Ms._Bai.png",
+   "region": "Liyue",
+   "dialoguereward": "Tofu",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Qingce Stir Fry",
+      "6,150",
+      "2",
+      "12,300",
+      "Daily"
+     ],
+     [
+      "Tofu",
+      "120",
+      "10",
+      "1,200",
+      "Every 3 Days"
+     ],
+     [
+      "Almond",
+      "150",
+      "10",
+      "1,500",
+      "Every 3 Days"
+     ],
+     [
+      "Silk Flower",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Glaze Lily",
+      "50,000",
+      "3",
+      "150,000",
+      "Weekly"
+     ]
+    ]
+   },
+   "shop_items_1": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "RequiredAdventure Rank"
+    ],
+    "values": [
+     [
+      "Recipe: Noodles with Mountain Delicacies",
+      "2,500",
+      "1",
+      "2,500",
+      "?"
+     ],
+     [
+      "Recipe: Qingce Stir Fry",
+      "5,000",
+      "1",
+      "5,000",
+      "?"
+     ],
+     [
+      "Recipe: Jueyun Guoba",
+      "5,000",
+      "1",
+      "5,000",
+      "?"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/NPC_Location_Ms._Bai.png",
+     "text": "Ms. Bai's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/NPC_Location_Ms._Bai_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Verr Goldet",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/NPC_Verr_Goldet.png",
+   "region": "Liyue",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Almond Tofu",
+      "1,550",
+      "2",
+      "3,100",
+      "Daily"
+     ],
+     [
+      "Matsutake Meat Rolls",
+      "1,775",
+      "2",
+      "3,550",
+      "Daily"
+     ],
+     [
+      "Jueyun Chili Chicken",
+      "1,925",
+      "2",
+      "3,850",
+      "Daily"
+     ],
+     [
+      "Noodles with Mountain Delicacies",
+      "2,150",
+      "2",
+      "4,300",
+      "Daily"
+     ],
+     [
+      "Chicken-Mushroom Skewer",
+      "450",
+      "10",
+      "4,500",
+      "Daily"
+     ],
+     [
+      "Matsutake",
+      "300",
+      "10",
+      "3,000",
+      "Every 3 Days"
+     ],
+     [
+      "Butter",
+      "270",
+      "10",
+      "2,700",
+      "Weekly"
+     ],
+     [
+      "Sausage",
+      "840",
+      "10",
+      "8,400",
+      "Weekly"
+     ],
+     [
+      "Silk Flower",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Violetgrass",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "shop_items_1": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "RequiredAdventure Rank"
+    ],
+    "values": [
+     [
+      "Recipe: Vegetarian Abalone",
+      "2,500",
+      "1",
+      "2,500",
+      "1"
+     ],
+     [
+      "Recipe: Bamboo Shoot Soup",
+      "5,000",
+      "1",
+      "5,000",
+      "1"
+     ],
+     [
+      "Recipe: Stir-Fried Shrimp",
+      "5,000",
+      "1",
+      "5,000",
+      "1"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/NPC_Location_Verr_Goldet.png",
+     "text": "Verr Goldet's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/NPC_Location_Verr_Goldet_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Herbalist Gui",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/NPC_Herbalist_Gui.png",
+   "region": "Liyue",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Qingxin",
+      "600",
+      "10",
+      "6,000",
+      "Every 3 Days"
+     ],
+     [
+      "Horsetail",
+      "240",
+      "10",
+      "2,400",
+      "Every 3 Days"
+     ],
+     [
+      "Lotus Head",
+      "300",
+      "10",
+      "3,000",
+      "Every 3 Days"
+     ],
+     [
+      "Mist Flower Corolla",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Flaming Flower Stamen",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ],
+     [
+      "Violetgrass",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "shop_items_1": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "RequiredAdventure Rank"
+    ],
+    "values": [
+     [
+      "Recipe: Lotus Seed and Bird Egg Soup",
+      "2,500",
+      "1",
+      "2,500",
+      "1"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/NPC_Location_Herbalist_Gui.png",
+     "text": "Herbalist Gui's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/NPC_Location_Herbalist_Gui_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Shitou",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/NPC_Shitou.png",
+   "region": "Liyue",
+   "dialoguereward": "Enhancement Ore",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Iron Chunk",
+      "120",
+      "10",
+      "1,200",
+      "Every 3 Days"
+     ],
+     [
+      "White Iron Chunk",
+      "400",
+      "10",
+      "4,000",
+      "Every 3 Days"
+     ],
+     [
+      "Noctilucous Jade",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/NPC_Location_Shitou.png",
+     "text": "Shitou's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/NPC_Location_Shitou_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Bolai",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/NPC_Bolai.png",
+   "region": "Liyue",
+   "dialoguereward": "Sunsettia",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Apple",
+      "240",
+      "10",
+      "2,400",
+      "Every 3 Days"
+     ],
+     [
+      "Sunsettia",
+      "170",
+      "10",
+      "1,700",
+      "Every 3 Days"
+     ],
+     [
+      "Fish",
+      "240",
+      "10",
+      "2,400",
+      "Every 3 Days"
+     ],
+     [
+      "Starconch",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/NPC_Location_Bolai.png",
+     "text": "Bolai's Location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/NPC_Location_Bolai_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Changshun",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/NPC_Changshun.png",
+   "region": "Liyue",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Potato",
+      "150",
+      "100",
+      "15,000",
+      "Daily"
+     ],
+     [
+      "Sugar",
+      "450",
+      "10",
+      "4,500",
+      "Weekly"
+     ],
+     [
+      "Cheese",
+      "420",
+      "10",
+      "4,200",
+      "Weekly"
+     ],
+     [
+      "Cor Lapis",
+      "1,500",
+      "5",
+      "7,500",
+      "Every 3 Days"
+     ],
+     [
+      "Electro Crystal",
+      "1,500",
+      "5",
+      "7,500",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/NPC_Location_Changshun.png",
+     "text": "Changshun's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/NPC_Location_Changshun_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Qiuyue",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/NPC_Qiuyue.png",
+   "region": "InazumaLiyue",
+   "dialoguereward": "Prithiva Topaz Fragment",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Iron Chunk",
+      "120",
+      "10",
+      "1,200",
+      "Every 3 Days"
+     ],
+     [
+      "White Iron Chunk",
+      "400",
+      "10",
+      "4,000",
+      "Every 3 Days"
+     ],
+     [
+      "Electro Crystal",
+      "1,000",
+      "5",
+      "5,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/NPC_Location_Qiuyue.png",
+     "text": "Qiuyue's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/NPC_Location_Qiuyue_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Karpillia",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/NPC_Karpillia.png",
+   "region": "InazumaMondstadt",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Dandelion Seed",
+      "60,000",
+      "5",
+      "300,000",
+      "Every 3 Days"
+     ]
+    ]
+   },
+   "shop_items_1": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Rainbow Aster",
+      "7,125",
+      "1",
+      "7,125",
+      "Everyday"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/NPC_Location_Karpillia.png",
+     "text": "Karpillia's Location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Shop_Sailing_Breeze.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Ekaterina",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/NPC_Ekaterina.png",
+   "region": "LiyueSnezhnaya",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost"
+    ],
+    "values": [
+     [
+      "Mora\u00a0\u00d71",
+      "1",
+      "50,000",
+      "50,000"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/NPC_Location_Ekaterina.png",
+     "text": "Ekaterina's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/NPC_Location_Ekaterina_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Hopkins The Marvelous",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/NPC_Hopkins_the_Marvelous.png",
+   "realname": "Hopkins",
+   "region": "Mondstadt",
+   "dialoguereward": "Lucky Dog's Goblet",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Holy Water",
+      "300",
+      "1",
+      "300",
+      "Daily"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/NPC_Location_Hopkins_the_Marvelous_Daytime.png",
+     "text": "Hopkins the Marvelous' location (Daytime)"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/NPC_Location_Hopkins_the_Marvelous_Daytime_Context.png",
+     "text": "Additional context (Daytime)"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/NPC_Location_Hopkins_the_Marvelous_Nighttime.png",
+     "text": "Hopkins the Marvelous' location (Nighttime)"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/NPC_Location_Hopkins_the_Marvelous_Nighttime_Context.png",
+     "text": "Additional context (Nighttime)"
+    }
+   ]
+  },
+  {
+   "vendor": "Jifang",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/NPC_Jifang.png",
+   "region": "Liyue",
+   "dialoguereward": "Records of Jueyun",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost"
+    ],
+    "values": [
+     [
+      "Moonlit Bamboo Forest (II)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Moonlit Bamboo Forest (III)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Rex Incognito (IV)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Tales From the Waves: Receding Torrent",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Records of Jueyun: Palace Beneath the Sea",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Records of Jueyun: Mountain Spirits",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Customs of Liyue: Silk Flowers",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "String of Pearls (II)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "String of Pearls (III)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Records of Jueyun: Qilin",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Records of Jueyun: Hidden Jade",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Legend of the Lone Sword (IV)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Legend of the Shattered Halberd (I)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Legend of the Shattered Halberd (IV)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Legend of the Shattered Halberd (V)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Heart's Desire: Sapphire",
+      "3,000",
+      "1",
+      "3,000"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/NPC_Location_Jifang.png",
+     "text": "Jifang's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/NPC_Location_Jifang_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Kuroda",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/NPC_Kuroda.png",
+   "region": "Inazuma",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost"
+    ],
+    "values": [
+     [
+      "The Saga of Hamavaran (Preface)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "The Saga of Hamavaran (I)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "The Saga of Hamavaran (II)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Treasured Tales of the Chouken Shinkageuchi (I)",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "The Serpent and Drakes of Tokoyokoku",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Teyvat Travel Guide - Inazuma",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Shogun Almighty: Reborn as Raiden With Unlimited Power",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Pretty Please, Kitsune Guuji?",
+      "1,500",
+      "1",
+      "1,500"
+     ],
+     [
+      "Hex & Hound (X)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Hex & Hound (XI)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "New Chronicles of the Six Kitsune: Prologue",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "New Chronicles of the Six Kitsune (I)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "New Chronicles of the Six Kitsune (II)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "New Chronicles of the Six Kitsune (IV)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "New Chronicles of the Six Kitsune (V)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "A Legend of Sword (I)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "A Legend of Sword (II)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "A Legend of Sword (III)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "A Legend of Sword (IV)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "A Legend of Sword (VI)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Princess Mina of the Fallen Nation (I)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Princess Mina of the Fallen Nation (II)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Princess Mina of the Fallen Nation (III)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Princess Mina of the Fallen Nation (IV)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Princess Mina of the Fallen Nation (VI)",
+      "3,000",
+      "1",
+      "3,000"
+     ],
+     [
+      "Flowers for Princess Fischl (0)",
+      "3,000",
+      "1",
+      "3,000"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/NPC_Location_Kuroda.png",
+     "text": "Kuroda's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Yae_Publishing_House.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Goth",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/NPC_Goth.png",
+   "realname": "Ludwig Goth",
+   "region": "Mondstadt",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost"
+    ],
+    "values": [
+     [
+      "Blueprint: Deadwood Road Sign",
+      "25,000",
+      "1",
+      "25,000"
+     ],
+     [
+      "Blueprint: Simple Single-Person Tent",
+      "50,000",
+      "1",
+      "50,000"
+     ],
+     [
+      "Blueprint: Lightning Protective Tent",
+      "50,000",
+      "1",
+      "50,000"
+     ],
+     [
+      "Blueprint: Adventurer Camp",
+      "50,000",
+      "1",
+      "50,000"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/NPC_Location_Goth.png",
+     "text": "Goth's location (Daytime)"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/NPC_Location_Goth_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Master Lu",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/NPC_Master_Lu.png",
+   "region": "Liyue",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost"
+    ],
+    "values": [
+     [
+      "Blueprint: \"The Adventurer's Burdens\"",
+      "50,000",
+      "1",
+      "50,000"
+     ],
+     [
+      "Blueprint: Dialogue Twixt Ancient Tree and Rock",
+      "50,000",
+      "1",
+      "50,000"
+     ],
+     [
+      "Blueprint: Lone and Cautious Adventurer",
+      "50,000",
+      "1",
+      "50,000"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/NPC_Location_Master_Lu.png",
+     "text": "Master Lu's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/NPC_Location_Master_Lu_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  },
+  {
+   "vendor": "Wakamurasaki",
+   "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/NPC_Wakamurasaki.png",
+   "region": "Inazuma",
+   "shop_items_0": {
+    "headings": [
+     "Item",
+     "Cost",
+     "Stock",
+     "TotalCost",
+     "Refreshes"
+    ],
+    "values": [
+     [
+      "Omni-Ubiquity Net",
+      "10,000",
+      "5",
+      "50,000",
+      "Weekly"
+     ]
+    ]
+   },
+   "locations": [
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/NPC_Location_Wakamurasaki.png",
+     "text": "Wakamurasaki's location"
+    },
+    {
+     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/NPC_Location_Wakamurasaki_Context.png",
+     "text": "Additional context"
+    }
+   ]
+  }
+ ]
+}

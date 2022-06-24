@@ -11,6 +11,8 @@ from nextcord.utils import get
 from datetime import datetime
 from os.path import exists
 import genshinstats as gs
+
+from dev_log import logc
 class CoopManager:
     def __init__(self, bot):
         self.bot = bot
@@ -303,7 +305,7 @@ class CoopManager:
                 self.coop_data[discord_id]['points_to_give'] -= 1
                 self.__save()
                 return True
-    
+        
     def add_point(self, discord_member: Member, give_to_member:Member):
         discord_id = str(discord_member.id)
         receiver_id = str(give_to_member.id)
@@ -336,6 +338,16 @@ class CoopManager:
             self.__save()
             return True
     
+    def unban_from_coop(self, discord_member: Member):
+        if 'banned' in self.coop_data:
+            if str(discord_member.id) in self.coop_data['banned']:
+                list_ = [r for r in self.coop_data['banned'] if r!=str(discord_member.id)]            
+                self.coop_data['banned'] = list_
+                self.__save()
+                return True            
+            return False
+        
+
     def warn_system(self, discord_member: Member, message: Message):
         if 'warns' not in self.coop_data:
             self.coop_data['warns'] = {}
@@ -410,7 +422,7 @@ class CoopManager:
 
     def reset_coop_points(self):
         for discord_id in self.coop_data:
-            if discord_id not in ['banned', 'warns', 'point_check']:
+            if discord_id not in ['banned', 'point_check', 'warns']:
                 self.coop_data[discord_id]['points'] = 0
                 self.coop_data[discord_id]['points_to_give'] = 0
         self.__save() 
@@ -449,10 +461,9 @@ class CoopManager:
                             data[domain_name.split(',')[0]] = ''
                         data[domain_name.split(',')[0]] += f"*{domain_name.split(',')[1].strip()}*, **{dom_key.title().strip()}**\n"
             else:
-                data['Domains'] = 'Not setup yet!'
+                data['Info'] = 'You can set domains up by `!cpinfo add domains (boss|liyue|mondstadt|inazuma|all) (blessings|mastery|forgery|all)\n'
             
             leylines = d_['leylines']
-            data['Leylines'] = ''
             if len(leylines) > 0:
                 data['Leylines'] = ''
                 for ley in leylines:
@@ -460,7 +471,12 @@ class CoopManager:
                     if leyline_name is not None:
                         data['Leylines'] += f"*{leyline_name}*\n"
             else:
-                data['Leylines'] = 'Not setup yet!'
+                if 'Info' in data:
+                    data['Info'] += 'You can set leylines up by `!cpinfo add leylines (wealth|revelation)\n'
+                else:
+                    data['Info'] = 'You can set leylines up by `!cpinfo add leylines (wealth|revelation)\n'
+
+                
             
             data['Co-op Points'] = f"You have {d_['points']} co-op points\n*{d_['points_to_give']} co-op points can be given to other players*"
 

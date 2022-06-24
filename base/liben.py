@@ -14,7 +14,7 @@ class LibenManager:
 
         self.bot = bot
         self.res : ResourceManager = bot.resource_manager
-        self.enabled = self.bot.b_config.get('liben', False)
+        self.enabled = self.bot.b_config.get('liben')
         self.lb_data = self.load()        
     
     def load(self):
@@ -64,7 +64,7 @@ class LibenManager:
                     return allowed[index]
 
     def add_box(self,member: Member, uid: str, box:str):
-        allowed = ['pyro', 'geo', 'electro', 'anemo', 'cryo', 'hydro']
+        allowed = ['pyro', 'geo', 'electro', 'anemo', 'cryo', 'hydro', 'dendro']
         region = self.get_server_region(uid=uid)
         box = box.lower()
         if region is not None:
