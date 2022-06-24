@@ -9,6 +9,12 @@ from io import BytesIO
 
 from os import getcwd
 from os.path import exists
+from base.resource_manager import ResourceManager
+
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/domains')
 
 def load_file(filename):
     if exists(getcwd()+'/'+filename):
@@ -68,8 +74,14 @@ def get_table(bs: BeautifulSoup, id: str):
         link = [e for e in ele.parent.find_next_siblings() if e.name=='p']
         if len(table) > 0:
             return table[0]
-'''
-data = load_file('domains.json')
+from base.resource_manager import ResourceManager
+
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/domains')
+data = load_file(DATA_PATH+'/domains.json')
+
 REGIONS = ['Mondstadt','Liyue','Inazuma']
 
 bs = get_bs('https://genshin-impact.fandom.com/wiki/Weapon_Ascension_Materials')
@@ -117,16 +129,16 @@ for region in REGIONS:
             'for': for_items
         })
 
-save_file(data, 'domains.json')
+save_file(data, DATA_PATH+'/domains.json')
 
-'''
+
 
 def resize_image(size, h):
     ratio = h/size[1]
     return (int(round(size[0]*ratio)), int(round(size[1]*ratio)))
 
 
-data = load_file('domains.json')
+data = load_file(DATA_PATH+'/domains.json')
 
 for rotation in data['rotations']:
     domain = data['domains'][rotation['domain_id']]
@@ -172,6 +184,6 @@ for rotation in data['rotations']:
         i_mg = Image.open(BytesIO(get(imgs[i-1]).content), 'r').convert("RGBA")
         img_new.paste(i_mg, (items_pos[str(i)]['x'], items_pos[str(i)]['y']), i_mg)
     rotation['file'] = file_name
-    img_new.save(getcwd()+'/domains/'+file_name)
+    img_new.save(IMAGES_PATH+file_name)
 
-save_file(data, 'domains.json')
+save_file(data, DATA_PATH+'/domains.json')

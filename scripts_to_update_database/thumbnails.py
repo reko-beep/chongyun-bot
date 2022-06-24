@@ -2,6 +2,13 @@ from bs4 import BeautifulSoup
 from requests import get
 from os import getcwd
 
+from base.resource_manager import ResourceManager
+
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/thumbnails')
+
 def find_image(img):
     if img.attrs['src'].startswith('http'):
         return img.attrs['src'][:img.attrs['src'].find('/revision')]
@@ -25,6 +32,6 @@ for table in tables_:
             img = find_image(columns[0].find('img'))
         filename = columns[1].text.strip()
 
-        with open(getcwd()+'/assets/images/thumbnails/'+filename+".png", 'wb') as f:
+        with open(IMAGES_PATH+filename+".png", 'wb') as f:
             with get(img) as r:
                 f.write(r.content)

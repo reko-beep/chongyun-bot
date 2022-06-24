@@ -3,8 +3,8 @@ from pyparsing import col
 from requests import get
 from bs4 import BeautifulSoup
 from json import dump
-
-
+from base.resource_manager import ResourceManager
+rm = ResourceManager()
 MAIN_URL = 'https://genshin-impact.fandom.com/wiki/Materials'
 src = get(MAIN_URL).content
 bs = BeautifulSoup(src, 'lxml')
@@ -16,6 +16,7 @@ for column in columns:
 
 OTHER_URL = 'https://genshin-impact.fandom.com/wiki/Talent_Level-Up_Materials'
 
+PATH = rm.genpath('data')
 src = get(OTHER_URL).content
 bs = BeautifulSoup(src, 'lxml')
 columns = bs.find_all('table', {'class':'nowraplinks'})
@@ -285,7 +286,7 @@ for link in links:
     ds = get_material_info(link)
     data[ds['title']] = ds
 
-with open("materials.json", 'w') as f:
+with open(PATH+"/materials.json", 'w') as f:
     dump(data, f, indent=1)
 
 

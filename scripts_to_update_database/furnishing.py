@@ -5,6 +5,14 @@ from json import dump, load
 from PIL import Image, ImageDraw, ImageFont
 from os import getcwd
 from io import BytesIO
+from base.resource_manager import ResourceManager
+
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/furnishing')
+
+
 MAIN_URL = 'https://genshin-impact.fandom.com/wiki/Serenitea_Pot/Sets'
 
 def find_image(img):
@@ -12,7 +20,7 @@ def find_image(img):
         return img.attrs['src'][:img.attrs['src'].find('/revision')]
     else:
         return img.attrs['data-src'][:img.attrs['data-src'].find('/revision')]
-'''
+
 src = get(MAIN_URL).content
 
 bs = BeautifulSoup(src, 'lxml')
@@ -39,7 +47,7 @@ for r in rows:
             }
         )
 
-'''
+
 def get_further_contents(dict_):
     link = dict_['link']
     src = get('https://genshin-impact.fandom.com/'+link).content
@@ -82,7 +90,7 @@ def get_further_contents(dict_):
 
     further['gift_sets'] = items
     return {**dict_, **further}
-'''
+
 
 save = {'data': []}
 
@@ -90,9 +98,9 @@ for it in data:
     data_ = get_further_contents(it)
     save['data'].append(data_)
 
-with open("furnishing.json", 'w') as f:
+with open(DATA_PATH+"/furnishing.json", 'w') as f:
     dump(save, f, indent=1)
-'''
+
 
 
 def generate_filename(string):
@@ -139,7 +147,7 @@ def create_image(images_list, text_list, title):
 
 
 
-with open("furnishing.json",'r') as f:
+with open(DATA_PATH+"/furnishing.json",'r') as f:
     data = load(f)['data']
 
 for im in data:
@@ -158,7 +166,7 @@ for im in data:
             im['file'].append(filename+f'_{i+1}.png')
 
     else:        
-        img.save(getcwd()+'/furnishing/'+filename+'.png')
+        img.save(IMAGES_PATH+filename+'.png')
 
-with open("furnishing.json",'w') as f:
+with open(DATA_PATH+"/furnishing.json",'w') as f:
     dump({'data': data},f,indent=1)

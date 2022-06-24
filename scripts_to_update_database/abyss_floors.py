@@ -5,8 +5,18 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 from os import getcwd, mkdir
 from os.path import exists
+
+
+from base.resource_manager import ResourceManager
+
 MAIN_URL = 'https://genshin-impact.fandom.com/wiki/Spiral_Abyss/Floors'
 font = ImageFont.truetype(getcwd()+'/assets/misc/font.otf', 25)
+
+rm = ResourceManager()
+
+IMAGES_PATH = rm.genpath('images/abyss')
+DATA_PATH = rm.genpath('data')
+
 def last_abyss_rotation():
 
     with get(MAIN_URL) as f:
@@ -142,7 +152,7 @@ def get_abyss_content():
                         corrected_dict[main_key][sub_keys] = main_dict[main_key][sub_keys]
 
         
-        with open("abyss.json", 'w') as f:
+        with open(DATA_PATH+"/abyss.json", 'w') as f:
             dump(corrected_dict, f, indent=1)
 
 def get_url_image(image_url):
@@ -172,11 +182,11 @@ def create_abyss_image(images_list, text_list):
 
 
 def create_abyss_images():
-    with open('abyss.json', 'r') as f:
+    with open(DATA_PATH+'/abyss.json', 'r') as f:
         data = load(f)
 
-    path = getcwd()+'/abyss/{floor}/{chamber}/{half}.png'
-    path_check = getcwd()+"/abyss/"
+    path = IMAGES_PATH+'/{floor}/{chamber}/{half}.png'
+    path_check = IMAGES_PATH
     chamber_key = 'Chamber {number}'
     for floor in data:
         for i in range(1, 4, 1):

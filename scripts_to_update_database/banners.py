@@ -5,6 +5,11 @@ from pyparsing import col
 import requests
 import re
 from json import dump
+from base.resource_manager import ResourceManager
+
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
 
 URL = 'https://genshin-impact.fandom.com/wiki/Wishes/History'
 SERVER_TIMES = {'asia': -1, 'eu': -7, 'na': -13}
@@ -124,7 +129,7 @@ for r in rows:
             last_banner['type'] = type_banner
 
 
-with open('banners.json', 'w') as f:
+with open(DATA_PATH+'/banners.json', 'w') as f:
     dump(data, f, indent=1)
 
 

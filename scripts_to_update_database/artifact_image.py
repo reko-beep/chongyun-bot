@@ -3,10 +3,15 @@ import requests
 from os import getcwd
 from io import BytesIO
 from json import load, dump
+from base.resource_manager import ResourceManager
 
+rm = ResourceManager()
+
+DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/artifacts')
 
 def create_image(set,  images_list ):
-        font = ImageFont.truetype(getcwd()+'/assets/misc/font.otf', 45)
+        font = ImageFont.truetype(rm.genpath('misc')+'font.otf', 45)
         with open(f'{getcwd()}/template_image.json','r') as f:
             template =  load(f)
         new = Image.new(mode='RGBA',size=(template['dimensions']['width'],template['dimensions']['height']))
@@ -23,11 +28,11 @@ def create_image(set,  images_list ):
             new.paste(paste_, (x_pos,y_pos))
         
         ImageDraw.Draw(new).text((460,500), text=set.replace(' ','\n',99), font=font, fill=(255,255,255))
-        new.save(getcwd()+'/artifacts/'+set+'.png',format='PNG')
+        new.save(IMAGES_PATH+set+'.png',format='PNG')
         print('image created for', set)
         
 artifacts = {}
-with open(getcwd()+'/assets/data/artifacts.json','r') as f:
+with open(DATA_PATH+'/artifacts.json','r') as f:
     artifacts = load(f)
 
 
@@ -37,5 +42,5 @@ for arti in artifacts:
     artifacts[arti]['file'] = arti+'.png'
 
 
-with open('artifacts_filed.json', 'w') as f:
+with open(DATA_PATH+'/artifacts_filed.json', 'w') as f:
     dump(artifacts, f, indent=1)

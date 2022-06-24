@@ -24,3 +24,6 @@ def compare_date(key, current_time, diff):
             lasttm = datetime.strptime(lasttm, '%c')
             if (current_time-lasttm).seconds > diff:
                 return True
+
+
+
