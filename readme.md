@@ -6,6 +6,11 @@
 
 > Dev version , features are added as per need, there might be some bot breaking bugs
 
+# Currently Working on
+
+  Reminders for resin and comms
+
+
 # How to Set Up
 
  Config file is located in **db** folder.
@@ -125,6 +130,7 @@
   async def cpp(self, ctx, user: Member=None)
     ......
   ```
+
 
 
 # Contribution

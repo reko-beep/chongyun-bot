@@ -1217,7 +1217,13 @@
    }
   ],
   "recipes": [],
-  "videos": []
+  "videos": [
+    {
+        "url": "https://www.youtube.com/watch?v=opwWhWid5A4",
+        "image": "http://img.youtube.com/vi/opwWhWid5A4/0.jpg",
+        "text": "ALL 83 Onikabuto Locations | Complete Guide & Efficient Route"
+    }
+  ]
  },
  "Philanemo Mushroom": {
   "title": "Philanemo Mushroom",
