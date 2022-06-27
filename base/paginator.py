@@ -85,6 +85,63 @@ class PaginatorList(View):
 
                 await interaction.message.edit(embed=self.embeds[self.page], view=self)
 
+
+class DropDownView(View):
+    def __init__(self, bot , list_: list, func_, user : Member,page: int= 1):
+        self.bot : DevBot = bot
+        self.func = None
+        self.func_str = func_
+        self.option_to_add = list_
+        self.page = page
+        self.user = user
+        self.none = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png'
+        self.dropdown = DropdownList(self.bot,self.option_to_add, self.func_str,self.user,self.page)
+        super().__init__(timeout=90)
+        self.add_item(self.dropdown)
+      
+    
+    
+    async def interaction_check(self, interaction: Interaction) -> bool:
+        return interaction.user == self.user
+
+    async def on_timeout(self) -> None:
+        for ui_items in self.children:
+            if hasattr(ui_items, 'disabled'):
+                ui_items.disabled = True
+
+    @button(label="<", style=ButtonStyle.blurple, custom_id='previous', row=2)
+    async def previous(self, button: Button,  interaction: Interaction):
+        if not self.page > 1:
+            button.disabled = True    
+        else:
+            self.page -= 1            
+            self.clear_dropdown()
+            self.add_item(DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page))
+        await interaction.message.edit(interaction.message.content,view=self)
+    
+    @button(label=">", style=ButtonStyle.blurple, custom_id='next', row=2)
+    async def next(self,button: Button, interaction: Interaction):        
+        if not self.page < divmod(len(self.option_to_add),22)[0]:
+            button.disabled = True
+        else:
+            self.page += 1    
+            self.clear_dropdown()
+            self.add_item(DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page))
+        await interaction.message.edit(interaction.message.content,view=self)      
+
+    async def interaction_check(self, interaction: Interaction) -> bool:
+        return interaction.user == self.user
+
+    async def on_timeout(self) -> None:
+        for ui_items in self.children:
+            if hasattr(ui_items, 'disabled'):
+                ui_items.disabled = True
+
+
+    def clear_dropdown(self):        
+
+        self.remove_item(self.dropdown)
+
 class DropdownList(Select):
     def __init__(self, bot , list_: list, func_, user : Member,page: int= 1):
        
@@ -100,7 +157,7 @@ class DropdownList(Select):
         self.user = user
         self.none = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png'
 
-        super().__init__(placeholder='Choose a option',min_values=1,max_values=1)
+        super().__init__(placeholder=f"Please select a {self.func_str.split('_')[1]}",min_values=1,max_values=1)
         self.populate_items()
 
     def populate_items(self):
@@ -118,17 +175,12 @@ class DropdownList(Select):
 
                 self.append_option(SelectOption(label=self.option_to_add[num]))    
         
-        if self.page < divmod(len(self.option_to_add),22)[0]:
-            self.append_option(SelectOption(label='Next'))
-
         
-        if self.page > 1:
-            self.append_option(SelectOption(label='Previous'))
-        
+         
 
        
        
-            
+   
 
 
 
@@ -137,25 +189,11 @@ class DropdownList(Select):
             previous, next and build interactions
         '''
         
-        if interaction.user == self.user:
-
-            if self.values[0] == 'Previous':             
-                self.view.clear_items()
-                self.view.add_item(DropdownList(self.bot,self.option_to_add, self.func_str,self.user,self.page-1))   
-                await interaction.message.edit(interaction.message.content,view=self.view)
-
-            else:
-
-                if self.values[0] == 'Next':         
-                    self.view.clear_items()
-                    self.view.add_item(DropdownList(self.bot,self.option_to_add, self.func_str,self.user,self.page+1))   
-                    await interaction.message.edit(interaction.message.content,view=self.view)      
-
-                else: 
-                    if self.func is not None:
-                        embeds = self.func(interaction.guild, self.values[0], [], False, False)
-                        embed_view = PaginatorList(user=self.user, message=interaction.message, embeds=embeds, bot=self.bot)
-                        await interaction.message.edit(self.values[0] + 'selected',embed=embeds[0], view=embed_view) 
+        
+        if self.func is not None:
+            embeds = self.func(interaction.guild, self.values[0], [], False, False)
+            embed_view = PaginatorList(user=self.user, message=interaction.message, embeds=embeds, bot=self.bot)
+            await interaction.message.edit(self.values[0] + 'selected',embed=embeds[0], view=embed_view) 
 
 
 class CompDelete(Button):

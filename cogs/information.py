@@ -9,7 +9,7 @@ from core.bot import DevBot
 
 from base.resource_manager import ResourceManager
 from base.information import Information
-from base.paginator import BookmarkList, PaginatorList, DropdownList
+from base.paginator import BookmarkList, PaginatorList, DropdownList, DropDownView
 
 class InformationCog(Cog):
     def __init__(self, bot: DevBot):
@@ -34,11 +34,10 @@ class InformationCog(Cog):
                 embed = Embed(title='Info Error', description=f'No character having name ```css\n{char}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
                 await ctx.send(embed=embed)     
         else:
-             
+            embed = Embed(title='Please select a character from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
             chars = list(self.bot.resource_manager.characters.keys())
-            view = View()
-            view.add_item(DropdownList(self.bot, chars, 'create_character_embeds', ctx.author, 1))
-            await ctx.send('All Characters list', view=view)
+            view = DropDownView(self.bot, chars, 'create_character_embeds', ctx.author, 1)
+            await ctx.send(embed=embed, view=view)
     
     @commands.command(aliases=['material','mtrl'], description='mtrl (material name)\nshows the full info from database for a material')
     async def materialinfo(self, ctx : Context, *arg:str):
@@ -60,11 +59,10 @@ class InformationCog(Cog):
                 await ctx.send(embed=embed)     
 
         else:
-             
+            embed = Embed(title='Please select a material from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
             chars = list(self.bot.resource_manager.materials.keys())
-            view = View()
-            view.add_item(DropdownList(self.bot, chars, 'create_material_embeds', ctx.author, 1))
-            await ctx.send('All Materials list', view=view)
+            view = DropDownView(self.bot, chars, 'create_material_embeds', ctx.author, 1)
+            await ctx.send(embed=embed, view=view)
      
     @commands.command(aliases=['dom'], description='dom (day) (region) (type)\nshows the full info from database for a character')
     async def domain(self, ctx : Context, day:str='', region:str='', type:str=''):
@@ -132,10 +130,10 @@ class InformationCog(Cog):
                 embed = Embed(title='Info Error', description=f'No weapon having name ```css\n{wep}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
                 await ctx.send(embed=embed)     
         else:
+            embed = Embed(title='Please select a weapon  from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
             weps = list(self.bot.resource_manager.weapons.keys())
-            view = View()
-            view.add_item(DropdownList(self.bot, weps, 'create_weapon_embeds', ctx.author, 1))
-            await ctx.send('All Weapons list', view=view)
+            view = DropDownView(self.bot, weps, 'create_weapon_embeds', ctx.author, 1)
+            await ctx.send(embed=embed, view=view)
 
     @commands.command(aliases=['arti','artifact'], description='arti (artifact name)\nshows the full info from database for a artifact')
     async def artifactinfo(self, ctx : Context, *arg:str):
@@ -149,10 +147,10 @@ class InformationCog(Cog):
             view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
             await message.edit(embed=embeds[0],view=view)
         else:
+            embed = Embed(title='Please select a artifact from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
             weps = list(self.bot.resource_manager.artifacts.keys())
-            view = View()
-            view.add_item(DropdownList(self.bot, weps, 'create_artifact_embeds', ctx.author, 1))
-            await ctx.send('All Artifacts list', view=view)   
+            view = DropDownView(self.bot, weps, 'create_artifact_embeds', ctx.author, 1)
+            await ctx.send(embed=embed, view=view)   
 
 
     @commands.command(aliases=['af','abyssf'], description='af (floor)\nshows the builds for a character')
