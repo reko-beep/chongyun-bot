@@ -111,23 +111,25 @@ class DropDownView(View):
 
     @button(label="<", style=ButtonStyle.blurple, custom_id='previous', row=2)
     async def previous(self, button: Button,  interaction: Interaction):
-        if not self.page > 1:
-            button.disabled = True    
-        else:
+        if self.page > 1:
             self.page -= 1            
             self.clear_dropdown()
-            self.add_item(DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page))
-        await interaction.message.edit(interaction.message.content,view=self)
+            self.dropdown = DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page)
+            self.add_item(self.dropdown)
+        
+            self.buttons_disable()
+            await interaction.message.edit(interaction.message.content,view=self)
     
     @button(label=">", style=ButtonStyle.blurple, custom_id='next', row=2)
     async def next(self,button: Button, interaction: Interaction):        
-        if not self.page < divmod(len(self.option_to_add),22)[0]:
-            button.disabled = True
-        else:
+        if self.page < divmod(len(self.option_to_add),22)[0]:        
             self.page += 1    
             self.clear_dropdown()
-            self.add_item(DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page))
-        await interaction.message.edit(interaction.message.content,view=self)      
+            self.dropdown = DropdownList(self.bot, self.option_to_add, self.func_str, self.user, self.page)        
+            self.add_item(self.dropdown)
+        
+            self.buttons_disable()
+            await interaction.message.edit(interaction.message.content,view=self)      
 
     async def interaction_check(self, interaction: Interaction) -> bool:
         return interaction.user == self.user
@@ -142,6 +144,20 @@ class DropDownView(View):
 
         self.remove_item(self.dropdown)
 
+    def buttons_disable(self):
+        for i in self.children:
+            if isinstance(i, Button):
+                if i.custom_id == 'next':
+                    if not self.page < divmod(len(self.option_to_add),22)[0]:
+                        i.disabled = True
+                    else:                        
+                        i.disabled = False
+            if isinstance(i, Button):
+                if i.custom_id == 'previous':
+                    if not self.page > 1:
+                        i.disabled = True    
+                    else:
+                        i.disabled = False
 class DropdownList(Select):
     def __init__(self, bot , list_: list, func_, user : Member,page: int= 1):
        
@@ -193,7 +209,7 @@ class DropdownList(Select):
         if self.func is not None:
             embeds = self.func(interaction.guild, self.values[0], [], False, False)
             embed_view = PaginatorList(user=self.user, message=interaction.message, embeds=embeds, bot=self.bot)
-            await interaction.message.edit(self.values[0] + 'selected',embed=embeds[0], view=embed_view) 
+            await interaction.message.edit('You selected '+self.values[0],embed=embeds[0], view=embed_view) 
 
 
 class CompDelete(Button):
