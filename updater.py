@@ -27,3 +27,4 @@ def compare_date(key, current_time, diff):
 
 
 
+import chongyun_wallpapers
