@@ -728,6 +728,17 @@ class CoopCog(Cog):
             await ctx.send(embed=embed)
 
 
+    @commands.command(aliases=['copannounce'], description='makes a coop announcement', brief='makes a coop result announcement')
+    async def coopannounce(self, ctx):
+        if self.bot.admin.check_admin(ctx):
+            await self.coop.coop_announce(ctx, ctx.guild)
+        else:
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+            embed = Embed(title='Co-op error', description=f'Not enough perms!', color=color)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+
+            await ctx.send(embed=embed)
+
 
 
 def setup(bot):

@@ -1,0 +1,1285 @@
+{
+ "teamcomps": [
+  {
+   "title": "Eula Beidou",
+   "description": "\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Eula": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "eula_beidou"
+  },
+  {
+   "title": "Melt Ganyu without shield",
+   "description": "\nKazuha can be replaced with Sucrose,Venti,Shenhe,Sayu,Traveler (Anemo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ganyu": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "melt_ganyu_without_shield"
+  },
+  {
+   "title": "Yae carry / quickswap",
+   "description": "\nRaiden can be replaced with Fischl,Beidou\n\nKazuha can be replaced with Venti,Xingqiu,Sucrose,Mona,Traveler (Anemo)\n\nBennett can be replaced with Jean,Diona,Kokomi,Barbara\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yae Miko": "role here"
+    },
+    {
+     "Raiden": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "yae_carry___quickswap"
+  },
+  {
+   "title": "Ning Dps",
+   "description": "\n\nIMPORTANT NOTE:\nXiang Ling is only to be used with Bennett and not any other healer.\nZhongli can be replaced with Albedo,Traveler (Geo)\n\nXiangling can be replaced with Fischl,Albedo,Traveler (Geo),Rosaria,Kaeya,Xingqiu\n\nBennett can be replaced with Diona,Barbara,Jean,Kokomi,Qiqi\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ningguang": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "ning_dps"
+  },
+  {
+   "title": "Ning Beidou",
+   "description": "\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ningguang": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "ning_beidou"
+  },
+  {
+   "title": "Stingray / Taser Kokomi",
+   "description": "\nBeidou can be replaced with Yae Miko\n\nFischl can be replaced with Yae Miko\n\nSucrose can be replaced with Kazuha,Venti,Traveler (Anemo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Kokomi": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "stingray___taser_kokomi"
+  },
+  {
+   "title": "Kokomi Vape",
+   "description": "\nSucrose can be replaced with Venti,Jean,Kazuha,Traveler (Anemo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Kokomi": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "kokomi_vape"
+  },
+  {
+   "title": "Sukokomon",
+   "description": "\n\nIMPORTANT NOTE: Hard to execute team compared to other options\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Kokomi": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "sukokomon"
+  },
+  {
+   "title": "Xiangling Reverse Melt",
+   "description": "\n\nIMPORTANT NOTE:\nShenhe is only to be used with a 2nd cryo\nKaeya can be replaced with Kazuha,Venti,Sucrose,Shenhe,Chongyun\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Rosaria": "role here"
+    },
+    {
+     "Kaeya": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "xiangling_reverse_melt"
+  },
+  {
+   "title": "Childe Vaporise:",
+   "description": "\n\nChilde is the on-field dps and applies a lot of hydro to allow Xiangling to Vape her burst. Xiangling is the off-field dps. Bennett batteries Xiangling, provides a massive attack buff and heals. Kazuha shreds enemy resistances via Viridescent Venerer artifact set and provides pyro and hydro dmg bonus to the team.\n\nRotation: Tartaglia skill \u2192  Kazuha skill \u2192  Bennett burst \u2192  Kazuha burst \u2192  Bennett skill \u2192  Xiangling burst \u2192  Xiangling skill \u2192  Tartaglia burst \u2192  Tartaglia skill \u2192  Tartaglia na3ca spam until Xiangling burst ends \u2192  recharge Bennett, Xiangling, and Kazuha bursts \u2192 then repeat \nKazuha can be replaced with Sucrose,Zhongli,Traveler (Anemo),Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Tartaglia": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "childe_vaporise_"
+  },
+  {
+   "title": "Fireworks Childe / Childe Taser",
+   "description": "\nBennett can be replaced with Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Tartaglia": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "fireworks_childe___childe_taser"
+  },
+  {
+   "title": "Standard Taser",
+   "description": "\nBennett can be replaced with Sucrose\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "standard_taser"
+  },
+  {
+   "title": "Mono Pyro Klee:",
+   "description": "\n\nKlee is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Klee combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n\nKazuha can be replaced with Sucrose,Venti,Traveler (Anemo),Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Klee": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_pyro_klee_"
+  },
+  {
+   "title": "Reverse Reactions Klee",
+   "description": "\nRosaria can be replaced with Xingqiu,Mona,Kaeya\n\nSucrose can be replaced with Venti,Kazuha,Traveler (Anemo),Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Klee": "role here"
+    },
+    {
+     "Rosaria": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "reverse_reactions_klee"
+  },
+  {
+   "title": "Klee Double Geo",
+   "description": "\nAlbedo can be replaced with Traveler (Geo),Ningguang\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Klee": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Albedo": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "klee_double_geo"
+  },
+  {
+   "title": "Raiden Carry",
+   "description": "\n\n\nOptimization Notes:\nSara C6 > Lisa/Fischl > Sara C1 - 5\nSara can be replaced with Fischl,Lisa,Yae Miko\n\nKazuha can be replaced with Sucrose,Venti,Traveler (Anemo),Mona,Xingqiu\n\nBennett can be replaced with Kokomi,Barbara,Zhongli\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Raiden": "role here"
+    },
+    {
+     "Sara": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "raiden_carry"
+  },
+  {
+   "title": "Carry Noelle",
+   "description": "\n\nImportant Note:\nNoelle should only be considered to be used at C5+\nAlbedo can be replaced with Ningguang,Traveler (Geo),Zhongli,Yun Jin\n\nFischl can be replaced with Traveler (Geo),Ningguang,Zhongli,Kaeya,Rosaria,Yun Jin\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Noelle": "role here"
+    },
+    {
+     "Gorou": "role here"
+    },
+    {
+     "Albedo": "role here"
+    },
+    {
+     "Fischl": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "carry_noelle"
+  },
+  {
+   "title": "Hu Tao Double Geo:",
+   "description": "\n\nHu Tao is the on-field dps of this team. Xingqiu is there to provide hydro application for Hu Tao to consistently vaporize her CA. He also provides good single target damage, damage reduction and minor healing. Albedo provides off-field geo damage and elemental mastery buff on his burst. Zhongli provides a strong shield which provides a 20% universal resistance shred and ensures 100% uptime on geo resonance.\nRotation: Xingqiu skill \u2192 Xingqiu burst \u2192 Zhongli skill (Hold) \u2192 Zhongli burst (Optional for the petrify, usually a damage loss)  \u2192 Albedo skill \u2192 Albedo burst \u2192 Hu Tao CA combo \u2192 then repeat\nAlbedo can be replaced with Traveler (Geo),Ningguang,Yun Jin,Fischl,Mona\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Hu Tao": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Albedo": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "hu_tao_double_geo_"
+  },
+  {
+   "title": "Mono Pyro Hu Tao:",
+   "description": "\n\nHu Tao is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Hu Tao CA combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\nKazuha can be replaced with Sucrose,Traveler (Anemo),Venti\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Hu Tao": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_pyro_hu_tao_"
+  },
+  {
+   "title": "Hutao Freeze Melt",
+   "description": "\nKaeya can be replaced with Rosaria,Shenhe\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Hu Tao": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Kaeya": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "hutao_freeze_melt"
+  },
+  {
+   "title": "Hutao VV Vape",
+   "description": "\n\nImportant Constelations Requirements:\nBennett (c1+)\nYanfei (c4+)\nKazuha can be replaced with Sucrose,Traveler (Anemo)\n\nAmber can be replaced with Bennett,Thoma,Xinyan,Yanfei\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Hu Tao": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Amber": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "hutao_vv_vape"
+  },
+  {
+   "title": "Vapeload Hutao",
+   "description": "\nBeidou can be replaced with Bennett\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Hu Tao": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Beidou": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "vapeload_hutao"
+  },
+  {
+   "title": "Overload Yoimiya",
+   "description": "\nBennett can be replaced with Xingqiu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yoimiya": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "overload_yoimiya"
+  },
+  {
+   "title": "Mono Pyro Yoimiya:",
+   "description": "\n\nYoimiya is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Yoimiya combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n\nKazuha can be replaced with Traveler (Anemo),Sucrose,Venti,Sayu,Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yoimiya": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_pyro_yoimiya_"
+  },
+  {
+   "title": "Carry Yoimiya",
+   "description": "\nYun Jin can be replaced with Kazuha,Sucrose,Xingqiu,Albedo,Traveler (Geo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yoimiya": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Yun Jin": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "carry_yoimiya"
+  },
+  {
+   "title": "Overload Yanfei",
+   "description": "\nBennett can be replaced with Jean,Kokomi,Diona,Qiqi,Xingqiu,Barbara\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yanfei": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "overload_yanfei"
+  },
+  {
+   "title": "Mono Pyro Yanfei:",
+   "description": "\n\nYanfei is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Yanfei combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n\nKazuha can be replaced with Sucrose,Venti,Traveler (Anemo),Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yanfei": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_pyro_yanfei_"
+  },
+  {
+   "title": "Vaporise Yanfei",
+   "description": "\nSucrose can be replaced with Traveler (Anemo),Venti,Kazuha\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yanfei": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "vaporise_yanfei"
+  },
+  {
+   "title": "Standard Carry Xiao",
+   "description": "\nSucrose can be replaced with Traveler (Anemo)\n\nZhongli can be replaced with Fischl,Chongyun,Kaeya,Rosaria,Albedo\n\nBennett can be replaced with Diona,Barbara,Kokomi,Qiqi\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Xiao": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "standard_carry_xiao"
+  },
+  {
+   "title": "Xiao double geo",
+   "description": "\nJean can be replaced with Sucrose\n\nAlbedo can be replaced with Traveler (Geo),Ningguang\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Xiao": "role here"
+    },
+    {
+     "Jean": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Albedo": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "xiao_double_geo"
+  },
+  {
+   "title": "Quick swap keqing",
+   "description": "\nKazuha can be replaced with Venti,Sucrose\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Keqing": "role here"
+    },
+    {
+     "Mona": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "quick_swap_keqing"
+  },
+  {
+   "title": "Electro Carry Keqing",
+   "description": "\nBeidou can be replaced with Fischl,Yae Miko\n\nBennett can be replaced with Jean,Kokomi,Sayu,Barbara\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Keqing": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "electro_carry_keqing"
+  },
+  {
+   "title": "Physical Carry Keqing",
+   "description": "\nBeidou can be replaced with Fischl,Yae Miko\n\nKaeya can be replaced with Rosaria\n\nDiona can be replaced with Kokomi,Barbara,Bennett,Qiqi\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Keqing": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Kaeya": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "physical_carry_keqing"
+  },
+  {
+   "title": "Mona Vape",
+   "description": "\n\nNote:\nXiangling's Pyronado only hits low hanging enemies on Venti's burst. \nKazuha can be replaced with Sucrose,Traveler (Anemo),Venti\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Mona": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mona_vape"
+  },
+  {
+   "title": "Mona Taser",
+   "description": "\nBennett can be replaced with Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Mona": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mona_taser"
+  },
+  {
+   "title": "Taser Jean",
+   "description": "\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Jean": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "taser_jean"
+  },
+  {
+   "title": "Carry Razor",
+   "description": "\nBeidou can be replaced with Fischl,Xingqiu\n\nKaeya can be replaced with Rosaria\n\nDiona can be replaced with Jean,Barbara,Qiqi,Xingqiu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Razor": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Kaeya": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "carry_razor"
+  },
+  {
+   "title": "Mono Pyro Diluc:",
+   "description": "\n\nDiluc is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Diluc combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n\nKazuha can be replaced with Sucrose,Venti,Traveler (Anemo),Sayu,Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Diluc": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_pyro_diluc_"
+  },
+  {
+   "title": "Diluc Vape / Vapeload",
+   "description": "\nSucrose can be replaced with Kazuha,Traveler (Anemo),Fischl,Zhongli,Albedo\n\nBennett can be replaced with Kokomi,Barbara,Jean,Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Diluc": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "diluc_vape___vapeload"
+  },
+  {
+   "title": "Bennett main dps team, focuses on melting his skill, utilizing Chongyun's infusion. ",
+   "description": "\n\nSucrose can be replaced with Kazuha\n\nChongyun can be replaced with Kaeya,Rosaria\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Chongyun": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "bennett_main_dps_team,_focuses_on_melting_his_skill,_utilizing_chongyun_s_infusion_"
+  },
+  {
+   "title": "Kaeye Freeze team",
+   "description": "\nXingqiu can be replaced with Mona,Kokomi,Barbara\n\nJean can be replaced with Kazuha,Sucrose,Venti,Traveler (Anemo),Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Kaeya": "role here"
+    },
+    {
+     "Chongyun": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Jean": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "kaeye_freeze_team"
+  },
+  {
+   "title": "Ayaka Perma Freeze",
+   "description": "\nMona can be replaced with Xingqiu\n\nKazuha can be replaced with Venti,Sucrose,Traveler (Anemo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ayaka": "role here"
+    },
+    {
+     "Mona": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "ayaka_perma_freeze"
+  },
+  {
+   "title": "Ayaka perma freeze (anemo healer variant)",
+   "description": "\nMona can be replaced with Xingqiu\n\nJean can be replaced with Sayu\n\nRosaria can be replaced with Kaeya,Shenhe,Aloy\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ayaka": "role here"
+    },
+    {
+     "Mona": "role here"
+    },
+    {
+     "Jean": "role here"
+    },
+    {
+     "Rosaria": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "ayaka_perma_freeze_(anemo_healer_variant)"
+  },
+  {
+   "title": "PermaFreeze team",
+   "description": "\nKokomi can be replaced with Barbara\n\nVenti can be replaced with Kazuha,Sucrose,Traveler (Anemo)\n\nGanyu can be replaced with Shenhe,Kaeya,Aloy,Rosaria\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ayaka": "role here"
+    },
+    {
+     "Kokomi": "role here"
+    },
+    {
+     "Venti": "role here"
+    },
+    {
+     "Ganyu": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "permafreeze_team"
+  },
+  {
+   "title": "Barbara Taser",
+   "description": "\nKazuha can be replaced with Sucrose,Venti\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Barbara": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "barbara_taser"
+  },
+  {
+   "title": "Forward Vaporise Barbara",
+   "description": "\nKazuha can be replaced with Sucrose,Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Barbara": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "forward_vaporise_barbara"
+  },
+  {
+   "title": "Carry Eula",
+   "description": "\nRaiden can be replaced with Fischl,Lisa,Traveler (Electro)\n\nShenhe can be replaced with Rosaria,Kaeya\n\nZhongli can be replaced with Bennett,Diona,Jean\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Eula": "role here"
+    },
+    {
+     "Raiden": "role here"
+    },
+    {
+     "Shenhe": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "carry_eula"
+  },
+  {
+   "title": "Melt Ganyu",
+   "description": "\nKazuha can be replaced with Xiangling,Jean\n\nZhongli can be replaced with Diona,Yanfei\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ganyu": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "melt_ganyu"
+  },
+  {
+   "title": "Rational-Overvape",
+   "description": "\nXiangling can be replaced with Kazuha,Jean,Sucrose\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Raiden": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Xiangling": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "rational_overvape"
+  },
+  {
+   "title": "Itto Hypercarry",
+   "description": "\nAlbedo can be replaced with Bennett,Fischl,Ningguang,Traveler (Geo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Itto": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Gorou": "role here"
+    },
+    {
+     "Albedo": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "itto_hypercarry"
+  },
+  {
+   "title": "Sucrose Taser",
+   "description": "\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Sucrose": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "sucrose_taser"
+  },
+  {
+   "title": "Perma Freeze-1",
+   "description": "\n\nVenti can be replaced with Kazuha,Sucrose,Traveler (Anemo)\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ganyu": "role here"
+    },
+    {
+     "Mona": "role here"
+    },
+    {
+     "Venti": "role here"
+    },
+    {
+     "Diona": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "perma_freeze_1"
+  },
+  {
+   "title": "Rosaria perma freeze",
+   "description": "\nXingqiu can be replaced with Kokomi,Barbara\n\nKazuha can be replaced with Sucrose,Venti,Traveler (Anemo),Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Rosaria": "role here"
+    },
+    {
+     "Chongyun": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "rosaria_perma_freeze"
+  },
+  {
+   "title": "Permafreeze with koko",
+   "description": "\nKokomi can be replaced with Barbara\n\nVenti can be replaced with Kazuha,Sucrose,Traveler (Anemo)\n\nShenhe can be replaced with Rosaria,Ayaka,Kaeya\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Ganyu": "role here"
+    },
+    {
+     "Kokomi": "role here"
+    },
+    {
+     "Venti": "role here"
+    },
+    {
+     "Shenhe": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "permafreeze_with_koko"
+  },
+  {
+   "title": "Yoimiya Vaporise",
+   "description": "\nKazuha can be replaced with Sucrose,Fischl\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Yoimiya": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "yoimiya_vaporise"
+  },
+  {
+   "title": "Qiqi Tazer",
+   "description": "\nXingqiu can be replaced with Mona\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Qiqi": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "qiqi_tazer"
+  },
+  {
+   "title": "Xinyan",
+   "description": "\nRosaria can be replaced with Kaeya\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Xinyan": "role here"
+    },
+    {
+     "Fischl": "role here"
+    },
+    {
+     "Rosaria": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "xinyan"
+  },
+  {
+   "title": "Lisa beidou",
+   "description": "\nXingqiu can be replaced with Mona\n\nKazuha can be replaced with Venti,Sucrose,Traveler (Anemo),Jean,Sayu\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Lisa": "role here"
+    },
+    {
+     "Beidou": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Kazuha": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "lisa_beidou"
+  },
+  {
+   "title": "Charged Shot Amber",
+   "description": "\nRosaria can be replaced with Kaeya\n\nZhongli can be replaced with Diona\n\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Amber": "role here"
+    },
+    {
+     "Rosaria": "role here"
+    },
+    {
+     "Zhongli": "role here"
+    },
+    {
+     "Bennett": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "charged_shot_amber"
+  },
+  {
+   "title": "Mono Electro",
+   "description": "\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Raiden": "role here"
+    },
+    {
+     "Yae Miko": "role here"
+    },
+    {
+     "Sara": "role here"
+    },
+    {
+     "Jean": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "mono_electro"
+  },
+  {
+   "title": "Tundering Fury Bennett",
+   "description": "\n(ATTENTION: does need 4p Thundering Fury set on Bennett)\n Retrieved from KQM mains",
+   "chars": [
+    {
+     "Bennett": "role here"
+    },
+    {
+     "Xingqiu": "role here"
+    },
+    {
+     "Lisa": "role here"
+    },
+    {
+     "Beidou": "role here"
+    }
+   ],
+   "owner": 947245815263555605,
+   "file": "",
+   "id": "tundering_fury_bennett"
+  }
+ ]
+}

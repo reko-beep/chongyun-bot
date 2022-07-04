@@ -8,7 +8,12 @@
 
 # Currently Working on
  ```
-  Reminders for resin and comms
+  Nothing
+
+  adding multiple guild supports and 
+  sql or some json based db
+  (not soon)
+
  ```
 
 # How to Set Up
@@ -106,7 +111,13 @@
   admin_roles: [IDs of admin roles seperated by commas] #required for some admin limited commands
 
   teamcomp_role: ID of role who theorycrafts or add teamcomps to bot
+  best_cooper: ID of the role that will be given to users who comes out on top at coop leader board
+
+  comms_in_hr: hr in 24 format when ur comms reset 
+
  }
+
+ > NOTE: change your bot vps timezone according to it
  ```
 
   ### Bot Settings

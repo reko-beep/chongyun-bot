@@ -1,12 +1,14 @@
 
 from dis import disco
 from json import load, dump
+
+
 from base.liben import LibenManager
 from base.resource_manager import ResourceManager
 from base.utils import get_ordered_dicts, paginator
 from base.calculator import StatCalculator
 
-from nextcord import Member, Message, Embed
+from nextcord import Member, Message, Embed, Role, Guild
 from nextcord.utils import get
 from datetime import datetime
 from os.path import exists
@@ -21,7 +23,7 @@ class CoopManager:
         self.coop_data = {}
         self.liben = LibenManager(self.bot)
         self.calculator = StatCalculator(bot)
-
+        self.best_role = self.bot.b_config.get('best_cooper', None)
         self.domains = {
             "boss": [
                 'childe',
@@ -519,6 +521,53 @@ class CoopManager:
         ordered = get_ordered_dicts(coop_dict)
         embeds = paginator(bot, guild, ordered, 'Co-op leaderboard', '{key} has **{value}** co-op points!', 10)
         return embeds
+    
+    async def coop_announce(self, ctx, guild: Guild, reset: bool = False):
+        coop_dict = {}
+        for c in self.coop_data:
+            if c not in ['banned', 'warns', 'point_check']:
+                coop_dict[c] = self.coop_data[c]['points']
+        
+        ordered = get_ordered_dicts(coop_dict)
+        
+
+        users_top_three = list(ordered.keys())[:4]
+        print(users_top_three)
+
+        members = [get(guild.members, id=int(m)) for m in users_top_three]
+        message_ = "**Coop Leaderboard Results announcement** 🎉\n------------------------\n"
+        if len(members) >= 3:
+            for i in members:
+                if i is not None:
+                    if members.index(i) == 0:
+                        message_ += f"{i.mention} has won Blessing of Welkin moon and Best cooper role\n"
+                    else:
+                        message_ += f"{i.mention}, "
+            message_ += "is given best cooper role."
+        if self.best_role is not None:
+            self.best_role = get(guild.roles, id=self.best_role)
+        
+        if self.best_role is not None:
+            print(self.best_role.name)
+            members_role = self.best_role.members
+            for m in members_role:
+                if m in members:
+                    members.pop(members.index(m))
+                    print('[coop]', m.display_name, 'already has cooper role')
+                else:
+                    await m.remove_roles(self.best_role)                    
+                    print('[coop]', m.display_name, 'already best cooper role removed')
+
+            
+            for _ in members:
+                await _.add_roles(self.best_role)                
+                print('[coop]', m.display_name, 'given best cooper role')
+
+
+        await  ctx.send(message_) 
+
+
+
 
     def get_region_from_carry_role(self, role_name:str):
         role_name = role_name.lower().replace("carry", "",99).strip()

@@ -17,4 +17,8 @@
          "art_channel": 0, 
          "leak_channel": 0, 
          "owner_bot": 0, 
-         "nuke_enabled": true}
+         "nuke_enabled": true,
+         "general_channel": 0, 
+        "comm_reset_hr": 1, 
+        "best_cooper": 0
+    }

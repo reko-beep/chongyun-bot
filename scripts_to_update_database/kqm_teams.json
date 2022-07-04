@@ -1,0 +1,2164 @@
+{
+ "teams": [
+  "teamsadvise",
+  [
+   {
+    "teamid": "2",
+    "leaderid": "11",
+    "leadername": "Eula",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Eula Beidou"
+   },
+   {
+    "teamid": "7",
+    "leaderid": "13",
+    "leadername": "Ganyu",
+    "char1id": "7",
+    "char1name": "Bennett",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "41",
+    "char2name": "Xiangling",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40",
+     "33",
+     "32",
+     "37"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti",
+     "Shenhe",
+     "Sayu",
+     "Traveler (Anemo)"
+    ],
+    "teamdesc": "Melt Ganyu without shield"
+   },
+   {
+    "teamid": "8",
+    "leaderid": "45",
+    "leadername": "Yae Miko",
+    "char1id": "28",
+    "char1name": "Raiden",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "6"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Beidou"
+    ],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "40",
+     "43",
+     "34",
+     "24",
+     "37"
+    ],
+    "char2altnames": [
+     "Venti",
+     "Xingqiu",
+     "Sucrose",
+     "Mona",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17",
+     "10",
+     "22",
+     "5"
+    ],
+    "char3altnames": [
+     "Jean",
+     "Diona",
+     "Kokomi",
+     "Barbara"
+    ],
+    "teamdesc": "Yae carry / quickswap"
+   },
+   {
+    "teamid": "9",
+    "leaderid": "25",
+    "leadername": "Ningguang",
+    "char1id": "49",
+    "char1name": "Zhongli",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "1",
+     "39"
+    ],
+    "char1altnames": [
+     "Albedo",
+     "Traveler (Geo)"
+    ],
+    "char2id": "41",
+    "char2name": "Xiangling",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "12",
+     "1",
+     "39",
+     "30",
+     "18",
+     "43"
+    ],
+    "char2altnames": [
+     "Fischl",
+     "Albedo",
+     "Traveler (Geo)",
+     "Rosaria",
+     "Kaeya",
+     "Xingqiu"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "10",
+     "5",
+     "17",
+     "22",
+     "27"
+    ],
+    "char3altnames": [
+     "Diona",
+     "Barbara",
+     "Jean",
+     "Kokomi",
+     "Qiqi"
+    ],
+    "teamdesc": "Ning Dps\n\nIMPORTANT NOTE:\nXiang Ling is only to be used with Bennett and not any other healer."
+   },
+   {
+    "teamid": "10",
+    "leaderid": "25",
+    "leadername": "Ningguang",
+    "char1id": "49",
+    "char1name": "Zhongli",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "6",
+    "char2name": "Beidou",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "12",
+    "char3name": "Fischl",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Ning Beidou"
+   },
+   {
+    "teamid": "11",
+    "leaderid": "22",
+    "leadername": "Kokomi",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "45"
+    ],
+    "char1altnames": [
+     "Yae Miko"
+    ],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "45"
+    ],
+    "char2altnames": [
+     "Yae Miko"
+    ],
+    "char3id": "34",
+    "char3name": "Sucrose",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "19",
+     "40",
+     "37"
+    ],
+    "char3altnames": [
+     "Kazuha",
+     "Venti",
+     "Traveler (Anemo)"
+    ],
+    "teamdesc": "Stingray / Taser Kokomi"
+   },
+   {
+    "teamid": "12",
+    "leaderid": "22",
+    "leadername": "Kokomi",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "34",
+    "char3name": "Sucrose",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "40",
+     "17",
+     "19",
+     "37"
+    ],
+    "char3altnames": [
+     "Venti",
+     "Jean",
+     "Kazuha",
+     "Traveler (Anemo)"
+    ],
+    "teamdesc": "Kokomi Vape"
+   },
+   {
+    "teamid": "13",
+    "leaderid": "22",
+    "leadername": "Kokomi",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "34",
+    "char3name": "Sucrose",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Sukokomon\n\nIMPORTANT NOTE: Hard to execute team compared to other options"
+   },
+   {
+    "teamid": "15",
+    "leaderid": "41",
+    "leadername": "Xiangling",
+    "char1id": "7",
+    "char1name": "Bennett",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "30",
+    "char2name": "Rosaria",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "18",
+    "char3name": "Kaeya",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "19",
+     "40",
+     "34",
+     "33",
+     "8"
+    ],
+    "char3altnames": [
+     "Kazuha",
+     "Venti",
+     "Sucrose",
+     "Shenhe",
+     "Chongyun"
+    ],
+    "teamdesc": "Xiangling Reverse Melt\n\nIMPORTANT NOTE:\nShenhe is only to be used with a 2nd cryo"
+   },
+   {
+    "teamid": "16",
+    "leaderid": "35",
+    "leadername": "Tartaglia",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "49",
+     "37",
+     "32"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Zhongli",
+     "Traveler (Anemo)",
+     "Sayu"
+    ],
+    "teamdesc": "Childe Vaporise:\n\nChilde is the on-field dps and applies a lot of hydro to allow Xiangling to Vape her burst. Xiangling is the off-field dps. Bennett batteries Xiangling, provides a massive attack buff and heals. Kazuha shreds enemy resistances via Viridescent Venerer artifact set and provides pyro and hydro dmg bonus to the team.\n\nRotation: Tartaglia skill \u2192  Kazuha skill \u2192  Bennett burst \u2192  Kazuha burst \u2192  Bennett skill \u2192  Xiangling burst \u2192  Xiangling skill \u2192  Tartaglia burst \u2192  Tartaglia skill \u2192  Tartaglia na3ca spam until Xiangling burst ends \u2192  recharge Bennett, Xiangling, and Kazuha bursts \u2192 then repeat "
+   },
+   {
+    "teamid": "17",
+    "leaderid": "35",
+    "leadername": "Tartaglia",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17"
+    ],
+    "char3altnames": [
+     "Jean"
+    ],
+    "teamdesc": "Fireworks Childe / Childe Taser"
+   },
+   {
+    "teamid": "18",
+    "leaderid": "6",
+    "leadername": "Beidou",
+    "char1id": "12",
+    "char1name": "Fischl",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "43",
+    "char2name": "Xingqiu",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34"
+    ],
+    "char3altnames": [
+     "Sucrose"
+    ],
+    "teamdesc": "Standard Taser"
+   },
+   {
+    "teamid": "19",
+    "leaderid": "21",
+    "leadername": "Klee",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40",
+     "37",
+     "32"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Sayu"
+    ],
+    "teamdesc": "Mono Pyro Klee:\n\nKlee is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Klee combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n"
+   },
+   {
+    "teamid": "20",
+    "leaderid": "21",
+    "leadername": "Klee",
+    "char1id": "30",
+    "char1name": "Rosaria",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "43",
+     "24",
+     "18"
+    ],
+    "char1altnames": [
+     "Xingqiu",
+     "Mona",
+     "Kaeya"
+    ],
+    "char2id": "34",
+    "char2name": "Sucrose",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "40",
+     "19",
+     "37",
+     "32"
+    ],
+    "char2altnames": [
+     "Venti",
+     "Kazuha",
+     "Traveler (Anemo)",
+     "Sayu"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Reverse Reactions Klee"
+   },
+   {
+    "teamid": "21",
+    "leaderid": "21",
+    "leadername": "Klee",
+    "char1id": "49",
+    "char1name": "Zhongli",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "1",
+    "char2name": "Albedo",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "39",
+     "25"
+    ],
+    "char2altnames": [
+     "Traveler (Geo)",
+     "Ningguang"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Klee Double Geo"
+   },
+   {
+    "teamid": "22",
+    "leaderid": "28",
+    "leadername": "Raiden",
+    "char1id": "31",
+    "char1name": "Sara",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "23",
+     "45"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Lisa",
+     "Yae Miko"
+    ],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "34",
+     "40",
+     "37",
+     "24",
+     "43"
+    ],
+    "char2altnames": [
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Mona",
+     "Xingqiu"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "22",
+     "5",
+     "49"
+    ],
+    "char3altnames": [
+     "Kokomi",
+     "Barbara",
+     "Zhongli"
+    ],
+    "teamdesc": "Raiden Carry\n\n\nOptimization Notes:\nSara C6 > Lisa/Fischl > Sara C1 - 5"
+   },
+   {
+    "teamid": "25",
+    "leaderid": "26",
+    "leadername": "Noelle",
+    "char1id": "14",
+    "char1name": "Gorou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "1",
+    "char2name": "Albedo",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "25",
+     "39",
+     "49",
+     "48"
+    ],
+    "char2altnames": [
+     "Ningguang",
+     "Traveler (Geo)",
+     "Zhongli",
+     "Yun Jin"
+    ],
+    "char3id": "12",
+    "char3name": "Fischl",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "39",
+     "25",
+     "49",
+     "18",
+     "30",
+     "48"
+    ],
+    "char3altnames": [
+     "Traveler (Geo)",
+     "Ningguang",
+     "Zhongli",
+     "Kaeya",
+     "Rosaria",
+     "Yun Jin"
+    ],
+    "teamdesc": "Carry Noelle\n\nImportant Note:\nNoelle should only be considered to be used at C5+"
+   },
+   {
+    "teamid": "26",
+    "leaderid": "15",
+    "leadername": "Hu Tao",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "49",
+    "char2name": "Zhongli",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "1",
+    "char3name": "Albedo",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "39",
+     "25",
+     "48",
+     "12",
+     "24"
+    ],
+    "char3altnames": [
+     "Traveler (Geo)",
+     "Ningguang",
+     "Yun Jin",
+     "Fischl",
+     "Mona"
+    ],
+    "teamdesc": "Hu Tao Double Geo:\n\nHu Tao is the on-field dps of this team. Xingqiu is there to provide hydro application for Hu Tao to consistently vaporize her CA. He also provides good single target damage, damage reduction and minor healing. Albedo provides off-field geo damage and elemental mastery buff on his burst. Zhongli provides a strong shield which provides a 20% universal resistance shred and ensures 100% uptime on geo resonance.\nRotation: Xingqiu skill \u2192 Xingqiu burst \u2192 Zhongli skill (Hold) \u2192 Zhongli burst (Optional for the petrify, usually a damage loss)  \u2192 Albedo skill \u2192 Albedo burst \u2192 Hu Tao CA combo \u2192 then repeat"
+   },
+   {
+    "teamid": "27",
+    "leaderid": "15",
+    "leadername": "Hu Tao",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "37",
+     "40"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Traveler (Anemo)",
+     "Venti"
+    ],
+    "teamdesc": "Mono Pyro Hu Tao:\n\nHu Tao is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Hu Tao CA combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat"
+   },
+   {
+    "teamid": "28",
+    "leaderid": "15",
+    "leadername": "Hu Tao",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "18",
+    "char2name": "Kaeya",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "30",
+     "33"
+    ],
+    "char2altnames": [
+     "Rosaria",
+     "Shenhe"
+    ],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Hutao Freeze Melt"
+   },
+   {
+    "teamid": "29",
+    "leaderid": "15",
+    "leadername": "Hu Tao",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "34",
+     "37"
+    ],
+    "char2altnames": [
+     "Sucrose",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "3",
+    "char3name": "Amber",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "7",
+     "36",
+     "44",
+     "46"
+    ],
+    "char3altnames": [
+     "Bennett",
+     "Thoma",
+     "Xinyan",
+     "Yanfei"
+    ],
+    "teamdesc": "Hutao VV Vape\n\nImportant Constelations Requirements:\nBennett (c1+)\nYanfei (c4+)"
+   },
+   {
+    "teamid": "30",
+    "leaderid": "15",
+    "leadername": "Hu Tao",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "6",
+    "char3name": "Beidou",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "7"
+    ],
+    "char3altnames": [
+     "Bennett"
+    ],
+    "teamdesc": "Vapeload Hutao"
+   },
+   {
+    "teamid": "31",
+    "leaderid": "47",
+    "leadername": "Yoimiya",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "43"
+    ],
+    "char3altnames": [
+     "Xingqiu"
+    ],
+    "teamdesc": "Overload Yoimiya"
+   },
+   {
+    "teamid": "33",
+    "leaderid": "47",
+    "leadername": "Yoimiya",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "37",
+     "34",
+     "40",
+     "32",
+     "17"
+    ],
+    "char3altnames": [
+     "Traveler (Anemo)",
+     "Sucrose",
+     "Venti",
+     "Sayu",
+     "Jean"
+    ],
+    "teamdesc": "Mono Pyro Yoimiya:\n\nYoimiya is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Yoimiya combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n"
+   },
+   {
+    "teamid": "34",
+    "leaderid": "47",
+    "leadername": "Yoimiya",
+    "char1id": "7",
+    "char1name": "Bennett",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "49",
+    "char2name": "Zhongli",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "48",
+    "char3name": "Yun Jin",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "19",
+     "34",
+     "43",
+     "1",
+     "39"
+    ],
+    "char3altnames": [
+     "Kazuha",
+     "Sucrose",
+     "Xingqiu",
+     "Albedo",
+     "Traveler (Geo)"
+    ],
+    "teamdesc": "Carry Yoimiya"
+   },
+   {
+    "teamid": "35",
+    "leaderid": "46",
+    "leadername": "Yanfei",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17",
+     "22",
+     "10",
+     "27",
+     "43",
+     "5"
+    ],
+    "char3altnames": [
+     "Jean",
+     "Kokomi",
+     "Diona",
+     "Qiqi",
+     "Xingqiu",
+     "Barbara"
+    ],
+    "teamdesc": "Overload Yanfei"
+   },
+   {
+    "teamid": "36",
+    "leaderid": "46",
+    "leadername": "Yanfei",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40",
+     "37",
+     "17"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Jean"
+    ],
+    "teamdesc": "Mono Pyro Yanfei:\n\nYanfei is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Yanfei combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n"
+   },
+   {
+    "teamid": "37",
+    "leaderid": "46",
+    "leadername": "Yanfei",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "34",
+    "char2name": "Sucrose",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "37",
+     "40",
+     "19"
+    ],
+    "char2altnames": [
+     "Traveler (Anemo)",
+     "Venti",
+     "Kazuha"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Vaporise Yanfei"
+   },
+   {
+    "teamid": "38",
+    "leaderid": "42",
+    "leadername": "Xiao",
+    "char1id": "34",
+    "char1name": "Sucrose",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "37"
+    ],
+    "char1altnames": [
+     "Traveler (Anemo)"
+    ],
+    "char2id": "49",
+    "char2name": "Zhongli",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "12",
+     "8",
+     "18",
+     "30",
+     "1"
+    ],
+    "char2altnames": [
+     "Fischl",
+     "Chongyun",
+     "Kaeya",
+     "Rosaria",
+     "Albedo"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "10",
+     "5",
+     "22",
+     "27"
+    ],
+    "char3altnames": [
+     "Diona",
+     "Barbara",
+     "Kokomi",
+     "Qiqi"
+    ],
+    "teamdesc": "Standard Carry Xiao"
+   },
+   {
+    "teamid": "39",
+    "leaderid": "42",
+    "leadername": "Xiao",
+    "char1id": "17",
+    "char1name": "Jean",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "34"
+    ],
+    "char1altnames": [
+     "Sucrose"
+    ],
+    "char2id": "49",
+    "char2name": "Zhongli",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "1",
+    "char3name": "Albedo",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "39",
+     "25"
+    ],
+    "char3altnames": [
+     "Traveler (Geo)",
+     "Ningguang"
+    ],
+    "teamdesc": "Xiao double geo"
+   },
+   {
+    "teamid": "40",
+    "leaderid": "20",
+    "leadername": "Keqing",
+    "char1id": "24",
+    "char1name": "Mona",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "40",
+     "34"
+    ],
+    "char2altnames": [
+     "Venti",
+     "Sucrose"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Quick swap keqing"
+   },
+   {
+    "teamid": "41",
+    "leaderid": "20",
+    "leadername": "Keqing",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "45"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Yae Miko"
+    ],
+    "char2id": "43",
+    "char2name": "Xingqiu",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17",
+     "22",
+     "32",
+     "5"
+    ],
+    "char3altnames": [
+     "Jean",
+     "Kokomi",
+     "Sayu",
+     "Barbara"
+    ],
+    "teamdesc": "Electro Carry Keqing"
+   },
+   {
+    "teamid": "42",
+    "leaderid": "20",
+    "leadername": "Keqing",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "45"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Yae Miko"
+    ],
+    "char2id": "18",
+    "char2name": "Kaeya",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "30"
+    ],
+    "char2altnames": [
+     "Rosaria"
+    ],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "22",
+     "5",
+     "7",
+     "27"
+    ],
+    "char3altnames": [
+     "Kokomi",
+     "Barbara",
+     "Bennett",
+     "Qiqi"
+    ],
+    "teamdesc": "Physical Carry Keqing"
+   },
+   {
+    "teamid": "43",
+    "leaderid": "24",
+    "leadername": "Mona",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "37",
+     "40"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Traveler (Anemo)",
+     "Venti"
+    ],
+    "teamdesc": "Mona Vape\n\nNote:\nXiangling's Pyronado only hits low hanging enemies on Venti's burst. "
+   },
+   {
+    "teamid": "44",
+    "leaderid": "24",
+    "leadername": "Mona",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17"
+    ],
+    "char3altnames": [
+     "Jean"
+    ],
+    "teamdesc": "Mona Taser"
+   },
+   {
+    "teamid": "45",
+    "leaderid": "17",
+    "leadername": "Jean",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "43",
+    "char3name": "Xingqiu",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Taser Jean"
+   },
+   {
+    "teamid": "46",
+    "leaderid": "29",
+    "leadername": "Razor",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "43"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Xingqiu"
+    ],
+    "char2id": "18",
+    "char2name": "Kaeya",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "30"
+    ],
+    "char2altnames": [
+     "Rosaria"
+    ],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "17",
+     "5",
+     "27",
+     "43"
+    ],
+    "char3altnames": [
+     "Jean",
+     "Barbara",
+     "Qiqi",
+     "Xingqiu"
+    ],
+    "teamdesc": "Carry Razor"
+   },
+   {
+    "teamid": "47",
+    "leaderid": "9",
+    "leadername": "Diluc",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40",
+     "37",
+     "32",
+     "17"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Sayu",
+     "Jean"
+    ],
+    "teamdesc": "Mono Pyro Diluc:\n\nDiluc is the on-field dps of this team. Xiangling provides off-field pyro damage and some buffs via her constellations. Kazuha shreds enemy resistances via 4 piece Viridescent Venerer artifact set and provides pyro dmg bonus to the team. Bennett provides an attack buff, batteries Xiangling and provides healing.\n\nRotations: Bennett skill \u2192 Bennett burst \u2192  Kazuha skill \u2192  Kazuha burst \u2192  Xiangling skill \u2192 Xiangling burst \u2192 Diluc combo \u2192 recharge Xiangling and Kazuha bursts \u2192  then repeat\n"
+   },
+   {
+    "teamid": "48",
+    "leaderid": "9",
+    "leadername": "Diluc",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "34",
+    "char2name": "Sucrose",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19",
+     "37",
+     "12",
+     "49",
+     "1"
+    ],
+    "char2altnames": [
+     "Kazuha",
+     "Traveler (Anemo)",
+     "Fischl",
+     "Zhongli",
+     "Albedo"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "22",
+     "5",
+     "17",
+     "32"
+    ],
+    "char3altnames": [
+     "Kokomi",
+     "Barbara",
+     "Jean",
+     "Sayu"
+    ],
+    "teamdesc": "Diluc Vape / Vapeload"
+   },
+   {
+    "teamid": "49",
+    "leaderid": "7",
+    "leadername": "Bennett",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "34",
+    "char2name": "Sucrose",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19"
+    ],
+    "char2altnames": [
+     "Kazuha"
+    ],
+    "char3id": "8",
+    "char3name": "Chongyun",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "18",
+     "30"
+    ],
+    "char3altnames": [
+     "Kaeya",
+     "Rosaria"
+    ],
+    "teamdesc": "Bennett main dps team, focuses on melting his skill, utilizing Chongyun's infusion. \n"
+   },
+   {
+    "teamid": "50",
+    "leaderid": "18",
+    "leadername": "Kaeya",
+    "char1id": "8",
+    "char1name": "Chongyun",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "43",
+    "char2name": "Xingqiu",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "24",
+     "22",
+     "5"
+    ],
+    "char2altnames": [
+     "Mona",
+     "Kokomi",
+     "Barbara"
+    ],
+    "char3id": "17",
+    "char3name": "Jean",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "19",
+     "34",
+     "40",
+     "37",
+     "32"
+    ],
+    "char3altnames": [
+     "Kazuha",
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Sayu"
+    ],
+    "teamdesc": "Kaeye Freeze team"
+   },
+   {
+    "teamid": "51",
+    "leaderid": "4",
+    "leadername": "Ayaka",
+    "char1id": "24",
+    "char1name": "Mona",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "43"
+    ],
+    "char1altnames": [
+     "Xingqiu"
+    ],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "40",
+     "34",
+     "37"
+    ],
+    "char2altnames": [
+     "Venti",
+     "Sucrose",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Ayaka Perma Freeze"
+   },
+   {
+    "teamid": "52",
+    "leaderid": "4",
+    "leadername": "Ayaka",
+    "char1id": "24",
+    "char1name": "Mona",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "43"
+    ],
+    "char1altnames": [
+     "Xingqiu"
+    ],
+    "char2id": "17",
+    "char2name": "Jean",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "32"
+    ],
+    "char2altnames": [
+     "Sayu"
+    ],
+    "char3id": "30",
+    "char3name": "Rosaria",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "18",
+     "33",
+     "2"
+    ],
+    "char3altnames": [
+     "Kaeya",
+     "Shenhe",
+     "Aloy"
+    ],
+    "teamdesc": "Ayaka perma freeze (anemo healer variant)"
+   },
+   {
+    "teamid": "53",
+    "leaderid": "4",
+    "leadername": "Ayaka",
+    "char1id": "22",
+    "char1name": "Kokomi",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "5"
+    ],
+    "char1altnames": [
+     "Barbara"
+    ],
+    "char2id": "40",
+    "char2name": "Venti",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19",
+     "34",
+     "37"
+    ],
+    "char2altnames": [
+     "Kazuha",
+     "Sucrose",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "13",
+    "char3name": "Ganyu",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "33",
+     "18",
+     "2",
+     "30"
+    ],
+    "char3altnames": [
+     "Shenhe",
+     "Kaeya",
+     "Aloy",
+     "Rosaria"
+    ],
+    "teamdesc": "PermaFreeze team"
+   },
+   {
+    "teamid": "54",
+    "leaderid": "5",
+    "leadername": "Barbara",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti"
+    ],
+    "teamdesc": "Barbara Taser"
+   },
+   {
+    "teamid": "55",
+    "leaderid": "5",
+    "leadername": "Barbara",
+    "char1id": "41",
+    "char1name": "Xiangling",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "17"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Jean"
+    ],
+    "teamdesc": "Forward Vaporise Barbara"
+   },
+   {
+    "teamid": "56",
+    "leaderid": "11",
+    "leadername": "Eula",
+    "char1id": "28",
+    "char1name": "Raiden",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "12",
+     "23",
+     "38"
+    ],
+    "char1altnames": [
+     "Fischl",
+     "Lisa",
+     "Traveler (Electro)"
+    ],
+    "char2id": "33",
+    "char2name": "Shenhe",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "30",
+     "18"
+    ],
+    "char2altnames": [
+     "Rosaria",
+     "Kaeya"
+    ],
+    "char3id": "49",
+    "char3name": "Zhongli",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "7",
+     "10",
+     "17"
+    ],
+    "char3altnames": [
+     "Bennett",
+     "Diona",
+     "Jean"
+    ],
+    "teamdesc": "Carry Eula"
+   },
+   {
+    "teamid": "57",
+    "leaderid": "13",
+    "leadername": "Ganyu",
+    "char1id": "19",
+    "char1name": "Kazuha",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "41",
+     "17"
+    ],
+    "char1altnames": [
+     "Xiangling",
+     "Jean"
+    ],
+    "char2id": "7",
+    "char2name": "Bennett",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "49",
+    "char3name": "Zhongli",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "10",
+     "46"
+    ],
+    "char3altnames": [
+     "Diona",
+     "Yanfei"
+    ],
+    "teamdesc": "Melt Ganyu"
+   },
+   {
+    "teamid": "58",
+    "leaderid": "28",
+    "leadername": "Raiden",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "41",
+    "char2name": "Xiangling",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19",
+     "17",
+     "34"
+    ],
+    "char2altnames": [
+     "Kazuha",
+     "Jean",
+     "Sucrose"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Rational-Overvape"
+   },
+   {
+    "teamid": "59",
+    "leaderid": "16",
+    "leadername": "Itto",
+    "char1id": "49",
+    "char1name": "Zhongli",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "14",
+    "char2name": "Gorou",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "1",
+    "char3name": "Albedo",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "7",
+     "12",
+     "25",
+     "39"
+    ],
+    "char3altnames": [
+     "Bennett",
+     "Fischl",
+     "Ningguang",
+     "Traveler (Geo)"
+    ],
+    "teamdesc": "Itto Hypercarry"
+   },
+   {
+    "teamid": "60",
+    "leaderid": "34",
+    "leadername": "Sucrose",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "43",
+    "char3name": "Xingqiu",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Sucrose Taser"
+   },
+   {
+    "teamid": "61",
+    "leaderid": "13",
+    "leadername": "Ganyu",
+    "char1id": "24",
+    "char1name": "Mona",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "40",
+    "char2name": "Venti",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19",
+     "34",
+     "37"
+    ],
+    "char2altnames": [
+     "Kazuha",
+     "Sucrose",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "10",
+    "char3name": "Diona",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Perma Freeze\n"
+   },
+   {
+    "teamid": "62",
+    "leaderid": "30",
+    "leadername": "Rosaria",
+    "char1id": "8",
+    "char1name": "Chongyun",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "43",
+    "char2name": "Xingqiu",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "22",
+     "5"
+    ],
+    "char2altnames": [
+     "Kokomi",
+     "Barbara"
+    ],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "34",
+     "40",
+     "37",
+     "32"
+    ],
+    "char3altnames": [
+     "Sucrose",
+     "Venti",
+     "Traveler (Anemo)",
+     "Sayu"
+    ],
+    "teamdesc": "Rosaria perma freeze"
+   },
+   {
+    "teamid": "63",
+    "leaderid": "13",
+    "leadername": "Ganyu",
+    "char1id": "22",
+    "char1name": "Kokomi",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "5"
+    ],
+    "char1altnames": [
+     "Barbara"
+    ],
+    "char2id": "40",
+    "char2name": "Venti",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "19",
+     "34",
+     "37"
+    ],
+    "char2altnames": [
+     "Kazuha",
+     "Sucrose",
+     "Traveler (Anemo)"
+    ],
+    "char3id": "33",
+    "char3name": "Shenhe",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "30",
+     "4",
+     "18"
+    ],
+    "char3altnames": [
+     "Rosaria",
+     "Ayaka",
+     "Kaeya"
+    ],
+    "teamdesc": "Permafreeze with koko"
+   },
+   {
+    "teamid": "64",
+    "leaderid": "47",
+    "leadername": "Yoimiya",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "19",
+    "char2name": "Kazuha",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "34",
+     "12"
+    ],
+    "char2altnames": [
+     "Sucrose",
+     "Fischl"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Yoimiya Vaporise"
+   },
+   {
+    "teamid": "65",
+    "leaderid": "27",
+    "leadername": "Qiqi",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "12",
+    "char2name": "Fischl",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "43",
+    "char3name": "Xingqiu",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "24"
+    ],
+    "char3altnames": [
+     "Mona"
+    ],
+    "teamdesc": "Qiqi Tazer"
+   },
+   {
+    "teamid": "66",
+    "leaderid": "44",
+    "leadername": "Xinyan",
+    "char1id": "12",
+    "char1name": "Fischl",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "30",
+    "char2name": "Rosaria",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "18"
+    ],
+    "char2altnames": [
+     "Kaeya"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Xinyan"
+   },
+   {
+    "teamid": "67",
+    "leaderid": "23",
+    "leadername": "Lisa",
+    "char1id": "6",
+    "char1name": "Beidou",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "43",
+    "char2name": "Xingqiu",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "24"
+    ],
+    "char2altnames": [
+     "Mona"
+    ],
+    "char3id": "19",
+    "char3name": "Kazuha",
+    "char3owned": true,
+    "char3altsowned": true,
+    "char3altids": [
+     "40",
+     "34",
+     "37",
+     "17",
+     "32"
+    ],
+    "char3altnames": [
+     "Venti",
+     "Sucrose",
+     "Traveler (Anemo)",
+     "Jean",
+     "Sayu"
+    ],
+    "teamdesc": "Lisa beidou"
+   },
+   {
+    "teamid": "68",
+    "leaderid": "3",
+    "leadername": "Amber",
+    "char1id": "30",
+    "char1name": "Rosaria",
+    "char1owned": true,
+    "char1altsowned": true,
+    "char1altids": [
+     "18"
+    ],
+    "char1altnames": [
+     "Kaeya"
+    ],
+    "char2id": "49",
+    "char2name": "Zhongli",
+    "char2owned": true,
+    "char2altsowned": true,
+    "char2altids": [
+     "10"
+    ],
+    "char2altnames": [
+     "Diona"
+    ],
+    "char3id": "7",
+    "char3name": "Bennett",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Charged Shot Amber"
+   },
+   {
+    "teamid": "74",
+    "leaderid": "28",
+    "leadername": "Raiden",
+    "char1id": "45",
+    "char1name": "Yae Miko",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "31",
+    "char2name": "Sara",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "17",
+    "char3name": "Jean",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Mono Electro"
+   },
+   {
+    "teamid": "75",
+    "leaderid": "7",
+    "leadername": "Bennett",
+    "char1id": "43",
+    "char1name": "Xingqiu",
+    "char1owned": true,
+    "char1altsowned": false,
+    "char1altids": [],
+    "char1altnames": [],
+    "char2id": "23",
+    "char2name": "Lisa",
+    "char2owned": true,
+    "char2altsowned": false,
+    "char2altids": [],
+    "char2altnames": [],
+    "char3id": "6",
+    "char3name": "Beidou",
+    "char3owned": true,
+    "char3altsowned": false,
+    "char3altids": [],
+    "char3altnames": [],
+    "teamdesc": "Tundering Fury Bennett\n(ATTENTION: does need 4p Thundering Fury set on Bennett)"
+   }
+  ],
+  [],
+  [],
+  []
+ ]
+}

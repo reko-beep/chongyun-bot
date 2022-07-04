@@ -12,6 +12,7 @@ from base.information import Information
 from core.web_server import create_custom_server
 from base.coop import CoopManager
 from base.wish_history_calculator import WishClient
+from base.reminder import Reminders
 from threading import Thread
 import asyncio
 from dev_log import logc
@@ -27,9 +28,11 @@ class DevBot(Bot):
         self.resource_manager : ResourceManager = resource_manager
         self.inf : Information = Information(self.resource_manager, self)
         self.coop: CoopManager = CoopManager(self) 
-        self.admin = Administrator(self)
+        self.admin : Administrator = Administrator(self)
         self.with_server = webserver        
-        self.wishclient = WishClient(self)
+        self.wishclient : WishClient = WishClient(self)
+        self.remind_client : Reminders = Reminders(self)
+
         self.load_config()
         self.load_all_extensions()
     
