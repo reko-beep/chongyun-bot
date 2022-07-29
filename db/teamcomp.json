@@ -1,1537 +1,1682 @@
-{
- "data": [
-  {
-   "title": "Eula-Raiden Burst",
-   "chars": [
-    {
-     "raiden": "sub dps"
-    },
-    {
-     "sara": "support"
-    },
-    {
-     "eula": "main dps"
-    },
-    {
-     "diona": "heal/support"
-    }
-   ],
-   "description": "",
-   "owner": 190842306818080769,
-   "file": "eula_raiden_burst.png",
-   "id": "eula_raiden_burst"
-  },
-  {
-   "title": "Eula Triple Cryo",
-   "chars": [
-    {
-     "Eula": "main dps"
-    },
-    {
-     "Raiden": "Sub dps"
-    },
-    {
-     "Rosaria": "Crit Support"
-    },
-    {
-     "Diona": "Support"
-    }
-   ],
-   "description": "",
-   "owner": 449403360333004801,
-   "file": "eula_triple_cryo.png",
-   "id": "eula_triple_cryo"
-  },
-  {
-   "title": "Ganyu Melt Comp",
-   "chars": [
-    {
-     "ganyu": "main dps"
-    },
-    {
-     "bennett": "support"
-    },
-    {
-     "xiangling": "melt enabler"
-    },
-    {
-     "zhongli": "shield bot"
-    }
-   ],
-   "description": "This is a high damage ganyu team comp, u can use diano instead of zhongli here but remember she might steal some of the melts.\n\nROTATIONS: Zhongli E(hold), Bennett Q, Bennett E, Xiangling E, Xiangling Q, Ganyu charged shots\n\nremember you can use your ganyu's burst here although it is not recommended but since it gives cryo dmg bonus , and your c ok constant application with pyronado, ganyu will pretty much melt every charged shot\n\nBUILDS: Ganyu(shiminawa, or wanderer's, hamayumi or amo's, needs 60 crit rate, EM sands), Bennett (noblesse ofc with 200+ ER), Xiangling (Emblem with 220+ ER), Zhongli (Tenacity)\n\nU can use Jean or Kazuha instead of xiangling here, with jean in the team , using ganyu's burst is recommended, Kazuha will give more damage but xiangling will be more consistent of all others.",
-   "owner": 734048698522402857,
-   "file": "ganyu_melt_comp.png",
-   "id": "ganyu_melt_comp"
-  },
-  {
-   "title": "Childe Vape",
-   "chars": [
-    {
-     "tartaglia": "onfield dps"
-    },
-    {
-     "xiangling": "off field dps"
-    },
-    {
-     "bennet": "buffer"
-    },
-    {
-     "sucrose": "support"
-    }
-   ],
-   "description": "One of Childe`s strongest teams barring International.Uses the constant hydro application to consistently vape Xiangling burst which deals massive amounts of damage when combined with Benny buff and VVshred. TTDS can be run on Sucrose for even more damage.In this comp, childe's ranged burst is used more often.",
-   "owner": 449403360333004801,
-   "file": "childe_vape.png",
-   "id": "childe_vape"
-  },
-  {
-   "title": "International",
-   "chars": [
-    {
-     "tartaglia": "onfield dps"
-    },
-    {
-     "xiangling": "off field dps"
-    },
-    {
-     "bennet": "buffer"
-    },
-    {
-     "kaedehara kazuha": "sub dps"
-    }
-   ],
-   "description": "Childe's strongest team.Uses the constant hydro application to consistently vape Xiangling burst which deals massive amounts of damage when combined with Benny buff and VVshred. Around 800+ EM on Kazuha will lead to some destructive numbers.Make sure to Double swirl hydro and pyro using a charged shot or an Eswap",
-   "owner": 449403360333004801,
-   "file": "international.png",
-   "id": "international"
-  },
-  {
-   "title": "Klee Vape",
-   "chars": [
-    {
-     "klee": "main dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "sucrose": "support"
-    },
-    {
-     "bennett": "bennett"
-    }
-   ],
-   "description": "Simple enough to play. \nBennett will provide his buff and heal, Sucrose shreds resistances and shares EM and Xingqiu provides off-field hydro application to allow Klee to vape.\nC6 Xingqiu is highly wanted in this team",
-   "owner": 936202800499666994,
-   "file": "klee_vape.png",
-   "id": "klee_vape"
-  },
-  {
-   "title": "Eula Triple Polearm",
-   "chars": [
-    {
-     "eula": "main dps"
-    },
-    {
-     "rosaria": "battery"
-    },
-    {
-     "raiden": "sub dps"
-    },
-    {
-     "zhongli": "shielder"
-    }
-   ],
-   "description": "",
-   "owner": 449403360333004801,
-   "file": "eula_triple_polearm.png",
-   "id": "eula_triple_polearm"
-  },
-  {
-   "title": "Klee Double Geo",
-   "chars": [
-    {
-     "klee": "on-field dps"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "zhongli": "support"
-    }
-   ],
-   "description": "Another team that focuses on the raw damage output of it's characters.",
-   "owner": 936202800499666994,
-   "file": "klee_double_geo.png",
-   "id": "klee_double_geo"
-  },
-  {
-   "title": "Childe Tazer",
-   "chars": [
-    {
-     "tartaglia": "on-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "Bennett provides a massive attack buff for Beidou to snapshot and let's Tartaglia Vape his ranged burst. Childe allows for consistent procs of Beidou's ult due to his fast attack speed and a hydro aura. Fischl helps in batterying Beidou",
-   "owner": 936202800499666994,
-   "file": "childe_tazer.png",
-   "id": "childe_tazer"
-  },
-  {
-   "title": "Reverse-Melt Klee",
-   "chars": [
-    {
-     "klee": "on-field dps"
-    },
-    {
-     "rosaria": "off-field dps"
-    },
-    {
-     "kaeya": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "This team makes use of Klee's immense pyro application to melt off of Rosaria and Kaeya's bursts. Bennett does his thing and allows the cryo units to snapshot.",
-   "owner": 936202800499666994,
-   "file": "reverse_melt_klee.png",
-   "id": "reverse_melt_klee"
-  },
-  {
-   "title": "Xiao Double Geo",
-   "chars": [
-    {
-     "xiao": "main dps"
-    },
-    {
-     "jean": "support"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "zhongli": "shieldbot"
-    }
-   ],
-   "description": "The premier Xiao team. Jean is the healer and battery, Albedo provides consistent off field damage and Zhongli provides anemo shred and a strong shield. All this makes this one of the best Xiao teams.",
-   "owner": 936202800499666994,
-   "file": "xiao_double_geo.png",
-   "id": "xiao_double_geo"
-  },
-  {
-   "title": "Raiden National",
-   "chars": [
-    {
-     "raiden": "on-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "Making use of Xingqiu and Xiangling's immense off-field damage, this team uses Raiden as the driver. This allows her to refund energy to the other 3 units, greatly reducing their energy requirements. One of the easiest teams to play currentely in the game.",
-   "owner": 936202800499666994,
-   "file": "raiden_national.png",
-   "id": "raiden_national"
-  },
-  {
-   "title": "RAIDEN HYPERCARRY",
-   "chars": [
-    {
-     "raiden": "main dps"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "sara": "buffer"
-    },
-    {
-     "kazuha": "support"
-    }
-   ],
-   "description": "\nAnemo slot: Kazuha > Sucrose\nNeeds these specific units to function. If your Kazuha and Bennett are used in another team like International, it may not be worth switching to/pulling for Raiden for this purpose unless she is C2.\n\nRecommended ER on Raiden: 200\nRecommended ER on Sara: 175\nRecommended ER on Bennett: 150\nRecommended ER on Kazuha: 150",
-   "owner": 734048698522402857,
-   "file": "raiden_hypercarry.png",
-   "id": "raiden_hypercarry"
-  },
-  {
-   "title": "Mono Pyro Klee",
-   "chars": [
-    {
-     "klee": "on-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "kazuha": "buffer"
-    }
-   ],
-   "description": "Focuses on the raw damage provided by Klee and Xiangling, amplified by Bennett and Kazuha",
-   "owner": 936202800499666994,
-   "file": "mono_pyro_klee.png",
-   "id": "mono_pyro_klee"
-  },
-  {
-   "title": "Standard Diluc Vape",
-   "chars": [
-    {
-     "diluc": "main dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "sucrose": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "standard_diluc_vape.png",
-   "id": "standard_diluc_vape"
-  },
-  {
-   "title": "Morgana",
-   "chars": [
-    {
-     "ganyu": "main dps"
-    },
-    {
-     "venti": "support"
-    },
-    {
-     "mona": "buffer"
-    },
-    {
-     "diona": "support"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "morgana.png",
-   "id": "morgana"
-  },
-  {
-   "title": "Morgana CN Variant",
-   "chars": [
-    {
-     "ganyu": "burst dps"
-    },
-    {
-     "venti": "support"
-    },
-    {
-     "mona": "hydro applicator"
-    },
-    {
-     "rosaria": "subdps"
-    }
-   ],
-   "description": "\nSo basically, rifthounds were a lot of pain in abyss since venti was not able to group them up effectively, hence, players made variations in og morgana and put in rosaria for max freeze uptime. \n\nROTATION: Ganyu E, Mona E, Venti EQ(very fast), Rosaria E, Q, Ganyu Q, Mona Q, Venti E, repeat\n\nNOTES: cast ganyu E to move away, mona E to freeze,Venti EQ immediately to shred res, Rosaria E to move near enemy while they are frozen and and then bursts to keep them frozen. Also kazuha and kokomi don't work in this team so keep in mind.\n\nBUILDS: U really need ER on everyone in this team otherwise it will mess up rotations.....so Ganyu(amo's bow is not required)4p blizzard, Venti 4p VV, Mona 4p Tenacity or Noblesse, Rosaria 4p Noblesse(if not on mona otherwise blizzard)\n\nWEAPONS:Ganyu any good bow, Venti Elegy or Stringless or favonious if u r having energy issues, Mona prototype amber(only healing source), Rosaria favonious lance",
-   "owner": 734048698522402857,
-   "file": "morgana_cn_variant.png",
-   "id": "morgana_cn_variant"
-  },
-  {
-   "title": "Raiden Sunfire",
-   "chars": [
-    {
-     "raiden": "onfield dps"
-    },
-    {
-     "jean": "support"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "\nThis method replaces the xiangling from raiden national and adds in jean, and honestly with good rotations, it is sometimes better if your xiangling is not c4.\n\nROTATIONS: Baal E , Xingqiu Q, Xingqiu E, Jean E to swirl Electro and Hydro, Bennett Q, Bennett E, Jean Q, Baal Q\n\nNOTES: swirling all three elements is the basic portion of this team comp\n\nBUILDS: Raiden, Xingqiu Emblem, Bennett Noblesse, Jean 4p VV set. So u kindaa need to stack EM on jean in this team comp for more swirl damage , so EM/EM/EM build is recommended, although u can use ER sands if you're using the EM sword instead of favonious sword, you need to get 160+ ER on Jean here\n",
-   "owner": 734048698522402857,
-   "file": "raiden_sunfire.png",
-   "id": "raiden_sunfire"
-  },
-  {
-   "title": "Ningguang Hypercarry",
-   "chars": [
-    {
-     "ningguang": "main dps"
-    },
-    {
-     "zhongli": "support"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "A team meant for a sustained dps Ningguang. Running a C6 Gorou instead of Bennett is viable but not recommended as Bennett helps with Ningguang's low attack stat. For Zhongli here, you can either pick a shield build or a shield-burst hybrid build. \n\nRecommended artifact sets:\nNingguang: 2-pc Archaic Petra and 2-pc Gladiator's Finale/Shimenawa Reminiscence\n\nAlbedo: 4-pc Husk of Opulent Dreams\n\nBennett: 4-pc Noblesse Oblige\n\nZhongli: 4-pc Tenacity of the Millelith for shield build. 2-pc Tenacity of the Millelith and 2-pc Noblesse Oblige for hybrid build.\n",
-   "owner": 347309329537302528,
-   "file": "ningguang_hypercarry.png",
-   "id": "ningguang_hypercarry"
-  },
-  {
-   "title": "VV Vape Tao",
-   "chars": [
-    {
-     "hutao": "best girl"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "kazuha": "support"
-    },
-    {
-     "slot": "pyro flex"
-    }
-   ],
-   "description": "Pyro flex can be Amber, Bennett C1, Thoma and Yanfei c4",
-   "owner": 936202800499666994,
-   "file": "vv_vape_tao.png",
-   "id": "vv_vape_tao"
-  },
-  {
-   "title": "Supercharged",
-   "chars": [
-    {
-     "razor": "maindps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "diona": "support"
-    }
-   ],
-   "description": "This is a high single target teamcomp(not recommended for aoe but still can clear content.\n\nROTATIONS:Diona Q,E > Xingqiu Q,E >Fischl Oz> Razor E,Q and then normal atks\n\nNOTE: Main purpose of this team to make use of superconduct and shred physical res and electrocharged and high off field dps of fischl and xingqiu \n\nBUILDS: Well u don't need to worry about energy issues of razor and fischl here, U can use qiqi with clam set instead of diona if u want. Also, again Xingqiu sac sword with emblem, Fischl Stringless, Diona with sac bow\n",
-   "owner": 734048698522402857,
-   "file": "supercharged.png",
-   "id": "supercharged"
-  },
-  {
-   "title": "Timber Wolf",
-   "chars": [
-    {
-     "razor": "onfield dps"
-    },
-    {
-     "zhongli": "support"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    }
-   ],
-   "description": "So, this team also has a huge dmg output coz of 2 strong subdps unit xingqiu and albedo and double geo resonance. \n\nBUILDS: Xingqiu Emblem Sac, Albedo Husk of opulent dreams, Zhongli Milelith favonious lance\n\nROTATIONS: albedo E, Zhongli Q ,E(hold), Albedo Q, Xingqiu Q, E , Razor E, Q or whatever u want razor is quite unga bunga so really don't need to worry about rotations\n",
-   "owner": 734048698522402857,
-   "file": "timber_wolf.png",
-   "id": "timber_wolf"
-  },
-  {
-   "title": "Ningguang Hypercarry-C6 Gorou ver",
-   "chars": [
-    {
-     "ningguang": "main dps"
-    },
-    {
-     "zhongli": "support"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "gorou": "support"
-    }
-   ],
-   "description": "The alternative team for [Ningguang Hypercarry]. Only use when you have C6 Gorou. See the other guide for more details. \n\nRecommended artifact sets for Gorou:\n4-pc Husk of Opulent Dreams\n2-pc Husk of Opulent Dreams and 2-pc Emblem of Severed Fate\n",
-   "owner": 347309329537302528,
-   "file": "ningguang_hypercarry_c6_gorou_ver.png",
-   "id": "ningguang_hypercarry_c6_gorou_ver"
-  },
-  {
-   "title": "Razor Electro Dps Quickswap",
-   "chars": [
-    {
-     "razor": "quickswap dps"
-    },
-    {
-     "kazuha": "support"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "slot": "electro unit"
-    }
-   ],
-   "description": "\nSo, yeah pretty fun comp, makes use of electro razor(not physical) . U can use keqing, fischl or beidou as 4th slot\n\nNOTE:YOU WANNA INFUSE ELECTRO WITH KAZUHA\n\nBUILDS: Razor electro cup 4p thundersoother, with wolf's gravestone or serpent spine, Kazuha 4p VV, Bennett Noblesse.....Talents priority for razor:E>Q>AA\n\nROTATIONS: Razor E, Kazuha Q, E, Bennett Q, Razor E, Fiscl Q,E, Kazuha E, Razor E, Q, Kazuha E\n",
-   "owner": 734048698522402857,
-   "file": "razor_electro_dps_quickswap.png",
-   "id": "razor_electro_dps_quickswap"
-  },
-  {
-   "title": "Itto Hypercarry",
-   "chars": [
-    {
-     "itto": "maindps"
-    },
-    {
-     "gorou": "buffer"
-    },
-    {
-     "zhongli": "support"
-    },
-    {
-     "slot": "flex"
-    }
-   ],
-   "description": "Flex slot can be Albedo, an healer//buffer like bennett or another off-field dps like Fischl or Rosaria.\nZhongli can be replaced by Albedo.",
-   "owner": 936202800499666994,
-   "file": "itto_hypercarry.png",
-   "id": "itto_hypercarry"
-  },
-  {
-   "title": "Yoimiya Hypercarry",
-   "chars": [
-    {
-     "yoimiya": "main dps"
-    },
-    {
-     "yun jin": "buffer"
-    },
-    {
-     "kazuha": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "yoimiya_hypercarry.png",
-   "id": "yoimiya_hypercarry"
-  },
-  {
-   "title": "Sukokomon",
-   "chars": [
-    {
-     "kokomi": "hydro pokemon"
-    },
-    {
-     "fischl": "electro pokemon"
-    },
-    {
-     "xiangling": "pyro pokemon"
-    },
-    {
-     "sucrose": "trainer"
-    }
-   ],
-   "description": "A really top tier meta team with a 4 elemental reaction team causing explosive dmg. So consider, an enemy affected with electrocharged, and then pyro application with gouba followed by sucrose's swirl, u will cause melt with sucrose causing an explosion reaction.\n\nROTATIONS: Fischl E>Kokomi E>Xiangling E>Sucrose n1E , n2, E, n2>Xiangling Q> Kokomi Q, n2c, n2d, n2c>Fischl Q>Xiangling E>Sucrose n1,E, n1, Q and then keep attack until oz goes away\n\n(n means normal atks, c means charged, d means dash i-e n2cd is 2 normal atk and charged atk and then dash)\n\nNOTE: remember to do sucrose's E when chilli(exclamation) sign is on gouba\n\nBUILDS: Sucrose Full EM with sac frags VV set, Fischl Stringless and  usual normal build like 2p glad, 2p fury,  Kokomi Thrilling tales with clam set, Xiangling favonious or kitain spear with 230+ ER and Emblem\n",
-   "owner": 734048698522402857,
-   "file": "sukokomon.png",
-   "id": "sukokomon"
-  },
-  {
-   "title": "Early to Mid game Razor",
-   "chars": [
-    {
-     "razor": "main dps"
-    },
-    {
-     "kaeya": "support"
-    },
-    {
-     "slot": "flexible"
-    },
-    {
-     "slot": "healer"
-    }
-   ],
-   "description": "Razor's primary source of damage is physical damage(white numbers), by proc'ing superconduct by using electro and cryo(or vice versa) the physical resistance of enemies is decreased. Due to this, Kaeya is mandatory. The other two characters can be whoever the player want. \n\nNOTE: The debuff from superconduct lasts on the enemy for 11 seconds. After that it needs to be applied again.",
-   "owner": 347309329537302528,
-   "file": "early_to_mid_game_razor.png",
-   "id": "early_to_mid_game_razor"
-  },
-  {
-   "title": "Eula Nuke",
-   "chars": [
-    {
-     "eula": "main dps"
-    },
-    {
-     "bennet": "support"
-    },
-    {
-     "xinyan": "support"
-    },
-    {
-     "lisa": "support"
-    }
-   ],
-   "description": "This is a damage per screenshot build,only good to clear bosses in openworld/ non hp gated abyss bosses.The ideal rotation is Bennet Q>Lisa Q>Xinyan E>Eula BurstE rotation>Swap back to Xinyan and E before Eula Burst Pops.",
-   "owner": 449403360333004801,
-   "file": "eula_nuke.png",
-   "id": "eula_nuke"
-  },
-  {
-   "title": "Hu Tao Double Geo",
-   "chars": [
-    {
-     "hutao": "best girl"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "albedo": "off-field dps"
-    },
-    {
-     "zhongli": "support"
-    }
-   ],
-   "description": "One of the more comfortable Hu Tao teams to run. It combines the strong core of Hu Tao and Xingqiu with a strong Geo core. Zhongli provides a strong shield and/or Nuke and Albedo provides additional damage and EM share via his burst.\n\nAlbedo can be replaced for Yun Jin/Ningguang/Geo Traveller.",
-   "owner": 936202800499666994,
-   "file": "hu_tao_double_geo.png",
-   "id": "hu_tao_double_geo"
-  },
-  {
-   "title": "Yoimiya Fireworks",
-   "chars": [
-    {
-     "yoimiya": "on-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "yoimiya_fireworks.png",
-   "id": "yoimiya_fireworks"
-  },
-  {
-   "title": "Melt Diluc",
-   "chars": [
-    {
-     "diluc": "main dps"
-    },
-    {
-     "kaeya": "enabler"
-    },
-    {
-     "kazuha": "enabler"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "A C6 Kaeya would be able to allow Diluc to melt all by himself. Kaeya otherwise can be replaced by Rosaria or Ganyu",
-   "owner": 734048698522402857,
-   "file": "melt_diluc.png",
-   "id": "melt_diluc"
-  },
-  {
-   "title": "Xiao Jean",
-   "chars": [
-    {
-     "xiao": "main dps"
-    },
-    {
-     "jean": "support"
-    },
-    {
-     "slot": "flex"
-    },
-    {
-     "slot": "flex"
-    }
-   ],
-   "description": "Jean consolidates the role of both a healer and a battery for Xiao. This leaves your other 2 options open to be whatever you'd like. Shielders like Zhongli, or off-field dps like Fischl or Rosaria",
-   "owner": 936202800499666994,
-   "file": "xiao_jean.png",
-   "id": "xiao_jean"
-  },
-  {
-   "title": "Aloy Sample Team",
-   "chars": [
-    {
-     "slot": "cryo dps"
-    },
-    {
-     "slot": "flexible"
-    },
-    {
-     "slot": "flexible"
-    },
-    {
-     "aloy": "burst support"
-    }
-   ],
-   "description": "Aloy's E's mechanic(Rushing Ice) is difficult to activate as the enemy has to walk over the bomblets and they have an internal cooldown. As such using her as main dps is not recommended. Due to similar reasons and a long cooldown on her E, she is also a bad option for cryo application for Melt builds. As thus, her ideal use case is to generate cryo particles for your main cryo dps with her E and do damage with her burst as it has good scaling and low energy cost. \n\nWeapon: Sacrificial bow(due to the passive) \nArtifact set: 2-pc Blizzard Strayer and 2-pc Noblesse Oblige",
-   "owner": 347309329537302528,
-   "file": "aloy_sample_team.png",
-   "id": "aloy_sample_team"
-  },
-  {
-   "title": "Hu Tao Vapemelt",
-   "chars": [
-    {
-     "hutao": "best girl"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "kaeya": "support"
-    },
-    {
-     "diona": "support"
-    }
-   ],
-   "description": "Off field cryo application via Kaeya allows Hu Tao to melt some of her charged attacks.\nRosaria can be used in place of either of the 2 cryo units",
-   "owner": 936202800499666994,
-   "file": "hu_tao_vapemelt.png",
-   "id": "hu_tao_vapemelt"
-  },
-  {
-   "title": "Meme Comp",
-   "chars": [
-    {
-     "traveller": "support"
-    },
-    {
-     "traveller": "sub dps"
-    },
-    {
-     "traveller": "main dps"
-    },
-    {
-     "traveller": "shield"
-    }
-   ],
-   "description": "",
-   "owner": 190842306818080769,
-   "file": "meme_comp.png",
-   "id": "meme_comp"
-  },
-  {
-   "title": "Boreas",
-   "chars": [
-    {
-     "razor": "main dps"
-    },
-    {
-     "ganyu": "subdps"
-    },
-    {
-     "rosaria": "subdps"
-    },
-    {
-     "zhongli": "support"
-    }
-   ],
-   "description": "So, 80% physical res shred if Rosaria C6, otherwise 60% physical res shred. Also more crit rate with rosaria. But yeah there is no healer.\n\nBUILDS: Zhongli Millelith, Ganyu Elegy, Rosaria noblesse\nDEMO & ROTATIONS: [Video](https://drive.google.com/file/d/1QZ9X_WmYeOhbF1HS5fdeK3qBFFarNR79/view)",
-   "owner": 734048698522402857,
-   "file": "boreas.png",
-   "id": "boreas"
-  },
-  {
-   "title": "Mono Pyro Yoi",
-   "chars": [
-    {
-     "yoimiya": "on-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "kazuha": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "mono_pyro_yoi.png",
-   "id": "mono_pyro_yoi"
-  },
-  {
-   "title": "Eula Beidou",
-   "chars": [
-    {
-     "eula": "main dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "diona": "support"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "eula_beidou.png",
-   "id": "eula_beidou"
-  },
-  {
-   "title": "Shenhe ayaka Freeze team",
-   "chars": [
-    {
-     "ayaka": "main dps"
-    },
-    {
-     "shenhe": "buffer"
-    },
-    {
-     "kokomi": "hydro support"
-    },
-    {
-     "kazuha": "support"
-    }
-   ],
-   "description": "",
-   "owner": 734048698522402857,
-   "file": "shenhe_ayaka_freeze_team.png",
-   "id": "shenhe_ayaka_freeze_team"
-  },
-  {
-   "title": "Shenhe Mono Cryo",
-   "chars": [
-    {
-     "ganyu": "main dps"
-    },
-    {
-     "shenhe": "buffer"
-    },
-    {
-     "diona": "support"
-    },
-    {
-     "kazuha": "support"
-    }
-   ],
-   "description": "yeah u can use ayaka instead of ganyu here",
-   "owner": 734048698522402857,
-   "file": "shenhe_mono_cryo.png",
-   "id": "shenhe_mono_cryo"
-  },
-  {
-   "title": "Mono Pyro Tao",
-   "chars": [
-    {
-     "hutao": "on-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "kazuha": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "mono_pyro_tao.png",
-   "id": "mono_pyro_tao"
-  },
-  {
-   "title": "Tazer Tao",
-   "chars": [
-    {
-     "hutao": "on-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "tazer_tao.png",
-   "id": "tazer_tao"
-  },
-  {
-   "title": "Sucrose Tazer",
-   "chars": [
-    {
-     "sucrose": "on-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "sucrose_tazer.png",
-   "id": "sucrose_tazer"
-  },
-  {
-   "title": "Quickswap Keqing",
-   "chars": [
-    {
-     "keqing": "main dps"
-    },
-    {
-     "venti": "support"
-    },
-    {
-     "mona": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "quickswap_keqing.png",
-   "id": "quickswap_keqing"
-  },
-  {
-   "title": "Beili",
-   "chars": [
-    {
-     "lisa": "on field dps"
-    },
-    {
-     "beidou": "off field dps"
-    },
-    {
-     "venti": "support"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "When Beidou\u2019s Stormbreaker is active, Lisa can consistently execute N1Cs (1 Normal Attack into a Charged Attack) to proc Stormbreaker efficiently. Venti\u2019s presence allows for Stormbreaker to almost always get as much value as possible and also enables potential Quadratic Scaling with Lisa\u2019s Lightning Rose when C4+. Bennett, of course, snapshots on everyone present. Additionally, having Lisa and Beidou together can be energy costly, as such, Venti could infuse Electro to enable his energy refund to both units, ameliorating this issue. Both Bennett and Venti also enable Lisa to multi-stack efficiently through Overloads/Grouping.",
-   "owner": 734048698522402857,
-   "file": "beili.png",
-   "id": "beili"
-  },
-  {
-   "title": "Koko Tazer",
-   "chars": [
-    {
-     "kokomi": "on-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "kazuha": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "koko_tazer.png",
-   "id": "koko_tazer"
-  },
-  {
-   "title": "Koko Vape",
-   "chars": [
-    {
-     "kokomi": "on-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    },
-    {
-     "kazuha": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "koko_vape.png",
-   "id": "koko_vape"
-  },
-  {
-   "title": "Ayaka Freeze",
-   "chars": [
-    {
-     "ayaka": "main dps"
-    },
-    {
-     "mona": "buffer"
-    },
-    {
-     "venti": "support"
-    },
-    {
-     "diona": "support"
-    }
-   ],
-   "description": "standard freeze team.\nkazuha can be used in venti's spot. kokomi or xingqiu can replace mona. diona can be swapped for ganyu/rosaria/kaeya/shenhe\nkeep in mind the energy costs of the units you pick",
-   "owner": 936202800499666994,
-   "file": "ayaka_freeze.png",
-   "id": "ayaka_freeze"
-  },
-  {
-   "title": "Ayaka Freeze 2",
-   "chars": [
-    {
-     "ayaka": "main dps"
-    },
-    {
-     "kokomi": "support"
-    },
-    {
-     "kazuha": "buffer"
-    },
-    {
-     "rosaria": "support"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "ayaka_freeze_2.png",
-   "id": "ayaka_freeze_2"
-  },
-  {
-   "title": "Keqing Sustained",
-   "chars": [
-    {
-     "keqing": "on-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "keqing_sustained.png",
-   "id": "keqing_sustained"
-  },
-  {
-   "title": "Ning-Zhong",
-   "chars": [
-    {
-     "ningguang": "on-field dps"
-    },
-    {
-     "zhongli": "support"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "ning_zhong.png",
-   "id": "ning_zhong"
-  },
-  {
-   "title": "Yanfei Fireworks",
-   "chars": [
-    {
-     "yanfei": "on-field dps"
-    },
-    {
-     "beidou": "off-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "yanfei_fireworks.png",
-   "id": "yanfei_fireworks"
-  },
-  {
-   "title": "Yanfei Vape",
-   "chars": [
-    {
-     "yanfei": "on-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "kazuha": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "yanfei_vape.png",
-   "id": "yanfei_vape"
-  },
-  {
-   "title": "Yanfei monopyro",
-   "chars": [
-    {
-     "yanfei": "on-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "kazuha": "buffer"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "",
-   "owner": 936202800499666994,
-   "file": "yanfei_monopyro.png",
-   "id": "yanfei_monopyro"
-  },
-  {
-   "title": "Raikou",
-   "chars": [
-    {
-     "yae miko": "sub dps"
-    },
-    {
-     "raiden shogun": "onfield dps"
-    },
-    {
-     "kazuha": "support"
-    },
-    {
-     "sara": "buffer"
-    }
-   ],
-   "description": "BUILDS: Raiden> catch+4p emblem,  Kazuha> Ironsting, favnoious etc+4p VV, Yae> 2p glad, 2p tf or 2p shiminawa, Sara> Sacrificial bow+4p nobless.\n\nROTATIONS: [video](https://youtu.be/_1pJAx0dLXw) ",
-   "owner": 734048698522402857,
-   "file": "raikou.png",
-   "id": "raikou"
-  },
-  {
-   "title": "Reverse-melt",
-   "chars": [
-    {
-     "rosaria": "off-field dps"
-    },
-    {
-     "kaeya": "off-field dps"
-    },
-    {
-     "xiangling": "off-field dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "Quickswap team based on rotating through the bursts and skillsof all the members. Just keep in mind to snapshot via Bennett.\nSucrose/Kazuha are vaible alternatives to Kaeya, in which case more investment would be needed on Rosaria",
-   "owner": 936202800499666994,
-   "file": "reverse_melt.png",
-   "id": "reverse_melt"
-  },
-  {
-   "title": "Quickswap Freeze",
-   "chars": [
-    {
-     "kaeya": "off-field dps"
-    },
-    {
-     "rosaria": "off-field dps"
-    },
-    {
-     "xingqiu": "off-field dps"
-    },
-    {
-     "kazuha": "buffer"
-    }
-   ],
-   "description": "Xingqiu can be replaced by Mona/Kokomi.\nKazuha may be replaced by other anemo units",
-   "owner": 936202800499666994,
-   "file": "quickswap_freeze.png",
-   "id": "quickswap_freeze"
-  },
-  {
-   "title": "Physical MILFs",
-   "chars": [
-    {
-     "eula": "main dps"
-    },
-    {
-     "rosaria": "support/sub dps"
-    },
-    {
-     "raiden": "support/sub dps"
-    },
-    {
-     "slot": "electro milf"
-    }
-   ],
-   "description": "Not the a meta team but works nonetheless. The 4th slot can be filled by Lisa, Yae or Beidou.\n\n Raiden fixes Lisa's burst cost issue. The def shred and TTDS allows you to buff your team members' damage. \n\nAlternatively, Beidou or Yae can be used for sub dps here. You trade some of Eula's personal damage to deal strong damage via Beidou or Yae",
-   "owner": 347309329537302528,
-   "file": "physical_milfs.png",
-   "id": "physical_milfs"
-  },
-  {
-   "title": "test",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test.png",
-   "id": "test"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test.png",
-   "id": "test"
-  },
-  {
-   "title": "test",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test.png",
-   "id": "test"
-  },
-  {
-   "title": "test",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test.png",
-   "id": "test"
-  },
-  {
-   "title": "test- 1",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_1.png",
-   "id": "test__1"
-  },
-  {
-   "title": "test- 2",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_2.png",
-   "id": "test__2"
-  },
-  {
-   "title": "test- 3",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_3.png",
-   "id": "test__3"
-  },
-  {
-   "title": "test- 4",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_4.png",
-   "id": "test__4"
-  },
-  {
-   "title": "test- 5",
-   "chars": [
-    {
-     "slot": "support"
-    },
-    {
-     "slot": "sub dps"
-    },
-    {
-     "albedo": "dps"
-    }
-   ],
-   "description": "test description why not",
-   "owner": 190842306818080769,
-   "file": "test_5.png",
-   "id": "test__5"
-  },
-  {
-   "title": "Ayato-Soup- 6",
-   "chars": [
-    {
-     "ayato": "on-field dps"
-    },
-    {
-     "fischl": "off-field dps"
-    },
-    {
-     "kazuha": "support"
-    },
-    {
-     "bennett": "support"
-    }
-   ],
-   "description": "swap kazu for venti/sucrose if you need",
-   "owner": 936202800499666994,
-   "file": "AyatoSoup_6.png",
-   "id": "ayato_soup__6"
-  },
-  {
-   "title": "Ayato Electrocharged",
-   "chars": [
-    {
-     "ayato": "onfield dps"
-    },
-    {
-     "beidou": "offfield dps"
-    },
-    {
-     "fischl": "offfield dps"
-    },
-    {
-     "bennett": "buffer"
-    }
-   ],
-   "description": "Bennett can be replaced with JEAN OR KAZUHA, and Beidou can be replaced with YAE MIKO.\n\nROTATIONS(with 4TF): Ayato Q > Bennett EQ > Fischl E > Beidou EQ N1 > Ayato E N15 > Fischl N1 Q > Beidou E > Ayato E N15 [DEMO](https://youtu.be/YGimpOcUhdI)\nROTATIONS(without 4TF): Ayato Q > Bennett EQ > Fischl Q > Beidou EQ N1 > Ayato E N15 > Fischl N1 E > Beidou N1 E > Bennett N1 E N1 > Ayato E N15 [DEMO](https://youtu.be/gCbZrwvnm8A)\n\nLike all Beidou teams, this team is primarily AoE-focused and falls off largely in single-target. Fischl and Beidou weave in N1s to trigger additional procs of Beidou's Burst. 4 TF allows Bennett's second Skill to be removed from the rotation, shortening rotation time, as well as possibly allowing for an additional Beidou Burst proc.",
-   "owner": 734048698522402857,
-   "file": "Ayato_Electrocharged.png",
-   "id": "ayato_electrocharged"
-  }
- ]
-}
+{"data" : [
+ {
+  "title": "Eula-Raiden Burst",
+  "chars": [
+   {
+    "raiden": "sub dps"
+   },
+   {
+    "sara": "support"
+   },
+   {
+    "eula": "main dps"
+   },
+   {
+    "diona": "heal/support"
+   }
+  ],
+  "description": "",
+  "owner": 190842306818080769,
+  "file": "eularaiden_burst.png",
+  "id": "eula_raiden_burst"
+ },
+ {
+  "title": "Eula Triple Cryo",
+  "chars": [
+   {
+    "Eula": "main dps"
+   },
+   {
+    "Raiden": "Sub dps"
+   },
+   {
+    "Rosaria": "Crit Support"
+   },
+   {
+    "Diona": "Support"
+   }
+  ],
+  "description": "",
+  "owner": 449403360333004801,
+  "file": "eula_triple_cryo.png",
+  "id": "eula_triple_cryo"
+ },
+ {
+  "title": "Ganyu Melt Comp",
+  "chars": [
+   {
+    "ganyu": "main dps"
+   },
+   {
+    "bennett": "support"
+   },
+   {
+    "xiangling": "melt enabler"
+   },
+   {
+    "zhongli": "shield bot"
+   }
+  ],
+  "description": "This is a high damage ganyu team comp, u can use diano instead of zhongli here but remember she might steal some of the melts.\n\nROTATIONS: Zhongli E(hold), Bennett Q, Bennett E, Xiangling E, Xiangling Q, Ganyu charged shots\n\nremember you can use your ganyu's burst here although it is not recommended but since it gives cryo dmg bonus , and your c ok constant application with pyronado, ganyu will pretty much melt every charged shot\n\nBUILDS: Ganyu(shiminawa, or wanderer's, hamayumi or amo's, needs 60 crit rate, EM sands), Bennett (noblesse ofc with 200+ ER), Xiangling (Emblem with 220+ ER), Zhongli (Tenacity)\n\nU can use Jean or Kazuha instead of xiangling here, with jean in the team , using ganyu's burst is recommended, Kazuha will give more damage but xiangling will be more consistent of all others.",
+  "owner": 734048698522402857,
+  "file": "ganyu_melt_comp.png",
+  "id": "ganyu_melt_comp"
+ },
+ {
+  "title": "Childe Vape",
+  "chars": [
+   {
+    "tartaglia": "onfield dps"
+   },
+   {
+    "xiangling": "off field dps"
+   },
+   {
+    "bennet": "buffer"
+   },
+   {
+    "sucrose": "support"
+   }
+  ],
+  "description": "One of Childe`s strongest teams barring International.Uses the constant hydro application to consistently vape Xiangling burst which deals massive amounts of damage when combined with Benny buff and VVshred. TTDS can be run on Sucrose for even more damage.In this comp, childe's ranged burst is used more often.",
+  "owner": 449403360333004801,
+  "file": "childe_vape.png",
+  "id": "childe_vape"
+ },
+ {
+  "title": "International",
+  "chars": [
+   {
+    "tartaglia": "onfield dps"
+   },
+   {
+    "xiangling": "off field dps"
+   },
+   {
+    "bennet": "buffer"
+   },
+   {
+    "kaedehara kazuha": "sub dps"
+   }
+  ],
+  "description": "Childe's strongest team.Uses the constant hydro application to consistently vape Xiangling burst which deals massive amounts of damage when combined with Benny buff and VVshred. Around 800+ EM on Kazuha will lead to some destructive numbers.Make sure to Double swirl hydro and pyro using a charged shot or an Eswap",
+  "owner": 449403360333004801,
+  "file": "international.png",
+  "id": "international"
+ },
+ {
+  "title": "Klee Vape",
+  "chars": [
+   {
+    "klee": "main dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "sucrose": "support"
+   },
+   {
+    "bennett": "bennett"
+   }
+  ],
+  "description": "Simple enough to play. \nBennett will provide his buff and heal, Sucrose shreds resistances and shares EM and Xingqiu provides off-field hydro application to allow Klee to vape.\nC6 Xingqiu is highly wanted in this team",
+  "owner": 936202800499666994,
+  "file": "klee_vape.png",
+  "id": "klee_vape"
+ },
+ {
+  "title": "Eula Triple Polearm",
+  "chars": [
+   {
+    "eula": "main dps"
+   },
+   {
+    "rosaria": "battery"
+   },
+   {
+    "raiden": "sub dps"
+   },
+   {
+    "zhongli": "shielder"
+   }
+  ],
+  "description": "",
+  "owner": 449403360333004801,
+  "file": "eula_triple_polearm.png",
+  "id": "eula_triple_polearm"
+ },
+ {
+  "title": "Klee Double Geo",
+  "chars": [
+   {
+    "klee": "on-field dps"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "zhongli": "support"
+   }
+  ],
+  "description": "Another team that focuses on the raw damage output of it's characters.",
+  "owner": 936202800499666994,
+  "file": "klee_double_geo.png",
+  "id": "klee_double_geo"
+ },
+ {
+  "title": "Childe Tazer",
+  "chars": [
+   {
+    "tartaglia": "on-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "Bennett provides a massive attack buff for Beidou to snapshot and let's Tartaglia Vape his ranged burst. Childe allows for consistent procs of Beidou's ult due to his fast attack speed and a hydro aura. Fischl helps in batterying Beidou",
+  "owner": 936202800499666994,
+  "file": "childe_tazer.png",
+  "id": "childe_tazer"
+ },
+ {
+  "title": "Reverse-Melt Klee",
+  "chars": [
+   {
+    "klee": "on-field dps"
+   },
+   {
+    "rosaria": "off-field dps"
+   },
+   {
+    "kaeya": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "This team makes use of Klee's immense pyro application to melt off of Rosaria and Kaeya's bursts. Bennett does his thing and allows the cryo units to snapshot.",
+  "owner": 936202800499666994,
+  "file": "reversemelt_klee.png",
+  "id": "reverse_melt_klee"
+ },
+ {
+  "title": "Xiao Double Geo",
+  "chars": [
+   {
+    "xiao": "main dps"
+   },
+   {
+    "jean": "support"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "zhongli": "shieldbot"
+   }
+  ],
+  "description": "The premier Xiao team. Jean is the healer and battery, Albedo provides consistent off field damage and Zhongli provides anemo shred and a strong shield. All this makes this one of the best Xiao teams.",
+  "owner": 936202800499666994,
+  "file": "xiao_double_geo.png",
+  "id": "xiao_double_geo"
+ },
+ {
+  "title": "Raiden National",
+  "chars": [
+   {
+    "raiden": "on-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "Making use of Xingqiu and Xiangling's immense off-field damage, this team uses Raiden as the driver. This allows her to refund energy to the other 3 units, greatly reducing their energy requirements. One of the easiest teams to play currentely in the game.",
+  "owner": 936202800499666994,
+  "file": "raiden_national.png",
+  "id": "raiden_national"
+ },
+ {
+  "title": "RAIDEN HYPERCARRY",
+  "chars": [
+   {
+    "raiden": "main dps"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "sara": "buffer"
+   },
+   {
+    "kazuha": "support"
+   }
+  ],
+  "description": "\nAnemo slot: Kazuha > Sucrose\nNeeds these specific units to function. If your Kazuha and Bennett are used in another team like International, it may not be worth switching to/pulling for Raiden for this purpose unless she is C2.\n\nRecommended ER on Raiden: 200\nRecommended ER on Sara: 175\nRecommended ER on Bennett: 150\nRecommended ER on Kazuha: 150",
+  "owner": 734048698522402857,
+  "file": "raiden_hypercarry.png",
+  "id": "raiden_hypercarry"
+ },
+ {
+  "title": "Mono Pyro Klee",
+  "chars": [
+   {
+    "klee": "on-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "kazuha": "buffer"
+   }
+  ],
+  "description": "Focuses on the raw damage provided by Klee and Xiangling, amplified by Bennett and Kazuha",
+  "owner": 936202800499666994,
+  "file": "mono_pyro_klee.png",
+  "id": "mono_pyro_klee"
+ },
+ {
+  "title": "Standard Diluc Vape",
+  "chars": [
+   {
+    "diluc": "main dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "sucrose": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "standard_diluc_vape.png",
+  "id": "standard_diluc_vape"
+ },
+ {
+  "title": "Morgana",
+  "chars": [
+   {
+    "ganyu": "main dps"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "mona": "buffer"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "morgana.png",
+  "id": "morgana"
+ },
+ {
+  "title": "Morgana CN Variant",
+  "chars": [
+   {
+    "ganyu": "burst dps"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "mona": "hydro applicator"
+   },
+   {
+    "rosaria": "subdps"
+   }
+  ],
+  "description": "\nSo basically, rifthounds were a lot of pain in abyss since venti was not able to group them up effectively, hence, players made variations in og morgana and put in rosaria for max freeze uptime. \n\nROTATION: Ganyu E, Mona E, Venti EQ(very fast), Rosaria E, Q, Ganyu Q, Mona Q, Venti E, repeat\n\nNOTES: cast ganyu E to move away, mona E to freeze,Venti EQ immediately to shred res, Rosaria E to move near enemy while they are frozen and and then bursts to keep them frozen. Also kazuha and kokomi don't work in this team so keep in mind.\n\nBUILDS: U really need ER on everyone in this team otherwise it will mess up rotations.....so Ganyu(amo's bow is not required)4p blizzard, Venti 4p VV, Mona 4p Tenacity or Noblesse, Rosaria 4p Noblesse(if not on mona otherwise blizzard)\n\nWEAPONS:Ganyu any good bow, Venti Elegy or Stringless or favonious if u r having energy issues, Mona prototype amber(only healing source), Rosaria favonious lance",
+  "owner": 734048698522402857,
+  "file": "morgana_cn_variant.png",
+  "id": "morgana_cn_variant"
+ },
+ {
+  "title": "Ningguang Hypercarry",
+  "chars": [
+   {
+    "ningguang": "main dps"
+   },
+   {
+    "zhongli": "support"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "A team meant for a sustained dps Ningguang. Running a C6 Gorou instead of Bennett is viable but not recommended as Bennett helps with Ningguang's low attack stat. For Zhongli here, you can either pick a shield build or a shield-burst hybrid build. \n\nRecommended artifact sets:\nNingguang: 2-pc Archaic Petra and 2-pc Gladiator's Finale/Shimenawa Reminiscence\n\nAlbedo: 4-pc Husk of Opulent Dreams\n\nBennett: 4-pc Noblesse Oblige\n\nZhongli: 4-pc Tenacity of the Millelith for shield build. 2-pc Tenacity of the Millelith and 2-pc Noblesse Oblige for hybrid build.\n",
+  "owner": 347309329537302528,
+  "file": "ningguang_hypercarry.png",
+  "id": "ningguang_hypercarry"
+ },
+ {
+  "title": "VV Vape Tao",
+  "chars": [
+   {
+    "hutao": "best girl"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "kazuha": "support"
+   },
+   {
+    "slot": "pyro flex"
+   }
+  ],
+  "description": "Pyro flex can be Amber, Bennett C1, Thoma and Yanfei c4",
+  "owner": 936202800499666994,
+  "file": "vv_vape_tao.png",
+  "id": "vv_vape_tao"
+ },
+ {
+  "title": "Supercharged",
+  "chars": [
+   {
+    "razor": "maindps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "This is a high single target teamcomp(not recommended for aoe but still can clear content.\n\nROTATIONS:Diona Q,E > Xingqiu Q,E >Fischl Oz> Razor E,Q and then normal atks\n\nNOTE: Main purpose of this team to make use of superconduct and shred physical res and electrocharged and high off field dps of fischl and xingqiu \n\nBUILDS: Well u don't need to worry about energy issues of razor and fischl here, U can use qiqi with clam set instead of diona if u want. Also, again Xingqiu sac sword with emblem, Fischl Stringless, Diona with sac bow\n",
+  "owner": 734048698522402857,
+  "file": "supercharged.png",
+  "id": "supercharged"
+ },
+ {
+  "title": "Timber Wolf",
+  "chars": [
+   {
+    "razor": "onfield dps"
+   },
+   {
+    "zhongli": "support"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   }
+  ],
+  "description": "So, this team also has a huge dmg output coz of 2 strong subdps unit xingqiu and albedo and double geo resonance. \n\nBUILDS: Xingqiu Emblem Sac, Albedo Husk of opulent dreams, Zhongli Milelith favonious lance\n\nROTATIONS: albedo E, Zhongli Q ,E(hold), Albedo Q, Xingqiu Q, E , Razor E, Q or whatever u want razor is quite unga bunga so really don't need to worry about rotations\n",
+  "owner": 734048698522402857,
+  "file": "timber_wolf.png",
+  "id": "timber_wolf"
+ },
+ {
+  "title": "Ningguang Hypercarry-C6 Gorou ver",
+  "chars": [
+   {
+    "ningguang": "main dps"
+   },
+   {
+    "zhongli": "support"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "gorou": "support"
+   }
+  ],
+  "description": "The alternative team for [Ningguang Hypercarry]. Only use when you have C6 Gorou. See the other guide for more details. \n\nRecommended artifact sets for Gorou:\n4-pc Husk of Opulent Dreams\n2-pc Husk of Opulent Dreams and 2-pc Emblem of Severed Fate\n",
+  "owner": 347309329537302528,
+  "file": "ningguang_hypercarryc6_gorou_ver.png",
+  "id": "ningguang_hypercarry_c6_gorou_ver"
+ },
+ {
+  "title": "Razor Electro Dps Quickswap",
+  "chars": [
+   {
+    "razor": "quickswap dps"
+   },
+   {
+    "kazuha": "support"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "slot": "electro unit"
+   }
+  ],
+  "description": "\nSo, yeah pretty fun comp, makes use of electro razor(not physical) . U can use keqing, fischl or beidou as 4th slot\n\nNOTE:YOU WANNA INFUSE ELECTRO WITH KAZUHA\n\nBUILDS: Razor electro cup 4p thundersoother, with wolf's gravestone or serpent spine, Kazuha 4p VV, Bennett Noblesse.....Talents priority for razor:E>Q>AA\n\nROTATIONS: Razor E, Kazuha Q, E, Bennett Q, Razor E, Fiscl Q,E, Kazuha E, Razor E, Q, Kazuha E\n",
+  "owner": 734048698522402857,
+  "file": "razor_electro_dps_quickswap.png",
+  "id": "razor_electro_dps_quickswap"
+ },
+ {
+  "title": "Itto Hypercarry",
+  "chars": [
+   {
+    "itto": "maindps"
+   },
+   {
+    "gorou": "buffer"
+   },
+   {
+    "zhongli": "support"
+   },
+   {
+    "slot": "flex"
+   }
+  ],
+  "description": "Flex slot can be Albedo, an healer//buffer like bennett or another off-field dps like Fischl or Rosaria.\nZhongli can be replaced by Albedo.",
+  "owner": 936202800499666994,
+  "file": "itto_hypercarry.png",
+  "id": "itto_hypercarry"
+ },
+ {
+  "title": "Yoimiya Hypercarry",
+  "chars": [
+   {
+    "yoimiya": "main dps"
+   },
+   {
+    "yun jin": "buffer"
+   },
+   {
+    "kazuha": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "yoimiya_hypercarry.png",
+  "id": "yoimiya_hypercarry"
+ },
+ {
+  "title": "Sukokomon",
+  "chars": [
+   {
+    "kokomi": "hydro pokemon"
+   },
+   {
+    "fischl": "electro pokemon"
+   },
+   {
+    "xiangling": "pyro pokemon"
+   },
+   {
+    "sucrose": "trainer"
+   }
+  ],
+  "description": "A really top tier meta team with a 4 elemental reaction team causing explosive dmg. So consider, an enemy affected with electrocharged, and then pyro application with gouba followed by sucrose's swirl, u will cause melt with sucrose causing an explosion reaction.\n\nROTATIONS: Fischl E>Kokomi E>Xiangling E>Sucrose n1E , n2, E, n2>Xiangling Q> Kokomi Q, n2c, n2d, n2c>Fischl Q>Xiangling E>Sucrose n1,E, n1, Q and then keep attack until oz goes away\n\n(n means normal atks, c means charged, d means dash i-e n2cd is 2 normal atk and charged atk and then dash)\n\nNOTE: remember to do sucrose's E when chilli(exclamation) sign is on gouba\n\nBUILDS: Sucrose Full EM with sac frags VV set, Fischl Stringless and  usual normal build like 2p glad, 2p fury,  Kokomi Thrilling tales with clam set, Xiangling favonious or kitain spear with 230+ ER and Emblem\n",
+  "owner": 734048698522402857,
+  "file": "sukokomon.png",
+  "id": "sukokomon"
+ },
+ {
+  "title": "Early to Mid game Razor",
+  "chars": [
+   {
+    "razor": "main dps"
+   },
+   {
+    "kaeya": "support"
+   },
+   {
+    "slot": "flexible"
+   },
+   {
+    "slot": "healer"
+   }
+  ],
+  "description": "Razor's primary source of damage is physical damage(white numbers), by proc'ing superconduct by using electro and cryo(or vice versa) the physical resistance of enemies is decreased. Due to this, Kaeya is mandatory. The other two characters can be whoever the player want. \n\nNOTE: The debuff from superconduct lasts on the enemy for 11 seconds. After that it needs to be applied again.",
+  "owner": 347309329537302528,
+  "file": "early_to_mid_game_razor.png",
+  "id": "early_to_mid_game_razor"
+ },
+ {
+  "title": "Eula Nuke",
+  "chars": [
+   {
+    "eula": "main dps"
+   },
+   {
+    "bennet": "support"
+   },
+   {
+    "xinyan": "support"
+   },
+   {
+    "lisa": "support"
+   }
+  ],
+  "description": "This is a damage per screenshot build,only good to clear bosses in openworld/ non hp gated abyss bosses.The ideal rotation is Bennet Q>Lisa Q>Xinyan E>Eula BurstE rotation>Swap back to Xinyan and E before Eula Burst Pops.",
+  "owner": 449403360333004801,
+  "file": "eula_nuke.png",
+  "id": "eula_nuke"
+ },
+ {
+  "title": "Hu Tao Double Geo",
+  "chars": [
+   {
+    "hutao": "best girl"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "albedo": "off-field dps"
+   },
+   {
+    "zhongli": "support"
+   }
+  ],
+  "description": "One of the more comfortable Hu Tao teams to run. It combines the strong core of Hu Tao and Xingqiu with a strong Geo core. Zhongli provides a strong shield and/or Nuke and Albedo provides additional damage and EM share via his burst.\n\nAlbedo can be replaced for Yun Jin/Ningguang/Geo Traveller.",
+  "owner": 936202800499666994,
+  "file": "hu_tao_double_geo.png",
+  "id": "hu_tao_double_geo"
+ },
+ {
+  "title": "Yoimiya Fireworks",
+  "chars": [
+   {
+    "yoimiya": "on-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "yoimiya_fireworks.png",
+  "id": "yoimiya_fireworks"
+ },
+ {
+  "title": "Melt Diluc",
+  "chars": [
+   {
+    "diluc": "main dps"
+   },
+   {
+    "kaeya": "enabler"
+   },
+   {
+    "kazuha": "enabler"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "A C6 Kaeya would be able to allow Diluc to melt all by himself. Kaeya otherwise can be replaced by Rosaria or Ganyu",
+  "owner": 734048698522402857,
+  "file": "melt_diluc.png",
+  "id": "melt_diluc"
+ },
+ {
+  "title": "Xiao Jean",
+  "chars": [
+   {
+    "xiao": "main dps"
+   },
+   {
+    "jean": "support"
+   },
+   {
+    "slot": "flex"
+   },
+   {
+    "slot": "flex"
+   }
+  ],
+  "description": "Jean consolidates the role of both a healer and a battery for Xiao. This leaves your other 2 options open to be whatever you'd like. Shielders like Zhongli, or off-field dps like Fischl or Rosaria",
+  "owner": 936202800499666994,
+  "file": "xiao_jean.png",
+  "id": "xiao_jean"
+ },
+ {
+  "title": "Aloy Sample Team",
+  "chars": [
+   {
+    "slot": "cryo dps"
+   },
+   {
+    "slot": "flexible"
+   },
+   {
+    "slot": "flexible"
+   },
+   {
+    "aloy": "burst support"
+   }
+  ],
+  "description": "Aloy's E's mechanic(Rushing Ice) is difficult to activate as the enemy has to walk over the bomblets and they have an internal cooldown. As such using her as main dps is not recommended. Due to similar reasons and a long cooldown on her E, she is also a bad option for cryo application for Melt builds. As thus, her ideal use case is to generate cryo particles for your main cryo dps with her E and do damage with her burst as it has good scaling and low energy cost. \n\nWeapon: Sacrificial bow(due to the passive) \nArtifact set: 2-pc Blizzard Strayer and 2-pc Noblesse Oblige",
+  "owner": 347309329537302528,
+  "file": "aloy_sample_team.png",
+  "id": "aloy_sample_team"
+ },
+ {
+  "title": "Hu Tao Vapemelt",
+  "chars": [
+   {
+    "hutao": "best girl"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "kaeya": "support"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "Off field cryo application via Kaeya allows Hu Tao to melt some of her charged attacks.\nRosaria can be used in place of either of the 2 cryo units",
+  "owner": 936202800499666994,
+  "file": "hu_tao_vapemelt.png",
+  "id": "hu_tao_vapemelt"
+ },
+ {
+  "title": "Meme Comp",
+  "chars": [
+   {
+    "traveller": "support"
+   },
+   {
+    "traveller": "sub dps"
+   },
+   {
+    "traveller": "main dps"
+   },
+   {
+    "traveller": "shield"
+   }
+  ],
+  "description": "",
+  "owner": 190842306818080769,
+  "file": "meme_comp.png",
+  "id": "meme_comp"
+ },
+ {
+  "title": "Boreas",
+  "chars": [
+   {
+    "razor": "main dps"
+   },
+   {
+    "ganyu": "subdps"
+   },
+   {
+    "rosaria": "subdps"
+   },
+   {
+    "zhongli": "support"
+   }
+  ],
+  "description": "So, 80% physical res shred if Rosaria C6, otherwise 60% physical res shred. Also more crit rate with rosaria. But yeah there is no healer.\n\nBUILDS: Zhongli Millelith, Ganyu Elegy, Rosaria noblesse\nDEMO & ROTATIONS: [Video](https://drive.google.com/file/d/1QZ9X_WmYeOhbF1HS5fdeK3qBFFarNR79/view)",
+  "owner": 734048698522402857,
+  "file": "boreas.png",
+  "id": "boreas"
+ },
+ {
+  "title": "Mono Pyro Yoi",
+  "chars": [
+   {
+    "yoimiya": "on-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "kazuha": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "mono_pyro_yoi.png",
+  "id": "mono_pyro_yoi"
+ },
+ {
+  "title": "Eula Beidou",
+  "chars": [
+   {
+    "eula": "main dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "eula_beidou.png",
+  "id": "eula_beidou"
+ },
+ {
+  "title": "Shenhe ayaka Freeze team",
+  "chars": [
+   {
+    "ayaka": "main dps"
+   },
+   {
+    "shenhe": "buffer"
+   },
+   {
+    "kokomi": "hydro support"
+   },
+   {
+    "kazuha": "support"
+   }
+  ],
+  "description": "",
+  "owner": 734048698522402857,
+  "file": "shenhe_ayaka_freeze_team.png",
+  "id": "shenhe_ayaka_freeze_team"
+ },
+ {
+  "title": "Shenhe Mono Cryo",
+  "chars": [
+   {
+    "ganyu": "main dps"
+   },
+   {
+    "shenhe": "buffer"
+   },
+   {
+    "diona": "support"
+   },
+   {
+    "kazuha": "support"
+   }
+  ],
+  "description": "yeah u can use ayaka instead of ganyu here",
+  "owner": 734048698522402857,
+  "file": "shenhe_mono_cryo.png",
+  "id": "shenhe_mono_cryo"
+ },
+ {
+  "title": "Mono Pyro Tao",
+  "chars": [
+   {
+    "hutao": "on-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "kazuha": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "mono_pyro_tao.png",
+  "id": "mono_pyro_tao"
+ },
+ {
+  "title": "Tazer Tao",
+  "chars": [
+   {
+    "hutao": "on-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "tazer_tao.png",
+  "id": "tazer_tao"
+ },
+ {
+  "title": "Sucrose Tazer",
+  "chars": [
+   {
+    "sucrose": "on-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "sucrose_tazer.png",
+  "id": "sucrose_tazer"
+ },
+ {
+  "title": "Quickswap Keqing",
+  "chars": [
+   {
+    "keqing": "main dps"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "mona": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "quickswap_keqing.png",
+  "id": "quickswap_keqing"
+ },
+ {
+  "title": "Beili",
+  "chars": [
+   {
+    "lisa": "on field dps"
+   },
+   {
+    "beidou": "off field dps"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "When Beidou\u2019s Stormbreaker is active, Lisa can consistently execute N1Cs (1 Normal Attack into a Charged Attack) to proc Stormbreaker efficiently. Venti\u2019s presence allows for Stormbreaker to almost always get as much value as possible and also enables potential Quadratic Scaling with Lisa\u2019s Lightning Rose when C4+. Bennett, of course, snapshots on everyone present. Additionally, having Lisa and Beidou together can be energy costly, as such, Venti could infuse Electro to enable his energy refund to both units, ameliorating this issue. Both Bennett and Venti also enable Lisa to multi-stack efficiently through Overloads/Grouping.",
+  "owner": 734048698522402857,
+  "file": "beili.png",
+  "id": "beili"
+ },
+ {
+  "title": "Koko Tazer",
+  "chars": [
+   {
+    "kokomi": "on-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "kazuha": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "koko_tazer.png",
+  "id": "koko_tazer"
+ },
+ {
+  "title": "Koko Vape",
+  "chars": [
+   {
+    "kokomi": "on-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   },
+   {
+    "kazuha": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "koko_vape.png",
+  "id": "koko_vape"
+ },
+ {
+  "title": "Ayaka Freeze",
+  "chars": [
+   {
+    "ayaka": "main dps"
+   },
+   {
+    "mona": "buffer"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "standard freeze team.\nkazuha can be used in venti's spot. kokomi or xingqiu can replace mona. diona can be swapped for ganyu/rosaria/kaeya/shenhe\nkeep in mind the energy costs of the units you pick",
+  "owner": 936202800499666994,
+  "file": "ayaka_freeze.png",
+  "id": "ayaka_freeze"
+ },
+ {
+  "title": "Ayaka Freeze 2",
+  "chars": [
+   {
+    "ayaka": "main dps"
+   },
+   {
+    "kokomi": "support"
+   },
+   {
+    "kazuha": "buffer"
+   },
+   {
+    "rosaria": "support"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "ayaka_freeze_2.png",
+  "id": "ayaka_freeze_2"
+ },
+ {
+  "title": "Keqing Sustained",
+  "chars": [
+   {
+    "keqing": "on-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "keqing_sustained.png",
+  "id": "keqing_sustained"
+ },
+ {
+  "title": "Ning-Zhong",
+  "chars": [
+   {
+    "ningguang": "on-field dps"
+   },
+   {
+    "zhongli": "support"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "ningzhong.png",
+  "id": "ning_zhong"
+ },
+ {
+  "title": "Yanfei Fireworks",
+  "chars": [
+   {
+    "yanfei": "on-field dps"
+   },
+   {
+    "beidou": "off-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "yanfei_fireworks.png",
+  "id": "yanfei_fireworks"
+ },
+ {
+  "title": "Yanfei Vape",
+  "chars": [
+   {
+    "yanfei": "on-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "kazuha": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "yanfei_vape.png",
+  "id": "yanfei_vape"
+ },
+ {
+  "title": "Yanfei monopyro",
+  "chars": [
+   {
+    "yanfei": "on-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "kazuha": "buffer"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "",
+  "owner": 936202800499666994,
+  "file": "yanfei_monopyro.png",
+  "id": "yanfei_monopyro"
+ },
+ {
+  "title": "Raikou",
+  "chars": [
+   {
+    "yae miko": "sub dps"
+   },
+   {
+    "raiden shogun": "onfield dps"
+   },
+   {
+    "kazuha": "support"
+   },
+   {
+    "sara": "buffer"
+   }
+  ],
+  "description": "BUILDS: Raiden> catch+4p emblem,  Kazuha> Ironsting, favnoious etc+4p VV, Yae> 2p glad, 2p tf or 2p shiminawa, Sara> Sacrificial bow+4p nobless.\n\nROTATIONS: [video](https://youtu.be/_1pJAx0dLXw) ",
+  "owner": 734048698522402857,
+  "file": "raikou.png",
+  "id": "raikou"
+ },
+ {
+  "title": "Reverse-melt",
+  "chars": [
+   {
+    "rosaria": "off-field dps"
+   },
+   {
+    "kaeya": "off-field dps"
+   },
+   {
+    "xiangling": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "Quickswap team based on rotating through the bursts and skillsof all the members. Just keep in mind to snapshot via Bennett.\nSucrose/Kazuha are vaible alternatives to Kaeya, in which case more investment would be needed on Rosaria",
+  "owner": 936202800499666994,
+  "file": "reversemelt.png",
+  "id": "reverse_melt"
+ },
+ {
+  "title": "Quickswap Freeze",
+  "chars": [
+   {
+    "kaeya": "off-field dps"
+   },
+   {
+    "rosaria": "off-field dps"
+   },
+   {
+    "xingqiu": "off-field dps"
+   },
+   {
+    "kazuha": "buffer"
+   }
+  ],
+  "description": "Xingqiu can be replaced by Mona/Kokomi.\nKazuha may be replaced by other anemo units",
+  "owner": 936202800499666994,
+  "file": "quickswap_freeze.png",
+  "id": "quickswap_freeze"
+ },
+ {
+  "title": "Physical MILFs",
+  "chars": [
+   {
+    "eula": "main dps"
+   },
+   {
+    "rosaria": "support/sub dps"
+   },
+   {
+    "raiden": "support/sub dps"
+   },
+   {
+    "slot": "electro milf"
+   }
+  ],
+  "description": "Not the a meta team but works nonetheless. The 4th slot can be filled by Lisa, Yae or Beidou.\n\n Raiden fixes Lisa's burst cost issue. The def shred and TTDS allows you to buff your team members' damage. \n\nAlternatively, Beidou or Yae can be used for sub dps here. You trade some of Eula's personal damage to deal strong damage via Beidou or Yae",
+  "owner": 347309329537302528,
+  "file": "physical_milfs.png",
+  "id": "physical_milfs"
+ },
+ {
+  "title": "test",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test.png",
+  "id": "test"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test.png",
+  "id": "test"
+ },
+ {
+  "title": "test",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test.png",
+  "id": "test"
+ },
+ {
+  "title": "test",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test.png",
+  "id": "test"
+ },
+ {
+  "title": "test- 1",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_1.png",
+  "id": "test__1"
+ },
+ {
+  "title": "test- 2",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_2.png",
+  "id": "test__2"
+ },
+ {
+  "title": "test- 3",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_3.png",
+  "id": "test__3"
+ },
+ {
+  "title": "test- 4",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_4.png",
+  "id": "test__4"
+ },
+ {
+  "title": "test- 5",
+  "chars": [
+   {
+    "slot": "support"
+   },
+   {
+    "slot": "sub dps"
+   },
+   {
+    "albedo": "dps"
+   }
+  ],
+  "description": "test description why not",
+  "owner": 190842306818080769,
+  "file": "test_5.png",
+  "id": "test__5"
+ },
+ {
+  "title": "Ayato-Soup- 6",
+  "chars": [
+   {
+    "ayato": "on-field dps"
+   },
+   {
+    "fischl": "off-field dps"
+   },
+   {
+    "kazuha": "support"
+   },
+   {
+    "bennett": "support"
+   }
+  ],
+  "description": "swap kazu for venti/sucrose if you need",
+  "owner": 936202800499666994,
+  "file": "ayatosoup_6.png",
+  "id": "ayato_soup__6"
+ },
+ {
+  "title": "Ayato Electrocharged",
+  "chars": [
+   {
+    "ayato": "onfield dps"
+   },
+   {
+    "beidou": "offfield dps"
+   },
+   {
+    "fischl": "offfield dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "Bennett can be replaced with JEAN OR KAZUHA, and Beidou can be replaced with YAE MIKO.\n\nROTATIONS(with 4TF): Ayato Q > Bennett EQ > Fischl E > Beidou EQ N1 > Ayato E N15 > Fischl N1 Q > Beidou E > Ayato E N15 [DEMO](https://youtu.be/YGimpOcUhdI)\nROTATIONS(without 4TF): Ayato Q > Bennett EQ > Fischl Q > Beidou EQ N1 > Ayato E N15 > Fischl N1 E > Beidou N1 E > Bennett N1 E N1 > Ayato E N15 [DEMO](https://youtu.be/gCbZrwvnm8A)\n\nLike all Beidou teams, this team is primarily AoE-focused and falls off largely in single-target. Fischl and Beidou weave in N1s to trigger additional procs of Beidou's Burst. 4 TF allows Bennett's second Skill to be removed from the rotation, shortening rotation time, as well as possibly allowing for an additional Beidou Burst proc.",
+  "owner": 734048698522402857,
+  "file": "ayato_electrocharged.png",
+  "id": "ayato_electrocharged"
+ },
+ {
+  "title": "Ayato Vaporize",
+  "chars": [
+   {
+    "ayato": "onfield dps"
+   },
+   {
+    "fischl": "offfield dps"
+   },
+   {
+    "xiangling": "offfield dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "You can replace Fischl with Kazuha, ALbedo, Sucrose etc.\n\nROTATIONS: Bennett EQ > Fischl E > Xiangling QE > Ayato E N15 Q > Fischl Q > Bennett E > Xiangling E > Ayato E N15 [DEMO](https://youtu.be/FAVwGDfuvsc)\n\nThis team can easily handle both single-target and AoE situations, as the involved units are a mix of AoE (Ayato, Xiangling) and single-target (Fischl) focused characters. \n\nCasting Ayato's Burst later into the rotation allows him to snapshot his Burst on Bennett's, but as a result, Xiangling Vaporizes less Pyronado hits and Fischl does not snapshot her second Oz. This rotation can be better if your Ayato is more invested than Fischl and Xiangling, and is more lenient in regards to Energy.",
+  "owner": 734048698522402857,
+  "file": "ayato_vaporize.png",
+  "id": "ayato_vaporize"
+ },
+ {
+  "title": "Ayato Hyper",
+  "chars": [
+   {
+    "ayato": "onfield dps"
+   },
+   {
+    "yunjin": "buffer"
+   },
+   {
+    "xingqiu": "offfield dps"
+   },
+   {
+    "kazuha": "support"
+   }
+  ],
+  "description": "You can use bennett, jean, sucrose etc instead of using niche buffers like yunjin or if u wanna replace xingqiu, kazuha etc\n\nROTATIONS:Ayato Q > Xingqiu EQ N1 > Kazuha N1 tEP Q N1 > YJ N1 EQ N1 > Ayato E N15 > Kazuha tEP > YJ E [DEMO](https://youtu.be/Oue9QNM4Xd0)\n\nA healerless team that provides a combination of personal damage and buffs to Ayato. A decent team that only improves with investment into and Constellations on Ayato if you can survive with just Xingqiu's DR and slight healing alone, but is somewhat limited to single-target thanks to Xingqiu and Hydro Swirls. Yun Jin's C6 is a roughly 4.5% team DPS increase for this team (from C5).",
+  "owner": 734048698522402857,
+  "file": "ayato_hyper.png",
+  "id": "ayato_hyper"
+ },
+ {
+  "title": "Ayato Freeze",
+  "chars": [
+   {
+    "ayato": "onfield dps"
+   },
+   {
+    "ayaka": "onfield dps"
+   },
+   {
+    "venti": "support"
+   },
+   {
+    "diona": "support"
+   }
+  ],
+  "description": "Yeah u can replace venti with any anemo unit, and diona with rosaria if u want more dmg and crit rate. Ganyu is also a good replacement instead of ayaka but with ayaka, ayato has best synergy in freeze.\n\nRemember, Ayato will need a lot of ER in this team to perfectly execute the rotations(upto 160%). Partially this problem can be solved by using favonious weapons on venti or diona.",
+  "owner": 734048698522402857,
+  "file": "ayato_freeze.png",
+  "id": "ayato_freeze"
+ },
+ {
+  "title": "YELAN DOUBLE HYDRO",
+  "chars": [
+   {
+    "yelan": "offfield dps"
+   },
+   {
+    "xingqiu": "offfield dps"
+   },
+   {
+    "slot": "onfield driver flex"
+   },
+   {
+    "slot": "flex"
+   }
+  ],
+  "description": "Welp very flexible team. You will basically need an on field driver and another flexible char of your own choice. Some examples are given below,\n\nHutao, yelan, xingqiu, [kazuha](https://youtu.be/S9dmYgpfTgk) /sucrose/[zhongli](https://youtu.be/XVJ2RJVX8r0) /[fischl](https://youtu.be/5jDoQJ4lna4)\n\nYelan, Xingqiu, Fischl, [Kazuha](https://youtu.be/fhuJSNYobtk), [Sucrose](https://youtu.be/waSCLeRvMFY)\n\nYou can also use Ayato and kokomi instead of xingqiu as 2nd hydro except that ayato/kokomi will act as drivers here instead.\n\nYelan, Fischl, Kazuha, [Ayato](https://youtu.be/eT7et8cf5PM) / Kokomi\n\nanother example is double hydro double pyro such as [Funerational](https://discord.com/channels/889090539620814848/939925340711686204/988682455252860948) and double pyro with [xiangling and bennett](https://youtu.be/yQWp04dl06s) \n\n> FOR MORE INSIGHT ON TEAM SYNERGIES, DMG OUTPUT AND ER REQUIREMENTS, PLZZZ VISIT THE [YELAN GUIDE](https://docs.google.com/document/d/e/2PACX-1vRBLmEhOkceqNStOsTk_IfnSDeg6HmOV4hRjyB1Yb5SZY3YMYvtFdqK09o2vte21SZ6a_e39cZ6qu4s/pub), [MASTERSHEET](https://docs.google.com/spreadsheets/d/1PsrNEjRTLpTUmLu2SFtz0LYNroCS8k8yQHvCB0dEWxw/edit#gid=905865604), [HER DMG CALCULATOR](https://docs.google.com/spreadsheets/d/1N7MRJK4C5pKjAOrzWybK5JicrdDHyuKcXTVylnz76Nk/edit?usp=sharing) (ofc u can always use [genshin optimizer](https://frzyc.github.io/genshin-optimizer/#/) ), [ER CALCULATOR](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit#gid=1806950800) ",
+  "owner": 734048698522402857,
+  "file": "yelan_double_hydro.png",
+  "id": "yelan_double_hydro"
+ },
+ {
+  "title": "YELAN Raiden National",
+  "chars": [
+   {
+    "raiden": "driver"
+   },
+   {
+    "xiangling": "offfield dps"
+   },
+   {
+    "yelan": "offfield dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "While Yelan may not be the best option in this team, being an option at all can be incredible for an account to free Xingqiu for a second team. \n\n[DEMO](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DsKH6GHKIb1o&sa=D&source=editors&ust=1655758915058807&usg=AOvVaw0AqhCjDgasZcTw1vQrdAzZ)\n\nFor ER requirements: [Read](https://docs.google.com/document/d/e/2PACX-1vRBLmEhOkceqNStOsTk_IfnSDeg6HmOV4hRjyB1Yb5SZY3YMYvtFdqK09o2vte21SZ6a_e39cZ6qu4s/pub#h.mbk720y5xma4)",
+  "owner": 734048698522402857,
+  "file": "yelan_raiden_national.png",
+  "id": "yelan_raiden_national"
+ },
+ {
+  "title": "YELAN SOLO HYDRO",
+  "chars": [
+   {
+    "yelan": "offfield dps"
+   },
+   {
+    "slot": "flex"
+   },
+   {
+    "slot": "flex"
+   },
+   {
+    "slot": "flex"
+   }
+  ],
+  "description": "Welp, yelan can play in Xingqiu\u2019s spot, but it may be harder due to her lack of Defense Reduction and Interruption Resistance. This doesn\u2019t make her unplayable, it\u2019s just more challenging. Also ER might be an issue, for er requirements [read](https://docs.google.com/document/d/e/2PACX-1vRBLmEhOkceqNStOsTk_IfnSDeg6HmOV4hRjyB1Yb5SZY3YMYvtFdqK09o2vte21SZ6a_e39cZ6qu4s/pub#h.mbk720y5xma4) or use [ER calculator](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit#gid=1806950800)\n\nAs solo hydro, u can use [raiden national with yelan](https://discord.com/channels/889090539620814848/939925340711686204/988689490329624606) and following comps are some examples as well:\n\n> Hutao, Yelan, Zhongli, [Fischl](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DNyzNZqff-2I&sa=D&source=editors&ust=1655758915061685&usg=AOvVaw1fuuZjX-oOuET5atqCrc-i) / Kazuha(Yelan can fully enable Hu Tao to Vape her attacks with some caveats. I generally recommend sticking with N1C combo variations, and playing with an additional form of elemental application (Electro, Hydro, Cryo))\n> \n> ***__ALBEDO IS NOT AN OPTION__***\n\n> Well Yelan can work in Hutao VV vape teams but it's a lot harder than playing xingqiu coz of survivability issues Examples:\n> Hutao, Yelan, Kazuha, [Xinyan](https://youtu.be/-noQrcV1K2c) / [amber](https://youtu.be/I_LZ7GRxAv0) /Bennett/Yanfei C4/Klee c2 ***__THOMA CAN'T BE USED HERE__\n> ***\n> For **THOMA**, u can use sucrose instead, ofc, yelan need to be **c2** here. [DEMO](https://www.google.com/url?q=https://www.youtube.com/watch?v%3Di_IlBbY3nSw%26ab_channel%3Djstern25&sa=D&source=editors&ust=1655758915074717&usg=AOvVaw2ZNnNn1enYyTxfbI60QSPb)\n\n> Other teams include teams with DILUC, YOIMIYA ETC.\n> example is:\n> Yoimiya, Yelan, Zhongli, Yunjin. [DEMO](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DgFtd_SzAcsY&sa=D&source=editors&ust=1655758915077963&usg=AOvVaw0ExFq7Na5risdHXy-gomRV)\n\nFor rotations: use [this sheet](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/16JrmxnTAkPDyP_46gRU9nyMkk76ZbaJcjIYqwTzaZGg/edit&sa=D&source=editors&ust=1655758915078609&usg=AOvVaw3tiOkBlZ4vUIo-2GrPkJeH) made by KQM",
+  "owner": 734048698522402857,
+  "file": "yelan_solo_hydro.png",
+  "id": "yelan_solo_hydro"
+ },
+ {
+  "title": "H2Tao",
+  "chars": [
+   {
+    "hutao": "onfield dps"
+   },
+   {
+    "xingqiu": "offfield dps"
+   },
+   {
+    "yelan": "offfield dps"
+   },
+   {
+    "xiangling": "offfield dps"
+   }
+  ],
+  "description": "ROTATION: Xingqiu E, Q> Xiangling Q, E> Yelan E,Q >Hutao brrrr \n[DEMO](https://youtu.be/DVD6GaFRd-U)",
+  "owner": 551762974394548286,
+  "file": "h2tao.png",
+  "id": "h2tao"
+ },
+ {
+  "title": "Raiden Sunfire",
+  "chars": [
+   {
+    "raiden": "onfield dps"
+   },
+   {
+    "jean": "support"
+   },
+   {
+    "yelan": "off-field dps"
+   },
+   {
+    "bennett": "buffer"
+   }
+  ],
+  "description": "\nThis method replaces the xiangling from raiden national and adds in jean, and honestly with good rotations, it is sometimes better if your xiangling is not c4.\n\nROTATIONS: Baal E , Yelan E,Q, Jean E to swirl Electro and Hydro, Bennett Q, Bennett E, Jean Q, Baal Q\n\nNOTES: swirling all three elements is the basic portion of this team comp\nXINGQIU can be used instead of yelan here. Ofc, with xingqiu, u will have more elemental reactions but yelan will give more dmg and will buff raiden and has shorter rotations so yeah.\n\nBUILDS: Raiden, Yelan Emblem, Bennett Noblesse, Jean 4p VV set. So u kindaa need to stack EM on jean in this team comp for more swirl damage , so EM/EM/EM build is recommended, although u can use ER sands if you're using the EM sword instead of favonious sword, you need to get 160+ ER on Jean here\n",
+  "owner": 734048698522402857,
+  "file": "raiden_sunfire.png",
+  "id": "raiden_sunfire"
+ }
+]}

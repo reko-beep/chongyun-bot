@@ -562,7 +562,7 @@ class WishClient:
                             table = ','.join(stats[s])
                             desc_ += f"*{s.replace('star', ' star',1).title().replace('_',' ',99)} Overview*\n```css\n{table}```\n"
 
-                embed = Embed(title=f"{banner_data['banner_type'].title()} Basic Stats", description=desc_, color=self.bot.resource_manager.get_color_from_image(author.avatar.url))
+                embed = Embed(title=f"{banner_data['banner_type'].title()} Basic Stats", description=desc_, color=self.bot.resource_manager.get_color_from_image(author.display_avatar.url))
                 embed.set_footer(text=f"{banner_data['banner_type'].title()} -  Basic Stats")
                 embed.set_author(name=author.display_name, icon_url=author.display_avatar.url)   
                 embed.set_thumbnail(url=author.display_avatar.url)         

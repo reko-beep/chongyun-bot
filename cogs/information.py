@@ -31,10 +31,10 @@ class InformationCog(Cog):
                 view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
                 await message.edit(embed=embeds[0],view=view)
             else:
-                embed = Embed(title='Info Error', description=f'No character having name ```css\n{char}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Info Error', description=f'No character having name ```css\n{char}\n``` found!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)     
         else:
-            embed = Embed(title='Please select a character from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Please select a character from dropdown!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             chars = list(self.bot.resource_manager.characters.keys())
             view = DropDownView(self.bot, chars, 'create_character_embeds', ctx.author, 1)
             await ctx.send(embed=embed, view=view)
@@ -55,11 +55,11 @@ class InformationCog(Cog):
                 view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
                 await message.edit(embed=embeds[0],view=view)
             else:
-                embed = Embed(title='Info Error', description=f'No material having name ```css\n{mat}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Info Error', description=f'No material having name ```css\n{mat}\n``` found!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)     
 
         else:
-            embed = Embed(title='Please select a material from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Please select a material from dropdown!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             chars = list(self.bot.resource_manager.materials.keys())
             view = DropDownView(self.bot, chars, 'create_material_embeds', ctx.author, 1)
             await ctx.send(embed=embed, view=view)
@@ -68,7 +68,7 @@ class InformationCog(Cog):
     async def domain(self, ctx : Context, day:str='', region:str='', type:str=''):
 
         if day == '':
-            embed = Embed(title='Info Error', description=f'Provide at least day for domains!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Info Error', description=f'Provide at least day for domains!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             await ctx.send(embed=embed)      
         else:
             embeds = self.inf.create_domains_embeds(day, region, type)     
@@ -77,7 +77,7 @@ class InformationCog(Cog):
                 view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
                 await message.edit(embed=embeds[0],view=view)
             else:
-                embed = Embed(title='Info Error', description=f'No domains found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Info Error', description=f'No domains found!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)     
 
     @commands.Cog.listener()
@@ -89,8 +89,8 @@ class InformationCog(Cog):
             category = msg.channel.name
             check = self.inf.bookmark.add_bookmark(user, msg, category)
             if check:
-                embed = Embed(title='Bookmark added!', description=msg.content+'\n'+f"**Category:**\n{category}", color=self.resm.get_color_from_image(user.avatar.url))
-                embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+                embed = Embed(title='Bookmark added!', description=msg.content+'\n'+f"**Category:**\n{category}", color=self.resm.get_color_from_image(user.display_avatar.url))
+                embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
                 await msg.channel.send(embed=embed)
 
 
@@ -103,13 +103,13 @@ class InformationCog(Cog):
             check = self.inf.bookmark.set_bookmark_category(ctx.author, index, cat)
             if check:
                 
-                embed = Embed(title='Bookmark category changed!', description=self.inf.bookmark.bm_data[str(ctx.author.id)][index]['content']+'\n'+f"**Category:**\n{cat}", color=self.resm.get_color_from_image(ctx.author.avatar.url))
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed = Embed(title='Bookmark category changed!', description=self.inf.bookmark.bm_data[str(ctx.author.id)][index]['content']+'\n'+f"**Category:**\n{cat}", color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                 await ctx.send(embed=embed)
 
         else:
-            embed = Embed(title='Bookmark error!', description="Please write bookmark number!", color=self.resm.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='Bookmark error!', description="Please write bookmark number!", color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
     
      
@@ -127,10 +127,10 @@ class InformationCog(Cog):
                 await message.edit(embed=embeds[0],view=view)
             else:
                 
-                embed = Embed(title='Info Error', description=f'No weapon having name ```css\n{wep}\n``` found!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Info Error', description=f'No weapon having name ```css\n{wep}\n``` found!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)     
         else:
-            embed = Embed(title='Please select a weapon  from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Please select a weapon  from dropdown!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             weps = list(self.bot.resource_manager.weapons.keys())
             view = DropDownView(self.bot, weps, 'create_weapon_embeds', ctx.author, 1)
             await ctx.send(embed=embed, view=view)
@@ -147,7 +147,7 @@ class InformationCog(Cog):
             view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
             await message.edit(embed=embeds[0],view=view)
         else:
-            embed = Embed(title='Please select a artifact from dropdown!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Please select a artifact from dropdown!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             weps = list(self.bot.resource_manager.artifacts.keys())
             view = DropDownView(self.bot, weps, 'create_artifact_embeds', ctx.author, 1)
             await ctx.send(embed=embed, view=view)   
@@ -186,15 +186,15 @@ class InformationCog(Cog):
 
             if check is not None:
                 embed = self.inf.create_comp_embed(dict_, ctx.guild)
-                embed.color = self.resm.get_color_from_image(ctx.author.avatar.url)
-                embed.set_author(name=ctx.author.display_name, url=ctx.author.avatar.url)
+                embed.color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
+                embed.set_author(name=ctx.author.display_name, url=ctx.author.display_avatar.url)
                 await ctx.send(embed=embed)
             
             else:
-                embed = Embed(title='Comp Error', description=f'Either the characters are not in correct format, or few arguments passed!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Comp Error', description=f'Either the characters are not in correct format, or few arguments passed!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)        
         else:
-            embed = Embed(title='Comp Error', description=f'You are not allowed to create comps!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Comp Error', description=f'You are not allowed to create comps!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             await ctx.send(embed=embed)        
 
 
@@ -215,7 +215,7 @@ class InformationCog(Cog):
             try:
                 channel =  await ctx.guild.fetch_channel(channel_id)
             except NotFound:
-                embed = Embed(title='Bookmark Error', description=f'Either use the command in channel where message is or use message link', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Bookmark Error', description=f'Either use the command in channel where message is or use message link', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)         
 
         
@@ -223,12 +223,12 @@ class InformationCog(Cog):
         try:
             message = await channel.fetch_message(message_id)
         except NotFound:
-            embed = Embed(title='Bookmark Error', description=f'Message cannot be fetched\nTry using message link\n**Category:**\n{category}', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Bookmark Error', description=f'Message cannot be fetched\nTry using message link\n**Category:**\n{category}', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             await ctx.send(embed=embed)
         else:
             check = self.inf.bookmark.add_bookmark(ctx.author, message, category)
             if check:
-                embed = Embed(title='Bookmark', description=f'bookmark added\n**Category:**\n{category}', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Bookmark', description=f'bookmark added\n**Category:**\n{category}', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed)
 
     @commands.command(aliases=['bks'], description='bkadd (user) (category)')
@@ -237,8 +237,8 @@ class InformationCog(Cog):
         check = self.inf.bookmark.get_bookmarks(member, category)
 
         if len(check) == 0:
-            embed = Embed(title='Bookmark', description=f'User has not bookmarks added', color=self.resm.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+            embed = Embed(title='Bookmark', description=f'User has not bookmarks added', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
             await ctx.send(embed=embed)
         else:
             embed = self.inf.bookmark.create_bookmark_embed(member, check[0])
@@ -297,8 +297,8 @@ class InformationCog(Cog):
                 view = PaginatorList(user=ctx.author, message=message, embeds=embeds, bot=self.bot)
                 await message.edit(embed=embeds[0],view=view)
         else:
-            embed = Embed(title='Card Error', description='You have not linked uid for that region!', color=self.resm.get_color_from_image(member.avatar.url))
-            embed.set_thumbnail(url=member.avatar.url)
+            embed = Embed(title='Card Error', description='You have not linked uid for that region!', color=self.resm.get_color_from_image(member.display_avatar.url))
+            embed.set_thumbnail(url=member.display_avatar.url)
             await ctx.send(embed=embed)
                 
 

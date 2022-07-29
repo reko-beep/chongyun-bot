@@ -43,12 +43,12 @@ class ReminderCommands(Cog):
             
             else:
 
-                embed = Embed(title='Reminder Error', description=f'Error creating a reminder for Resin!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'Error creating a reminder for Resin!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
         else:
     
-                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
     
@@ -59,15 +59,15 @@ class ReminderCommands(Cog):
 
             reminder = self.rc.remove_reminder('resin', ctx.author, region)
             if reminder is False:
-                embed = Embed(title='Reminder Error', description=f'You have not setup a resin reminder yet!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have not setup a resin reminder yet!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
             if reminder is True:
-                embed = Embed(title='Reminder removed', description=f'Your resin reminder has been removed!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder removed', description=f'Your resin reminder has been removed!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
         else:
         
-                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
     @commands.command(aliases=['comr'], description='comr (region)\n sets up comms reminder that reminds you every 4 hr to do comms', brief='sets up a commission reminder')
@@ -83,12 +83,12 @@ class ReminderCommands(Cog):
             
             else:
 
-                embed = Embed(title='Reminder Error', description=f'Error creating a reminder for commissions !', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'Error creating a reminder for commissions !', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
         else:
     
-                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
         
@@ -100,15 +100,15 @@ class ReminderCommands(Cog):
 
             reminder = self.rc.remove_reminder('comms', ctx.author, region)
             if reminder is False:
-                embed = Embed(title='Reminder Error', description=f'You have not setup a resin reminder yet!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have not setup a resin reminder yet!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
             if reminder is True:
-                embed = Embed(title='Reminder removed', description=f'Your resin reminder has been removed!', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder removed', description=f'Your resin reminder has been removed!', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
 
         else:
         
-                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Reminder Error', description=f'You have linked the uid for that region', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
                 await ctx.send(embed=embed) 
         
     
@@ -123,7 +123,7 @@ class ReminderCommands(Cog):
             list_ = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)            
             await msg.edit(view=list_)
         else:
-            embed = Embed(title='Reminder Error', description=f'You have not setup a reminder yet', color=self.resm.get_color_from_image(ctx.author.avatar.url))
+            embed = Embed(title='Reminder Error', description=f'You have not setup a reminder yet', color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
             await ctx.send(embed=embed) 
 
     @commands.command(aliases=['comrst'], description='comrst\n show commission reset times for regions', brief='shows commission reset times')
@@ -139,8 +139,8 @@ class ReminderCommands(Cog):
                 desc_ += f"{reg.upper()} resetted today\n"
 
         desc_ += f'\n[download image in thumbnail]({img_})'
-        embed = Embed(title='Commission reset times', description=desc_, color=self.resm.get_color_from_image(ctx.author.avatar.url))
-        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+        embed = Embed(title='Commission reset times', description=desc_, color=self.resm.get_color_from_image(ctx.author.display_avatar.url))
+        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
         embed.set_thumbnail(url=img_)
         await ctx.send(embed=embed)
 

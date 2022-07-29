@@ -3,10 +3,11 @@ from json import load, dump
 from os import getcwd 
 from os.path import exists
 from datetime import datetime
+from base.resource_manager import ResourceManager
 
 
 DATA = {} #holds updater data
-
+rm = ResourceManager()
 if exists(getcwd()+'/updater.json',):
     with open(getcwd()+'/updater.json', 'r') as f:
         DATA = load(f)
@@ -25,6 +26,8 @@ def compare_date(key, current_time, diff):
             if (current_time-lasttm).seconds > diff:
                 return True
 
+character_file_path = rm.genpath('data', 'characters.json')
+with open(character_file_path, 'r') as f:
+    character_data = load(f)
 
-
-import chongyun_wallpapers
+import scripts_to_update_database.guides

@@ -914,19 +914,57 @@
  "floor_9": {
   "Ley Line Disorder": {
    "text": [
-    "All characters in the party gain a 75% Anemo DMG Bonus."
+    "All party members receive a 75% Pyro DMG Bonus."
    ]
   },
   "Additional Effects": {
    "text": [
-    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
-    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+    "In Chamber 3's First Half, the Mirror Maiden is empowered with the Slowing Water (Hydro) Aura."
    ]
   },
   "Chamber 1": {
    "Enemy Level": ": 95",
    "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
    "First Half": {
+    "enemies": [
+     {
+      "name": "Frostarm Lawachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Enemy_Frostarm_Lawachurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Ice Shieldwall Mitachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Enemy_Mitachurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Samachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Enemy_Cryo_Samachurl_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Electro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Electro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ice Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "9"
+     }
+    ]
+   },
+   "Second Half": {
     "enemies": [
      {
       "name": "Kairagi: Dancing Thunder",
@@ -952,35 +990,6 @@
       "name": "Nobushi: Kikouban",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
       "amount": "1"
-     },
-     {
-      "name": "Treasure Hoarders: Pyro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Treasure Hoarders: Hydro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
-      "amount": "4"
-     },
-     {
-      "name": "Treasure Hoarders: Electro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
-      "amount": "2"
-     },
-     {
-      "name": "Treasure Hoarders: Cryo Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
-      "amount": "2"
-     }
-    ]
-   },
-   "Second Half": {
-    "enemies": [
-     {
-      "name": "Ruin Guard",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
-      "amount": "2"
      }
     ]
    }
@@ -991,32 +1000,32 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Cryo Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Pyro Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
-      "amount": "3"
+      "name": "Cryo Hypostasis",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Enemy_Cryo_Hypostasis_Icon.png",
+      "amount": "1"
      }
     ]
    },
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Ruin Grader",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Ruin_Grader_Icon.png",
       "amount": "1"
      },
      {
-      "name": "Abyss Lector: Violet Lightning",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
-      "amount": "1"
+      "name": "Ruin Cruiser",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Enemy_Ruin_Cruiser_Icon.png",
+      "amount": "2"
      },
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "name": "Ruin Destroyer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Enemy_Ruin_Destroyer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Scout",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Enemy_Ruin_Scout_Icon.png",
       "amount": "1"
      }
     ]
@@ -1028,8 +1037,13 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Mirror Maiden",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Enemy_Mirror_Maiden_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Enemy_Fatui_Cryogunner_Legionnaire_Icon.png",
       "amount": "2"
      }
     ]
@@ -1037,9 +1051,9 @@
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
-      "amount": "2"
+      "name": "Ruin Serpent",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Enemy_Ruin_Serpent_Icon.png",
+      "amount": "1"
      }
     ]
    }
@@ -1052,6 +1066,45 @@
    "First Half": {
     "enemies": [
      {
+      "name": "Frostarm Lawachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Enemy_Frostarm_Lawachurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Ice Shieldwall Mitachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Enemy_Mitachurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Samachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Enemy_Cryo_Samachurl_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Electro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Electro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ice Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "9"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
       "name": "Kairagi: Dancing Thunder",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
       "amount": "1"
@@ -1075,35 +1128,6 @@
       "name": "Nobushi: Kikouban",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
       "amount": "1"
-     },
-     {
-      "name": "Treasure Hoarders: Pyro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Treasure Hoarders: Hydro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
-      "amount": "4"
-     },
-     {
-      "name": "Treasure Hoarders: Electro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
-      "amount": "2"
-     },
-     {
-      "name": "Treasure Hoarders: Cryo Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
-      "amount": "2"
-     }
-    ]
-   },
-   "Second Half": {
-    "enemies": [
-     {
-      "name": "Ruin Guard",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
-      "amount": "2"
      }
     ]
    }
@@ -1114,32 +1138,32 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Cryo Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Pyro Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
-      "amount": "3"
+      "name": "Cryo Hypostasis",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Enemy_Cryo_Hypostasis_Icon.png",
+      "amount": "1"
      }
     ]
    },
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Ruin Grader",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Ruin_Grader_Icon.png",
       "amount": "1"
      },
      {
-      "name": "Abyss Lector: Violet Lightning",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
-      "amount": "1"
+      "name": "Ruin Cruiser",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Enemy_Ruin_Cruiser_Icon.png",
+      "amount": "2"
      },
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "name": "Ruin Destroyer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Enemy_Ruin_Destroyer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Scout",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Enemy_Ruin_Scout_Icon.png",
       "amount": "1"
      }
     ]
@@ -1151,8 +1175,13 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Mirror Maiden",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Enemy_Mirror_Maiden_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Enemy_Fatui_Cryogunner_Legionnaire_Icon.png",
       "amount": "2"
      }
     ]
@@ -1160,35 +1189,33 @@
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
-      "amount": "2"
+      "name": "Ruin Serpent",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Enemy_Ruin_Serpent_Icon.png",
+      "amount": "1"
      }
     ]
    }
   },
   "Ley Line Disorder": {
    "text": [
-    "All characters in the party gain a 75% Anemo DMG Bonus."
+    "All party members receive a 75% Pyro DMG Bonus."
    ]
   },
   "Additional Effects": {
    "text": [
-    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
-    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+    "In Chamber 3's First Half, the Mirror Maiden is empowered with the Slowing Water (Hydro) Aura."
    ]
   }
  },
  "floor_11": {
   "Ley Line Disorder": {
    "text": [
-    "All characters in the party gain a 75% Anemo DMG Bonus."
+    "All party members receive a 75% Pyro DMG Bonus."
    ]
   },
   "Additional Effects": {
    "text": [
-    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
-    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+    "In Chamber 3's First Half, the Mirror Maiden is empowered with the Slowing Water (Hydro) Aura."
    ]
   },
   "Chamber 1": {
@@ -1197,6 +1224,45 @@
    "First Half": {
     "enemies": [
      {
+      "name": "Frostarm Lawachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Enemy_Frostarm_Lawachurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Ice Shieldwall Mitachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Enemy_Mitachurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Samachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Enemy_Cryo_Samachurl_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Electro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Electro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ice Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "9"
+     }
+    ]
+   },
+   "Second Half": {
+    "enemies": [
+     {
       "name": "Kairagi: Dancing Thunder",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Enemy_Kairagi_Dancing_Thunder_Icon.png",
       "amount": "1"
@@ -1220,35 +1286,6 @@
       "name": "Nobushi: Kikouban",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
       "amount": "1"
-     },
-     {
-      "name": "Treasure Hoarders: Pyro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Treasure Hoarders: Hydro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
-      "amount": "4"
-     },
-     {
-      "name": "Treasure Hoarders: Electro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
-      "amount": "2"
-     },
-     {
-      "name": "Treasure Hoarders: Cryo Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
-      "amount": "2"
-     }
-    ]
-   },
-   "Second Half": {
-    "enemies": [
-     {
-      "name": "Ruin Guard",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
-      "amount": "2"
      }
     ]
    }
@@ -1259,32 +1296,32 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Cryo Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Pyro Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
-      "amount": "3"
+      "name": "Cryo Hypostasis",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Enemy_Cryo_Hypostasis_Icon.png",
+      "amount": "1"
      }
     ]
    },
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Ruin Grader",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Ruin_Grader_Icon.png",
       "amount": "1"
      },
      {
-      "name": "Abyss Lector: Violet Lightning",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
-      "amount": "1"
+      "name": "Ruin Cruiser",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Enemy_Ruin_Cruiser_Icon.png",
+      "amount": "2"
      },
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "name": "Ruin Destroyer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Enemy_Ruin_Destroyer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Scout",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Enemy_Ruin_Scout_Icon.png",
       "amount": "1"
      }
     ]
@@ -1296,8 +1333,13 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Mirror Maiden",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Enemy_Mirror_Maiden_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Enemy_Fatui_Cryogunner_Legionnaire_Icon.png",
       "amount": "2"
      }
     ]
@@ -1305,9 +1347,9 @@
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
-      "amount": "2"
+      "name": "Ruin Serpent",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Enemy_Ruin_Serpent_Icon.png",
+      "amount": "1"
      }
     ]
    }
@@ -1316,14 +1358,52 @@
  "floor_12": {
   "Additional Effects": {
    "text": [
-    "In Chamber 1's First Half, there is a Pyro Elemental Node that applies a massive resistance and attack buff to enemy units until the status has been removed with Hydro attacks.",
-    "In Chamber 1's First Half, there is a Electro Elemental Node that applies a massive resistance and cooldown buff to enemy units until the status has been removed with Pyro or Cryo."
+    "In Chamber 3's First Half, the Mirror Maiden is empowered with the Slowing Water (Hydro) Aura."
    ]
   },
   "Chamber 1": {
    "Enemy Level": ": 95",
    "Challenge Target": ": Remaining challenge time longer than 180/300/420 sec.",
    "First Half": {
+    "enemies": [
+     {
+      "name": "Frostarm Lawachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Enemy_Frostarm_Lawachurl_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Ice Shieldwall Mitachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Enemy_Mitachurl_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Samachurl",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Enemy_Cryo_Samachurl_Icon.png",
+      "amount": "3"
+     },
+     {
+      "name": "Pyro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Enemy_Pyro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Cryo Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Cryo_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Electro Hilichurl Shooter",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Enemy_Electro_Hilichurl_Shooter_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ice Shield Hilichurl Guard",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Hilichurl_Icon.png",
+      "amount": "9"
+     }
+    ]
+   },
+   "Second Half": {
     "enemies": [
      {
       "name": "Kairagi: Dancing Thunder",
@@ -1349,35 +1429,6 @@
       "name": "Nobushi: Kikouban",
       "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Nobushi_Kikouban_Icon.png",
       "amount": "1"
-     },
-     {
-      "name": "Treasure Hoarders: Pyro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Enemy_Treasure_Hoarder_Pyro_Potioneer_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Treasure Hoarders: Hydro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Enemy_Treasure_Hoarder_Hydro_Potioneer_Icon.png",
-      "amount": "4"
-     },
-     {
-      "name": "Treasure Hoarders: Electro Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Enemy_Treasure_Hoarder_Electro_Potioneer_Icon.png",
-      "amount": "2"
-     },
-     {
-      "name": "Treasure Hoarders: Cryo Potioneer",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Enemy_Treasure_Hoarder_Cryo_Potioneer_Icon.png",
-      "amount": "2"
-     }
-    ]
-   },
-   "Second Half": {
-    "enemies": [
-     {
-      "name": "Ruin Guard",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Enemy_Ruin_Guard_Icon.png",
-      "amount": "2"
      }
     ]
    }
@@ -1388,32 +1439,32 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Cryo Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Cryo_Whopperflower_Icon.png",
-      "amount": "3"
-     },
-     {
-      "name": "Pyro Whopperflower",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Enemy_Pyro_Whopperflower_Icon.png",
-      "amount": "3"
+      "name": "Cryo Hypostasis",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Enemy_Cryo_Hypostasis_Icon.png",
+      "amount": "1"
      }
     ]
    },
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Ruin Grader",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Enemy_Ruin_Grader_Icon.png",
       "amount": "1"
      },
      {
-      "name": "Abyss Lector: Violet Lightning",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Enemy_Abyss_Lector_Violet_Lightning_Icon.png",
-      "amount": "1"
+      "name": "Ruin Cruiser",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/Enemy_Ruin_Cruiser_Icon.png",
+      "amount": "2"
      },
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
+      "name": "Ruin Destroyer",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Enemy_Ruin_Destroyer_Icon.png",
+      "amount": "2"
+     },
+     {
+      "name": "Ruin Scout",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Enemy_Ruin_Scout_Icon.png",
       "amount": "1"
      }
     ]
@@ -1425,8 +1476,13 @@
    "First Half": {
     "enemies": [
      {
-      "name": "Abyss Lector: Fathomless Flames",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Enemy_Abyss_Lector_Fathomless_Flames_Icon.png",
+      "name": "Mirror Maiden",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Enemy_Mirror_Maiden_Icon.png",
+      "amount": "1"
+     },
+     {
+      "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Enemy_Fatui_Cryogunner_Legionnaire_Icon.png",
       "amount": "2"
      }
     ]
@@ -1434,9 +1490,9 @@
    "Second Half": {
     "enemies": [
      {
-      "name": "Abyss Herald: Wicked Torrents",
-      "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Enemy_Abyss_Herald_-_Wicked_Torrents_Icon.png",
-      "amount": "2"
+      "name": "Ruin Serpent",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Enemy_Ruin_Serpent_Icon.png",
+      "amount": "1"
      }
     ]
    }

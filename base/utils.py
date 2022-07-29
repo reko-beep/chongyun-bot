@@ -34,10 +34,10 @@ def paginator(bot: Bot, guild: Guild, data:dict, title:str, field_str: str, limi
                     descrip += f"{field_str.format(key=key, value=value)}\n"
             if descrip == '':
                 descrip = 'Such Emptiness'
-            color = bot.resource_manager.get_color_from_image(bot.user.avatar.url)
+            color = bot.resource_manager.get_color_from_image(bot.user.display_avatar.url)
             embed = Embed(title=title,description=descrip, color=color)
-            embed.set_author(name=bot.user.display_name, icon_url=bot.user.avatar.url)
-            embed.set_thumbnail(url=bot.user.avatar.url)
+            embed.set_author(name=bot.user.display_name, icon_url=bot.user.display_avatar.url)
+            embed.set_thumbnail(url=bot.user.display_avatar.url)
             embeds.append(embed)
         
         return embeds

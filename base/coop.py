@@ -861,33 +861,33 @@ class CoopManager:
         embeds = []
 
         stats = data['stats']
-        stat_embed = Embed(title='Basic Statistics', color=self.res.get_color_from_image(member.avatar.url))
+        stat_embed = Embed(title='Basic Statistics', color=self.res.get_color_from_image(member.display_avatar.url))
 
         for stat in stats:
             stat_embed.add_field(name=stat, value=stats[stat])
         
-        stat_embed.set_author(name=member.display_name, icon_url=member.avatar.url)
-        stat_embed.set_thumbnail(url=member.avatar.url)
+        stat_embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
+        stat_embed.set_thumbnail(url=member.display_avatar.url)
         stat_embed.set_footer(text=f' {member.display_name} - Basic Statistics')
         embeds.append(stat_embed)
 
         teapot = data['teapot']
         if len(teapot) != 0:
-            tp_embed = Embed(title=f"Teapot - {teapot['name']}", color=self.res.get_color_from_image(member.avatar.url))
+            tp_embed = Embed(title=f"Teapot - {teapot['name']}", color=self.res.get_color_from_image(member.display_avatar.url))
 
             for key in teapot:
                 if key != 'thumb':
                     tp_embed.add_field(name=key.title(), value=teapot[key])
             
-            tp_embed.set_author(name=member.display_name, icon_url=member.avatar.url)
-            tp_embed.set_thumbnail(url=member.avatar.url)
+            tp_embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
+            tp_embed.set_thumbnail(url=member.display_avatar.url)
             if teapot['thumb'].startswith("http"):
                 tp_embed.set_image(url=teapot['thumb'])
             tp_embed.set_footer(text=f' {member.display_name} - Teapot')
             embeds.append(tp_embed)
         exps = data['exploration']
         if len(exps) != 0:
-            embed = Embed(title=f"Exploration", color=self.res.get_color_from_image(member.avatar.url))
+            embed = Embed(title=f"Exploration", color=self.res.get_color_from_image(member.display_avatar.url))
             
             for exp in exps:
                 desc_ = ''                
@@ -901,8 +901,8 @@ class CoopManager:
                 desc_  += "\n```"
                 embed.add_field(name=exp, value=desc_)
             
-            embed.set_author(name=member.display_name, icon_url=member.avatar.url)
-            embed.set_thumbnail(url=member.avatar.url)
+            embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
+            embed.set_thumbnail(url=member.display_avatar.url)
             embed.set_footer(text=f' {member.display_name} - Exploration')
 
             embeds.append(embed)

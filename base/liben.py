@@ -143,7 +143,7 @@ class LibenManager:
 
         user = get(guild.members, id=int(box['member']))
         desc_ = f"**UID**\: *{box['uid']}*\n**Region:**: *{box['region'].upper()}*"
-        embed = Embed(title=f"{box['box'].title()} box", description=desc_, color=self.res.get_color_from_image(user.avatar.url))
+        embed = Embed(title=f"{box['box'].title()} box", description=desc_, color=self.res.get_color_from_image(user.display_avatar.url))
         emoji = self.bot.inf.res_handler.search(box['box'],self.bot.inf.res_handler.goto('images/elements').get('files'))
 
         
@@ -162,7 +162,7 @@ class LibenManager:
         else:
             claimed_text = 'No one has claimed from this user yet!'
         embed.add_field(name='Claimed', value=claimed_text)
-        embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+        embed.set_author(name=user.display_name, icon_url=user.display_avatar.url)
         embed.set_footer(text='please confirm from the user before for element box!')
 
         return embed

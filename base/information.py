@@ -655,7 +655,7 @@ class Information():
         path_fix = getcwd()+"/assets/images/abyss/{floor}/{chamber}/{half}.png"
         with open(path, 'r') as f:
             abyss = load(f)
-        color = self.res_handler.get_color_from_image(self.bot.user.avatar.url)
+        color = self.res_handler.get_color_from_image(self.bot.user.display_avatar.url)
         data = abyss[floor_]
         leyline_text = ['None'] if data.get('Ley Line Disorder', 'None') == 'None' else data['Ley Line Disorder']['text']
         t = '🔸'
@@ -666,8 +666,8 @@ class Information():
         t += '\n 🔸'.join(ae_text)
         desc += f"**Additional Effects:**\n{t}\n"
         main = Embed(title=f"Floor {args['floor']}", description=desc, color=color)
-        main.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
-        main.set_thumbnail(url=self.bot.user.avatar.url)
+        main.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.display_avatar.url)                                
+        main.set_thumbnail(url=self.bot.user.display_avatar.url)
         
         main.set_footer(text=f' Abyss Moon Spiral ∎ Basic Information')
         embeds.append(main)
@@ -694,8 +694,8 @@ class Information():
                 e_embed.add_field(name='Enemies', value=enem_text)
 
                 e_embed.set_image(url=path)
-                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
-                e_embed.set_thumbnail(url=self.bot.user.avatar.url)
+                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.display_avatar.url)                                
+                e_embed.set_thumbnail(url=self.bot.user.display_avatar.url)
                 
                 e_embed.set_footer(text=f" Abyss Moon Spiral ∎ Floor {args['floor']}  ∎ {chamber} - First Half")
                 embeds.append(e_embed)
@@ -707,8 +707,8 @@ class Information():
                 enem_text = '\n'.join([f"🔸 {i['amount']} {i['name']}" for i in c_data['Second Half']['enemies']])
                 e_embed.add_field(name='Enemies', value=enem_text)
                 e_embed.set_image(url=path)
-                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.avatar.url)                                
-                e_embed.set_thumbnail(url=self.bot.user.avatar.url)
+                e_embed.set_author(name='Abyss Moon Spiral', icon_url=self.bot.user.display_avatar.url)                                
+                e_embed.set_thumbnail(url=self.bot.user.display_avatar.url)
                 
                 e_embed.set_footer(text=f"Abyss Moon Spiral ∎ Floor {args['floor']}  ∎ {chamber} - Second Half")
                 embeds.append(e_embed)
@@ -762,7 +762,7 @@ class Information():
     def create_domains_embeds(self, day:str, region:str, type_:str):
         embeds = []
         if day == 'sunday':
-            color = self.res_handler.get_color_from_image(self.bot.user.avatar.url)
+            color = self.res_handler.get_color_from_image(self.bot.user.display_avatar.url)
             embed = Embed(title='All Domains', color=color)
             embed.add_field(name='Day', value='Sunday')
             embed.add_field(name='Item Series', value='All series of items availabe')
@@ -929,14 +929,15 @@ class Information():
         browser_options.add_argument('--no-sandbox')
         browser_options.add_argument("window-size=1920,1080")        
         browser_options.add_argument('--disable-dev-shm-usage')
+        
         browser_options.add_argument("--disable-gpu")
         browser_options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36")
         
         driver = uc.Chrome(service=Service(ChromeDriverManager().install()), options=browser_options)
-        
+        driver.execute_cdp_cmd("Network.setCacheDisabled", {"cacheDisabled":True})
         driver.get("https://enka.shinshin.moe/u/"+ str(uid)) 
-        embed = Embed(title='Character Cards', description='This will take a while, check back this message in a min!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
-        embed.set_thumbnail(url=ctx.author.avatar.url)        
+        embed = Embed(title='Character Cards', description='This will take a while, check back this message in a min!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
+        embed.set_thumbnail(url=ctx.author.display_avatar.url)        
         msg = await ctx.send(embed=embed)  
         await sleep(20)     
         
@@ -949,8 +950,8 @@ class Information():
         '''   
         print('session id', driver.session_id, 'chars', len(avatars))
         if len(avatars) == 0:
-            embed = Embed(title='Character Cards', description='You dont have characters on showcase!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
-            embed.set_thumbnail(url=ctx.author.avatar.url)
+            embed = Embed(title='Character Cards', description='You dont have characters on showcase!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_thumbnail(url=ctx.author.display_avatar.url)
             if msg is not None:
                 await msg.edit(embed=embed)
             else:
@@ -958,8 +959,8 @@ class Information():
             return False
         '''
         if not exists(self.res_handler.path.format(path=f"images/cards/{uid}/")):
-                embed = Embed(title='Character Cards', description='Your character cards are being generated please check back in min!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
-                embed.set_thumbnail(url=ctx.author.avatar.url)
+                embed = Embed(title='Character Cards', description='Your character cards are being generated please check back in min!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_thumbnail(url=ctx.author.display_avatar.url)
                 if msg is not None:
                     await msg.edit(embed=embed)
                 else:
@@ -967,8 +968,8 @@ class Information():
         else:
             for f in [self.res_handler.path.format(path=f"images/cards/{uid}/{f}") for _ in listdir(self.res_handler.path.format(path=f"images/cards/{uid}/")) if isfile(self.res_handler.path.format(path=f"images/cards/{uid}/{f}")) and exists(self.res_handler.path.format(path=f"images/cards/{uid}/{f}"))]:
                 remove(f)
-            embed = Embed(title='Character Cards', description='Your character cards are being updated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
-            embed.set_thumbnail(url=ctx.author.avatar.url)
+            embed = Embed(title='Character Cards', description='Your character cards are being updated!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_thumbnail(url=ctx.author.display_avatar.url)
             if msg is not None:
                 await msg.edit(embed=embed)
             else:
@@ -980,15 +981,15 @@ class Information():
             await sleep(5)            
             url_ = driver.find_element(By.CLASS_NAME, 'name').text.lower()   
             if not exists(self.res_handler.path.format(path=f"images/cards/{uid}/")):
-                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
-                embed.set_thumbnail(url=ctx.author.avatar.url)
+                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
+                embed.set_thumbnail(url=ctx.author.display_avatar.url)
                 embed.set_footer(text=f"({avatars.index(avatar)+1}/ {len(avatars)})")
                 makedirs(self.res_handler.path.format(path=f"images/cards/{uid}/"))
             else:
-                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.avatar.url))
+                embed = Embed(title='Character Cards', description=f'Your character card for {url_} has been generated!', color=self.res_handler.get_color_from_image(ctx.author.display_avatar.url))
                 
                 embed.set_footer(text=f"({avatars.index(avatar)+1}/ {len(avatars)})")
-                embed.set_thumbnail(url=ctx.author.avatar.url)
+                embed.set_thumbnail(url=ctx.author.display_avatar.url)
             if msg is not None:
                 await msg.edit(embed=embed)
             else:
@@ -1032,18 +1033,18 @@ class Information():
                         desc = data['description']
                     embed = Embed(title=f"{title_.title()} stats", description=desc)
                     
-                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                    embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                     embed.set_image(url=f"{char}?timestamp={timestamp}")
                     embed.set_footer(text='image generated from enka.shinshin.moe')
                     embeds.append(embed)
             else:
                 embed = Embed(title=f"Card error", description='Your cards are not generated yet or you have not enabled showcase from game')
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                 embeds.append(embed)
         else:               
                 embed = Embed(title=f"Card error", description='Your cards are not generated yet or you have not enabled showcase from game')
                 
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
                 embeds.append(embed)
         return embeds
 

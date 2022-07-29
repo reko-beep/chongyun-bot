@@ -146,8 +146,8 @@ class Bookmarer:
     def create_bookmark_embed(self,member: Member, data: dict):
         
         desc = '*N/A*' if data['content'] == '' else '*'+data['content']+'*'
-        embed = Embed(title=f"Category - "+ data['category'], description=desc, color=self.resm.get_color_from_image(member.avatar.url))
-        embed.set_author(name=f"{member.display_name} - Bookmark #{data['index']}", icon_url=member.avatar.url)
+        embed = Embed(title=f"Category - "+ data['category'], description=desc, color=self.resm.get_color_from_image(member.display_avatar.url))
+        embed.set_author(name=f"{member.display_name} - Bookmark #{data['index']}", icon_url=member.display_avatar.url)
         if len(data['fields']) > 0:
             for f in data['fields']:
 

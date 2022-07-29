@@ -3,7 +3,7 @@ from os import listdir, remove
 from os.path import join, isfile, islink, getsize
 from pydoc import describe
 from warnings import warn
-from nextcord import Embed, Message, Member
+from nextcord import Embed, Message, Member, Thread
 from nextcord.ext.commands import Cog, Context
 from nextcord.ext import commands
 from asyncio import sleep
@@ -30,8 +30,8 @@ class AdminCog(Cog):
         no text channel in leaks
 
         '''
-
-        if message.channel.id == self.bot.b_config.get('leak_channel',-1):
+        thread_check = (isinstance(message.channel, Thread) and message.channel.parent_id == self.bot.b_config.get('leak_channel',-1))
+        if message.channel.id == self.bot.b_config.get('leak_channel',-1) or thread_check:
     
             checks = ('http' in message.content or 'https' in message.content or len(message.embeds) != 0 or len(message.attachments) != 0 or message.webhook_id or '>>' in message.content.lower())
             if checks: 
@@ -52,9 +52,9 @@ class AdminCog(Cog):
                         data = self.bot.admin.get_original_pixiv_image(link)
                         if data is not None:
                             file = data['file']
-                            embed = Embed(title=data['title'], description=f"by **{data['username']}**", url=link, color=self.resm.get_color_from_image(self.bot.user.avatar.url))
+                            embed = Embed(title=data['title'], description=f"by **{data['username']}**", url=link, color=self.resm.get_color_from_image(self.bot.user.display_avatar.url))
                             embed.set_image(url='attachment://image.png')
-                            embed.set_author(name=message.author.display_name, icon_url=message.author.avatar.url)
+                            embed.set_author(name=message.author.display_name, icon_url=message.author.display_avatar.url)
                             embed.set_footer(text='requested by '+str(message.author))
                             await message.channel.send(embed=embed, file=file)
                             await sleep(3)
@@ -71,12 +71,12 @@ class AdminCog(Cog):
             files = [join(path,f) for f in listdir(path) if isfile(join(path, f))]
             for f in files:
                 remove(f)
-            embed = Embed(title='All pixiv files removed!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='All pixiv files removed!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
         else:
-            embed = Embed(title='Pixiv Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='Pixiv Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)  
 
 
@@ -106,9 +106,9 @@ class AdminCog(Cog):
             view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
             await msg.edit(view=view)
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Danbooru error', description=f'Nothing found!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
         
@@ -122,12 +122,12 @@ class AdminCog(Cog):
             files = [join(path,f) for f in listdir(path) if isfile(join(path, f))]
             for f in files:
                 remove(f)
-            embed = Embed(title='All danbooru files removed!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='All danbooru files removed!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
         else:
-            embed = Embed(title='Danbooru  Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='Danbooru  Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)  
 
 
@@ -160,15 +160,15 @@ class AdminCog(Cog):
                 view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
                 await msg.edit(view=view)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
                 embed = Embed(title='Pixiv error', description=f'Nothing found!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Pixiv error', description=f'Nothing found!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
     
@@ -181,9 +181,9 @@ class AdminCog(Cog):
         
         
         if attachment == '':
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Saucenao error', description=f'No Image provided\n**either provide link to image or upload image with command*', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
         else:
@@ -194,9 +194,9 @@ class AdminCog(Cog):
                 view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
                 await msg.edit(view=view)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
                 embed = Embed(title='Saucenao error', description=f'Failed to get source', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
 
@@ -223,15 +223,15 @@ class AdminCog(Cog):
                 view = PaginatorList(user=ctx.author, message=msg, embeds=embeds, bot=self.bot)
                 await msg.edit(view=view)
             else:
-                color = self.resm.get_color_from_image(ctx.author.avatar.url)
+                color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
                 embed = Embed(title='Zerochan error', description=f'Nothing found!', color=color)
-                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+                embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
                 await ctx.send(embed=embed)
         else:
-            color = self.resm.get_color_from_image(ctx.author.avatar.url)
+            color = self.resm.get_color_from_image(ctx.author.display_avatar.url)
             embed = Embed(title='Zerochan error', description=f'Nothing found!', color=color)
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
 
             await ctx.send(embed=embed)
 
@@ -239,7 +239,7 @@ class AdminCog(Cog):
     async def on_member_join(self, member: Member):
         await self.bot.admin.member_role_check(member)
     
-    @nextcord.slash_command(name='af', guild_ids=[GUILD_IDS], description='Opens up a approval form')
+    @nextcord.slash_command(guild_ids=[GUILD_IDS], description='Opens up a approval form')
     async def approvalform(self, interaction : nextcord.Interaction):
         await interaction.response.send_modal(ApproveForm(self.bot, interaction.user))
 
@@ -247,13 +247,18 @@ class AdminCog(Cog):
     async def approvemember(self, ctx, member: Member):
         check = await self.bot.admin.approve_member(ctx, member)
         if check is True:
-            embed = Embed(title='Member approved', color=self.bot.resource_manager.get_color_from_image(member.avatar.url))
-            embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+            embed = Embed(title='Member approved', color=self.bot.resource_manager.get_color_from_image(member.display_avatar.url))
+            embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
             await ctx.send(embed=embed)
-        else:
-            embed = Embed(title='Member Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+        if check is None:
+            embed = Embed(title='Member Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
+        if check is False:
+            embed = Embed(title='Member Error',description='Member is already approved!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
+            await ctx.send(embed=embed)
+
 
     @commands.command(description='toggles scrutiny')
     async def scrutiny(self, ctx):
@@ -263,13 +268,13 @@ class AdminCog(Cog):
             self.bot.admin.scrutiny = not self.bot.admin.scrutiny
             self.bot.b_config['scrutiny'] = self.bot.admin.scrutiny
             self.bot.save_config()
-            embed = Embed(title='Scrutiny', color=self.bot.resource_manager.get_color_from_image(member.avatar.url))
+            embed = Embed(title='Scrutiny', color=self.bot.resource_manager.get_color_from_image(member.display_avatar.url))
             embed.add_field(name='Status', value=str(self.bot.admin.scrutiny))
-            embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+            embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
             await ctx.send(embed=embed)
         else:
-            embed = Embed(title='Scrutiny Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='Scrutiny Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
 
     @commands.command(aliases=['ac'])
@@ -281,8 +286,8 @@ class AdminCog(Cog):
             await ctx.send(embed=embed, file=file)
         else:
             
-            embed = Embed(title='Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.avatar.url))
-            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar.url)
+            embed = Embed(title='Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(ctx.author.display_avatar.url))
+            embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
             await ctx.send(embed=embed)
 def setup(bot):
     bot.add_cog(AdminCog(bot))

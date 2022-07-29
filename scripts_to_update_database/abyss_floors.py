@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 from os import getcwd, mkdir
 from os.path import exists
-
+import textwrap
 
 from base.resource_manager import ResourceManager
 
@@ -14,8 +14,8 @@ font = ImageFont.truetype(getcwd()+'/assets/misc/font.otf', 25)
 
 rm = ResourceManager()
 
-IMAGES_PATH = rm.genpath('images/abyss')
-DATA_PATH = rm.genpath('data')
+IMAGES_PATH = rm.genpath('images/abyss', '')
+DATA_PATH = rm.genpath('data', '')
 
 def last_abyss_rotation():
 
@@ -160,6 +160,31 @@ def get_url_image(image_url):
     with get(image_url) as f:
         return Image.open(BytesIO(f.content)).convert("RGBA")
 
+def add_corners(im, rad):
+    circle = Image.new('L', (rad * 2, rad * 2), 0)
+    draw = ImageDraw.Draw(circle)
+    draw.ellipse((0, 0, rad * 2, rad * 2), fill=255)
+    alpha = Image.new('L', im.size, 255)
+    w, h = im.size
+    alpha.paste(circle.crop((0, 0, rad, rad)), (0, 0))
+    alpha.paste(circle.crop((0, rad, rad, rad * 2)), (0, h - rad))
+    alpha.paste(circle.crop((rad, 0, rad * 2, rad)), (w - rad, 0))
+    alpha.paste(circle.crop((rad, rad, rad * 2, rad * 2)), (w - rad, h - rad))
+    im.putalpha(alpha)
+    return im
+
+def get_text(text):
+
+    wrapper = textwrap.TextWrapper(width=250) 
+    word_list = wrapper.wrap(text=text) 
+    caption_new = ''
+    for ii in word_list[:-1]:
+        caption_new = caption_new + ii + '\n'
+    caption_new += word_list[-1]
+
+    return caption_new
+
+
 def create_abyss_image(images_list, text_list):
     max_images_width = 4
     max_rows = 3
@@ -172,9 +197,10 @@ def create_abyss_image(images_list, text_list):
     fixed_count = 0
     for i_count in range(1, len(images_list)+1, 1):
 
-        img = get_url_image(images_list[i_count-1])
+        img_ = get_url_image(images_list[i_count-1])
+        img = add_corners(img_, 125)
         new.paste(img , (start_x+ (((i_count-1)- (row_count*max_images_width))*550 + 30), (start_y + (row_count*300))), img)
-        ImageDraw.Draw(new).text(((((i_count-1)- (row_count*max_images_width))*560 + 30), (start_y + (row_count*300)+ 258)),text_list[i_count-1], font=font, fill=(255,255,255))
+        ImageDraw.Draw(new).text(((((i_count-1)- (row_count*max_images_width))*560 +50), (start_y + (row_count*300)+ 258)),get_text(text_list[i_count-1]), font=font, fill=(255,255,255))
         if i_count >= max_images_width*(row_count+1):
             row_count += 1
 
@@ -214,5 +240,5 @@ def create_abyss_images():
                     print('created image', path.format(floor=floor,chamber=chamber_key.format(number=i).replace(" ","_",99).lower(),half='second_half'))
 
 
-get_abyss_content()
+
 create_abyss_images()

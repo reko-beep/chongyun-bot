@@ -153,7 +153,7 @@ class Reminder:
                     dm = await self.member.create_dm()
                 
                 embed = Embed(title='Resin Reminder', description=f"Region: **{self.region.upper()}**\nYour resin has been capped")
-                embed.set_author(name=self.member.name, icon_url=self.member.avatar.url)
+                embed.set_author(name=self.member.name, icon_url=self.member.display_avatar.url)
                 try:
                     await dm.send(embed=embed)
                 except HTTPException or Forbidden:
@@ -174,7 +174,7 @@ class Reminder:
                     dm = await self.member.create_dm()
                 
                 embed = Embed(title='Commission Reminder', description=f'Region: **{self.region.upper()}**\nYou have {self.status} left to do ur commissions')
-                embed.set_author(name=self.member.name, icon_url=self.member.avatar.url)
+                embed.set_author(name=self.member.name, icon_url=self.member.display_avatar.url)
 
                 try:
                     await dm.send(embed=embed)
@@ -290,9 +290,9 @@ class Reminder:
             desc = f"Region: {self.region.upper()}\nResin: {self.current_value}\nTime left to fill up **{self.reset_time}**"
         else:
             desc = f"Region: {self.region.upper()}\nTime left to do commissions: **{self.reset_time}**"
-        embed = Embed(title=f'{self.type.title()} reminder', description=f"{desc}", color=self.bot.resource_manager.get_color_from_image(self.member.avatar.url))
-        embed.set_author(name=self.member.display_name, icon_url=self.member.avatar.url)
-        embed.set_thumbnail(url=self.member.avatar.url)
+        embed = Embed(title=f'{self.type.title()} reminder', description=f"{desc}", color=self.bot.resource_manager.get_color_from_image(self.member.display_avatar.url))
+        embed.set_author(name=self.member.display_name, icon_url=self.member.display_avatar.url)
+        embed.set_thumbnail(url=self.member.display_avatar.url)
         if self.type == 'comms':
             embed.set_footer(text=f"Commission reminder ({self.com_counter}/{self.com_max})")
         return embed

@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 from bs4 import BeautifulSoup
 import requests
-
+import typing
 from saucenao_api import SauceNao
 class Administrator:
     def __init__(self, bot):
@@ -22,11 +22,14 @@ class Administrator:
         self.saucenao = SauceNao('41c00808668a6fd17a551801c087cdf4d6e3b3bf')
     
 
-    def check_admin(self, ctx: Context):
-        if ctx.author.id == self.bot.b_config.get('owner_bot'):
+    def check_admin(self, approving_member: typing.Union[Member, Context]):
+        member = approving_member
+        if isinstance(approving_member, Context):
+            member = approving_member.author         
+        if member.id == self.bot.b_config.get('owner_bot'):
             return True
         else:
-            r = [i.id for i in ctx.author.roles]
+            r = [i.id for i in member.roles]
             return len(set(r).intersection(self.bot.b_config.get("admin_roles"))) != 0
 
     def load_roles_channels(self, guild):
@@ -42,8 +45,8 @@ class Administrator:
 
     async def send_approve_message(self, member:Member):
 
-        embed = Embed(title='Please answer these questions!', description='1. Where are you from?\n2.Where did you get the invite from?\n\n*our mods will approve as soon as possible*\n\n**Gender roles are not self assignable\n contact mods if you want em**\n', color=self.bot.resource_manager.get_color_from_image(member.avatar.url))
-        embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+        embed = Embed(title='Please answer these questions!', description='1. Where are you from?\n2.Where did you get the invite from?\n\n*our mods will approve as soon as possible*\n> You can alsuse use /approvalform slash command to fill the form\n\n**Gender roles are not self assignable\n contact mods if you want them**\n', color=self.bot.resource_manager.get_color_from_image(member.display_avatar.url))
+        embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
         if self.approve_channel is not None:
             await self.approve_channel.send(member.mention, embed=embed)
 
@@ -53,8 +56,11 @@ class Administrator:
         if self.check_admin(ctx):
             if self.member_role is None:
                 self.member_role = ctx.guild.get_role(self.bot.b_config.get("member_role"))
-            await member.edit(roles=[self.member_role])
-            return True
+            if self.member_role not in member.roles:
+                await member.edit(roles=[self.member_role])
+                return True
+            else:
+                return False
 
     async def member_role_check(self, member: Member):
         print(self.scrutiny)
@@ -178,8 +184,8 @@ class Administrator:
     def create_code_embed(self, code:str):
 
         embed = Embed(title='Announcement', description=f'\n\n**CODE:**\n```css\n{code.upper()}\n```', color=0x196a87)
-        embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.avatar.url)
-        embed.set_thumbnail(url=self.bot.user.avatar.url)
+        embed.set_author(name=self.bot.user.display_name, icon_url=self.bot.user.display_avatar.url)
+        embed.set_thumbnail(url=self.bot.user.display_avatar.url)
         embed.add_field(name='Link for redeeming code', value=f'https://genshin.hoyoverse.com/en/gift?code={code.upper()}')
         embed.set_image(url='attachment://code.png')
         file = File(self.create_code_image(code.upper()), filename='code.png')
@@ -217,9 +223,9 @@ class Administrator:
         for link in links:
             if len(link.split('/')[-1].split('.')) > 3:
                 link_ = f"https://zerochan.net/"+link.split('/')[-1].split('.')[-2]
-                embed = Embed(title=f'{title_.title()} images', description=f"[Source Link]({link_})", color=self.bot.resource_manager.get_color_from_image(member.avatar.url))
+                embed = Embed(title=f'{title_.title()} images', description=f"[Source Link]({link_})", color=self.bot.resource_manager.get_color_from_image(member.display_avatar.url))
                 embed.set_image(url=link)
-                embed.set_author(name=member.display_name, icon_url=member.avatar.url)
+                embed.set_author(name=member.display_name, icon_url=member.display_avatar.url)
 
                 embed.set_footer(text=f"{title_.title()} - search results")
                 embeds.append(embed)
@@ -323,7 +329,7 @@ class Administrator:
         embeds = []
         if data is not None:
             if len(data) > 0:
-                color = self.bot.resource_manager.get_color_from_image(member.avatar.url)
+                color = self.bot.resource_manager.get_color_from_image(member.display_avatar.url)
                 for img in data:
                     if '/posts/' in search or '/post/' in search and 'danbooru.donmai.us' in search and 'http' in search:
                         
@@ -331,7 +337,7 @@ class Administrator:
                     else:
 
                         embed = Embed(title=f'{search.title()} Danbooru Image', url=img['src'],  color=color)
-                    embed.set_author(name=member.name, icon_url=member.avatar.url)
+                    embed.set_author(name=member.name, icon_url=member.display_avatar.url)
                     img_link = self.bot.resource_manager.site.replace('/assets',f"/danbooru/{img['img']}",1)
                     id_ = img['src'].split('/')[-1][:img['src'].split('/')[-1].find('?')]
 
@@ -358,10 +364,10 @@ class Administrator:
 
         print('ids', ids)
         embeds = []
-        color = self.bot.resource_manager.get_color_from_image(member.avatar.url)
+        color = self.bot.resource_manager.get_color_from_image(member.display_avatar.url)
         for id in ids:            
             embed = Embed(title=f'Danbooru Image', color=color)
-            embed.set_author(name=member.name, icon_url=member.avatar.url)
+            embed.set_author(name=member.name, icon_url=member.display_avatar.url)
             img_link = self.bot.resource_manager.site.replace('/assets',f"/danbooru/{id}",1)
             print(img_link)
             embed.set_image(url=img_link)

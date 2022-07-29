@@ -412,12 +412,43 @@ class ApproveForm(Modal):
         self.add_item(self.invite_where)
 
     async def callback(self, interaction: Interaction):
-        embed = Embed(title=f'{self.user.display_name} Approval form', color=self.bot.resource_manager.get_color_from_image(self.user.avatar.url))
-        embed.set_author(name=self.user.display_name, icon_url=self.user.avatar.url)
+        embed = Embed(title=f'Approval form', color=self.bot.resource_manager.get_color_from_image(self.user.display_avatar.url))
+        embed.set_author(name=self.user.display_name, icon_url=self.user.display_avatar.url)
         w_t = 'N/A' if self.from_where.value is None else self.from_where.value
-        embed.add_field(name=f"{self.user.display_name} is from", value=w_t)
+        embed.add_field(name=f"{self.user.display_name.title()} is from", value=w_t, inline=False)
         i_t = 'N/A' if self.invite_where.value is None else self.invite_where.value
-        embed.add_field(name=f"{self.user.display_name} got the invite from", value=i_t)
+        embed.add_field(name=f"{self.user.display_name.title()} got the invite from", value=i_t, inline=False)
 
-        await interaction.response.send_message(embed=embed)
+        await interaction.response.send_message(embed=embed, view=ApprovalView(self.bot, self.user))
 
+
+class ApprovalView(View):
+    def __init__(self, bot : DevBot, user: Member):
+        super().__init__(timeout=None)
+        self.bot = bot
+        self.user = user
+
+    @button(label='Approve',style=ButtonStyle.green, emoji='✔️')
+    async def claim(self, button: Button,interaction: Interaction):
+        if self.bot.admin.check_admin(interaction.user):
+            print(self.user)
+            check = await self.bot.admin.approve_member(interaction.user, self.user)
+            print('Form', check)
+            self.disable_all()
+            if check is True:
+                embed = Embed(title='Member approved', color=self.bot.resource_manager.get_color_from_image(self.user.display_avatar.url))
+                embed.set_author(name=self.user.display_name, icon_url=self.user.display_avatar.url)
+                await interaction.response.send_message(embed=embed)
+            if check is None:
+                embed = Embed(title='Member Error',description='Not enough perms!', color=self.bot.resource_manager.get_color_from_image(self.user.display_avatar.url))
+                embed.set_author(name=self.user.display_name, icon_url=self.user.display_avatar.url)
+                await interaction.response.send_message(embed=embed)
+            if check is False:
+                embed = Embed(title='Member Error',description='Member is already approved!', color=self.bot.resource_manager.get_color_from_image(self.user.display_avatar.url))
+                embed.set_author(name=self.user.display_name, icon_url=self.user.display_avatar.url)
+                await interaction.response.send_message(embed=embed)
+
+    def disable_all(self):
+        for i in self.children:
+            if hasattr(i, 'disabled'):
+                i.disabled = True

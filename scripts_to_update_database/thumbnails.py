@@ -6,8 +6,8 @@ from base.resource_manager import ResourceManager
 
 rm = ResourceManager()
 
-DATA_PATH = rm.genpath('data')
-IMAGES_PATH = rm.genpath('images/thumbnails')
+DATA_PATH = rm.genpath('data', '')
+IMAGES_PATH = rm.genpath('images/thumbnails', '')
 
 def find_image(img):
     if img.attrs['src'].startswith('http'):

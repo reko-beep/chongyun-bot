@@ -27,9 +27,10 @@ def get_character_folder(character_name: str):
     if 'traveler' in character_name:
         return BASE_PATH+'traveler'
     print(character_name)
-    character = rm.search(character_name, character_names)
+    character = rm.search(character_name, character_names, False)
 
     folders = [folder for folder in listdir(BASE_PATH) if isdir(BASE_PATH+folder)]
+    print(character, folders)
     checker =  rm.search(character, folders)
     if checker is not None:
         return BASE_PATH+checker
